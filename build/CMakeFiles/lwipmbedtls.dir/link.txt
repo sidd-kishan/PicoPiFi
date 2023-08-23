@@ -1,0 +1,2 @@
+/usr/bin/arm-none-eabi-ar qc liblwipmbedtls.a CMakeFiles/lwipmbedtls.dir/lwip/src/apps/altcp_tls/altcp_tls_mbedtls.c.obj CMakeFiles/lwipmbedtls.dir/lwip/src/apps/altcp_tls/altcp_tls_mbedtls_mem.c.obj CMakeFiles/lwipmbedtls.dir/lwip/src/apps/snmp/snmpv3_mbedtls.c.obj
+/usr/bin/arm-none-eabi-ranlib liblwipmbedtls.a
