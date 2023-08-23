@@ -20,6 +20,8 @@ If not, compile [CMake from source](https://cmake.org/download/#latest) first.
 git clone --depth 1 https://github.com/sidd-kishan/pico-webserver
 cd pico-webserver
 git submodule update --init
+cd pico-sdk
+git submodule update --init
 mkdir -p build
 cd build
 cmake ..
