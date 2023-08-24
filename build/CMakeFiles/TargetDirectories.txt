@@ -139,8 +139,12 @@
 /mnt/f/pico-webserver/build/pico-sdk/src/rp2_common/pico_async_context/CMakeFiles/rebuild_cache.dir
 /mnt/f/pico-webserver/build/pico-sdk/src/rp2_common/pico_btstack/CMakeFiles/edit_cache.dir
 /mnt/f/pico-webserver/build/pico-sdk/src/rp2_common/pico_btstack/CMakeFiles/rebuild_cache.dir
+/mnt/f/pico-webserver/build/pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/PioasmBuild.dir
+/mnt/f/pico-webserver/build/pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir
 /mnt/f/pico-webserver/build/pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/edit_cache.dir
 /mnt/f/pico-webserver/build/pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/rebuild_cache.dir
+/mnt/f/pico-webserver/build/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/CMakeFiles/edit_cache.dir
+/mnt/f/pico-webserver/build/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/CMakeFiles/rebuild_cache.dir
 /mnt/f/pico-webserver/build/pico-sdk/src/rp2_common/pico_lwip/CMakeFiles/edit_cache.dir
 /mnt/f/pico-webserver/build/pico-sdk/src/rp2_common/pico_lwip/CMakeFiles/rebuild_cache.dir
 /mnt/f/pico-webserver/build/pico-sdk/src/rp2_common/pico_cyw43_arch/CMakeFiles/edit_cache.dir

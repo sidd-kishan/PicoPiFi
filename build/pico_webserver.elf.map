@@ -1277,9 +1277,9 @@ Discarded input sections
  .bss           0x0000000000000000        0x0 liblwipcore.a(inet_chksum.c.obj)
  .text          0x0000000000000000        0x0 liblwipcore.a(ip.c.obj)
  .data          0x0000000000000000        0x0 liblwipcore.a(ip.c.obj)
- .text          0x0000000000000000        0x0 /tmp/ccgiqTrj.o
- .data          0x0000000000000000        0x0 /tmp/ccgiqTrj.o
- .bss           0x0000000000000000        0x0 /tmp/ccgiqTrj.o
+ .text          0x0000000000000000        0x0 /tmp/cc5F0L6d.o
+ .data          0x0000000000000000        0x0 /tmp/cc5F0L6d.o
+ .bss           0x0000000000000000        0x0 /tmp/cc5F0L6d.o
  .data          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .bss           0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .text          0x0000000000000000       0x10 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-atexit.o)
@@ -1538,11 +1538,11 @@ LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nof
 .boot2          0x0000000010000000      0x100
                 0x0000000010000000                __boot2_start__ = .
  *(.boot2)
- .boot2         0x0000000010000000      0x100 /tmp/ccgiqTrj.o
+ .boot2         0x0000000010000000      0x100 /tmp/cc5F0L6d.o
                 0x0000000010000100                __boot2_end__ = .
                 0x0000000000000001                ASSERT (((__boot2_end__ - __boot2_start__) == 0x100), ERROR: Pico second stage bootloader must be 256 bytes in size)
 
-.text           0x0000000010000100     0xeff8
+.text           0x0000000010000100     0xfee0
                 0x0000000010000100                __logical_binary_start = .
  *(.vectors)
  .vectors       0x0000000010000100       0xd4 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
@@ -2039,209 +2039,208 @@ LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nof
                 0x00000000100055e4                memp_malloc
                 0x0000000010005630                memp_free_pool
                 0x0000000010005658                memp_free
- .text          0x0000000010005688      0x4e0 liblwipcore.a(netif.c.obj)
+ .text          0x0000000010005688      0x490 liblwipcore.a(netif.c.obj)
                 0x0000000010005690                netif_init
                 0x0000000010005694                netif_input
-                0x00000000100056ac                netif_add_noaddr
-                0x0000000010005738                netif_add
-                0x0000000010005804                netif_set_ipaddr
-                0x0000000010005860                netif_set_netmask
-                0x000000001000587c                netif_set_gw
-                0x0000000010005898                netif_set_addr
-                0x0000000010005964                netif_remove
-                0x00000000100059b8                netif_set_default
-                0x00000000100059c4                netif_set_up
-                0x00000000100059fc                netif_set_down
-                0x0000000010005a20                netif_set_link_up
-                0x0000000010005a58                netif_set_link_down
-                0x0000000010005a6c                netif_name_to_index
-                0x0000000010005ab8                netif_index_to_name
-                0x0000000010005af8                netif_get_by_index
-                0x0000000010005b20                netif_find
- .text          0x0000000010005b68      0xb20 liblwipcore.a(pbuf.c.obj)
-                0x0000000010005be8                pbuf_free_ooseq
-                0x0000000010005c1c                pbuf_alloc
-                0x0000000010005d48                pbuf_alloc_reference
-                0x0000000010005d70                pbuf_alloced_custom
-                0x0000000010005da8                pbuf_realloc
-                0x0000000010005e18                pbuf_add_header
-                0x0000000010005e64                pbuf_add_header_force
-                0x0000000010005eb0                pbuf_remove_header
-                0x0000000010005ee8                pbuf_header
-                0x0000000010005f54                pbuf_header_force
-                0x0000000010005fc0                pbuf_free_header
-                0x0000000010006004                pbuf_free
-                0x0000000010006014                pbuf_clen
-                0x0000000010006028                pbuf_ref
-                0x0000000010006040                pbuf_cat
-                0x000000001000606c                pbuf_chain
-                0x00000000100060b0                pbuf_dechain
-                0x00000000100060d8                pbuf_copy_partial_pbuf
-                0x00000000100061f4                pbuf_copy
-                0x000000001000620c                pbuf_copy_partial
-                0x000000001000627c                pbuf_get_contiguous
-                0x000000001000631c                pbuf_skip
-                0x0000000010006340                pbuf_take
-                0x0000000010006394                pbuf_take_at
-                0x0000000010006430                pbuf_coalesce
-                0x00000000100064a4                pbuf_clone
-                0x00000000100064c4                pbuf_get_at
-                0x00000000100064e4                pbuf_try_get_at
-                0x000000001000650c                pbuf_put_at
-                0x0000000010006528                pbuf_memcmp
-                0x000000001000659c                pbuf_memfind
-                0x0000000010006648                pbuf_strstr
- .text          0x0000000010006688        0x4 liblwipcore.a(stats.c.obj)
-                0x0000000010006688                stats_init
- .text          0x000000001000668c     0x18b4 liblwipcore.a(tcp.c.obj)
-                0x000000001000679c                tcp_init
-                0x00000000100067a0                tcp_free
-                0x00000000100067ac                tcp_bind
-                0x00000000100068a4                tcp_bind_netif
-                0x00000000100068b8                tcp_listen_with_backlog
-                0x000000001000693c                tcp_listen_with_backlog_and_err
-                0x00000000100069dc                tcp_update_rcv_ann_wnd
-                0x0000000010006a18                tcp_recved
-                0x0000000010006a90                tcp_connect
-                0x0000000010006c24                tcp_slowtmr
-                0x0000000010007024                tcp_txnow
-                0x0000000010007050                tcp_segs_free
-                0x0000000010007088                tcp_seg_free
-                0x00000000100070a4                tcp_setprio
-                0x00000000100070ac                tcp_seg_copy
-                0x00000000100070cc                tcp_arg
-                0x00000000100070d4                tcp_recv
-                0x00000000100070e0                tcp_sent
-                0x00000000100070ec                tcp_err
-                0x00000000100070f8                tcp_accept
-                0x0000000010007108                tcp_poll
-                0x0000000010007114                tcp_pcb_purge
-                0x000000001000712c                tcp_pcb_remove
-                0x00000000100071a4                tcp_abandon
-                0x0000000010007320                tcp_abort
-                0x000000001000733c                tcp_alloc
-                0x0000000010007524                tcp_new
-                0x00000000100076ec                tcp_new_ip_type
-                0x00000000100079f4                tcp_shutdown
-                0x0000000010007a54                tcp_recv_null
-                0x0000000010007afc                tcp_process_refused_data
-                0x0000000010007be4                tcp_fasttmr
-                0x0000000010007c68                tcp_tmr
-                0x0000000010007c88                tcp_close
-                0x0000000010007de8                tcp_next_iss
-                0x0000000010007e00                tcp_eff_send_mss_netif
-                0x0000000010007e28                tcp_netif_ip_addr_changed
-                0x0000000010007eb8                tcp_debug_state_str
-                0x0000000010007ec8                tcp_tcp_get_tcp_addrinfo
-                0x0000000010007f00                tcp_free_ooseq
- .text          0x0000000010007f40     0x1758 liblwipcore.a(tcp_in.c.obj)
-                0x0000000010008b00                tcp_input
-                0x0000000010009684                tcp_trigger_input_pcb_close
- .text          0x0000000010009698     0x15bc liblwipcore.a(tcp_out.c.obj)
-                0x000000001000981c                tcp_write
-                0x0000000010009e1c                tcp_split_unsent_seg
-                0x0000000010009fb8                tcp_send_fin
-                0x000000001000a098                tcp_enqueue_flags
-                0x000000001000a140                tcp_rexmit_rto_prepare
-                0x000000001000a1cc                tcp_rexmit
-                0x000000001000a25c                tcp_rexmit_fast
-                0x000000001000a2b4                tcp_rst
-                0x000000001000a370                tcp_rst_netif
-                0x000000001000a46c                tcp_send_empty_ack
-                0x000000001000a548                tcp_output
-                0x000000001000a958                tcp_rexmit_rto_commit
-                0x000000001000a96c                tcp_rexmit_rto
-                0x000000001000aa04                tcp_keepalive
-                0x000000001000aac8                tcp_zero_window_probe
- .text          0x000000001000ac54      0x320 liblwipcore.a(timeouts.c.obj)
-                0x000000001000ad54                tcp_timer_needed
-                0x000000001000adc8                sys_timeouts_init
-                0x000000001000ae40                sys_timeout
-                0x000000001000ae84                sys_untimeout
-                0x000000001000aec4                sys_check_timeouts
-                0x000000001000af1c                sys_restart_timeouts
-                0x000000001000af4c                sys_timeouts_sleeptime
- .text          0x000000001000af74      0x6f0 liblwipcore.a(udp.c.obj)
-                0x000000001000af74                udp_init
-                0x000000001000af78                udp_input
-                0x000000001000b1ac                udp_bind
-                0x000000001000b2b8                udp_sendto_if_src
-                0x000000001000b3d8                udp_sendto_if
-                0x000000001000b420                udp_sendto
-                0x000000001000b49c                udp_send
-                0x000000001000b514                udp_bind_netif
-                0x000000001000b528                udp_connect
-                0x000000001000b58c                udp_disconnect
-                0x000000001000b5a4                udp_recv
-                0x000000001000b5b0                udp_remove
-                0x000000001000b5ec                udp_new
-                0x000000001000b608                udp_new_ip_type
-                0x000000001000b624                udp_netif_ip_addr_changed
- .text          0x000000001000b664     0x1a7c liblwipcore.a(etharp.c.obj)
-                0x000000001000c7cc                etharp_tmr
-                0x000000001000c870                etharp_add_static_entry
-                0x000000001000c918                etharp_remove_static_entry
-                0x000000001000c960                etharp_cleanup_netif
-                0x000000001000cae8                etharp_find_addr
-                0x000000001000cb24                etharp_get_entry
-                0x000000001000cb58                etharp_input
-                0x000000001000ccf8                etharp_query
-                0x000000001000ce7c                etharp_output
-                0x000000001000d024                etharp_request
- .text          0x000000001000d0e0      0x350 liblwipcore.a(icmp.c.obj)
-                0x000000001000d0e0                icmp_input
-                0x000000001000d2b8                icmp_dest_unreach
-                0x000000001000d374                icmp_time_exceeded
- .text          0x000000001000d430      0x8d0 liblwipcore.a(ip4_frag.c.obj)
-                0x000000001000d5d8                ip_reass_tmr
-                0x000000001000d610                ip4_reass
-                0x000000001000db18                ip4_frag
- .text          0x000000001000dd00      0x6d8 liblwipcore.a(ip4.c.obj)
-                0x000000001000dd00                ip4_route
-                0x000000001000dd3c                ip4_input
-                0x000000001000df84                ip4_output_if
-                0x000000001000e100                ip4_output_if_src
-                0x000000001000e258                ip4_output
- .text          0x000000001000e3d8      0x3bc liblwipcore.a(ip4_addr.c.obj)
-                0x000000001000e3d8                ip4_addr_isbroadcast_u32
-                0x000000001000e414                ip4_addr_netmask_valid
-                0x000000001000e444                ip4addr_aton
-                0x000000001000e5c4                ipaddr_addr
-                0x000000001000e5e0                ip4addr_ntoa
-                0x000000001000e6bc                ip4addr_ntoa_r
- .text          0x000000001000e794      0x134 liblwipcore.a(ethernet.c.obj)
-                0x000000001000e794                ethernet_input
-                0x000000001000e864                ethernet_output
- .text          0x000000001000e8c8      0x334 liblwipcore.a(inet_chksum.c.obj)
-                0x000000001000e8c8                lwip_standard_chksum
-                0x000000001000e948                inet_chksum_pseudo
-                0x000000001000e9fc                ip_chksum_pseudo
-                0x000000001000ea0c                inet_chksum_pseudo_partial
-                0x000000001000eaf0                ip_chksum_pseudo_partial
-                0x000000001000eb04                inet_chksum
-                0x000000001000eb90                inet_chksum_pbuf
- .text          0x000000001000ebfc       0x18 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-atoi.o)
-                0x000000001000ebfc                atoi
-                0x000000001000ec08                _atoi_r
- .text          0x000000001000ec14       0xc0 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-strchr.o)
-                0x000000001000ec14                strchr
- .text          0x000000001000ecd4       0x88 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-strcmp.o)
-                0x000000001000ecd4                strcmp
- .text          0x000000001000ed5c       0x5c /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-strlen-stub.o)
-                0x000000001000ed5c                strlen
- .text          0x000000001000edb8       0x74 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-strncmp.o)
-                0x000000001000edb8                strncmp
- .text          0x000000001000ee2c      0x1b8 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-strtol.o)
-                0x000000001000ef70                _strtol_r
-                0x000000001000ef8c                strtol_l
-                0x000000001000efb8                strtol
- .text          0x000000001000efe4        0xc /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-errno.o)
-                0x000000001000efe4                __errno
+                0x00000000100056ac                netif_set_ipaddr
+                0x0000000010005708                netif_set_netmask
+                0x0000000010005724                netif_set_gw
+                0x0000000010005740                netif_set_addr
+                0x000000001000580c                netif_add
+                0x00000000100058bc                netif_add_noaddr
+                0x00000000100058d4                netif_remove
+                0x000000001000594c                netif_set_default
+                0x0000000010005958                netif_set_up
+                0x0000000010005990                netif_set_down
+                0x00000000100059b4                netif_set_link_up
+                0x00000000100059ec                netif_set_link_down
+                0x0000000010005a00                netif_name_to_index
+                0x0000000010005a54                netif_index_to_name
+                0x0000000010005a9c                netif_get_by_index
+                0x0000000010005ac8                netif_find
+ .text          0x0000000010005b18      0xb20 liblwipcore.a(pbuf.c.obj)
+                0x0000000010005b98                pbuf_free_ooseq
+                0x0000000010005bcc                pbuf_alloc
+                0x0000000010005cf8                pbuf_alloc_reference
+                0x0000000010005d20                pbuf_alloced_custom
+                0x0000000010005d58                pbuf_realloc
+                0x0000000010005dc8                pbuf_add_header
+                0x0000000010005e14                pbuf_add_header_force
+                0x0000000010005e60                pbuf_remove_header
+                0x0000000010005e98                pbuf_header
+                0x0000000010005f04                pbuf_header_force
+                0x0000000010005f70                pbuf_free_header
+                0x0000000010005fb4                pbuf_free
+                0x0000000010005fc4                pbuf_clen
+                0x0000000010005fd8                pbuf_ref
+                0x0000000010005ff0                pbuf_cat
+                0x000000001000601c                pbuf_chain
+                0x0000000010006060                pbuf_dechain
+                0x0000000010006088                pbuf_copy_partial_pbuf
+                0x00000000100061a4                pbuf_copy
+                0x00000000100061bc                pbuf_copy_partial
+                0x000000001000622c                pbuf_get_contiguous
+                0x00000000100062cc                pbuf_skip
+                0x00000000100062f0                pbuf_take
+                0x0000000010006344                pbuf_take_at
+                0x00000000100063e0                pbuf_coalesce
+                0x0000000010006454                pbuf_clone
+                0x0000000010006474                pbuf_get_at
+                0x0000000010006494                pbuf_try_get_at
+                0x00000000100064bc                pbuf_put_at
+                0x00000000100064d8                pbuf_memcmp
+                0x000000001000654c                pbuf_memfind
+                0x00000000100065f8                pbuf_strstr
+ .text          0x0000000010006638        0x4 liblwipcore.a(stats.c.obj)
+                0x0000000010006638                stats_init
+ .text          0x000000001000663c     0x18b4 liblwipcore.a(tcp.c.obj)
+                0x000000001000674c                tcp_init
+                0x0000000010006750                tcp_free
+                0x000000001000675c                tcp_bind
+                0x0000000010006854                tcp_bind_netif
+                0x0000000010006868                tcp_listen_with_backlog
+                0x00000000100068ec                tcp_listen_with_backlog_and_err
+                0x000000001000698c                tcp_update_rcv_ann_wnd
+                0x00000000100069c8                tcp_recved
+                0x0000000010006a40                tcp_connect
+                0x0000000010006bd4                tcp_slowtmr
+                0x0000000010006fd4                tcp_txnow
+                0x0000000010007000                tcp_segs_free
+                0x0000000010007038                tcp_seg_free
+                0x0000000010007054                tcp_setprio
+                0x000000001000705c                tcp_seg_copy
+                0x000000001000707c                tcp_arg
+                0x0000000010007084                tcp_recv
+                0x0000000010007090                tcp_sent
+                0x000000001000709c                tcp_err
+                0x00000000100070a8                tcp_accept
+                0x00000000100070b8                tcp_poll
+                0x00000000100070c4                tcp_pcb_purge
+                0x00000000100070dc                tcp_pcb_remove
+                0x0000000010007154                tcp_abandon
+                0x00000000100072d0                tcp_abort
+                0x00000000100072ec                tcp_alloc
+                0x00000000100074d4                tcp_new
+                0x000000001000769c                tcp_new_ip_type
+                0x00000000100079a4                tcp_shutdown
+                0x0000000010007a04                tcp_recv_null
+                0x0000000010007aac                tcp_process_refused_data
+                0x0000000010007b94                tcp_fasttmr
+                0x0000000010007c18                tcp_tmr
+                0x0000000010007c38                tcp_close
+                0x0000000010007d98                tcp_next_iss
+                0x0000000010007db0                tcp_eff_send_mss_netif
+                0x0000000010007dd8                tcp_netif_ip_addr_changed
+                0x0000000010007e68                tcp_debug_state_str
+                0x0000000010007e78                tcp_tcp_get_tcp_addrinfo
+                0x0000000010007eb0                tcp_free_ooseq
+ .text          0x0000000010007ef0     0x1758 liblwipcore.a(tcp_in.c.obj)
+                0x0000000010008ab0                tcp_input
+                0x0000000010009634                tcp_trigger_input_pcb_close
+ .text          0x0000000010009648     0x15bc liblwipcore.a(tcp_out.c.obj)
+                0x00000000100097cc                tcp_write
+                0x0000000010009dcc                tcp_split_unsent_seg
+                0x0000000010009f68                tcp_send_fin
+                0x000000001000a048                tcp_enqueue_flags
+                0x000000001000a0f0                tcp_rexmit_rto_prepare
+                0x000000001000a17c                tcp_rexmit
+                0x000000001000a20c                tcp_rexmit_fast
+                0x000000001000a264                tcp_rst
+                0x000000001000a320                tcp_rst_netif
+                0x000000001000a41c                tcp_send_empty_ack
+                0x000000001000a4f8                tcp_output
+                0x000000001000a908                tcp_rexmit_rto_commit
+                0x000000001000a91c                tcp_rexmit_rto
+                0x000000001000a9b4                tcp_keepalive
+                0x000000001000aa78                tcp_zero_window_probe
+ .text          0x000000001000ac04      0x320 liblwipcore.a(timeouts.c.obj)
+                0x000000001000ad04                tcp_timer_needed
+                0x000000001000ad78                sys_timeouts_init
+                0x000000001000adf0                sys_timeout
+                0x000000001000ae34                sys_untimeout
+                0x000000001000ae74                sys_check_timeouts
+                0x000000001000aecc                sys_restart_timeouts
+                0x000000001000aefc                sys_timeouts_sleeptime
+ .text          0x000000001000af24      0x6f0 liblwipcore.a(udp.c.obj)
+                0x000000001000af24                udp_init
+                0x000000001000af28                udp_input
+                0x000000001000b15c                udp_bind
+                0x000000001000b268                udp_sendto_if_src
+                0x000000001000b388                udp_sendto_if
+                0x000000001000b3d0                udp_sendto
+                0x000000001000b44c                udp_send
+                0x000000001000b4c4                udp_bind_netif
+                0x000000001000b4d8                udp_connect
+                0x000000001000b53c                udp_disconnect
+                0x000000001000b554                udp_recv
+                0x000000001000b560                udp_remove
+                0x000000001000b59c                udp_new
+                0x000000001000b5b8                udp_new_ip_type
+                0x000000001000b5d4                udp_netif_ip_addr_changed
+ .text          0x000000001000b614     0x2904 liblwipcore.a(etharp.c.obj)
+                0x000000001000d578                etharp_tmr
+                0x000000001000d61c                etharp_add_static_entry
+                0x000000001000d6c8                etharp_remove_static_entry
+                0x000000001000d710                etharp_cleanup_netif
+                0x000000001000d898                etharp_find_addr
+                0x000000001000d8d8                etharp_get_entry
+                0x000000001000d90c                etharp_input
+                0x000000001000dab0                etharp_query
+                0x000000001000dc38                etharp_output
+                0x000000001000de54                etharp_request
+ .text          0x000000001000df18      0x350 liblwipcore.a(icmp.c.obj)
+                0x000000001000df18                icmp_input
+                0x000000001000e0f0                icmp_dest_unreach
+                0x000000001000e1ac                icmp_time_exceeded
+ .text          0x000000001000e268      0x8d0 liblwipcore.a(ip4_frag.c.obj)
+                0x000000001000e410                ip_reass_tmr
+                0x000000001000e448                ip4_reass
+                0x000000001000e950                ip4_frag
+ .text          0x000000001000eb38      0x78c liblwipcore.a(ip4.c.obj)
+                0x000000001000eb38                ip4_route
+                0x000000001000ebb8                ip4_input
+                0x000000001000ee80                ip4_output_if
+                0x000000001000efe8                ip4_output_if_src
+                0x000000001000f140                ip4_output
+ .text          0x000000001000f2c4      0x3bc liblwipcore.a(ip4_addr.c.obj)
+                0x000000001000f2c4                ip4_addr_isbroadcast_u32
+                0x000000001000f300                ip4_addr_netmask_valid
+                0x000000001000f330                ip4addr_aton
+                0x000000001000f4b0                ipaddr_addr
+                0x000000001000f4cc                ip4addr_ntoa
+                0x000000001000f5a8                ip4addr_ntoa_r
+ .text          0x000000001000f680      0x134 liblwipcore.a(ethernet.c.obj)
+                0x000000001000f680                ethernet_input
+                0x000000001000f750                ethernet_output
+ .text          0x000000001000f7b4      0x334 liblwipcore.a(inet_chksum.c.obj)
+                0x000000001000f7b4                lwip_standard_chksum
+                0x000000001000f834                inet_chksum_pseudo
+                0x000000001000f8e8                ip_chksum_pseudo
+                0x000000001000f8f8                inet_chksum_pseudo_partial
+                0x000000001000f9dc                ip_chksum_pseudo_partial
+                0x000000001000f9f0                inet_chksum
+                0x000000001000fa7c                inet_chksum_pbuf
+ .text          0x000000001000fae8       0x18 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-atoi.o)
+                0x000000001000fae8                atoi
+                0x000000001000faf4                _atoi_r
+ .text          0x000000001000fb00       0xc0 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-strchr.o)
+                0x000000001000fb00                strchr
+ .text          0x000000001000fbc0       0x88 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-strcmp.o)
+                0x000000001000fbc0                strcmp
+ .text          0x000000001000fc48       0x5c /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-strlen-stub.o)
+                0x000000001000fc48                strlen
+ .text          0x000000001000fca4       0x74 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-strncmp.o)
+                0x000000001000fca4                strncmp
+ .text          0x000000001000fd18      0x1b8 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-strtol.o)
+                0x000000001000fe5c                _strtol_r
+                0x000000001000fe78                strtol_l
+                0x000000001000fea4                strtol
+ .text          0x000000001000fed0        0xc /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-errno.o)
+                0x000000001000fed0                __errno
  *(.fini)
- .fini          0x000000001000eff0        0x4 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crti.o
-                0x000000001000eff0                _fini
- *fill*         0x000000001000eff4        0x4 
- .fini.__stub   0x000000001000eff8      0x100 linker stubs
+ .fini          0x000000001000fedc        0x4 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crti.o
+                0x000000001000fedc                _fini
+ .fini.__stub   0x000000001000fee0      0x100 linker stubs
  *crtbegin.o(.ctors)
  *crtbegin?.o(.ctors)
  *(EXCLUDE_FILE(*crtend.o *crtend?.o) .ctors)
@@ -2253,190 +2252,190 @@ LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nof
  *(SORT_BY_NAME(.dtors.*))
  *(.dtors)
  *(.eh_frame*)
- .eh_frame      0x000000001000f0f8        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
-                0x000000001000f0f8                . = ALIGN (0x4)
+ .eh_frame      0x000000001000ffe0        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
+                0x000000001000ffe0                . = ALIGN (0x4)
 
-.glue_7         0x000000001000f0f8        0x0
- .glue_7        0x000000001000f0f8        0x0 linker stubs
+.glue_7         0x000000001000ffe0        0x0
+ .glue_7        0x000000001000ffe0        0x0 linker stubs
 
-.glue_7t        0x000000001000f0f8        0x0
- .glue_7t       0x000000001000f0f8        0x0 linker stubs
+.glue_7t        0x000000001000ffe0        0x0
+ .glue_7t       0x000000001000ffe0        0x0 linker stubs
 
-.vfp11_veneer   0x000000001000f0f8        0x0
- .vfp11_veneer  0x000000001000f0f8        0x0 linker stubs
+.vfp11_veneer   0x000000001000ffe0        0x0
+ .vfp11_veneer  0x000000001000ffe0        0x0 linker stubs
 
-.v4_bx          0x000000001000f0f8        0x0
- .v4_bx         0x000000001000f0f8        0x0 linker stubs
+.v4_bx          0x000000001000ffe0        0x0
+ .v4_bx         0x000000001000ffe0        0x0 linker stubs
 
-.iplt           0x000000001000f0f8        0x0
- .iplt          0x000000001000f0f8        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
+.iplt           0x000000001000ffe0        0x0
+ .iplt          0x000000001000ffe0        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
 
-.rodata         0x000000001000f0f8    0x2419c
+.rodata         0x000000001000ffe0    0x2419c
  *(EXCLUDE_FILE(*libm.a: *libc.a:*lib_a-mem*.o *libgcc.a:) .rodata*)
  .rodata.cgi_toggle_led.str1.4
-                0x000000001000f0f8        0xc CMakeFiles/pico_webserver.dir/webserver.c.obj
+                0x000000001000ffe0        0xc CMakeFiles/pico_webserver.dir/webserver.c.obj
  .rodata.str1.4
-                0x000000001000f104       0x1c CMakeFiles/pico_webserver.dir/webserver.c.obj
+                0x000000001000ffec       0x1c CMakeFiles/pico_webserver.dir/webserver.c.obj
  .rodata.cgi_handlers
-                0x000000001000f120       0x10 CMakeFiles/pico_webserver.dir/webserver.c.obj
+                0x0000000010010008       0x10 CMakeFiles/pico_webserver.dir/webserver.c.obj
  .rodata.init_lwip.str1.4
-                0x000000001000f130        0x6 CMakeFiles/pico_webserver.dir/tusb_lwip_glue.c.obj
+                0x0000000010010018        0x6 CMakeFiles/pico_webserver.dir/tusb_lwip_glue.c.obj
  .rodata.str1.4
-                0x000000001000f136        0x6 CMakeFiles/pico_webserver.dir/tusb_lwip_glue.c.obj
+                0x000000001001001e        0x6 CMakeFiles/pico_webserver.dir/tusb_lwip_glue.c.obj
                                           0x1 (size before relaxing)
- *fill*         0x000000001000f136        0x2 
+ *fill*         0x000000001001001e        0x2 
  .rodata.dhcp_config
-                0x000000001000f138       0x18 CMakeFiles/pico_webserver.dir/tusb_lwip_glue.c.obj
+                0x0000000010010020       0x18 CMakeFiles/pico_webserver.dir/tusb_lwip_glue.c.obj
  .rodata.gateway
-                0x000000001000f150        0x4 CMakeFiles/pico_webserver.dir/tusb_lwip_glue.c.obj
+                0x0000000010010038        0x4 CMakeFiles/pico_webserver.dir/tusb_lwip_glue.c.obj
  .rodata.ipaddr
-                0x000000001000f154        0x4 CMakeFiles/pico_webserver.dir/tusb_lwip_glue.c.obj
+                0x000000001001003c        0x4 CMakeFiles/pico_webserver.dir/tusb_lwip_glue.c.obj
  .rodata.netmask
-                0x000000001000f158        0x4 CMakeFiles/pico_webserver.dir/tusb_lwip_glue.c.obj
+                0x0000000010010040        0x4 CMakeFiles/pico_webserver.dir/tusb_lwip_glue.c.obj
  .rodata.tud_network_mac_address
-                0x000000001000f15c        0x6 CMakeFiles/pico_webserver.dir/tusb_lwip_glue.c.obj
-                0x000000001000f15c                tud_network_mac_address
- *fill*         0x000000001000f162        0x2 
+                0x0000000010010044        0x6 CMakeFiles/pico_webserver.dir/tusb_lwip_glue.c.obj
+                0x0000000010010044                tud_network_mac_address
+ *fill*         0x000000001001004a        0x2 
  .rodata.tud_descriptor_string_cb.str1.4
-                0x000000001000f164       0x11 CMakeFiles/pico_webserver.dir/usb_descriptors.c.obj
- *fill*         0x000000001000f175        0x3 
+                0x000000001001004c       0x11 CMakeFiles/pico_webserver.dir/usb_descriptors.c.obj
+ *fill*         0x000000001001005d        0x3 
  .rodata.str1.4
-                0x000000001000f178       0x3e CMakeFiles/pico_webserver.dir/usb_descriptors.c.obj
- *fill*         0x000000001000f1b6        0x2 
+                0x0000000010010060       0x3e CMakeFiles/pico_webserver.dir/usb_descriptors.c.obj
+ *fill*         0x000000001001009e        0x2 
  .rodata.__compound_literal.0
-                0x000000001000f1b8        0x2 CMakeFiles/pico_webserver.dir/usb_descriptors.c.obj
- *fill*         0x000000001000f1ba        0x2 
+                0x00000000100100a0        0x2 CMakeFiles/pico_webserver.dir/usb_descriptors.c.obj
+ *fill*         0x00000000100100a2        0x2 
  .rodata.configuration_arr
-                0x000000001000f1bc        0x8 CMakeFiles/pico_webserver.dir/usb_descriptors.c.obj
+                0x00000000100100a4        0x8 CMakeFiles/pico_webserver.dir/usb_descriptors.c.obj
  .rodata.desc_device
-                0x000000001000f1c4       0x12 CMakeFiles/pico_webserver.dir/usb_descriptors.c.obj
-                0x000000001000f1c4                desc_device
- *fill*         0x000000001000f1d6        0x2 
+                0x00000000100100ac       0x12 CMakeFiles/pico_webserver.dir/usb_descriptors.c.obj
+                0x00000000100100ac                desc_device
+ *fill*         0x00000000100100be        0x2 
  .rodata.ecm_configuration
-                0x000000001000f1d8       0x58 CMakeFiles/pico_webserver.dir/usb_descriptors.c.obj
+                0x00000000100100c0       0x58 CMakeFiles/pico_webserver.dir/usb_descriptors.c.obj
  .rodata.rndis_configuration
-                0x000000001000f230       0x4b CMakeFiles/pico_webserver.dir/usb_descriptors.c.obj
- *fill*         0x000000001000f27b        0x1 
+                0x0000000010010118       0x4b CMakeFiles/pico_webserver.dir/usb_descriptors.c.obj
+ *fill*         0x0000000010010163        0x1 
  .rodata.string_desc_arr
-                0x000000001000f27c       0x14 CMakeFiles/pico_webserver.dir/usb_descriptors.c.obj
- .rodata        0x000000001000f290        0x6 CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/lib/networking/dhserver.c.obj
+                0x0000000010010164       0x14 CMakeFiles/pico_webserver.dir/usb_descriptors.c.obj
+ .rodata        0x0000000010010178        0x6 CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/lib/networking/dhserver.c.obj
  .rodata.rndis_class_set_handler.str1.4
-                0x000000001000f296        0x8 CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/lib/networking/rndis_reports.c.obj
- *fill*         0x000000001000f296        0x2 
+                0x000000001001017e        0x8 CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/lib/networking/rndis_reports.c.obj
+ *fill*         0x000000001001017e        0x2 
  .rodata.rndis_class_set_handler
-                0x000000001000f298       0x90 CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/lib/networking/rndis_reports.c.obj
+                0x0000000010010180       0x90 CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/lib/networking/rndis_reports.c.obj
  .rodata.OIDSupportedList
-                0x000000001000f328       0x58 CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/lib/networking/rndis_reports.c.obj
+                0x0000000010010210       0x58 CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/lib/networking/rndis_reports.c.obj
  .rodata.spin_lock_claim_unused.str1.4
-                0x000000001000f380       0x1b CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
- *fill*         0x000000001000f39b        0x1 
+                0x0000000010010268       0x1b CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+ *fill*         0x0000000010010283        0x1 
  .rodata.hardware_alarm_claim.str1.4
-                0x000000001000f39c       0x22 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
- *fill*         0x000000001000f3be        0x2 
+                0x0000000010010284       0x22 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+ *fill*         0x00000000100102a6        0x2 
  .rodata.panic.str1.4
-                0x000000001000f3c0       0x12 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
- *fill*         0x000000001000f3d2        0x2 
+                0x00000000100102a8       0x12 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+ *fill*         0x00000000100102ba        0x2 
  .rodata.hard_assertion_failure.str1.4
-                0x000000001000f3d4        0xc CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x00000000100102bc        0xc CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
  .rodata.missing_double_func_shim.str1.4
-                0x000000001000f3e0       0x18 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+                0x00000000100102c8       0x18 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
  .rodata.missing_float_func_shim.str1.4
-                0x000000001000f3f8        0x1 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+                0x00000000100102e0        0x1 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
  .rodata.str1.4
-                0x000000001000f3f8       0x44 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x00000000100102e0       0x44 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .rodata.__bi_44
-                0x000000001000f43c        0xc CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x0000000010010324        0xc CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .rodata.__bi_75
-                0x000000001000f448        0xc CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x0000000010010330        0xc CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .rodata.__bi_81
-                0x000000001000f454        0xc CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x000000001001033c        0xc CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .rodata.crlf_str.0
-                0x000000001000f460        0x2 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
- *fill*         0x000000001000f462        0x2 
+                0x0000000010010348        0x2 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+ *fill*         0x000000001001034a        0x2 
  .rodata.str1.4
-                0x000000001000f464       0x14 CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x000000001001034c       0x14 CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
  .rodata.str1.4
-                0x000000001000f478       0x53 CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
- *fill*         0x000000001000f4cb        0x1 
+                0x0000000010010360       0x53 CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+ *fill*         0x00000000100103b3        0x1 
  .rodata.tud_task_ext
-                0x000000001000f4cc       0x8c CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x00000000100103b4       0x8c CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
  .rodata._usbd_driver
-                0x000000001000f558       0x18 CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x0000000010010440       0x18 CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
  .rodata.str1.4
-                0x000000001000f570       0x6f liblwipallapps.a(httpd.c.obj)
+                0x0000000010010458       0x6f liblwipallapps.a(httpd.c.obj)
                                          0x7b (size before relaxing)
- *fill*         0x000000001000f5df        0x1 
- .rodata        0x000000001000f5e0       0x28 liblwipallapps.a(httpd.c.obj)
- .rodata        0x000000001000f608    0x239ab liblwipallapps.a(fs.c.obj)
-                0x000000001000f608                file__pico_png
-                0x000000001000f61c                file__index_html
- *fill*         0x0000000010032fb3        0x1 
- .rodata        0x0000000010032fb4       0xb4 liblwipcore.a(memp.c.obj)
-                0x0000000010032fb4                memp_pools
-                0x0000000010032fd8                memp_PBUF_POOL
-                0x0000000010032fe8                memp_PBUF
-                0x0000000010032ff8                memp_SYS_TIMEOUT
-                0x0000000010033008                memp_FRAG_PBUF
-                0x0000000010033018                memp_REASSDATA
-                0x0000000010033028                memp_TCP_SEG
-                0x0000000010033038                memp_TCP_PCB_LISTEN
-                0x0000000010033048                memp_TCP_PCB
-                0x0000000010033058                memp_UDP_PCB
+ *fill*         0x00000000100104c7        0x1 
+ .rodata        0x00000000100104c8       0x28 liblwipallapps.a(httpd.c.obj)
+ .rodata        0x00000000100104f0    0x239ab liblwipallapps.a(fs.c.obj)
+                0x00000000100104f0                file__pico_png
+                0x0000000010010504                file__index_html
+ *fill*         0x0000000010033e9b        0x1 
+ .rodata        0x0000000010033e9c       0xb4 liblwipcore.a(memp.c.obj)
+                0x0000000010033e9c                memp_pools
+                0x0000000010033ec0                memp_PBUF_POOL
+                0x0000000010033ed0                memp_PBUF
+                0x0000000010033ee0                memp_SYS_TIMEOUT
+                0x0000000010033ef0                memp_FRAG_PBUF
+                0x0000000010033f00                memp_REASSDATA
+                0x0000000010033f10                memp_TCP_SEG
+                0x0000000010033f20                memp_TCP_PCB_LISTEN
+                0x0000000010033f30                memp_TCP_PCB
+                0x0000000010033f40                memp_UDP_PCB
  .rodata.str1.4
-                0x0000000010033068       0x76 liblwipcore.a(tcp.c.obj)
- *fill*         0x00000000100330de        0x2 
- .rodata        0x00000000100330e0       0x54 liblwipcore.a(tcp.c.obj)
-                0x00000000100330e0                tcp_pcb_lists
- .rodata        0x0000000010033134       0x28 liblwipcore.a(tcp_in.c.obj)
- .rodata        0x000000001003315c       0x1c liblwipcore.a(timeouts.c.obj)
-                0x000000001003315c                lwip_cyclic_timers
-                0x0000000010033174                lwip_num_cyclic_timers
- .rodata        0x0000000010033178        0x8 liblwipcore.a(ip4_addr.c.obj)
-                0x0000000010033178                ip_addr_broadcast
-                0x000000001003317c                ip_addr_any
- .rodata        0x0000000010033180        0xe liblwipcore.a(ethernet.c.obj)
-                0x0000000010033180                ethbroadcast
-                0x0000000010033188                ethzero
- *fill*         0x000000001003318e        0x2 
- .rodata        0x0000000010033190      0x101 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-ctype_.o)
-                0x0000000010033190                _ctype_
-                0x0000000010033294                . = ALIGN (0x4)
- *fill*         0x0000000010033291        0x3 
+                0x0000000010033f50       0x76 liblwipcore.a(tcp.c.obj)
+ *fill*         0x0000000010033fc6        0x2 
+ .rodata        0x0000000010033fc8       0x54 liblwipcore.a(tcp.c.obj)
+                0x0000000010033fc8                tcp_pcb_lists
+ .rodata        0x000000001003401c       0x28 liblwipcore.a(tcp_in.c.obj)
+ .rodata        0x0000000010034044       0x1c liblwipcore.a(timeouts.c.obj)
+                0x0000000010034044                lwip_cyclic_timers
+                0x000000001003405c                lwip_num_cyclic_timers
+ .rodata        0x0000000010034060        0x8 liblwipcore.a(ip4_addr.c.obj)
+                0x0000000010034060                ip_addr_broadcast
+                0x0000000010034064                ip_addr_any
+ .rodata        0x0000000010034068        0xe liblwipcore.a(ethernet.c.obj)
+                0x0000000010034068                ethbroadcast
+                0x0000000010034070                ethzero
+ *fill*         0x0000000010034076        0x2 
+ .rodata        0x0000000010034078      0x101 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-ctype_.o)
+                0x0000000010034078                _ctype_
+                0x000000001003417c                . = ALIGN (0x4)
+ *fill*         0x0000000010034179        0x3 
  *(SORT_BY_ALIGNMENT(SORT_BY_NAME(.flashdata*)))
-                0x0000000010033294                . = ALIGN (0x4)
+                0x000000001003417c                . = ALIGN (0x4)
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x0000000010033294                __exidx_start = .
+                0x000000001003417c                __exidx_start = .
 
 .ARM.exidx
  *(.ARM.exidx* .gnu.linkonce.armexidx.*)
-                0x0000000010033294                __exidx_end = .
-                0x0000000010033294                . = ALIGN (0x4)
-                0x0000000010033294                __binary_info_start = .
+                0x000000001003417c                __exidx_end = .
+                0x000000001003417c                . = ALIGN (0x4)
+                0x000000001003417c                __binary_info_start = .
 
-.binary_info    0x0000000010033294       0x1c
+.binary_info    0x000000001003417c       0x1c
  *(.binary_info.keep.*)
  .binary_info.keep.__bi_ptr22
-                0x0000000010033294        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x000000001003417c        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr30
-                0x0000000010033298        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x0000000010034180        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr38
-                0x000000001003329c        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x0000000010034184        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr44
-                0x00000000100332a0        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x0000000010034188        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr50
-                0x00000000100332a4        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x000000001003418c        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr75
-                0x00000000100332a8        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x0000000010034190        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr81
-                0x00000000100332ac        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x0000000010034194        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  *(.binary_info.*)
-                0x00000000100332b0                __binary_info_end = .
+                0x0000000010034198                __binary_info_end = .
 
-.rel.dyn        0x00000000100332b0        0x0
- .rel.iplt      0x00000000100332b0        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
-                0x00000000100332b0                . = ALIGN (0x4)
+.rel.dyn        0x0000000010034198        0x0
+ .rel.iplt      0x0000000010034198        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
+                0x0000000010034198                . = ALIGN (0x4)
 
 .ram_vector_table
                 0x0000000020000000       0xc0
@@ -2445,7 +2444,7 @@ LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nof
                 0x0000000020000000       0xc0 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
                 0x0000000020000000                ram_vector_table
 
-.data           0x00000000200000c0     0x13f0 load address 0x00000000100332b0
+.data           0x00000000200000c0     0x13f0 load address 0x0000000010034198
                 0x00000000200000c0                __data_start__ = .
  *(vtable)
  *(.time_critical*)
@@ -2593,38 +2592,38 @@ LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nof
  *(.jcr)
                 0x00000000200014b0                . = ALIGN (0x4)
                 0x00000000200014b0                __data_end__ = .
-                0x00000000100332b0                __etext = LOADADDR (.data)
+                0x0000000010034198                __etext = LOADADDR (.data)
 
 .tm_clone_table
-                0x00000000200014b0        0x0 load address 0x00000000100346a0
+                0x00000000200014b0        0x0 load address 0x0000000010035588
  .tm_clone_table
                 0x00000000200014b0        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
  .tm_clone_table
                 0x00000000200014b0        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtend.o
 
-.igot.plt       0x00000000200014b0        0x0 load address 0x00000000100346a0
+.igot.plt       0x00000000200014b0        0x0 load address 0x0000000010035588
  .igot.plt      0x00000000200014b0        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
 
 .uninitialized_data
-                0x00000000200014b0        0x0 load address 0x00000000100346a0
+                0x00000000200014b0        0x0 load address 0x0000000010035588
                 0x00000000200014b0                . = ALIGN (0x4)
  *(.uninitialized_data*)
 
-.scratch_x      0x0000000020040000        0x0 load address 0x00000000100346a0
+.scratch_x      0x0000000020040000        0x0 load address 0x0000000010035588
                 0x0000000020040000                __scratch_x_start__ = .
  *(.scratch_x.*)
                 0x0000000020040000                . = ALIGN (0x4)
                 0x0000000020040000                __scratch_x_end__ = .
-                0x00000000100346a0                __scratch_x_source__ = LOADADDR (.scratch_x)
+                0x0000000010035588                __scratch_x_source__ = LOADADDR (.scratch_x)
 
-.scratch_y      0x0000000020041000        0x0 load address 0x00000000100346a0
+.scratch_y      0x0000000020041000        0x0 load address 0x0000000010035588
                 0x0000000020041000                __scratch_y_start__ = .
  *(.scratch_y.*)
                 0x0000000020041000                . = ALIGN (0x4)
                 0x0000000020041000                __scratch_y_end__ = .
-                0x00000000100346a0                __scratch_y_source__ = LOADADDR (.scratch_y)
+                0x0000000010035588                __scratch_y_source__ = LOADADDR (.scratch_y)
 
-.bss            0x00000000200014b0     0x901c
+.bss            0x00000000200014b0     0x9028
                 0x00000000200014b0                . = ALIGN (0x4)
                 0x00000000200014b0                __bss_start__ = .
  *(SORT_BY_ALIGNMENT(SORT_BY_NAME(.bss*)))
@@ -2648,129 +2647,130 @@ LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nof
                 0x00000000200086f8                memp_memory_TCP_PCB_base
                 0x0000000020008a08                memp_memory_UDP_PCB_base
  *fill*         0x0000000020008a8b        0x1 
- .bss           0x0000000020008a8c        0x4 liblwipcore.a(netif.c.obj)
-                0x0000000020008a8c                netif_default
- .bss           0x0000000020008a90       0xd8 liblwipcore.a(stats.c.obj)
-                0x0000000020008a90                lwip_stats
- .bss           0x0000000020008b68       0x19 liblwipcore.a(tcp.c.obj)
-                0x0000000020008b68                tcp_bound_pcbs
-                0x0000000020008b6c                tcp_listen_pcbs
-                0x0000000020008b70                tcp_ticks
-                0x0000000020008b74                tcp_active_pcbs
-                0x0000000020008b78                tcp_active_pcbs_changed
-                0x0000000020008b7c                tcp_tw_pcbs
- *fill*         0x0000000020008b81        0x3 
- .bss           0x0000000020008b84       0x3c liblwipcore.a(tcp_in.c.obj)
-                0x0000000020008bbc                tcp_input_pcb
- .bss           0x0000000020008bc0        0xc liblwipcore.a(timeouts.c.obj)
- .bss           0x0000000020008bcc        0x4 liblwipcore.a(udp.c.obj)
-                0x0000000020008bcc                udp_pcbs
- .bss           0x0000000020008bd0       0xf4 liblwipcore.a(etharp.c.obj)
- .bss           0x0000000020008cc4        0x6 liblwipcore.a(ip4_frag.c.obj)
- *fill*         0x0000000020008cca        0x2 
- .bss           0x0000000020008ccc       0x10 liblwipcore.a(ip4_addr.c.obj)
- .bss           0x0000000020008cdc       0x18 liblwipcore.a(ip.c.obj)
-                0x0000000020008cdc                ip_data
+ .bss           0x0000000020008a8c        0xc liblwipcore.a(netif.c.obj)
+                0x0000000020008a90                netif_list
+                0x0000000020008a94                netif_default
+ .bss           0x0000000020008a98       0xd8 liblwipcore.a(stats.c.obj)
+                0x0000000020008a98                lwip_stats
+ .bss           0x0000000020008b70       0x19 liblwipcore.a(tcp.c.obj)
+                0x0000000020008b70                tcp_bound_pcbs
+                0x0000000020008b74                tcp_listen_pcbs
+                0x0000000020008b78                tcp_ticks
+                0x0000000020008b7c                tcp_active_pcbs
+                0x0000000020008b80                tcp_active_pcbs_changed
+                0x0000000020008b84                tcp_tw_pcbs
+ *fill*         0x0000000020008b89        0x3 
+ .bss           0x0000000020008b8c       0x3c liblwipcore.a(tcp_in.c.obj)
+                0x0000000020008bc4                tcp_input_pcb
+ .bss           0x0000000020008bc8        0xc liblwipcore.a(timeouts.c.obj)
+ .bss           0x0000000020008bd4        0x4 liblwipcore.a(udp.c.obj)
+                0x0000000020008bd4                udp_pcbs
+ .bss           0x0000000020008bd8       0xf4 liblwipcore.a(etharp.c.obj)
+ .bss           0x0000000020008ccc        0x6 liblwipcore.a(ip4_frag.c.obj)
+ *fill*         0x0000000020008cd2        0x2 
+ .bss           0x0000000020008cd4       0x10 liblwipcore.a(ip4_addr.c.obj)
+ .bss           0x0000000020008ce4       0x18 liblwipcore.a(ip.c.obj)
+                0x0000000020008ce4                ip_data
  .bss._app_driver
-                0x0000000020008cf4        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x0000000020008cfc        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
  .bss._ctrl_xfer
-                0x0000000020008cf8       0x14 CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+                0x0000000020008d00       0x14 CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
  .bss._desc_str
-                0x0000000020008d0c       0x40 CMakeFiles/pico_webserver.dir/usb_descriptors.c.obj
+                0x0000000020008d14       0x40 CMakeFiles/pico_webserver.dir/usb_descriptors.c.obj
  .bss._netd_itf
-                0x0000000020008d4c        0xc CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj
+                0x0000000020008d54        0xc CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj
  .bss._ubsd_mutexdef
-                0x0000000020008d58        0x8 CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x0000000020008d60        0x8 CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
  .bss._usbd_ctrl_buf
-                0x0000000020008d60       0x40 CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+                0x0000000020008d68       0x40 CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
  .bss._usbd_dev
-                0x0000000020008da0       0x53 CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
- *fill*         0x0000000020008df3        0x1 
+                0x0000000020008da8       0x53 CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+ *fill*         0x0000000020008dfb        0x1 
  .bss._usbd_mutex
-                0x0000000020008df4        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
- .bss._usbd_q   0x0000000020008df8        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x0000000020008dfc        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+ .bss._usbd_q   0x0000000020008e00        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
  .bss._usbd_qdef_buf
-                0x0000000020008dfc       0xc0 CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x0000000020008dfc                _usbd_qdef_buf
+                0x0000000020008e04       0xc0 CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x0000000020008e04                _usbd_qdef_buf
  .bss.alarm_callbacks
-                0x0000000020008ebc       0x10 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x0000000020008ec4       0x10 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
  .bss.boot2_copyout
-                0x0000000020008ecc      0x100 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
- .bss.claimed   0x0000000020008fcc        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
- .bss.config    0x0000000020008fd0        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/lib/networking/dhserver.c.obj
+                0x0000000020008ed4      0x100 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
+ .bss.claimed   0x0000000020008fd4        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+ .bss.config    0x0000000020008fd8        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/lib/networking/dhserver.c.obj
  .bss.configured_freq
-                0x0000000020008fd4       0x28 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+                0x0000000020008fdc       0x28 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
  .bss.default_alarm_pool_entry_ids_high
-                0x0000000020008ffc       0x10 CMakeFiles/pico_webserver.dir/pico-sdk/src/common/pico_time/time.c.obj
+                0x0000000020009004       0x10 CMakeFiles/pico_webserver.dir/pico-sdk/src/common/pico_time/time.c.obj
  .bss.default_alarm_pool_heap_nodes
-                0x000000002000900c       0x30 CMakeFiles/pico_webserver.dir/pico-sdk/src/common/pico_time/time.c.obj
+                0x0000000020009014       0x30 CMakeFiles/pico_webserver.dir/pico-sdk/src/common/pico_time/time.c.obj
  .bss.dhcp_data
-                0x000000002000903c      0x204 CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/lib/networking/dhserver.c.obj
-                0x000000002000903c                dhcp_data
- .bss.drivers   0x0000000020009240        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x0000000020009044      0x204 CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/lib/networking/dhserver.c.obj
+                0x0000000020009044                dhcp_data
+ .bss.drivers   0x0000000020009248        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .bss.e15_last_sof
-                0x0000000020009244        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
-                0x0000000020009244                e15_last_sof
+                0x000000002000924c        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+                0x000000002000924c                e15_last_sof
  .bss.encapsulated_buffer
-                0x0000000020009248        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/lib/networking/rndis_reports.c.obj
- .bss.filter    0x000000002000924c        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x0000000020009250        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/lib/networking/rndis_reports.c.obj
+ .bss.filter    0x0000000020009254        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .bss.hw_endpoints
-                0x0000000020009250      0x400 CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x0000000020009258      0x400 CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
  .bss.lazy_vsnprintf
-                0x0000000020009650        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x0000000020009658        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .bss.lwip_mutex_count
-                0x0000000020009654        0x4 CMakeFiles/pico_webserver.dir/tusb_lwip_glue.c.obj
+                0x000000002000965c        0x4 CMakeFiles/pico_webserver.dir/tusb_lwip_glue.c.obj
  .bss.netif_data
-                0x0000000020009658       0x2c CMakeFiles/pico_webserver.dir/tusb_lwip_glue.c.obj
+                0x0000000020009660       0x30 CMakeFiles/pico_webserver.dir/tusb_lwip_glue.c.obj
  .bss.next_buffer_ptr
-                0x0000000020009684        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
- .bss.notify    0x0000000020009688       0x78 CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj
+                0x0000000020009690        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+ .bss.notify    0x0000000020009694       0x78 CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj
  .bss.oid_packet_filter
-                0x0000000020009700        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/lib/networking/rndis_reports.c.obj
- .bss.pcb       0x0000000020009704        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/lib/networking/dhserver.c.obj
- .bss.pools     0x0000000020009708       0x10 CMakeFiles/pico_webserver.dir/pico-sdk/src/common/pico_time/time.c.obj
- .bss.received  0x0000000020009718      0x642 CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj
- *fill*         0x0000000020009d5a        0x2 
+                0x000000002000970c        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/lib/networking/rndis_reports.c.obj
+ .bss.pcb       0x0000000020009710        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/lib/networking/dhserver.c.obj
+ .bss.pools     0x0000000020009714       0x10 CMakeFiles/pico_webserver.dir/pico-sdk/src/common/pico_time/time.c.obj
+ .bss.received  0x0000000020009724      0x642 CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj
+ *fill*         0x0000000020009d66        0x2 
  .bss.received_frame
-                0x0000000020009d5c        0x4 CMakeFiles/pico_webserver.dir/tusb_lwip_glue.c.obj
+                0x0000000020009d68        0x4 CMakeFiles/pico_webserver.dir/tusb_lwip_glue.c.obj
  .bss.retrieved_id
-                0x0000000020009d60        0x8 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
+                0x0000000020009d6c        0x8 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
  .bss.sf_clz_func
-                0x0000000020009d68        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
-                0x0000000020009d68                sf_clz_func
- .bss.sf_table  0x0000000020009d6c      0x100 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
-                0x0000000020009d6c                sf_table
+                0x0000000020009d74        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+                0x0000000020009d74                sf_clz_func
+ .bss.sf_table  0x0000000020009d78      0x100 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+                0x0000000020009d78                sf_table
  .bss.sleep_notifier
-                0x0000000020009e6c        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/src/common/pico_time/time.c.obj
+                0x0000000020009e78        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/src/common/pico_time/time.c.obj
  .bss.target_hi
-                0x0000000020009e70       0x10 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x0000000020009e7c       0x10 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
  .bss.transmitted
-                0x0000000020009e80      0x642 CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj
- .bss           0x000000002000a4c2        0x2 liblwipcore.a(ip4.c.obj)
- .bss           0x000000002000a4c4        0x1 liblwipcore.a(pbuf.c.obj)
-                0x000000002000a4c4                pbuf_free_ooseq_pending
+                0x0000000020009e8c      0x642 CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj
+ .bss           0x000000002000a4ce        0x2 liblwipcore.a(ip4.c.obj)
+ .bss           0x000000002000a4d0        0x1 liblwipcore.a(pbuf.c.obj)
+                0x000000002000a4d0                pbuf_free_ooseq_pending
  .bss._app_driver_count
-                0x000000002000a4c5        0x1 CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x000000002000a4d1        0x1 CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
  .bss._sof_enable
-                0x000000002000a4c6        0x1 CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x000000002000a4d2        0x1 CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
  .bss.boot2_copyout_valid
-                0x000000002000a4c7        0x1 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
- .bss.can_xmit  0x000000002000a4c8        0x1 CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj
- .bss.claimed   0x000000002000a4c9        0x1 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x000000002000a4d3        0x1 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
+ .bss.can_xmit  0x000000002000a4d4        0x1 CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj
+ .bss.claimed   0x000000002000a4d5        0x1 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
  .bss.irq_hander_chain_free_slot_head
-                0x000000002000a4ca        0x1 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x000000002000a4d6        0x1 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
  .bss.timer_callbacks_pending
-                0x000000002000a4cb        0x1 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x000000002000a4d7        0x1 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
  *(COMMON)
-                0x000000002000a4cc                . = ALIGN (0x4)
-                0x000000002000a4cc                __bss_end__ = .
+                0x000000002000a4d8                . = ALIGN (0x4)
+                0x000000002000a4d8                __bss_end__ = .
 
-.heap           0x000000002000a4cc      0x800
-                0x000000002000a4cc                __end__ = .
-                0x000000002000a4cc                end = __end__
+.heap           0x000000002000a4d8      0x800
+                0x000000002000a4d8                __end__ = .
+                0x000000002000a4d8                end = __end__
  *(.heap*)
- .heap          0x000000002000a4cc      0x800 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
-                0x000000002000accc                __HeapLimit = .
+ .heap          0x000000002000a4d8      0x800 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
+                0x000000002000acd8                __HeapLimit = .
 
 .stack1_dummy   0x0000000020040000        0x0
  *(.stack1*)
@@ -2779,8 +2779,8 @@ LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nof
  *(.stack*)
  .stack         0x0000000020041000      0x800 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
 
-.flash_end      0x00000000100346a0        0x0
-                0x00000000100346a0                PROVIDE (__flash_binary_end = .)
+.flash_end      0x0000000010035588        0x0
+                0x0000000010035588                PROVIDE (__flash_binary_end = .)
                 0x0000000020040000                __StackLimit = (ORIGIN (RAM) + LENGTH (RAM))
                 0x0000000020041000                __StackOneTop = (ORIGIN (SCRATCH_X) + LENGTH (SCRATCH_X))
                 0x0000000020042000                __StackTop = (ORIGIN (SCRATCH_Y) + LENGTH (SCRATCH_Y))
@@ -2862,7 +2862,7 @@ LOAD CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o
 LOAD CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
 LOAD liblwipallapps.a
 LOAD liblwipcore.a
-LOAD /tmp/ccgiqTrj.o
+LOAD /tmp/cc5F0L6d.o
 LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libstdc++.a
 LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libm.a
 START GROUP
@@ -3020,7 +3020,7 @@ LOAD linker stubs
  .ARM.attributes
                 0x0000000000000b4e       0x32 liblwipcore.a(ip.c.obj)
  .ARM.attributes
-                0x0000000000000b80       0x22 /tmp/ccgiqTrj.o
+                0x0000000000000b80       0x22 /tmp/cc5F0L6d.o
  .ARM.attributes
                 0x0000000000000ba2       0x1e /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .ARM.attributes
