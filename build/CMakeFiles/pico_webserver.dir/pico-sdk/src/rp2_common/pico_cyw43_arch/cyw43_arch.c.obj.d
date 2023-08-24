@@ -80,6 +80,19 @@ CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch
  /mnt/f/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/priv/memp_priv.h \
  /mnt/f/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/priv/mem_priv.h \
  /mnt/f/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/dhcp.h \
+ /mnt/f/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/udp.h \
+ /mnt/f/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/ip.h \
+ /mnt/f/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/ip4.h \
+ /mnt/f/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/prot/ip4.h \
+ /mnt/f/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/ip6.h \
+ /mnt/f/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/prot/ip.h \
+ /mnt/f/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/prot/udp.h \
+ /mnt/f/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/acd.h \
+ /mnt/f/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/etharp.h \
+ /mnt/f/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/prot/ethernet.h \
+ /mnt/f/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/prot/ieee.h \
+ /mnt/f/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/prot/etharp.h \
+ /mnt/f/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/prot/acd.h \
  /mnt/f/pico-webserver/pico-sdk/lib/cyw43-driver/src/cyw43_ll.h \
  /mnt/f/pico-webserver/pico-sdk/src/rp2_common/pico_cyw43_arch/include/pico/cyw43_arch.h \
  /mnt/f/pico-webserver/pico-sdk/lib/cyw43-driver/src/cyw43_country.h \

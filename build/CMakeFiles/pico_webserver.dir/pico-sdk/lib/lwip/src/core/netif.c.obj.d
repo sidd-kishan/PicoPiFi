@@ -64,4 +64,7 @@ CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/netif.c.obj: \
  /mnt/f/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/prot/ieee.h \
  /mnt/f/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/prot/etharp.h \
  /mnt/f/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/sys.h \
- /mnt/f/pico-webserver/pico-sdk/lib/lwip/src/include/netif/ethernet.h
+ /mnt/f/pico-webserver/pico-sdk/lib/lwip/src/include/netif/ethernet.h \
+ /mnt/f/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/dhcp.h \
+ /mnt/f/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/acd.h \
+ /mnt/f/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/prot/acd.h

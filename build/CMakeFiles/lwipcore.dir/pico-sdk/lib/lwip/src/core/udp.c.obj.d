@@ -56,5 +56,11 @@ CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/core/udp.c.obj: \
  /mnt/f/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/prot/icmp6.h \
  /mnt/f/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/snmp.h \
  /mnt/f/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/dhcp.h \
+ /mnt/f/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/acd.h \
+ /mnt/f/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/etharp.h \
+ /mnt/f/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/prot/ethernet.h \
+ /mnt/f/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/prot/ieee.h \
+ /mnt/f/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/prot/etharp.h \
+ /mnt/f/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/prot/acd.h \
  /usr/include/newlib/string.h /usr/include/newlib/strings.h \
  /usr/include/newlib/sys/string.h
