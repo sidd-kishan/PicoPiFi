@@ -259,2909 +259,3284 @@ cyw43_driver_picow_cyw43_bus_pio_spi_pio_h/fast:
 	$(MAKE) $(MAKESILENT) -f pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/build.make pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/build
 .PHONY : cyw43_driver_picow_cyw43_bus_pio_spi_pio_h/fast
 
-lwip/src/api/api_lib.obj: lwip/src/api/api_lib.c.obj
-.PHONY : lwip/src/api/api_lib.obj
+pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.obj: pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj
+.PHONY : pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.obj
 
 # target to build an object file
-lwip/src/api/api_lib.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/api/api_lib.c.obj
-.PHONY : lwip/src/api/api_lib.c.obj
+pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj
+.PHONY : pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj
 
-lwip/src/api/api_lib.i: lwip/src/api/api_lib.c.i
-.PHONY : lwip/src/api/api_lib.i
+pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.i: pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.i
+.PHONY : pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.i
 
 # target to preprocess a source file
-lwip/src/api/api_lib.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/api/api_lib.c.i
-.PHONY : lwip/src/api/api_lib.c.i
+pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.i
+.PHONY : pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.i
 
-lwip/src/api/api_lib.s: lwip/src/api/api_lib.c.s
-.PHONY : lwip/src/api/api_lib.s
+pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.s: pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.s
+.PHONY : pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.s
 
 # target to generate assembly for a file
-lwip/src/api/api_lib.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/api/api_lib.c.s
-.PHONY : lwip/src/api/api_lib.c.s
+pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.s
+.PHONY : pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.s
 
-lwip/src/api/api_msg.obj: lwip/src/api/api_msg.c.obj
-.PHONY : lwip/src/api/api_msg.obj
+pico-sdk/lib/cyw43-driver/src/cyw43_ll.obj: pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj
+.PHONY : pico-sdk/lib/cyw43-driver/src/cyw43_ll.obj
 
 # target to build an object file
-lwip/src/api/api_msg.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/api/api_msg.c.obj
-.PHONY : lwip/src/api/api_msg.c.obj
+pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj
+.PHONY : pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj
 
-lwip/src/api/api_msg.i: lwip/src/api/api_msg.c.i
-.PHONY : lwip/src/api/api_msg.i
+pico-sdk/lib/cyw43-driver/src/cyw43_ll.i: pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.i
+.PHONY : pico-sdk/lib/cyw43-driver/src/cyw43_ll.i
 
 # target to preprocess a source file
-lwip/src/api/api_msg.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/api/api_msg.c.i
-.PHONY : lwip/src/api/api_msg.c.i
+pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.i
+.PHONY : pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.i
 
-lwip/src/api/api_msg.s: lwip/src/api/api_msg.c.s
-.PHONY : lwip/src/api/api_msg.s
+pico-sdk/lib/cyw43-driver/src/cyw43_ll.s: pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.s
+.PHONY : pico-sdk/lib/cyw43-driver/src/cyw43_ll.s
 
 # target to generate assembly for a file
-lwip/src/api/api_msg.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/api/api_msg.c.s
-.PHONY : lwip/src/api/api_msg.c.s
+pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.s
+.PHONY : pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.s
 
-lwip/src/api/err.obj: lwip/src/api/err.c.obj
-.PHONY : lwip/src/api/err.obj
+pico-sdk/lib/cyw43-driver/src/cyw43_lwip.obj: pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.obj
+.PHONY : pico-sdk/lib/cyw43-driver/src/cyw43_lwip.obj
 
 # target to build an object file
-lwip/src/api/err.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/api/err.c.obj
-.PHONY : lwip/src/api/err.c.obj
+pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.obj
+.PHONY : pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.obj
 
-lwip/src/api/err.i: lwip/src/api/err.c.i
-.PHONY : lwip/src/api/err.i
+pico-sdk/lib/cyw43-driver/src/cyw43_lwip.i: pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.i
+.PHONY : pico-sdk/lib/cyw43-driver/src/cyw43_lwip.i
 
 # target to preprocess a source file
-lwip/src/api/err.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/api/err.c.i
-.PHONY : lwip/src/api/err.c.i
+pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.i
+.PHONY : pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.i
 
-lwip/src/api/err.s: lwip/src/api/err.c.s
-.PHONY : lwip/src/api/err.s
+pico-sdk/lib/cyw43-driver/src/cyw43_lwip.s: pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.s
+.PHONY : pico-sdk/lib/cyw43-driver/src/cyw43_lwip.s
 
 # target to generate assembly for a file
-lwip/src/api/err.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/api/err.c.s
-.PHONY : lwip/src/api/err.c.s
+pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.s
+.PHONY : pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.s
 
-lwip/src/api/if_api.obj: lwip/src/api/if_api.c.obj
-.PHONY : lwip/src/api/if_api.obj
+pico-sdk/lib/cyw43-driver/src/cyw43_stats.obj: pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.obj
+.PHONY : pico-sdk/lib/cyw43-driver/src/cyw43_stats.obj
 
 # target to build an object file
-lwip/src/api/if_api.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/api/if_api.c.obj
-.PHONY : lwip/src/api/if_api.c.obj
+pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.obj
+.PHONY : pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.obj
 
-lwip/src/api/if_api.i: lwip/src/api/if_api.c.i
-.PHONY : lwip/src/api/if_api.i
+pico-sdk/lib/cyw43-driver/src/cyw43_stats.i: pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.i
+.PHONY : pico-sdk/lib/cyw43-driver/src/cyw43_stats.i
 
 # target to preprocess a source file
-lwip/src/api/if_api.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/api/if_api.c.i
-.PHONY : lwip/src/api/if_api.c.i
+pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.i
+.PHONY : pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.i
 
-lwip/src/api/if_api.s: lwip/src/api/if_api.c.s
-.PHONY : lwip/src/api/if_api.s
+pico-sdk/lib/cyw43-driver/src/cyw43_stats.s: pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.s
+.PHONY : pico-sdk/lib/cyw43-driver/src/cyw43_stats.s
 
 # target to generate assembly for a file
-lwip/src/api/if_api.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/api/if_api.c.s
-.PHONY : lwip/src/api/if_api.c.s
+pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.s
+.PHONY : pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.s
 
-lwip/src/api/netbuf.obj: lwip/src/api/netbuf.c.obj
-.PHONY : lwip/src/api/netbuf.obj
+pico-sdk/lib/lwip/src/api/api_lib.obj: pico-sdk/lib/lwip/src/api/api_lib.c.obj
+.PHONY : pico-sdk/lib/lwip/src/api/api_lib.obj
 
 # target to build an object file
-lwip/src/api/netbuf.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/api/netbuf.c.obj
-.PHONY : lwip/src/api/netbuf.c.obj
+pico-sdk/lib/lwip/src/api/api_lib.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/api/api_lib.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/api/api_lib.c.obj
+.PHONY : pico-sdk/lib/lwip/src/api/api_lib.c.obj
 
-lwip/src/api/netbuf.i: lwip/src/api/netbuf.c.i
-.PHONY : lwip/src/api/netbuf.i
+pico-sdk/lib/lwip/src/api/api_lib.i: pico-sdk/lib/lwip/src/api/api_lib.c.i
+.PHONY : pico-sdk/lib/lwip/src/api/api_lib.i
 
 # target to preprocess a source file
-lwip/src/api/netbuf.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/api/netbuf.c.i
-.PHONY : lwip/src/api/netbuf.c.i
+pico-sdk/lib/lwip/src/api/api_lib.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/api/api_lib.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/api/api_lib.c.i
+.PHONY : pico-sdk/lib/lwip/src/api/api_lib.c.i
 
-lwip/src/api/netbuf.s: lwip/src/api/netbuf.c.s
-.PHONY : lwip/src/api/netbuf.s
+pico-sdk/lib/lwip/src/api/api_lib.s: pico-sdk/lib/lwip/src/api/api_lib.c.s
+.PHONY : pico-sdk/lib/lwip/src/api/api_lib.s
 
 # target to generate assembly for a file
-lwip/src/api/netbuf.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/api/netbuf.c.s
-.PHONY : lwip/src/api/netbuf.c.s
+pico-sdk/lib/lwip/src/api/api_lib.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/api/api_lib.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/api/api_lib.c.s
+.PHONY : pico-sdk/lib/lwip/src/api/api_lib.c.s
 
-lwip/src/api/netdb.obj: lwip/src/api/netdb.c.obj
-.PHONY : lwip/src/api/netdb.obj
+pico-sdk/lib/lwip/src/api/api_msg.obj: pico-sdk/lib/lwip/src/api/api_msg.c.obj
+.PHONY : pico-sdk/lib/lwip/src/api/api_msg.obj
 
 # target to build an object file
-lwip/src/api/netdb.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/api/netdb.c.obj
-.PHONY : lwip/src/api/netdb.c.obj
+pico-sdk/lib/lwip/src/api/api_msg.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/api/api_msg.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/api/api_msg.c.obj
+.PHONY : pico-sdk/lib/lwip/src/api/api_msg.c.obj
 
-lwip/src/api/netdb.i: lwip/src/api/netdb.c.i
-.PHONY : lwip/src/api/netdb.i
+pico-sdk/lib/lwip/src/api/api_msg.i: pico-sdk/lib/lwip/src/api/api_msg.c.i
+.PHONY : pico-sdk/lib/lwip/src/api/api_msg.i
 
 # target to preprocess a source file
-lwip/src/api/netdb.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/api/netdb.c.i
-.PHONY : lwip/src/api/netdb.c.i
+pico-sdk/lib/lwip/src/api/api_msg.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/api/api_msg.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/api/api_msg.c.i
+.PHONY : pico-sdk/lib/lwip/src/api/api_msg.c.i
 
-lwip/src/api/netdb.s: lwip/src/api/netdb.c.s
-.PHONY : lwip/src/api/netdb.s
+pico-sdk/lib/lwip/src/api/api_msg.s: pico-sdk/lib/lwip/src/api/api_msg.c.s
+.PHONY : pico-sdk/lib/lwip/src/api/api_msg.s
 
 # target to generate assembly for a file
-lwip/src/api/netdb.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/api/netdb.c.s
-.PHONY : lwip/src/api/netdb.c.s
+pico-sdk/lib/lwip/src/api/api_msg.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/api/api_msg.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/api/api_msg.c.s
+.PHONY : pico-sdk/lib/lwip/src/api/api_msg.c.s
 
-lwip/src/api/netifapi.obj: lwip/src/api/netifapi.c.obj
-.PHONY : lwip/src/api/netifapi.obj
+pico-sdk/lib/lwip/src/api/err.obj: pico-sdk/lib/lwip/src/api/err.c.obj
+.PHONY : pico-sdk/lib/lwip/src/api/err.obj
 
 # target to build an object file
-lwip/src/api/netifapi.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/api/netifapi.c.obj
-.PHONY : lwip/src/api/netifapi.c.obj
+pico-sdk/lib/lwip/src/api/err.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/api/err.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/api/err.c.obj
+.PHONY : pico-sdk/lib/lwip/src/api/err.c.obj
 
-lwip/src/api/netifapi.i: lwip/src/api/netifapi.c.i
-.PHONY : lwip/src/api/netifapi.i
+pico-sdk/lib/lwip/src/api/err.i: pico-sdk/lib/lwip/src/api/err.c.i
+.PHONY : pico-sdk/lib/lwip/src/api/err.i
 
 # target to preprocess a source file
-lwip/src/api/netifapi.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/api/netifapi.c.i
-.PHONY : lwip/src/api/netifapi.c.i
+pico-sdk/lib/lwip/src/api/err.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/api/err.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/api/err.c.i
+.PHONY : pico-sdk/lib/lwip/src/api/err.c.i
 
-lwip/src/api/netifapi.s: lwip/src/api/netifapi.c.s
-.PHONY : lwip/src/api/netifapi.s
+pico-sdk/lib/lwip/src/api/err.s: pico-sdk/lib/lwip/src/api/err.c.s
+.PHONY : pico-sdk/lib/lwip/src/api/err.s
 
 # target to generate assembly for a file
-lwip/src/api/netifapi.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/api/netifapi.c.s
-.PHONY : lwip/src/api/netifapi.c.s
+pico-sdk/lib/lwip/src/api/err.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/api/err.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/api/err.c.s
+.PHONY : pico-sdk/lib/lwip/src/api/err.c.s
 
-lwip/src/api/sockets.obj: lwip/src/api/sockets.c.obj
-.PHONY : lwip/src/api/sockets.obj
+pico-sdk/lib/lwip/src/api/if_api.obj: pico-sdk/lib/lwip/src/api/if_api.c.obj
+.PHONY : pico-sdk/lib/lwip/src/api/if_api.obj
 
 # target to build an object file
-lwip/src/api/sockets.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/api/sockets.c.obj
-.PHONY : lwip/src/api/sockets.c.obj
+pico-sdk/lib/lwip/src/api/if_api.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/api/if_api.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/api/if_api.c.obj
+.PHONY : pico-sdk/lib/lwip/src/api/if_api.c.obj
 
-lwip/src/api/sockets.i: lwip/src/api/sockets.c.i
-.PHONY : lwip/src/api/sockets.i
+pico-sdk/lib/lwip/src/api/if_api.i: pico-sdk/lib/lwip/src/api/if_api.c.i
+.PHONY : pico-sdk/lib/lwip/src/api/if_api.i
 
 # target to preprocess a source file
-lwip/src/api/sockets.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/api/sockets.c.i
-.PHONY : lwip/src/api/sockets.c.i
+pico-sdk/lib/lwip/src/api/if_api.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/api/if_api.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/api/if_api.c.i
+.PHONY : pico-sdk/lib/lwip/src/api/if_api.c.i
 
-lwip/src/api/sockets.s: lwip/src/api/sockets.c.s
-.PHONY : lwip/src/api/sockets.s
+pico-sdk/lib/lwip/src/api/if_api.s: pico-sdk/lib/lwip/src/api/if_api.c.s
+.PHONY : pico-sdk/lib/lwip/src/api/if_api.s
 
 # target to generate assembly for a file
-lwip/src/api/sockets.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/api/sockets.c.s
-.PHONY : lwip/src/api/sockets.c.s
+pico-sdk/lib/lwip/src/api/if_api.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/api/if_api.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/api/if_api.c.s
+.PHONY : pico-sdk/lib/lwip/src/api/if_api.c.s
 
-lwip/src/api/tcpip.obj: lwip/src/api/tcpip.c.obj
-.PHONY : lwip/src/api/tcpip.obj
+pico-sdk/lib/lwip/src/api/netbuf.obj: pico-sdk/lib/lwip/src/api/netbuf.c.obj
+.PHONY : pico-sdk/lib/lwip/src/api/netbuf.obj
 
 # target to build an object file
-lwip/src/api/tcpip.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/api/tcpip.c.obj
-.PHONY : lwip/src/api/tcpip.c.obj
+pico-sdk/lib/lwip/src/api/netbuf.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/api/netbuf.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/api/netbuf.c.obj
+.PHONY : pico-sdk/lib/lwip/src/api/netbuf.c.obj
 
-lwip/src/api/tcpip.i: lwip/src/api/tcpip.c.i
-.PHONY : lwip/src/api/tcpip.i
+pico-sdk/lib/lwip/src/api/netbuf.i: pico-sdk/lib/lwip/src/api/netbuf.c.i
+.PHONY : pico-sdk/lib/lwip/src/api/netbuf.i
 
 # target to preprocess a source file
-lwip/src/api/tcpip.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/api/tcpip.c.i
-.PHONY : lwip/src/api/tcpip.c.i
+pico-sdk/lib/lwip/src/api/netbuf.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/api/netbuf.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/api/netbuf.c.i
+.PHONY : pico-sdk/lib/lwip/src/api/netbuf.c.i
 
-lwip/src/api/tcpip.s: lwip/src/api/tcpip.c.s
-.PHONY : lwip/src/api/tcpip.s
+pico-sdk/lib/lwip/src/api/netbuf.s: pico-sdk/lib/lwip/src/api/netbuf.c.s
+.PHONY : pico-sdk/lib/lwip/src/api/netbuf.s
 
 # target to generate assembly for a file
-lwip/src/api/tcpip.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/api/tcpip.c.s
-.PHONY : lwip/src/api/tcpip.c.s
+pico-sdk/lib/lwip/src/api/netbuf.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/api/netbuf.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/api/netbuf.c.s
+.PHONY : pico-sdk/lib/lwip/src/api/netbuf.c.s
 
-lwip/src/apps/altcp_tls/altcp_tls_mbedtls.obj: lwip/src/apps/altcp_tls/altcp_tls_mbedtls.c.obj
-.PHONY : lwip/src/apps/altcp_tls/altcp_tls_mbedtls.obj
+pico-sdk/lib/lwip/src/api/netdb.obj: pico-sdk/lib/lwip/src/api/netdb.c.obj
+.PHONY : pico-sdk/lib/lwip/src/api/netdb.obj
 
 # target to build an object file
-lwip/src/apps/altcp_tls/altcp_tls_mbedtls.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipmbedtls.dir/build.make CMakeFiles/lwipmbedtls.dir/lwip/src/apps/altcp_tls/altcp_tls_mbedtls.c.obj
-.PHONY : lwip/src/apps/altcp_tls/altcp_tls_mbedtls.c.obj
+pico-sdk/lib/lwip/src/api/netdb.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/api/netdb.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/api/netdb.c.obj
+.PHONY : pico-sdk/lib/lwip/src/api/netdb.c.obj
 
-lwip/src/apps/altcp_tls/altcp_tls_mbedtls.i: lwip/src/apps/altcp_tls/altcp_tls_mbedtls.c.i
-.PHONY : lwip/src/apps/altcp_tls/altcp_tls_mbedtls.i
+pico-sdk/lib/lwip/src/api/netdb.i: pico-sdk/lib/lwip/src/api/netdb.c.i
+.PHONY : pico-sdk/lib/lwip/src/api/netdb.i
 
 # target to preprocess a source file
-lwip/src/apps/altcp_tls/altcp_tls_mbedtls.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipmbedtls.dir/build.make CMakeFiles/lwipmbedtls.dir/lwip/src/apps/altcp_tls/altcp_tls_mbedtls.c.i
-.PHONY : lwip/src/apps/altcp_tls/altcp_tls_mbedtls.c.i
+pico-sdk/lib/lwip/src/api/netdb.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/api/netdb.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/api/netdb.c.i
+.PHONY : pico-sdk/lib/lwip/src/api/netdb.c.i
 
-lwip/src/apps/altcp_tls/altcp_tls_mbedtls.s: lwip/src/apps/altcp_tls/altcp_tls_mbedtls.c.s
-.PHONY : lwip/src/apps/altcp_tls/altcp_tls_mbedtls.s
+pico-sdk/lib/lwip/src/api/netdb.s: pico-sdk/lib/lwip/src/api/netdb.c.s
+.PHONY : pico-sdk/lib/lwip/src/api/netdb.s
 
 # target to generate assembly for a file
-lwip/src/apps/altcp_tls/altcp_tls_mbedtls.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipmbedtls.dir/build.make CMakeFiles/lwipmbedtls.dir/lwip/src/apps/altcp_tls/altcp_tls_mbedtls.c.s
-.PHONY : lwip/src/apps/altcp_tls/altcp_tls_mbedtls.c.s
+pico-sdk/lib/lwip/src/api/netdb.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/api/netdb.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/api/netdb.c.s
+.PHONY : pico-sdk/lib/lwip/src/api/netdb.c.s
 
-lwip/src/apps/altcp_tls/altcp_tls_mbedtls_mem.obj: lwip/src/apps/altcp_tls/altcp_tls_mbedtls_mem.c.obj
-.PHONY : lwip/src/apps/altcp_tls/altcp_tls_mbedtls_mem.obj
+pico-sdk/lib/lwip/src/api/netifapi.obj: pico-sdk/lib/lwip/src/api/netifapi.c.obj
+.PHONY : pico-sdk/lib/lwip/src/api/netifapi.obj
 
 # target to build an object file
-lwip/src/apps/altcp_tls/altcp_tls_mbedtls_mem.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipmbedtls.dir/build.make CMakeFiles/lwipmbedtls.dir/lwip/src/apps/altcp_tls/altcp_tls_mbedtls_mem.c.obj
-.PHONY : lwip/src/apps/altcp_tls/altcp_tls_mbedtls_mem.c.obj
+pico-sdk/lib/lwip/src/api/netifapi.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/api/netifapi.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/api/netifapi.c.obj
+.PHONY : pico-sdk/lib/lwip/src/api/netifapi.c.obj
 
-lwip/src/apps/altcp_tls/altcp_tls_mbedtls_mem.i: lwip/src/apps/altcp_tls/altcp_tls_mbedtls_mem.c.i
-.PHONY : lwip/src/apps/altcp_tls/altcp_tls_mbedtls_mem.i
+pico-sdk/lib/lwip/src/api/netifapi.i: pico-sdk/lib/lwip/src/api/netifapi.c.i
+.PHONY : pico-sdk/lib/lwip/src/api/netifapi.i
 
 # target to preprocess a source file
-lwip/src/apps/altcp_tls/altcp_tls_mbedtls_mem.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipmbedtls.dir/build.make CMakeFiles/lwipmbedtls.dir/lwip/src/apps/altcp_tls/altcp_tls_mbedtls_mem.c.i
-.PHONY : lwip/src/apps/altcp_tls/altcp_tls_mbedtls_mem.c.i
+pico-sdk/lib/lwip/src/api/netifapi.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/api/netifapi.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/api/netifapi.c.i
+.PHONY : pico-sdk/lib/lwip/src/api/netifapi.c.i
 
-lwip/src/apps/altcp_tls/altcp_tls_mbedtls_mem.s: lwip/src/apps/altcp_tls/altcp_tls_mbedtls_mem.c.s
-.PHONY : lwip/src/apps/altcp_tls/altcp_tls_mbedtls_mem.s
+pico-sdk/lib/lwip/src/api/netifapi.s: pico-sdk/lib/lwip/src/api/netifapi.c.s
+.PHONY : pico-sdk/lib/lwip/src/api/netifapi.s
 
 # target to generate assembly for a file
-lwip/src/apps/altcp_tls/altcp_tls_mbedtls_mem.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipmbedtls.dir/build.make CMakeFiles/lwipmbedtls.dir/lwip/src/apps/altcp_tls/altcp_tls_mbedtls_mem.c.s
-.PHONY : lwip/src/apps/altcp_tls/altcp_tls_mbedtls_mem.c.s
+pico-sdk/lib/lwip/src/api/netifapi.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/api/netifapi.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/api/netifapi.c.s
+.PHONY : pico-sdk/lib/lwip/src/api/netifapi.c.s
 
-lwip/src/apps/http/altcp_proxyconnect.obj: lwip/src/apps/http/altcp_proxyconnect.c.obj
-.PHONY : lwip/src/apps/http/altcp_proxyconnect.obj
+pico-sdk/lib/lwip/src/api/sockets.obj: pico-sdk/lib/lwip/src/api/sockets.c.obj
+.PHONY : pico-sdk/lib/lwip/src/api/sockets.obj
 
 # target to build an object file
-lwip/src/apps/http/altcp_proxyconnect.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/lwip/src/apps/http/altcp_proxyconnect.c.obj
-.PHONY : lwip/src/apps/http/altcp_proxyconnect.c.obj
+pico-sdk/lib/lwip/src/api/sockets.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/api/sockets.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/api/sockets.c.obj
+.PHONY : pico-sdk/lib/lwip/src/api/sockets.c.obj
 
-lwip/src/apps/http/altcp_proxyconnect.i: lwip/src/apps/http/altcp_proxyconnect.c.i
-.PHONY : lwip/src/apps/http/altcp_proxyconnect.i
+pico-sdk/lib/lwip/src/api/sockets.i: pico-sdk/lib/lwip/src/api/sockets.c.i
+.PHONY : pico-sdk/lib/lwip/src/api/sockets.i
 
 # target to preprocess a source file
-lwip/src/apps/http/altcp_proxyconnect.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/lwip/src/apps/http/altcp_proxyconnect.c.i
-.PHONY : lwip/src/apps/http/altcp_proxyconnect.c.i
+pico-sdk/lib/lwip/src/api/sockets.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/api/sockets.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/api/sockets.c.i
+.PHONY : pico-sdk/lib/lwip/src/api/sockets.c.i
 
-lwip/src/apps/http/altcp_proxyconnect.s: lwip/src/apps/http/altcp_proxyconnect.c.s
-.PHONY : lwip/src/apps/http/altcp_proxyconnect.s
+pico-sdk/lib/lwip/src/api/sockets.s: pico-sdk/lib/lwip/src/api/sockets.c.s
+.PHONY : pico-sdk/lib/lwip/src/api/sockets.s
 
 # target to generate assembly for a file
-lwip/src/apps/http/altcp_proxyconnect.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/lwip/src/apps/http/altcp_proxyconnect.c.s
-.PHONY : lwip/src/apps/http/altcp_proxyconnect.c.s
+pico-sdk/lib/lwip/src/api/sockets.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/api/sockets.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/api/sockets.c.s
+.PHONY : pico-sdk/lib/lwip/src/api/sockets.c.s
 
-lwip/src/apps/http/fs.obj: lwip/src/apps/http/fs.c.obj
-.PHONY : lwip/src/apps/http/fs.obj
+pico-sdk/lib/lwip/src/api/tcpip.obj: pico-sdk/lib/lwip/src/api/tcpip.c.obj
+.PHONY : pico-sdk/lib/lwip/src/api/tcpip.obj
 
 # target to build an object file
-lwip/src/apps/http/fs.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/lwip/src/apps/http/fs.c.obj
-.PHONY : lwip/src/apps/http/fs.c.obj
+pico-sdk/lib/lwip/src/api/tcpip.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/api/tcpip.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/api/tcpip.c.obj
+.PHONY : pico-sdk/lib/lwip/src/api/tcpip.c.obj
 
-lwip/src/apps/http/fs.i: lwip/src/apps/http/fs.c.i
-.PHONY : lwip/src/apps/http/fs.i
+pico-sdk/lib/lwip/src/api/tcpip.i: pico-sdk/lib/lwip/src/api/tcpip.c.i
+.PHONY : pico-sdk/lib/lwip/src/api/tcpip.i
 
 # target to preprocess a source file
-lwip/src/apps/http/fs.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/lwip/src/apps/http/fs.c.i
-.PHONY : lwip/src/apps/http/fs.c.i
+pico-sdk/lib/lwip/src/api/tcpip.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/api/tcpip.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/api/tcpip.c.i
+.PHONY : pico-sdk/lib/lwip/src/api/tcpip.c.i
 
-lwip/src/apps/http/fs.s: lwip/src/apps/http/fs.c.s
-.PHONY : lwip/src/apps/http/fs.s
+pico-sdk/lib/lwip/src/api/tcpip.s: pico-sdk/lib/lwip/src/api/tcpip.c.s
+.PHONY : pico-sdk/lib/lwip/src/api/tcpip.s
 
 # target to generate assembly for a file
-lwip/src/apps/http/fs.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/lwip/src/apps/http/fs.c.s
-.PHONY : lwip/src/apps/http/fs.c.s
+pico-sdk/lib/lwip/src/api/tcpip.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/api/tcpip.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/api/tcpip.c.s
+.PHONY : pico-sdk/lib/lwip/src/api/tcpip.c.s
 
-lwip/src/apps/http/http_client.obj: lwip/src/apps/http/http_client.c.obj
-.PHONY : lwip/src/apps/http/http_client.obj
+pico-sdk/lib/lwip/src/apps/altcp_tls/altcp_tls_mbedtls.obj: pico-sdk/lib/lwip/src/apps/altcp_tls/altcp_tls_mbedtls.c.obj
+.PHONY : pico-sdk/lib/lwip/src/apps/altcp_tls/altcp_tls_mbedtls.obj
 
 # target to build an object file
-lwip/src/apps/http/http_client.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/lwip/src/apps/http/http_client.c.obj
-.PHONY : lwip/src/apps/http/http_client.c.obj
+pico-sdk/lib/lwip/src/apps/altcp_tls/altcp_tls_mbedtls.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipmbedtls.dir/build.make CMakeFiles/lwipmbedtls.dir/pico-sdk/lib/lwip/src/apps/altcp_tls/altcp_tls_mbedtls.c.obj
+.PHONY : pico-sdk/lib/lwip/src/apps/altcp_tls/altcp_tls_mbedtls.c.obj
 
-lwip/src/apps/http/http_client.i: lwip/src/apps/http/http_client.c.i
-.PHONY : lwip/src/apps/http/http_client.i
+pico-sdk/lib/lwip/src/apps/altcp_tls/altcp_tls_mbedtls.i: pico-sdk/lib/lwip/src/apps/altcp_tls/altcp_tls_mbedtls.c.i
+.PHONY : pico-sdk/lib/lwip/src/apps/altcp_tls/altcp_tls_mbedtls.i
 
 # target to preprocess a source file
-lwip/src/apps/http/http_client.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/lwip/src/apps/http/http_client.c.i
-.PHONY : lwip/src/apps/http/http_client.c.i
+pico-sdk/lib/lwip/src/apps/altcp_tls/altcp_tls_mbedtls.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipmbedtls.dir/build.make CMakeFiles/lwipmbedtls.dir/pico-sdk/lib/lwip/src/apps/altcp_tls/altcp_tls_mbedtls.c.i
+.PHONY : pico-sdk/lib/lwip/src/apps/altcp_tls/altcp_tls_mbedtls.c.i
 
-lwip/src/apps/http/http_client.s: lwip/src/apps/http/http_client.c.s
-.PHONY : lwip/src/apps/http/http_client.s
+pico-sdk/lib/lwip/src/apps/altcp_tls/altcp_tls_mbedtls.s: pico-sdk/lib/lwip/src/apps/altcp_tls/altcp_tls_mbedtls.c.s
+.PHONY : pico-sdk/lib/lwip/src/apps/altcp_tls/altcp_tls_mbedtls.s
 
 # target to generate assembly for a file
-lwip/src/apps/http/http_client.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/lwip/src/apps/http/http_client.c.s
-.PHONY : lwip/src/apps/http/http_client.c.s
+pico-sdk/lib/lwip/src/apps/altcp_tls/altcp_tls_mbedtls.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipmbedtls.dir/build.make CMakeFiles/lwipmbedtls.dir/pico-sdk/lib/lwip/src/apps/altcp_tls/altcp_tls_mbedtls.c.s
+.PHONY : pico-sdk/lib/lwip/src/apps/altcp_tls/altcp_tls_mbedtls.c.s
 
-lwip/src/apps/http/httpd.obj: lwip/src/apps/http/httpd.c.obj
-.PHONY : lwip/src/apps/http/httpd.obj
+pico-sdk/lib/lwip/src/apps/altcp_tls/altcp_tls_mbedtls_mem.obj: pico-sdk/lib/lwip/src/apps/altcp_tls/altcp_tls_mbedtls_mem.c.obj
+.PHONY : pico-sdk/lib/lwip/src/apps/altcp_tls/altcp_tls_mbedtls_mem.obj
 
 # target to build an object file
-lwip/src/apps/http/httpd.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/lwip/src/apps/http/httpd.c.obj
-.PHONY : lwip/src/apps/http/httpd.c.obj
+pico-sdk/lib/lwip/src/apps/altcp_tls/altcp_tls_mbedtls_mem.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipmbedtls.dir/build.make CMakeFiles/lwipmbedtls.dir/pico-sdk/lib/lwip/src/apps/altcp_tls/altcp_tls_mbedtls_mem.c.obj
+.PHONY : pico-sdk/lib/lwip/src/apps/altcp_tls/altcp_tls_mbedtls_mem.c.obj
 
-lwip/src/apps/http/httpd.i: lwip/src/apps/http/httpd.c.i
-.PHONY : lwip/src/apps/http/httpd.i
+pico-sdk/lib/lwip/src/apps/altcp_tls/altcp_tls_mbedtls_mem.i: pico-sdk/lib/lwip/src/apps/altcp_tls/altcp_tls_mbedtls_mem.c.i
+.PHONY : pico-sdk/lib/lwip/src/apps/altcp_tls/altcp_tls_mbedtls_mem.i
 
 # target to preprocess a source file
-lwip/src/apps/http/httpd.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/lwip/src/apps/http/httpd.c.i
-.PHONY : lwip/src/apps/http/httpd.c.i
+pico-sdk/lib/lwip/src/apps/altcp_tls/altcp_tls_mbedtls_mem.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipmbedtls.dir/build.make CMakeFiles/lwipmbedtls.dir/pico-sdk/lib/lwip/src/apps/altcp_tls/altcp_tls_mbedtls_mem.c.i
+.PHONY : pico-sdk/lib/lwip/src/apps/altcp_tls/altcp_tls_mbedtls_mem.c.i
 
-lwip/src/apps/http/httpd.s: lwip/src/apps/http/httpd.c.s
-.PHONY : lwip/src/apps/http/httpd.s
+pico-sdk/lib/lwip/src/apps/altcp_tls/altcp_tls_mbedtls_mem.s: pico-sdk/lib/lwip/src/apps/altcp_tls/altcp_tls_mbedtls_mem.c.s
+.PHONY : pico-sdk/lib/lwip/src/apps/altcp_tls/altcp_tls_mbedtls_mem.s
 
 # target to generate assembly for a file
-lwip/src/apps/http/httpd.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/lwip/src/apps/http/httpd.c.s
-.PHONY : lwip/src/apps/http/httpd.c.s
+pico-sdk/lib/lwip/src/apps/altcp_tls/altcp_tls_mbedtls_mem.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipmbedtls.dir/build.make CMakeFiles/lwipmbedtls.dir/pico-sdk/lib/lwip/src/apps/altcp_tls/altcp_tls_mbedtls_mem.c.s
+.PHONY : pico-sdk/lib/lwip/src/apps/altcp_tls/altcp_tls_mbedtls_mem.c.s
 
-lwip/src/apps/lwiperf/lwiperf.obj: lwip/src/apps/lwiperf/lwiperf.c.obj
-.PHONY : lwip/src/apps/lwiperf/lwiperf.obj
+pico-sdk/lib/lwip/src/apps/http/altcp_proxyconnect.obj: pico-sdk/lib/lwip/src/apps/http/altcp_proxyconnect.c.obj
+.PHONY : pico-sdk/lib/lwip/src/apps/http/altcp_proxyconnect.obj
 
 # target to build an object file
-lwip/src/apps/lwiperf/lwiperf.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/lwip/src/apps/lwiperf/lwiperf.c.obj
-.PHONY : lwip/src/apps/lwiperf/lwiperf.c.obj
+pico-sdk/lib/lwip/src/apps/http/altcp_proxyconnect.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/pico-sdk/lib/lwip/src/apps/http/altcp_proxyconnect.c.obj
+.PHONY : pico-sdk/lib/lwip/src/apps/http/altcp_proxyconnect.c.obj
 
-lwip/src/apps/lwiperf/lwiperf.i: lwip/src/apps/lwiperf/lwiperf.c.i
-.PHONY : lwip/src/apps/lwiperf/lwiperf.i
+pico-sdk/lib/lwip/src/apps/http/altcp_proxyconnect.i: pico-sdk/lib/lwip/src/apps/http/altcp_proxyconnect.c.i
+.PHONY : pico-sdk/lib/lwip/src/apps/http/altcp_proxyconnect.i
 
 # target to preprocess a source file
-lwip/src/apps/lwiperf/lwiperf.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/lwip/src/apps/lwiperf/lwiperf.c.i
-.PHONY : lwip/src/apps/lwiperf/lwiperf.c.i
+pico-sdk/lib/lwip/src/apps/http/altcp_proxyconnect.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/pico-sdk/lib/lwip/src/apps/http/altcp_proxyconnect.c.i
+.PHONY : pico-sdk/lib/lwip/src/apps/http/altcp_proxyconnect.c.i
 
-lwip/src/apps/lwiperf/lwiperf.s: lwip/src/apps/lwiperf/lwiperf.c.s
-.PHONY : lwip/src/apps/lwiperf/lwiperf.s
+pico-sdk/lib/lwip/src/apps/http/altcp_proxyconnect.s: pico-sdk/lib/lwip/src/apps/http/altcp_proxyconnect.c.s
+.PHONY : pico-sdk/lib/lwip/src/apps/http/altcp_proxyconnect.s
 
 # target to generate assembly for a file
-lwip/src/apps/lwiperf/lwiperf.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/lwip/src/apps/lwiperf/lwiperf.c.s
-.PHONY : lwip/src/apps/lwiperf/lwiperf.c.s
+pico-sdk/lib/lwip/src/apps/http/altcp_proxyconnect.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/pico-sdk/lib/lwip/src/apps/http/altcp_proxyconnect.c.s
+.PHONY : pico-sdk/lib/lwip/src/apps/http/altcp_proxyconnect.c.s
 
-lwip/src/apps/mdns/mdns.obj: lwip/src/apps/mdns/mdns.c.obj
-.PHONY : lwip/src/apps/mdns/mdns.obj
+pico-sdk/lib/lwip/src/apps/http/fs.obj: pico-sdk/lib/lwip/src/apps/http/fs.c.obj
+.PHONY : pico-sdk/lib/lwip/src/apps/http/fs.obj
 
 # target to build an object file
-lwip/src/apps/mdns/mdns.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/lwip/src/apps/mdns/mdns.c.obj
-.PHONY : lwip/src/apps/mdns/mdns.c.obj
+pico-sdk/lib/lwip/src/apps/http/fs.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/pico-sdk/lib/lwip/src/apps/http/fs.c.obj
+.PHONY : pico-sdk/lib/lwip/src/apps/http/fs.c.obj
 
-lwip/src/apps/mdns/mdns.i: lwip/src/apps/mdns/mdns.c.i
-.PHONY : lwip/src/apps/mdns/mdns.i
+pico-sdk/lib/lwip/src/apps/http/fs.i: pico-sdk/lib/lwip/src/apps/http/fs.c.i
+.PHONY : pico-sdk/lib/lwip/src/apps/http/fs.i
 
 # target to preprocess a source file
-lwip/src/apps/mdns/mdns.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/lwip/src/apps/mdns/mdns.c.i
-.PHONY : lwip/src/apps/mdns/mdns.c.i
+pico-sdk/lib/lwip/src/apps/http/fs.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/pico-sdk/lib/lwip/src/apps/http/fs.c.i
+.PHONY : pico-sdk/lib/lwip/src/apps/http/fs.c.i
 
-lwip/src/apps/mdns/mdns.s: lwip/src/apps/mdns/mdns.c.s
-.PHONY : lwip/src/apps/mdns/mdns.s
+pico-sdk/lib/lwip/src/apps/http/fs.s: pico-sdk/lib/lwip/src/apps/http/fs.c.s
+.PHONY : pico-sdk/lib/lwip/src/apps/http/fs.s
 
 # target to generate assembly for a file
-lwip/src/apps/mdns/mdns.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/lwip/src/apps/mdns/mdns.c.s
-.PHONY : lwip/src/apps/mdns/mdns.c.s
+pico-sdk/lib/lwip/src/apps/http/fs.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/pico-sdk/lib/lwip/src/apps/http/fs.c.s
+.PHONY : pico-sdk/lib/lwip/src/apps/http/fs.c.s
 
-lwip/src/apps/mdns/mdns_domain.obj: lwip/src/apps/mdns/mdns_domain.c.obj
-.PHONY : lwip/src/apps/mdns/mdns_domain.obj
+pico-sdk/lib/lwip/src/apps/http/http_client.obj: pico-sdk/lib/lwip/src/apps/http/http_client.c.obj
+.PHONY : pico-sdk/lib/lwip/src/apps/http/http_client.obj
 
 # target to build an object file
-lwip/src/apps/mdns/mdns_domain.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/lwip/src/apps/mdns/mdns_domain.c.obj
-.PHONY : lwip/src/apps/mdns/mdns_domain.c.obj
+pico-sdk/lib/lwip/src/apps/http/http_client.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/pico-sdk/lib/lwip/src/apps/http/http_client.c.obj
+.PHONY : pico-sdk/lib/lwip/src/apps/http/http_client.c.obj
 
-lwip/src/apps/mdns/mdns_domain.i: lwip/src/apps/mdns/mdns_domain.c.i
-.PHONY : lwip/src/apps/mdns/mdns_domain.i
+pico-sdk/lib/lwip/src/apps/http/http_client.i: pico-sdk/lib/lwip/src/apps/http/http_client.c.i
+.PHONY : pico-sdk/lib/lwip/src/apps/http/http_client.i
 
 # target to preprocess a source file
-lwip/src/apps/mdns/mdns_domain.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/lwip/src/apps/mdns/mdns_domain.c.i
-.PHONY : lwip/src/apps/mdns/mdns_domain.c.i
+pico-sdk/lib/lwip/src/apps/http/http_client.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/pico-sdk/lib/lwip/src/apps/http/http_client.c.i
+.PHONY : pico-sdk/lib/lwip/src/apps/http/http_client.c.i
 
-lwip/src/apps/mdns/mdns_domain.s: lwip/src/apps/mdns/mdns_domain.c.s
-.PHONY : lwip/src/apps/mdns/mdns_domain.s
+pico-sdk/lib/lwip/src/apps/http/http_client.s: pico-sdk/lib/lwip/src/apps/http/http_client.c.s
+.PHONY : pico-sdk/lib/lwip/src/apps/http/http_client.s
 
 # target to generate assembly for a file
-lwip/src/apps/mdns/mdns_domain.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/lwip/src/apps/mdns/mdns_domain.c.s
-.PHONY : lwip/src/apps/mdns/mdns_domain.c.s
+pico-sdk/lib/lwip/src/apps/http/http_client.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/pico-sdk/lib/lwip/src/apps/http/http_client.c.s
+.PHONY : pico-sdk/lib/lwip/src/apps/http/http_client.c.s
 
-lwip/src/apps/mdns/mdns_out.obj: lwip/src/apps/mdns/mdns_out.c.obj
-.PHONY : lwip/src/apps/mdns/mdns_out.obj
+pico-sdk/lib/lwip/src/apps/http/httpd.obj: pico-sdk/lib/lwip/src/apps/http/httpd.c.obj
+.PHONY : pico-sdk/lib/lwip/src/apps/http/httpd.obj
 
 # target to build an object file
-lwip/src/apps/mdns/mdns_out.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/lwip/src/apps/mdns/mdns_out.c.obj
-.PHONY : lwip/src/apps/mdns/mdns_out.c.obj
+pico-sdk/lib/lwip/src/apps/http/httpd.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/pico-sdk/lib/lwip/src/apps/http/httpd.c.obj
+.PHONY : pico-sdk/lib/lwip/src/apps/http/httpd.c.obj
 
-lwip/src/apps/mdns/mdns_out.i: lwip/src/apps/mdns/mdns_out.c.i
-.PHONY : lwip/src/apps/mdns/mdns_out.i
+pico-sdk/lib/lwip/src/apps/http/httpd.i: pico-sdk/lib/lwip/src/apps/http/httpd.c.i
+.PHONY : pico-sdk/lib/lwip/src/apps/http/httpd.i
 
 # target to preprocess a source file
-lwip/src/apps/mdns/mdns_out.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/lwip/src/apps/mdns/mdns_out.c.i
-.PHONY : lwip/src/apps/mdns/mdns_out.c.i
+pico-sdk/lib/lwip/src/apps/http/httpd.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/pico-sdk/lib/lwip/src/apps/http/httpd.c.i
+.PHONY : pico-sdk/lib/lwip/src/apps/http/httpd.c.i
 
-lwip/src/apps/mdns/mdns_out.s: lwip/src/apps/mdns/mdns_out.c.s
-.PHONY : lwip/src/apps/mdns/mdns_out.s
+pico-sdk/lib/lwip/src/apps/http/httpd.s: pico-sdk/lib/lwip/src/apps/http/httpd.c.s
+.PHONY : pico-sdk/lib/lwip/src/apps/http/httpd.s
 
 # target to generate assembly for a file
-lwip/src/apps/mdns/mdns_out.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/lwip/src/apps/mdns/mdns_out.c.s
-.PHONY : lwip/src/apps/mdns/mdns_out.c.s
+pico-sdk/lib/lwip/src/apps/http/httpd.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/pico-sdk/lib/lwip/src/apps/http/httpd.c.s
+.PHONY : pico-sdk/lib/lwip/src/apps/http/httpd.c.s
 
-lwip/src/apps/mqtt/mqtt.obj: lwip/src/apps/mqtt/mqtt.c.obj
-.PHONY : lwip/src/apps/mqtt/mqtt.obj
+pico-sdk/lib/lwip/src/apps/lwiperf/lwiperf.obj: pico-sdk/lib/lwip/src/apps/lwiperf/lwiperf.c.obj
+.PHONY : pico-sdk/lib/lwip/src/apps/lwiperf/lwiperf.obj
 
 # target to build an object file
-lwip/src/apps/mqtt/mqtt.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/lwip/src/apps/mqtt/mqtt.c.obj
-.PHONY : lwip/src/apps/mqtt/mqtt.c.obj
+pico-sdk/lib/lwip/src/apps/lwiperf/lwiperf.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/pico-sdk/lib/lwip/src/apps/lwiperf/lwiperf.c.obj
+.PHONY : pico-sdk/lib/lwip/src/apps/lwiperf/lwiperf.c.obj
 
-lwip/src/apps/mqtt/mqtt.i: lwip/src/apps/mqtt/mqtt.c.i
-.PHONY : lwip/src/apps/mqtt/mqtt.i
+pico-sdk/lib/lwip/src/apps/lwiperf/lwiperf.i: pico-sdk/lib/lwip/src/apps/lwiperf/lwiperf.c.i
+.PHONY : pico-sdk/lib/lwip/src/apps/lwiperf/lwiperf.i
 
 # target to preprocess a source file
-lwip/src/apps/mqtt/mqtt.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/lwip/src/apps/mqtt/mqtt.c.i
-.PHONY : lwip/src/apps/mqtt/mqtt.c.i
+pico-sdk/lib/lwip/src/apps/lwiperf/lwiperf.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/pico-sdk/lib/lwip/src/apps/lwiperf/lwiperf.c.i
+.PHONY : pico-sdk/lib/lwip/src/apps/lwiperf/lwiperf.c.i
 
-lwip/src/apps/mqtt/mqtt.s: lwip/src/apps/mqtt/mqtt.c.s
-.PHONY : lwip/src/apps/mqtt/mqtt.s
+pico-sdk/lib/lwip/src/apps/lwiperf/lwiperf.s: pico-sdk/lib/lwip/src/apps/lwiperf/lwiperf.c.s
+.PHONY : pico-sdk/lib/lwip/src/apps/lwiperf/lwiperf.s
 
 # target to generate assembly for a file
-lwip/src/apps/mqtt/mqtt.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/lwip/src/apps/mqtt/mqtt.c.s
-.PHONY : lwip/src/apps/mqtt/mqtt.c.s
+pico-sdk/lib/lwip/src/apps/lwiperf/lwiperf.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/pico-sdk/lib/lwip/src/apps/lwiperf/lwiperf.c.s
+.PHONY : pico-sdk/lib/lwip/src/apps/lwiperf/lwiperf.c.s
 
-lwip/src/apps/netbiosns/netbiosns.obj: lwip/src/apps/netbiosns/netbiosns.c.obj
-.PHONY : lwip/src/apps/netbiosns/netbiosns.obj
+pico-sdk/lib/lwip/src/apps/mdns/mdns.obj: pico-sdk/lib/lwip/src/apps/mdns/mdns.c.obj
+.PHONY : pico-sdk/lib/lwip/src/apps/mdns/mdns.obj
 
 # target to build an object file
-lwip/src/apps/netbiosns/netbiosns.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/lwip/src/apps/netbiosns/netbiosns.c.obj
-.PHONY : lwip/src/apps/netbiosns/netbiosns.c.obj
+pico-sdk/lib/lwip/src/apps/mdns/mdns.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/pico-sdk/lib/lwip/src/apps/mdns/mdns.c.obj
+.PHONY : pico-sdk/lib/lwip/src/apps/mdns/mdns.c.obj
 
-lwip/src/apps/netbiosns/netbiosns.i: lwip/src/apps/netbiosns/netbiosns.c.i
-.PHONY : lwip/src/apps/netbiosns/netbiosns.i
+pico-sdk/lib/lwip/src/apps/mdns/mdns.i: pico-sdk/lib/lwip/src/apps/mdns/mdns.c.i
+.PHONY : pico-sdk/lib/lwip/src/apps/mdns/mdns.i
 
 # target to preprocess a source file
-lwip/src/apps/netbiosns/netbiosns.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/lwip/src/apps/netbiosns/netbiosns.c.i
-.PHONY : lwip/src/apps/netbiosns/netbiosns.c.i
+pico-sdk/lib/lwip/src/apps/mdns/mdns.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/pico-sdk/lib/lwip/src/apps/mdns/mdns.c.i
+.PHONY : pico-sdk/lib/lwip/src/apps/mdns/mdns.c.i
 
-lwip/src/apps/netbiosns/netbiosns.s: lwip/src/apps/netbiosns/netbiosns.c.s
-.PHONY : lwip/src/apps/netbiosns/netbiosns.s
+pico-sdk/lib/lwip/src/apps/mdns/mdns.s: pico-sdk/lib/lwip/src/apps/mdns/mdns.c.s
+.PHONY : pico-sdk/lib/lwip/src/apps/mdns/mdns.s
 
 # target to generate assembly for a file
-lwip/src/apps/netbiosns/netbiosns.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/lwip/src/apps/netbiosns/netbiosns.c.s
-.PHONY : lwip/src/apps/netbiosns/netbiosns.c.s
+pico-sdk/lib/lwip/src/apps/mdns/mdns.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/pico-sdk/lib/lwip/src/apps/mdns/mdns.c.s
+.PHONY : pico-sdk/lib/lwip/src/apps/mdns/mdns.c.s
 
-lwip/src/apps/smtp/smtp.obj: lwip/src/apps/smtp/smtp.c.obj
-.PHONY : lwip/src/apps/smtp/smtp.obj
+pico-sdk/lib/lwip/src/apps/mdns/mdns_domain.obj: pico-sdk/lib/lwip/src/apps/mdns/mdns_domain.c.obj
+.PHONY : pico-sdk/lib/lwip/src/apps/mdns/mdns_domain.obj
 
 # target to build an object file
-lwip/src/apps/smtp/smtp.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/lwip/src/apps/smtp/smtp.c.obj
-.PHONY : lwip/src/apps/smtp/smtp.c.obj
+pico-sdk/lib/lwip/src/apps/mdns/mdns_domain.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/pico-sdk/lib/lwip/src/apps/mdns/mdns_domain.c.obj
+.PHONY : pico-sdk/lib/lwip/src/apps/mdns/mdns_domain.c.obj
 
-lwip/src/apps/smtp/smtp.i: lwip/src/apps/smtp/smtp.c.i
-.PHONY : lwip/src/apps/smtp/smtp.i
+pico-sdk/lib/lwip/src/apps/mdns/mdns_domain.i: pico-sdk/lib/lwip/src/apps/mdns/mdns_domain.c.i
+.PHONY : pico-sdk/lib/lwip/src/apps/mdns/mdns_domain.i
 
 # target to preprocess a source file
-lwip/src/apps/smtp/smtp.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/lwip/src/apps/smtp/smtp.c.i
-.PHONY : lwip/src/apps/smtp/smtp.c.i
+pico-sdk/lib/lwip/src/apps/mdns/mdns_domain.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/pico-sdk/lib/lwip/src/apps/mdns/mdns_domain.c.i
+.PHONY : pico-sdk/lib/lwip/src/apps/mdns/mdns_domain.c.i
 
-lwip/src/apps/smtp/smtp.s: lwip/src/apps/smtp/smtp.c.s
-.PHONY : lwip/src/apps/smtp/smtp.s
+pico-sdk/lib/lwip/src/apps/mdns/mdns_domain.s: pico-sdk/lib/lwip/src/apps/mdns/mdns_domain.c.s
+.PHONY : pico-sdk/lib/lwip/src/apps/mdns/mdns_domain.s
 
 # target to generate assembly for a file
-lwip/src/apps/smtp/smtp.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/lwip/src/apps/smtp/smtp.c.s
-.PHONY : lwip/src/apps/smtp/smtp.c.s
+pico-sdk/lib/lwip/src/apps/mdns/mdns_domain.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/pico-sdk/lib/lwip/src/apps/mdns/mdns_domain.c.s
+.PHONY : pico-sdk/lib/lwip/src/apps/mdns/mdns_domain.c.s
 
-lwip/src/apps/snmp/snmp_asn1.obj: lwip/src/apps/snmp/snmp_asn1.c.obj
-.PHONY : lwip/src/apps/snmp/snmp_asn1.obj
+pico-sdk/lib/lwip/src/apps/mdns/mdns_out.obj: pico-sdk/lib/lwip/src/apps/mdns/mdns_out.c.obj
+.PHONY : pico-sdk/lib/lwip/src/apps/mdns/mdns_out.obj
 
 # target to build an object file
-lwip/src/apps/snmp/snmp_asn1.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/lwip/src/apps/snmp/snmp_asn1.c.obj
-.PHONY : lwip/src/apps/snmp/snmp_asn1.c.obj
+pico-sdk/lib/lwip/src/apps/mdns/mdns_out.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/pico-sdk/lib/lwip/src/apps/mdns/mdns_out.c.obj
+.PHONY : pico-sdk/lib/lwip/src/apps/mdns/mdns_out.c.obj
 
-lwip/src/apps/snmp/snmp_asn1.i: lwip/src/apps/snmp/snmp_asn1.c.i
-.PHONY : lwip/src/apps/snmp/snmp_asn1.i
+pico-sdk/lib/lwip/src/apps/mdns/mdns_out.i: pico-sdk/lib/lwip/src/apps/mdns/mdns_out.c.i
+.PHONY : pico-sdk/lib/lwip/src/apps/mdns/mdns_out.i
 
 # target to preprocess a source file
-lwip/src/apps/snmp/snmp_asn1.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/lwip/src/apps/snmp/snmp_asn1.c.i
-.PHONY : lwip/src/apps/snmp/snmp_asn1.c.i
+pico-sdk/lib/lwip/src/apps/mdns/mdns_out.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/pico-sdk/lib/lwip/src/apps/mdns/mdns_out.c.i
+.PHONY : pico-sdk/lib/lwip/src/apps/mdns/mdns_out.c.i
 
-lwip/src/apps/snmp/snmp_asn1.s: lwip/src/apps/snmp/snmp_asn1.c.s
-.PHONY : lwip/src/apps/snmp/snmp_asn1.s
+pico-sdk/lib/lwip/src/apps/mdns/mdns_out.s: pico-sdk/lib/lwip/src/apps/mdns/mdns_out.c.s
+.PHONY : pico-sdk/lib/lwip/src/apps/mdns/mdns_out.s
 
 # target to generate assembly for a file
-lwip/src/apps/snmp/snmp_asn1.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/lwip/src/apps/snmp/snmp_asn1.c.s
-.PHONY : lwip/src/apps/snmp/snmp_asn1.c.s
+pico-sdk/lib/lwip/src/apps/mdns/mdns_out.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/pico-sdk/lib/lwip/src/apps/mdns/mdns_out.c.s
+.PHONY : pico-sdk/lib/lwip/src/apps/mdns/mdns_out.c.s
 
-lwip/src/apps/snmp/snmp_core.obj: lwip/src/apps/snmp/snmp_core.c.obj
-.PHONY : lwip/src/apps/snmp/snmp_core.obj
+pico-sdk/lib/lwip/src/apps/mqtt/mqtt.obj: pico-sdk/lib/lwip/src/apps/mqtt/mqtt.c.obj
+.PHONY : pico-sdk/lib/lwip/src/apps/mqtt/mqtt.obj
 
 # target to build an object file
-lwip/src/apps/snmp/snmp_core.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/lwip/src/apps/snmp/snmp_core.c.obj
-.PHONY : lwip/src/apps/snmp/snmp_core.c.obj
+pico-sdk/lib/lwip/src/apps/mqtt/mqtt.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/pico-sdk/lib/lwip/src/apps/mqtt/mqtt.c.obj
+.PHONY : pico-sdk/lib/lwip/src/apps/mqtt/mqtt.c.obj
 
-lwip/src/apps/snmp/snmp_core.i: lwip/src/apps/snmp/snmp_core.c.i
-.PHONY : lwip/src/apps/snmp/snmp_core.i
+pico-sdk/lib/lwip/src/apps/mqtt/mqtt.i: pico-sdk/lib/lwip/src/apps/mqtt/mqtt.c.i
+.PHONY : pico-sdk/lib/lwip/src/apps/mqtt/mqtt.i
 
 # target to preprocess a source file
-lwip/src/apps/snmp/snmp_core.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/lwip/src/apps/snmp/snmp_core.c.i
-.PHONY : lwip/src/apps/snmp/snmp_core.c.i
+pico-sdk/lib/lwip/src/apps/mqtt/mqtt.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/pico-sdk/lib/lwip/src/apps/mqtt/mqtt.c.i
+.PHONY : pico-sdk/lib/lwip/src/apps/mqtt/mqtt.c.i
 
-lwip/src/apps/snmp/snmp_core.s: lwip/src/apps/snmp/snmp_core.c.s
-.PHONY : lwip/src/apps/snmp/snmp_core.s
+pico-sdk/lib/lwip/src/apps/mqtt/mqtt.s: pico-sdk/lib/lwip/src/apps/mqtt/mqtt.c.s
+.PHONY : pico-sdk/lib/lwip/src/apps/mqtt/mqtt.s
 
 # target to generate assembly for a file
-lwip/src/apps/snmp/snmp_core.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/lwip/src/apps/snmp/snmp_core.c.s
-.PHONY : lwip/src/apps/snmp/snmp_core.c.s
+pico-sdk/lib/lwip/src/apps/mqtt/mqtt.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/pico-sdk/lib/lwip/src/apps/mqtt/mqtt.c.s
+.PHONY : pico-sdk/lib/lwip/src/apps/mqtt/mqtt.c.s
 
-lwip/src/apps/snmp/snmp_mib2.obj: lwip/src/apps/snmp/snmp_mib2.c.obj
-.PHONY : lwip/src/apps/snmp/snmp_mib2.obj
+pico-sdk/lib/lwip/src/apps/netbiosns/netbiosns.obj: pico-sdk/lib/lwip/src/apps/netbiosns/netbiosns.c.obj
+.PHONY : pico-sdk/lib/lwip/src/apps/netbiosns/netbiosns.obj
 
 # target to build an object file
-lwip/src/apps/snmp/snmp_mib2.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/lwip/src/apps/snmp/snmp_mib2.c.obj
-.PHONY : lwip/src/apps/snmp/snmp_mib2.c.obj
+pico-sdk/lib/lwip/src/apps/netbiosns/netbiosns.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/pico-sdk/lib/lwip/src/apps/netbiosns/netbiosns.c.obj
+.PHONY : pico-sdk/lib/lwip/src/apps/netbiosns/netbiosns.c.obj
 
-lwip/src/apps/snmp/snmp_mib2.i: lwip/src/apps/snmp/snmp_mib2.c.i
-.PHONY : lwip/src/apps/snmp/snmp_mib2.i
+pico-sdk/lib/lwip/src/apps/netbiosns/netbiosns.i: pico-sdk/lib/lwip/src/apps/netbiosns/netbiosns.c.i
+.PHONY : pico-sdk/lib/lwip/src/apps/netbiosns/netbiosns.i
 
 # target to preprocess a source file
-lwip/src/apps/snmp/snmp_mib2.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/lwip/src/apps/snmp/snmp_mib2.c.i
-.PHONY : lwip/src/apps/snmp/snmp_mib2.c.i
+pico-sdk/lib/lwip/src/apps/netbiosns/netbiosns.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/pico-sdk/lib/lwip/src/apps/netbiosns/netbiosns.c.i
+.PHONY : pico-sdk/lib/lwip/src/apps/netbiosns/netbiosns.c.i
 
-lwip/src/apps/snmp/snmp_mib2.s: lwip/src/apps/snmp/snmp_mib2.c.s
-.PHONY : lwip/src/apps/snmp/snmp_mib2.s
+pico-sdk/lib/lwip/src/apps/netbiosns/netbiosns.s: pico-sdk/lib/lwip/src/apps/netbiosns/netbiosns.c.s
+.PHONY : pico-sdk/lib/lwip/src/apps/netbiosns/netbiosns.s
 
 # target to generate assembly for a file
-lwip/src/apps/snmp/snmp_mib2.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/lwip/src/apps/snmp/snmp_mib2.c.s
-.PHONY : lwip/src/apps/snmp/snmp_mib2.c.s
+pico-sdk/lib/lwip/src/apps/netbiosns/netbiosns.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/pico-sdk/lib/lwip/src/apps/netbiosns/netbiosns.c.s
+.PHONY : pico-sdk/lib/lwip/src/apps/netbiosns/netbiosns.c.s
 
-lwip/src/apps/snmp/snmp_mib2_icmp.obj: lwip/src/apps/snmp/snmp_mib2_icmp.c.obj
-.PHONY : lwip/src/apps/snmp/snmp_mib2_icmp.obj
+pico-sdk/lib/lwip/src/apps/smtp/smtp.obj: pico-sdk/lib/lwip/src/apps/smtp/smtp.c.obj
+.PHONY : pico-sdk/lib/lwip/src/apps/smtp/smtp.obj
 
 # target to build an object file
-lwip/src/apps/snmp/snmp_mib2_icmp.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/lwip/src/apps/snmp/snmp_mib2_icmp.c.obj
-.PHONY : lwip/src/apps/snmp/snmp_mib2_icmp.c.obj
+pico-sdk/lib/lwip/src/apps/smtp/smtp.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/pico-sdk/lib/lwip/src/apps/smtp/smtp.c.obj
+.PHONY : pico-sdk/lib/lwip/src/apps/smtp/smtp.c.obj
 
-lwip/src/apps/snmp/snmp_mib2_icmp.i: lwip/src/apps/snmp/snmp_mib2_icmp.c.i
-.PHONY : lwip/src/apps/snmp/snmp_mib2_icmp.i
+pico-sdk/lib/lwip/src/apps/smtp/smtp.i: pico-sdk/lib/lwip/src/apps/smtp/smtp.c.i
+.PHONY : pico-sdk/lib/lwip/src/apps/smtp/smtp.i
 
 # target to preprocess a source file
-lwip/src/apps/snmp/snmp_mib2_icmp.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/lwip/src/apps/snmp/snmp_mib2_icmp.c.i
-.PHONY : lwip/src/apps/snmp/snmp_mib2_icmp.c.i
+pico-sdk/lib/lwip/src/apps/smtp/smtp.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/pico-sdk/lib/lwip/src/apps/smtp/smtp.c.i
+.PHONY : pico-sdk/lib/lwip/src/apps/smtp/smtp.c.i
 
-lwip/src/apps/snmp/snmp_mib2_icmp.s: lwip/src/apps/snmp/snmp_mib2_icmp.c.s
-.PHONY : lwip/src/apps/snmp/snmp_mib2_icmp.s
+pico-sdk/lib/lwip/src/apps/smtp/smtp.s: pico-sdk/lib/lwip/src/apps/smtp/smtp.c.s
+.PHONY : pico-sdk/lib/lwip/src/apps/smtp/smtp.s
 
 # target to generate assembly for a file
-lwip/src/apps/snmp/snmp_mib2_icmp.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/lwip/src/apps/snmp/snmp_mib2_icmp.c.s
-.PHONY : lwip/src/apps/snmp/snmp_mib2_icmp.c.s
+pico-sdk/lib/lwip/src/apps/smtp/smtp.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/pico-sdk/lib/lwip/src/apps/smtp/smtp.c.s
+.PHONY : pico-sdk/lib/lwip/src/apps/smtp/smtp.c.s
 
-lwip/src/apps/snmp/snmp_mib2_interfaces.obj: lwip/src/apps/snmp/snmp_mib2_interfaces.c.obj
-.PHONY : lwip/src/apps/snmp/snmp_mib2_interfaces.obj
+pico-sdk/lib/lwip/src/apps/snmp/snmp_asn1.obj: pico-sdk/lib/lwip/src/apps/snmp/snmp_asn1.c.obj
+.PHONY : pico-sdk/lib/lwip/src/apps/snmp/snmp_asn1.obj
 
 # target to build an object file
-lwip/src/apps/snmp/snmp_mib2_interfaces.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/lwip/src/apps/snmp/snmp_mib2_interfaces.c.obj
-.PHONY : lwip/src/apps/snmp/snmp_mib2_interfaces.c.obj
+pico-sdk/lib/lwip/src/apps/snmp/snmp_asn1.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/pico-sdk/lib/lwip/src/apps/snmp/snmp_asn1.c.obj
+.PHONY : pico-sdk/lib/lwip/src/apps/snmp/snmp_asn1.c.obj
 
-lwip/src/apps/snmp/snmp_mib2_interfaces.i: lwip/src/apps/snmp/snmp_mib2_interfaces.c.i
-.PHONY : lwip/src/apps/snmp/snmp_mib2_interfaces.i
+pico-sdk/lib/lwip/src/apps/snmp/snmp_asn1.i: pico-sdk/lib/lwip/src/apps/snmp/snmp_asn1.c.i
+.PHONY : pico-sdk/lib/lwip/src/apps/snmp/snmp_asn1.i
 
 # target to preprocess a source file
-lwip/src/apps/snmp/snmp_mib2_interfaces.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/lwip/src/apps/snmp/snmp_mib2_interfaces.c.i
-.PHONY : lwip/src/apps/snmp/snmp_mib2_interfaces.c.i
+pico-sdk/lib/lwip/src/apps/snmp/snmp_asn1.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/pico-sdk/lib/lwip/src/apps/snmp/snmp_asn1.c.i
+.PHONY : pico-sdk/lib/lwip/src/apps/snmp/snmp_asn1.c.i
 
-lwip/src/apps/snmp/snmp_mib2_interfaces.s: lwip/src/apps/snmp/snmp_mib2_interfaces.c.s
-.PHONY : lwip/src/apps/snmp/snmp_mib2_interfaces.s
+pico-sdk/lib/lwip/src/apps/snmp/snmp_asn1.s: pico-sdk/lib/lwip/src/apps/snmp/snmp_asn1.c.s
+.PHONY : pico-sdk/lib/lwip/src/apps/snmp/snmp_asn1.s
 
 # target to generate assembly for a file
-lwip/src/apps/snmp/snmp_mib2_interfaces.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/lwip/src/apps/snmp/snmp_mib2_interfaces.c.s
-.PHONY : lwip/src/apps/snmp/snmp_mib2_interfaces.c.s
+pico-sdk/lib/lwip/src/apps/snmp/snmp_asn1.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/pico-sdk/lib/lwip/src/apps/snmp/snmp_asn1.c.s
+.PHONY : pico-sdk/lib/lwip/src/apps/snmp/snmp_asn1.c.s
 
-lwip/src/apps/snmp/snmp_mib2_ip.obj: lwip/src/apps/snmp/snmp_mib2_ip.c.obj
-.PHONY : lwip/src/apps/snmp/snmp_mib2_ip.obj
+pico-sdk/lib/lwip/src/apps/snmp/snmp_core.obj: pico-sdk/lib/lwip/src/apps/snmp/snmp_core.c.obj
+.PHONY : pico-sdk/lib/lwip/src/apps/snmp/snmp_core.obj
 
 # target to build an object file
-lwip/src/apps/snmp/snmp_mib2_ip.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/lwip/src/apps/snmp/snmp_mib2_ip.c.obj
-.PHONY : lwip/src/apps/snmp/snmp_mib2_ip.c.obj
+pico-sdk/lib/lwip/src/apps/snmp/snmp_core.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/pico-sdk/lib/lwip/src/apps/snmp/snmp_core.c.obj
+.PHONY : pico-sdk/lib/lwip/src/apps/snmp/snmp_core.c.obj
 
-lwip/src/apps/snmp/snmp_mib2_ip.i: lwip/src/apps/snmp/snmp_mib2_ip.c.i
-.PHONY : lwip/src/apps/snmp/snmp_mib2_ip.i
+pico-sdk/lib/lwip/src/apps/snmp/snmp_core.i: pico-sdk/lib/lwip/src/apps/snmp/snmp_core.c.i
+.PHONY : pico-sdk/lib/lwip/src/apps/snmp/snmp_core.i
 
 # target to preprocess a source file
-lwip/src/apps/snmp/snmp_mib2_ip.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/lwip/src/apps/snmp/snmp_mib2_ip.c.i
-.PHONY : lwip/src/apps/snmp/snmp_mib2_ip.c.i
+pico-sdk/lib/lwip/src/apps/snmp/snmp_core.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/pico-sdk/lib/lwip/src/apps/snmp/snmp_core.c.i
+.PHONY : pico-sdk/lib/lwip/src/apps/snmp/snmp_core.c.i
 
-lwip/src/apps/snmp/snmp_mib2_ip.s: lwip/src/apps/snmp/snmp_mib2_ip.c.s
-.PHONY : lwip/src/apps/snmp/snmp_mib2_ip.s
+pico-sdk/lib/lwip/src/apps/snmp/snmp_core.s: pico-sdk/lib/lwip/src/apps/snmp/snmp_core.c.s
+.PHONY : pico-sdk/lib/lwip/src/apps/snmp/snmp_core.s
 
 # target to generate assembly for a file
-lwip/src/apps/snmp/snmp_mib2_ip.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/lwip/src/apps/snmp/snmp_mib2_ip.c.s
-.PHONY : lwip/src/apps/snmp/snmp_mib2_ip.c.s
+pico-sdk/lib/lwip/src/apps/snmp/snmp_core.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/pico-sdk/lib/lwip/src/apps/snmp/snmp_core.c.s
+.PHONY : pico-sdk/lib/lwip/src/apps/snmp/snmp_core.c.s
 
-lwip/src/apps/snmp/snmp_mib2_snmp.obj: lwip/src/apps/snmp/snmp_mib2_snmp.c.obj
-.PHONY : lwip/src/apps/snmp/snmp_mib2_snmp.obj
+pico-sdk/lib/lwip/src/apps/snmp/snmp_mib2.obj: pico-sdk/lib/lwip/src/apps/snmp/snmp_mib2.c.obj
+.PHONY : pico-sdk/lib/lwip/src/apps/snmp/snmp_mib2.obj
 
 # target to build an object file
-lwip/src/apps/snmp/snmp_mib2_snmp.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/lwip/src/apps/snmp/snmp_mib2_snmp.c.obj
-.PHONY : lwip/src/apps/snmp/snmp_mib2_snmp.c.obj
+pico-sdk/lib/lwip/src/apps/snmp/snmp_mib2.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/pico-sdk/lib/lwip/src/apps/snmp/snmp_mib2.c.obj
+.PHONY : pico-sdk/lib/lwip/src/apps/snmp/snmp_mib2.c.obj
 
-lwip/src/apps/snmp/snmp_mib2_snmp.i: lwip/src/apps/snmp/snmp_mib2_snmp.c.i
-.PHONY : lwip/src/apps/snmp/snmp_mib2_snmp.i
+pico-sdk/lib/lwip/src/apps/snmp/snmp_mib2.i: pico-sdk/lib/lwip/src/apps/snmp/snmp_mib2.c.i
+.PHONY : pico-sdk/lib/lwip/src/apps/snmp/snmp_mib2.i
 
 # target to preprocess a source file
-lwip/src/apps/snmp/snmp_mib2_snmp.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/lwip/src/apps/snmp/snmp_mib2_snmp.c.i
-.PHONY : lwip/src/apps/snmp/snmp_mib2_snmp.c.i
+pico-sdk/lib/lwip/src/apps/snmp/snmp_mib2.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/pico-sdk/lib/lwip/src/apps/snmp/snmp_mib2.c.i
+.PHONY : pico-sdk/lib/lwip/src/apps/snmp/snmp_mib2.c.i
 
-lwip/src/apps/snmp/snmp_mib2_snmp.s: lwip/src/apps/snmp/snmp_mib2_snmp.c.s
-.PHONY : lwip/src/apps/snmp/snmp_mib2_snmp.s
+pico-sdk/lib/lwip/src/apps/snmp/snmp_mib2.s: pico-sdk/lib/lwip/src/apps/snmp/snmp_mib2.c.s
+.PHONY : pico-sdk/lib/lwip/src/apps/snmp/snmp_mib2.s
 
 # target to generate assembly for a file
-lwip/src/apps/snmp/snmp_mib2_snmp.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/lwip/src/apps/snmp/snmp_mib2_snmp.c.s
-.PHONY : lwip/src/apps/snmp/snmp_mib2_snmp.c.s
+pico-sdk/lib/lwip/src/apps/snmp/snmp_mib2.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/pico-sdk/lib/lwip/src/apps/snmp/snmp_mib2.c.s
+.PHONY : pico-sdk/lib/lwip/src/apps/snmp/snmp_mib2.c.s
 
-lwip/src/apps/snmp/snmp_mib2_system.obj: lwip/src/apps/snmp/snmp_mib2_system.c.obj
-.PHONY : lwip/src/apps/snmp/snmp_mib2_system.obj
+pico-sdk/lib/lwip/src/apps/snmp/snmp_mib2_icmp.obj: pico-sdk/lib/lwip/src/apps/snmp/snmp_mib2_icmp.c.obj
+.PHONY : pico-sdk/lib/lwip/src/apps/snmp/snmp_mib2_icmp.obj
 
 # target to build an object file
-lwip/src/apps/snmp/snmp_mib2_system.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/lwip/src/apps/snmp/snmp_mib2_system.c.obj
-.PHONY : lwip/src/apps/snmp/snmp_mib2_system.c.obj
+pico-sdk/lib/lwip/src/apps/snmp/snmp_mib2_icmp.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/pico-sdk/lib/lwip/src/apps/snmp/snmp_mib2_icmp.c.obj
+.PHONY : pico-sdk/lib/lwip/src/apps/snmp/snmp_mib2_icmp.c.obj
 
-lwip/src/apps/snmp/snmp_mib2_system.i: lwip/src/apps/snmp/snmp_mib2_system.c.i
-.PHONY : lwip/src/apps/snmp/snmp_mib2_system.i
+pico-sdk/lib/lwip/src/apps/snmp/snmp_mib2_icmp.i: pico-sdk/lib/lwip/src/apps/snmp/snmp_mib2_icmp.c.i
+.PHONY : pico-sdk/lib/lwip/src/apps/snmp/snmp_mib2_icmp.i
 
 # target to preprocess a source file
-lwip/src/apps/snmp/snmp_mib2_system.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/lwip/src/apps/snmp/snmp_mib2_system.c.i
-.PHONY : lwip/src/apps/snmp/snmp_mib2_system.c.i
+pico-sdk/lib/lwip/src/apps/snmp/snmp_mib2_icmp.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/pico-sdk/lib/lwip/src/apps/snmp/snmp_mib2_icmp.c.i
+.PHONY : pico-sdk/lib/lwip/src/apps/snmp/snmp_mib2_icmp.c.i
 
-lwip/src/apps/snmp/snmp_mib2_system.s: lwip/src/apps/snmp/snmp_mib2_system.c.s
-.PHONY : lwip/src/apps/snmp/snmp_mib2_system.s
+pico-sdk/lib/lwip/src/apps/snmp/snmp_mib2_icmp.s: pico-sdk/lib/lwip/src/apps/snmp/snmp_mib2_icmp.c.s
+.PHONY : pico-sdk/lib/lwip/src/apps/snmp/snmp_mib2_icmp.s
 
 # target to generate assembly for a file
-lwip/src/apps/snmp/snmp_mib2_system.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/lwip/src/apps/snmp/snmp_mib2_system.c.s
-.PHONY : lwip/src/apps/snmp/snmp_mib2_system.c.s
+pico-sdk/lib/lwip/src/apps/snmp/snmp_mib2_icmp.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/pico-sdk/lib/lwip/src/apps/snmp/snmp_mib2_icmp.c.s
+.PHONY : pico-sdk/lib/lwip/src/apps/snmp/snmp_mib2_icmp.c.s
 
-lwip/src/apps/snmp/snmp_mib2_tcp.obj: lwip/src/apps/snmp/snmp_mib2_tcp.c.obj
-.PHONY : lwip/src/apps/snmp/snmp_mib2_tcp.obj
+pico-sdk/lib/lwip/src/apps/snmp/snmp_mib2_interfaces.obj: pico-sdk/lib/lwip/src/apps/snmp/snmp_mib2_interfaces.c.obj
+.PHONY : pico-sdk/lib/lwip/src/apps/snmp/snmp_mib2_interfaces.obj
 
 # target to build an object file
-lwip/src/apps/snmp/snmp_mib2_tcp.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/lwip/src/apps/snmp/snmp_mib2_tcp.c.obj
-.PHONY : lwip/src/apps/snmp/snmp_mib2_tcp.c.obj
+pico-sdk/lib/lwip/src/apps/snmp/snmp_mib2_interfaces.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/pico-sdk/lib/lwip/src/apps/snmp/snmp_mib2_interfaces.c.obj
+.PHONY : pico-sdk/lib/lwip/src/apps/snmp/snmp_mib2_interfaces.c.obj
 
-lwip/src/apps/snmp/snmp_mib2_tcp.i: lwip/src/apps/snmp/snmp_mib2_tcp.c.i
-.PHONY : lwip/src/apps/snmp/snmp_mib2_tcp.i
+pico-sdk/lib/lwip/src/apps/snmp/snmp_mib2_interfaces.i: pico-sdk/lib/lwip/src/apps/snmp/snmp_mib2_interfaces.c.i
+.PHONY : pico-sdk/lib/lwip/src/apps/snmp/snmp_mib2_interfaces.i
 
 # target to preprocess a source file
-lwip/src/apps/snmp/snmp_mib2_tcp.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/lwip/src/apps/snmp/snmp_mib2_tcp.c.i
-.PHONY : lwip/src/apps/snmp/snmp_mib2_tcp.c.i
+pico-sdk/lib/lwip/src/apps/snmp/snmp_mib2_interfaces.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/pico-sdk/lib/lwip/src/apps/snmp/snmp_mib2_interfaces.c.i
+.PHONY : pico-sdk/lib/lwip/src/apps/snmp/snmp_mib2_interfaces.c.i
 
-lwip/src/apps/snmp/snmp_mib2_tcp.s: lwip/src/apps/snmp/snmp_mib2_tcp.c.s
-.PHONY : lwip/src/apps/snmp/snmp_mib2_tcp.s
+pico-sdk/lib/lwip/src/apps/snmp/snmp_mib2_interfaces.s: pico-sdk/lib/lwip/src/apps/snmp/snmp_mib2_interfaces.c.s
+.PHONY : pico-sdk/lib/lwip/src/apps/snmp/snmp_mib2_interfaces.s
 
 # target to generate assembly for a file
-lwip/src/apps/snmp/snmp_mib2_tcp.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/lwip/src/apps/snmp/snmp_mib2_tcp.c.s
-.PHONY : lwip/src/apps/snmp/snmp_mib2_tcp.c.s
+pico-sdk/lib/lwip/src/apps/snmp/snmp_mib2_interfaces.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/pico-sdk/lib/lwip/src/apps/snmp/snmp_mib2_interfaces.c.s
+.PHONY : pico-sdk/lib/lwip/src/apps/snmp/snmp_mib2_interfaces.c.s
 
-lwip/src/apps/snmp/snmp_mib2_udp.obj: lwip/src/apps/snmp/snmp_mib2_udp.c.obj
-.PHONY : lwip/src/apps/snmp/snmp_mib2_udp.obj
+pico-sdk/lib/lwip/src/apps/snmp/snmp_mib2_ip.obj: pico-sdk/lib/lwip/src/apps/snmp/snmp_mib2_ip.c.obj
+.PHONY : pico-sdk/lib/lwip/src/apps/snmp/snmp_mib2_ip.obj
 
 # target to build an object file
-lwip/src/apps/snmp/snmp_mib2_udp.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/lwip/src/apps/snmp/snmp_mib2_udp.c.obj
-.PHONY : lwip/src/apps/snmp/snmp_mib2_udp.c.obj
+pico-sdk/lib/lwip/src/apps/snmp/snmp_mib2_ip.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/pico-sdk/lib/lwip/src/apps/snmp/snmp_mib2_ip.c.obj
+.PHONY : pico-sdk/lib/lwip/src/apps/snmp/snmp_mib2_ip.c.obj
 
-lwip/src/apps/snmp/snmp_mib2_udp.i: lwip/src/apps/snmp/snmp_mib2_udp.c.i
-.PHONY : lwip/src/apps/snmp/snmp_mib2_udp.i
+pico-sdk/lib/lwip/src/apps/snmp/snmp_mib2_ip.i: pico-sdk/lib/lwip/src/apps/snmp/snmp_mib2_ip.c.i
+.PHONY : pico-sdk/lib/lwip/src/apps/snmp/snmp_mib2_ip.i
 
 # target to preprocess a source file
-lwip/src/apps/snmp/snmp_mib2_udp.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/lwip/src/apps/snmp/snmp_mib2_udp.c.i
-.PHONY : lwip/src/apps/snmp/snmp_mib2_udp.c.i
+pico-sdk/lib/lwip/src/apps/snmp/snmp_mib2_ip.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/pico-sdk/lib/lwip/src/apps/snmp/snmp_mib2_ip.c.i
+.PHONY : pico-sdk/lib/lwip/src/apps/snmp/snmp_mib2_ip.c.i
 
-lwip/src/apps/snmp/snmp_mib2_udp.s: lwip/src/apps/snmp/snmp_mib2_udp.c.s
-.PHONY : lwip/src/apps/snmp/snmp_mib2_udp.s
+pico-sdk/lib/lwip/src/apps/snmp/snmp_mib2_ip.s: pico-sdk/lib/lwip/src/apps/snmp/snmp_mib2_ip.c.s
+.PHONY : pico-sdk/lib/lwip/src/apps/snmp/snmp_mib2_ip.s
 
 # target to generate assembly for a file
-lwip/src/apps/snmp/snmp_mib2_udp.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/lwip/src/apps/snmp/snmp_mib2_udp.c.s
-.PHONY : lwip/src/apps/snmp/snmp_mib2_udp.c.s
+pico-sdk/lib/lwip/src/apps/snmp/snmp_mib2_ip.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/pico-sdk/lib/lwip/src/apps/snmp/snmp_mib2_ip.c.s
+.PHONY : pico-sdk/lib/lwip/src/apps/snmp/snmp_mib2_ip.c.s
 
-lwip/src/apps/snmp/snmp_msg.obj: lwip/src/apps/snmp/snmp_msg.c.obj
-.PHONY : lwip/src/apps/snmp/snmp_msg.obj
+pico-sdk/lib/lwip/src/apps/snmp/snmp_mib2_snmp.obj: pico-sdk/lib/lwip/src/apps/snmp/snmp_mib2_snmp.c.obj
+.PHONY : pico-sdk/lib/lwip/src/apps/snmp/snmp_mib2_snmp.obj
 
 # target to build an object file
-lwip/src/apps/snmp/snmp_msg.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/lwip/src/apps/snmp/snmp_msg.c.obj
-.PHONY : lwip/src/apps/snmp/snmp_msg.c.obj
+pico-sdk/lib/lwip/src/apps/snmp/snmp_mib2_snmp.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/pico-sdk/lib/lwip/src/apps/snmp/snmp_mib2_snmp.c.obj
+.PHONY : pico-sdk/lib/lwip/src/apps/snmp/snmp_mib2_snmp.c.obj
 
-lwip/src/apps/snmp/snmp_msg.i: lwip/src/apps/snmp/snmp_msg.c.i
-.PHONY : lwip/src/apps/snmp/snmp_msg.i
+pico-sdk/lib/lwip/src/apps/snmp/snmp_mib2_snmp.i: pico-sdk/lib/lwip/src/apps/snmp/snmp_mib2_snmp.c.i
+.PHONY : pico-sdk/lib/lwip/src/apps/snmp/snmp_mib2_snmp.i
 
 # target to preprocess a source file
-lwip/src/apps/snmp/snmp_msg.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/lwip/src/apps/snmp/snmp_msg.c.i
-.PHONY : lwip/src/apps/snmp/snmp_msg.c.i
+pico-sdk/lib/lwip/src/apps/snmp/snmp_mib2_snmp.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/pico-sdk/lib/lwip/src/apps/snmp/snmp_mib2_snmp.c.i
+.PHONY : pico-sdk/lib/lwip/src/apps/snmp/snmp_mib2_snmp.c.i
 
-lwip/src/apps/snmp/snmp_msg.s: lwip/src/apps/snmp/snmp_msg.c.s
-.PHONY : lwip/src/apps/snmp/snmp_msg.s
+pico-sdk/lib/lwip/src/apps/snmp/snmp_mib2_snmp.s: pico-sdk/lib/lwip/src/apps/snmp/snmp_mib2_snmp.c.s
+.PHONY : pico-sdk/lib/lwip/src/apps/snmp/snmp_mib2_snmp.s
 
 # target to generate assembly for a file
-lwip/src/apps/snmp/snmp_msg.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/lwip/src/apps/snmp/snmp_msg.c.s
-.PHONY : lwip/src/apps/snmp/snmp_msg.c.s
+pico-sdk/lib/lwip/src/apps/snmp/snmp_mib2_snmp.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/pico-sdk/lib/lwip/src/apps/snmp/snmp_mib2_snmp.c.s
+.PHONY : pico-sdk/lib/lwip/src/apps/snmp/snmp_mib2_snmp.c.s
 
-lwip/src/apps/snmp/snmp_netconn.obj: lwip/src/apps/snmp/snmp_netconn.c.obj
-.PHONY : lwip/src/apps/snmp/snmp_netconn.obj
+pico-sdk/lib/lwip/src/apps/snmp/snmp_mib2_system.obj: pico-sdk/lib/lwip/src/apps/snmp/snmp_mib2_system.c.obj
+.PHONY : pico-sdk/lib/lwip/src/apps/snmp/snmp_mib2_system.obj
 
 # target to build an object file
-lwip/src/apps/snmp/snmp_netconn.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/lwip/src/apps/snmp/snmp_netconn.c.obj
-.PHONY : lwip/src/apps/snmp/snmp_netconn.c.obj
+pico-sdk/lib/lwip/src/apps/snmp/snmp_mib2_system.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/pico-sdk/lib/lwip/src/apps/snmp/snmp_mib2_system.c.obj
+.PHONY : pico-sdk/lib/lwip/src/apps/snmp/snmp_mib2_system.c.obj
 
-lwip/src/apps/snmp/snmp_netconn.i: lwip/src/apps/snmp/snmp_netconn.c.i
-.PHONY : lwip/src/apps/snmp/snmp_netconn.i
+pico-sdk/lib/lwip/src/apps/snmp/snmp_mib2_system.i: pico-sdk/lib/lwip/src/apps/snmp/snmp_mib2_system.c.i
+.PHONY : pico-sdk/lib/lwip/src/apps/snmp/snmp_mib2_system.i
 
 # target to preprocess a source file
-lwip/src/apps/snmp/snmp_netconn.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/lwip/src/apps/snmp/snmp_netconn.c.i
-.PHONY : lwip/src/apps/snmp/snmp_netconn.c.i
+pico-sdk/lib/lwip/src/apps/snmp/snmp_mib2_system.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/pico-sdk/lib/lwip/src/apps/snmp/snmp_mib2_system.c.i
+.PHONY : pico-sdk/lib/lwip/src/apps/snmp/snmp_mib2_system.c.i
 
-lwip/src/apps/snmp/snmp_netconn.s: lwip/src/apps/snmp/snmp_netconn.c.s
-.PHONY : lwip/src/apps/snmp/snmp_netconn.s
+pico-sdk/lib/lwip/src/apps/snmp/snmp_mib2_system.s: pico-sdk/lib/lwip/src/apps/snmp/snmp_mib2_system.c.s
+.PHONY : pico-sdk/lib/lwip/src/apps/snmp/snmp_mib2_system.s
 
 # target to generate assembly for a file
-lwip/src/apps/snmp/snmp_netconn.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/lwip/src/apps/snmp/snmp_netconn.c.s
-.PHONY : lwip/src/apps/snmp/snmp_netconn.c.s
+pico-sdk/lib/lwip/src/apps/snmp/snmp_mib2_system.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/pico-sdk/lib/lwip/src/apps/snmp/snmp_mib2_system.c.s
+.PHONY : pico-sdk/lib/lwip/src/apps/snmp/snmp_mib2_system.c.s
 
-lwip/src/apps/snmp/snmp_pbuf_stream.obj: lwip/src/apps/snmp/snmp_pbuf_stream.c.obj
-.PHONY : lwip/src/apps/snmp/snmp_pbuf_stream.obj
+pico-sdk/lib/lwip/src/apps/snmp/snmp_mib2_tcp.obj: pico-sdk/lib/lwip/src/apps/snmp/snmp_mib2_tcp.c.obj
+.PHONY : pico-sdk/lib/lwip/src/apps/snmp/snmp_mib2_tcp.obj
 
 # target to build an object file
-lwip/src/apps/snmp/snmp_pbuf_stream.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/lwip/src/apps/snmp/snmp_pbuf_stream.c.obj
-.PHONY : lwip/src/apps/snmp/snmp_pbuf_stream.c.obj
+pico-sdk/lib/lwip/src/apps/snmp/snmp_mib2_tcp.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/pico-sdk/lib/lwip/src/apps/snmp/snmp_mib2_tcp.c.obj
+.PHONY : pico-sdk/lib/lwip/src/apps/snmp/snmp_mib2_tcp.c.obj
 
-lwip/src/apps/snmp/snmp_pbuf_stream.i: lwip/src/apps/snmp/snmp_pbuf_stream.c.i
-.PHONY : lwip/src/apps/snmp/snmp_pbuf_stream.i
+pico-sdk/lib/lwip/src/apps/snmp/snmp_mib2_tcp.i: pico-sdk/lib/lwip/src/apps/snmp/snmp_mib2_tcp.c.i
+.PHONY : pico-sdk/lib/lwip/src/apps/snmp/snmp_mib2_tcp.i
 
 # target to preprocess a source file
-lwip/src/apps/snmp/snmp_pbuf_stream.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/lwip/src/apps/snmp/snmp_pbuf_stream.c.i
-.PHONY : lwip/src/apps/snmp/snmp_pbuf_stream.c.i
+pico-sdk/lib/lwip/src/apps/snmp/snmp_mib2_tcp.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/pico-sdk/lib/lwip/src/apps/snmp/snmp_mib2_tcp.c.i
+.PHONY : pico-sdk/lib/lwip/src/apps/snmp/snmp_mib2_tcp.c.i
 
-lwip/src/apps/snmp/snmp_pbuf_stream.s: lwip/src/apps/snmp/snmp_pbuf_stream.c.s
-.PHONY : lwip/src/apps/snmp/snmp_pbuf_stream.s
+pico-sdk/lib/lwip/src/apps/snmp/snmp_mib2_tcp.s: pico-sdk/lib/lwip/src/apps/snmp/snmp_mib2_tcp.c.s
+.PHONY : pico-sdk/lib/lwip/src/apps/snmp/snmp_mib2_tcp.s
 
 # target to generate assembly for a file
-lwip/src/apps/snmp/snmp_pbuf_stream.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/lwip/src/apps/snmp/snmp_pbuf_stream.c.s
-.PHONY : lwip/src/apps/snmp/snmp_pbuf_stream.c.s
+pico-sdk/lib/lwip/src/apps/snmp/snmp_mib2_tcp.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/pico-sdk/lib/lwip/src/apps/snmp/snmp_mib2_tcp.c.s
+.PHONY : pico-sdk/lib/lwip/src/apps/snmp/snmp_mib2_tcp.c.s
 
-lwip/src/apps/snmp/snmp_raw.obj: lwip/src/apps/snmp/snmp_raw.c.obj
-.PHONY : lwip/src/apps/snmp/snmp_raw.obj
+pico-sdk/lib/lwip/src/apps/snmp/snmp_mib2_udp.obj: pico-sdk/lib/lwip/src/apps/snmp/snmp_mib2_udp.c.obj
+.PHONY : pico-sdk/lib/lwip/src/apps/snmp/snmp_mib2_udp.obj
 
 # target to build an object file
-lwip/src/apps/snmp/snmp_raw.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/lwip/src/apps/snmp/snmp_raw.c.obj
-.PHONY : lwip/src/apps/snmp/snmp_raw.c.obj
+pico-sdk/lib/lwip/src/apps/snmp/snmp_mib2_udp.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/pico-sdk/lib/lwip/src/apps/snmp/snmp_mib2_udp.c.obj
+.PHONY : pico-sdk/lib/lwip/src/apps/snmp/snmp_mib2_udp.c.obj
 
-lwip/src/apps/snmp/snmp_raw.i: lwip/src/apps/snmp/snmp_raw.c.i
-.PHONY : lwip/src/apps/snmp/snmp_raw.i
+pico-sdk/lib/lwip/src/apps/snmp/snmp_mib2_udp.i: pico-sdk/lib/lwip/src/apps/snmp/snmp_mib2_udp.c.i
+.PHONY : pico-sdk/lib/lwip/src/apps/snmp/snmp_mib2_udp.i
 
 # target to preprocess a source file
-lwip/src/apps/snmp/snmp_raw.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/lwip/src/apps/snmp/snmp_raw.c.i
-.PHONY : lwip/src/apps/snmp/snmp_raw.c.i
+pico-sdk/lib/lwip/src/apps/snmp/snmp_mib2_udp.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/pico-sdk/lib/lwip/src/apps/snmp/snmp_mib2_udp.c.i
+.PHONY : pico-sdk/lib/lwip/src/apps/snmp/snmp_mib2_udp.c.i
 
-lwip/src/apps/snmp/snmp_raw.s: lwip/src/apps/snmp/snmp_raw.c.s
-.PHONY : lwip/src/apps/snmp/snmp_raw.s
+pico-sdk/lib/lwip/src/apps/snmp/snmp_mib2_udp.s: pico-sdk/lib/lwip/src/apps/snmp/snmp_mib2_udp.c.s
+.PHONY : pico-sdk/lib/lwip/src/apps/snmp/snmp_mib2_udp.s
 
 # target to generate assembly for a file
-lwip/src/apps/snmp/snmp_raw.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/lwip/src/apps/snmp/snmp_raw.c.s
-.PHONY : lwip/src/apps/snmp/snmp_raw.c.s
+pico-sdk/lib/lwip/src/apps/snmp/snmp_mib2_udp.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/pico-sdk/lib/lwip/src/apps/snmp/snmp_mib2_udp.c.s
+.PHONY : pico-sdk/lib/lwip/src/apps/snmp/snmp_mib2_udp.c.s
 
-lwip/src/apps/snmp/snmp_scalar.obj: lwip/src/apps/snmp/snmp_scalar.c.obj
-.PHONY : lwip/src/apps/snmp/snmp_scalar.obj
+pico-sdk/lib/lwip/src/apps/snmp/snmp_msg.obj: pico-sdk/lib/lwip/src/apps/snmp/snmp_msg.c.obj
+.PHONY : pico-sdk/lib/lwip/src/apps/snmp/snmp_msg.obj
 
 # target to build an object file
-lwip/src/apps/snmp/snmp_scalar.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/lwip/src/apps/snmp/snmp_scalar.c.obj
-.PHONY : lwip/src/apps/snmp/snmp_scalar.c.obj
+pico-sdk/lib/lwip/src/apps/snmp/snmp_msg.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/pico-sdk/lib/lwip/src/apps/snmp/snmp_msg.c.obj
+.PHONY : pico-sdk/lib/lwip/src/apps/snmp/snmp_msg.c.obj
 
-lwip/src/apps/snmp/snmp_scalar.i: lwip/src/apps/snmp/snmp_scalar.c.i
-.PHONY : lwip/src/apps/snmp/snmp_scalar.i
+pico-sdk/lib/lwip/src/apps/snmp/snmp_msg.i: pico-sdk/lib/lwip/src/apps/snmp/snmp_msg.c.i
+.PHONY : pico-sdk/lib/lwip/src/apps/snmp/snmp_msg.i
 
 # target to preprocess a source file
-lwip/src/apps/snmp/snmp_scalar.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/lwip/src/apps/snmp/snmp_scalar.c.i
-.PHONY : lwip/src/apps/snmp/snmp_scalar.c.i
+pico-sdk/lib/lwip/src/apps/snmp/snmp_msg.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/pico-sdk/lib/lwip/src/apps/snmp/snmp_msg.c.i
+.PHONY : pico-sdk/lib/lwip/src/apps/snmp/snmp_msg.c.i
 
-lwip/src/apps/snmp/snmp_scalar.s: lwip/src/apps/snmp/snmp_scalar.c.s
-.PHONY : lwip/src/apps/snmp/snmp_scalar.s
+pico-sdk/lib/lwip/src/apps/snmp/snmp_msg.s: pico-sdk/lib/lwip/src/apps/snmp/snmp_msg.c.s
+.PHONY : pico-sdk/lib/lwip/src/apps/snmp/snmp_msg.s
 
 # target to generate assembly for a file
-lwip/src/apps/snmp/snmp_scalar.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/lwip/src/apps/snmp/snmp_scalar.c.s
-.PHONY : lwip/src/apps/snmp/snmp_scalar.c.s
+pico-sdk/lib/lwip/src/apps/snmp/snmp_msg.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/pico-sdk/lib/lwip/src/apps/snmp/snmp_msg.c.s
+.PHONY : pico-sdk/lib/lwip/src/apps/snmp/snmp_msg.c.s
 
-lwip/src/apps/snmp/snmp_snmpv2_framework.obj: lwip/src/apps/snmp/snmp_snmpv2_framework.c.obj
-.PHONY : lwip/src/apps/snmp/snmp_snmpv2_framework.obj
+pico-sdk/lib/lwip/src/apps/snmp/snmp_netconn.obj: pico-sdk/lib/lwip/src/apps/snmp/snmp_netconn.c.obj
+.PHONY : pico-sdk/lib/lwip/src/apps/snmp/snmp_netconn.obj
 
 # target to build an object file
-lwip/src/apps/snmp/snmp_snmpv2_framework.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/lwip/src/apps/snmp/snmp_snmpv2_framework.c.obj
-.PHONY : lwip/src/apps/snmp/snmp_snmpv2_framework.c.obj
+pico-sdk/lib/lwip/src/apps/snmp/snmp_netconn.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/pico-sdk/lib/lwip/src/apps/snmp/snmp_netconn.c.obj
+.PHONY : pico-sdk/lib/lwip/src/apps/snmp/snmp_netconn.c.obj
 
-lwip/src/apps/snmp/snmp_snmpv2_framework.i: lwip/src/apps/snmp/snmp_snmpv2_framework.c.i
-.PHONY : lwip/src/apps/snmp/snmp_snmpv2_framework.i
+pico-sdk/lib/lwip/src/apps/snmp/snmp_netconn.i: pico-sdk/lib/lwip/src/apps/snmp/snmp_netconn.c.i
+.PHONY : pico-sdk/lib/lwip/src/apps/snmp/snmp_netconn.i
 
 # target to preprocess a source file
-lwip/src/apps/snmp/snmp_snmpv2_framework.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/lwip/src/apps/snmp/snmp_snmpv2_framework.c.i
-.PHONY : lwip/src/apps/snmp/snmp_snmpv2_framework.c.i
+pico-sdk/lib/lwip/src/apps/snmp/snmp_netconn.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/pico-sdk/lib/lwip/src/apps/snmp/snmp_netconn.c.i
+.PHONY : pico-sdk/lib/lwip/src/apps/snmp/snmp_netconn.c.i
 
-lwip/src/apps/snmp/snmp_snmpv2_framework.s: lwip/src/apps/snmp/snmp_snmpv2_framework.c.s
-.PHONY : lwip/src/apps/snmp/snmp_snmpv2_framework.s
+pico-sdk/lib/lwip/src/apps/snmp/snmp_netconn.s: pico-sdk/lib/lwip/src/apps/snmp/snmp_netconn.c.s
+.PHONY : pico-sdk/lib/lwip/src/apps/snmp/snmp_netconn.s
 
 # target to generate assembly for a file
-lwip/src/apps/snmp/snmp_snmpv2_framework.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/lwip/src/apps/snmp/snmp_snmpv2_framework.c.s
-.PHONY : lwip/src/apps/snmp/snmp_snmpv2_framework.c.s
+pico-sdk/lib/lwip/src/apps/snmp/snmp_netconn.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/pico-sdk/lib/lwip/src/apps/snmp/snmp_netconn.c.s
+.PHONY : pico-sdk/lib/lwip/src/apps/snmp/snmp_netconn.c.s
 
-lwip/src/apps/snmp/snmp_snmpv2_usm.obj: lwip/src/apps/snmp/snmp_snmpv2_usm.c.obj
-.PHONY : lwip/src/apps/snmp/snmp_snmpv2_usm.obj
+pico-sdk/lib/lwip/src/apps/snmp/snmp_pbuf_stream.obj: pico-sdk/lib/lwip/src/apps/snmp/snmp_pbuf_stream.c.obj
+.PHONY : pico-sdk/lib/lwip/src/apps/snmp/snmp_pbuf_stream.obj
 
 # target to build an object file
-lwip/src/apps/snmp/snmp_snmpv2_usm.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/lwip/src/apps/snmp/snmp_snmpv2_usm.c.obj
-.PHONY : lwip/src/apps/snmp/snmp_snmpv2_usm.c.obj
+pico-sdk/lib/lwip/src/apps/snmp/snmp_pbuf_stream.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/pico-sdk/lib/lwip/src/apps/snmp/snmp_pbuf_stream.c.obj
+.PHONY : pico-sdk/lib/lwip/src/apps/snmp/snmp_pbuf_stream.c.obj
 
-lwip/src/apps/snmp/snmp_snmpv2_usm.i: lwip/src/apps/snmp/snmp_snmpv2_usm.c.i
-.PHONY : lwip/src/apps/snmp/snmp_snmpv2_usm.i
+pico-sdk/lib/lwip/src/apps/snmp/snmp_pbuf_stream.i: pico-sdk/lib/lwip/src/apps/snmp/snmp_pbuf_stream.c.i
+.PHONY : pico-sdk/lib/lwip/src/apps/snmp/snmp_pbuf_stream.i
 
 # target to preprocess a source file
-lwip/src/apps/snmp/snmp_snmpv2_usm.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/lwip/src/apps/snmp/snmp_snmpv2_usm.c.i
-.PHONY : lwip/src/apps/snmp/snmp_snmpv2_usm.c.i
+pico-sdk/lib/lwip/src/apps/snmp/snmp_pbuf_stream.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/pico-sdk/lib/lwip/src/apps/snmp/snmp_pbuf_stream.c.i
+.PHONY : pico-sdk/lib/lwip/src/apps/snmp/snmp_pbuf_stream.c.i
 
-lwip/src/apps/snmp/snmp_snmpv2_usm.s: lwip/src/apps/snmp/snmp_snmpv2_usm.c.s
-.PHONY : lwip/src/apps/snmp/snmp_snmpv2_usm.s
+pico-sdk/lib/lwip/src/apps/snmp/snmp_pbuf_stream.s: pico-sdk/lib/lwip/src/apps/snmp/snmp_pbuf_stream.c.s
+.PHONY : pico-sdk/lib/lwip/src/apps/snmp/snmp_pbuf_stream.s
 
 # target to generate assembly for a file
-lwip/src/apps/snmp/snmp_snmpv2_usm.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/lwip/src/apps/snmp/snmp_snmpv2_usm.c.s
-.PHONY : lwip/src/apps/snmp/snmp_snmpv2_usm.c.s
+pico-sdk/lib/lwip/src/apps/snmp/snmp_pbuf_stream.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/pico-sdk/lib/lwip/src/apps/snmp/snmp_pbuf_stream.c.s
+.PHONY : pico-sdk/lib/lwip/src/apps/snmp/snmp_pbuf_stream.c.s
 
-lwip/src/apps/snmp/snmp_table.obj: lwip/src/apps/snmp/snmp_table.c.obj
-.PHONY : lwip/src/apps/snmp/snmp_table.obj
+pico-sdk/lib/lwip/src/apps/snmp/snmp_raw.obj: pico-sdk/lib/lwip/src/apps/snmp/snmp_raw.c.obj
+.PHONY : pico-sdk/lib/lwip/src/apps/snmp/snmp_raw.obj
 
 # target to build an object file
-lwip/src/apps/snmp/snmp_table.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/lwip/src/apps/snmp/snmp_table.c.obj
-.PHONY : lwip/src/apps/snmp/snmp_table.c.obj
+pico-sdk/lib/lwip/src/apps/snmp/snmp_raw.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/pico-sdk/lib/lwip/src/apps/snmp/snmp_raw.c.obj
+.PHONY : pico-sdk/lib/lwip/src/apps/snmp/snmp_raw.c.obj
 
-lwip/src/apps/snmp/snmp_table.i: lwip/src/apps/snmp/snmp_table.c.i
-.PHONY : lwip/src/apps/snmp/snmp_table.i
+pico-sdk/lib/lwip/src/apps/snmp/snmp_raw.i: pico-sdk/lib/lwip/src/apps/snmp/snmp_raw.c.i
+.PHONY : pico-sdk/lib/lwip/src/apps/snmp/snmp_raw.i
 
 # target to preprocess a source file
-lwip/src/apps/snmp/snmp_table.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/lwip/src/apps/snmp/snmp_table.c.i
-.PHONY : lwip/src/apps/snmp/snmp_table.c.i
+pico-sdk/lib/lwip/src/apps/snmp/snmp_raw.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/pico-sdk/lib/lwip/src/apps/snmp/snmp_raw.c.i
+.PHONY : pico-sdk/lib/lwip/src/apps/snmp/snmp_raw.c.i
 
-lwip/src/apps/snmp/snmp_table.s: lwip/src/apps/snmp/snmp_table.c.s
-.PHONY : lwip/src/apps/snmp/snmp_table.s
+pico-sdk/lib/lwip/src/apps/snmp/snmp_raw.s: pico-sdk/lib/lwip/src/apps/snmp/snmp_raw.c.s
+.PHONY : pico-sdk/lib/lwip/src/apps/snmp/snmp_raw.s
 
 # target to generate assembly for a file
-lwip/src/apps/snmp/snmp_table.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/lwip/src/apps/snmp/snmp_table.c.s
-.PHONY : lwip/src/apps/snmp/snmp_table.c.s
+pico-sdk/lib/lwip/src/apps/snmp/snmp_raw.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/pico-sdk/lib/lwip/src/apps/snmp/snmp_raw.c.s
+.PHONY : pico-sdk/lib/lwip/src/apps/snmp/snmp_raw.c.s
 
-lwip/src/apps/snmp/snmp_threadsync.obj: lwip/src/apps/snmp/snmp_threadsync.c.obj
-.PHONY : lwip/src/apps/snmp/snmp_threadsync.obj
+pico-sdk/lib/lwip/src/apps/snmp/snmp_scalar.obj: pico-sdk/lib/lwip/src/apps/snmp/snmp_scalar.c.obj
+.PHONY : pico-sdk/lib/lwip/src/apps/snmp/snmp_scalar.obj
 
 # target to build an object file
-lwip/src/apps/snmp/snmp_threadsync.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/lwip/src/apps/snmp/snmp_threadsync.c.obj
-.PHONY : lwip/src/apps/snmp/snmp_threadsync.c.obj
+pico-sdk/lib/lwip/src/apps/snmp/snmp_scalar.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/pico-sdk/lib/lwip/src/apps/snmp/snmp_scalar.c.obj
+.PHONY : pico-sdk/lib/lwip/src/apps/snmp/snmp_scalar.c.obj
 
-lwip/src/apps/snmp/snmp_threadsync.i: lwip/src/apps/snmp/snmp_threadsync.c.i
-.PHONY : lwip/src/apps/snmp/snmp_threadsync.i
+pico-sdk/lib/lwip/src/apps/snmp/snmp_scalar.i: pico-sdk/lib/lwip/src/apps/snmp/snmp_scalar.c.i
+.PHONY : pico-sdk/lib/lwip/src/apps/snmp/snmp_scalar.i
 
 # target to preprocess a source file
-lwip/src/apps/snmp/snmp_threadsync.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/lwip/src/apps/snmp/snmp_threadsync.c.i
-.PHONY : lwip/src/apps/snmp/snmp_threadsync.c.i
+pico-sdk/lib/lwip/src/apps/snmp/snmp_scalar.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/pico-sdk/lib/lwip/src/apps/snmp/snmp_scalar.c.i
+.PHONY : pico-sdk/lib/lwip/src/apps/snmp/snmp_scalar.c.i
 
-lwip/src/apps/snmp/snmp_threadsync.s: lwip/src/apps/snmp/snmp_threadsync.c.s
-.PHONY : lwip/src/apps/snmp/snmp_threadsync.s
+pico-sdk/lib/lwip/src/apps/snmp/snmp_scalar.s: pico-sdk/lib/lwip/src/apps/snmp/snmp_scalar.c.s
+.PHONY : pico-sdk/lib/lwip/src/apps/snmp/snmp_scalar.s
 
 # target to generate assembly for a file
-lwip/src/apps/snmp/snmp_threadsync.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/lwip/src/apps/snmp/snmp_threadsync.c.s
-.PHONY : lwip/src/apps/snmp/snmp_threadsync.c.s
+pico-sdk/lib/lwip/src/apps/snmp/snmp_scalar.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/pico-sdk/lib/lwip/src/apps/snmp/snmp_scalar.c.s
+.PHONY : pico-sdk/lib/lwip/src/apps/snmp/snmp_scalar.c.s
 
-lwip/src/apps/snmp/snmp_traps.obj: lwip/src/apps/snmp/snmp_traps.c.obj
-.PHONY : lwip/src/apps/snmp/snmp_traps.obj
+pico-sdk/lib/lwip/src/apps/snmp/snmp_snmpv2_framework.obj: pico-sdk/lib/lwip/src/apps/snmp/snmp_snmpv2_framework.c.obj
+.PHONY : pico-sdk/lib/lwip/src/apps/snmp/snmp_snmpv2_framework.obj
 
 # target to build an object file
-lwip/src/apps/snmp/snmp_traps.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/lwip/src/apps/snmp/snmp_traps.c.obj
-.PHONY : lwip/src/apps/snmp/snmp_traps.c.obj
+pico-sdk/lib/lwip/src/apps/snmp/snmp_snmpv2_framework.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/pico-sdk/lib/lwip/src/apps/snmp/snmp_snmpv2_framework.c.obj
+.PHONY : pico-sdk/lib/lwip/src/apps/snmp/snmp_snmpv2_framework.c.obj
 
-lwip/src/apps/snmp/snmp_traps.i: lwip/src/apps/snmp/snmp_traps.c.i
-.PHONY : lwip/src/apps/snmp/snmp_traps.i
+pico-sdk/lib/lwip/src/apps/snmp/snmp_snmpv2_framework.i: pico-sdk/lib/lwip/src/apps/snmp/snmp_snmpv2_framework.c.i
+.PHONY : pico-sdk/lib/lwip/src/apps/snmp/snmp_snmpv2_framework.i
 
 # target to preprocess a source file
-lwip/src/apps/snmp/snmp_traps.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/lwip/src/apps/snmp/snmp_traps.c.i
-.PHONY : lwip/src/apps/snmp/snmp_traps.c.i
+pico-sdk/lib/lwip/src/apps/snmp/snmp_snmpv2_framework.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/pico-sdk/lib/lwip/src/apps/snmp/snmp_snmpv2_framework.c.i
+.PHONY : pico-sdk/lib/lwip/src/apps/snmp/snmp_snmpv2_framework.c.i
 
-lwip/src/apps/snmp/snmp_traps.s: lwip/src/apps/snmp/snmp_traps.c.s
-.PHONY : lwip/src/apps/snmp/snmp_traps.s
+pico-sdk/lib/lwip/src/apps/snmp/snmp_snmpv2_framework.s: pico-sdk/lib/lwip/src/apps/snmp/snmp_snmpv2_framework.c.s
+.PHONY : pico-sdk/lib/lwip/src/apps/snmp/snmp_snmpv2_framework.s
 
 # target to generate assembly for a file
-lwip/src/apps/snmp/snmp_traps.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/lwip/src/apps/snmp/snmp_traps.c.s
-.PHONY : lwip/src/apps/snmp/snmp_traps.c.s
+pico-sdk/lib/lwip/src/apps/snmp/snmp_snmpv2_framework.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/pico-sdk/lib/lwip/src/apps/snmp/snmp_snmpv2_framework.c.s
+.PHONY : pico-sdk/lib/lwip/src/apps/snmp/snmp_snmpv2_framework.c.s
 
-lwip/src/apps/snmp/snmpv3.obj: lwip/src/apps/snmp/snmpv3.c.obj
-.PHONY : lwip/src/apps/snmp/snmpv3.obj
+pico-sdk/lib/lwip/src/apps/snmp/snmp_snmpv2_usm.obj: pico-sdk/lib/lwip/src/apps/snmp/snmp_snmpv2_usm.c.obj
+.PHONY : pico-sdk/lib/lwip/src/apps/snmp/snmp_snmpv2_usm.obj
 
 # target to build an object file
-lwip/src/apps/snmp/snmpv3.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/lwip/src/apps/snmp/snmpv3.c.obj
-.PHONY : lwip/src/apps/snmp/snmpv3.c.obj
+pico-sdk/lib/lwip/src/apps/snmp/snmp_snmpv2_usm.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/pico-sdk/lib/lwip/src/apps/snmp/snmp_snmpv2_usm.c.obj
+.PHONY : pico-sdk/lib/lwip/src/apps/snmp/snmp_snmpv2_usm.c.obj
 
-lwip/src/apps/snmp/snmpv3.i: lwip/src/apps/snmp/snmpv3.c.i
-.PHONY : lwip/src/apps/snmp/snmpv3.i
+pico-sdk/lib/lwip/src/apps/snmp/snmp_snmpv2_usm.i: pico-sdk/lib/lwip/src/apps/snmp/snmp_snmpv2_usm.c.i
+.PHONY : pico-sdk/lib/lwip/src/apps/snmp/snmp_snmpv2_usm.i
 
 # target to preprocess a source file
-lwip/src/apps/snmp/snmpv3.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/lwip/src/apps/snmp/snmpv3.c.i
-.PHONY : lwip/src/apps/snmp/snmpv3.c.i
+pico-sdk/lib/lwip/src/apps/snmp/snmp_snmpv2_usm.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/pico-sdk/lib/lwip/src/apps/snmp/snmp_snmpv2_usm.c.i
+.PHONY : pico-sdk/lib/lwip/src/apps/snmp/snmp_snmpv2_usm.c.i
 
-lwip/src/apps/snmp/snmpv3.s: lwip/src/apps/snmp/snmpv3.c.s
-.PHONY : lwip/src/apps/snmp/snmpv3.s
+pico-sdk/lib/lwip/src/apps/snmp/snmp_snmpv2_usm.s: pico-sdk/lib/lwip/src/apps/snmp/snmp_snmpv2_usm.c.s
+.PHONY : pico-sdk/lib/lwip/src/apps/snmp/snmp_snmpv2_usm.s
 
 # target to generate assembly for a file
-lwip/src/apps/snmp/snmpv3.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/lwip/src/apps/snmp/snmpv3.c.s
-.PHONY : lwip/src/apps/snmp/snmpv3.c.s
+pico-sdk/lib/lwip/src/apps/snmp/snmp_snmpv2_usm.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/pico-sdk/lib/lwip/src/apps/snmp/snmp_snmpv2_usm.c.s
+.PHONY : pico-sdk/lib/lwip/src/apps/snmp/snmp_snmpv2_usm.c.s
 
-lwip/src/apps/snmp/snmpv3_mbedtls.obj: lwip/src/apps/snmp/snmpv3_mbedtls.c.obj
-.PHONY : lwip/src/apps/snmp/snmpv3_mbedtls.obj
+pico-sdk/lib/lwip/src/apps/snmp/snmp_table.obj: pico-sdk/lib/lwip/src/apps/snmp/snmp_table.c.obj
+.PHONY : pico-sdk/lib/lwip/src/apps/snmp/snmp_table.obj
 
 # target to build an object file
-lwip/src/apps/snmp/snmpv3_mbedtls.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipmbedtls.dir/build.make CMakeFiles/lwipmbedtls.dir/lwip/src/apps/snmp/snmpv3_mbedtls.c.obj
-.PHONY : lwip/src/apps/snmp/snmpv3_mbedtls.c.obj
+pico-sdk/lib/lwip/src/apps/snmp/snmp_table.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/pico-sdk/lib/lwip/src/apps/snmp/snmp_table.c.obj
+.PHONY : pico-sdk/lib/lwip/src/apps/snmp/snmp_table.c.obj
 
-lwip/src/apps/snmp/snmpv3_mbedtls.i: lwip/src/apps/snmp/snmpv3_mbedtls.c.i
-.PHONY : lwip/src/apps/snmp/snmpv3_mbedtls.i
+pico-sdk/lib/lwip/src/apps/snmp/snmp_table.i: pico-sdk/lib/lwip/src/apps/snmp/snmp_table.c.i
+.PHONY : pico-sdk/lib/lwip/src/apps/snmp/snmp_table.i
 
 # target to preprocess a source file
-lwip/src/apps/snmp/snmpv3_mbedtls.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipmbedtls.dir/build.make CMakeFiles/lwipmbedtls.dir/lwip/src/apps/snmp/snmpv3_mbedtls.c.i
-.PHONY : lwip/src/apps/snmp/snmpv3_mbedtls.c.i
+pico-sdk/lib/lwip/src/apps/snmp/snmp_table.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/pico-sdk/lib/lwip/src/apps/snmp/snmp_table.c.i
+.PHONY : pico-sdk/lib/lwip/src/apps/snmp/snmp_table.c.i
 
-lwip/src/apps/snmp/snmpv3_mbedtls.s: lwip/src/apps/snmp/snmpv3_mbedtls.c.s
-.PHONY : lwip/src/apps/snmp/snmpv3_mbedtls.s
+pico-sdk/lib/lwip/src/apps/snmp/snmp_table.s: pico-sdk/lib/lwip/src/apps/snmp/snmp_table.c.s
+.PHONY : pico-sdk/lib/lwip/src/apps/snmp/snmp_table.s
 
 # target to generate assembly for a file
-lwip/src/apps/snmp/snmpv3_mbedtls.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipmbedtls.dir/build.make CMakeFiles/lwipmbedtls.dir/lwip/src/apps/snmp/snmpv3_mbedtls.c.s
-.PHONY : lwip/src/apps/snmp/snmpv3_mbedtls.c.s
+pico-sdk/lib/lwip/src/apps/snmp/snmp_table.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/pico-sdk/lib/lwip/src/apps/snmp/snmp_table.c.s
+.PHONY : pico-sdk/lib/lwip/src/apps/snmp/snmp_table.c.s
 
-lwip/src/apps/sntp/sntp.obj: lwip/src/apps/sntp/sntp.c.obj
-.PHONY : lwip/src/apps/sntp/sntp.obj
+pico-sdk/lib/lwip/src/apps/snmp/snmp_threadsync.obj: pico-sdk/lib/lwip/src/apps/snmp/snmp_threadsync.c.obj
+.PHONY : pico-sdk/lib/lwip/src/apps/snmp/snmp_threadsync.obj
 
 # target to build an object file
-lwip/src/apps/sntp/sntp.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/lwip/src/apps/sntp/sntp.c.obj
-.PHONY : lwip/src/apps/sntp/sntp.c.obj
+pico-sdk/lib/lwip/src/apps/snmp/snmp_threadsync.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/pico-sdk/lib/lwip/src/apps/snmp/snmp_threadsync.c.obj
+.PHONY : pico-sdk/lib/lwip/src/apps/snmp/snmp_threadsync.c.obj
 
-lwip/src/apps/sntp/sntp.i: lwip/src/apps/sntp/sntp.c.i
-.PHONY : lwip/src/apps/sntp/sntp.i
+pico-sdk/lib/lwip/src/apps/snmp/snmp_threadsync.i: pico-sdk/lib/lwip/src/apps/snmp/snmp_threadsync.c.i
+.PHONY : pico-sdk/lib/lwip/src/apps/snmp/snmp_threadsync.i
 
 # target to preprocess a source file
-lwip/src/apps/sntp/sntp.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/lwip/src/apps/sntp/sntp.c.i
-.PHONY : lwip/src/apps/sntp/sntp.c.i
+pico-sdk/lib/lwip/src/apps/snmp/snmp_threadsync.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/pico-sdk/lib/lwip/src/apps/snmp/snmp_threadsync.c.i
+.PHONY : pico-sdk/lib/lwip/src/apps/snmp/snmp_threadsync.c.i
 
-lwip/src/apps/sntp/sntp.s: lwip/src/apps/sntp/sntp.c.s
-.PHONY : lwip/src/apps/sntp/sntp.s
+pico-sdk/lib/lwip/src/apps/snmp/snmp_threadsync.s: pico-sdk/lib/lwip/src/apps/snmp/snmp_threadsync.c.s
+.PHONY : pico-sdk/lib/lwip/src/apps/snmp/snmp_threadsync.s
 
 # target to generate assembly for a file
-lwip/src/apps/sntp/sntp.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/lwip/src/apps/sntp/sntp.c.s
-.PHONY : lwip/src/apps/sntp/sntp.c.s
+pico-sdk/lib/lwip/src/apps/snmp/snmp_threadsync.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/pico-sdk/lib/lwip/src/apps/snmp/snmp_threadsync.c.s
+.PHONY : pico-sdk/lib/lwip/src/apps/snmp/snmp_threadsync.c.s
 
-lwip/src/apps/tftp/tftp.obj: lwip/src/apps/tftp/tftp.c.obj
-.PHONY : lwip/src/apps/tftp/tftp.obj
+pico-sdk/lib/lwip/src/apps/snmp/snmp_traps.obj: pico-sdk/lib/lwip/src/apps/snmp/snmp_traps.c.obj
+.PHONY : pico-sdk/lib/lwip/src/apps/snmp/snmp_traps.obj
 
 # target to build an object file
-lwip/src/apps/tftp/tftp.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/lwip/src/apps/tftp/tftp.c.obj
-.PHONY : lwip/src/apps/tftp/tftp.c.obj
+pico-sdk/lib/lwip/src/apps/snmp/snmp_traps.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/pico-sdk/lib/lwip/src/apps/snmp/snmp_traps.c.obj
+.PHONY : pico-sdk/lib/lwip/src/apps/snmp/snmp_traps.c.obj
 
-lwip/src/apps/tftp/tftp.i: lwip/src/apps/tftp/tftp.c.i
-.PHONY : lwip/src/apps/tftp/tftp.i
+pico-sdk/lib/lwip/src/apps/snmp/snmp_traps.i: pico-sdk/lib/lwip/src/apps/snmp/snmp_traps.c.i
+.PHONY : pico-sdk/lib/lwip/src/apps/snmp/snmp_traps.i
 
 # target to preprocess a source file
-lwip/src/apps/tftp/tftp.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/lwip/src/apps/tftp/tftp.c.i
-.PHONY : lwip/src/apps/tftp/tftp.c.i
+pico-sdk/lib/lwip/src/apps/snmp/snmp_traps.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/pico-sdk/lib/lwip/src/apps/snmp/snmp_traps.c.i
+.PHONY : pico-sdk/lib/lwip/src/apps/snmp/snmp_traps.c.i
 
-lwip/src/apps/tftp/tftp.s: lwip/src/apps/tftp/tftp.c.s
-.PHONY : lwip/src/apps/tftp/tftp.s
+pico-sdk/lib/lwip/src/apps/snmp/snmp_traps.s: pico-sdk/lib/lwip/src/apps/snmp/snmp_traps.c.s
+.PHONY : pico-sdk/lib/lwip/src/apps/snmp/snmp_traps.s
 
 # target to generate assembly for a file
-lwip/src/apps/tftp/tftp.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/lwip/src/apps/tftp/tftp.c.s
-.PHONY : lwip/src/apps/tftp/tftp.c.s
+pico-sdk/lib/lwip/src/apps/snmp/snmp_traps.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/pico-sdk/lib/lwip/src/apps/snmp/snmp_traps.c.s
+.PHONY : pico-sdk/lib/lwip/src/apps/snmp/snmp_traps.c.s
 
-lwip/src/core/altcp.obj: lwip/src/core/altcp.c.obj
-.PHONY : lwip/src/core/altcp.obj
+pico-sdk/lib/lwip/src/apps/snmp/snmpv3.obj: pico-sdk/lib/lwip/src/apps/snmp/snmpv3.c.obj
+.PHONY : pico-sdk/lib/lwip/src/apps/snmp/snmpv3.obj
 
 # target to build an object file
-lwip/src/core/altcp.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/core/altcp.c.obj
-.PHONY : lwip/src/core/altcp.c.obj
+pico-sdk/lib/lwip/src/apps/snmp/snmpv3.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/pico-sdk/lib/lwip/src/apps/snmp/snmpv3.c.obj
+.PHONY : pico-sdk/lib/lwip/src/apps/snmp/snmpv3.c.obj
 
-lwip/src/core/altcp.i: lwip/src/core/altcp.c.i
-.PHONY : lwip/src/core/altcp.i
+pico-sdk/lib/lwip/src/apps/snmp/snmpv3.i: pico-sdk/lib/lwip/src/apps/snmp/snmpv3.c.i
+.PHONY : pico-sdk/lib/lwip/src/apps/snmp/snmpv3.i
 
 # target to preprocess a source file
-lwip/src/core/altcp.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/core/altcp.c.i
-.PHONY : lwip/src/core/altcp.c.i
+pico-sdk/lib/lwip/src/apps/snmp/snmpv3.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/pico-sdk/lib/lwip/src/apps/snmp/snmpv3.c.i
+.PHONY : pico-sdk/lib/lwip/src/apps/snmp/snmpv3.c.i
 
-lwip/src/core/altcp.s: lwip/src/core/altcp.c.s
-.PHONY : lwip/src/core/altcp.s
+pico-sdk/lib/lwip/src/apps/snmp/snmpv3.s: pico-sdk/lib/lwip/src/apps/snmp/snmpv3.c.s
+.PHONY : pico-sdk/lib/lwip/src/apps/snmp/snmpv3.s
 
 # target to generate assembly for a file
-lwip/src/core/altcp.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/core/altcp.c.s
-.PHONY : lwip/src/core/altcp.c.s
+pico-sdk/lib/lwip/src/apps/snmp/snmpv3.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/pico-sdk/lib/lwip/src/apps/snmp/snmpv3.c.s
+.PHONY : pico-sdk/lib/lwip/src/apps/snmp/snmpv3.c.s
 
-lwip/src/core/altcp_alloc.obj: lwip/src/core/altcp_alloc.c.obj
-.PHONY : lwip/src/core/altcp_alloc.obj
+pico-sdk/lib/lwip/src/apps/snmp/snmpv3_mbedtls.obj: pico-sdk/lib/lwip/src/apps/snmp/snmpv3_mbedtls.c.obj
+.PHONY : pico-sdk/lib/lwip/src/apps/snmp/snmpv3_mbedtls.obj
 
 # target to build an object file
-lwip/src/core/altcp_alloc.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/core/altcp_alloc.c.obj
-.PHONY : lwip/src/core/altcp_alloc.c.obj
+pico-sdk/lib/lwip/src/apps/snmp/snmpv3_mbedtls.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipmbedtls.dir/build.make CMakeFiles/lwipmbedtls.dir/pico-sdk/lib/lwip/src/apps/snmp/snmpv3_mbedtls.c.obj
+.PHONY : pico-sdk/lib/lwip/src/apps/snmp/snmpv3_mbedtls.c.obj
 
-lwip/src/core/altcp_alloc.i: lwip/src/core/altcp_alloc.c.i
-.PHONY : lwip/src/core/altcp_alloc.i
+pico-sdk/lib/lwip/src/apps/snmp/snmpv3_mbedtls.i: pico-sdk/lib/lwip/src/apps/snmp/snmpv3_mbedtls.c.i
+.PHONY : pico-sdk/lib/lwip/src/apps/snmp/snmpv3_mbedtls.i
 
 # target to preprocess a source file
-lwip/src/core/altcp_alloc.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/core/altcp_alloc.c.i
-.PHONY : lwip/src/core/altcp_alloc.c.i
+pico-sdk/lib/lwip/src/apps/snmp/snmpv3_mbedtls.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipmbedtls.dir/build.make CMakeFiles/lwipmbedtls.dir/pico-sdk/lib/lwip/src/apps/snmp/snmpv3_mbedtls.c.i
+.PHONY : pico-sdk/lib/lwip/src/apps/snmp/snmpv3_mbedtls.c.i
 
-lwip/src/core/altcp_alloc.s: lwip/src/core/altcp_alloc.c.s
-.PHONY : lwip/src/core/altcp_alloc.s
+pico-sdk/lib/lwip/src/apps/snmp/snmpv3_mbedtls.s: pico-sdk/lib/lwip/src/apps/snmp/snmpv3_mbedtls.c.s
+.PHONY : pico-sdk/lib/lwip/src/apps/snmp/snmpv3_mbedtls.s
 
 # target to generate assembly for a file
-lwip/src/core/altcp_alloc.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/core/altcp_alloc.c.s
-.PHONY : lwip/src/core/altcp_alloc.c.s
+pico-sdk/lib/lwip/src/apps/snmp/snmpv3_mbedtls.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipmbedtls.dir/build.make CMakeFiles/lwipmbedtls.dir/pico-sdk/lib/lwip/src/apps/snmp/snmpv3_mbedtls.c.s
+.PHONY : pico-sdk/lib/lwip/src/apps/snmp/snmpv3_mbedtls.c.s
 
-lwip/src/core/altcp_tcp.obj: lwip/src/core/altcp_tcp.c.obj
-.PHONY : lwip/src/core/altcp_tcp.obj
+pico-sdk/lib/lwip/src/apps/sntp/sntp.obj: pico-sdk/lib/lwip/src/apps/sntp/sntp.c.obj
+.PHONY : pico-sdk/lib/lwip/src/apps/sntp/sntp.obj
 
 # target to build an object file
-lwip/src/core/altcp_tcp.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/core/altcp_tcp.c.obj
-.PHONY : lwip/src/core/altcp_tcp.c.obj
+pico-sdk/lib/lwip/src/apps/sntp/sntp.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/pico-sdk/lib/lwip/src/apps/sntp/sntp.c.obj
+.PHONY : pico-sdk/lib/lwip/src/apps/sntp/sntp.c.obj
 
-lwip/src/core/altcp_tcp.i: lwip/src/core/altcp_tcp.c.i
-.PHONY : lwip/src/core/altcp_tcp.i
+pico-sdk/lib/lwip/src/apps/sntp/sntp.i: pico-sdk/lib/lwip/src/apps/sntp/sntp.c.i
+.PHONY : pico-sdk/lib/lwip/src/apps/sntp/sntp.i
 
 # target to preprocess a source file
-lwip/src/core/altcp_tcp.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/core/altcp_tcp.c.i
-.PHONY : lwip/src/core/altcp_tcp.c.i
+pico-sdk/lib/lwip/src/apps/sntp/sntp.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/pico-sdk/lib/lwip/src/apps/sntp/sntp.c.i
+.PHONY : pico-sdk/lib/lwip/src/apps/sntp/sntp.c.i
 
-lwip/src/core/altcp_tcp.s: lwip/src/core/altcp_tcp.c.s
-.PHONY : lwip/src/core/altcp_tcp.s
+pico-sdk/lib/lwip/src/apps/sntp/sntp.s: pico-sdk/lib/lwip/src/apps/sntp/sntp.c.s
+.PHONY : pico-sdk/lib/lwip/src/apps/sntp/sntp.s
 
 # target to generate assembly for a file
-lwip/src/core/altcp_tcp.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/core/altcp_tcp.c.s
-.PHONY : lwip/src/core/altcp_tcp.c.s
+pico-sdk/lib/lwip/src/apps/sntp/sntp.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/pico-sdk/lib/lwip/src/apps/sntp/sntp.c.s
+.PHONY : pico-sdk/lib/lwip/src/apps/sntp/sntp.c.s
 
-lwip/src/core/def.obj: lwip/src/core/def.c.obj
-.PHONY : lwip/src/core/def.obj
+pico-sdk/lib/lwip/src/apps/tftp/tftp.obj: pico-sdk/lib/lwip/src/apps/tftp/tftp.c.obj
+.PHONY : pico-sdk/lib/lwip/src/apps/tftp/tftp.obj
 
 # target to build an object file
-lwip/src/core/def.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/core/def.c.obj
-.PHONY : lwip/src/core/def.c.obj
+pico-sdk/lib/lwip/src/apps/tftp/tftp.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/pico-sdk/lib/lwip/src/apps/tftp/tftp.c.obj
+.PHONY : pico-sdk/lib/lwip/src/apps/tftp/tftp.c.obj
 
-lwip/src/core/def.i: lwip/src/core/def.c.i
-.PHONY : lwip/src/core/def.i
+pico-sdk/lib/lwip/src/apps/tftp/tftp.i: pico-sdk/lib/lwip/src/apps/tftp/tftp.c.i
+.PHONY : pico-sdk/lib/lwip/src/apps/tftp/tftp.i
 
 # target to preprocess a source file
-lwip/src/core/def.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/core/def.c.i
-.PHONY : lwip/src/core/def.c.i
+pico-sdk/lib/lwip/src/apps/tftp/tftp.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/pico-sdk/lib/lwip/src/apps/tftp/tftp.c.i
+.PHONY : pico-sdk/lib/lwip/src/apps/tftp/tftp.c.i
 
-lwip/src/core/def.s: lwip/src/core/def.c.s
-.PHONY : lwip/src/core/def.s
+pico-sdk/lib/lwip/src/apps/tftp/tftp.s: pico-sdk/lib/lwip/src/apps/tftp/tftp.c.s
+.PHONY : pico-sdk/lib/lwip/src/apps/tftp/tftp.s
 
 # target to generate assembly for a file
-lwip/src/core/def.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/core/def.c.s
-.PHONY : lwip/src/core/def.c.s
+pico-sdk/lib/lwip/src/apps/tftp/tftp.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/pico-sdk/lib/lwip/src/apps/tftp/tftp.c.s
+.PHONY : pico-sdk/lib/lwip/src/apps/tftp/tftp.c.s
 
-lwip/src/core/dns.obj: lwip/src/core/dns.c.obj
-.PHONY : lwip/src/core/dns.obj
+pico-sdk/lib/lwip/src/core/altcp.obj: pico-sdk/lib/lwip/src/core/altcp.c.obj
+.PHONY : pico-sdk/lib/lwip/src/core/altcp.obj
 
 # target to build an object file
-lwip/src/core/dns.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/core/dns.c.obj
-.PHONY : lwip/src/core/dns.c.obj
+pico-sdk/lib/lwip/src/core/altcp.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/core/altcp.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/altcp.c.obj
+.PHONY : pico-sdk/lib/lwip/src/core/altcp.c.obj
 
-lwip/src/core/dns.i: lwip/src/core/dns.c.i
-.PHONY : lwip/src/core/dns.i
+pico-sdk/lib/lwip/src/core/altcp.i: pico-sdk/lib/lwip/src/core/altcp.c.i
+.PHONY : pico-sdk/lib/lwip/src/core/altcp.i
 
 # target to preprocess a source file
-lwip/src/core/dns.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/core/dns.c.i
-.PHONY : lwip/src/core/dns.c.i
+pico-sdk/lib/lwip/src/core/altcp.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/core/altcp.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/altcp.c.i
+.PHONY : pico-sdk/lib/lwip/src/core/altcp.c.i
 
-lwip/src/core/dns.s: lwip/src/core/dns.c.s
-.PHONY : lwip/src/core/dns.s
+pico-sdk/lib/lwip/src/core/altcp.s: pico-sdk/lib/lwip/src/core/altcp.c.s
+.PHONY : pico-sdk/lib/lwip/src/core/altcp.s
 
 # target to generate assembly for a file
-lwip/src/core/dns.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/core/dns.c.s
-.PHONY : lwip/src/core/dns.c.s
+pico-sdk/lib/lwip/src/core/altcp.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/core/altcp.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/altcp.c.s
+.PHONY : pico-sdk/lib/lwip/src/core/altcp.c.s
 
-lwip/src/core/inet_chksum.obj: lwip/src/core/inet_chksum.c.obj
-.PHONY : lwip/src/core/inet_chksum.obj
+pico-sdk/lib/lwip/src/core/altcp_alloc.obj: pico-sdk/lib/lwip/src/core/altcp_alloc.c.obj
+.PHONY : pico-sdk/lib/lwip/src/core/altcp_alloc.obj
 
 # target to build an object file
-lwip/src/core/inet_chksum.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/core/inet_chksum.c.obj
-.PHONY : lwip/src/core/inet_chksum.c.obj
+pico-sdk/lib/lwip/src/core/altcp_alloc.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/core/altcp_alloc.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/altcp_alloc.c.obj
+.PHONY : pico-sdk/lib/lwip/src/core/altcp_alloc.c.obj
 
-lwip/src/core/inet_chksum.i: lwip/src/core/inet_chksum.c.i
-.PHONY : lwip/src/core/inet_chksum.i
+pico-sdk/lib/lwip/src/core/altcp_alloc.i: pico-sdk/lib/lwip/src/core/altcp_alloc.c.i
+.PHONY : pico-sdk/lib/lwip/src/core/altcp_alloc.i
 
 # target to preprocess a source file
-lwip/src/core/inet_chksum.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/core/inet_chksum.c.i
-.PHONY : lwip/src/core/inet_chksum.c.i
+pico-sdk/lib/lwip/src/core/altcp_alloc.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/core/altcp_alloc.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/altcp_alloc.c.i
+.PHONY : pico-sdk/lib/lwip/src/core/altcp_alloc.c.i
 
-lwip/src/core/inet_chksum.s: lwip/src/core/inet_chksum.c.s
-.PHONY : lwip/src/core/inet_chksum.s
+pico-sdk/lib/lwip/src/core/altcp_alloc.s: pico-sdk/lib/lwip/src/core/altcp_alloc.c.s
+.PHONY : pico-sdk/lib/lwip/src/core/altcp_alloc.s
 
 # target to generate assembly for a file
-lwip/src/core/inet_chksum.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/core/inet_chksum.c.s
-.PHONY : lwip/src/core/inet_chksum.c.s
+pico-sdk/lib/lwip/src/core/altcp_alloc.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/core/altcp_alloc.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/altcp_alloc.c.s
+.PHONY : pico-sdk/lib/lwip/src/core/altcp_alloc.c.s
 
-lwip/src/core/init.obj: lwip/src/core/init.c.obj
-.PHONY : lwip/src/core/init.obj
+pico-sdk/lib/lwip/src/core/altcp_tcp.obj: pico-sdk/lib/lwip/src/core/altcp_tcp.c.obj
+.PHONY : pico-sdk/lib/lwip/src/core/altcp_tcp.obj
 
 # target to build an object file
-lwip/src/core/init.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/core/init.c.obj
-.PHONY : lwip/src/core/init.c.obj
+pico-sdk/lib/lwip/src/core/altcp_tcp.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/core/altcp_tcp.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/altcp_tcp.c.obj
+.PHONY : pico-sdk/lib/lwip/src/core/altcp_tcp.c.obj
 
-lwip/src/core/init.i: lwip/src/core/init.c.i
-.PHONY : lwip/src/core/init.i
+pico-sdk/lib/lwip/src/core/altcp_tcp.i: pico-sdk/lib/lwip/src/core/altcp_tcp.c.i
+.PHONY : pico-sdk/lib/lwip/src/core/altcp_tcp.i
 
 # target to preprocess a source file
-lwip/src/core/init.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/core/init.c.i
-.PHONY : lwip/src/core/init.c.i
+pico-sdk/lib/lwip/src/core/altcp_tcp.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/core/altcp_tcp.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/altcp_tcp.c.i
+.PHONY : pico-sdk/lib/lwip/src/core/altcp_tcp.c.i
 
-lwip/src/core/init.s: lwip/src/core/init.c.s
-.PHONY : lwip/src/core/init.s
+pico-sdk/lib/lwip/src/core/altcp_tcp.s: pico-sdk/lib/lwip/src/core/altcp_tcp.c.s
+.PHONY : pico-sdk/lib/lwip/src/core/altcp_tcp.s
 
 # target to generate assembly for a file
-lwip/src/core/init.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/core/init.c.s
-.PHONY : lwip/src/core/init.c.s
+pico-sdk/lib/lwip/src/core/altcp_tcp.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/core/altcp_tcp.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/altcp_tcp.c.s
+.PHONY : pico-sdk/lib/lwip/src/core/altcp_tcp.c.s
 
-lwip/src/core/ip.obj: lwip/src/core/ip.c.obj
-.PHONY : lwip/src/core/ip.obj
+pico-sdk/lib/lwip/src/core/def.obj: pico-sdk/lib/lwip/src/core/def.c.obj
+.PHONY : pico-sdk/lib/lwip/src/core/def.obj
 
 # target to build an object file
-lwip/src/core/ip.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/core/ip.c.obj
-.PHONY : lwip/src/core/ip.c.obj
+pico-sdk/lib/lwip/src/core/def.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/core/def.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/def.c.obj
+.PHONY : pico-sdk/lib/lwip/src/core/def.c.obj
 
-lwip/src/core/ip.i: lwip/src/core/ip.c.i
-.PHONY : lwip/src/core/ip.i
+pico-sdk/lib/lwip/src/core/def.i: pico-sdk/lib/lwip/src/core/def.c.i
+.PHONY : pico-sdk/lib/lwip/src/core/def.i
 
 # target to preprocess a source file
-lwip/src/core/ip.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/core/ip.c.i
-.PHONY : lwip/src/core/ip.c.i
+pico-sdk/lib/lwip/src/core/def.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/core/def.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/def.c.i
+.PHONY : pico-sdk/lib/lwip/src/core/def.c.i
 
-lwip/src/core/ip.s: lwip/src/core/ip.c.s
-.PHONY : lwip/src/core/ip.s
+pico-sdk/lib/lwip/src/core/def.s: pico-sdk/lib/lwip/src/core/def.c.s
+.PHONY : pico-sdk/lib/lwip/src/core/def.s
 
 # target to generate assembly for a file
-lwip/src/core/ip.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/core/ip.c.s
-.PHONY : lwip/src/core/ip.c.s
+pico-sdk/lib/lwip/src/core/def.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/core/def.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/def.c.s
+.PHONY : pico-sdk/lib/lwip/src/core/def.c.s
 
-lwip/src/core/ipv4/acd.obj: lwip/src/core/ipv4/acd.c.obj
-.PHONY : lwip/src/core/ipv4/acd.obj
+pico-sdk/lib/lwip/src/core/dns.obj: pico-sdk/lib/lwip/src/core/dns.c.obj
+.PHONY : pico-sdk/lib/lwip/src/core/dns.obj
 
 # target to build an object file
-lwip/src/core/ipv4/acd.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/core/ipv4/acd.c.obj
-.PHONY : lwip/src/core/ipv4/acd.c.obj
+pico-sdk/lib/lwip/src/core/dns.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/core/dns.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/dns.c.obj
+.PHONY : pico-sdk/lib/lwip/src/core/dns.c.obj
 
-lwip/src/core/ipv4/acd.i: lwip/src/core/ipv4/acd.c.i
-.PHONY : lwip/src/core/ipv4/acd.i
+pico-sdk/lib/lwip/src/core/dns.i: pico-sdk/lib/lwip/src/core/dns.c.i
+.PHONY : pico-sdk/lib/lwip/src/core/dns.i
 
 # target to preprocess a source file
-lwip/src/core/ipv4/acd.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/core/ipv4/acd.c.i
-.PHONY : lwip/src/core/ipv4/acd.c.i
+pico-sdk/lib/lwip/src/core/dns.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/core/dns.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/dns.c.i
+.PHONY : pico-sdk/lib/lwip/src/core/dns.c.i
 
-lwip/src/core/ipv4/acd.s: lwip/src/core/ipv4/acd.c.s
-.PHONY : lwip/src/core/ipv4/acd.s
+pico-sdk/lib/lwip/src/core/dns.s: pico-sdk/lib/lwip/src/core/dns.c.s
+.PHONY : pico-sdk/lib/lwip/src/core/dns.s
 
 # target to generate assembly for a file
-lwip/src/core/ipv4/acd.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/core/ipv4/acd.c.s
-.PHONY : lwip/src/core/ipv4/acd.c.s
+pico-sdk/lib/lwip/src/core/dns.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/core/dns.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/dns.c.s
+.PHONY : pico-sdk/lib/lwip/src/core/dns.c.s
 
-lwip/src/core/ipv4/autoip.obj: lwip/src/core/ipv4/autoip.c.obj
-.PHONY : lwip/src/core/ipv4/autoip.obj
+pico-sdk/lib/lwip/src/core/inet_chksum.obj: pico-sdk/lib/lwip/src/core/inet_chksum.c.obj
+.PHONY : pico-sdk/lib/lwip/src/core/inet_chksum.obj
 
 # target to build an object file
-lwip/src/core/ipv4/autoip.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/core/ipv4/autoip.c.obj
-.PHONY : lwip/src/core/ipv4/autoip.c.obj
+pico-sdk/lib/lwip/src/core/inet_chksum.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/core/inet_chksum.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/inet_chksum.c.obj
+.PHONY : pico-sdk/lib/lwip/src/core/inet_chksum.c.obj
 
-lwip/src/core/ipv4/autoip.i: lwip/src/core/ipv4/autoip.c.i
-.PHONY : lwip/src/core/ipv4/autoip.i
+pico-sdk/lib/lwip/src/core/inet_chksum.i: pico-sdk/lib/lwip/src/core/inet_chksum.c.i
+.PHONY : pico-sdk/lib/lwip/src/core/inet_chksum.i
 
 # target to preprocess a source file
-lwip/src/core/ipv4/autoip.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/core/ipv4/autoip.c.i
-.PHONY : lwip/src/core/ipv4/autoip.c.i
+pico-sdk/lib/lwip/src/core/inet_chksum.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/core/inet_chksum.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/inet_chksum.c.i
+.PHONY : pico-sdk/lib/lwip/src/core/inet_chksum.c.i
 
-lwip/src/core/ipv4/autoip.s: lwip/src/core/ipv4/autoip.c.s
-.PHONY : lwip/src/core/ipv4/autoip.s
+pico-sdk/lib/lwip/src/core/inet_chksum.s: pico-sdk/lib/lwip/src/core/inet_chksum.c.s
+.PHONY : pico-sdk/lib/lwip/src/core/inet_chksum.s
 
 # target to generate assembly for a file
-lwip/src/core/ipv4/autoip.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/core/ipv4/autoip.c.s
-.PHONY : lwip/src/core/ipv4/autoip.c.s
+pico-sdk/lib/lwip/src/core/inet_chksum.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/core/inet_chksum.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/inet_chksum.c.s
+.PHONY : pico-sdk/lib/lwip/src/core/inet_chksum.c.s
 
-lwip/src/core/ipv4/dhcp.obj: lwip/src/core/ipv4/dhcp.c.obj
-.PHONY : lwip/src/core/ipv4/dhcp.obj
+pico-sdk/lib/lwip/src/core/init.obj: pico-sdk/lib/lwip/src/core/init.c.obj
+.PHONY : pico-sdk/lib/lwip/src/core/init.obj
 
 # target to build an object file
-lwip/src/core/ipv4/dhcp.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/core/ipv4/dhcp.c.obj
-.PHONY : lwip/src/core/ipv4/dhcp.c.obj
+pico-sdk/lib/lwip/src/core/init.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/core/init.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/init.c.obj
+.PHONY : pico-sdk/lib/lwip/src/core/init.c.obj
 
-lwip/src/core/ipv4/dhcp.i: lwip/src/core/ipv4/dhcp.c.i
-.PHONY : lwip/src/core/ipv4/dhcp.i
+pico-sdk/lib/lwip/src/core/init.i: pico-sdk/lib/lwip/src/core/init.c.i
+.PHONY : pico-sdk/lib/lwip/src/core/init.i
 
 # target to preprocess a source file
-lwip/src/core/ipv4/dhcp.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/core/ipv4/dhcp.c.i
-.PHONY : lwip/src/core/ipv4/dhcp.c.i
+pico-sdk/lib/lwip/src/core/init.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/core/init.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/init.c.i
+.PHONY : pico-sdk/lib/lwip/src/core/init.c.i
 
-lwip/src/core/ipv4/dhcp.s: lwip/src/core/ipv4/dhcp.c.s
-.PHONY : lwip/src/core/ipv4/dhcp.s
+pico-sdk/lib/lwip/src/core/init.s: pico-sdk/lib/lwip/src/core/init.c.s
+.PHONY : pico-sdk/lib/lwip/src/core/init.s
 
 # target to generate assembly for a file
-lwip/src/core/ipv4/dhcp.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/core/ipv4/dhcp.c.s
-.PHONY : lwip/src/core/ipv4/dhcp.c.s
+pico-sdk/lib/lwip/src/core/init.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/core/init.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/init.c.s
+.PHONY : pico-sdk/lib/lwip/src/core/init.c.s
 
-lwip/src/core/ipv4/etharp.obj: lwip/src/core/ipv4/etharp.c.obj
-.PHONY : lwip/src/core/ipv4/etharp.obj
+pico-sdk/lib/lwip/src/core/ip.obj: pico-sdk/lib/lwip/src/core/ip.c.obj
+.PHONY : pico-sdk/lib/lwip/src/core/ip.obj
 
 # target to build an object file
-lwip/src/core/ipv4/etharp.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/core/ipv4/etharp.c.obj
-.PHONY : lwip/src/core/ipv4/etharp.c.obj
+pico-sdk/lib/lwip/src/core/ip.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/core/ip.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ip.c.obj
+.PHONY : pico-sdk/lib/lwip/src/core/ip.c.obj
 
-lwip/src/core/ipv4/etharp.i: lwip/src/core/ipv4/etharp.c.i
-.PHONY : lwip/src/core/ipv4/etharp.i
+pico-sdk/lib/lwip/src/core/ip.i: pico-sdk/lib/lwip/src/core/ip.c.i
+.PHONY : pico-sdk/lib/lwip/src/core/ip.i
 
 # target to preprocess a source file
-lwip/src/core/ipv4/etharp.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/core/ipv4/etharp.c.i
-.PHONY : lwip/src/core/ipv4/etharp.c.i
+pico-sdk/lib/lwip/src/core/ip.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/core/ip.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ip.c.i
+.PHONY : pico-sdk/lib/lwip/src/core/ip.c.i
 
-lwip/src/core/ipv4/etharp.s: lwip/src/core/ipv4/etharp.c.s
-.PHONY : lwip/src/core/ipv4/etharp.s
+pico-sdk/lib/lwip/src/core/ip.s: pico-sdk/lib/lwip/src/core/ip.c.s
+.PHONY : pico-sdk/lib/lwip/src/core/ip.s
 
 # target to generate assembly for a file
-lwip/src/core/ipv4/etharp.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/core/ipv4/etharp.c.s
-.PHONY : lwip/src/core/ipv4/etharp.c.s
+pico-sdk/lib/lwip/src/core/ip.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/core/ip.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ip.c.s
+.PHONY : pico-sdk/lib/lwip/src/core/ip.c.s
 
-lwip/src/core/ipv4/icmp.obj: lwip/src/core/ipv4/icmp.c.obj
-.PHONY : lwip/src/core/ipv4/icmp.obj
+pico-sdk/lib/lwip/src/core/ipv4/acd.obj: pico-sdk/lib/lwip/src/core/ipv4/acd.c.obj
+.PHONY : pico-sdk/lib/lwip/src/core/ipv4/acd.obj
 
 # target to build an object file
-lwip/src/core/ipv4/icmp.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/core/ipv4/icmp.c.obj
-.PHONY : lwip/src/core/ipv4/icmp.c.obj
+pico-sdk/lib/lwip/src/core/ipv4/acd.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/core/ipv4/acd.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv4/acd.c.obj
+.PHONY : pico-sdk/lib/lwip/src/core/ipv4/acd.c.obj
 
-lwip/src/core/ipv4/icmp.i: lwip/src/core/ipv4/icmp.c.i
-.PHONY : lwip/src/core/ipv4/icmp.i
+pico-sdk/lib/lwip/src/core/ipv4/acd.i: pico-sdk/lib/lwip/src/core/ipv4/acd.c.i
+.PHONY : pico-sdk/lib/lwip/src/core/ipv4/acd.i
 
 # target to preprocess a source file
-lwip/src/core/ipv4/icmp.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/core/ipv4/icmp.c.i
-.PHONY : lwip/src/core/ipv4/icmp.c.i
+pico-sdk/lib/lwip/src/core/ipv4/acd.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/core/ipv4/acd.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv4/acd.c.i
+.PHONY : pico-sdk/lib/lwip/src/core/ipv4/acd.c.i
 
-lwip/src/core/ipv4/icmp.s: lwip/src/core/ipv4/icmp.c.s
-.PHONY : lwip/src/core/ipv4/icmp.s
+pico-sdk/lib/lwip/src/core/ipv4/acd.s: pico-sdk/lib/lwip/src/core/ipv4/acd.c.s
+.PHONY : pico-sdk/lib/lwip/src/core/ipv4/acd.s
 
 # target to generate assembly for a file
-lwip/src/core/ipv4/icmp.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/core/ipv4/icmp.c.s
-.PHONY : lwip/src/core/ipv4/icmp.c.s
+pico-sdk/lib/lwip/src/core/ipv4/acd.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/core/ipv4/acd.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv4/acd.c.s
+.PHONY : pico-sdk/lib/lwip/src/core/ipv4/acd.c.s
 
-lwip/src/core/ipv4/igmp.obj: lwip/src/core/ipv4/igmp.c.obj
-.PHONY : lwip/src/core/ipv4/igmp.obj
+pico-sdk/lib/lwip/src/core/ipv4/autoip.obj: pico-sdk/lib/lwip/src/core/ipv4/autoip.c.obj
+.PHONY : pico-sdk/lib/lwip/src/core/ipv4/autoip.obj
 
 # target to build an object file
-lwip/src/core/ipv4/igmp.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/core/ipv4/igmp.c.obj
-.PHONY : lwip/src/core/ipv4/igmp.c.obj
+pico-sdk/lib/lwip/src/core/ipv4/autoip.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.obj
+.PHONY : pico-sdk/lib/lwip/src/core/ipv4/autoip.c.obj
 
-lwip/src/core/ipv4/igmp.i: lwip/src/core/ipv4/igmp.c.i
-.PHONY : lwip/src/core/ipv4/igmp.i
+pico-sdk/lib/lwip/src/core/ipv4/autoip.i: pico-sdk/lib/lwip/src/core/ipv4/autoip.c.i
+.PHONY : pico-sdk/lib/lwip/src/core/ipv4/autoip.i
 
 # target to preprocess a source file
-lwip/src/core/ipv4/igmp.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/core/ipv4/igmp.c.i
-.PHONY : lwip/src/core/ipv4/igmp.c.i
+pico-sdk/lib/lwip/src/core/ipv4/autoip.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.i
+.PHONY : pico-sdk/lib/lwip/src/core/ipv4/autoip.c.i
 
-lwip/src/core/ipv4/igmp.s: lwip/src/core/ipv4/igmp.c.s
-.PHONY : lwip/src/core/ipv4/igmp.s
+pico-sdk/lib/lwip/src/core/ipv4/autoip.s: pico-sdk/lib/lwip/src/core/ipv4/autoip.c.s
+.PHONY : pico-sdk/lib/lwip/src/core/ipv4/autoip.s
 
 # target to generate assembly for a file
-lwip/src/core/ipv4/igmp.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/core/ipv4/igmp.c.s
-.PHONY : lwip/src/core/ipv4/igmp.c.s
+pico-sdk/lib/lwip/src/core/ipv4/autoip.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.s
+.PHONY : pico-sdk/lib/lwip/src/core/ipv4/autoip.c.s
 
-lwip/src/core/ipv4/ip4.obj: lwip/src/core/ipv4/ip4.c.obj
-.PHONY : lwip/src/core/ipv4/ip4.obj
+pico-sdk/lib/lwip/src/core/ipv4/dhcp.obj: pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.obj
+.PHONY : pico-sdk/lib/lwip/src/core/ipv4/dhcp.obj
 
 # target to build an object file
-lwip/src/core/ipv4/ip4.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/core/ipv4/ip4.c.obj
-.PHONY : lwip/src/core/ipv4/ip4.c.obj
+pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.obj
+.PHONY : pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.obj
 
-lwip/src/core/ipv4/ip4.i: lwip/src/core/ipv4/ip4.c.i
-.PHONY : lwip/src/core/ipv4/ip4.i
+pico-sdk/lib/lwip/src/core/ipv4/dhcp.i: pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.i
+.PHONY : pico-sdk/lib/lwip/src/core/ipv4/dhcp.i
 
 # target to preprocess a source file
-lwip/src/core/ipv4/ip4.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/core/ipv4/ip4.c.i
-.PHONY : lwip/src/core/ipv4/ip4.c.i
+pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.i
+.PHONY : pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.i
 
-lwip/src/core/ipv4/ip4.s: lwip/src/core/ipv4/ip4.c.s
-.PHONY : lwip/src/core/ipv4/ip4.s
+pico-sdk/lib/lwip/src/core/ipv4/dhcp.s: pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.s
+.PHONY : pico-sdk/lib/lwip/src/core/ipv4/dhcp.s
 
 # target to generate assembly for a file
-lwip/src/core/ipv4/ip4.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/core/ipv4/ip4.c.s
-.PHONY : lwip/src/core/ipv4/ip4.c.s
+pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.s
+.PHONY : pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.s
 
-lwip/src/core/ipv4/ip4_addr.obj: lwip/src/core/ipv4/ip4_addr.c.obj
-.PHONY : lwip/src/core/ipv4/ip4_addr.obj
+pico-sdk/lib/lwip/src/core/ipv4/etharp.obj: pico-sdk/lib/lwip/src/core/ipv4/etharp.c.obj
+.PHONY : pico-sdk/lib/lwip/src/core/ipv4/etharp.obj
 
 # target to build an object file
-lwip/src/core/ipv4/ip4_addr.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/core/ipv4/ip4_addr.c.obj
-.PHONY : lwip/src/core/ipv4/ip4_addr.c.obj
+pico-sdk/lib/lwip/src/core/ipv4/etharp.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.obj
+.PHONY : pico-sdk/lib/lwip/src/core/ipv4/etharp.c.obj
 
-lwip/src/core/ipv4/ip4_addr.i: lwip/src/core/ipv4/ip4_addr.c.i
-.PHONY : lwip/src/core/ipv4/ip4_addr.i
+pico-sdk/lib/lwip/src/core/ipv4/etharp.i: pico-sdk/lib/lwip/src/core/ipv4/etharp.c.i
+.PHONY : pico-sdk/lib/lwip/src/core/ipv4/etharp.i
 
 # target to preprocess a source file
-lwip/src/core/ipv4/ip4_addr.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/core/ipv4/ip4_addr.c.i
-.PHONY : lwip/src/core/ipv4/ip4_addr.c.i
+pico-sdk/lib/lwip/src/core/ipv4/etharp.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.i
+.PHONY : pico-sdk/lib/lwip/src/core/ipv4/etharp.c.i
 
-lwip/src/core/ipv4/ip4_addr.s: lwip/src/core/ipv4/ip4_addr.c.s
-.PHONY : lwip/src/core/ipv4/ip4_addr.s
+pico-sdk/lib/lwip/src/core/ipv4/etharp.s: pico-sdk/lib/lwip/src/core/ipv4/etharp.c.s
+.PHONY : pico-sdk/lib/lwip/src/core/ipv4/etharp.s
 
 # target to generate assembly for a file
-lwip/src/core/ipv4/ip4_addr.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/core/ipv4/ip4_addr.c.s
-.PHONY : lwip/src/core/ipv4/ip4_addr.c.s
+pico-sdk/lib/lwip/src/core/ipv4/etharp.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.s
+.PHONY : pico-sdk/lib/lwip/src/core/ipv4/etharp.c.s
 
-lwip/src/core/ipv4/ip4_frag.obj: lwip/src/core/ipv4/ip4_frag.c.obj
-.PHONY : lwip/src/core/ipv4/ip4_frag.obj
+pico-sdk/lib/lwip/src/core/ipv4/icmp.obj: pico-sdk/lib/lwip/src/core/ipv4/icmp.c.obj
+.PHONY : pico-sdk/lib/lwip/src/core/ipv4/icmp.obj
 
 # target to build an object file
-lwip/src/core/ipv4/ip4_frag.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/core/ipv4/ip4_frag.c.obj
-.PHONY : lwip/src/core/ipv4/ip4_frag.c.obj
+pico-sdk/lib/lwip/src/core/ipv4/icmp.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.obj
+.PHONY : pico-sdk/lib/lwip/src/core/ipv4/icmp.c.obj
 
-lwip/src/core/ipv4/ip4_frag.i: lwip/src/core/ipv4/ip4_frag.c.i
-.PHONY : lwip/src/core/ipv4/ip4_frag.i
+pico-sdk/lib/lwip/src/core/ipv4/icmp.i: pico-sdk/lib/lwip/src/core/ipv4/icmp.c.i
+.PHONY : pico-sdk/lib/lwip/src/core/ipv4/icmp.i
 
 # target to preprocess a source file
-lwip/src/core/ipv4/ip4_frag.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/core/ipv4/ip4_frag.c.i
-.PHONY : lwip/src/core/ipv4/ip4_frag.c.i
+pico-sdk/lib/lwip/src/core/ipv4/icmp.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.i
+.PHONY : pico-sdk/lib/lwip/src/core/ipv4/icmp.c.i
 
-lwip/src/core/ipv4/ip4_frag.s: lwip/src/core/ipv4/ip4_frag.c.s
-.PHONY : lwip/src/core/ipv4/ip4_frag.s
+pico-sdk/lib/lwip/src/core/ipv4/icmp.s: pico-sdk/lib/lwip/src/core/ipv4/icmp.c.s
+.PHONY : pico-sdk/lib/lwip/src/core/ipv4/icmp.s
 
 # target to generate assembly for a file
-lwip/src/core/ipv4/ip4_frag.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/core/ipv4/ip4_frag.c.s
-.PHONY : lwip/src/core/ipv4/ip4_frag.c.s
+pico-sdk/lib/lwip/src/core/ipv4/icmp.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.s
+.PHONY : pico-sdk/lib/lwip/src/core/ipv4/icmp.c.s
 
-lwip/src/core/ipv6/dhcp6.obj: lwip/src/core/ipv6/dhcp6.c.obj
-.PHONY : lwip/src/core/ipv6/dhcp6.obj
+pico-sdk/lib/lwip/src/core/ipv4/igmp.obj: pico-sdk/lib/lwip/src/core/ipv4/igmp.c.obj
+.PHONY : pico-sdk/lib/lwip/src/core/ipv4/igmp.obj
 
 # target to build an object file
-lwip/src/core/ipv6/dhcp6.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/core/ipv6/dhcp6.c.obj
-.PHONY : lwip/src/core/ipv6/dhcp6.c.obj
+pico-sdk/lib/lwip/src/core/ipv4/igmp.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.obj
+.PHONY : pico-sdk/lib/lwip/src/core/ipv4/igmp.c.obj
 
-lwip/src/core/ipv6/dhcp6.i: lwip/src/core/ipv6/dhcp6.c.i
-.PHONY : lwip/src/core/ipv6/dhcp6.i
+pico-sdk/lib/lwip/src/core/ipv4/igmp.i: pico-sdk/lib/lwip/src/core/ipv4/igmp.c.i
+.PHONY : pico-sdk/lib/lwip/src/core/ipv4/igmp.i
 
 # target to preprocess a source file
-lwip/src/core/ipv6/dhcp6.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/core/ipv6/dhcp6.c.i
-.PHONY : lwip/src/core/ipv6/dhcp6.c.i
+pico-sdk/lib/lwip/src/core/ipv4/igmp.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.i
+.PHONY : pico-sdk/lib/lwip/src/core/ipv4/igmp.c.i
 
-lwip/src/core/ipv6/dhcp6.s: lwip/src/core/ipv6/dhcp6.c.s
-.PHONY : lwip/src/core/ipv6/dhcp6.s
+pico-sdk/lib/lwip/src/core/ipv4/igmp.s: pico-sdk/lib/lwip/src/core/ipv4/igmp.c.s
+.PHONY : pico-sdk/lib/lwip/src/core/ipv4/igmp.s
 
 # target to generate assembly for a file
-lwip/src/core/ipv6/dhcp6.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/core/ipv6/dhcp6.c.s
-.PHONY : lwip/src/core/ipv6/dhcp6.c.s
+pico-sdk/lib/lwip/src/core/ipv4/igmp.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.s
+.PHONY : pico-sdk/lib/lwip/src/core/ipv4/igmp.c.s
 
-lwip/src/core/ipv6/ethip6.obj: lwip/src/core/ipv6/ethip6.c.obj
-.PHONY : lwip/src/core/ipv6/ethip6.obj
+pico-sdk/lib/lwip/src/core/ipv4/ip4.obj: pico-sdk/lib/lwip/src/core/ipv4/ip4.c.obj
+.PHONY : pico-sdk/lib/lwip/src/core/ipv4/ip4.obj
 
 # target to build an object file
-lwip/src/core/ipv6/ethip6.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/core/ipv6/ethip6.c.obj
-.PHONY : lwip/src/core/ipv6/ethip6.c.obj
+pico-sdk/lib/lwip/src/core/ipv4/ip4.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.obj
+.PHONY : pico-sdk/lib/lwip/src/core/ipv4/ip4.c.obj
 
-lwip/src/core/ipv6/ethip6.i: lwip/src/core/ipv6/ethip6.c.i
-.PHONY : lwip/src/core/ipv6/ethip6.i
+pico-sdk/lib/lwip/src/core/ipv4/ip4.i: pico-sdk/lib/lwip/src/core/ipv4/ip4.c.i
+.PHONY : pico-sdk/lib/lwip/src/core/ipv4/ip4.i
 
 # target to preprocess a source file
-lwip/src/core/ipv6/ethip6.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/core/ipv6/ethip6.c.i
-.PHONY : lwip/src/core/ipv6/ethip6.c.i
+pico-sdk/lib/lwip/src/core/ipv4/ip4.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.i
+.PHONY : pico-sdk/lib/lwip/src/core/ipv4/ip4.c.i
 
-lwip/src/core/ipv6/ethip6.s: lwip/src/core/ipv6/ethip6.c.s
-.PHONY : lwip/src/core/ipv6/ethip6.s
+pico-sdk/lib/lwip/src/core/ipv4/ip4.s: pico-sdk/lib/lwip/src/core/ipv4/ip4.c.s
+.PHONY : pico-sdk/lib/lwip/src/core/ipv4/ip4.s
 
 # target to generate assembly for a file
-lwip/src/core/ipv6/ethip6.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/core/ipv6/ethip6.c.s
-.PHONY : lwip/src/core/ipv6/ethip6.c.s
+pico-sdk/lib/lwip/src/core/ipv4/ip4.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.s
+.PHONY : pico-sdk/lib/lwip/src/core/ipv4/ip4.c.s
 
-lwip/src/core/ipv6/icmp6.obj: lwip/src/core/ipv6/icmp6.c.obj
-.PHONY : lwip/src/core/ipv6/icmp6.obj
+pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.obj: pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.obj
+.PHONY : pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.obj
 
 # target to build an object file
-lwip/src/core/ipv6/icmp6.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/core/ipv6/icmp6.c.obj
-.PHONY : lwip/src/core/ipv6/icmp6.c.obj
+pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.obj
+.PHONY : pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.obj
 
-lwip/src/core/ipv6/icmp6.i: lwip/src/core/ipv6/icmp6.c.i
-.PHONY : lwip/src/core/ipv6/icmp6.i
+pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.i: pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.i
+.PHONY : pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.i
 
 # target to preprocess a source file
-lwip/src/core/ipv6/icmp6.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/core/ipv6/icmp6.c.i
-.PHONY : lwip/src/core/ipv6/icmp6.c.i
+pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.i
+.PHONY : pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.i
 
-lwip/src/core/ipv6/icmp6.s: lwip/src/core/ipv6/icmp6.c.s
-.PHONY : lwip/src/core/ipv6/icmp6.s
+pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.s: pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.s
+.PHONY : pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.s
 
 # target to generate assembly for a file
-lwip/src/core/ipv6/icmp6.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/core/ipv6/icmp6.c.s
-.PHONY : lwip/src/core/ipv6/icmp6.c.s
+pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.s
+.PHONY : pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.s
 
-lwip/src/core/ipv6/inet6.obj: lwip/src/core/ipv6/inet6.c.obj
-.PHONY : lwip/src/core/ipv6/inet6.obj
+pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.obj: pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.obj
+.PHONY : pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.obj
 
 # target to build an object file
-lwip/src/core/ipv6/inet6.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/core/ipv6/inet6.c.obj
-.PHONY : lwip/src/core/ipv6/inet6.c.obj
+pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.obj
+.PHONY : pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.obj
 
-lwip/src/core/ipv6/inet6.i: lwip/src/core/ipv6/inet6.c.i
-.PHONY : lwip/src/core/ipv6/inet6.i
+pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.i: pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.i
+.PHONY : pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.i
 
 # target to preprocess a source file
-lwip/src/core/ipv6/inet6.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/core/ipv6/inet6.c.i
-.PHONY : lwip/src/core/ipv6/inet6.c.i
+pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.i
+.PHONY : pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.i
 
-lwip/src/core/ipv6/inet6.s: lwip/src/core/ipv6/inet6.c.s
-.PHONY : lwip/src/core/ipv6/inet6.s
+pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.s: pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.s
+.PHONY : pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.s
 
 # target to generate assembly for a file
-lwip/src/core/ipv6/inet6.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/core/ipv6/inet6.c.s
-.PHONY : lwip/src/core/ipv6/inet6.c.s
+pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.s
+.PHONY : pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.s
 
-lwip/src/core/ipv6/ip6.obj: lwip/src/core/ipv6/ip6.c.obj
-.PHONY : lwip/src/core/ipv6/ip6.obj
+pico-sdk/lib/lwip/src/core/ipv6/dhcp6.obj: pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.obj
+.PHONY : pico-sdk/lib/lwip/src/core/ipv6/dhcp6.obj
 
 # target to build an object file
-lwip/src/core/ipv6/ip6.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/core/ipv6/ip6.c.obj
-.PHONY : lwip/src/core/ipv6/ip6.c.obj
+pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.obj
+.PHONY : pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.obj
 
-lwip/src/core/ipv6/ip6.i: lwip/src/core/ipv6/ip6.c.i
-.PHONY : lwip/src/core/ipv6/ip6.i
+pico-sdk/lib/lwip/src/core/ipv6/dhcp6.i: pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.i
+.PHONY : pico-sdk/lib/lwip/src/core/ipv6/dhcp6.i
 
 # target to preprocess a source file
-lwip/src/core/ipv6/ip6.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/core/ipv6/ip6.c.i
-.PHONY : lwip/src/core/ipv6/ip6.c.i
+pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.i
+.PHONY : pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.i
 
-lwip/src/core/ipv6/ip6.s: lwip/src/core/ipv6/ip6.c.s
-.PHONY : lwip/src/core/ipv6/ip6.s
+pico-sdk/lib/lwip/src/core/ipv6/dhcp6.s: pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.s
+.PHONY : pico-sdk/lib/lwip/src/core/ipv6/dhcp6.s
 
 # target to generate assembly for a file
-lwip/src/core/ipv6/ip6.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/core/ipv6/ip6.c.s
-.PHONY : lwip/src/core/ipv6/ip6.c.s
+pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.s
+.PHONY : pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.s
 
-lwip/src/core/ipv6/ip6_addr.obj: lwip/src/core/ipv6/ip6_addr.c.obj
-.PHONY : lwip/src/core/ipv6/ip6_addr.obj
+pico-sdk/lib/lwip/src/core/ipv6/ethip6.obj: pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.obj
+.PHONY : pico-sdk/lib/lwip/src/core/ipv6/ethip6.obj
 
 # target to build an object file
-lwip/src/core/ipv6/ip6_addr.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/core/ipv6/ip6_addr.c.obj
-.PHONY : lwip/src/core/ipv6/ip6_addr.c.obj
+pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.obj
+.PHONY : pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.obj
 
-lwip/src/core/ipv6/ip6_addr.i: lwip/src/core/ipv6/ip6_addr.c.i
-.PHONY : lwip/src/core/ipv6/ip6_addr.i
+pico-sdk/lib/lwip/src/core/ipv6/ethip6.i: pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.i
+.PHONY : pico-sdk/lib/lwip/src/core/ipv6/ethip6.i
 
 # target to preprocess a source file
-lwip/src/core/ipv6/ip6_addr.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/core/ipv6/ip6_addr.c.i
-.PHONY : lwip/src/core/ipv6/ip6_addr.c.i
+pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.i
+.PHONY : pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.i
 
-lwip/src/core/ipv6/ip6_addr.s: lwip/src/core/ipv6/ip6_addr.c.s
-.PHONY : lwip/src/core/ipv6/ip6_addr.s
+pico-sdk/lib/lwip/src/core/ipv6/ethip6.s: pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.s
+.PHONY : pico-sdk/lib/lwip/src/core/ipv6/ethip6.s
 
 # target to generate assembly for a file
-lwip/src/core/ipv6/ip6_addr.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/core/ipv6/ip6_addr.c.s
-.PHONY : lwip/src/core/ipv6/ip6_addr.c.s
+pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.s
+.PHONY : pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.s
 
-lwip/src/core/ipv6/ip6_frag.obj: lwip/src/core/ipv6/ip6_frag.c.obj
-.PHONY : lwip/src/core/ipv6/ip6_frag.obj
+pico-sdk/lib/lwip/src/core/ipv6/icmp6.obj: pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.obj
+.PHONY : pico-sdk/lib/lwip/src/core/ipv6/icmp6.obj
 
 # target to build an object file
-lwip/src/core/ipv6/ip6_frag.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/core/ipv6/ip6_frag.c.obj
-.PHONY : lwip/src/core/ipv6/ip6_frag.c.obj
+pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.obj
+.PHONY : pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.obj
 
-lwip/src/core/ipv6/ip6_frag.i: lwip/src/core/ipv6/ip6_frag.c.i
-.PHONY : lwip/src/core/ipv6/ip6_frag.i
+pico-sdk/lib/lwip/src/core/ipv6/icmp6.i: pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.i
+.PHONY : pico-sdk/lib/lwip/src/core/ipv6/icmp6.i
 
 # target to preprocess a source file
-lwip/src/core/ipv6/ip6_frag.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/core/ipv6/ip6_frag.c.i
-.PHONY : lwip/src/core/ipv6/ip6_frag.c.i
+pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.i
+.PHONY : pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.i
 
-lwip/src/core/ipv6/ip6_frag.s: lwip/src/core/ipv6/ip6_frag.c.s
-.PHONY : lwip/src/core/ipv6/ip6_frag.s
+pico-sdk/lib/lwip/src/core/ipv6/icmp6.s: pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.s
+.PHONY : pico-sdk/lib/lwip/src/core/ipv6/icmp6.s
 
 # target to generate assembly for a file
-lwip/src/core/ipv6/ip6_frag.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/core/ipv6/ip6_frag.c.s
-.PHONY : lwip/src/core/ipv6/ip6_frag.c.s
+pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.s
+.PHONY : pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.s
 
-lwip/src/core/ipv6/mld6.obj: lwip/src/core/ipv6/mld6.c.obj
-.PHONY : lwip/src/core/ipv6/mld6.obj
+pico-sdk/lib/lwip/src/core/ipv6/inet6.obj: pico-sdk/lib/lwip/src/core/ipv6/inet6.c.obj
+.PHONY : pico-sdk/lib/lwip/src/core/ipv6/inet6.obj
 
 # target to build an object file
-lwip/src/core/ipv6/mld6.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/core/ipv6/mld6.c.obj
-.PHONY : lwip/src/core/ipv6/mld6.c.obj
+pico-sdk/lib/lwip/src/core/ipv6/inet6.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.obj
+.PHONY : pico-sdk/lib/lwip/src/core/ipv6/inet6.c.obj
 
-lwip/src/core/ipv6/mld6.i: lwip/src/core/ipv6/mld6.c.i
-.PHONY : lwip/src/core/ipv6/mld6.i
+pico-sdk/lib/lwip/src/core/ipv6/inet6.i: pico-sdk/lib/lwip/src/core/ipv6/inet6.c.i
+.PHONY : pico-sdk/lib/lwip/src/core/ipv6/inet6.i
 
 # target to preprocess a source file
-lwip/src/core/ipv6/mld6.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/core/ipv6/mld6.c.i
-.PHONY : lwip/src/core/ipv6/mld6.c.i
+pico-sdk/lib/lwip/src/core/ipv6/inet6.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.i
+.PHONY : pico-sdk/lib/lwip/src/core/ipv6/inet6.c.i
 
-lwip/src/core/ipv6/mld6.s: lwip/src/core/ipv6/mld6.c.s
-.PHONY : lwip/src/core/ipv6/mld6.s
+pico-sdk/lib/lwip/src/core/ipv6/inet6.s: pico-sdk/lib/lwip/src/core/ipv6/inet6.c.s
+.PHONY : pico-sdk/lib/lwip/src/core/ipv6/inet6.s
 
 # target to generate assembly for a file
-lwip/src/core/ipv6/mld6.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/core/ipv6/mld6.c.s
-.PHONY : lwip/src/core/ipv6/mld6.c.s
+pico-sdk/lib/lwip/src/core/ipv6/inet6.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.s
+.PHONY : pico-sdk/lib/lwip/src/core/ipv6/inet6.c.s
 
-lwip/src/core/ipv6/nd6.obj: lwip/src/core/ipv6/nd6.c.obj
-.PHONY : lwip/src/core/ipv6/nd6.obj
+pico-sdk/lib/lwip/src/core/ipv6/ip6.obj: pico-sdk/lib/lwip/src/core/ipv6/ip6.c.obj
+.PHONY : pico-sdk/lib/lwip/src/core/ipv6/ip6.obj
 
 # target to build an object file
-lwip/src/core/ipv6/nd6.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/core/ipv6/nd6.c.obj
-.PHONY : lwip/src/core/ipv6/nd6.c.obj
+pico-sdk/lib/lwip/src/core/ipv6/ip6.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.obj
+.PHONY : pico-sdk/lib/lwip/src/core/ipv6/ip6.c.obj
 
-lwip/src/core/ipv6/nd6.i: lwip/src/core/ipv6/nd6.c.i
-.PHONY : lwip/src/core/ipv6/nd6.i
+pico-sdk/lib/lwip/src/core/ipv6/ip6.i: pico-sdk/lib/lwip/src/core/ipv6/ip6.c.i
+.PHONY : pico-sdk/lib/lwip/src/core/ipv6/ip6.i
 
 # target to preprocess a source file
-lwip/src/core/ipv6/nd6.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/core/ipv6/nd6.c.i
-.PHONY : lwip/src/core/ipv6/nd6.c.i
+pico-sdk/lib/lwip/src/core/ipv6/ip6.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.i
+.PHONY : pico-sdk/lib/lwip/src/core/ipv6/ip6.c.i
 
-lwip/src/core/ipv6/nd6.s: lwip/src/core/ipv6/nd6.c.s
-.PHONY : lwip/src/core/ipv6/nd6.s
+pico-sdk/lib/lwip/src/core/ipv6/ip6.s: pico-sdk/lib/lwip/src/core/ipv6/ip6.c.s
+.PHONY : pico-sdk/lib/lwip/src/core/ipv6/ip6.s
 
 # target to generate assembly for a file
-lwip/src/core/ipv6/nd6.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/core/ipv6/nd6.c.s
-.PHONY : lwip/src/core/ipv6/nd6.c.s
+pico-sdk/lib/lwip/src/core/ipv6/ip6.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.s
+.PHONY : pico-sdk/lib/lwip/src/core/ipv6/ip6.c.s
 
-lwip/src/core/mem.obj: lwip/src/core/mem.c.obj
-.PHONY : lwip/src/core/mem.obj
+pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.obj: pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.obj
+.PHONY : pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.obj
 
 # target to build an object file
-lwip/src/core/mem.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/core/mem.c.obj
-.PHONY : lwip/src/core/mem.c.obj
+pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.obj
+.PHONY : pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.obj
 
-lwip/src/core/mem.i: lwip/src/core/mem.c.i
-.PHONY : lwip/src/core/mem.i
+pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.i: pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.i
+.PHONY : pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.i
 
 # target to preprocess a source file
-lwip/src/core/mem.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/core/mem.c.i
-.PHONY : lwip/src/core/mem.c.i
+pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.i
+.PHONY : pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.i
 
-lwip/src/core/mem.s: lwip/src/core/mem.c.s
-.PHONY : lwip/src/core/mem.s
+pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.s: pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.s
+.PHONY : pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.s
 
 # target to generate assembly for a file
-lwip/src/core/mem.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/core/mem.c.s
-.PHONY : lwip/src/core/mem.c.s
+pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.s
+.PHONY : pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.s
 
-lwip/src/core/memp.obj: lwip/src/core/memp.c.obj
-.PHONY : lwip/src/core/memp.obj
+pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.obj: pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.obj
+.PHONY : pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.obj
 
 # target to build an object file
-lwip/src/core/memp.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/core/memp.c.obj
-.PHONY : lwip/src/core/memp.c.obj
+pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.obj
+.PHONY : pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.obj
 
-lwip/src/core/memp.i: lwip/src/core/memp.c.i
-.PHONY : lwip/src/core/memp.i
+pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.i: pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.i
+.PHONY : pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.i
 
 # target to preprocess a source file
-lwip/src/core/memp.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/core/memp.c.i
-.PHONY : lwip/src/core/memp.c.i
+pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.i
+.PHONY : pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.i
 
-lwip/src/core/memp.s: lwip/src/core/memp.c.s
-.PHONY : lwip/src/core/memp.s
+pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.s: pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.s
+.PHONY : pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.s
 
 # target to generate assembly for a file
-lwip/src/core/memp.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/core/memp.c.s
-.PHONY : lwip/src/core/memp.c.s
+pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.s
+.PHONY : pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.s
 
-lwip/src/core/netif.obj: lwip/src/core/netif.c.obj
-.PHONY : lwip/src/core/netif.obj
+pico-sdk/lib/lwip/src/core/ipv6/mld6.obj: pico-sdk/lib/lwip/src/core/ipv6/mld6.c.obj
+.PHONY : pico-sdk/lib/lwip/src/core/ipv6/mld6.obj
 
 # target to build an object file
-lwip/src/core/netif.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/core/netif.c.obj
-.PHONY : lwip/src/core/netif.c.obj
+pico-sdk/lib/lwip/src/core/ipv6/mld6.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.obj
+.PHONY : pico-sdk/lib/lwip/src/core/ipv6/mld6.c.obj
 
-lwip/src/core/netif.i: lwip/src/core/netif.c.i
-.PHONY : lwip/src/core/netif.i
+pico-sdk/lib/lwip/src/core/ipv6/mld6.i: pico-sdk/lib/lwip/src/core/ipv6/mld6.c.i
+.PHONY : pico-sdk/lib/lwip/src/core/ipv6/mld6.i
 
 # target to preprocess a source file
-lwip/src/core/netif.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/core/netif.c.i
-.PHONY : lwip/src/core/netif.c.i
+pico-sdk/lib/lwip/src/core/ipv6/mld6.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.i
+.PHONY : pico-sdk/lib/lwip/src/core/ipv6/mld6.c.i
 
-lwip/src/core/netif.s: lwip/src/core/netif.c.s
-.PHONY : lwip/src/core/netif.s
+pico-sdk/lib/lwip/src/core/ipv6/mld6.s: pico-sdk/lib/lwip/src/core/ipv6/mld6.c.s
+.PHONY : pico-sdk/lib/lwip/src/core/ipv6/mld6.s
 
 # target to generate assembly for a file
-lwip/src/core/netif.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/core/netif.c.s
-.PHONY : lwip/src/core/netif.c.s
+pico-sdk/lib/lwip/src/core/ipv6/mld6.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.s
+.PHONY : pico-sdk/lib/lwip/src/core/ipv6/mld6.c.s
 
-lwip/src/core/pbuf.obj: lwip/src/core/pbuf.c.obj
-.PHONY : lwip/src/core/pbuf.obj
+pico-sdk/lib/lwip/src/core/ipv6/nd6.obj: pico-sdk/lib/lwip/src/core/ipv6/nd6.c.obj
+.PHONY : pico-sdk/lib/lwip/src/core/ipv6/nd6.obj
 
 # target to build an object file
-lwip/src/core/pbuf.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/core/pbuf.c.obj
-.PHONY : lwip/src/core/pbuf.c.obj
+pico-sdk/lib/lwip/src/core/ipv6/nd6.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.obj
+.PHONY : pico-sdk/lib/lwip/src/core/ipv6/nd6.c.obj
 
-lwip/src/core/pbuf.i: lwip/src/core/pbuf.c.i
-.PHONY : lwip/src/core/pbuf.i
+pico-sdk/lib/lwip/src/core/ipv6/nd6.i: pico-sdk/lib/lwip/src/core/ipv6/nd6.c.i
+.PHONY : pico-sdk/lib/lwip/src/core/ipv6/nd6.i
 
 # target to preprocess a source file
-lwip/src/core/pbuf.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/core/pbuf.c.i
-.PHONY : lwip/src/core/pbuf.c.i
+pico-sdk/lib/lwip/src/core/ipv6/nd6.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.i
+.PHONY : pico-sdk/lib/lwip/src/core/ipv6/nd6.c.i
 
-lwip/src/core/pbuf.s: lwip/src/core/pbuf.c.s
-.PHONY : lwip/src/core/pbuf.s
+pico-sdk/lib/lwip/src/core/ipv6/nd6.s: pico-sdk/lib/lwip/src/core/ipv6/nd6.c.s
+.PHONY : pico-sdk/lib/lwip/src/core/ipv6/nd6.s
 
 # target to generate assembly for a file
-lwip/src/core/pbuf.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/core/pbuf.c.s
-.PHONY : lwip/src/core/pbuf.c.s
+pico-sdk/lib/lwip/src/core/ipv6/nd6.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.s
+.PHONY : pico-sdk/lib/lwip/src/core/ipv6/nd6.c.s
 
-lwip/src/core/raw.obj: lwip/src/core/raw.c.obj
-.PHONY : lwip/src/core/raw.obj
+pico-sdk/lib/lwip/src/core/mem.obj: pico-sdk/lib/lwip/src/core/mem.c.obj
+.PHONY : pico-sdk/lib/lwip/src/core/mem.obj
 
 # target to build an object file
-lwip/src/core/raw.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/core/raw.c.obj
-.PHONY : lwip/src/core/raw.c.obj
+pico-sdk/lib/lwip/src/core/mem.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/core/mem.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/mem.c.obj
+.PHONY : pico-sdk/lib/lwip/src/core/mem.c.obj
 
-lwip/src/core/raw.i: lwip/src/core/raw.c.i
-.PHONY : lwip/src/core/raw.i
+pico-sdk/lib/lwip/src/core/mem.i: pico-sdk/lib/lwip/src/core/mem.c.i
+.PHONY : pico-sdk/lib/lwip/src/core/mem.i
 
 # target to preprocess a source file
-lwip/src/core/raw.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/core/raw.c.i
-.PHONY : lwip/src/core/raw.c.i
+pico-sdk/lib/lwip/src/core/mem.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/core/mem.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/mem.c.i
+.PHONY : pico-sdk/lib/lwip/src/core/mem.c.i
 
-lwip/src/core/raw.s: lwip/src/core/raw.c.s
-.PHONY : lwip/src/core/raw.s
+pico-sdk/lib/lwip/src/core/mem.s: pico-sdk/lib/lwip/src/core/mem.c.s
+.PHONY : pico-sdk/lib/lwip/src/core/mem.s
 
 # target to generate assembly for a file
-lwip/src/core/raw.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/core/raw.c.s
-.PHONY : lwip/src/core/raw.c.s
+pico-sdk/lib/lwip/src/core/mem.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/core/mem.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/mem.c.s
+.PHONY : pico-sdk/lib/lwip/src/core/mem.c.s
 
-lwip/src/core/stats.obj: lwip/src/core/stats.c.obj
-.PHONY : lwip/src/core/stats.obj
+pico-sdk/lib/lwip/src/core/memp.obj: pico-sdk/lib/lwip/src/core/memp.c.obj
+.PHONY : pico-sdk/lib/lwip/src/core/memp.obj
 
 # target to build an object file
-lwip/src/core/stats.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/core/stats.c.obj
-.PHONY : lwip/src/core/stats.c.obj
+pico-sdk/lib/lwip/src/core/memp.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/core/memp.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/memp.c.obj
+.PHONY : pico-sdk/lib/lwip/src/core/memp.c.obj
 
-lwip/src/core/stats.i: lwip/src/core/stats.c.i
-.PHONY : lwip/src/core/stats.i
+pico-sdk/lib/lwip/src/core/memp.i: pico-sdk/lib/lwip/src/core/memp.c.i
+.PHONY : pico-sdk/lib/lwip/src/core/memp.i
 
 # target to preprocess a source file
-lwip/src/core/stats.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/core/stats.c.i
-.PHONY : lwip/src/core/stats.c.i
+pico-sdk/lib/lwip/src/core/memp.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/core/memp.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/memp.c.i
+.PHONY : pico-sdk/lib/lwip/src/core/memp.c.i
 
-lwip/src/core/stats.s: lwip/src/core/stats.c.s
-.PHONY : lwip/src/core/stats.s
+pico-sdk/lib/lwip/src/core/memp.s: pico-sdk/lib/lwip/src/core/memp.c.s
+.PHONY : pico-sdk/lib/lwip/src/core/memp.s
 
 # target to generate assembly for a file
-lwip/src/core/stats.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/core/stats.c.s
-.PHONY : lwip/src/core/stats.c.s
+pico-sdk/lib/lwip/src/core/memp.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/core/memp.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/memp.c.s
+.PHONY : pico-sdk/lib/lwip/src/core/memp.c.s
 
-lwip/src/core/sys.obj: lwip/src/core/sys.c.obj
-.PHONY : lwip/src/core/sys.obj
+pico-sdk/lib/lwip/src/core/netif.obj: pico-sdk/lib/lwip/src/core/netif.c.obj
+.PHONY : pico-sdk/lib/lwip/src/core/netif.obj
 
 # target to build an object file
-lwip/src/core/sys.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/core/sys.c.obj
-.PHONY : lwip/src/core/sys.c.obj
+pico-sdk/lib/lwip/src/core/netif.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/core/netif.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/netif.c.obj
+.PHONY : pico-sdk/lib/lwip/src/core/netif.c.obj
 
-lwip/src/core/sys.i: lwip/src/core/sys.c.i
-.PHONY : lwip/src/core/sys.i
+pico-sdk/lib/lwip/src/core/netif.i: pico-sdk/lib/lwip/src/core/netif.c.i
+.PHONY : pico-sdk/lib/lwip/src/core/netif.i
 
 # target to preprocess a source file
-lwip/src/core/sys.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/core/sys.c.i
-.PHONY : lwip/src/core/sys.c.i
+pico-sdk/lib/lwip/src/core/netif.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/core/netif.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/netif.c.i
+.PHONY : pico-sdk/lib/lwip/src/core/netif.c.i
 
-lwip/src/core/sys.s: lwip/src/core/sys.c.s
-.PHONY : lwip/src/core/sys.s
+pico-sdk/lib/lwip/src/core/netif.s: pico-sdk/lib/lwip/src/core/netif.c.s
+.PHONY : pico-sdk/lib/lwip/src/core/netif.s
 
 # target to generate assembly for a file
-lwip/src/core/sys.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/core/sys.c.s
-.PHONY : lwip/src/core/sys.c.s
+pico-sdk/lib/lwip/src/core/netif.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/core/netif.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/netif.c.s
+.PHONY : pico-sdk/lib/lwip/src/core/netif.c.s
 
-lwip/src/core/tcp.obj: lwip/src/core/tcp.c.obj
-.PHONY : lwip/src/core/tcp.obj
+pico-sdk/lib/lwip/src/core/pbuf.obj: pico-sdk/lib/lwip/src/core/pbuf.c.obj
+.PHONY : pico-sdk/lib/lwip/src/core/pbuf.obj
 
 # target to build an object file
-lwip/src/core/tcp.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/core/tcp.c.obj
-.PHONY : lwip/src/core/tcp.c.obj
+pico-sdk/lib/lwip/src/core/pbuf.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/core/pbuf.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/pbuf.c.obj
+.PHONY : pico-sdk/lib/lwip/src/core/pbuf.c.obj
 
-lwip/src/core/tcp.i: lwip/src/core/tcp.c.i
-.PHONY : lwip/src/core/tcp.i
+pico-sdk/lib/lwip/src/core/pbuf.i: pico-sdk/lib/lwip/src/core/pbuf.c.i
+.PHONY : pico-sdk/lib/lwip/src/core/pbuf.i
 
 # target to preprocess a source file
-lwip/src/core/tcp.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/core/tcp.c.i
-.PHONY : lwip/src/core/tcp.c.i
+pico-sdk/lib/lwip/src/core/pbuf.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/core/pbuf.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/pbuf.c.i
+.PHONY : pico-sdk/lib/lwip/src/core/pbuf.c.i
 
-lwip/src/core/tcp.s: lwip/src/core/tcp.c.s
-.PHONY : lwip/src/core/tcp.s
+pico-sdk/lib/lwip/src/core/pbuf.s: pico-sdk/lib/lwip/src/core/pbuf.c.s
+.PHONY : pico-sdk/lib/lwip/src/core/pbuf.s
 
 # target to generate assembly for a file
-lwip/src/core/tcp.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/core/tcp.c.s
-.PHONY : lwip/src/core/tcp.c.s
+pico-sdk/lib/lwip/src/core/pbuf.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/core/pbuf.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/pbuf.c.s
+.PHONY : pico-sdk/lib/lwip/src/core/pbuf.c.s
 
-lwip/src/core/tcp_in.obj: lwip/src/core/tcp_in.c.obj
-.PHONY : lwip/src/core/tcp_in.obj
+pico-sdk/lib/lwip/src/core/raw.obj: pico-sdk/lib/lwip/src/core/raw.c.obj
+.PHONY : pico-sdk/lib/lwip/src/core/raw.obj
 
 # target to build an object file
-lwip/src/core/tcp_in.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/core/tcp_in.c.obj
-.PHONY : lwip/src/core/tcp_in.c.obj
+pico-sdk/lib/lwip/src/core/raw.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/core/raw.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/raw.c.obj
+.PHONY : pico-sdk/lib/lwip/src/core/raw.c.obj
 
-lwip/src/core/tcp_in.i: lwip/src/core/tcp_in.c.i
-.PHONY : lwip/src/core/tcp_in.i
+pico-sdk/lib/lwip/src/core/raw.i: pico-sdk/lib/lwip/src/core/raw.c.i
+.PHONY : pico-sdk/lib/lwip/src/core/raw.i
 
 # target to preprocess a source file
-lwip/src/core/tcp_in.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/core/tcp_in.c.i
-.PHONY : lwip/src/core/tcp_in.c.i
+pico-sdk/lib/lwip/src/core/raw.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/core/raw.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/raw.c.i
+.PHONY : pico-sdk/lib/lwip/src/core/raw.c.i
 
-lwip/src/core/tcp_in.s: lwip/src/core/tcp_in.c.s
-.PHONY : lwip/src/core/tcp_in.s
+pico-sdk/lib/lwip/src/core/raw.s: pico-sdk/lib/lwip/src/core/raw.c.s
+.PHONY : pico-sdk/lib/lwip/src/core/raw.s
 
 # target to generate assembly for a file
-lwip/src/core/tcp_in.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/core/tcp_in.c.s
-.PHONY : lwip/src/core/tcp_in.c.s
+pico-sdk/lib/lwip/src/core/raw.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/core/raw.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/raw.c.s
+.PHONY : pico-sdk/lib/lwip/src/core/raw.c.s
 
-lwip/src/core/tcp_out.obj: lwip/src/core/tcp_out.c.obj
-.PHONY : lwip/src/core/tcp_out.obj
+pico-sdk/lib/lwip/src/core/stats.obj: pico-sdk/lib/lwip/src/core/stats.c.obj
+.PHONY : pico-sdk/lib/lwip/src/core/stats.obj
 
 # target to build an object file
-lwip/src/core/tcp_out.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/core/tcp_out.c.obj
-.PHONY : lwip/src/core/tcp_out.c.obj
+pico-sdk/lib/lwip/src/core/stats.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/core/stats.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/stats.c.obj
+.PHONY : pico-sdk/lib/lwip/src/core/stats.c.obj
 
-lwip/src/core/tcp_out.i: lwip/src/core/tcp_out.c.i
-.PHONY : lwip/src/core/tcp_out.i
+pico-sdk/lib/lwip/src/core/stats.i: pico-sdk/lib/lwip/src/core/stats.c.i
+.PHONY : pico-sdk/lib/lwip/src/core/stats.i
 
 # target to preprocess a source file
-lwip/src/core/tcp_out.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/core/tcp_out.c.i
-.PHONY : lwip/src/core/tcp_out.c.i
+pico-sdk/lib/lwip/src/core/stats.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/core/stats.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/stats.c.i
+.PHONY : pico-sdk/lib/lwip/src/core/stats.c.i
 
-lwip/src/core/tcp_out.s: lwip/src/core/tcp_out.c.s
-.PHONY : lwip/src/core/tcp_out.s
+pico-sdk/lib/lwip/src/core/stats.s: pico-sdk/lib/lwip/src/core/stats.c.s
+.PHONY : pico-sdk/lib/lwip/src/core/stats.s
 
 # target to generate assembly for a file
-lwip/src/core/tcp_out.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/core/tcp_out.c.s
-.PHONY : lwip/src/core/tcp_out.c.s
+pico-sdk/lib/lwip/src/core/stats.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/core/stats.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/stats.c.s
+.PHONY : pico-sdk/lib/lwip/src/core/stats.c.s
 
-lwip/src/core/timeouts.obj: lwip/src/core/timeouts.c.obj
-.PHONY : lwip/src/core/timeouts.obj
+pico-sdk/lib/lwip/src/core/sys.obj: pico-sdk/lib/lwip/src/core/sys.c.obj
+.PHONY : pico-sdk/lib/lwip/src/core/sys.obj
 
 # target to build an object file
-lwip/src/core/timeouts.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/core/timeouts.c.obj
-.PHONY : lwip/src/core/timeouts.c.obj
+pico-sdk/lib/lwip/src/core/sys.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/core/sys.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/sys.c.obj
+.PHONY : pico-sdk/lib/lwip/src/core/sys.c.obj
 
-lwip/src/core/timeouts.i: lwip/src/core/timeouts.c.i
-.PHONY : lwip/src/core/timeouts.i
+pico-sdk/lib/lwip/src/core/sys.i: pico-sdk/lib/lwip/src/core/sys.c.i
+.PHONY : pico-sdk/lib/lwip/src/core/sys.i
 
 # target to preprocess a source file
-lwip/src/core/timeouts.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/core/timeouts.c.i
-.PHONY : lwip/src/core/timeouts.c.i
+pico-sdk/lib/lwip/src/core/sys.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/core/sys.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/sys.c.i
+.PHONY : pico-sdk/lib/lwip/src/core/sys.c.i
 
-lwip/src/core/timeouts.s: lwip/src/core/timeouts.c.s
-.PHONY : lwip/src/core/timeouts.s
+pico-sdk/lib/lwip/src/core/sys.s: pico-sdk/lib/lwip/src/core/sys.c.s
+.PHONY : pico-sdk/lib/lwip/src/core/sys.s
 
 # target to generate assembly for a file
-lwip/src/core/timeouts.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/core/timeouts.c.s
-.PHONY : lwip/src/core/timeouts.c.s
+pico-sdk/lib/lwip/src/core/sys.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/core/sys.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/sys.c.s
+.PHONY : pico-sdk/lib/lwip/src/core/sys.c.s
 
-lwip/src/core/udp.obj: lwip/src/core/udp.c.obj
-.PHONY : lwip/src/core/udp.obj
+pico-sdk/lib/lwip/src/core/tcp.obj: pico-sdk/lib/lwip/src/core/tcp.c.obj
+.PHONY : pico-sdk/lib/lwip/src/core/tcp.obj
 
 # target to build an object file
-lwip/src/core/udp.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/core/udp.c.obj
-.PHONY : lwip/src/core/udp.c.obj
+pico-sdk/lib/lwip/src/core/tcp.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/core/tcp.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/tcp.c.obj
+.PHONY : pico-sdk/lib/lwip/src/core/tcp.c.obj
 
-lwip/src/core/udp.i: lwip/src/core/udp.c.i
-.PHONY : lwip/src/core/udp.i
+pico-sdk/lib/lwip/src/core/tcp.i: pico-sdk/lib/lwip/src/core/tcp.c.i
+.PHONY : pico-sdk/lib/lwip/src/core/tcp.i
 
 # target to preprocess a source file
-lwip/src/core/udp.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/core/udp.c.i
-.PHONY : lwip/src/core/udp.c.i
+pico-sdk/lib/lwip/src/core/tcp.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/core/tcp.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/tcp.c.i
+.PHONY : pico-sdk/lib/lwip/src/core/tcp.c.i
 
-lwip/src/core/udp.s: lwip/src/core/udp.c.s
-.PHONY : lwip/src/core/udp.s
+pico-sdk/lib/lwip/src/core/tcp.s: pico-sdk/lib/lwip/src/core/tcp.c.s
+.PHONY : pico-sdk/lib/lwip/src/core/tcp.s
 
 # target to generate assembly for a file
-lwip/src/core/udp.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/core/udp.c.s
-.PHONY : lwip/src/core/udp.c.s
+pico-sdk/lib/lwip/src/core/tcp.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/core/tcp.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/tcp.c.s
+.PHONY : pico-sdk/lib/lwip/src/core/tcp.c.s
 
-lwip/src/netif/bridgeif.obj: lwip/src/netif/bridgeif.c.obj
-.PHONY : lwip/src/netif/bridgeif.obj
+pico-sdk/lib/lwip/src/core/tcp_in.obj: pico-sdk/lib/lwip/src/core/tcp_in.c.obj
+.PHONY : pico-sdk/lib/lwip/src/core/tcp_in.obj
 
 # target to build an object file
-lwip/src/netif/bridgeif.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/netif/bridgeif.c.obj
-.PHONY : lwip/src/netif/bridgeif.c.obj
+pico-sdk/lib/lwip/src/core/tcp_in.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/core/tcp_in.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/tcp_in.c.obj
+.PHONY : pico-sdk/lib/lwip/src/core/tcp_in.c.obj
 
-lwip/src/netif/bridgeif.i: lwip/src/netif/bridgeif.c.i
-.PHONY : lwip/src/netif/bridgeif.i
+pico-sdk/lib/lwip/src/core/tcp_in.i: pico-sdk/lib/lwip/src/core/tcp_in.c.i
+.PHONY : pico-sdk/lib/lwip/src/core/tcp_in.i
 
 # target to preprocess a source file
-lwip/src/netif/bridgeif.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/netif/bridgeif.c.i
-.PHONY : lwip/src/netif/bridgeif.c.i
+pico-sdk/lib/lwip/src/core/tcp_in.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/core/tcp_in.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/tcp_in.c.i
+.PHONY : pico-sdk/lib/lwip/src/core/tcp_in.c.i
 
-lwip/src/netif/bridgeif.s: lwip/src/netif/bridgeif.c.s
-.PHONY : lwip/src/netif/bridgeif.s
+pico-sdk/lib/lwip/src/core/tcp_in.s: pico-sdk/lib/lwip/src/core/tcp_in.c.s
+.PHONY : pico-sdk/lib/lwip/src/core/tcp_in.s
 
 # target to generate assembly for a file
-lwip/src/netif/bridgeif.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/netif/bridgeif.c.s
-.PHONY : lwip/src/netif/bridgeif.c.s
+pico-sdk/lib/lwip/src/core/tcp_in.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/core/tcp_in.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/tcp_in.c.s
+.PHONY : pico-sdk/lib/lwip/src/core/tcp_in.c.s
 
-lwip/src/netif/bridgeif_fdb.obj: lwip/src/netif/bridgeif_fdb.c.obj
-.PHONY : lwip/src/netif/bridgeif_fdb.obj
+pico-sdk/lib/lwip/src/core/tcp_out.obj: pico-sdk/lib/lwip/src/core/tcp_out.c.obj
+.PHONY : pico-sdk/lib/lwip/src/core/tcp_out.obj
 
 # target to build an object file
-lwip/src/netif/bridgeif_fdb.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/netif/bridgeif_fdb.c.obj
-.PHONY : lwip/src/netif/bridgeif_fdb.c.obj
+pico-sdk/lib/lwip/src/core/tcp_out.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/core/tcp_out.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/tcp_out.c.obj
+.PHONY : pico-sdk/lib/lwip/src/core/tcp_out.c.obj
 
-lwip/src/netif/bridgeif_fdb.i: lwip/src/netif/bridgeif_fdb.c.i
-.PHONY : lwip/src/netif/bridgeif_fdb.i
+pico-sdk/lib/lwip/src/core/tcp_out.i: pico-sdk/lib/lwip/src/core/tcp_out.c.i
+.PHONY : pico-sdk/lib/lwip/src/core/tcp_out.i
 
 # target to preprocess a source file
-lwip/src/netif/bridgeif_fdb.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/netif/bridgeif_fdb.c.i
-.PHONY : lwip/src/netif/bridgeif_fdb.c.i
+pico-sdk/lib/lwip/src/core/tcp_out.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/core/tcp_out.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/tcp_out.c.i
+.PHONY : pico-sdk/lib/lwip/src/core/tcp_out.c.i
 
-lwip/src/netif/bridgeif_fdb.s: lwip/src/netif/bridgeif_fdb.c.s
-.PHONY : lwip/src/netif/bridgeif_fdb.s
+pico-sdk/lib/lwip/src/core/tcp_out.s: pico-sdk/lib/lwip/src/core/tcp_out.c.s
+.PHONY : pico-sdk/lib/lwip/src/core/tcp_out.s
 
 # target to generate assembly for a file
-lwip/src/netif/bridgeif_fdb.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/netif/bridgeif_fdb.c.s
-.PHONY : lwip/src/netif/bridgeif_fdb.c.s
+pico-sdk/lib/lwip/src/core/tcp_out.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/core/tcp_out.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/tcp_out.c.s
+.PHONY : pico-sdk/lib/lwip/src/core/tcp_out.c.s
 
-lwip/src/netif/ethernet.obj: lwip/src/netif/ethernet.c.obj
-.PHONY : lwip/src/netif/ethernet.obj
+pico-sdk/lib/lwip/src/core/timeouts.obj: pico-sdk/lib/lwip/src/core/timeouts.c.obj
+.PHONY : pico-sdk/lib/lwip/src/core/timeouts.obj
 
 # target to build an object file
-lwip/src/netif/ethernet.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/netif/ethernet.c.obj
-.PHONY : lwip/src/netif/ethernet.c.obj
+pico-sdk/lib/lwip/src/core/timeouts.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/core/timeouts.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/timeouts.c.obj
+.PHONY : pico-sdk/lib/lwip/src/core/timeouts.c.obj
 
-lwip/src/netif/ethernet.i: lwip/src/netif/ethernet.c.i
-.PHONY : lwip/src/netif/ethernet.i
+pico-sdk/lib/lwip/src/core/timeouts.i: pico-sdk/lib/lwip/src/core/timeouts.c.i
+.PHONY : pico-sdk/lib/lwip/src/core/timeouts.i
 
 # target to preprocess a source file
-lwip/src/netif/ethernet.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/netif/ethernet.c.i
-.PHONY : lwip/src/netif/ethernet.c.i
+pico-sdk/lib/lwip/src/core/timeouts.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/core/timeouts.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/timeouts.c.i
+.PHONY : pico-sdk/lib/lwip/src/core/timeouts.c.i
 
-lwip/src/netif/ethernet.s: lwip/src/netif/ethernet.c.s
-.PHONY : lwip/src/netif/ethernet.s
+pico-sdk/lib/lwip/src/core/timeouts.s: pico-sdk/lib/lwip/src/core/timeouts.c.s
+.PHONY : pico-sdk/lib/lwip/src/core/timeouts.s
 
 # target to generate assembly for a file
-lwip/src/netif/ethernet.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/netif/ethernet.c.s
-.PHONY : lwip/src/netif/ethernet.c.s
+pico-sdk/lib/lwip/src/core/timeouts.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/core/timeouts.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/timeouts.c.s
+.PHONY : pico-sdk/lib/lwip/src/core/timeouts.c.s
 
-lwip/src/netif/lowpan6.obj: lwip/src/netif/lowpan6.c.obj
-.PHONY : lwip/src/netif/lowpan6.obj
+pico-sdk/lib/lwip/src/core/udp.obj: pico-sdk/lib/lwip/src/core/udp.c.obj
+.PHONY : pico-sdk/lib/lwip/src/core/udp.obj
 
 # target to build an object file
-lwip/src/netif/lowpan6.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/netif/lowpan6.c.obj
-.PHONY : lwip/src/netif/lowpan6.c.obj
+pico-sdk/lib/lwip/src/core/udp.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/core/udp.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/udp.c.obj
+.PHONY : pico-sdk/lib/lwip/src/core/udp.c.obj
 
-lwip/src/netif/lowpan6.i: lwip/src/netif/lowpan6.c.i
-.PHONY : lwip/src/netif/lowpan6.i
+pico-sdk/lib/lwip/src/core/udp.i: pico-sdk/lib/lwip/src/core/udp.c.i
+.PHONY : pico-sdk/lib/lwip/src/core/udp.i
 
 # target to preprocess a source file
-lwip/src/netif/lowpan6.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/netif/lowpan6.c.i
-.PHONY : lwip/src/netif/lowpan6.c.i
+pico-sdk/lib/lwip/src/core/udp.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/core/udp.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/udp.c.i
+.PHONY : pico-sdk/lib/lwip/src/core/udp.c.i
 
-lwip/src/netif/lowpan6.s: lwip/src/netif/lowpan6.c.s
-.PHONY : lwip/src/netif/lowpan6.s
+pico-sdk/lib/lwip/src/core/udp.s: pico-sdk/lib/lwip/src/core/udp.c.s
+.PHONY : pico-sdk/lib/lwip/src/core/udp.s
 
 # target to generate assembly for a file
-lwip/src/netif/lowpan6.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/netif/lowpan6.c.s
-.PHONY : lwip/src/netif/lowpan6.c.s
+pico-sdk/lib/lwip/src/core/udp.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/core/udp.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/udp.c.s
+.PHONY : pico-sdk/lib/lwip/src/core/udp.c.s
 
-lwip/src/netif/lowpan6_ble.obj: lwip/src/netif/lowpan6_ble.c.obj
-.PHONY : lwip/src/netif/lowpan6_ble.obj
+pico-sdk/lib/lwip/src/netif/bridgeif.obj: pico-sdk/lib/lwip/src/netif/bridgeif.c.obj
+.PHONY : pico-sdk/lib/lwip/src/netif/bridgeif.obj
 
 # target to build an object file
-lwip/src/netif/lowpan6_ble.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/netif/lowpan6_ble.c.obj
-.PHONY : lwip/src/netif/lowpan6_ble.c.obj
+pico-sdk/lib/lwip/src/netif/bridgeif.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/bridgeif.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/bridgeif.c.obj
+.PHONY : pico-sdk/lib/lwip/src/netif/bridgeif.c.obj
 
-lwip/src/netif/lowpan6_ble.i: lwip/src/netif/lowpan6_ble.c.i
-.PHONY : lwip/src/netif/lowpan6_ble.i
+pico-sdk/lib/lwip/src/netif/bridgeif.i: pico-sdk/lib/lwip/src/netif/bridgeif.c.i
+.PHONY : pico-sdk/lib/lwip/src/netif/bridgeif.i
 
 # target to preprocess a source file
-lwip/src/netif/lowpan6_ble.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/netif/lowpan6_ble.c.i
-.PHONY : lwip/src/netif/lowpan6_ble.c.i
+pico-sdk/lib/lwip/src/netif/bridgeif.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/bridgeif.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/bridgeif.c.i
+.PHONY : pico-sdk/lib/lwip/src/netif/bridgeif.c.i
 
-lwip/src/netif/lowpan6_ble.s: lwip/src/netif/lowpan6_ble.c.s
-.PHONY : lwip/src/netif/lowpan6_ble.s
+pico-sdk/lib/lwip/src/netif/bridgeif.s: pico-sdk/lib/lwip/src/netif/bridgeif.c.s
+.PHONY : pico-sdk/lib/lwip/src/netif/bridgeif.s
 
 # target to generate assembly for a file
-lwip/src/netif/lowpan6_ble.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/netif/lowpan6_ble.c.s
-.PHONY : lwip/src/netif/lowpan6_ble.c.s
+pico-sdk/lib/lwip/src/netif/bridgeif.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/bridgeif.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/bridgeif.c.s
+.PHONY : pico-sdk/lib/lwip/src/netif/bridgeif.c.s
 
-lwip/src/netif/lowpan6_common.obj: lwip/src/netif/lowpan6_common.c.obj
-.PHONY : lwip/src/netif/lowpan6_common.obj
+pico-sdk/lib/lwip/src/netif/bridgeif_fdb.obj: pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.obj
+.PHONY : pico-sdk/lib/lwip/src/netif/bridgeif_fdb.obj
 
 # target to build an object file
-lwip/src/netif/lowpan6_common.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/netif/lowpan6_common.c.obj
-.PHONY : lwip/src/netif/lowpan6_common.c.obj
+pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.obj
+.PHONY : pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.obj
 
-lwip/src/netif/lowpan6_common.i: lwip/src/netif/lowpan6_common.c.i
-.PHONY : lwip/src/netif/lowpan6_common.i
+pico-sdk/lib/lwip/src/netif/bridgeif_fdb.i: pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.i
+.PHONY : pico-sdk/lib/lwip/src/netif/bridgeif_fdb.i
 
 # target to preprocess a source file
-lwip/src/netif/lowpan6_common.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/netif/lowpan6_common.c.i
-.PHONY : lwip/src/netif/lowpan6_common.c.i
+pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.i
+.PHONY : pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.i
 
-lwip/src/netif/lowpan6_common.s: lwip/src/netif/lowpan6_common.c.s
-.PHONY : lwip/src/netif/lowpan6_common.s
+pico-sdk/lib/lwip/src/netif/bridgeif_fdb.s: pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.s
+.PHONY : pico-sdk/lib/lwip/src/netif/bridgeif_fdb.s
 
 # target to generate assembly for a file
-lwip/src/netif/lowpan6_common.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/netif/lowpan6_common.c.s
-.PHONY : lwip/src/netif/lowpan6_common.c.s
+pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.s
+.PHONY : pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.s
 
-lwip/src/netif/ppp/auth.obj: lwip/src/netif/ppp/auth.c.obj
-.PHONY : lwip/src/netif/ppp/auth.obj
+pico-sdk/lib/lwip/src/netif/ethernet.obj: pico-sdk/lib/lwip/src/netif/ethernet.c.obj
+.PHONY : pico-sdk/lib/lwip/src/netif/ethernet.obj
 
 # target to build an object file
-lwip/src/netif/ppp/auth.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/netif/ppp/auth.c.obj
-.PHONY : lwip/src/netif/ppp/auth.c.obj
+pico-sdk/lib/lwip/src/netif/ethernet.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ethernet.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ethernet.c.obj
+.PHONY : pico-sdk/lib/lwip/src/netif/ethernet.c.obj
 
-lwip/src/netif/ppp/auth.i: lwip/src/netif/ppp/auth.c.i
-.PHONY : lwip/src/netif/ppp/auth.i
+pico-sdk/lib/lwip/src/netif/ethernet.i: pico-sdk/lib/lwip/src/netif/ethernet.c.i
+.PHONY : pico-sdk/lib/lwip/src/netif/ethernet.i
 
 # target to preprocess a source file
-lwip/src/netif/ppp/auth.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/netif/ppp/auth.c.i
-.PHONY : lwip/src/netif/ppp/auth.c.i
+pico-sdk/lib/lwip/src/netif/ethernet.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ethernet.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ethernet.c.i
+.PHONY : pico-sdk/lib/lwip/src/netif/ethernet.c.i
 
-lwip/src/netif/ppp/auth.s: lwip/src/netif/ppp/auth.c.s
-.PHONY : lwip/src/netif/ppp/auth.s
+pico-sdk/lib/lwip/src/netif/ethernet.s: pico-sdk/lib/lwip/src/netif/ethernet.c.s
+.PHONY : pico-sdk/lib/lwip/src/netif/ethernet.s
 
 # target to generate assembly for a file
-lwip/src/netif/ppp/auth.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/netif/ppp/auth.c.s
-.PHONY : lwip/src/netif/ppp/auth.c.s
+pico-sdk/lib/lwip/src/netif/ethernet.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ethernet.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ethernet.c.s
+.PHONY : pico-sdk/lib/lwip/src/netif/ethernet.c.s
 
-lwip/src/netif/ppp/ccp.obj: lwip/src/netif/ppp/ccp.c.obj
-.PHONY : lwip/src/netif/ppp/ccp.obj
+pico-sdk/lib/lwip/src/netif/lowpan6.obj: pico-sdk/lib/lwip/src/netif/lowpan6.c.obj
+.PHONY : pico-sdk/lib/lwip/src/netif/lowpan6.obj
 
 # target to build an object file
-lwip/src/netif/ppp/ccp.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/netif/ppp/ccp.c.obj
-.PHONY : lwip/src/netif/ppp/ccp.c.obj
+pico-sdk/lib/lwip/src/netif/lowpan6.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/lowpan6.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/lowpan6.c.obj
+.PHONY : pico-sdk/lib/lwip/src/netif/lowpan6.c.obj
 
-lwip/src/netif/ppp/ccp.i: lwip/src/netif/ppp/ccp.c.i
-.PHONY : lwip/src/netif/ppp/ccp.i
+pico-sdk/lib/lwip/src/netif/lowpan6.i: pico-sdk/lib/lwip/src/netif/lowpan6.c.i
+.PHONY : pico-sdk/lib/lwip/src/netif/lowpan6.i
 
 # target to preprocess a source file
-lwip/src/netif/ppp/ccp.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/netif/ppp/ccp.c.i
-.PHONY : lwip/src/netif/ppp/ccp.c.i
+pico-sdk/lib/lwip/src/netif/lowpan6.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/lowpan6.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/lowpan6.c.i
+.PHONY : pico-sdk/lib/lwip/src/netif/lowpan6.c.i
 
-lwip/src/netif/ppp/ccp.s: lwip/src/netif/ppp/ccp.c.s
-.PHONY : lwip/src/netif/ppp/ccp.s
+pico-sdk/lib/lwip/src/netif/lowpan6.s: pico-sdk/lib/lwip/src/netif/lowpan6.c.s
+.PHONY : pico-sdk/lib/lwip/src/netif/lowpan6.s
 
 # target to generate assembly for a file
-lwip/src/netif/ppp/ccp.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/netif/ppp/ccp.c.s
-.PHONY : lwip/src/netif/ppp/ccp.c.s
+pico-sdk/lib/lwip/src/netif/lowpan6.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/lowpan6.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/lowpan6.c.s
+.PHONY : pico-sdk/lib/lwip/src/netif/lowpan6.c.s
 
-lwip/src/netif/ppp/chap-md5.obj: lwip/src/netif/ppp/chap-md5.c.obj
-.PHONY : lwip/src/netif/ppp/chap-md5.obj
+pico-sdk/lib/lwip/src/netif/lowpan6_ble.obj: pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.obj
+.PHONY : pico-sdk/lib/lwip/src/netif/lowpan6_ble.obj
 
 # target to build an object file
-lwip/src/netif/ppp/chap-md5.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/netif/ppp/chap-md5.c.obj
-.PHONY : lwip/src/netif/ppp/chap-md5.c.obj
+pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.obj
+.PHONY : pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.obj
 
-lwip/src/netif/ppp/chap-md5.i: lwip/src/netif/ppp/chap-md5.c.i
-.PHONY : lwip/src/netif/ppp/chap-md5.i
+pico-sdk/lib/lwip/src/netif/lowpan6_ble.i: pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.i
+.PHONY : pico-sdk/lib/lwip/src/netif/lowpan6_ble.i
 
 # target to preprocess a source file
-lwip/src/netif/ppp/chap-md5.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/netif/ppp/chap-md5.c.i
-.PHONY : lwip/src/netif/ppp/chap-md5.c.i
+pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.i
+.PHONY : pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.i
 
-lwip/src/netif/ppp/chap-md5.s: lwip/src/netif/ppp/chap-md5.c.s
-.PHONY : lwip/src/netif/ppp/chap-md5.s
+pico-sdk/lib/lwip/src/netif/lowpan6_ble.s: pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.s
+.PHONY : pico-sdk/lib/lwip/src/netif/lowpan6_ble.s
 
 # target to generate assembly for a file
-lwip/src/netif/ppp/chap-md5.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/netif/ppp/chap-md5.c.s
-.PHONY : lwip/src/netif/ppp/chap-md5.c.s
+pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.s
+.PHONY : pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.s
 
-lwip/src/netif/ppp/chap-new.obj: lwip/src/netif/ppp/chap-new.c.obj
-.PHONY : lwip/src/netif/ppp/chap-new.obj
+pico-sdk/lib/lwip/src/netif/lowpan6_common.obj: pico-sdk/lib/lwip/src/netif/lowpan6_common.c.obj
+.PHONY : pico-sdk/lib/lwip/src/netif/lowpan6_common.obj
 
 # target to build an object file
-lwip/src/netif/ppp/chap-new.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/netif/ppp/chap-new.c.obj
-.PHONY : lwip/src/netif/ppp/chap-new.c.obj
+pico-sdk/lib/lwip/src/netif/lowpan6_common.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.obj
+.PHONY : pico-sdk/lib/lwip/src/netif/lowpan6_common.c.obj
 
-lwip/src/netif/ppp/chap-new.i: lwip/src/netif/ppp/chap-new.c.i
-.PHONY : lwip/src/netif/ppp/chap-new.i
+pico-sdk/lib/lwip/src/netif/lowpan6_common.i: pico-sdk/lib/lwip/src/netif/lowpan6_common.c.i
+.PHONY : pico-sdk/lib/lwip/src/netif/lowpan6_common.i
 
 # target to preprocess a source file
-lwip/src/netif/ppp/chap-new.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/netif/ppp/chap-new.c.i
-.PHONY : lwip/src/netif/ppp/chap-new.c.i
+pico-sdk/lib/lwip/src/netif/lowpan6_common.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.i
+.PHONY : pico-sdk/lib/lwip/src/netif/lowpan6_common.c.i
 
-lwip/src/netif/ppp/chap-new.s: lwip/src/netif/ppp/chap-new.c.s
-.PHONY : lwip/src/netif/ppp/chap-new.s
+pico-sdk/lib/lwip/src/netif/lowpan6_common.s: pico-sdk/lib/lwip/src/netif/lowpan6_common.c.s
+.PHONY : pico-sdk/lib/lwip/src/netif/lowpan6_common.s
 
 # target to generate assembly for a file
-lwip/src/netif/ppp/chap-new.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/netif/ppp/chap-new.c.s
-.PHONY : lwip/src/netif/ppp/chap-new.c.s
+pico-sdk/lib/lwip/src/netif/lowpan6_common.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.s
+.PHONY : pico-sdk/lib/lwip/src/netif/lowpan6_common.c.s
 
-lwip/src/netif/ppp/chap_ms.obj: lwip/src/netif/ppp/chap_ms.c.obj
-.PHONY : lwip/src/netif/ppp/chap_ms.obj
+pico-sdk/lib/lwip/src/netif/ppp/auth.obj: pico-sdk/lib/lwip/src/netif/ppp/auth.c.obj
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/auth.obj
 
 # target to build an object file
-lwip/src/netif/ppp/chap_ms.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/netif/ppp/chap_ms.c.obj
-.PHONY : lwip/src/netif/ppp/chap_ms.c.obj
+pico-sdk/lib/lwip/src/netif/ppp/auth.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/auth.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/auth.c.obj
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/auth.c.obj
 
-lwip/src/netif/ppp/chap_ms.i: lwip/src/netif/ppp/chap_ms.c.i
-.PHONY : lwip/src/netif/ppp/chap_ms.i
+pico-sdk/lib/lwip/src/netif/ppp/auth.i: pico-sdk/lib/lwip/src/netif/ppp/auth.c.i
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/auth.i
 
 # target to preprocess a source file
-lwip/src/netif/ppp/chap_ms.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/netif/ppp/chap_ms.c.i
-.PHONY : lwip/src/netif/ppp/chap_ms.c.i
+pico-sdk/lib/lwip/src/netif/ppp/auth.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/auth.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/auth.c.i
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/auth.c.i
 
-lwip/src/netif/ppp/chap_ms.s: lwip/src/netif/ppp/chap_ms.c.s
-.PHONY : lwip/src/netif/ppp/chap_ms.s
+pico-sdk/lib/lwip/src/netif/ppp/auth.s: pico-sdk/lib/lwip/src/netif/ppp/auth.c.s
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/auth.s
 
 # target to generate assembly for a file
-lwip/src/netif/ppp/chap_ms.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/netif/ppp/chap_ms.c.s
-.PHONY : lwip/src/netif/ppp/chap_ms.c.s
+pico-sdk/lib/lwip/src/netif/ppp/auth.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/auth.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/auth.c.s
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/auth.c.s
 
-lwip/src/netif/ppp/demand.obj: lwip/src/netif/ppp/demand.c.obj
-.PHONY : lwip/src/netif/ppp/demand.obj
+pico-sdk/lib/lwip/src/netif/ppp/ccp.obj: pico-sdk/lib/lwip/src/netif/ppp/ccp.c.obj
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/ccp.obj
 
 # target to build an object file
-lwip/src/netif/ppp/demand.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/netif/ppp/demand.c.obj
-.PHONY : lwip/src/netif/ppp/demand.c.obj
+pico-sdk/lib/lwip/src/netif/ppp/ccp.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.obj
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/ccp.c.obj
 
-lwip/src/netif/ppp/demand.i: lwip/src/netif/ppp/demand.c.i
-.PHONY : lwip/src/netif/ppp/demand.i
+pico-sdk/lib/lwip/src/netif/ppp/ccp.i: pico-sdk/lib/lwip/src/netif/ppp/ccp.c.i
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/ccp.i
 
 # target to preprocess a source file
-lwip/src/netif/ppp/demand.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/netif/ppp/demand.c.i
-.PHONY : lwip/src/netif/ppp/demand.c.i
+pico-sdk/lib/lwip/src/netif/ppp/ccp.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.i
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/ccp.c.i
 
-lwip/src/netif/ppp/demand.s: lwip/src/netif/ppp/demand.c.s
-.PHONY : lwip/src/netif/ppp/demand.s
+pico-sdk/lib/lwip/src/netif/ppp/ccp.s: pico-sdk/lib/lwip/src/netif/ppp/ccp.c.s
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/ccp.s
 
 # target to generate assembly for a file
-lwip/src/netif/ppp/demand.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/netif/ppp/demand.c.s
-.PHONY : lwip/src/netif/ppp/demand.c.s
+pico-sdk/lib/lwip/src/netif/ppp/ccp.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.s
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/ccp.c.s
 
-lwip/src/netif/ppp/eap.obj: lwip/src/netif/ppp/eap.c.obj
-.PHONY : lwip/src/netif/ppp/eap.obj
+pico-sdk/lib/lwip/src/netif/ppp/chap-md5.obj: pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.obj
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/chap-md5.obj
 
 # target to build an object file
-lwip/src/netif/ppp/eap.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/netif/ppp/eap.c.obj
-.PHONY : lwip/src/netif/ppp/eap.c.obj
+pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.obj
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.obj
 
-lwip/src/netif/ppp/eap.i: lwip/src/netif/ppp/eap.c.i
-.PHONY : lwip/src/netif/ppp/eap.i
+pico-sdk/lib/lwip/src/netif/ppp/chap-md5.i: pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.i
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/chap-md5.i
 
 # target to preprocess a source file
-lwip/src/netif/ppp/eap.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/netif/ppp/eap.c.i
-.PHONY : lwip/src/netif/ppp/eap.c.i
+pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.i
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.i
 
-lwip/src/netif/ppp/eap.s: lwip/src/netif/ppp/eap.c.s
-.PHONY : lwip/src/netif/ppp/eap.s
+pico-sdk/lib/lwip/src/netif/ppp/chap-md5.s: pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.s
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/chap-md5.s
 
 # target to generate assembly for a file
-lwip/src/netif/ppp/eap.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/netif/ppp/eap.c.s
-.PHONY : lwip/src/netif/ppp/eap.c.s
+pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.s
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.s
 
-lwip/src/netif/ppp/ecp.obj: lwip/src/netif/ppp/ecp.c.obj
-.PHONY : lwip/src/netif/ppp/ecp.obj
+pico-sdk/lib/lwip/src/netif/ppp/chap-new.obj: pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.obj
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/chap-new.obj
 
 # target to build an object file
-lwip/src/netif/ppp/ecp.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/netif/ppp/ecp.c.obj
-.PHONY : lwip/src/netif/ppp/ecp.c.obj
+pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.obj
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.obj
 
-lwip/src/netif/ppp/ecp.i: lwip/src/netif/ppp/ecp.c.i
-.PHONY : lwip/src/netif/ppp/ecp.i
+pico-sdk/lib/lwip/src/netif/ppp/chap-new.i: pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.i
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/chap-new.i
 
 # target to preprocess a source file
-lwip/src/netif/ppp/ecp.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/netif/ppp/ecp.c.i
-.PHONY : lwip/src/netif/ppp/ecp.c.i
+pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.i
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.i
 
-lwip/src/netif/ppp/ecp.s: lwip/src/netif/ppp/ecp.c.s
-.PHONY : lwip/src/netif/ppp/ecp.s
+pico-sdk/lib/lwip/src/netif/ppp/chap-new.s: pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.s
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/chap-new.s
 
 # target to generate assembly for a file
-lwip/src/netif/ppp/ecp.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/netif/ppp/ecp.c.s
-.PHONY : lwip/src/netif/ppp/ecp.c.s
+pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.s
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.s
 
-lwip/src/netif/ppp/eui64.obj: lwip/src/netif/ppp/eui64.c.obj
-.PHONY : lwip/src/netif/ppp/eui64.obj
+pico-sdk/lib/lwip/src/netif/ppp/chap_ms.obj: pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.obj
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/chap_ms.obj
 
 # target to build an object file
-lwip/src/netif/ppp/eui64.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/netif/ppp/eui64.c.obj
-.PHONY : lwip/src/netif/ppp/eui64.c.obj
+pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.obj
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.obj
 
-lwip/src/netif/ppp/eui64.i: lwip/src/netif/ppp/eui64.c.i
-.PHONY : lwip/src/netif/ppp/eui64.i
+pico-sdk/lib/lwip/src/netif/ppp/chap_ms.i: pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.i
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/chap_ms.i
 
 # target to preprocess a source file
-lwip/src/netif/ppp/eui64.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/netif/ppp/eui64.c.i
-.PHONY : lwip/src/netif/ppp/eui64.c.i
+pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.i
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.i
 
-lwip/src/netif/ppp/eui64.s: lwip/src/netif/ppp/eui64.c.s
-.PHONY : lwip/src/netif/ppp/eui64.s
+pico-sdk/lib/lwip/src/netif/ppp/chap_ms.s: pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.s
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/chap_ms.s
 
 # target to generate assembly for a file
-lwip/src/netif/ppp/eui64.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/netif/ppp/eui64.c.s
-.PHONY : lwip/src/netif/ppp/eui64.c.s
+pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.s
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.s
 
-lwip/src/netif/ppp/fsm.obj: lwip/src/netif/ppp/fsm.c.obj
-.PHONY : lwip/src/netif/ppp/fsm.obj
+pico-sdk/lib/lwip/src/netif/ppp/demand.obj: pico-sdk/lib/lwip/src/netif/ppp/demand.c.obj
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/demand.obj
 
 # target to build an object file
-lwip/src/netif/ppp/fsm.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/netif/ppp/fsm.c.obj
-.PHONY : lwip/src/netif/ppp/fsm.c.obj
+pico-sdk/lib/lwip/src/netif/ppp/demand.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/demand.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/demand.c.obj
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/demand.c.obj
 
-lwip/src/netif/ppp/fsm.i: lwip/src/netif/ppp/fsm.c.i
-.PHONY : lwip/src/netif/ppp/fsm.i
+pico-sdk/lib/lwip/src/netif/ppp/demand.i: pico-sdk/lib/lwip/src/netif/ppp/demand.c.i
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/demand.i
 
 # target to preprocess a source file
-lwip/src/netif/ppp/fsm.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/netif/ppp/fsm.c.i
-.PHONY : lwip/src/netif/ppp/fsm.c.i
+pico-sdk/lib/lwip/src/netif/ppp/demand.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/demand.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/demand.c.i
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/demand.c.i
 
-lwip/src/netif/ppp/fsm.s: lwip/src/netif/ppp/fsm.c.s
-.PHONY : lwip/src/netif/ppp/fsm.s
+pico-sdk/lib/lwip/src/netif/ppp/demand.s: pico-sdk/lib/lwip/src/netif/ppp/demand.c.s
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/demand.s
 
 # target to generate assembly for a file
-lwip/src/netif/ppp/fsm.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/netif/ppp/fsm.c.s
-.PHONY : lwip/src/netif/ppp/fsm.c.s
+pico-sdk/lib/lwip/src/netif/ppp/demand.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/demand.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/demand.c.s
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/demand.c.s
 
-lwip/src/netif/ppp/ipcp.obj: lwip/src/netif/ppp/ipcp.c.obj
-.PHONY : lwip/src/netif/ppp/ipcp.obj
+pico-sdk/lib/lwip/src/netif/ppp/eap.obj: pico-sdk/lib/lwip/src/netif/ppp/eap.c.obj
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/eap.obj
 
 # target to build an object file
-lwip/src/netif/ppp/ipcp.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/netif/ppp/ipcp.c.obj
-.PHONY : lwip/src/netif/ppp/ipcp.c.obj
+pico-sdk/lib/lwip/src/netif/ppp/eap.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/eap.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/eap.c.obj
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/eap.c.obj
 
-lwip/src/netif/ppp/ipcp.i: lwip/src/netif/ppp/ipcp.c.i
-.PHONY : lwip/src/netif/ppp/ipcp.i
+pico-sdk/lib/lwip/src/netif/ppp/eap.i: pico-sdk/lib/lwip/src/netif/ppp/eap.c.i
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/eap.i
 
 # target to preprocess a source file
-lwip/src/netif/ppp/ipcp.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/netif/ppp/ipcp.c.i
-.PHONY : lwip/src/netif/ppp/ipcp.c.i
+pico-sdk/lib/lwip/src/netif/ppp/eap.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/eap.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/eap.c.i
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/eap.c.i
 
-lwip/src/netif/ppp/ipcp.s: lwip/src/netif/ppp/ipcp.c.s
-.PHONY : lwip/src/netif/ppp/ipcp.s
+pico-sdk/lib/lwip/src/netif/ppp/eap.s: pico-sdk/lib/lwip/src/netif/ppp/eap.c.s
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/eap.s
 
 # target to generate assembly for a file
-lwip/src/netif/ppp/ipcp.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/netif/ppp/ipcp.c.s
-.PHONY : lwip/src/netif/ppp/ipcp.c.s
+pico-sdk/lib/lwip/src/netif/ppp/eap.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/eap.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/eap.c.s
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/eap.c.s
 
-lwip/src/netif/ppp/ipv6cp.obj: lwip/src/netif/ppp/ipv6cp.c.obj
-.PHONY : lwip/src/netif/ppp/ipv6cp.obj
+pico-sdk/lib/lwip/src/netif/ppp/ecp.obj: pico-sdk/lib/lwip/src/netif/ppp/ecp.c.obj
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/ecp.obj
 
 # target to build an object file
-lwip/src/netif/ppp/ipv6cp.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/netif/ppp/ipv6cp.c.obj
-.PHONY : lwip/src/netif/ppp/ipv6cp.c.obj
+pico-sdk/lib/lwip/src/netif/ppp/ecp.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.obj
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/ecp.c.obj
 
-lwip/src/netif/ppp/ipv6cp.i: lwip/src/netif/ppp/ipv6cp.c.i
-.PHONY : lwip/src/netif/ppp/ipv6cp.i
+pico-sdk/lib/lwip/src/netif/ppp/ecp.i: pico-sdk/lib/lwip/src/netif/ppp/ecp.c.i
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/ecp.i
 
 # target to preprocess a source file
-lwip/src/netif/ppp/ipv6cp.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/netif/ppp/ipv6cp.c.i
-.PHONY : lwip/src/netif/ppp/ipv6cp.c.i
+pico-sdk/lib/lwip/src/netif/ppp/ecp.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.i
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/ecp.c.i
 
-lwip/src/netif/ppp/ipv6cp.s: lwip/src/netif/ppp/ipv6cp.c.s
-.PHONY : lwip/src/netif/ppp/ipv6cp.s
+pico-sdk/lib/lwip/src/netif/ppp/ecp.s: pico-sdk/lib/lwip/src/netif/ppp/ecp.c.s
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/ecp.s
 
 # target to generate assembly for a file
-lwip/src/netif/ppp/ipv6cp.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/netif/ppp/ipv6cp.c.s
-.PHONY : lwip/src/netif/ppp/ipv6cp.c.s
+pico-sdk/lib/lwip/src/netif/ppp/ecp.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.s
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/ecp.c.s
 
-lwip/src/netif/ppp/lcp.obj: lwip/src/netif/ppp/lcp.c.obj
-.PHONY : lwip/src/netif/ppp/lcp.obj
+pico-sdk/lib/lwip/src/netif/ppp/eui64.obj: pico-sdk/lib/lwip/src/netif/ppp/eui64.c.obj
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/eui64.obj
 
 # target to build an object file
-lwip/src/netif/ppp/lcp.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/netif/ppp/lcp.c.obj
-.PHONY : lwip/src/netif/ppp/lcp.c.obj
+pico-sdk/lib/lwip/src/netif/ppp/eui64.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.obj
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/eui64.c.obj
 
-lwip/src/netif/ppp/lcp.i: lwip/src/netif/ppp/lcp.c.i
-.PHONY : lwip/src/netif/ppp/lcp.i
+pico-sdk/lib/lwip/src/netif/ppp/eui64.i: pico-sdk/lib/lwip/src/netif/ppp/eui64.c.i
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/eui64.i
 
 # target to preprocess a source file
-lwip/src/netif/ppp/lcp.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/netif/ppp/lcp.c.i
-.PHONY : lwip/src/netif/ppp/lcp.c.i
+pico-sdk/lib/lwip/src/netif/ppp/eui64.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.i
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/eui64.c.i
 
-lwip/src/netif/ppp/lcp.s: lwip/src/netif/ppp/lcp.c.s
-.PHONY : lwip/src/netif/ppp/lcp.s
+pico-sdk/lib/lwip/src/netif/ppp/eui64.s: pico-sdk/lib/lwip/src/netif/ppp/eui64.c.s
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/eui64.s
 
 # target to generate assembly for a file
-lwip/src/netif/ppp/lcp.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/netif/ppp/lcp.c.s
-.PHONY : lwip/src/netif/ppp/lcp.c.s
+pico-sdk/lib/lwip/src/netif/ppp/eui64.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.s
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/eui64.c.s
 
-lwip/src/netif/ppp/magic.obj: lwip/src/netif/ppp/magic.c.obj
-.PHONY : lwip/src/netif/ppp/magic.obj
+pico-sdk/lib/lwip/src/netif/ppp/fsm.obj: pico-sdk/lib/lwip/src/netif/ppp/fsm.c.obj
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/fsm.obj
 
 # target to build an object file
-lwip/src/netif/ppp/magic.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/netif/ppp/magic.c.obj
-.PHONY : lwip/src/netif/ppp/magic.c.obj
+pico-sdk/lib/lwip/src/netif/ppp/fsm.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.obj
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/fsm.c.obj
 
-lwip/src/netif/ppp/magic.i: lwip/src/netif/ppp/magic.c.i
-.PHONY : lwip/src/netif/ppp/magic.i
+pico-sdk/lib/lwip/src/netif/ppp/fsm.i: pico-sdk/lib/lwip/src/netif/ppp/fsm.c.i
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/fsm.i
 
 # target to preprocess a source file
-lwip/src/netif/ppp/magic.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/netif/ppp/magic.c.i
-.PHONY : lwip/src/netif/ppp/magic.c.i
+pico-sdk/lib/lwip/src/netif/ppp/fsm.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.i
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/fsm.c.i
 
-lwip/src/netif/ppp/magic.s: lwip/src/netif/ppp/magic.c.s
-.PHONY : lwip/src/netif/ppp/magic.s
+pico-sdk/lib/lwip/src/netif/ppp/fsm.s: pico-sdk/lib/lwip/src/netif/ppp/fsm.c.s
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/fsm.s
 
 # target to generate assembly for a file
-lwip/src/netif/ppp/magic.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/netif/ppp/magic.c.s
-.PHONY : lwip/src/netif/ppp/magic.c.s
+pico-sdk/lib/lwip/src/netif/ppp/fsm.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.s
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/fsm.c.s
 
-lwip/src/netif/ppp/mppe.obj: lwip/src/netif/ppp/mppe.c.obj
-.PHONY : lwip/src/netif/ppp/mppe.obj
+pico-sdk/lib/lwip/src/netif/ppp/ipcp.obj: pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.obj
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/ipcp.obj
 
 # target to build an object file
-lwip/src/netif/ppp/mppe.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/netif/ppp/mppe.c.obj
-.PHONY : lwip/src/netif/ppp/mppe.c.obj
+pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.obj
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.obj
 
-lwip/src/netif/ppp/mppe.i: lwip/src/netif/ppp/mppe.c.i
-.PHONY : lwip/src/netif/ppp/mppe.i
+pico-sdk/lib/lwip/src/netif/ppp/ipcp.i: pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.i
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/ipcp.i
 
 # target to preprocess a source file
-lwip/src/netif/ppp/mppe.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/netif/ppp/mppe.c.i
-.PHONY : lwip/src/netif/ppp/mppe.c.i
+pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.i
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.i
 
-lwip/src/netif/ppp/mppe.s: lwip/src/netif/ppp/mppe.c.s
-.PHONY : lwip/src/netif/ppp/mppe.s
+pico-sdk/lib/lwip/src/netif/ppp/ipcp.s: pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.s
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/ipcp.s
 
 # target to generate assembly for a file
-lwip/src/netif/ppp/mppe.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/netif/ppp/mppe.c.s
-.PHONY : lwip/src/netif/ppp/mppe.c.s
+pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.s
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.s
 
-lwip/src/netif/ppp/multilink.obj: lwip/src/netif/ppp/multilink.c.obj
-.PHONY : lwip/src/netif/ppp/multilink.obj
+pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.obj: pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.obj
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.obj
 
 # target to build an object file
-lwip/src/netif/ppp/multilink.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/netif/ppp/multilink.c.obj
-.PHONY : lwip/src/netif/ppp/multilink.c.obj
+pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.obj
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.obj
 
-lwip/src/netif/ppp/multilink.i: lwip/src/netif/ppp/multilink.c.i
-.PHONY : lwip/src/netif/ppp/multilink.i
+pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.i: pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.i
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.i
 
 # target to preprocess a source file
-lwip/src/netif/ppp/multilink.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/netif/ppp/multilink.c.i
-.PHONY : lwip/src/netif/ppp/multilink.c.i
+pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.i
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.i
 
-lwip/src/netif/ppp/multilink.s: lwip/src/netif/ppp/multilink.c.s
-.PHONY : lwip/src/netif/ppp/multilink.s
+pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.s: pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.s
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.s
 
 # target to generate assembly for a file
-lwip/src/netif/ppp/multilink.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/netif/ppp/multilink.c.s
-.PHONY : lwip/src/netif/ppp/multilink.c.s
+pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.s
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.s
 
-lwip/src/netif/ppp/polarssl/arc4.obj: lwip/src/netif/ppp/polarssl/arc4.c.obj
-.PHONY : lwip/src/netif/ppp/polarssl/arc4.obj
+pico-sdk/lib/lwip/src/netif/ppp/lcp.obj: pico-sdk/lib/lwip/src/netif/ppp/lcp.c.obj
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/lcp.obj
 
 # target to build an object file
-lwip/src/netif/ppp/polarssl/arc4.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/netif/ppp/polarssl/arc4.c.obj
-.PHONY : lwip/src/netif/ppp/polarssl/arc4.c.obj
+pico-sdk/lib/lwip/src/netif/ppp/lcp.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.obj
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/lcp.c.obj
 
-lwip/src/netif/ppp/polarssl/arc4.i: lwip/src/netif/ppp/polarssl/arc4.c.i
-.PHONY : lwip/src/netif/ppp/polarssl/arc4.i
+pico-sdk/lib/lwip/src/netif/ppp/lcp.i: pico-sdk/lib/lwip/src/netif/ppp/lcp.c.i
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/lcp.i
 
 # target to preprocess a source file
-lwip/src/netif/ppp/polarssl/arc4.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/netif/ppp/polarssl/arc4.c.i
-.PHONY : lwip/src/netif/ppp/polarssl/arc4.c.i
+pico-sdk/lib/lwip/src/netif/ppp/lcp.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.i
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/lcp.c.i
 
-lwip/src/netif/ppp/polarssl/arc4.s: lwip/src/netif/ppp/polarssl/arc4.c.s
-.PHONY : lwip/src/netif/ppp/polarssl/arc4.s
+pico-sdk/lib/lwip/src/netif/ppp/lcp.s: pico-sdk/lib/lwip/src/netif/ppp/lcp.c.s
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/lcp.s
 
 # target to generate assembly for a file
-lwip/src/netif/ppp/polarssl/arc4.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/netif/ppp/polarssl/arc4.c.s
-.PHONY : lwip/src/netif/ppp/polarssl/arc4.c.s
+pico-sdk/lib/lwip/src/netif/ppp/lcp.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.s
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/lcp.c.s
 
-lwip/src/netif/ppp/polarssl/des.obj: lwip/src/netif/ppp/polarssl/des.c.obj
-.PHONY : lwip/src/netif/ppp/polarssl/des.obj
+pico-sdk/lib/lwip/src/netif/ppp/magic.obj: pico-sdk/lib/lwip/src/netif/ppp/magic.c.obj
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/magic.obj
 
 # target to build an object file
-lwip/src/netif/ppp/polarssl/des.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/netif/ppp/polarssl/des.c.obj
-.PHONY : lwip/src/netif/ppp/polarssl/des.c.obj
+pico-sdk/lib/lwip/src/netif/ppp/magic.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/magic.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/magic.c.obj
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/magic.c.obj
 
-lwip/src/netif/ppp/polarssl/des.i: lwip/src/netif/ppp/polarssl/des.c.i
-.PHONY : lwip/src/netif/ppp/polarssl/des.i
+pico-sdk/lib/lwip/src/netif/ppp/magic.i: pico-sdk/lib/lwip/src/netif/ppp/magic.c.i
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/magic.i
 
 # target to preprocess a source file
-lwip/src/netif/ppp/polarssl/des.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/netif/ppp/polarssl/des.c.i
-.PHONY : lwip/src/netif/ppp/polarssl/des.c.i
+pico-sdk/lib/lwip/src/netif/ppp/magic.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/magic.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/magic.c.i
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/magic.c.i
 
-lwip/src/netif/ppp/polarssl/des.s: lwip/src/netif/ppp/polarssl/des.c.s
-.PHONY : lwip/src/netif/ppp/polarssl/des.s
+pico-sdk/lib/lwip/src/netif/ppp/magic.s: pico-sdk/lib/lwip/src/netif/ppp/magic.c.s
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/magic.s
 
 # target to generate assembly for a file
-lwip/src/netif/ppp/polarssl/des.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/netif/ppp/polarssl/des.c.s
-.PHONY : lwip/src/netif/ppp/polarssl/des.c.s
+pico-sdk/lib/lwip/src/netif/ppp/magic.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/magic.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/magic.c.s
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/magic.c.s
 
-lwip/src/netif/ppp/polarssl/md4.obj: lwip/src/netif/ppp/polarssl/md4.c.obj
-.PHONY : lwip/src/netif/ppp/polarssl/md4.obj
+pico-sdk/lib/lwip/src/netif/ppp/mppe.obj: pico-sdk/lib/lwip/src/netif/ppp/mppe.c.obj
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/mppe.obj
 
 # target to build an object file
-lwip/src/netif/ppp/polarssl/md4.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/netif/ppp/polarssl/md4.c.obj
-.PHONY : lwip/src/netif/ppp/polarssl/md4.c.obj
+pico-sdk/lib/lwip/src/netif/ppp/mppe.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.obj
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/mppe.c.obj
 
-lwip/src/netif/ppp/polarssl/md4.i: lwip/src/netif/ppp/polarssl/md4.c.i
-.PHONY : lwip/src/netif/ppp/polarssl/md4.i
+pico-sdk/lib/lwip/src/netif/ppp/mppe.i: pico-sdk/lib/lwip/src/netif/ppp/mppe.c.i
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/mppe.i
 
 # target to preprocess a source file
-lwip/src/netif/ppp/polarssl/md4.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/netif/ppp/polarssl/md4.c.i
-.PHONY : lwip/src/netif/ppp/polarssl/md4.c.i
+pico-sdk/lib/lwip/src/netif/ppp/mppe.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.i
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/mppe.c.i
 
-lwip/src/netif/ppp/polarssl/md4.s: lwip/src/netif/ppp/polarssl/md4.c.s
-.PHONY : lwip/src/netif/ppp/polarssl/md4.s
+pico-sdk/lib/lwip/src/netif/ppp/mppe.s: pico-sdk/lib/lwip/src/netif/ppp/mppe.c.s
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/mppe.s
 
 # target to generate assembly for a file
-lwip/src/netif/ppp/polarssl/md4.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/netif/ppp/polarssl/md4.c.s
-.PHONY : lwip/src/netif/ppp/polarssl/md4.c.s
+pico-sdk/lib/lwip/src/netif/ppp/mppe.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.s
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/mppe.c.s
 
-lwip/src/netif/ppp/polarssl/md5.obj: lwip/src/netif/ppp/polarssl/md5.c.obj
-.PHONY : lwip/src/netif/ppp/polarssl/md5.obj
+pico-sdk/lib/lwip/src/netif/ppp/multilink.obj: pico-sdk/lib/lwip/src/netif/ppp/multilink.c.obj
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/multilink.obj
 
 # target to build an object file
-lwip/src/netif/ppp/polarssl/md5.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/netif/ppp/polarssl/md5.c.obj
-.PHONY : lwip/src/netif/ppp/polarssl/md5.c.obj
+pico-sdk/lib/lwip/src/netif/ppp/multilink.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.obj
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/multilink.c.obj
 
-lwip/src/netif/ppp/polarssl/md5.i: lwip/src/netif/ppp/polarssl/md5.c.i
-.PHONY : lwip/src/netif/ppp/polarssl/md5.i
+pico-sdk/lib/lwip/src/netif/ppp/multilink.i: pico-sdk/lib/lwip/src/netif/ppp/multilink.c.i
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/multilink.i
 
 # target to preprocess a source file
-lwip/src/netif/ppp/polarssl/md5.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/netif/ppp/polarssl/md5.c.i
-.PHONY : lwip/src/netif/ppp/polarssl/md5.c.i
+pico-sdk/lib/lwip/src/netif/ppp/multilink.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.i
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/multilink.c.i
 
-lwip/src/netif/ppp/polarssl/md5.s: lwip/src/netif/ppp/polarssl/md5.c.s
-.PHONY : lwip/src/netif/ppp/polarssl/md5.s
+pico-sdk/lib/lwip/src/netif/ppp/multilink.s: pico-sdk/lib/lwip/src/netif/ppp/multilink.c.s
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/multilink.s
 
 # target to generate assembly for a file
-lwip/src/netif/ppp/polarssl/md5.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/netif/ppp/polarssl/md5.c.s
-.PHONY : lwip/src/netif/ppp/polarssl/md5.c.s
+pico-sdk/lib/lwip/src/netif/ppp/multilink.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.s
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/multilink.c.s
 
-lwip/src/netif/ppp/polarssl/sha1.obj: lwip/src/netif/ppp/polarssl/sha1.c.obj
-.PHONY : lwip/src/netif/ppp/polarssl/sha1.obj
+pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.obj: pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.obj
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.obj
 
 # target to build an object file
-lwip/src/netif/ppp/polarssl/sha1.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/netif/ppp/polarssl/sha1.c.obj
-.PHONY : lwip/src/netif/ppp/polarssl/sha1.c.obj
+pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.obj
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.obj
 
-lwip/src/netif/ppp/polarssl/sha1.i: lwip/src/netif/ppp/polarssl/sha1.c.i
-.PHONY : lwip/src/netif/ppp/polarssl/sha1.i
+pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.i: pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.i
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.i
 
 # target to preprocess a source file
-lwip/src/netif/ppp/polarssl/sha1.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/netif/ppp/polarssl/sha1.c.i
-.PHONY : lwip/src/netif/ppp/polarssl/sha1.c.i
+pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.i
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.i
 
-lwip/src/netif/ppp/polarssl/sha1.s: lwip/src/netif/ppp/polarssl/sha1.c.s
-.PHONY : lwip/src/netif/ppp/polarssl/sha1.s
+pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.s: pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.s
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.s
 
 # target to generate assembly for a file
-lwip/src/netif/ppp/polarssl/sha1.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/netif/ppp/polarssl/sha1.c.s
-.PHONY : lwip/src/netif/ppp/polarssl/sha1.c.s
+pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.s
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.s
 
-lwip/src/netif/ppp/ppp.obj: lwip/src/netif/ppp/ppp.c.obj
-.PHONY : lwip/src/netif/ppp/ppp.obj
+pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.obj: pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.obj
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.obj
 
 # target to build an object file
-lwip/src/netif/ppp/ppp.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/netif/ppp/ppp.c.obj
-.PHONY : lwip/src/netif/ppp/ppp.c.obj
+pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.obj
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.obj
 
-lwip/src/netif/ppp/ppp.i: lwip/src/netif/ppp/ppp.c.i
-.PHONY : lwip/src/netif/ppp/ppp.i
+pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.i: pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.i
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.i
 
 # target to preprocess a source file
-lwip/src/netif/ppp/ppp.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/netif/ppp/ppp.c.i
-.PHONY : lwip/src/netif/ppp/ppp.c.i
+pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.i
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.i
 
-lwip/src/netif/ppp/ppp.s: lwip/src/netif/ppp/ppp.c.s
-.PHONY : lwip/src/netif/ppp/ppp.s
+pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.s: pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.s
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.s
 
 # target to generate assembly for a file
-lwip/src/netif/ppp/ppp.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/netif/ppp/ppp.c.s
-.PHONY : lwip/src/netif/ppp/ppp.c.s
+pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.s
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.s
 
-lwip/src/netif/ppp/pppapi.obj: lwip/src/netif/ppp/pppapi.c.obj
-.PHONY : lwip/src/netif/ppp/pppapi.obj
+pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.obj: pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.obj
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.obj
 
 # target to build an object file
-lwip/src/netif/ppp/pppapi.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/netif/ppp/pppapi.c.obj
-.PHONY : lwip/src/netif/ppp/pppapi.c.obj
+pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.obj
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.obj
 
-lwip/src/netif/ppp/pppapi.i: lwip/src/netif/ppp/pppapi.c.i
-.PHONY : lwip/src/netif/ppp/pppapi.i
+pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.i: pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.i
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.i
 
 # target to preprocess a source file
-lwip/src/netif/ppp/pppapi.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/netif/ppp/pppapi.c.i
-.PHONY : lwip/src/netif/ppp/pppapi.c.i
+pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.i
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.i
 
-lwip/src/netif/ppp/pppapi.s: lwip/src/netif/ppp/pppapi.c.s
-.PHONY : lwip/src/netif/ppp/pppapi.s
+pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.s: pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.s
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.s
 
 # target to generate assembly for a file
-lwip/src/netif/ppp/pppapi.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/netif/ppp/pppapi.c.s
-.PHONY : lwip/src/netif/ppp/pppapi.c.s
+pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.s
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.s
 
-lwip/src/netif/ppp/pppcrypt.obj: lwip/src/netif/ppp/pppcrypt.c.obj
-.PHONY : lwip/src/netif/ppp/pppcrypt.obj
+pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.obj: pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.obj
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.obj
 
 # target to build an object file
-lwip/src/netif/ppp/pppcrypt.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/netif/ppp/pppcrypt.c.obj
-.PHONY : lwip/src/netif/ppp/pppcrypt.c.obj
+pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.obj
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.obj
 
-lwip/src/netif/ppp/pppcrypt.i: lwip/src/netif/ppp/pppcrypt.c.i
-.PHONY : lwip/src/netif/ppp/pppcrypt.i
+pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.i: pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.i
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.i
 
 # target to preprocess a source file
-lwip/src/netif/ppp/pppcrypt.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/netif/ppp/pppcrypt.c.i
-.PHONY : lwip/src/netif/ppp/pppcrypt.c.i
+pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.i
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.i
 
-lwip/src/netif/ppp/pppcrypt.s: lwip/src/netif/ppp/pppcrypt.c.s
-.PHONY : lwip/src/netif/ppp/pppcrypt.s
+pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.s: pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.s
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.s
 
 # target to generate assembly for a file
-lwip/src/netif/ppp/pppcrypt.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/netif/ppp/pppcrypt.c.s
-.PHONY : lwip/src/netif/ppp/pppcrypt.c.s
+pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.s
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.s
 
-lwip/src/netif/ppp/pppoe.obj: lwip/src/netif/ppp/pppoe.c.obj
-.PHONY : lwip/src/netif/ppp/pppoe.obj
+pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.obj: pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.obj
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.obj
 
 # target to build an object file
-lwip/src/netif/ppp/pppoe.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/netif/ppp/pppoe.c.obj
-.PHONY : lwip/src/netif/ppp/pppoe.c.obj
+pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.obj
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.obj
 
-lwip/src/netif/ppp/pppoe.i: lwip/src/netif/ppp/pppoe.c.i
-.PHONY : lwip/src/netif/ppp/pppoe.i
+pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.i: pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.i
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.i
 
 # target to preprocess a source file
-lwip/src/netif/ppp/pppoe.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/netif/ppp/pppoe.c.i
-.PHONY : lwip/src/netif/ppp/pppoe.c.i
+pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.i
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.i
 
-lwip/src/netif/ppp/pppoe.s: lwip/src/netif/ppp/pppoe.c.s
-.PHONY : lwip/src/netif/ppp/pppoe.s
+pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.s: pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.s
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.s
 
 # target to generate assembly for a file
-lwip/src/netif/ppp/pppoe.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/netif/ppp/pppoe.c.s
-.PHONY : lwip/src/netif/ppp/pppoe.c.s
+pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.s
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.s
 
-lwip/src/netif/ppp/pppol2tp.obj: lwip/src/netif/ppp/pppol2tp.c.obj
-.PHONY : lwip/src/netif/ppp/pppol2tp.obj
+pico-sdk/lib/lwip/src/netif/ppp/ppp.obj: pico-sdk/lib/lwip/src/netif/ppp/ppp.c.obj
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/ppp.obj
 
 # target to build an object file
-lwip/src/netif/ppp/pppol2tp.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/netif/ppp/pppol2tp.c.obj
-.PHONY : lwip/src/netif/ppp/pppol2tp.c.obj
+pico-sdk/lib/lwip/src/netif/ppp/ppp.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.obj
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/ppp.c.obj
 
-lwip/src/netif/ppp/pppol2tp.i: lwip/src/netif/ppp/pppol2tp.c.i
-.PHONY : lwip/src/netif/ppp/pppol2tp.i
+pico-sdk/lib/lwip/src/netif/ppp/ppp.i: pico-sdk/lib/lwip/src/netif/ppp/ppp.c.i
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/ppp.i
 
 # target to preprocess a source file
-lwip/src/netif/ppp/pppol2tp.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/netif/ppp/pppol2tp.c.i
-.PHONY : lwip/src/netif/ppp/pppol2tp.c.i
+pico-sdk/lib/lwip/src/netif/ppp/ppp.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.i
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/ppp.c.i
 
-lwip/src/netif/ppp/pppol2tp.s: lwip/src/netif/ppp/pppol2tp.c.s
-.PHONY : lwip/src/netif/ppp/pppol2tp.s
+pico-sdk/lib/lwip/src/netif/ppp/ppp.s: pico-sdk/lib/lwip/src/netif/ppp/ppp.c.s
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/ppp.s
 
 # target to generate assembly for a file
-lwip/src/netif/ppp/pppol2tp.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/netif/ppp/pppol2tp.c.s
-.PHONY : lwip/src/netif/ppp/pppol2tp.c.s
+pico-sdk/lib/lwip/src/netif/ppp/ppp.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.s
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/ppp.c.s
 
-lwip/src/netif/ppp/pppos.obj: lwip/src/netif/ppp/pppos.c.obj
-.PHONY : lwip/src/netif/ppp/pppos.obj
+pico-sdk/lib/lwip/src/netif/ppp/pppapi.obj: pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.obj
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/pppapi.obj
 
 # target to build an object file
-lwip/src/netif/ppp/pppos.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/netif/ppp/pppos.c.obj
-.PHONY : lwip/src/netif/ppp/pppos.c.obj
+pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.obj
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.obj
 
-lwip/src/netif/ppp/pppos.i: lwip/src/netif/ppp/pppos.c.i
-.PHONY : lwip/src/netif/ppp/pppos.i
+pico-sdk/lib/lwip/src/netif/ppp/pppapi.i: pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.i
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/pppapi.i
 
 # target to preprocess a source file
-lwip/src/netif/ppp/pppos.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/netif/ppp/pppos.c.i
-.PHONY : lwip/src/netif/ppp/pppos.c.i
+pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.i
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.i
 
-lwip/src/netif/ppp/pppos.s: lwip/src/netif/ppp/pppos.c.s
-.PHONY : lwip/src/netif/ppp/pppos.s
+pico-sdk/lib/lwip/src/netif/ppp/pppapi.s: pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.s
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/pppapi.s
 
 # target to generate assembly for a file
-lwip/src/netif/ppp/pppos.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/netif/ppp/pppos.c.s
-.PHONY : lwip/src/netif/ppp/pppos.c.s
+pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.s
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.s
 
-lwip/src/netif/ppp/upap.obj: lwip/src/netif/ppp/upap.c.obj
-.PHONY : lwip/src/netif/ppp/upap.obj
+pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.obj: pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.obj
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.obj
 
 # target to build an object file
-lwip/src/netif/ppp/upap.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/netif/ppp/upap.c.obj
-.PHONY : lwip/src/netif/ppp/upap.c.obj
+pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.obj
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.obj
 
-lwip/src/netif/ppp/upap.i: lwip/src/netif/ppp/upap.c.i
-.PHONY : lwip/src/netif/ppp/upap.i
+pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.i: pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.i
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.i
 
 # target to preprocess a source file
-lwip/src/netif/ppp/upap.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/netif/ppp/upap.c.i
-.PHONY : lwip/src/netif/ppp/upap.c.i
+pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.i
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.i
 
-lwip/src/netif/ppp/upap.s: lwip/src/netif/ppp/upap.c.s
-.PHONY : lwip/src/netif/ppp/upap.s
+pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.s: pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.s
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.s
 
 # target to generate assembly for a file
-lwip/src/netif/ppp/upap.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/netif/ppp/upap.c.s
-.PHONY : lwip/src/netif/ppp/upap.c.s
+pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.s
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.s
 
-lwip/src/netif/ppp/utils.obj: lwip/src/netif/ppp/utils.c.obj
-.PHONY : lwip/src/netif/ppp/utils.obj
+pico-sdk/lib/lwip/src/netif/ppp/pppoe.obj: pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.obj
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/pppoe.obj
 
 # target to build an object file
-lwip/src/netif/ppp/utils.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/netif/ppp/utils.c.obj
-.PHONY : lwip/src/netif/ppp/utils.c.obj
+pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.obj
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.obj
 
-lwip/src/netif/ppp/utils.i: lwip/src/netif/ppp/utils.c.i
-.PHONY : lwip/src/netif/ppp/utils.i
+pico-sdk/lib/lwip/src/netif/ppp/pppoe.i: pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.i
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/pppoe.i
 
 # target to preprocess a source file
-lwip/src/netif/ppp/utils.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/netif/ppp/utils.c.i
-.PHONY : lwip/src/netif/ppp/utils.c.i
+pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.i
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.i
 
-lwip/src/netif/ppp/utils.s: lwip/src/netif/ppp/utils.c.s
-.PHONY : lwip/src/netif/ppp/utils.s
+pico-sdk/lib/lwip/src/netif/ppp/pppoe.s: pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.s
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/pppoe.s
 
 # target to generate assembly for a file
-lwip/src/netif/ppp/utils.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/netif/ppp/utils.c.s
-.PHONY : lwip/src/netif/ppp/utils.c.s
+pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.s
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.s
 
-lwip/src/netif/ppp/vj.obj: lwip/src/netif/ppp/vj.c.obj
-.PHONY : lwip/src/netif/ppp/vj.obj
+pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.obj: pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.obj
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.obj
 
 # target to build an object file
-lwip/src/netif/ppp/vj.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/netif/ppp/vj.c.obj
-.PHONY : lwip/src/netif/ppp/vj.c.obj
+pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.obj
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.obj
 
-lwip/src/netif/ppp/vj.i: lwip/src/netif/ppp/vj.c.i
-.PHONY : lwip/src/netif/ppp/vj.i
+pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.i: pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.i
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.i
 
 # target to preprocess a source file
-lwip/src/netif/ppp/vj.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/netif/ppp/vj.c.i
-.PHONY : lwip/src/netif/ppp/vj.c.i
+pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.i
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.i
 
-lwip/src/netif/ppp/vj.s: lwip/src/netif/ppp/vj.c.s
-.PHONY : lwip/src/netif/ppp/vj.s
+pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.s: pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.s
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.s
 
 # target to generate assembly for a file
-lwip/src/netif/ppp/vj.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/netif/ppp/vj.c.s
-.PHONY : lwip/src/netif/ppp/vj.c.s
+pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.s
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.s
 
-lwip/src/netif/zepif.obj: lwip/src/netif/zepif.c.obj
-.PHONY : lwip/src/netif/zepif.obj
+pico-sdk/lib/lwip/src/netif/ppp/pppos.obj: pico-sdk/lib/lwip/src/netif/ppp/pppos.c.obj
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/pppos.obj
 
 # target to build an object file
-lwip/src/netif/zepif.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/netif/zepif.c.obj
-.PHONY : lwip/src/netif/zepif.c.obj
+pico-sdk/lib/lwip/src/netif/ppp/pppos.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.obj
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/pppos.c.obj
 
-lwip/src/netif/zepif.i: lwip/src/netif/zepif.c.i
-.PHONY : lwip/src/netif/zepif.i
+pico-sdk/lib/lwip/src/netif/ppp/pppos.i: pico-sdk/lib/lwip/src/netif/ppp/pppos.c.i
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/pppos.i
 
 # target to preprocess a source file
-lwip/src/netif/zepif.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/netif/zepif.c.i
-.PHONY : lwip/src/netif/zepif.c.i
+pico-sdk/lib/lwip/src/netif/ppp/pppos.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.i
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/pppos.c.i
 
-lwip/src/netif/zepif.s: lwip/src/netif/zepif.c.s
-.PHONY : lwip/src/netif/zepif.s
+pico-sdk/lib/lwip/src/netif/ppp/pppos.s: pico-sdk/lib/lwip/src/netif/ppp/pppos.c.s
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/pppos.s
 
 # target to generate assembly for a file
-lwip/src/netif/zepif.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/lwip/src/netif/zepif.c.s
-.PHONY : lwip/src/netif/zepif.c.s
+pico-sdk/lib/lwip/src/netif/ppp/pppos.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.s
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/pppos.c.s
+
+pico-sdk/lib/lwip/src/netif/ppp/upap.obj: pico-sdk/lib/lwip/src/netif/ppp/upap.c.obj
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/upap.obj
+
+# target to build an object file
+pico-sdk/lib/lwip/src/netif/ppp/upap.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/upap.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/upap.c.obj
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/upap.c.obj
+
+pico-sdk/lib/lwip/src/netif/ppp/upap.i: pico-sdk/lib/lwip/src/netif/ppp/upap.c.i
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/upap.i
+
+# target to preprocess a source file
+pico-sdk/lib/lwip/src/netif/ppp/upap.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/upap.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/upap.c.i
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/upap.c.i
+
+pico-sdk/lib/lwip/src/netif/ppp/upap.s: pico-sdk/lib/lwip/src/netif/ppp/upap.c.s
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/upap.s
+
+# target to generate assembly for a file
+pico-sdk/lib/lwip/src/netif/ppp/upap.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/upap.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/upap.c.s
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/upap.c.s
+
+pico-sdk/lib/lwip/src/netif/ppp/utils.obj: pico-sdk/lib/lwip/src/netif/ppp/utils.c.obj
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/utils.obj
+
+# target to build an object file
+pico-sdk/lib/lwip/src/netif/ppp/utils.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/utils.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/utils.c.obj
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/utils.c.obj
+
+pico-sdk/lib/lwip/src/netif/ppp/utils.i: pico-sdk/lib/lwip/src/netif/ppp/utils.c.i
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/utils.i
+
+# target to preprocess a source file
+pico-sdk/lib/lwip/src/netif/ppp/utils.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/utils.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/utils.c.i
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/utils.c.i
+
+pico-sdk/lib/lwip/src/netif/ppp/utils.s: pico-sdk/lib/lwip/src/netif/ppp/utils.c.s
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/utils.s
+
+# target to generate assembly for a file
+pico-sdk/lib/lwip/src/netif/ppp/utils.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/utils.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/utils.c.s
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/utils.c.s
+
+pico-sdk/lib/lwip/src/netif/ppp/vj.obj: pico-sdk/lib/lwip/src/netif/ppp/vj.c.obj
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/vj.obj
+
+# target to build an object file
+pico-sdk/lib/lwip/src/netif/ppp/vj.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/vj.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/vj.c.obj
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/vj.c.obj
+
+pico-sdk/lib/lwip/src/netif/ppp/vj.i: pico-sdk/lib/lwip/src/netif/ppp/vj.c.i
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/vj.i
+
+# target to preprocess a source file
+pico-sdk/lib/lwip/src/netif/ppp/vj.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/vj.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/vj.c.i
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/vj.c.i
+
+pico-sdk/lib/lwip/src/netif/ppp/vj.s: pico-sdk/lib/lwip/src/netif/ppp/vj.c.s
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/vj.s
+
+# target to generate assembly for a file
+pico-sdk/lib/lwip/src/netif/ppp/vj.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/vj.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/vj.c.s
+.PHONY : pico-sdk/lib/lwip/src/netif/ppp/vj.c.s
+
+pico-sdk/lib/lwip/src/netif/slipif.obj: pico-sdk/lib/lwip/src/netif/slipif.c.obj
+.PHONY : pico-sdk/lib/lwip/src/netif/slipif.obj
+
+# target to build an object file
+pico-sdk/lib/lwip/src/netif/slipif.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/slipif.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/slipif.c.obj
+.PHONY : pico-sdk/lib/lwip/src/netif/slipif.c.obj
+
+pico-sdk/lib/lwip/src/netif/slipif.i: pico-sdk/lib/lwip/src/netif/slipif.c.i
+.PHONY : pico-sdk/lib/lwip/src/netif/slipif.i
+
+# target to preprocess a source file
+pico-sdk/lib/lwip/src/netif/slipif.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/slipif.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/slipif.c.i
+.PHONY : pico-sdk/lib/lwip/src/netif/slipif.c.i
+
+pico-sdk/lib/lwip/src/netif/slipif.s: pico-sdk/lib/lwip/src/netif/slipif.c.s
+.PHONY : pico-sdk/lib/lwip/src/netif/slipif.s
+
+# target to generate assembly for a file
+pico-sdk/lib/lwip/src/netif/slipif.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/slipif.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/slipif.c.s
+.PHONY : pico-sdk/lib/lwip/src/netif/slipif.c.s
+
+pico-sdk/lib/lwip/src/netif/zepif.obj: pico-sdk/lib/lwip/src/netif/zepif.c.obj
+.PHONY : pico-sdk/lib/lwip/src/netif/zepif.obj
+
+# target to build an object file
+pico-sdk/lib/lwip/src/netif/zepif.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/zepif.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/zepif.c.obj
+.PHONY : pico-sdk/lib/lwip/src/netif/zepif.c.obj
+
+pico-sdk/lib/lwip/src/netif/zepif.i: pico-sdk/lib/lwip/src/netif/zepif.c.i
+.PHONY : pico-sdk/lib/lwip/src/netif/zepif.i
+
+# target to preprocess a source file
+pico-sdk/lib/lwip/src/netif/zepif.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/zepif.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/zepif.c.i
+.PHONY : pico-sdk/lib/lwip/src/netif/zepif.c.i
+
+pico-sdk/lib/lwip/src/netif/zepif.s: pico-sdk/lib/lwip/src/netif/zepif.c.s
+.PHONY : pico-sdk/lib/lwip/src/netif/zepif.s
+
+# target to generate assembly for a file
+pico-sdk/lib/lwip/src/netif/zepif.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/zepif.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/zepif.c.s
+.PHONY : pico-sdk/lib/lwip/src/netif/zepif.c.s
 
 pico-sdk/lib/tinyusb/lib/networking/dhserver.obj: pico-sdk/lib/tinyusb/lib/networking/dhserver.c.obj
 .PHONY : pico-sdk/lib/tinyusb/lib/networking/dhserver.obj
@@ -3939,6 +4314,54 @@ pico-sdk/src/rp2_common/hardware_divider/divider.S.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
 .PHONY : pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
 
+pico-sdk/src/rp2_common/hardware_dma/dma.obj: pico-sdk/src/rp2_common/hardware_dma/dma.c.obj
+.PHONY : pico-sdk/src/rp2_common/hardware_dma/dma.obj
+
+# target to build an object file
+pico-sdk/src/rp2_common/hardware_dma/dma.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj
+.PHONY : pico-sdk/src/rp2_common/hardware_dma/dma.c.obj
+
+pico-sdk/src/rp2_common/hardware_dma/dma.i: pico-sdk/src/rp2_common/hardware_dma/dma.c.i
+.PHONY : pico-sdk/src/rp2_common/hardware_dma/dma.i
+
+# target to preprocess a source file
+pico-sdk/src/rp2_common/hardware_dma/dma.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_dma/dma.c.i
+.PHONY : pico-sdk/src/rp2_common/hardware_dma/dma.c.i
+
+pico-sdk/src/rp2_common/hardware_dma/dma.s: pico-sdk/src/rp2_common/hardware_dma/dma.c.s
+.PHONY : pico-sdk/src/rp2_common/hardware_dma/dma.s
+
+# target to generate assembly for a file
+pico-sdk/src/rp2_common/hardware_dma/dma.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_dma/dma.c.s
+.PHONY : pico-sdk/src/rp2_common/hardware_dma/dma.c.s
+
+pico-sdk/src/rp2_common/hardware_exception/exception.obj: pico-sdk/src/rp2_common/hardware_exception/exception.c.obj
+.PHONY : pico-sdk/src/rp2_common/hardware_exception/exception.obj
+
+# target to build an object file
+pico-sdk/src/rp2_common/hardware_exception/exception.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj
+.PHONY : pico-sdk/src/rp2_common/hardware_exception/exception.c.obj
+
+pico-sdk/src/rp2_common/hardware_exception/exception.i: pico-sdk/src/rp2_common/hardware_exception/exception.c.i
+.PHONY : pico-sdk/src/rp2_common/hardware_exception/exception.i
+
+# target to preprocess a source file
+pico-sdk/src/rp2_common/hardware_exception/exception.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_exception/exception.c.i
+.PHONY : pico-sdk/src/rp2_common/hardware_exception/exception.c.i
+
+pico-sdk/src/rp2_common/hardware_exception/exception.s: pico-sdk/src/rp2_common/hardware_exception/exception.c.s
+.PHONY : pico-sdk/src/rp2_common/hardware_exception/exception.s
+
+# target to generate assembly for a file
+pico-sdk/src/rp2_common/hardware_exception/exception.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_exception/exception.c.s
+.PHONY : pico-sdk/src/rp2_common/hardware_exception/exception.c.s
+
 pico-sdk/src/rp2_common/hardware_flash/flash.obj: pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
 .PHONY : pico-sdk/src/rp2_common/hardware_flash/flash.obj
 
@@ -4018,6 +4441,30 @@ pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.obj: pico-sdk/src/rp2_com
 pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
 .PHONY : pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
+
+pico-sdk/src/rp2_common/hardware_pio/pio.obj: pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
+.PHONY : pico-sdk/src/rp2_common/hardware_pio/pio.obj
+
+# target to build an object file
+pico-sdk/src/rp2_common/hardware_pio/pio.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
+.PHONY : pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
+
+pico-sdk/src/rp2_common/hardware_pio/pio.i: pico-sdk/src/rp2_common/hardware_pio/pio.c.i
+.PHONY : pico-sdk/src/rp2_common/hardware_pio/pio.i
+
+# target to preprocess a source file
+pico-sdk/src/rp2_common/hardware_pio/pio.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_pio/pio.c.i
+.PHONY : pico-sdk/src/rp2_common/hardware_pio/pio.c.i
+
+pico-sdk/src/rp2_common/hardware_pio/pio.s: pico-sdk/src/rp2_common/hardware_pio/pio.c.s
+.PHONY : pico-sdk/src/rp2_common/hardware_pio/pio.s
+
+# target to generate assembly for a file
+pico-sdk/src/rp2_common/hardware_pio/pio.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_pio/pio.c.s
+.PHONY : pico-sdk/src/rp2_common/hardware_pio/pio.c.s
 
 pico-sdk/src/rp2_common/hardware_pll/pll.obj: pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
 .PHONY : pico-sdk/src/rp2_common/hardware_pll/pll.obj
@@ -4187,6 +4634,54 @@ pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
 .PHONY : pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
 
+pico-sdk/src/rp2_common/pico_async_context/async_context_base.obj: pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj
+.PHONY : pico-sdk/src/rp2_common/pico_async_context/async_context_base.obj
+
+# target to build an object file
+pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj
+.PHONY : pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj
+
+pico-sdk/src/rp2_common/pico_async_context/async_context_base.i: pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.i
+.PHONY : pico-sdk/src/rp2_common/pico_async_context/async_context_base.i
+
+# target to preprocess a source file
+pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.i
+.PHONY : pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.i
+
+pico-sdk/src/rp2_common/pico_async_context/async_context_base.s: pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.s
+.PHONY : pico-sdk/src/rp2_common/pico_async_context/async_context_base.s
+
+# target to generate assembly for a file
+pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.s
+.PHONY : pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.s
+
+pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.obj: pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj
+.PHONY : pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.obj
+
+# target to build an object file
+pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj
+.PHONY : pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj
+
+pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.i: pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.i
+.PHONY : pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.i
+
+# target to preprocess a source file
+pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.i
+.PHONY : pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.i
+
+pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.s: pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.s
+.PHONY : pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.s
+
+# target to generate assembly for a file
+pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.s
+.PHONY : pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.s
+
 pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.obj: pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
 .PHONY : pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.obj
 
@@ -4218,6 +4713,198 @@ pico-sdk/src/rp2_common/pico_bootrom/bootrom.s: pico-sdk/src/rp2_common/pico_boo
 pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
 .PHONY : pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
+
+pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.obj: pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj
+.PHONY : pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.obj
+
+# target to build an object file
+pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj
+.PHONY : pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj
+
+pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.i: pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.i
+.PHONY : pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.i
+
+# target to preprocess a source file
+pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.i
+.PHONY : pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.i
+
+pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.s: pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.s
+.PHONY : pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.s
+
+# target to generate assembly for a file
+pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.s
+.PHONY : pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.s
+
+pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.obj: pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj
+.PHONY : pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.obj
+
+# target to build an object file
+pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj
+.PHONY : pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj
+
+pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.i: pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.i
+.PHONY : pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.i
+
+# target to preprocess a source file
+pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.i
+.PHONY : pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.i
+
+pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.s: pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.s
+.PHONY : pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.s
+
+# target to generate assembly for a file
+pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.s
+.PHONY : pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.s
+
+pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.obj: pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj
+.PHONY : pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.obj
+
+# target to build an object file
+pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj
+.PHONY : pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj
+
+pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.i: pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.i
+.PHONY : pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.i
+
+# target to preprocess a source file
+pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.i
+.PHONY : pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.i
+
+pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.s: pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.s
+.PHONY : pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.s
+
+# target to generate assembly for a file
+pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.s
+.PHONY : pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.s
+
+pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.obj: pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj
+.PHONY : pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.obj
+
+# target to build an object file
+pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj
+.PHONY : pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj
+
+pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.i: pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.i
+.PHONY : pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.i
+
+# target to preprocess a source file
+pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.i
+.PHONY : pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.i
+
+pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.s: pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.s
+.PHONY : pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.s
+
+# target to generate assembly for a file
+pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.s
+.PHONY : pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.s
+
+pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.obj: pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj
+.PHONY : pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.obj
+
+# target to build an object file
+pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj
+.PHONY : pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj
+
+pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.i: pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.i
+.PHONY : pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.i
+
+# target to preprocess a source file
+pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.i
+.PHONY : pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.i
+
+pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.s: pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.s
+.PHONY : pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.s
+
+# target to generate assembly for a file
+pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.s
+.PHONY : pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.s
+
+pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.obj: pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj
+.PHONY : pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.obj
+
+# target to build an object file
+pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj
+.PHONY : pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj
+
+pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.i: pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.i
+.PHONY : pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.i
+
+# target to preprocess a source file
+pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.i
+.PHONY : pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.i
+
+pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.s: pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.s
+.PHONY : pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.s
+
+# target to generate assembly for a file
+pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.s
+.PHONY : pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.s
+
+pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.obj: pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj
+.PHONY : pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.obj
+
+# target to build an object file
+pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj
+.PHONY : pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj
+
+pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.i: pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.i
+.PHONY : pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.i
+
+# target to preprocess a source file
+pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.i
+.PHONY : pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.i
+
+pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.s: pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.s
+.PHONY : pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.s
+
+# target to generate assembly for a file
+pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.s
+.PHONY : pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.s
+
+pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.obj: pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj
+.PHONY : pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.obj
+
+# target to build an object file
+pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj
+.PHONY : pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj
+
+pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.i: pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.i
+.PHONY : pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.i
+
+# target to preprocess a source file
+pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.i
+.PHONY : pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.i
+
+pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.s: pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.s
+.PHONY : pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.s
+
+# target to generate assembly for a file
+pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.s
+.PHONY : pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.s
 
 pico-sdk/src/rp2_common/pico_divider/divider.obj: pico-sdk/src/rp2_common/pico_divider/divider.S.obj
 .PHONY : pico-sdk/src/rp2_common/pico_divider/divider.obj
@@ -4387,6 +5074,30 @@ pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
 .PHONY : pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
 
+pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.obj: pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.obj
+.PHONY : pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.obj
+
+# target to build an object file
+pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.obj
+.PHONY : pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.obj
+
+pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.i: pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.i
+.PHONY : pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.i
+
+# target to preprocess a source file
+pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.i
+.PHONY : pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.i
+
+pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.s: pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.s
+.PHONY : pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.s
+
+# target to generate assembly for a file
+pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.s
+.PHONY : pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.s
+
 pico-sdk/src/rp2_common/pico_malloc/pico_malloc.obj: pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
 .PHONY : pico-sdk/src/rp2_common/pico_malloc/pico_malloc.obj
 
@@ -4466,6 +5177,30 @@ pico-sdk/src/rp2_common/pico_printf/printf.s: pico-sdk/src/rp2_common/pico_print
 pico-sdk/src/rp2_common/pico_printf/printf.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_printf/printf.c.s
 .PHONY : pico-sdk/src/rp2_common/pico_printf/printf.c.s
+
+pico-sdk/src/rp2_common/pico_rand/rand.obj: pico-sdk/src/rp2_common/pico_rand/rand.c.obj
+.PHONY : pico-sdk/src/rp2_common/pico_rand/rand.obj
+
+# target to build an object file
+pico-sdk/src/rp2_common/pico_rand/rand.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_rand/rand.c.obj
+.PHONY : pico-sdk/src/rp2_common/pico_rand/rand.c.obj
+
+pico-sdk/src/rp2_common/pico_rand/rand.i: pico-sdk/src/rp2_common/pico_rand/rand.c.i
+.PHONY : pico-sdk/src/rp2_common/pico_rand/rand.i
+
+# target to preprocess a source file
+pico-sdk/src/rp2_common/pico_rand/rand.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_rand/rand.c.i
+.PHONY : pico-sdk/src/rp2_common/pico_rand/rand.c.i
+
+pico-sdk/src/rp2_common/pico_rand/rand.s: pico-sdk/src/rp2_common/pico_rand/rand.c.s
+.PHONY : pico-sdk/src/rp2_common/pico_rand/rand.s
+
+# target to generate assembly for a file
+pico-sdk/src/rp2_common/pico_rand/rand.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_rand/rand.c.s
+.PHONY : pico-sdk/src/rp2_common/pico_rand/rand.c.s
 
 pico-sdk/src/rp2_common/pico_runtime/runtime.obj: pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
 .PHONY : pico-sdk/src/rp2_common/pico_runtime/runtime.obj
@@ -4710,369 +5445,384 @@ help:
 	@echo "... lwipcore"
 	@echo "... lwipmbedtls"
 	@echo "... pico_webserver"
-	@echo "... lwip/src/api/api_lib.obj"
-	@echo "... lwip/src/api/api_lib.i"
-	@echo "... lwip/src/api/api_lib.s"
-	@echo "... lwip/src/api/api_msg.obj"
-	@echo "... lwip/src/api/api_msg.i"
-	@echo "... lwip/src/api/api_msg.s"
-	@echo "... lwip/src/api/err.obj"
-	@echo "... lwip/src/api/err.i"
-	@echo "... lwip/src/api/err.s"
-	@echo "... lwip/src/api/if_api.obj"
-	@echo "... lwip/src/api/if_api.i"
-	@echo "... lwip/src/api/if_api.s"
-	@echo "... lwip/src/api/netbuf.obj"
-	@echo "... lwip/src/api/netbuf.i"
-	@echo "... lwip/src/api/netbuf.s"
-	@echo "... lwip/src/api/netdb.obj"
-	@echo "... lwip/src/api/netdb.i"
-	@echo "... lwip/src/api/netdb.s"
-	@echo "... lwip/src/api/netifapi.obj"
-	@echo "... lwip/src/api/netifapi.i"
-	@echo "... lwip/src/api/netifapi.s"
-	@echo "... lwip/src/api/sockets.obj"
-	@echo "... lwip/src/api/sockets.i"
-	@echo "... lwip/src/api/sockets.s"
-	@echo "... lwip/src/api/tcpip.obj"
-	@echo "... lwip/src/api/tcpip.i"
-	@echo "... lwip/src/api/tcpip.s"
-	@echo "... lwip/src/apps/altcp_tls/altcp_tls_mbedtls.obj"
-	@echo "... lwip/src/apps/altcp_tls/altcp_tls_mbedtls.i"
-	@echo "... lwip/src/apps/altcp_tls/altcp_tls_mbedtls.s"
-	@echo "... lwip/src/apps/altcp_tls/altcp_tls_mbedtls_mem.obj"
-	@echo "... lwip/src/apps/altcp_tls/altcp_tls_mbedtls_mem.i"
-	@echo "... lwip/src/apps/altcp_tls/altcp_tls_mbedtls_mem.s"
-	@echo "... lwip/src/apps/http/altcp_proxyconnect.obj"
-	@echo "... lwip/src/apps/http/altcp_proxyconnect.i"
-	@echo "... lwip/src/apps/http/altcp_proxyconnect.s"
-	@echo "... lwip/src/apps/http/fs.obj"
-	@echo "... lwip/src/apps/http/fs.i"
-	@echo "... lwip/src/apps/http/fs.s"
-	@echo "... lwip/src/apps/http/http_client.obj"
-	@echo "... lwip/src/apps/http/http_client.i"
-	@echo "... lwip/src/apps/http/http_client.s"
-	@echo "... lwip/src/apps/http/httpd.obj"
-	@echo "... lwip/src/apps/http/httpd.i"
-	@echo "... lwip/src/apps/http/httpd.s"
-	@echo "... lwip/src/apps/lwiperf/lwiperf.obj"
-	@echo "... lwip/src/apps/lwiperf/lwiperf.i"
-	@echo "... lwip/src/apps/lwiperf/lwiperf.s"
-	@echo "... lwip/src/apps/mdns/mdns.obj"
-	@echo "... lwip/src/apps/mdns/mdns.i"
-	@echo "... lwip/src/apps/mdns/mdns.s"
-	@echo "... lwip/src/apps/mdns/mdns_domain.obj"
-	@echo "... lwip/src/apps/mdns/mdns_domain.i"
-	@echo "... lwip/src/apps/mdns/mdns_domain.s"
-	@echo "... lwip/src/apps/mdns/mdns_out.obj"
-	@echo "... lwip/src/apps/mdns/mdns_out.i"
-	@echo "... lwip/src/apps/mdns/mdns_out.s"
-	@echo "... lwip/src/apps/mqtt/mqtt.obj"
-	@echo "... lwip/src/apps/mqtt/mqtt.i"
-	@echo "... lwip/src/apps/mqtt/mqtt.s"
-	@echo "... lwip/src/apps/netbiosns/netbiosns.obj"
-	@echo "... lwip/src/apps/netbiosns/netbiosns.i"
-	@echo "... lwip/src/apps/netbiosns/netbiosns.s"
-	@echo "... lwip/src/apps/smtp/smtp.obj"
-	@echo "... lwip/src/apps/smtp/smtp.i"
-	@echo "... lwip/src/apps/smtp/smtp.s"
-	@echo "... lwip/src/apps/snmp/snmp_asn1.obj"
-	@echo "... lwip/src/apps/snmp/snmp_asn1.i"
-	@echo "... lwip/src/apps/snmp/snmp_asn1.s"
-	@echo "... lwip/src/apps/snmp/snmp_core.obj"
-	@echo "... lwip/src/apps/snmp/snmp_core.i"
-	@echo "... lwip/src/apps/snmp/snmp_core.s"
-	@echo "... lwip/src/apps/snmp/snmp_mib2.obj"
-	@echo "... lwip/src/apps/snmp/snmp_mib2.i"
-	@echo "... lwip/src/apps/snmp/snmp_mib2.s"
-	@echo "... lwip/src/apps/snmp/snmp_mib2_icmp.obj"
-	@echo "... lwip/src/apps/snmp/snmp_mib2_icmp.i"
-	@echo "... lwip/src/apps/snmp/snmp_mib2_icmp.s"
-	@echo "... lwip/src/apps/snmp/snmp_mib2_interfaces.obj"
-	@echo "... lwip/src/apps/snmp/snmp_mib2_interfaces.i"
-	@echo "... lwip/src/apps/snmp/snmp_mib2_interfaces.s"
-	@echo "... lwip/src/apps/snmp/snmp_mib2_ip.obj"
-	@echo "... lwip/src/apps/snmp/snmp_mib2_ip.i"
-	@echo "... lwip/src/apps/snmp/snmp_mib2_ip.s"
-	@echo "... lwip/src/apps/snmp/snmp_mib2_snmp.obj"
-	@echo "... lwip/src/apps/snmp/snmp_mib2_snmp.i"
-	@echo "... lwip/src/apps/snmp/snmp_mib2_snmp.s"
-	@echo "... lwip/src/apps/snmp/snmp_mib2_system.obj"
-	@echo "... lwip/src/apps/snmp/snmp_mib2_system.i"
-	@echo "... lwip/src/apps/snmp/snmp_mib2_system.s"
-	@echo "... lwip/src/apps/snmp/snmp_mib2_tcp.obj"
-	@echo "... lwip/src/apps/snmp/snmp_mib2_tcp.i"
-	@echo "... lwip/src/apps/snmp/snmp_mib2_tcp.s"
-	@echo "... lwip/src/apps/snmp/snmp_mib2_udp.obj"
-	@echo "... lwip/src/apps/snmp/snmp_mib2_udp.i"
-	@echo "... lwip/src/apps/snmp/snmp_mib2_udp.s"
-	@echo "... lwip/src/apps/snmp/snmp_msg.obj"
-	@echo "... lwip/src/apps/snmp/snmp_msg.i"
-	@echo "... lwip/src/apps/snmp/snmp_msg.s"
-	@echo "... lwip/src/apps/snmp/snmp_netconn.obj"
-	@echo "... lwip/src/apps/snmp/snmp_netconn.i"
-	@echo "... lwip/src/apps/snmp/snmp_netconn.s"
-	@echo "... lwip/src/apps/snmp/snmp_pbuf_stream.obj"
-	@echo "... lwip/src/apps/snmp/snmp_pbuf_stream.i"
-	@echo "... lwip/src/apps/snmp/snmp_pbuf_stream.s"
-	@echo "... lwip/src/apps/snmp/snmp_raw.obj"
-	@echo "... lwip/src/apps/snmp/snmp_raw.i"
-	@echo "... lwip/src/apps/snmp/snmp_raw.s"
-	@echo "... lwip/src/apps/snmp/snmp_scalar.obj"
-	@echo "... lwip/src/apps/snmp/snmp_scalar.i"
-	@echo "... lwip/src/apps/snmp/snmp_scalar.s"
-	@echo "... lwip/src/apps/snmp/snmp_snmpv2_framework.obj"
-	@echo "... lwip/src/apps/snmp/snmp_snmpv2_framework.i"
-	@echo "... lwip/src/apps/snmp/snmp_snmpv2_framework.s"
-	@echo "... lwip/src/apps/snmp/snmp_snmpv2_usm.obj"
-	@echo "... lwip/src/apps/snmp/snmp_snmpv2_usm.i"
-	@echo "... lwip/src/apps/snmp/snmp_snmpv2_usm.s"
-	@echo "... lwip/src/apps/snmp/snmp_table.obj"
-	@echo "... lwip/src/apps/snmp/snmp_table.i"
-	@echo "... lwip/src/apps/snmp/snmp_table.s"
-	@echo "... lwip/src/apps/snmp/snmp_threadsync.obj"
-	@echo "... lwip/src/apps/snmp/snmp_threadsync.i"
-	@echo "... lwip/src/apps/snmp/snmp_threadsync.s"
-	@echo "... lwip/src/apps/snmp/snmp_traps.obj"
-	@echo "... lwip/src/apps/snmp/snmp_traps.i"
-	@echo "... lwip/src/apps/snmp/snmp_traps.s"
-	@echo "... lwip/src/apps/snmp/snmpv3.obj"
-	@echo "... lwip/src/apps/snmp/snmpv3.i"
-	@echo "... lwip/src/apps/snmp/snmpv3.s"
-	@echo "... lwip/src/apps/snmp/snmpv3_mbedtls.obj"
-	@echo "... lwip/src/apps/snmp/snmpv3_mbedtls.i"
-	@echo "... lwip/src/apps/snmp/snmpv3_mbedtls.s"
-	@echo "... lwip/src/apps/sntp/sntp.obj"
-	@echo "... lwip/src/apps/sntp/sntp.i"
-	@echo "... lwip/src/apps/sntp/sntp.s"
-	@echo "... lwip/src/apps/tftp/tftp.obj"
-	@echo "... lwip/src/apps/tftp/tftp.i"
-	@echo "... lwip/src/apps/tftp/tftp.s"
-	@echo "... lwip/src/core/altcp.obj"
-	@echo "... lwip/src/core/altcp.i"
-	@echo "... lwip/src/core/altcp.s"
-	@echo "... lwip/src/core/altcp_alloc.obj"
-	@echo "... lwip/src/core/altcp_alloc.i"
-	@echo "... lwip/src/core/altcp_alloc.s"
-	@echo "... lwip/src/core/altcp_tcp.obj"
-	@echo "... lwip/src/core/altcp_tcp.i"
-	@echo "... lwip/src/core/altcp_tcp.s"
-	@echo "... lwip/src/core/def.obj"
-	@echo "... lwip/src/core/def.i"
-	@echo "... lwip/src/core/def.s"
-	@echo "... lwip/src/core/dns.obj"
-	@echo "... lwip/src/core/dns.i"
-	@echo "... lwip/src/core/dns.s"
-	@echo "... lwip/src/core/inet_chksum.obj"
-	@echo "... lwip/src/core/inet_chksum.i"
-	@echo "... lwip/src/core/inet_chksum.s"
-	@echo "... lwip/src/core/init.obj"
-	@echo "... lwip/src/core/init.i"
-	@echo "... lwip/src/core/init.s"
-	@echo "... lwip/src/core/ip.obj"
-	@echo "... lwip/src/core/ip.i"
-	@echo "... lwip/src/core/ip.s"
-	@echo "... lwip/src/core/ipv4/acd.obj"
-	@echo "... lwip/src/core/ipv4/acd.i"
-	@echo "... lwip/src/core/ipv4/acd.s"
-	@echo "... lwip/src/core/ipv4/autoip.obj"
-	@echo "... lwip/src/core/ipv4/autoip.i"
-	@echo "... lwip/src/core/ipv4/autoip.s"
-	@echo "... lwip/src/core/ipv4/dhcp.obj"
-	@echo "... lwip/src/core/ipv4/dhcp.i"
-	@echo "... lwip/src/core/ipv4/dhcp.s"
-	@echo "... lwip/src/core/ipv4/etharp.obj"
-	@echo "... lwip/src/core/ipv4/etharp.i"
-	@echo "... lwip/src/core/ipv4/etharp.s"
-	@echo "... lwip/src/core/ipv4/icmp.obj"
-	@echo "... lwip/src/core/ipv4/icmp.i"
-	@echo "... lwip/src/core/ipv4/icmp.s"
-	@echo "... lwip/src/core/ipv4/igmp.obj"
-	@echo "... lwip/src/core/ipv4/igmp.i"
-	@echo "... lwip/src/core/ipv4/igmp.s"
-	@echo "... lwip/src/core/ipv4/ip4.obj"
-	@echo "... lwip/src/core/ipv4/ip4.i"
-	@echo "... lwip/src/core/ipv4/ip4.s"
-	@echo "... lwip/src/core/ipv4/ip4_addr.obj"
-	@echo "... lwip/src/core/ipv4/ip4_addr.i"
-	@echo "... lwip/src/core/ipv4/ip4_addr.s"
-	@echo "... lwip/src/core/ipv4/ip4_frag.obj"
-	@echo "... lwip/src/core/ipv4/ip4_frag.i"
-	@echo "... lwip/src/core/ipv4/ip4_frag.s"
-	@echo "... lwip/src/core/ipv6/dhcp6.obj"
-	@echo "... lwip/src/core/ipv6/dhcp6.i"
-	@echo "... lwip/src/core/ipv6/dhcp6.s"
-	@echo "... lwip/src/core/ipv6/ethip6.obj"
-	@echo "... lwip/src/core/ipv6/ethip6.i"
-	@echo "... lwip/src/core/ipv6/ethip6.s"
-	@echo "... lwip/src/core/ipv6/icmp6.obj"
-	@echo "... lwip/src/core/ipv6/icmp6.i"
-	@echo "... lwip/src/core/ipv6/icmp6.s"
-	@echo "... lwip/src/core/ipv6/inet6.obj"
-	@echo "... lwip/src/core/ipv6/inet6.i"
-	@echo "... lwip/src/core/ipv6/inet6.s"
-	@echo "... lwip/src/core/ipv6/ip6.obj"
-	@echo "... lwip/src/core/ipv6/ip6.i"
-	@echo "... lwip/src/core/ipv6/ip6.s"
-	@echo "... lwip/src/core/ipv6/ip6_addr.obj"
-	@echo "... lwip/src/core/ipv6/ip6_addr.i"
-	@echo "... lwip/src/core/ipv6/ip6_addr.s"
-	@echo "... lwip/src/core/ipv6/ip6_frag.obj"
-	@echo "... lwip/src/core/ipv6/ip6_frag.i"
-	@echo "... lwip/src/core/ipv6/ip6_frag.s"
-	@echo "... lwip/src/core/ipv6/mld6.obj"
-	@echo "... lwip/src/core/ipv6/mld6.i"
-	@echo "... lwip/src/core/ipv6/mld6.s"
-	@echo "... lwip/src/core/ipv6/nd6.obj"
-	@echo "... lwip/src/core/ipv6/nd6.i"
-	@echo "... lwip/src/core/ipv6/nd6.s"
-	@echo "... lwip/src/core/mem.obj"
-	@echo "... lwip/src/core/mem.i"
-	@echo "... lwip/src/core/mem.s"
-	@echo "... lwip/src/core/memp.obj"
-	@echo "... lwip/src/core/memp.i"
-	@echo "... lwip/src/core/memp.s"
-	@echo "... lwip/src/core/netif.obj"
-	@echo "... lwip/src/core/netif.i"
-	@echo "... lwip/src/core/netif.s"
-	@echo "... lwip/src/core/pbuf.obj"
-	@echo "... lwip/src/core/pbuf.i"
-	@echo "... lwip/src/core/pbuf.s"
-	@echo "... lwip/src/core/raw.obj"
-	@echo "... lwip/src/core/raw.i"
-	@echo "... lwip/src/core/raw.s"
-	@echo "... lwip/src/core/stats.obj"
-	@echo "... lwip/src/core/stats.i"
-	@echo "... lwip/src/core/stats.s"
-	@echo "... lwip/src/core/sys.obj"
-	@echo "... lwip/src/core/sys.i"
-	@echo "... lwip/src/core/sys.s"
-	@echo "... lwip/src/core/tcp.obj"
-	@echo "... lwip/src/core/tcp.i"
-	@echo "... lwip/src/core/tcp.s"
-	@echo "... lwip/src/core/tcp_in.obj"
-	@echo "... lwip/src/core/tcp_in.i"
-	@echo "... lwip/src/core/tcp_in.s"
-	@echo "... lwip/src/core/tcp_out.obj"
-	@echo "... lwip/src/core/tcp_out.i"
-	@echo "... lwip/src/core/tcp_out.s"
-	@echo "... lwip/src/core/timeouts.obj"
-	@echo "... lwip/src/core/timeouts.i"
-	@echo "... lwip/src/core/timeouts.s"
-	@echo "... lwip/src/core/udp.obj"
-	@echo "... lwip/src/core/udp.i"
-	@echo "... lwip/src/core/udp.s"
-	@echo "... lwip/src/netif/bridgeif.obj"
-	@echo "... lwip/src/netif/bridgeif.i"
-	@echo "... lwip/src/netif/bridgeif.s"
-	@echo "... lwip/src/netif/bridgeif_fdb.obj"
-	@echo "... lwip/src/netif/bridgeif_fdb.i"
-	@echo "... lwip/src/netif/bridgeif_fdb.s"
-	@echo "... lwip/src/netif/ethernet.obj"
-	@echo "... lwip/src/netif/ethernet.i"
-	@echo "... lwip/src/netif/ethernet.s"
-	@echo "... lwip/src/netif/lowpan6.obj"
-	@echo "... lwip/src/netif/lowpan6.i"
-	@echo "... lwip/src/netif/lowpan6.s"
-	@echo "... lwip/src/netif/lowpan6_ble.obj"
-	@echo "... lwip/src/netif/lowpan6_ble.i"
-	@echo "... lwip/src/netif/lowpan6_ble.s"
-	@echo "... lwip/src/netif/lowpan6_common.obj"
-	@echo "... lwip/src/netif/lowpan6_common.i"
-	@echo "... lwip/src/netif/lowpan6_common.s"
-	@echo "... lwip/src/netif/ppp/auth.obj"
-	@echo "... lwip/src/netif/ppp/auth.i"
-	@echo "... lwip/src/netif/ppp/auth.s"
-	@echo "... lwip/src/netif/ppp/ccp.obj"
-	@echo "... lwip/src/netif/ppp/ccp.i"
-	@echo "... lwip/src/netif/ppp/ccp.s"
-	@echo "... lwip/src/netif/ppp/chap-md5.obj"
-	@echo "... lwip/src/netif/ppp/chap-md5.i"
-	@echo "... lwip/src/netif/ppp/chap-md5.s"
-	@echo "... lwip/src/netif/ppp/chap-new.obj"
-	@echo "... lwip/src/netif/ppp/chap-new.i"
-	@echo "... lwip/src/netif/ppp/chap-new.s"
-	@echo "... lwip/src/netif/ppp/chap_ms.obj"
-	@echo "... lwip/src/netif/ppp/chap_ms.i"
-	@echo "... lwip/src/netif/ppp/chap_ms.s"
-	@echo "... lwip/src/netif/ppp/demand.obj"
-	@echo "... lwip/src/netif/ppp/demand.i"
-	@echo "... lwip/src/netif/ppp/demand.s"
-	@echo "... lwip/src/netif/ppp/eap.obj"
-	@echo "... lwip/src/netif/ppp/eap.i"
-	@echo "... lwip/src/netif/ppp/eap.s"
-	@echo "... lwip/src/netif/ppp/ecp.obj"
-	@echo "... lwip/src/netif/ppp/ecp.i"
-	@echo "... lwip/src/netif/ppp/ecp.s"
-	@echo "... lwip/src/netif/ppp/eui64.obj"
-	@echo "... lwip/src/netif/ppp/eui64.i"
-	@echo "... lwip/src/netif/ppp/eui64.s"
-	@echo "... lwip/src/netif/ppp/fsm.obj"
-	@echo "... lwip/src/netif/ppp/fsm.i"
-	@echo "... lwip/src/netif/ppp/fsm.s"
-	@echo "... lwip/src/netif/ppp/ipcp.obj"
-	@echo "... lwip/src/netif/ppp/ipcp.i"
-	@echo "... lwip/src/netif/ppp/ipcp.s"
-	@echo "... lwip/src/netif/ppp/ipv6cp.obj"
-	@echo "... lwip/src/netif/ppp/ipv6cp.i"
-	@echo "... lwip/src/netif/ppp/ipv6cp.s"
-	@echo "... lwip/src/netif/ppp/lcp.obj"
-	@echo "... lwip/src/netif/ppp/lcp.i"
-	@echo "... lwip/src/netif/ppp/lcp.s"
-	@echo "... lwip/src/netif/ppp/magic.obj"
-	@echo "... lwip/src/netif/ppp/magic.i"
-	@echo "... lwip/src/netif/ppp/magic.s"
-	@echo "... lwip/src/netif/ppp/mppe.obj"
-	@echo "... lwip/src/netif/ppp/mppe.i"
-	@echo "... lwip/src/netif/ppp/mppe.s"
-	@echo "... lwip/src/netif/ppp/multilink.obj"
-	@echo "... lwip/src/netif/ppp/multilink.i"
-	@echo "... lwip/src/netif/ppp/multilink.s"
-	@echo "... lwip/src/netif/ppp/polarssl/arc4.obj"
-	@echo "... lwip/src/netif/ppp/polarssl/arc4.i"
-	@echo "... lwip/src/netif/ppp/polarssl/arc4.s"
-	@echo "... lwip/src/netif/ppp/polarssl/des.obj"
-	@echo "... lwip/src/netif/ppp/polarssl/des.i"
-	@echo "... lwip/src/netif/ppp/polarssl/des.s"
-	@echo "... lwip/src/netif/ppp/polarssl/md4.obj"
-	@echo "... lwip/src/netif/ppp/polarssl/md4.i"
-	@echo "... lwip/src/netif/ppp/polarssl/md4.s"
-	@echo "... lwip/src/netif/ppp/polarssl/md5.obj"
-	@echo "... lwip/src/netif/ppp/polarssl/md5.i"
-	@echo "... lwip/src/netif/ppp/polarssl/md5.s"
-	@echo "... lwip/src/netif/ppp/polarssl/sha1.obj"
-	@echo "... lwip/src/netif/ppp/polarssl/sha1.i"
-	@echo "... lwip/src/netif/ppp/polarssl/sha1.s"
-	@echo "... lwip/src/netif/ppp/ppp.obj"
-	@echo "... lwip/src/netif/ppp/ppp.i"
-	@echo "... lwip/src/netif/ppp/ppp.s"
-	@echo "... lwip/src/netif/ppp/pppapi.obj"
-	@echo "... lwip/src/netif/ppp/pppapi.i"
-	@echo "... lwip/src/netif/ppp/pppapi.s"
-	@echo "... lwip/src/netif/ppp/pppcrypt.obj"
-	@echo "... lwip/src/netif/ppp/pppcrypt.i"
-	@echo "... lwip/src/netif/ppp/pppcrypt.s"
-	@echo "... lwip/src/netif/ppp/pppoe.obj"
-	@echo "... lwip/src/netif/ppp/pppoe.i"
-	@echo "... lwip/src/netif/ppp/pppoe.s"
-	@echo "... lwip/src/netif/ppp/pppol2tp.obj"
-	@echo "... lwip/src/netif/ppp/pppol2tp.i"
-	@echo "... lwip/src/netif/ppp/pppol2tp.s"
-	@echo "... lwip/src/netif/ppp/pppos.obj"
-	@echo "... lwip/src/netif/ppp/pppos.i"
-	@echo "... lwip/src/netif/ppp/pppos.s"
-	@echo "... lwip/src/netif/ppp/upap.obj"
-	@echo "... lwip/src/netif/ppp/upap.i"
-	@echo "... lwip/src/netif/ppp/upap.s"
-	@echo "... lwip/src/netif/ppp/utils.obj"
-	@echo "... lwip/src/netif/ppp/utils.i"
-	@echo "... lwip/src/netif/ppp/utils.s"
-	@echo "... lwip/src/netif/ppp/vj.obj"
-	@echo "... lwip/src/netif/ppp/vj.i"
-	@echo "... lwip/src/netif/ppp/vj.s"
-	@echo "... lwip/src/netif/zepif.obj"
-	@echo "... lwip/src/netif/zepif.i"
-	@echo "... lwip/src/netif/zepif.s"
+	@echo "... pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.obj"
+	@echo "... pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.i"
+	@echo "... pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.s"
+	@echo "... pico-sdk/lib/cyw43-driver/src/cyw43_ll.obj"
+	@echo "... pico-sdk/lib/cyw43-driver/src/cyw43_ll.i"
+	@echo "... pico-sdk/lib/cyw43-driver/src/cyw43_ll.s"
+	@echo "... pico-sdk/lib/cyw43-driver/src/cyw43_lwip.obj"
+	@echo "... pico-sdk/lib/cyw43-driver/src/cyw43_lwip.i"
+	@echo "... pico-sdk/lib/cyw43-driver/src/cyw43_lwip.s"
+	@echo "... pico-sdk/lib/cyw43-driver/src/cyw43_stats.obj"
+	@echo "... pico-sdk/lib/cyw43-driver/src/cyw43_stats.i"
+	@echo "... pico-sdk/lib/cyw43-driver/src/cyw43_stats.s"
+	@echo "... pico-sdk/lib/lwip/src/api/api_lib.obj"
+	@echo "... pico-sdk/lib/lwip/src/api/api_lib.i"
+	@echo "... pico-sdk/lib/lwip/src/api/api_lib.s"
+	@echo "... pico-sdk/lib/lwip/src/api/api_msg.obj"
+	@echo "... pico-sdk/lib/lwip/src/api/api_msg.i"
+	@echo "... pico-sdk/lib/lwip/src/api/api_msg.s"
+	@echo "... pico-sdk/lib/lwip/src/api/err.obj"
+	@echo "... pico-sdk/lib/lwip/src/api/err.i"
+	@echo "... pico-sdk/lib/lwip/src/api/err.s"
+	@echo "... pico-sdk/lib/lwip/src/api/if_api.obj"
+	@echo "... pico-sdk/lib/lwip/src/api/if_api.i"
+	@echo "... pico-sdk/lib/lwip/src/api/if_api.s"
+	@echo "... pico-sdk/lib/lwip/src/api/netbuf.obj"
+	@echo "... pico-sdk/lib/lwip/src/api/netbuf.i"
+	@echo "... pico-sdk/lib/lwip/src/api/netbuf.s"
+	@echo "... pico-sdk/lib/lwip/src/api/netdb.obj"
+	@echo "... pico-sdk/lib/lwip/src/api/netdb.i"
+	@echo "... pico-sdk/lib/lwip/src/api/netdb.s"
+	@echo "... pico-sdk/lib/lwip/src/api/netifapi.obj"
+	@echo "... pico-sdk/lib/lwip/src/api/netifapi.i"
+	@echo "... pico-sdk/lib/lwip/src/api/netifapi.s"
+	@echo "... pico-sdk/lib/lwip/src/api/sockets.obj"
+	@echo "... pico-sdk/lib/lwip/src/api/sockets.i"
+	@echo "... pico-sdk/lib/lwip/src/api/sockets.s"
+	@echo "... pico-sdk/lib/lwip/src/api/tcpip.obj"
+	@echo "... pico-sdk/lib/lwip/src/api/tcpip.i"
+	@echo "... pico-sdk/lib/lwip/src/api/tcpip.s"
+	@echo "... pico-sdk/lib/lwip/src/apps/altcp_tls/altcp_tls_mbedtls.obj"
+	@echo "... pico-sdk/lib/lwip/src/apps/altcp_tls/altcp_tls_mbedtls.i"
+	@echo "... pico-sdk/lib/lwip/src/apps/altcp_tls/altcp_tls_mbedtls.s"
+	@echo "... pico-sdk/lib/lwip/src/apps/altcp_tls/altcp_tls_mbedtls_mem.obj"
+	@echo "... pico-sdk/lib/lwip/src/apps/altcp_tls/altcp_tls_mbedtls_mem.i"
+	@echo "... pico-sdk/lib/lwip/src/apps/altcp_tls/altcp_tls_mbedtls_mem.s"
+	@echo "... pico-sdk/lib/lwip/src/apps/http/altcp_proxyconnect.obj"
+	@echo "... pico-sdk/lib/lwip/src/apps/http/altcp_proxyconnect.i"
+	@echo "... pico-sdk/lib/lwip/src/apps/http/altcp_proxyconnect.s"
+	@echo "... pico-sdk/lib/lwip/src/apps/http/fs.obj"
+	@echo "... pico-sdk/lib/lwip/src/apps/http/fs.i"
+	@echo "... pico-sdk/lib/lwip/src/apps/http/fs.s"
+	@echo "... pico-sdk/lib/lwip/src/apps/http/http_client.obj"
+	@echo "... pico-sdk/lib/lwip/src/apps/http/http_client.i"
+	@echo "... pico-sdk/lib/lwip/src/apps/http/http_client.s"
+	@echo "... pico-sdk/lib/lwip/src/apps/http/httpd.obj"
+	@echo "... pico-sdk/lib/lwip/src/apps/http/httpd.i"
+	@echo "... pico-sdk/lib/lwip/src/apps/http/httpd.s"
+	@echo "... pico-sdk/lib/lwip/src/apps/lwiperf/lwiperf.obj"
+	@echo "... pico-sdk/lib/lwip/src/apps/lwiperf/lwiperf.i"
+	@echo "... pico-sdk/lib/lwip/src/apps/lwiperf/lwiperf.s"
+	@echo "... pico-sdk/lib/lwip/src/apps/mdns/mdns.obj"
+	@echo "... pico-sdk/lib/lwip/src/apps/mdns/mdns.i"
+	@echo "... pico-sdk/lib/lwip/src/apps/mdns/mdns.s"
+	@echo "... pico-sdk/lib/lwip/src/apps/mdns/mdns_domain.obj"
+	@echo "... pico-sdk/lib/lwip/src/apps/mdns/mdns_domain.i"
+	@echo "... pico-sdk/lib/lwip/src/apps/mdns/mdns_domain.s"
+	@echo "... pico-sdk/lib/lwip/src/apps/mdns/mdns_out.obj"
+	@echo "... pico-sdk/lib/lwip/src/apps/mdns/mdns_out.i"
+	@echo "... pico-sdk/lib/lwip/src/apps/mdns/mdns_out.s"
+	@echo "... pico-sdk/lib/lwip/src/apps/mqtt/mqtt.obj"
+	@echo "... pico-sdk/lib/lwip/src/apps/mqtt/mqtt.i"
+	@echo "... pico-sdk/lib/lwip/src/apps/mqtt/mqtt.s"
+	@echo "... pico-sdk/lib/lwip/src/apps/netbiosns/netbiosns.obj"
+	@echo "... pico-sdk/lib/lwip/src/apps/netbiosns/netbiosns.i"
+	@echo "... pico-sdk/lib/lwip/src/apps/netbiosns/netbiosns.s"
+	@echo "... pico-sdk/lib/lwip/src/apps/smtp/smtp.obj"
+	@echo "... pico-sdk/lib/lwip/src/apps/smtp/smtp.i"
+	@echo "... pico-sdk/lib/lwip/src/apps/smtp/smtp.s"
+	@echo "... pico-sdk/lib/lwip/src/apps/snmp/snmp_asn1.obj"
+	@echo "... pico-sdk/lib/lwip/src/apps/snmp/snmp_asn1.i"
+	@echo "... pico-sdk/lib/lwip/src/apps/snmp/snmp_asn1.s"
+	@echo "... pico-sdk/lib/lwip/src/apps/snmp/snmp_core.obj"
+	@echo "... pico-sdk/lib/lwip/src/apps/snmp/snmp_core.i"
+	@echo "... pico-sdk/lib/lwip/src/apps/snmp/snmp_core.s"
+	@echo "... pico-sdk/lib/lwip/src/apps/snmp/snmp_mib2.obj"
+	@echo "... pico-sdk/lib/lwip/src/apps/snmp/snmp_mib2.i"
+	@echo "... pico-sdk/lib/lwip/src/apps/snmp/snmp_mib2.s"
+	@echo "... pico-sdk/lib/lwip/src/apps/snmp/snmp_mib2_icmp.obj"
+	@echo "... pico-sdk/lib/lwip/src/apps/snmp/snmp_mib2_icmp.i"
+	@echo "... pico-sdk/lib/lwip/src/apps/snmp/snmp_mib2_icmp.s"
+	@echo "... pico-sdk/lib/lwip/src/apps/snmp/snmp_mib2_interfaces.obj"
+	@echo "... pico-sdk/lib/lwip/src/apps/snmp/snmp_mib2_interfaces.i"
+	@echo "... pico-sdk/lib/lwip/src/apps/snmp/snmp_mib2_interfaces.s"
+	@echo "... pico-sdk/lib/lwip/src/apps/snmp/snmp_mib2_ip.obj"
+	@echo "... pico-sdk/lib/lwip/src/apps/snmp/snmp_mib2_ip.i"
+	@echo "... pico-sdk/lib/lwip/src/apps/snmp/snmp_mib2_ip.s"
+	@echo "... pico-sdk/lib/lwip/src/apps/snmp/snmp_mib2_snmp.obj"
+	@echo "... pico-sdk/lib/lwip/src/apps/snmp/snmp_mib2_snmp.i"
+	@echo "... pico-sdk/lib/lwip/src/apps/snmp/snmp_mib2_snmp.s"
+	@echo "... pico-sdk/lib/lwip/src/apps/snmp/snmp_mib2_system.obj"
+	@echo "... pico-sdk/lib/lwip/src/apps/snmp/snmp_mib2_system.i"
+	@echo "... pico-sdk/lib/lwip/src/apps/snmp/snmp_mib2_system.s"
+	@echo "... pico-sdk/lib/lwip/src/apps/snmp/snmp_mib2_tcp.obj"
+	@echo "... pico-sdk/lib/lwip/src/apps/snmp/snmp_mib2_tcp.i"
+	@echo "... pico-sdk/lib/lwip/src/apps/snmp/snmp_mib2_tcp.s"
+	@echo "... pico-sdk/lib/lwip/src/apps/snmp/snmp_mib2_udp.obj"
+	@echo "... pico-sdk/lib/lwip/src/apps/snmp/snmp_mib2_udp.i"
+	@echo "... pico-sdk/lib/lwip/src/apps/snmp/snmp_mib2_udp.s"
+	@echo "... pico-sdk/lib/lwip/src/apps/snmp/snmp_msg.obj"
+	@echo "... pico-sdk/lib/lwip/src/apps/snmp/snmp_msg.i"
+	@echo "... pico-sdk/lib/lwip/src/apps/snmp/snmp_msg.s"
+	@echo "... pico-sdk/lib/lwip/src/apps/snmp/snmp_netconn.obj"
+	@echo "... pico-sdk/lib/lwip/src/apps/snmp/snmp_netconn.i"
+	@echo "... pico-sdk/lib/lwip/src/apps/snmp/snmp_netconn.s"
+	@echo "... pico-sdk/lib/lwip/src/apps/snmp/snmp_pbuf_stream.obj"
+	@echo "... pico-sdk/lib/lwip/src/apps/snmp/snmp_pbuf_stream.i"
+	@echo "... pico-sdk/lib/lwip/src/apps/snmp/snmp_pbuf_stream.s"
+	@echo "... pico-sdk/lib/lwip/src/apps/snmp/snmp_raw.obj"
+	@echo "... pico-sdk/lib/lwip/src/apps/snmp/snmp_raw.i"
+	@echo "... pico-sdk/lib/lwip/src/apps/snmp/snmp_raw.s"
+	@echo "... pico-sdk/lib/lwip/src/apps/snmp/snmp_scalar.obj"
+	@echo "... pico-sdk/lib/lwip/src/apps/snmp/snmp_scalar.i"
+	@echo "... pico-sdk/lib/lwip/src/apps/snmp/snmp_scalar.s"
+	@echo "... pico-sdk/lib/lwip/src/apps/snmp/snmp_snmpv2_framework.obj"
+	@echo "... pico-sdk/lib/lwip/src/apps/snmp/snmp_snmpv2_framework.i"
+	@echo "... pico-sdk/lib/lwip/src/apps/snmp/snmp_snmpv2_framework.s"
+	@echo "... pico-sdk/lib/lwip/src/apps/snmp/snmp_snmpv2_usm.obj"
+	@echo "... pico-sdk/lib/lwip/src/apps/snmp/snmp_snmpv2_usm.i"
+	@echo "... pico-sdk/lib/lwip/src/apps/snmp/snmp_snmpv2_usm.s"
+	@echo "... pico-sdk/lib/lwip/src/apps/snmp/snmp_table.obj"
+	@echo "... pico-sdk/lib/lwip/src/apps/snmp/snmp_table.i"
+	@echo "... pico-sdk/lib/lwip/src/apps/snmp/snmp_table.s"
+	@echo "... pico-sdk/lib/lwip/src/apps/snmp/snmp_threadsync.obj"
+	@echo "... pico-sdk/lib/lwip/src/apps/snmp/snmp_threadsync.i"
+	@echo "... pico-sdk/lib/lwip/src/apps/snmp/snmp_threadsync.s"
+	@echo "... pico-sdk/lib/lwip/src/apps/snmp/snmp_traps.obj"
+	@echo "... pico-sdk/lib/lwip/src/apps/snmp/snmp_traps.i"
+	@echo "... pico-sdk/lib/lwip/src/apps/snmp/snmp_traps.s"
+	@echo "... pico-sdk/lib/lwip/src/apps/snmp/snmpv3.obj"
+	@echo "... pico-sdk/lib/lwip/src/apps/snmp/snmpv3.i"
+	@echo "... pico-sdk/lib/lwip/src/apps/snmp/snmpv3.s"
+	@echo "... pico-sdk/lib/lwip/src/apps/snmp/snmpv3_mbedtls.obj"
+	@echo "... pico-sdk/lib/lwip/src/apps/snmp/snmpv3_mbedtls.i"
+	@echo "... pico-sdk/lib/lwip/src/apps/snmp/snmpv3_mbedtls.s"
+	@echo "... pico-sdk/lib/lwip/src/apps/sntp/sntp.obj"
+	@echo "... pico-sdk/lib/lwip/src/apps/sntp/sntp.i"
+	@echo "... pico-sdk/lib/lwip/src/apps/sntp/sntp.s"
+	@echo "... pico-sdk/lib/lwip/src/apps/tftp/tftp.obj"
+	@echo "... pico-sdk/lib/lwip/src/apps/tftp/tftp.i"
+	@echo "... pico-sdk/lib/lwip/src/apps/tftp/tftp.s"
+	@echo "... pico-sdk/lib/lwip/src/core/altcp.obj"
+	@echo "... pico-sdk/lib/lwip/src/core/altcp.i"
+	@echo "... pico-sdk/lib/lwip/src/core/altcp.s"
+	@echo "... pico-sdk/lib/lwip/src/core/altcp_alloc.obj"
+	@echo "... pico-sdk/lib/lwip/src/core/altcp_alloc.i"
+	@echo "... pico-sdk/lib/lwip/src/core/altcp_alloc.s"
+	@echo "... pico-sdk/lib/lwip/src/core/altcp_tcp.obj"
+	@echo "... pico-sdk/lib/lwip/src/core/altcp_tcp.i"
+	@echo "... pico-sdk/lib/lwip/src/core/altcp_tcp.s"
+	@echo "... pico-sdk/lib/lwip/src/core/def.obj"
+	@echo "... pico-sdk/lib/lwip/src/core/def.i"
+	@echo "... pico-sdk/lib/lwip/src/core/def.s"
+	@echo "... pico-sdk/lib/lwip/src/core/dns.obj"
+	@echo "... pico-sdk/lib/lwip/src/core/dns.i"
+	@echo "... pico-sdk/lib/lwip/src/core/dns.s"
+	@echo "... pico-sdk/lib/lwip/src/core/inet_chksum.obj"
+	@echo "... pico-sdk/lib/lwip/src/core/inet_chksum.i"
+	@echo "... pico-sdk/lib/lwip/src/core/inet_chksum.s"
+	@echo "... pico-sdk/lib/lwip/src/core/init.obj"
+	@echo "... pico-sdk/lib/lwip/src/core/init.i"
+	@echo "... pico-sdk/lib/lwip/src/core/init.s"
+	@echo "... pico-sdk/lib/lwip/src/core/ip.obj"
+	@echo "... pico-sdk/lib/lwip/src/core/ip.i"
+	@echo "... pico-sdk/lib/lwip/src/core/ip.s"
+	@echo "... pico-sdk/lib/lwip/src/core/ipv4/acd.obj"
+	@echo "... pico-sdk/lib/lwip/src/core/ipv4/acd.i"
+	@echo "... pico-sdk/lib/lwip/src/core/ipv4/acd.s"
+	@echo "... pico-sdk/lib/lwip/src/core/ipv4/autoip.obj"
+	@echo "... pico-sdk/lib/lwip/src/core/ipv4/autoip.i"
+	@echo "... pico-sdk/lib/lwip/src/core/ipv4/autoip.s"
+	@echo "... pico-sdk/lib/lwip/src/core/ipv4/dhcp.obj"
+	@echo "... pico-sdk/lib/lwip/src/core/ipv4/dhcp.i"
+	@echo "... pico-sdk/lib/lwip/src/core/ipv4/dhcp.s"
+	@echo "... pico-sdk/lib/lwip/src/core/ipv4/etharp.obj"
+	@echo "... pico-sdk/lib/lwip/src/core/ipv4/etharp.i"
+	@echo "... pico-sdk/lib/lwip/src/core/ipv4/etharp.s"
+	@echo "... pico-sdk/lib/lwip/src/core/ipv4/icmp.obj"
+	@echo "... pico-sdk/lib/lwip/src/core/ipv4/icmp.i"
+	@echo "... pico-sdk/lib/lwip/src/core/ipv4/icmp.s"
+	@echo "... pico-sdk/lib/lwip/src/core/ipv4/igmp.obj"
+	@echo "... pico-sdk/lib/lwip/src/core/ipv4/igmp.i"
+	@echo "... pico-sdk/lib/lwip/src/core/ipv4/igmp.s"
+	@echo "... pico-sdk/lib/lwip/src/core/ipv4/ip4.obj"
+	@echo "... pico-sdk/lib/lwip/src/core/ipv4/ip4.i"
+	@echo "... pico-sdk/lib/lwip/src/core/ipv4/ip4.s"
+	@echo "... pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.obj"
+	@echo "... pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.i"
+	@echo "... pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.s"
+	@echo "... pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.obj"
+	@echo "... pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.i"
+	@echo "... pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.s"
+	@echo "... pico-sdk/lib/lwip/src/core/ipv6/dhcp6.obj"
+	@echo "... pico-sdk/lib/lwip/src/core/ipv6/dhcp6.i"
+	@echo "... pico-sdk/lib/lwip/src/core/ipv6/dhcp6.s"
+	@echo "... pico-sdk/lib/lwip/src/core/ipv6/ethip6.obj"
+	@echo "... pico-sdk/lib/lwip/src/core/ipv6/ethip6.i"
+	@echo "... pico-sdk/lib/lwip/src/core/ipv6/ethip6.s"
+	@echo "... pico-sdk/lib/lwip/src/core/ipv6/icmp6.obj"
+	@echo "... pico-sdk/lib/lwip/src/core/ipv6/icmp6.i"
+	@echo "... pico-sdk/lib/lwip/src/core/ipv6/icmp6.s"
+	@echo "... pico-sdk/lib/lwip/src/core/ipv6/inet6.obj"
+	@echo "... pico-sdk/lib/lwip/src/core/ipv6/inet6.i"
+	@echo "... pico-sdk/lib/lwip/src/core/ipv6/inet6.s"
+	@echo "... pico-sdk/lib/lwip/src/core/ipv6/ip6.obj"
+	@echo "... pico-sdk/lib/lwip/src/core/ipv6/ip6.i"
+	@echo "... pico-sdk/lib/lwip/src/core/ipv6/ip6.s"
+	@echo "... pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.obj"
+	@echo "... pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.i"
+	@echo "... pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.s"
+	@echo "... pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.obj"
+	@echo "... pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.i"
+	@echo "... pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.s"
+	@echo "... pico-sdk/lib/lwip/src/core/ipv6/mld6.obj"
+	@echo "... pico-sdk/lib/lwip/src/core/ipv6/mld6.i"
+	@echo "... pico-sdk/lib/lwip/src/core/ipv6/mld6.s"
+	@echo "... pico-sdk/lib/lwip/src/core/ipv6/nd6.obj"
+	@echo "... pico-sdk/lib/lwip/src/core/ipv6/nd6.i"
+	@echo "... pico-sdk/lib/lwip/src/core/ipv6/nd6.s"
+	@echo "... pico-sdk/lib/lwip/src/core/mem.obj"
+	@echo "... pico-sdk/lib/lwip/src/core/mem.i"
+	@echo "... pico-sdk/lib/lwip/src/core/mem.s"
+	@echo "... pico-sdk/lib/lwip/src/core/memp.obj"
+	@echo "... pico-sdk/lib/lwip/src/core/memp.i"
+	@echo "... pico-sdk/lib/lwip/src/core/memp.s"
+	@echo "... pico-sdk/lib/lwip/src/core/netif.obj"
+	@echo "... pico-sdk/lib/lwip/src/core/netif.i"
+	@echo "... pico-sdk/lib/lwip/src/core/netif.s"
+	@echo "... pico-sdk/lib/lwip/src/core/pbuf.obj"
+	@echo "... pico-sdk/lib/lwip/src/core/pbuf.i"
+	@echo "... pico-sdk/lib/lwip/src/core/pbuf.s"
+	@echo "... pico-sdk/lib/lwip/src/core/raw.obj"
+	@echo "... pico-sdk/lib/lwip/src/core/raw.i"
+	@echo "... pico-sdk/lib/lwip/src/core/raw.s"
+	@echo "... pico-sdk/lib/lwip/src/core/stats.obj"
+	@echo "... pico-sdk/lib/lwip/src/core/stats.i"
+	@echo "... pico-sdk/lib/lwip/src/core/stats.s"
+	@echo "... pico-sdk/lib/lwip/src/core/sys.obj"
+	@echo "... pico-sdk/lib/lwip/src/core/sys.i"
+	@echo "... pico-sdk/lib/lwip/src/core/sys.s"
+	@echo "... pico-sdk/lib/lwip/src/core/tcp.obj"
+	@echo "... pico-sdk/lib/lwip/src/core/tcp.i"
+	@echo "... pico-sdk/lib/lwip/src/core/tcp.s"
+	@echo "... pico-sdk/lib/lwip/src/core/tcp_in.obj"
+	@echo "... pico-sdk/lib/lwip/src/core/tcp_in.i"
+	@echo "... pico-sdk/lib/lwip/src/core/tcp_in.s"
+	@echo "... pico-sdk/lib/lwip/src/core/tcp_out.obj"
+	@echo "... pico-sdk/lib/lwip/src/core/tcp_out.i"
+	@echo "... pico-sdk/lib/lwip/src/core/tcp_out.s"
+	@echo "... pico-sdk/lib/lwip/src/core/timeouts.obj"
+	@echo "... pico-sdk/lib/lwip/src/core/timeouts.i"
+	@echo "... pico-sdk/lib/lwip/src/core/timeouts.s"
+	@echo "... pico-sdk/lib/lwip/src/core/udp.obj"
+	@echo "... pico-sdk/lib/lwip/src/core/udp.i"
+	@echo "... pico-sdk/lib/lwip/src/core/udp.s"
+	@echo "... pico-sdk/lib/lwip/src/netif/bridgeif.obj"
+	@echo "... pico-sdk/lib/lwip/src/netif/bridgeif.i"
+	@echo "... pico-sdk/lib/lwip/src/netif/bridgeif.s"
+	@echo "... pico-sdk/lib/lwip/src/netif/bridgeif_fdb.obj"
+	@echo "... pico-sdk/lib/lwip/src/netif/bridgeif_fdb.i"
+	@echo "... pico-sdk/lib/lwip/src/netif/bridgeif_fdb.s"
+	@echo "... pico-sdk/lib/lwip/src/netif/ethernet.obj"
+	@echo "... pico-sdk/lib/lwip/src/netif/ethernet.i"
+	@echo "... pico-sdk/lib/lwip/src/netif/ethernet.s"
+	@echo "... pico-sdk/lib/lwip/src/netif/lowpan6.obj"
+	@echo "... pico-sdk/lib/lwip/src/netif/lowpan6.i"
+	@echo "... pico-sdk/lib/lwip/src/netif/lowpan6.s"
+	@echo "... pico-sdk/lib/lwip/src/netif/lowpan6_ble.obj"
+	@echo "... pico-sdk/lib/lwip/src/netif/lowpan6_ble.i"
+	@echo "... pico-sdk/lib/lwip/src/netif/lowpan6_ble.s"
+	@echo "... pico-sdk/lib/lwip/src/netif/lowpan6_common.obj"
+	@echo "... pico-sdk/lib/lwip/src/netif/lowpan6_common.i"
+	@echo "... pico-sdk/lib/lwip/src/netif/lowpan6_common.s"
+	@echo "... pico-sdk/lib/lwip/src/netif/ppp/auth.obj"
+	@echo "... pico-sdk/lib/lwip/src/netif/ppp/auth.i"
+	@echo "... pico-sdk/lib/lwip/src/netif/ppp/auth.s"
+	@echo "... pico-sdk/lib/lwip/src/netif/ppp/ccp.obj"
+	@echo "... pico-sdk/lib/lwip/src/netif/ppp/ccp.i"
+	@echo "... pico-sdk/lib/lwip/src/netif/ppp/ccp.s"
+	@echo "... pico-sdk/lib/lwip/src/netif/ppp/chap-md5.obj"
+	@echo "... pico-sdk/lib/lwip/src/netif/ppp/chap-md5.i"
+	@echo "... pico-sdk/lib/lwip/src/netif/ppp/chap-md5.s"
+	@echo "... pico-sdk/lib/lwip/src/netif/ppp/chap-new.obj"
+	@echo "... pico-sdk/lib/lwip/src/netif/ppp/chap-new.i"
+	@echo "... pico-sdk/lib/lwip/src/netif/ppp/chap-new.s"
+	@echo "... pico-sdk/lib/lwip/src/netif/ppp/chap_ms.obj"
+	@echo "... pico-sdk/lib/lwip/src/netif/ppp/chap_ms.i"
+	@echo "... pico-sdk/lib/lwip/src/netif/ppp/chap_ms.s"
+	@echo "... pico-sdk/lib/lwip/src/netif/ppp/demand.obj"
+	@echo "... pico-sdk/lib/lwip/src/netif/ppp/demand.i"
+	@echo "... pico-sdk/lib/lwip/src/netif/ppp/demand.s"
+	@echo "... pico-sdk/lib/lwip/src/netif/ppp/eap.obj"
+	@echo "... pico-sdk/lib/lwip/src/netif/ppp/eap.i"
+	@echo "... pico-sdk/lib/lwip/src/netif/ppp/eap.s"
+	@echo "... pico-sdk/lib/lwip/src/netif/ppp/ecp.obj"
+	@echo "... pico-sdk/lib/lwip/src/netif/ppp/ecp.i"
+	@echo "... pico-sdk/lib/lwip/src/netif/ppp/ecp.s"
+	@echo "... pico-sdk/lib/lwip/src/netif/ppp/eui64.obj"
+	@echo "... pico-sdk/lib/lwip/src/netif/ppp/eui64.i"
+	@echo "... pico-sdk/lib/lwip/src/netif/ppp/eui64.s"
+	@echo "... pico-sdk/lib/lwip/src/netif/ppp/fsm.obj"
+	@echo "... pico-sdk/lib/lwip/src/netif/ppp/fsm.i"
+	@echo "... pico-sdk/lib/lwip/src/netif/ppp/fsm.s"
+	@echo "... pico-sdk/lib/lwip/src/netif/ppp/ipcp.obj"
+	@echo "... pico-sdk/lib/lwip/src/netif/ppp/ipcp.i"
+	@echo "... pico-sdk/lib/lwip/src/netif/ppp/ipcp.s"
+	@echo "... pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.obj"
+	@echo "... pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.i"
+	@echo "... pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.s"
+	@echo "... pico-sdk/lib/lwip/src/netif/ppp/lcp.obj"
+	@echo "... pico-sdk/lib/lwip/src/netif/ppp/lcp.i"
+	@echo "... pico-sdk/lib/lwip/src/netif/ppp/lcp.s"
+	@echo "... pico-sdk/lib/lwip/src/netif/ppp/magic.obj"
+	@echo "... pico-sdk/lib/lwip/src/netif/ppp/magic.i"
+	@echo "... pico-sdk/lib/lwip/src/netif/ppp/magic.s"
+	@echo "... pico-sdk/lib/lwip/src/netif/ppp/mppe.obj"
+	@echo "... pico-sdk/lib/lwip/src/netif/ppp/mppe.i"
+	@echo "... pico-sdk/lib/lwip/src/netif/ppp/mppe.s"
+	@echo "... pico-sdk/lib/lwip/src/netif/ppp/multilink.obj"
+	@echo "... pico-sdk/lib/lwip/src/netif/ppp/multilink.i"
+	@echo "... pico-sdk/lib/lwip/src/netif/ppp/multilink.s"
+	@echo "... pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.obj"
+	@echo "... pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.i"
+	@echo "... pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.s"
+	@echo "... pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.obj"
+	@echo "... pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.i"
+	@echo "... pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.s"
+	@echo "... pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.obj"
+	@echo "... pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.i"
+	@echo "... pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.s"
+	@echo "... pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.obj"
+	@echo "... pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.i"
+	@echo "... pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.s"
+	@echo "... pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.obj"
+	@echo "... pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.i"
+	@echo "... pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.s"
+	@echo "... pico-sdk/lib/lwip/src/netif/ppp/ppp.obj"
+	@echo "... pico-sdk/lib/lwip/src/netif/ppp/ppp.i"
+	@echo "... pico-sdk/lib/lwip/src/netif/ppp/ppp.s"
+	@echo "... pico-sdk/lib/lwip/src/netif/ppp/pppapi.obj"
+	@echo "... pico-sdk/lib/lwip/src/netif/ppp/pppapi.i"
+	@echo "... pico-sdk/lib/lwip/src/netif/ppp/pppapi.s"
+	@echo "... pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.obj"
+	@echo "... pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.i"
+	@echo "... pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.s"
+	@echo "... pico-sdk/lib/lwip/src/netif/ppp/pppoe.obj"
+	@echo "... pico-sdk/lib/lwip/src/netif/ppp/pppoe.i"
+	@echo "... pico-sdk/lib/lwip/src/netif/ppp/pppoe.s"
+	@echo "... pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.obj"
+	@echo "... pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.i"
+	@echo "... pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.s"
+	@echo "... pico-sdk/lib/lwip/src/netif/ppp/pppos.obj"
+	@echo "... pico-sdk/lib/lwip/src/netif/ppp/pppos.i"
+	@echo "... pico-sdk/lib/lwip/src/netif/ppp/pppos.s"
+	@echo "... pico-sdk/lib/lwip/src/netif/ppp/upap.obj"
+	@echo "... pico-sdk/lib/lwip/src/netif/ppp/upap.i"
+	@echo "... pico-sdk/lib/lwip/src/netif/ppp/upap.s"
+	@echo "... pico-sdk/lib/lwip/src/netif/ppp/utils.obj"
+	@echo "... pico-sdk/lib/lwip/src/netif/ppp/utils.i"
+	@echo "... pico-sdk/lib/lwip/src/netif/ppp/utils.s"
+	@echo "... pico-sdk/lib/lwip/src/netif/ppp/vj.obj"
+	@echo "... pico-sdk/lib/lwip/src/netif/ppp/vj.i"
+	@echo "... pico-sdk/lib/lwip/src/netif/ppp/vj.s"
+	@echo "... pico-sdk/lib/lwip/src/netif/slipif.obj"
+	@echo "... pico-sdk/lib/lwip/src/netif/slipif.i"
+	@echo "... pico-sdk/lib/lwip/src/netif/slipif.s"
+	@echo "... pico-sdk/lib/lwip/src/netif/zepif.obj"
+	@echo "... pico-sdk/lib/lwip/src/netif/zepif.i"
+	@echo "... pico-sdk/lib/lwip/src/netif/zepif.s"
 	@echo "... pico-sdk/lib/tinyusb/lib/networking/dhserver.obj"
 	@echo "... pico-sdk/lib/tinyusb/lib/networking/dhserver.i"
 	@echo "... pico-sdk/lib/tinyusb/lib/networking/dhserver.s"
@@ -5170,6 +5920,12 @@ help:
 	@echo "... pico-sdk/src/rp2_common/hardware_clocks/clocks.i"
 	@echo "... pico-sdk/src/rp2_common/hardware_clocks/clocks.s"
 	@echo "... pico-sdk/src/rp2_common/hardware_divider/divider.obj"
+	@echo "... pico-sdk/src/rp2_common/hardware_dma/dma.obj"
+	@echo "... pico-sdk/src/rp2_common/hardware_dma/dma.i"
+	@echo "... pico-sdk/src/rp2_common/hardware_dma/dma.s"
+	@echo "... pico-sdk/src/rp2_common/hardware_exception/exception.obj"
+	@echo "... pico-sdk/src/rp2_common/hardware_exception/exception.i"
+	@echo "... pico-sdk/src/rp2_common/hardware_exception/exception.s"
 	@echo "... pico-sdk/src/rp2_common/hardware_flash/flash.obj"
 	@echo "... pico-sdk/src/rp2_common/hardware_flash/flash.i"
 	@echo "... pico-sdk/src/rp2_common/hardware_flash/flash.s"
@@ -5180,6 +5936,9 @@ help:
 	@echo "... pico-sdk/src/rp2_common/hardware_irq/irq.i"
 	@echo "... pico-sdk/src/rp2_common/hardware_irq/irq.s"
 	@echo "... pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.obj"
+	@echo "... pico-sdk/src/rp2_common/hardware_pio/pio.obj"
+	@echo "... pico-sdk/src/rp2_common/hardware_pio/pio.i"
+	@echo "... pico-sdk/src/rp2_common/hardware_pio/pio.s"
 	@echo "... pico-sdk/src/rp2_common/hardware_pll/pll.obj"
 	@echo "... pico-sdk/src/rp2_common/hardware_pll/pll.i"
 	@echo "... pico-sdk/src/rp2_common/hardware_pll/pll.s"
@@ -5201,10 +5960,40 @@ help:
 	@echo "... pico-sdk/src/rp2_common/hardware_xosc/xosc.obj"
 	@echo "... pico-sdk/src/rp2_common/hardware_xosc/xosc.i"
 	@echo "... pico-sdk/src/rp2_common/hardware_xosc/xosc.s"
+	@echo "... pico-sdk/src/rp2_common/pico_async_context/async_context_base.obj"
+	@echo "... pico-sdk/src/rp2_common/pico_async_context/async_context_base.i"
+	@echo "... pico-sdk/src/rp2_common/pico_async_context/async_context_base.s"
+	@echo "... pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.obj"
+	@echo "... pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.i"
+	@echo "... pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.s"
 	@echo "... pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.obj"
 	@echo "... pico-sdk/src/rp2_common/pico_bootrom/bootrom.obj"
 	@echo "... pico-sdk/src/rp2_common/pico_bootrom/bootrom.i"
 	@echo "... pico-sdk/src/rp2_common/pico_bootrom/bootrom.s"
+	@echo "... pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.obj"
+	@echo "... pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.i"
+	@echo "... pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.s"
+	@echo "... pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.obj"
+	@echo "... pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.i"
+	@echo "... pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.s"
+	@echo "... pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.obj"
+	@echo "... pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.i"
+	@echo "... pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.s"
+	@echo "... pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.obj"
+	@echo "... pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.i"
+	@echo "... pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.s"
+	@echo "... pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.obj"
+	@echo "... pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.i"
+	@echo "... pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.s"
+	@echo "... pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.obj"
+	@echo "... pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.i"
+	@echo "... pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.s"
+	@echo "... pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.obj"
+	@echo "... pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.i"
+	@echo "... pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.s"
+	@echo "... pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.obj"
+	@echo "... pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.i"
+	@echo "... pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.s"
 	@echo "... pico-sdk/src/rp2_common/pico_divider/divider.obj"
 	@echo "... pico-sdk/src/rp2_common/pico_double/double_aeabi.obj"
 	@echo "... pico-sdk/src/rp2_common/pico_double/double_init_rom.obj"
@@ -5226,6 +6015,9 @@ help:
 	@echo "... pico-sdk/src/rp2_common/pico_float/float_math.s"
 	@echo "... pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.obj"
 	@echo "... pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.obj"
+	@echo "... pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.obj"
+	@echo "... pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.i"
+	@echo "... pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.s"
 	@echo "... pico-sdk/src/rp2_common/pico_malloc/pico_malloc.obj"
 	@echo "... pico-sdk/src/rp2_common/pico_malloc/pico_malloc.i"
 	@echo "... pico-sdk/src/rp2_common/pico_malloc/pico_malloc.s"
@@ -5236,6 +6028,9 @@ help:
 	@echo "... pico-sdk/src/rp2_common/pico_printf/printf.obj"
 	@echo "... pico-sdk/src/rp2_common/pico_printf/printf.i"
 	@echo "... pico-sdk/src/rp2_common/pico_printf/printf.s"
+	@echo "... pico-sdk/src/rp2_common/pico_rand/rand.obj"
+	@echo "... pico-sdk/src/rp2_common/pico_rand/rand.i"
+	@echo "... pico-sdk/src/rp2_common/pico_rand/rand.s"
 	@echo "... pico-sdk/src/rp2_common/pico_runtime/runtime.obj"
 	@echo "... pico-sdk/src/rp2_common/pico_runtime/runtime.i"
 	@echo "... pico-sdk/src/rp2_common/pico_runtime/runtime.s"

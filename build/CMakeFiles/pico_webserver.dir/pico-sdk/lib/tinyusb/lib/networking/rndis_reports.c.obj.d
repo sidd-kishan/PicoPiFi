@@ -38,29 +38,29 @@ CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/lib/networking/rndis_reports.
  /mnt/f/pico-webserver/pico-sdk/lib/tinyusb/src/class/net/ncm.h \
  /mnt/f/pico-webserver/pico-sdk/lib/tinyusb/lib/networking/rndis_protocol.h \
  /mnt/f/pico-webserver/pico-sdk/lib/tinyusb/lib/networking/ndis.h \
- /mnt/f/pico-webserver/lwip/src/include/netif/ethernet.h \
- /mnt/f/pico-webserver/lwip/src/include/lwip/opt.h \
+ /mnt/f/pico-webserver/pico-sdk/lib/lwip/src/include/netif/ethernet.h \
+ /mnt/f/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/opt.h \
  /mnt/f/pico-webserver/lwipopts.h \
- /mnt/f/pico-webserver/lwip/src/include/lwip/debug.h \
- /mnt/f/pico-webserver/lwip/src/include/lwip/arch.h \
+ /mnt/f/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/debug.h \
+ /mnt/f/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/arch.h \
  /mnt/f/pico-webserver/arch/cc.h /usr/include/newlib/stdlib.h \
  /usr/include/newlib/machine/stdlib.h /usr/include/newlib/alloca.h \
  /usr/include/newlib/inttypes.h /usr/include/newlib/sys/_intsup.h \
  /usr/lib/gcc/arm-none-eabi/10.3.1/include-fixed/limits.h \
  /usr/include/newlib/ctype.h \
- /mnt/f/pico-webserver/lwip/src/include/lwip/pbuf.h \
- /mnt/f/pico-webserver/lwip/src/include/lwip/err.h \
- /mnt/f/pico-webserver/lwip/src/include/lwip/netif.h \
- /mnt/f/pico-webserver/lwip/src/include/lwip/ip_addr.h \
- /mnt/f/pico-webserver/lwip/src/include/lwip/def.h \
- /mnt/f/pico-webserver/lwip/src/include/lwip/ip4_addr.h \
- /mnt/f/pico-webserver/lwip/src/include/lwip/ip6_addr.h \
- /mnt/f/pico-webserver/lwip/src/include/lwip/def.h \
- /mnt/f/pico-webserver/lwip/src/include/lwip/stats.h \
- /mnt/f/pico-webserver/lwip/src/include/lwip/mem.h \
- /mnt/f/pico-webserver/lwip/src/include/lwip/memp.h \
- /mnt/f/pico-webserver/lwip/src/include/lwip/priv/memp_std.h \
- /mnt/f/pico-webserver/lwip/src/include/lwip/priv/memp_priv.h \
- /mnt/f/pico-webserver/lwip/src/include/lwip/priv/mem_priv.h \
- /mnt/f/pico-webserver/lwip/src/include/lwip/prot/ethernet.h \
- /mnt/f/pico-webserver/lwip/src/include/lwip/prot/ieee.h
+ /mnt/f/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/pbuf.h \
+ /mnt/f/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/err.h \
+ /mnt/f/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/netif.h \
+ /mnt/f/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/ip_addr.h \
+ /mnt/f/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/def.h \
+ /mnt/f/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/ip4_addr.h \
+ /mnt/f/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/ip6_addr.h \
+ /mnt/f/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/def.h \
+ /mnt/f/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/stats.h \
+ /mnt/f/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/mem.h \
+ /mnt/f/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/memp.h \
+ /mnt/f/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/priv/memp_std.h \
+ /mnt/f/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/priv/memp_priv.h \
+ /mnt/f/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/priv/mem_priv.h \
+ /mnt/f/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/prot/ethernet.h \
+ /mnt/f/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/prot/ieee.h

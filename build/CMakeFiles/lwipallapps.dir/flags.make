@@ -4,7 +4,7 @@
 # compile C with /usr/bin/arm-none-eabi-gcc
 C_DEFINES = 
 
-C_INCLUDES = -I/mnt/f/pico-webserver/lwip/src/include -I/mnt/f/pico-webserver
+C_INCLUDES = -I/mnt/f/pico-webserver/pico-sdk/lib/lwip/src/include -I/mnt/f/pico-webserver
 
 C_FLAGS = -mcpu=cortex-m0plus -mthumb -O3 -DNDEBUG
 

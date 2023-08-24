@@ -68,8 +68,8 @@ include CMakeFiles/lwipdocs.dir/progress.make
 
 CMakeFiles/lwipdocs:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/mnt/f/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating API documentation with Doxygen"
-	cd /mnt/f/pico-webserver/lwip/doc/doxygen && /usr/bin/cmake -E remove_directory /mnt/f/pico-webserver/lwip/doc/doxygen/output/html
-	cd /mnt/f/pico-webserver/lwip/doc/doxygen && /usr/bin/doxygen /mnt/f/pico-webserver/lwip/doc/doxygen/lwip.Doxyfile
+	cd /mnt/f/pico-webserver/pico-sdk/lib/lwip/doc/doxygen && /usr/bin/cmake -E remove_directory /mnt/f/pico-webserver/pico-sdk/lib/lwip/doc/doxygen/output/html
+	cd /mnt/f/pico-webserver/pico-sdk/lib/lwip/doc/doxygen && /usr/bin/doxygen /mnt/f/pico-webserver/pico-sdk/lib/lwip/doc/doxygen/lwip.Doxyfile
 
 lwipdocs: CMakeFiles/lwipdocs
 lwipdocs: CMakeFiles/lwipdocs.dir/build.make
