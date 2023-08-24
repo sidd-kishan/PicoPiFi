@@ -26,7 +26,7 @@ cd ..
 mkdir -p build
 cd build
 cmake ..
-make
+make -j$(nproc --all)
 ```
 
 Copy the resulting pico_webserver.uf2 file to the Pico mass storage device manually.
