@@ -2511,9 +2511,9 @@ Discarded input sections
  .data          0x0000000000000000        0x0 liblwipallapps.a(httpd.c.obj)
  .data          0x0000000000000000        0x0 liblwipallapps.a(fs.c.obj)
  .bss           0x0000000000000000        0x0 liblwipallapps.a(fs.c.obj)
- .text          0x0000000000000000        0x0 /tmp/ccvKZj3l.o
- .data          0x0000000000000000        0x0 /tmp/ccvKZj3l.o
- .bss           0x0000000000000000        0x0 /tmp/ccvKZj3l.o
+ .text          0x0000000000000000        0x0 /tmp/ccfkzOJJ.o
+ .data          0x0000000000000000        0x0 /tmp/ccfkzOJJ.o
+ .bss           0x0000000000000000        0x0 /tmp/ccfkzOJJ.o
  .data          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .bss           0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .text          0x0000000000000000       0x10 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-atexit.o)
@@ -2840,7 +2840,7 @@ LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nof
 .boot2          0x0000000010000000      0x100
                 0x0000000010000000                __boot2_start__ = .
  *(.boot2)
- .boot2         0x0000000010000000      0x100 /tmp/ccvKZj3l.o
+ .boot2         0x0000000010000000      0x100 /tmp/ccfkzOJJ.o
                 0x0000000010000100                __boot2_end__ = .
                 0x0000000000000001                ASSERT (((__boot2_end__ - __boot2_start__) == 0x100), ERROR: Pico second stage bootloader must be 256 bytes in size)
 
@@ -3799,7 +3799,7 @@ LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nof
 .iplt           0x000000001000fc40        0x0
  .iplt          0x000000001000fc40        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
 
-.rodata         0x000000001000fc40     0x1618
+.rodata         0x000000001000fc40    0x241e8
  *(EXCLUDE_FILE(*libm.a: *libc.a:*lib_a-mem*.o *libgcc.a:) .rodata*)
  .rodata.cgi_toggle_led.str1.4
                 0x000000001000fc40        0xc CMakeFiles/pico_webserver.dir/webserver.c.obj
@@ -3955,47 +3955,46 @@ LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nof
                                          0x7b (size before relaxing)
  *fill*         0x0000000010010453        0x1 
  .rodata        0x0000000010010454       0x28 liblwipallapps.a(httpd.c.obj)
- .rodata        0x000000001001047c      0xdd9 liblwipallapps.a(fs.c.obj)
-                0x000000001001047c                file__index_html
-                0x0000000010010490                file__404_html
-                0x00000000100104a4                file__img_sics_gif
-                0x0000000010011258                . = ALIGN (0x4)
- *fill*         0x0000000010011255        0x3 
+ .rodata        0x000000001001047c    0x239ab liblwipallapps.a(fs.c.obj)
+                0x000000001001047c                file__pico_png
+                0x0000000010010490                file__index_html
+                0x0000000010033e28                . = ALIGN (0x4)
+ *fill*         0x0000000010033e27        0x1 
  *(SORT_BY_ALIGNMENT(SORT_BY_NAME(.flashdata*)))
-                0x0000000010011258                . = ALIGN (0x4)
+                0x0000000010033e28                . = ALIGN (0x4)
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x0000000010011258                __exidx_start = .
+                0x0000000010033e28                __exidx_start = .
 
 .ARM.exidx
  *(.ARM.exidx* .gnu.linkonce.armexidx.*)
-                0x0000000010011258                __exidx_end = .
-                0x0000000010011258                . = ALIGN (0x4)
-                0x0000000010011258                __binary_info_start = .
+                0x0000000010033e28                __exidx_end = .
+                0x0000000010033e28                . = ALIGN (0x4)
+                0x0000000010033e28                __binary_info_start = .
 
-.binary_info    0x0000000010011258       0x1c
+.binary_info    0x0000000010033e28       0x1c
  *(.binary_info.keep.*)
  .binary_info.keep.__bi_ptr22
-                0x0000000010011258        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x0000000010033e28        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr30
-                0x000000001001125c        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x0000000010033e2c        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr38
-                0x0000000010011260        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x0000000010033e30        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr44
-                0x0000000010011264        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x0000000010033e34        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr50
-                0x0000000010011268        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x0000000010033e38        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr75
-                0x000000001001126c        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x0000000010033e3c        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr81
-                0x0000000010011270        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x0000000010033e40        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  *(.binary_info.*)
-                0x0000000010011274                __binary_info_end = .
+                0x0000000010033e44                __binary_info_end = .
 
-.rel.dyn        0x0000000010011274        0x0
- .rel.iplt      0x0000000010011274        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
-                0x0000000010011274                . = ALIGN (0x4)
+.rel.dyn        0x0000000010033e44        0x0
+ .rel.iplt      0x0000000010033e44        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
+                0x0000000010033e44                . = ALIGN (0x4)
 
 .ram_vector_table
                 0x0000000020000000       0xc0
@@ -4004,7 +4003,7 @@ LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nof
                 0x0000000020000000       0xc0 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
                 0x0000000020000000                ram_vector_table
 
-.data           0x00000000200000c0      0xe84 load address 0x0000000010011274
+.data           0x00000000200000c0      0xe84 load address 0x0000000010033e44
                 0x00000000200000c0                __data_start__ = .
  *(vtable)
  *(.time_critical*)
@@ -4145,36 +4144,36 @@ LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nof
  *(.jcr)
                 0x0000000020000f44                . = ALIGN (0x4)
                 0x0000000020000f44                __data_end__ = .
-                0x0000000010011274                __etext = LOADADDR (.data)
+                0x0000000010033e44                __etext = LOADADDR (.data)
 
 .tm_clone_table
-                0x0000000020000f44        0x0 load address 0x00000000100120f8
+                0x0000000020000f44        0x0 load address 0x0000000010034cc8
  .tm_clone_table
                 0x0000000020000f44        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
  .tm_clone_table
                 0x0000000020000f44        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtend.o
 
-.igot.plt       0x0000000020000f44        0x0 load address 0x00000000100120f8
+.igot.plt       0x0000000020000f44        0x0 load address 0x0000000010034cc8
  .igot.plt      0x0000000020000f44        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
 
 .uninitialized_data
-                0x0000000020000f44        0x0 load address 0x00000000100120f8
+                0x0000000020000f44        0x0 load address 0x0000000010034cc8
                 0x0000000020000f44                . = ALIGN (0x4)
  *(.uninitialized_data*)
 
-.scratch_x      0x0000000020040000        0x0 load address 0x00000000100120f8
+.scratch_x      0x0000000020040000        0x0 load address 0x0000000010034cc8
                 0x0000000020040000                __scratch_x_start__ = .
  *(.scratch_x.*)
                 0x0000000020040000                . = ALIGN (0x4)
                 0x0000000020040000                __scratch_x_end__ = .
-                0x00000000100120f8                __scratch_x_source__ = LOADADDR (.scratch_x)
+                0x0000000010034cc8                __scratch_x_source__ = LOADADDR (.scratch_x)
 
-.scratch_y      0x0000000020041000        0x0 load address 0x00000000100120f8
+.scratch_y      0x0000000020041000        0x0 load address 0x0000000010034cc8
                 0x0000000020041000                __scratch_y_start__ = .
  *(.scratch_y.*)
                 0x0000000020041000                . = ALIGN (0x4)
                 0x0000000020041000                __scratch_y_end__ = .
-                0x00000000100120f8                __scratch_y_source__ = LOADADDR (.scratch_y)
+                0x0000000010034cc8                __scratch_y_source__ = LOADADDR (.scratch_y)
 
 .bss            0x0000000020000f48     0x906c
                 0x0000000020000f48                . = ALIGN (0x4)
@@ -4463,8 +4462,8 @@ LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nof
  *(.stack*)
  .stack         0x0000000020041000      0x800 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
 
-.flash_end      0x00000000100120f8        0x0
-                0x00000000100120f8                PROVIDE (__flash_binary_end = .)
+.flash_end      0x0000000010034cc8        0x0
+                0x0000000010034cc8                PROVIDE (__flash_binary_end = .)
                 0x0000000020040000                __StackLimit = (ORIGIN (RAM) + LENGTH (RAM))
                 0x0000000020041000                __StackOneTop = (ORIGIN (SCRATCH_X) + LENGTH (SCRATCH_X))
                 0x0000000020042000                __StackTop = (ORIGIN (SCRATCH_Y) + LENGTH (SCRATCH_Y))
@@ -4650,7 +4649,7 @@ LOAD CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw
 LOAD CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj
 LOAD liblwipallapps.a
 LOAD liblwipcore.a
-LOAD /tmp/ccvKZj3l.o
+LOAD /tmp/ccfkzOJJ.o
 LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libstdc++.a
 LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libm.a
 START GROUP
@@ -4814,7 +4813,7 @@ LOAD linker stubs
  .ARM.attributes
                 0x0000000000000bd8       0x2c liblwipallapps.a(fs.c.obj)
  .ARM.attributes
-                0x0000000000000c04       0x22 /tmp/ccvKZj3l.o
+                0x0000000000000c04       0x22 /tmp/ccfkzOJJ.o
  .ARM.attributes
                 0x0000000000000c26       0x1e /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .ARM.attributes

@@ -1998,6 +1998,12 @@ CMakeFiles/lwipallapps.dir/pico-sdk/lib/lwip/src/apps/sntp/sntp.c.obj: ../pico-s
   ../pico-sdk/lib/lwip/src/include/lwip/prot/udp.h \
   ../pico-sdk/lib/lwip/src/include/lwip/dns.h \
   ../pico-sdk/lib/lwip/src/include/lwip/dhcp.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/acd.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/etharp.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/prot/ethernet.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/prot/ieee.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/prot/etharp.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/prot/acd.h \
   /usr/include/newlib/string.h \
   /usr/include/newlib/strings.h \
   /usr/include/newlib/sys/string.h \
@@ -2089,6 +2095,8 @@ CMakeFiles/lwipallapps.dir/pico-sdk/lib/lwip/src/apps/tftp/tftp.c.obj: ../pico-s
 /usr/include/newlib/machine/time.h:
 
 /usr/include/newlib/time.h:
+
+../pico-sdk/lib/lwip/src/include/lwip/prot/acd.h:
 
 ../pico-sdk/lib/lwip/src/include/lwip/apps/sntp.h:
 
@@ -2185,6 +2193,8 @@ CMakeFiles/lwipallapps.dir/pico-sdk/lib/lwip/src/apps/tftp/tftp.c.obj: ../pico-s
 ../pico-sdk/lib/lwip/src/apps/snmp/snmp_raw.c:
 
 /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h:
+
+../pico-sdk/lib/lwip/src/include/lwip/acd.h:
 
 ../pico-sdk/lib/lwip/src/include/lwip/debug.h:
 

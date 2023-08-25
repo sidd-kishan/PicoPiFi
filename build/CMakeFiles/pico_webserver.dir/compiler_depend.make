@@ -97,6 +97,19 @@ CMakeFiles/pico_webserver.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj: ..
   ../pico-sdk/lib/lwip/src/include/lwip/priv/memp_priv.h \
   ../pico-sdk/lib/lwip/src/include/lwip/priv/mem_priv.h \
   ../pico-sdk/lib/lwip/src/include/lwip/dhcp.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/udp.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/ip.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/ip4.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/prot/ip4.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/ip6.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/prot/ip.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/prot/udp.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/acd.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/etharp.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/prot/ethernet.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/prot/ieee.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/prot/etharp.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/prot/acd.h \
   ../pico-sdk/lib/cyw43-driver/src/cyw43_ll.h \
   ../pico-sdk/lib/cyw43-driver/src/cyw43_stats.h
 
@@ -275,14 +288,21 @@ CMakeFiles/pico_webserver.dir/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.obj: ..
   ../pico-sdk/lib/lwip/src/include/lwip/priv/memp_priv.h \
   ../pico-sdk/lib/lwip/src/include/lwip/priv/mem_priv.h \
   ../pico-sdk/lib/lwip/src/include/lwip/dhcp.h \
-  ../pico-sdk/lib/cyw43-driver/src/cyw43_ll.h \
-  ../pico-sdk/lib/cyw43-driver/src/cyw43_stats.h \
-  ../pico-sdk/lib/lwip/src/include/lwip/etharp.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/udp.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/ip.h \
   ../pico-sdk/lib/lwip/src/include/lwip/ip4.h \
   ../pico-sdk/lib/lwip/src/include/lwip/prot/ip4.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/ip6.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/prot/ip.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/prot/udp.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/acd.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/etharp.h \
   ../pico-sdk/lib/lwip/src/include/lwip/prot/ethernet.h \
   ../pico-sdk/lib/lwip/src/include/lwip/prot/ieee.h \
   ../pico-sdk/lib/lwip/src/include/lwip/prot/etharp.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/prot/acd.h \
+  ../pico-sdk/lib/cyw43-driver/src/cyw43_ll.h \
+  ../pico-sdk/lib/cyw43-driver/src/cyw43_stats.h \
   ../pico-sdk/lib/lwip/src/include/lwip/ethip6.h \
   ../pico-sdk/lib/lwip/src/include/lwip/dns.h \
   ../pico-sdk/lib/lwip/src/include/lwip/igmp.h \
@@ -1248,7 +1268,32 @@ CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv4/acd.c.obj: ../pico
   /usr/include/newlib/sys/_intsup.h \
   /usr/include/newlib/sys/_locale.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include-fixed/limits.h \
-  /usr/include/newlib/ctype.h
+  /usr/include/newlib/ctype.h \
+  /usr/include/newlib/string.h \
+  /usr/include/newlib/strings.h \
+  /usr/include/newlib/sys/string.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/acd.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/netif.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/err.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/ip_addr.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/def.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/ip4_addr.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/ip6_addr.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/def.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/pbuf.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/stats.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/mem.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/memp.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/priv/memp_std.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/priv/memp_priv.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/priv/mem_priv.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/etharp.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/ip4.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/prot/ip4.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/prot/ethernet.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/prot/ieee.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/prot/etharp.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/prot/acd.h
 
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.obj: ../pico-sdk/lib/lwip/src/core/ipv4/autoip.c \
   ../pico-sdk/lib/lwip/src/include/lwip/opt.h \
@@ -1338,7 +1383,42 @@ CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.obj: ../pic
   /usr/include/newlib/sys/_intsup.h \
   /usr/include/newlib/sys/_locale.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include-fixed/limits.h \
-  /usr/include/newlib/ctype.h
+  /usr/include/newlib/ctype.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/stats.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/mem.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/memp.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/priv/memp_std.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/priv/memp_priv.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/priv/mem_priv.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/udp.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/pbuf.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/err.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/netif.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/ip_addr.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/def.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/ip4_addr.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/ip6_addr.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/def.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/ip.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/ip4.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/prot/ip4.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/ip6.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/prot/ip.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/prot/udp.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/dhcp.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/acd.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/etharp.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/prot/ethernet.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/prot/ieee.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/prot/etharp.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/prot/acd.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/autoip.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/dns.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/prot/dhcp.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/prot/iana.h \
+  /usr/include/newlib/string.h \
+  /usr/include/newlib/strings.h \
+  /usr/include/newlib/sys/string.h
 
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.obj: ../pico-sdk/lib/lwip/src/core/ipv4/etharp.c \
   ../pico-sdk/lib/lwip/src/include/lwip/opt.h \
@@ -1406,8 +1486,14 @@ CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.obj: ../p
   ../pico-sdk/lib/lwip/src/include/lwip/prot/etharp.h \
   ../pico-sdk/lib/lwip/src/include/lwip/snmp.h \
   ../pico-sdk/lib/lwip/src/include/lwip/dhcp.h \
-  ../pico-sdk/lib/lwip/src/include/lwip/autoip.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/udp.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/ip.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/ip6.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/prot/ip.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/prot/udp.h \
   ../pico-sdk/lib/lwip/src/include/lwip/acd.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/prot/acd.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/autoip.h \
   ../pico-sdk/lib/lwip/src/include/lwip/prot/iana.h \
   ../pico-sdk/lib/lwip/src/include/netif/ethernet.h \
   /usr/include/newlib/string.h \
@@ -2406,7 +2492,10 @@ CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/netif.c.obj: ../pico-sd
   ../pico-sdk/lib/lwip/src/include/lwip/prot/ieee.h \
   ../pico-sdk/lib/lwip/src/include/lwip/prot/etharp.h \
   ../pico-sdk/lib/lwip/src/include/lwip/sys.h \
-  ../pico-sdk/lib/lwip/src/include/netif/ethernet.h
+  ../pico-sdk/lib/lwip/src/include/netif/ethernet.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/dhcp.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/acd.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/prot/acd.h
 
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/pbuf.c.obj: ../pico-sdk/lib/lwip/src/core/pbuf.c \
   ../pico-sdk/lib/lwip/src/include/lwip/opt.h \
@@ -2928,7 +3017,10 @@ CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/timeouts.c.obj: ../pico
   ../pico-sdk/lib/lwip/src/include/lwip/prot/ieee.h \
   ../pico-sdk/lib/lwip/src/include/lwip/prot/etharp.h \
   ../pico-sdk/lib/lwip/src/include/lwip/dhcp.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/udp.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/prot/udp.h \
   ../pico-sdk/lib/lwip/src/include/lwip/acd.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/prot/acd.h \
   ../pico-sdk/lib/lwip/src/include/lwip/igmp.h \
   ../pico-sdk/lib/lwip/src/include/lwip/dns.h \
   ../pico-sdk/lib/lwip/src/include/lwip/nd6.h \
@@ -3009,6 +3101,12 @@ CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/udp.c.obj: ../pico-sdk/
   ../pico-sdk/lib/lwip/src/include/lwip/prot/icmp6.h \
   ../pico-sdk/lib/lwip/src/include/lwip/snmp.h \
   ../pico-sdk/lib/lwip/src/include/lwip/dhcp.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/acd.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/etharp.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/prot/ethernet.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/prot/ieee.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/prot/etharp.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/prot/acd.h \
   /usr/include/newlib/string.h \
   /usr/include/newlib/strings.h \
   /usr/include/newlib/sys/string.h
@@ -6942,6 +7040,19 @@ CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch
   ../pico-sdk/lib/lwip/src/include/lwip/priv/memp_priv.h \
   ../pico-sdk/lib/lwip/src/include/lwip/priv/mem_priv.h \
   ../pico-sdk/lib/lwip/src/include/lwip/dhcp.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/udp.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/ip.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/ip4.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/prot/ip4.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/ip6.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/prot/ip.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/prot/udp.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/acd.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/etharp.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/prot/ethernet.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/prot/ieee.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/prot/etharp.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/prot/acd.h \
   ../pico-sdk/lib/cyw43-driver/src/cyw43_ll.h \
   ../pico-sdk/src/rp2_common/pico_cyw43_arch/include/pico/cyw43_arch.h \
   ../pico-sdk/lib/cyw43-driver/src/cyw43_country.h \
@@ -7048,6 +7159,19 @@ CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch
   ../pico-sdk/lib/lwip/src/include/lwip/priv/memp_priv.h \
   ../pico-sdk/lib/lwip/src/include/lwip/priv/mem_priv.h \
   ../pico-sdk/lib/lwip/src/include/lwip/dhcp.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/udp.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/ip.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/ip4.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/prot/ip4.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/ip6.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/prot/ip.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/prot/udp.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/acd.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/etharp.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/prot/ethernet.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/prot/ieee.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/prot/etharp.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/prot/acd.h \
   ../pico-sdk/lib/cyw43-driver/src/cyw43_ll.h \
   /usr/include/newlib/string.h \
   /usr/include/newlib/strings.h \
@@ -7325,6 +7449,19 @@ CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bu
   ../pico-sdk/lib/lwip/src/include/lwip/priv/memp_priv.h \
   ../pico-sdk/lib/lwip/src/include/lwip/priv/mem_priv.h \
   ../pico-sdk/lib/lwip/src/include/lwip/dhcp.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/udp.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/ip.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/ip4.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/prot/ip4.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/ip6.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/prot/ip.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/prot/udp.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/acd.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/etharp.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/prot/ethernet.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/prot/ieee.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/prot/etharp.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/prot/acd.h \
   ../pico-sdk/lib/cyw43-driver/src/cyw43_ll.h \
   ../pico-sdk/lib/cyw43-driver/src/cyw43_internal.h \
   ../pico-sdk/lib/cyw43-driver/src/cyw43_spi.h \
@@ -7424,6 +7561,19 @@ CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_dr
   ../pico-sdk/lib/lwip/src/include/lwip/priv/memp_priv.h \
   ../pico-sdk/lib/lwip/src/include/lwip/priv/mem_priv.h \
   ../pico-sdk/lib/lwip/src/include/lwip/dhcp.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/udp.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/ip.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/ip4.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/prot/ip4.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/ip6.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/prot/ip.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/prot/udp.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/acd.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/etharp.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/prot/ethernet.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/prot/ieee.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/prot/etharp.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/prot/acd.h \
   ../pico-sdk/lib/cyw43-driver/src/cyw43_ll.h \
   /usr/include/newlib/string.h \
   /usr/include/newlib/strings.h \
@@ -8594,8 +8744,6 @@ CMakeFiles/pico_webserver.dir/webserver.c.obj: ../webserver.c \
 
 ../pico-sdk/lib/cyw43-driver/firmware/cyw43_btfw_43439.h:
 
-../pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.h:
-
 ../pico-sdk/lib/cyw43-driver/src/cyw43_btbus.h:
 
 ../pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c:
@@ -8808,9 +8956,9 @@ CMakeFiles/pico_webserver.dir/webserver.c.obj: ../webserver.c \
 
 ../pico-sdk/lib/tinyusb/src/common/tusb_common.h:
 
-../pico-sdk/src/common/pico_util/queue.c:
+../pico-sdk/lib/tinyusb/src/class/net/net_device.h:
 
-../pico-sdk/lib/lwip/src/api/if_api.c:
+/usr/lib/gcc/arm-none-eabi/10.3.1/include/stdalign.h:
 
 ../pico-sdk/lib/lwip/src/api/err.c:
 
@@ -8838,20 +8986,6 @@ CMakeFiles/pico_webserver.dir/webserver.c.obj: ../webserver.c \
 
 ../pico-sdk/src/common/pico_base/include/pico/assert.h:
 
-../pico-sdk/lib/lwip/src/include/lwip/ip4.h:
-
-../pico-sdk/lib/cyw43-driver/firmware/w43439A0_7_95_49_00_combined.h:
-
-../pico-sdk/src/rp2_common/pico_lwip/include/pico/lwip_nosys.h:
-
-../pico-sdk/lib/tinyusb/src/device/usbd.c:
-
-../pico-sdk/src/common/pico_base/include/pico.h:
-
-../pico-sdk/lib/lwip/src/netif/ppp/ppp.c:
-
-../pico-sdk/lib/lwip/src/include/lwip/etharp.h:
-
 ../pico-sdk/lib/lwip/src/api/api_lib.c:
 
 ../pico-sdk/lib/cyw43-driver/src/cyw43_internal.h:
@@ -8868,9 +9002,31 @@ CMakeFiles/pico_webserver.dir/webserver.c.obj: ../webserver.c \
 
 ../pico-sdk/lib/cyw43-driver/src/cyw43_stats.h:
 
-../pico-sdk/lib/lwip/src/include/lwip/dhcp.h:
+../pico-sdk/lib/lwip/src/netif/ppp/ppp.c:
 
-../pico-sdk/lib/lwip/src/api/netdb.c:
+../pico-sdk/lib/lwip/src/include/lwip/etharp.h:
+
+../pico-sdk/lib/lwip/src/include/lwip/acd.h:
+
+../pico-sdk/lib/lwip/src/include/lwip/debug.h:
+
+../pico-sdk/lib/lwip/src/include/lwip/prot/udp.h:
+
+../pico-sdk/lib/lwip/src/include/lwip/tcpip.h:
+
+../pico-sdk/lib/lwip/src/include/lwip/prot/ip.h:
+
+../pico-sdk/lib/lwip/src/include/lwip/ip4.h:
+
+../pico-sdk/lib/cyw43-driver/firmware/w43439A0_7_95_49_00_combined.h:
+
+../pico-sdk/src/rp2_common/pico_lwip/include/pico/lwip_nosys.h:
+
+../pico-sdk/lib/tinyusb/src/device/usbd.c:
+
+../pico-sdk/src/common/pico_base/include/pico.h:
+
+../pico-sdk/lib/lwip/src/include/lwip/dhcp.h:
 
 ../pico-sdk/lib/lwip/src/include/lwip/priv/memp_priv.h:
 
@@ -8908,14 +9064,6 @@ CMakeFiles/pico_webserver.dir/webserver.c.obj: ../webserver.c \
 
 ../pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h:
 
-../pico-sdk/src/rp2_common/hardware_sync/sync.c:
-
-../pico-sdk/lib/lwip/src/include/lwip/netdb.h:
-
-../pico-sdk/lib/tinyusb/src/common/tusb_fifo.c:
-
-/usr/lib/gcc/arm-none-eabi/10.3.1/include-fixed/limits.h:
-
 ../pico-sdk/lib/lwip/src/core/dns.c:
 
 /usr/include/newlib/sys/types.h:
@@ -8930,19 +9078,11 @@ CMakeFiles/pico_webserver.dir/webserver.c.obj: ../webserver.c \
 
 ../pico-sdk/lib/lwip/src/include/lwip/raw.h:
 
-../pico-sdk/lib/lwip/src/include/lwip/debug.h:
-
-../pico-sdk/lib/lwip/src/include/lwip/acd.h:
-
 ../lwipopts.h:
 
 ../pico-sdk/lib/lwip/src/include/lwip/netif.h:
 
 /usr/include/newlib/sys/stdio.h:
-
-../arch/cc.h:
-
-../pico-sdk/lib/cyw43-driver/firmware/wifi_nvram_43439.h:
 
 /usr/include/newlib/sys/_timeval.h:
 
@@ -8952,7 +9092,17 @@ CMakeFiles/pico_webserver.dir/webserver.c.obj: ../webserver.c \
 
 ../pico-sdk/lib/lwip/src/include/netif/bridgeif.h:
 
-/usr/lib/gcc/arm-none-eabi/10.3.1/include/stdalign.h:
+../arch/cc.h:
+
+../pico-sdk/lib/cyw43-driver/firmware/wifi_nvram_43439.h:
+
+../pico-sdk/lib/tinyusb/src/common/tusb_fifo.c:
+
+/usr/lib/gcc/arm-none-eabi/10.3.1/include-fixed/limits.h:
+
+../pico-sdk/src/rp2_common/hardware_sync/sync.c:
+
+../pico-sdk/lib/lwip/src/include/lwip/netdb.h:
 
 ../pico-sdk/lib/lwip/src/include/lwip/err.h:
 
@@ -8965,6 +9115,10 @@ CMakeFiles/pico_webserver.dir/webserver.c.obj: ../webserver.c \
 ../pico-sdk/lib/lwip/src/netif/ppp/eap.c:
 
 ../pico-sdk/lib/cyw43-driver/src/cyw43_config.h:
+
+../tusb_lwip_glue.h:
+
+../pico-sdk/lib/lwip/src/include/lwip/udp.h:
 
 ../pico-sdk/src/common/pico_base/include/pico/config.h:
 
@@ -8994,12 +9148,6 @@ CMakeFiles/pico_webserver.dir/webserver.c.obj: ../webserver.c \
 
 ../pico-sdk/src/rp2_common/pico_cyw43_driver/include/cyw43_configport.h:
 
-../pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c:
-
-../pico-sdk/lib/lwip/src/api/tcpip.c:
-
-../pico-sdk/lib/lwip/src/core/netif.c:
-
 ../pico-sdk/lib/lwip/src/include/lwip/prot/ip4.h:
 
 ../pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.h:
@@ -9025,10 +9173,6 @@ pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.pio.h:
 /usr/include/newlib/machine/types.h:
 
 ../pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h:
-
-../pico-sdk/lib/lwip/src/include/lwip/tcpip.h:
-
-../pico-sdk/lib/lwip/src/include/lwip/prot/udp.h:
 
 ../pico-sdk/src/rp2_common/pico_stdio/stdio.c:
 
@@ -9056,15 +9200,9 @@ pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.pio.h:
 
 /usr/include/newlib/sys/config.h:
 
-/usr/include/newlib/strings.h:
-
-../pico-sdk/lib/lwip/src/include/netif/lowpan6_ble.h:
-
 ../pico-sdk/lib/tinyusb/src/common/tusb_compiler.h:
 
 ../pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c:
-
-../pico-sdk/lib/lwip/src/include/lwip/igmp.h:
 
 ../pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h:
 
@@ -9094,6 +9232,8 @@ pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.pio.h:
 
 /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h:
 
+../pico-sdk/lib/lwip/src/include/lwip/igmp.h:
+
 /usr/include/newlib/c++/10.3.1/stdlib.h:
 
 ../pico-sdk/src/rp2_common/pico_float/float_init_rom.c:
@@ -9111,6 +9251,12 @@ generated/pico_base/pico/version.h:
 /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h:
 
 ../pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h:
+
+/usr/include/newlib/sys/stat.h:
+
+../pico-sdk/lib/lwip/src/include/lwip/prot/icmp.h:
+
+../pico-sdk/lib/lwip/src/core/init.c:
 
 ../pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h:
 
@@ -9134,7 +9280,9 @@ generated/pico_base/pico/config_autogen.h:
 
 ../pico-sdk/lib/lwip/src/include/lwip/ip6_addr.h:
 
-../pico-sdk/lib/tinyusb/src/class/net/net_device.h:
+../pico-sdk/lib/lwip/src/include/netif/lowpan6_ble.h:
+
+/usr/include/newlib/strings.h:
 
 ../pico-sdk/lib/cyw43-driver/src/cyw43_stats.c:
 
@@ -9178,11 +9326,23 @@ generated/pico_base/pico/config_autogen.h:
 
 ../pico-sdk/lib/lwip/src/include/lwip/priv/mem_priv.h:
 
-../pico-sdk/lib/lwip/src/api/sockets.c:
-
 ../pico-sdk/lib/lwip/src/include/lwip/opt.h:
 
+../pico-sdk/lib/lwip/src/api/sockets.c:
+
 /usr/include/newlib/sys/select.h:
+
+../pico-sdk/src/common/pico_util/queue.c:
+
+../pico-sdk/lib/lwip/src/api/if_api.c:
+
+../pico-sdk/lib/lwip/src/api/netdb.c:
+
+../pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c:
+
+../pico-sdk/lib/lwip/src/api/tcpip.c:
+
+../pico-sdk/lib/lwip/src/core/netif.c:
 
 ../pico-sdk/lib/lwip/src/core/altcp.c:
 
@@ -9201,18 +9361,6 @@ generated/pico_base/pico/config_autogen.h:
 ../pico-sdk/src/common/pico_time/include/pico/timeout_helper.h:
 
 ../pico-sdk/lib/lwip/src/include/lwip/init.h:
-
-../pico-sdk/lib/lwip/src/include/lwip/prot/ip.h:
-
-/usr/include/newlib/sys/stat.h:
-
-../pico-sdk/lib/lwip/src/core/init.c:
-
-../pico-sdk/lib/lwip/src/include/lwip/prot/icmp.h:
-
-../tusb_lwip_glue.h:
-
-../pico-sdk/lib/lwip/src/include/lwip/udp.h:
 
 ../pico-sdk/lib/lwip/src/include/lwip/priv/tcp_priv.h:
 
@@ -9254,9 +9402,15 @@ generated/pico_base/pico/config_autogen.h:
 
 ../pico-sdk/lib/lwip/src/include/lwip/priv/raw_priv.h:
 
+../pico-sdk/lib/lwip/src/include/lwip/prot/acd.h:
+
 ../pico-sdk/lib/lwip/src/core/ipv4/autoip.c:
 
 ../pico-sdk/lib/lwip/src/netif/zepif.c:
+
+../pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.h:
+
+../pico-sdk/lib/lwip/src/include/lwip/prot/dhcp.h:
 
 ../pico-sdk/lib/lwip/src/core/ipv4/etharp.c:
 
@@ -9273,6 +9427,12 @@ generated/pico_base/pico/config_autogen.h:
 ../pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h:
 
 ../pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c:
+
+../pico-sdk/lib/lwip/src/include/lwip/netbuf.h:
+
+/usr/include/newlib/_newlib_version.h:
+
+../pico-sdk/lib/lwip/src/core/ipv4/ip4.c:
 
 ../pico-sdk/lib/lwip/src/core/mem.c:
 
@@ -9319,12 +9479,6 @@ generated/pico_base/pico/config_autogen.h:
 ../pico-sdk/lib/tinyusb/src/class/cdc/cdc.h:
 
 ../pico-sdk/lib/lwip/src/core/memp.c:
-
-/usr/include/newlib/_newlib_version.h:
-
-../pico-sdk/lib/lwip/src/core/ipv4/ip4.c:
-
-../pico-sdk/lib/lwip/src/include/lwip/netbuf.h:
 
 /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h:
 
