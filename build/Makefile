@@ -259,6 +259,30 @@ cyw43_driver_picow_cyw43_bus_pio_spi_pio_h/fast:
 	$(MAKE) $(MAKESILENT) -f pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/build.make pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/build
 .PHONY : cyw43_driver_picow_cyw43_bus_pio_spi_pio_h/fast
 
+cgi.obj: cgi.cpp.obj
+.PHONY : cgi.obj
+
+# target to build an object file
+cgi.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/cgi.cpp.obj
+.PHONY : cgi.cpp.obj
+
+cgi.i: cgi.cpp.i
+.PHONY : cgi.i
+
+# target to preprocess a source file
+cgi.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/cgi.cpp.i
+.PHONY : cgi.cpp.i
+
+cgi.s: cgi.cpp.s
+.PHONY : cgi.s
+
+# target to generate assembly for a file
+cgi.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/cgi.cpp.s
+.PHONY : cgi.cpp.s
+
 pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.obj: pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj
 .PHONY : pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.obj
 
@@ -652,6 +676,7 @@ pico-sdk/lib/lwip/src/apps/http/altcp_proxyconnect.obj: pico-sdk/lib/lwip/src/ap
 # target to build an object file
 pico-sdk/lib/lwip/src/apps/http/altcp_proxyconnect.c.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/pico-sdk/lib/lwip/src/apps/http/altcp_proxyconnect.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/apps/http/altcp_proxyconnect.c.obj
 .PHONY : pico-sdk/lib/lwip/src/apps/http/altcp_proxyconnect.c.obj
 
 pico-sdk/lib/lwip/src/apps/http/altcp_proxyconnect.i: pico-sdk/lib/lwip/src/apps/http/altcp_proxyconnect.c.i
@@ -660,6 +685,7 @@ pico-sdk/lib/lwip/src/apps/http/altcp_proxyconnect.i: pico-sdk/lib/lwip/src/apps
 # target to preprocess a source file
 pico-sdk/lib/lwip/src/apps/http/altcp_proxyconnect.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/pico-sdk/lib/lwip/src/apps/http/altcp_proxyconnect.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/apps/http/altcp_proxyconnect.c.i
 .PHONY : pico-sdk/lib/lwip/src/apps/http/altcp_proxyconnect.c.i
 
 pico-sdk/lib/lwip/src/apps/http/altcp_proxyconnect.s: pico-sdk/lib/lwip/src/apps/http/altcp_proxyconnect.c.s
@@ -668,6 +694,7 @@ pico-sdk/lib/lwip/src/apps/http/altcp_proxyconnect.s: pico-sdk/lib/lwip/src/apps
 # target to generate assembly for a file
 pico-sdk/lib/lwip/src/apps/http/altcp_proxyconnect.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/pico-sdk/lib/lwip/src/apps/http/altcp_proxyconnect.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/apps/http/altcp_proxyconnect.c.s
 .PHONY : pico-sdk/lib/lwip/src/apps/http/altcp_proxyconnect.c.s
 
 pico-sdk/lib/lwip/src/apps/http/fs.obj: pico-sdk/lib/lwip/src/apps/http/fs.c.obj
@@ -676,6 +703,7 @@ pico-sdk/lib/lwip/src/apps/http/fs.obj: pico-sdk/lib/lwip/src/apps/http/fs.c.obj
 # target to build an object file
 pico-sdk/lib/lwip/src/apps/http/fs.c.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/pico-sdk/lib/lwip/src/apps/http/fs.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/apps/http/fs.c.obj
 .PHONY : pico-sdk/lib/lwip/src/apps/http/fs.c.obj
 
 pico-sdk/lib/lwip/src/apps/http/fs.i: pico-sdk/lib/lwip/src/apps/http/fs.c.i
@@ -684,6 +712,7 @@ pico-sdk/lib/lwip/src/apps/http/fs.i: pico-sdk/lib/lwip/src/apps/http/fs.c.i
 # target to preprocess a source file
 pico-sdk/lib/lwip/src/apps/http/fs.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/pico-sdk/lib/lwip/src/apps/http/fs.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/apps/http/fs.c.i
 .PHONY : pico-sdk/lib/lwip/src/apps/http/fs.c.i
 
 pico-sdk/lib/lwip/src/apps/http/fs.s: pico-sdk/lib/lwip/src/apps/http/fs.c.s
@@ -692,6 +721,7 @@ pico-sdk/lib/lwip/src/apps/http/fs.s: pico-sdk/lib/lwip/src/apps/http/fs.c.s
 # target to generate assembly for a file
 pico-sdk/lib/lwip/src/apps/http/fs.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/pico-sdk/lib/lwip/src/apps/http/fs.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/apps/http/fs.c.s
 .PHONY : pico-sdk/lib/lwip/src/apps/http/fs.c.s
 
 pico-sdk/lib/lwip/src/apps/http/http_client.obj: pico-sdk/lib/lwip/src/apps/http/http_client.c.obj
@@ -700,6 +730,7 @@ pico-sdk/lib/lwip/src/apps/http/http_client.obj: pico-sdk/lib/lwip/src/apps/http
 # target to build an object file
 pico-sdk/lib/lwip/src/apps/http/http_client.c.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/pico-sdk/lib/lwip/src/apps/http/http_client.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/apps/http/http_client.c.obj
 .PHONY : pico-sdk/lib/lwip/src/apps/http/http_client.c.obj
 
 pico-sdk/lib/lwip/src/apps/http/http_client.i: pico-sdk/lib/lwip/src/apps/http/http_client.c.i
@@ -708,6 +739,7 @@ pico-sdk/lib/lwip/src/apps/http/http_client.i: pico-sdk/lib/lwip/src/apps/http/h
 # target to preprocess a source file
 pico-sdk/lib/lwip/src/apps/http/http_client.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/pico-sdk/lib/lwip/src/apps/http/http_client.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/apps/http/http_client.c.i
 .PHONY : pico-sdk/lib/lwip/src/apps/http/http_client.c.i
 
 pico-sdk/lib/lwip/src/apps/http/http_client.s: pico-sdk/lib/lwip/src/apps/http/http_client.c.s
@@ -716,6 +748,7 @@ pico-sdk/lib/lwip/src/apps/http/http_client.s: pico-sdk/lib/lwip/src/apps/http/h
 # target to generate assembly for a file
 pico-sdk/lib/lwip/src/apps/http/http_client.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/pico-sdk/lib/lwip/src/apps/http/http_client.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/apps/http/http_client.c.s
 .PHONY : pico-sdk/lib/lwip/src/apps/http/http_client.c.s
 
 pico-sdk/lib/lwip/src/apps/http/httpd.obj: pico-sdk/lib/lwip/src/apps/http/httpd.c.obj
@@ -724,6 +757,7 @@ pico-sdk/lib/lwip/src/apps/http/httpd.obj: pico-sdk/lib/lwip/src/apps/http/httpd
 # target to build an object file
 pico-sdk/lib/lwip/src/apps/http/httpd.c.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/pico-sdk/lib/lwip/src/apps/http/httpd.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/apps/http/httpd.c.obj
 .PHONY : pico-sdk/lib/lwip/src/apps/http/httpd.c.obj
 
 pico-sdk/lib/lwip/src/apps/http/httpd.i: pico-sdk/lib/lwip/src/apps/http/httpd.c.i
@@ -732,6 +766,7 @@ pico-sdk/lib/lwip/src/apps/http/httpd.i: pico-sdk/lib/lwip/src/apps/http/httpd.c
 # target to preprocess a source file
 pico-sdk/lib/lwip/src/apps/http/httpd.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/pico-sdk/lib/lwip/src/apps/http/httpd.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/apps/http/httpd.c.i
 .PHONY : pico-sdk/lib/lwip/src/apps/http/httpd.c.i
 
 pico-sdk/lib/lwip/src/apps/http/httpd.s: pico-sdk/lib/lwip/src/apps/http/httpd.c.s
@@ -740,6 +775,7 @@ pico-sdk/lib/lwip/src/apps/http/httpd.s: pico-sdk/lib/lwip/src/apps/http/httpd.c
 # target to generate assembly for a file
 pico-sdk/lib/lwip/src/apps/http/httpd.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipallapps.dir/build.make CMakeFiles/lwipallapps.dir/pico-sdk/lib/lwip/src/apps/http/httpd.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/apps/http/httpd.c.s
 .PHONY : pico-sdk/lib/lwip/src/apps/http/httpd.c.s
 
 pico-sdk/lib/lwip/src/apps/lwiperf/lwiperf.obj: pico-sdk/lib/lwip/src/apps/lwiperf/lwiperf.c.obj
@@ -4258,6 +4294,30 @@ pico-sdk/src/common/pico_util/queue.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/src/common/pico_util/queue.c.s
 .PHONY : pico-sdk/src/common/pico_util/queue.c.s
 
+pico-sdk/src/rp2_common/hardware_adc/adc.obj: pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
+.PHONY : pico-sdk/src/rp2_common/hardware_adc/adc.obj
+
+# target to build an object file
+pico-sdk/src/rp2_common/hardware_adc/adc.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
+.PHONY : pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
+
+pico-sdk/src/rp2_common/hardware_adc/adc.i: pico-sdk/src/rp2_common/hardware_adc/adc.c.i
+.PHONY : pico-sdk/src/rp2_common/hardware_adc/adc.i
+
+# target to preprocess a source file
+pico-sdk/src/rp2_common/hardware_adc/adc.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_adc/adc.c.i
+.PHONY : pico-sdk/src/rp2_common/hardware_adc/adc.c.i
+
+pico-sdk/src/rp2_common/hardware_adc/adc.s: pico-sdk/src/rp2_common/hardware_adc/adc.c.s
+.PHONY : pico-sdk/src/rp2_common/hardware_adc/adc.s
+
+# target to generate assembly for a file
+pico-sdk/src/rp2_common/hardware_adc/adc.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_adc/adc.c.s
+.PHONY : pico-sdk/src/rp2_common/hardware_adc/adc.c.s
+
 pico-sdk/src/rp2_common/hardware_claim/claim.obj: pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
 .PHONY : pico-sdk/src/rp2_common/hardware_claim/claim.obj
 
@@ -5354,6 +5414,30 @@ pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
 .PHONY : pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
 
+ssi.obj: ssi.cpp.obj
+.PHONY : ssi.obj
+
+# target to build an object file
+ssi.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/ssi.cpp.obj
+.PHONY : ssi.cpp.obj
+
+ssi.i: ssi.cpp.i
+.PHONY : ssi.i
+
+# target to preprocess a source file
+ssi.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/ssi.cpp.i
+.PHONY : ssi.cpp.i
+
+ssi.s: ssi.cpp.s
+.PHONY : ssi.s
+
+# target to generate assembly for a file
+ssi.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/ssi.cpp.s
+.PHONY : ssi.cpp.s
+
 tusb_lwip_glue.obj: tusb_lwip_glue.c.obj
 .PHONY : tusb_lwip_glue.obj
 
@@ -5445,6 +5529,9 @@ help:
 	@echo "... lwipcore"
 	@echo "... lwipmbedtls"
 	@echo "... pico_webserver"
+	@echo "... cgi.obj"
+	@echo "... cgi.i"
+	@echo "... cgi.s"
 	@echo "... pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.obj"
 	@echo "... pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.i"
 	@echo "... pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.s"
@@ -5913,6 +6000,9 @@ help:
 	@echo "... pico-sdk/src/common/pico_util/queue.obj"
 	@echo "... pico-sdk/src/common/pico_util/queue.i"
 	@echo "... pico-sdk/src/common/pico_util/queue.s"
+	@echo "... pico-sdk/src/rp2_common/hardware_adc/adc.obj"
+	@echo "... pico-sdk/src/rp2_common/hardware_adc/adc.i"
+	@echo "... pico-sdk/src/rp2_common/hardware_adc/adc.s"
 	@echo "... pico-sdk/src/rp2_common/hardware_claim/claim.obj"
 	@echo "... pico-sdk/src/rp2_common/hardware_claim/claim.i"
 	@echo "... pico-sdk/src/rp2_common/hardware_claim/claim.s"
@@ -6050,6 +6140,9 @@ help:
 	@echo "... pico-sdk/src/rp2_common/pico_unique_id/unique_id.obj"
 	@echo "... pico-sdk/src/rp2_common/pico_unique_id/unique_id.i"
 	@echo "... pico-sdk/src/rp2_common/pico_unique_id/unique_id.s"
+	@echo "... ssi.obj"
+	@echo "... ssi.i"
+	@echo "... ssi.s"
 	@echo "... tusb_lwip_glue.obj"
 	@echo "... tusb_lwip_glue.i"
 	@echo "... tusb_lwip_glue.s"

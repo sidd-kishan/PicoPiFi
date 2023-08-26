@@ -133,6 +133,7 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
   "../pico-sdk/src/rp2_common/hardware_exception/include"
   "../pico-sdk/src/rp2_common/pico_cyw43_driver/include"
   "pico-sdk/src/rp2_common/pico_cyw43_driver"
+  "../pico-sdk/src/rp2_common/hardware_adc/include"
   )
 
 # The set of dependency files which are needed:
@@ -150,6 +151,10 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/mnt/f/pico-webserver/pico-sdk/lib/lwip/src/api/netifapi.c" "CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/api/netifapi.c.obj" "gcc" "CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/api/netifapi.c.obj.d"
   "/mnt/f/pico-webserver/pico-sdk/lib/lwip/src/api/sockets.c" "CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/api/sockets.c.obj" "gcc" "CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/api/sockets.c.obj.d"
   "/mnt/f/pico-webserver/pico-sdk/lib/lwip/src/api/tcpip.c" "CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/api/tcpip.c.obj" "gcc" "CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/api/tcpip.c.obj.d"
+  "/mnt/f/pico-webserver/pico-sdk/lib/lwip/src/apps/http/altcp_proxyconnect.c" "CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/apps/http/altcp_proxyconnect.c.obj" "gcc" "CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/apps/http/altcp_proxyconnect.c.obj.d"
+  "/mnt/f/pico-webserver/pico-sdk/lib/lwip/src/apps/http/fs.c" "CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/apps/http/fs.c.obj" "gcc" "CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/apps/http/fs.c.obj.d"
+  "/mnt/f/pico-webserver/pico-sdk/lib/lwip/src/apps/http/http_client.c" "CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/apps/http/http_client.c.obj" "gcc" "CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/apps/http/http_client.c.obj.d"
+  "/mnt/f/pico-webserver/pico-sdk/lib/lwip/src/apps/http/httpd.c" "CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/apps/http/httpd.c.obj" "gcc" "CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/apps/http/httpd.c.obj.d"
   "/mnt/f/pico-webserver/pico-sdk/lib/lwip/src/core/altcp.c" "CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/altcp.c.obj" "gcc" "CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/altcp.c.obj.d"
   "/mnt/f/pico-webserver/pico-sdk/lib/lwip/src/core/altcp_alloc.c" "CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/altcp_alloc.c.obj" "gcc" "CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/altcp_alloc.c.obj.d"
   "/mnt/f/pico-webserver/pico-sdk/lib/lwip/src/core/altcp_tcp.c" "CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/altcp_tcp.c.obj" "gcc" "CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/altcp_tcp.c.obj.d"
@@ -256,6 +261,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/mnt/f/pico-webserver/pico-sdk/src/common/pico_util/datetime.c" "CMakeFiles/pico_webserver.dir/pico-sdk/src/common/pico_util/datetime.c.obj" "gcc" "CMakeFiles/pico_webserver.dir/pico-sdk/src/common/pico_util/datetime.c.obj.d"
   "/mnt/f/pico-webserver/pico-sdk/src/common/pico_util/pheap.c" "CMakeFiles/pico_webserver.dir/pico-sdk/src/common/pico_util/pheap.c.obj" "gcc" "CMakeFiles/pico_webserver.dir/pico-sdk/src/common/pico_util/pheap.c.obj.d"
   "/mnt/f/pico-webserver/pico-sdk/src/common/pico_util/queue.c" "CMakeFiles/pico_webserver.dir/pico-sdk/src/common/pico_util/queue.c.obj" "gcc" "CMakeFiles/pico_webserver.dir/pico-sdk/src/common/pico_util/queue.c.obj.d"
+  "/mnt/f/pico-webserver/pico-sdk/src/rp2_common/hardware_adc/adc.c" "CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj" "gcc" "CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj.d"
   "/mnt/f/pico-webserver/pico-sdk/src/rp2_common/hardware_claim/claim.c" "CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj" "gcc" "CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj.d"
   "/mnt/f/pico-webserver/pico-sdk/src/rp2_common/hardware_clocks/clocks.c" "CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj" "gcc" "CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj.d"
   "/mnt/f/pico-webserver/pico-sdk/src/rp2_common/hardware_dma/dma.c" "CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj" "gcc" "CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj.d"
@@ -300,7 +306,9 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/mnt/f/pico-webserver/tusb_lwip_glue.c" "CMakeFiles/pico_webserver.dir/tusb_lwip_glue.c.obj" "gcc" "CMakeFiles/pico_webserver.dir/tusb_lwip_glue.c.obj.d"
   "/mnt/f/pico-webserver/usb_descriptors.c" "CMakeFiles/pico_webserver.dir/usb_descriptors.c.obj" "gcc" "CMakeFiles/pico_webserver.dir/usb_descriptors.c.obj.d"
   "/mnt/f/pico-webserver/webserver.c" "CMakeFiles/pico_webserver.dir/webserver.c.obj" "gcc" "CMakeFiles/pico_webserver.dir/webserver.c.obj.d"
+  "/mnt/f/pico-webserver/cgi.cpp" "CMakeFiles/pico_webserver.dir/cgi.cpp.obj" "gcc" "CMakeFiles/pico_webserver.dir/cgi.cpp.obj.d"
   "/mnt/f/pico-webserver/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp" "CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj" "gcc" "CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj.d"
+  "/mnt/f/pico-webserver/ssi.cpp" "CMakeFiles/pico_webserver.dir/ssi.cpp.obj" "gcc" "CMakeFiles/pico_webserver.dir/ssi.cpp.obj.d"
   )
 
 # Targets to which this target links.
