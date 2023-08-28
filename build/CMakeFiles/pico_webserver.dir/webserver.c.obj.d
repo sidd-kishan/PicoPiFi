@@ -44,6 +44,13 @@ CMakeFiles/pico_webserver.dir/webserver.c.obj: \
  /mnt/f/pico-webserver/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/uart.h \
  /mnt/f/pico-webserver/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/uart.h \
  /mnt/f/pico-webserver/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h \
+ /mnt/f/pico-webserver/pico-sdk/src/rp2_common/pico_multicore/include/pico/multicore.h \
+ /mnt/f/pico-webserver/pico-sdk/src/common/pico_sync/include/pico/sync.h \
+ /mnt/f/pico-webserver/pico-sdk/src/common/pico_sync/include/pico/sem.h \
+ /mnt/f/pico-webserver/pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
+ /mnt/f/pico-webserver/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
+ /mnt/f/pico-webserver/pico-sdk/src/common/pico_sync/include/pico/mutex.h \
+ /mnt/f/pico-webserver/pico-sdk/src/common/pico_sync/include/pico/critical_section.h \
  /mnt/f/pico-webserver/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom.h \
  /mnt/f/pico-webserver/pico-sdk/src/rp2_common/hardware_watchdog/include/hardware/watchdog.h \
  /mnt/f/pico-webserver/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/watchdog.h \
@@ -122,11 +129,6 @@ CMakeFiles/pico_webserver.dir/webserver.c.obj: \
  /mnt/f/pico-webserver/pico-sdk/lib/tinyusb/src/osal/osal.h \
  /mnt/f/pico-webserver/pico-sdk/lib/tinyusb/src/common/tusb_common.h \
  /mnt/f/pico-webserver/pico-sdk/lib/tinyusb/src/osal/osal_pico.h \
- /mnt/f/pico-webserver/pico-sdk/src/common/pico_sync/include/pico/sem.h \
- /mnt/f/pico-webserver/pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
- /mnt/f/pico-webserver/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
- /mnt/f/pico-webserver/pico-sdk/src/common/pico_sync/include/pico/mutex.h \
- /mnt/f/pico-webserver/pico-sdk/src/common/pico_sync/include/pico/critical_section.h \
  /mnt/f/pico-webserver/pico-sdk/lib/tinyusb/src/common/tusb_fifo.h \
  /mnt/f/pico-webserver/pico-sdk/lib/tinyusb/src/osal/osal.h \
  /mnt/f/pico-webserver/pico-sdk/lib/tinyusb/src/common/tusb_fifo.h \

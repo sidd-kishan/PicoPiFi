@@ -1,4 +1,5 @@
 #include "pico/stdlib.h"
+#include "pico/multicore.h"
 #include "pico/bootrom.h"
 #include "hardware/watchdog.h"
 #include "hardware/structs/watchdog.h"
@@ -6,11 +7,13 @@
 #include "tusb_lwip_glue.h"
 
 #define LED_PIN     25
+static int  LED_STATUS = 1;
 
 // let our webserver do some dynamic handling
 static const char *cgi_toggle_led(int iIndex, int iNumParams, char *pcParam[], char *pcValue[])
 {
-    gpio_put(LED_PIN, !gpio_get(LED_PIN));
+	LED_STATUS=!LED_STATUS;
+	cyw43_arch_gpio_put(CYW43_WL_GPIO_LED_PIN, LED_STATUS);
     return "/index.html";
 }
 
@@ -31,13 +34,18 @@ static const tCGI cgi_handlers[] = {
   }
 };
 
+void core1_entry() {
+    cyw43_arch_init_with_country(CYW43_COUNTRY_INDIA);
+    cyw43_arch_enable_sta_mode();
+	cyw43_wifi_pm(&cyw43_state, cyw43_pm_value(CYW43_NO_POWERSAVE_MODE, 20, 1, 1, 1));
+	cyw43_arch_gpio_put(CYW43_WL_GPIO_LED_PIN, LED_STATUS);
+}
 
 int main()
 {
-    // Initialize tinyusb, lwip, dhcpd and httpd
-	cyw43_arch_init_with_country(CYW43_COUNTRY_INDIA);
-    cyw43_arch_enable_sta_mode();
-	cyw43_wifi_pm(&cyw43_state, cyw43_pm_value(CYW43_NO_POWERSAVE_MODE, 20, 1, 1, 1));
+	set_sys_clock_khz(150000, true); 
+	multicore_launch_core1(core1_entry);
+	// Initialize tinyusb, lwip, dhcpd and httpd
     init_lwip();
     wait_for_netif_is_up();
     dhcpd_init();

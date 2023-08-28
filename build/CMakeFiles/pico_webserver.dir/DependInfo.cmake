@@ -42,6 +42,7 @@ set(CMAKE_TARGET_DEFINITIONS_ASM
   "LIB_PICO_MALLOC=1"
   "LIB_PICO_MEM_OPS=1"
   "LIB_PICO_MEM_OPS_PICO=1"
+  "LIB_PICO_MULTICORE=1"
   "LIB_PICO_PLATFORM=1"
   "LIB_PICO_PRINTF=1"
   "LIB_PICO_PRINTF_PICO=1"
@@ -79,7 +80,6 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
   "../"
   "../pico-sdk/lib/tinyusb/src"
   "../pico-sdk/lib/tinyusb/lib/networking"
-  "../pico-sdk/lib/lwip/contrib/apps/ping"
   "../pico-sdk/src/common/pico_stdlib/include"
   "../pico-sdk/src/rp2_common/hardware_gpio/include"
   "../pico-sdk/src/common/pico_base/include"
@@ -135,6 +135,7 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
   "../pico-sdk/src/rp2_common/pico_cyw43_driver/include"
   "pico-sdk/src/rp2_common/pico_cyw43_driver"
   "../pico-sdk/src/rp2_common/hardware_adc/include"
+  "../pico-sdk/src/rp2_common/pico_multicore/include"
   )
 
 # The set of dependency files which are needed:
@@ -296,6 +297,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/mnt/f/pico-webserver/pico-sdk/src/rp2_common/pico_float/float_math.c" "CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_float/float_math.c.obj" "gcc" "CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_float/float_math.c.obj.d"
   "/mnt/f/pico-webserver/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c" "CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.obj" "gcc" "CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.obj.d"
   "/mnt/f/pico-webserver/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c" "CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj" "gcc" "CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj.d"
+  "/mnt/f/pico-webserver/pico-sdk/src/rp2_common/pico_multicore/multicore.c" "CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj" "gcc" "CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj.d"
   "/mnt/f/pico-webserver/pico-sdk/src/rp2_common/pico_platform/platform.c" "CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_platform/platform.c.obj" "gcc" "CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_platform/platform.c.obj.d"
   "/mnt/f/pico-webserver/pico-sdk/src/rp2_common/pico_printf/printf.c" "CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_printf/printf.c.obj" "gcc" "CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_printf/printf.c.obj.d"
   "/mnt/f/pico-webserver/pico-sdk/src/rp2_common/pico_rand/rand.c" "CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_rand/rand.c.obj" "gcc" "CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_rand/rand.c.obj.d"

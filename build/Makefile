@@ -5190,6 +5190,30 @@ pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
 .PHONY : pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
 
+pico-sdk/src/rp2_common/pico_multicore/multicore.obj: pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
+.PHONY : pico-sdk/src/rp2_common/pico_multicore/multicore.obj
+
+# target to build an object file
+pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
+.PHONY : pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
+
+pico-sdk/src/rp2_common/pico_multicore/multicore.i: pico-sdk/src/rp2_common/pico_multicore/multicore.c.i
+.PHONY : pico-sdk/src/rp2_common/pico_multicore/multicore.i
+
+# target to preprocess a source file
+pico-sdk/src/rp2_common/pico_multicore/multicore.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_multicore/multicore.c.i
+.PHONY : pico-sdk/src/rp2_common/pico_multicore/multicore.c.i
+
+pico-sdk/src/rp2_common/pico_multicore/multicore.s: pico-sdk/src/rp2_common/pico_multicore/multicore.c.s
+.PHONY : pico-sdk/src/rp2_common/pico_multicore/multicore.s
+
+# target to generate assembly for a file
+pico-sdk/src/rp2_common/pico_multicore/multicore.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_multicore/multicore.c.s
+.PHONY : pico-sdk/src/rp2_common/pico_multicore/multicore.c.s
+
 pico-sdk/src/rp2_common/pico_platform/platform.obj: pico-sdk/src/rp2_common/pico_platform/platform.c.obj
 .PHONY : pico-sdk/src/rp2_common/pico_platform/platform.obj
 
@@ -6112,6 +6136,9 @@ help:
 	@echo "... pico-sdk/src/rp2_common/pico_malloc/pico_malloc.i"
 	@echo "... pico-sdk/src/rp2_common/pico_malloc/pico_malloc.s"
 	@echo "... pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.obj"
+	@echo "... pico-sdk/src/rp2_common/pico_multicore/multicore.obj"
+	@echo "... pico-sdk/src/rp2_common/pico_multicore/multicore.i"
+	@echo "... pico-sdk/src/rp2_common/pico_multicore/multicore.s"
 	@echo "... pico-sdk/src/rp2_common/pico_platform/platform.obj"
 	@echo "... pico-sdk/src/rp2_common/pico_platform/platform.i"
 	@echo "... pico-sdk/src/rp2_common/pico_platform/platform.s"
