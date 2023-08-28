@@ -1,7 +1,8 @@
 #include "lwip/apps/httpd.h"
-#include "pico/cyw43_arch.h"
 #include "lwipopts.h"
 #include "cgi.h"
+#include "cstring"
+#include "hardware/gpio.h"
 
 
 static const tCGI cgi_handlers[] = {

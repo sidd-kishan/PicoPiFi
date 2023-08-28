@@ -1,9 +1,11 @@
 #include "hardware/adc.h"
 #include "lwip/apps/httpd.h"
-#include "pico/cyw43_arch.h"
+#include "hardware/gpio.h"
+#include "lwip/def.h"
 #include "lwipopts.h"
 #include "ssi.h"
 #include "cgi.h"
+#include "cstring"
 
 
 // max length of the tags defaults to be 8 chars

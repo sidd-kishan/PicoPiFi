@@ -38,6 +38,7 @@
 #define LWIP_RAW                        1
 #define LWIP_NETCONN                    0
 #define LWIP_SOCKET                     0
+#define LWIP_NETIF_HOSTNAME             1
 #define LWIP_DHCP                       1
 #define LWIP_ICMP                       1
 #define LWIP_UDP                        1

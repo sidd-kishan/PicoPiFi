@@ -79,6 +79,7 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
   "../"
   "../pico-sdk/lib/tinyusb/src"
   "../pico-sdk/lib/tinyusb/lib/networking"
+  "../pico-sdk/lib/lwip/contrib/apps/ping"
   "../pico-sdk/src/common/pico_stdlib/include"
   "../pico-sdk/src/rp2_common/hardware_gpio/include"
   "../pico-sdk/src/common/pico_base/include"
