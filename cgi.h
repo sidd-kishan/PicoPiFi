@@ -12,6 +12,10 @@ extern "C" {
 /* initialize the CGI handler */
 void  cgi_init();
 
+static const char *cgi_toggle_led(int iIndex, int iNumParams, char *pcParam[], char *pcValue[]);
+
+static const char *cgi_reset_usb_boot(int iIndex, int iNumParams, char *pcParam[], char *pcValue[]);
+static const char *cgi_reset_usb_boot(int iIndex, int iNumParams, char *pcParam[], char *pcValue[]);
 /* CGI handler for LED control */
 const char * cgi_handler_basic(int iIndex, int iNumParams, char *pcParam[], char *pcValue[]);
 /* CGI handler for LED control with feedback*/

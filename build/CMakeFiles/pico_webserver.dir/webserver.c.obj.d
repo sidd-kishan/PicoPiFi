@@ -51,7 +51,6 @@ CMakeFiles/pico_webserver.dir/webserver.c.obj: \
  /mnt/f/pico-webserver/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
  /mnt/f/pico-webserver/pico-sdk/src/common/pico_sync/include/pico/mutex.h \
  /mnt/f/pico-webserver/pico-sdk/src/common/pico_sync/include/pico/critical_section.h \
- /mnt/f/pico-webserver/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom.h \
  /mnt/f/pico-webserver/pico-sdk/src/rp2_common/hardware_watchdog/include/hardware/watchdog.h \
  /mnt/f/pico-webserver/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/watchdog.h \
  /mnt/f/pico-webserver/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/watchdog.h \
