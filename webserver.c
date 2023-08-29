@@ -5,7 +5,9 @@
 #include "hardware/structs/watchdog.h"
 #include "pico/cyw43_arch.h"
 #include "tusb_lwip_glue.h"
-
+#include "lwipopts.h"
+#include "cgi.h"
+#include "ssi.h"
 #define LED_PIN     25
 static int  LED_STATUS = 1;
 
@@ -79,6 +81,7 @@ void core1_entry() {
     cyw43_arch_enable_sta_mode();
 	cyw43_wifi_pm(&cyw43_state, cyw43_pm_value(CYW43_NO_POWERSAVE_MODE, 20, 1, 1, 1));
 	cyw43_arch_gpio_put(CYW43_WL_GPIO_LED_PIN, LED_STATUS);
+	/*
 	char ssid[32] = "SSS_EXT"; // Global variable to store ssid
 	char key[64] = "1234567890";  // Global variable to store key
 	if(cyw43_arch_wifi_connect_timeout_ms(ssid, key, CYW43_AUTH_WPA2_AES_PSK, 10000)) {
@@ -86,6 +89,7 @@ void core1_entry() {
 			//return 1;
 		}
 	run_udp_beacon();
+	*/
 }
 
 int main()
@@ -98,7 +102,8 @@ int main()
     dhcpd_init();
     httpd_init();
     http_set_cgi_handlers(cgi_handlers, LWIP_ARRAYSIZE(cgi_handlers));
-    
+    ssi_init();
+    cgi_init();
     // For toggle_led
     gpio_init(LED_PIN);
     gpio_set_dir(LED_PIN, GPIO_OUT);

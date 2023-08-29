@@ -9269,7 +9269,10 @@ CMakeFiles/pico_webserver.dir/webserver.c.obj: ../webserver.c \
   ../pico-sdk/lib/lwip/src/include/lwip/timeouts.h \
   ../pico-sdk/lib/lwip/src/include/lwip/apps/httpd.h \
   ../pico-sdk/lib/lwip/src/include/lwip/apps/httpd_opts.h \
-  ../pico-sdk/lib/lwip/src/include/lwip/prot/iana.h
+  ../pico-sdk/lib/lwip/src/include/lwip/prot/iana.h \
+  ../lwipopts.h \
+  ../cgi.h \
+  ../ssi.h
 
 
 ../webserver.c:
