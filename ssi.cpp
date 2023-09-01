@@ -9,6 +9,7 @@
 #include "pico/cyw43_arch.h"
 
 char scan_results[93];
+
 int scan_result(void *env, const cyw43_ev_scan_result_t *result) {
 	//char result_buf[93];
     if (result) { 
@@ -37,8 +38,9 @@ const char * __not_in_flash("httpd") ssi_example_tags[] = {
     "bg1",      // 7
     "bg2",      // 8
     "bg3",      // 9
-    "bg4",       // 10
-	"wifiscan"  // 11
+    "bg4",      // 10
+	"wifiscan", // 11
+	"wifiset"   // 12
 };
 
 u16_t __time_critical_func(ssi_handler)(int iIndex, char *pcInsert, int iInsertLen)
@@ -117,15 +119,18 @@ u16_t __time_critical_func(ssi_handler)(int iIndex, char *pcInsert, int iInsertL
 						scan_in_progress = true;
 					} else {
 						//printf("Failed to start scan: %d\n", err);
-						scan_time = make_timeout_time_ms(10000); // wait 10s and scan again
+						scan_time = make_timeout_time_ms(2000); // wait 2s and scan again
 					}
 				} else if (!cyw43_wifi_scan_active(&cyw43_state)) {
-					scan_time = make_timeout_time_ms(10000); // wait 10s and scan again
+					scan_time = make_timeout_time_ms(2000); // wait 2s and scan again
 					scan_in_progress = false; 
 				}
 			}
 			printed = snprintf(pcInsert, iInsertLen, "%s", scan_results);
 		}
+			break;
+		case 12: /* wifiset */
+			printed = snprintf(pcInsert, iInsertLen, "ssid: %s key: %s enc: %d", wifi_ssid,wifi_key,wifi_enc);
 			break;
         default: /* unknown tag */
             printed = 0;

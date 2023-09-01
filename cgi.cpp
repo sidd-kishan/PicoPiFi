@@ -7,7 +7,8 @@
 #include "pico/bootrom.h"
 
 static int  LED_STATUS = 1;
-
+char wifi_ssid[32],wifi_key[32];
+int wifi_enc;
 static const tCGI cgi_handlers[] = {
     {
         /* Html request for "/leds.cgi" will start cgi_handler_basic */
@@ -18,13 +19,14 @@ static const tCGI cgi_handlers[] = {
         "/leds_ext.cgi", cgi_handler_extended
     },
 	{
-		"/toggle_led",
-		cgi_toggle_led
+		"/toggle_led", cgi_toggle_led
 	},
     {
-		"/reset_usb_boot",
-		cgi_reset_usb_boot
-    }
+		"/reset_usb_boot", cgi_reset_usb_boot
+    },
+	{
+		"/wifi_set", wifi_cred_set
+	}
 };
 
 // let our webserver do some dynamic handling
@@ -80,7 +82,26 @@ cgi_handler_basic(int iIndex, int iNumParams, char *pcParam[], char *pcValue[])
     /* Our response to the "SUBMIT" is to simply send the same page again*/
     return "/cgi.html";
 }
+const char *
+wifi_cred_set(int iIndex, int iNumParams, char *pcParam[], char *pcValue[])
+{
+    for (int i = 0; i < iNumParams; i++){
+        /* check if parameter is "led" */
+        if (strcmp(pcParam[i] , "ssid") == 0){
+            strcpy(wifi_ssid, pcValue[i]);
+        } else if(strcmp(pcParam[i] , "key") == 0){
+			strcpy(wifi_key, pcValue[i]);
+		} else if(strcmp(pcParam[i] , "enc") == 0){
+			wifi_enc=((int)pcValue[i][0])-48;
+		}
+    }
 
+    /* Our response to the "SUBMIT" is to send "/ssi_cgi.shtml".
+     * The extension ".shtml" tells the server to insert some values
+     * which show the user what has been done in response.
+     */
+    return "/wificred.shtml";
+}
 /* cgi-handler triggered by a request for "/leds_ext.cgi".
  *
  * It is almost identical to cgi_handler_basic().

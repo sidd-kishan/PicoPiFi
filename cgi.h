@@ -1,5 +1,7 @@
 #ifndef __CGI_H__
 #define __CGI_H__
+extern char wifi_ssid[32],wifi_key[32];
+extern int wifi_enc;
 #ifdef __cplusplus
 extern "C" {
 #endif
@@ -21,6 +23,8 @@ const char * cgi_handler_basic(int iIndex, int iNumParams, char *pcParam[], char
 /* CGI handler for LED control with feedback*/
 const char * cgi_handler_extended(int iIndex, int iNumParams, char *pcParam[], char *pcValue[]);
 
+const char *
+wifi_cred_set(int iIndex, int iNumParams, char *pcParam[], char *pcValue[]);
 
 /* led control and debugging info */
 void Led_On(int led);

@@ -8,7 +8,6 @@
 #include "cgi.h"
 #include "ssi.h"
 
-
 #define UDP_PORT 4444
 #define BEACON_MSG_LEN_MAX 127
 #define BEACON_TARGET "255.255.255.255"
