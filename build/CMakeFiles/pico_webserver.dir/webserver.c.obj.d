@@ -146,4 +146,5 @@ CMakeFiles/pico_webserver.dir/webserver.c.obj: \
  /mnt/f/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/apps/httpd_opts.h \
  /mnt/f/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/prot/iana.h \
  /mnt/f/pico-webserver/lwipopts.h /mnt/f/pico-webserver/cgi.h \
- /mnt/f/pico-webserver/ssi.h
+ /mnt/f/pico-webserver/ssi.h \
+ /mnt/f/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/dns.h

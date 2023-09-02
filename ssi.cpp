@@ -40,7 +40,8 @@ const char * __not_in_flash("httpd") ssi_example_tags[] = {
     "bg3",      // 9
     "bg4",      // 10
 	"wifiscan", // 11
-	"wifiset"   // 12
+	"wifiset",  // 12
+	"wifinet"   // 13 
 };
 
 u16_t __time_critical_func(ssi_handler)(int iIndex, char *pcInsert, int iInsertLen)
@@ -130,7 +131,10 @@ u16_t __time_critical_func(ssi_handler)(int iIndex, char *pcInsert, int iInsertL
 		}
 			break;
 		case 12: /* wifiset */
-			printed = snprintf(pcInsert, iInsertLen, "ssid: %s key: %s enc: %d", wifi_ssid,wifi_key,wifi_enc);
+			printed = snprintf(pcInsert, iInsertLen, "{\"ssid\":\"%s\",\"key\":\"%s\",\"enc\":\"%d\"}", wifi_ssid,wifi_key,wifi_enc);
+			break;
+		case 13: /* wifinet */
+			printed = snprintf(pcInsert, iInsertLen, "{\"ip\":\"%s\",\"netmask\":\"%s\",\"gw\":\"%s\"}", wifi_conn_detail[0],wifi_conn_detail[1],wifi_conn_detail[2]);
 			break;
         default: /* unknown tag */
             printed = 0;

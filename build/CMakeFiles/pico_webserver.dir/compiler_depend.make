@@ -9347,7 +9347,8 @@ CMakeFiles/pico_webserver.dir/webserver.c.obj: ../webserver.c \
   ../pico-sdk/lib/lwip/src/include/lwip/prot/iana.h \
   ../lwipopts.h \
   ../cgi.h \
-  ../ssi.h
+  ../ssi.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/dns.h
 
 
 ../webserver.c:

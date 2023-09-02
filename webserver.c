@@ -7,7 +7,10 @@
 #include "lwipopts.h"
 #include "cgi.h"
 #include "ssi.h"
+#include "lwip/dns.h"
 
+
+char wifi_conn_detail[3][16];
 #define UDP_PORT 4444
 #define BEACON_MSG_LEN_MAX 127
 #define BEACON_TARGET "255.255.255.255"
@@ -54,20 +57,21 @@ void core1_entry() {
     cyw43_arch_enable_sta_mode();
 	cyw43_wifi_pm(&cyw43_state, cyw43_pm_value(CYW43_NO_POWERSAVE_MODE, 20, 1, 1, 1));
 	cyw43_arch_gpio_put(CYW43_WL_GPIO_LED_PIN, 1);
-	/*
+	
 	char ssid[32] = "SSS_EXT"; // Global variable to store ssid
 	char key[64] = "1234567890";  // Global variable to store key
-	if(cyw43_arch_wifi_connect_timeout_ms(ssid, key, CYW43_AUTH_WPA2_AES_PSK, 10000)) {
-			//printf("failed to connect.\n");
-			//return 1;
-		}
-	run_udp_beacon();
-	*/
+	while(cyw43_arch_wifi_connect_timeout_ms(ssid, key, CYW43_AUTH_WPA2_AES_PSK, 10000));
+	ip_addr_t ip = cyw43_state.netif[0].ip_addr;
+	// Following strings are the components of ifcongig[]
+	strcpy(wifi_conn_detail[0],ip4addr_ntoa(&ip));
+	strcpy(wifi_conn_detail[1],ip4addr_ntoa(&cyw43_state.netif[0].netmask));
+	strcpy(wifi_conn_detail[2],ip4addr_ntoa((ip_addr_t*)&cyw43_state.netif[0].gw.addr));
+	//run_udp_beacon();
 }
 
 int main()
 {
-	set_sys_clock_khz(170000, true); 
+	set_sys_clock_khz(200000, true); 
 	multicore_launch_core1(core1_entry);
 	// Initialize tinyusb, lwip, dhcpd and httpd
     init_lwip();
