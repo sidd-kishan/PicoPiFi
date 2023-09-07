@@ -120,10 +120,10 @@ u16_t __time_critical_func(ssi_handler)(int iIndex, char *pcInsert, int iInsertL
 						scan_in_progress = true;
 					} else {
 						//printf("Failed to start scan: %d\n", err);
-						scan_time = make_timeout_time_ms(2000); // wait 2s and scan again
+						scan_time = make_timeout_time_ms(10000); // wait 2s and scan again
 					}
 				} else if (!cyw43_wifi_scan_active(&cyw43_state)) {
-					scan_time = make_timeout_time_ms(2000); // wait 2s and scan again
+					scan_time = make_timeout_time_ms(10000); // wait 2s and scan again
 					scan_in_progress = false; 
 				}
 			}
