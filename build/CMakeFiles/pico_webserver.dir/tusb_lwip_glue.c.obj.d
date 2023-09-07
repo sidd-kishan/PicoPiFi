@@ -112,4 +112,25 @@ CMakeFiles/pico_webserver.dir/tusb_lwip_glue.c.obj: \
  /mnt/f/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/apps/httpd.h \
  /mnt/f/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/apps/httpd_opts.h \
  /mnt/f/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/prot/iana.h \
+ /mnt/f/pico-webserver/pico-sdk/src/common/pico_util/include/pico/util/queue.h \
+ /mnt/f/pico-webserver/pico-sdk/lib/tinyusb/hw/bsp/board.h \
+ /mnt/f/pico-webserver/pico-sdk/lib/tinyusb/hw/bsp/ansi_escape.h \
+ /mnt/f/pico-webserver/pico-sdk/src/rp2_common/pico_cyw43_arch/include/pico/cyw43_arch.h \
+ /mnt/f/pico-webserver/pico-sdk/lib/cyw43-driver/src/cyw43.h \
+ /mnt/f/pico-webserver/pico-sdk/lib/cyw43-driver/src/cyw43_config.h \
+ /mnt/f/pico-webserver/pico-sdk/src/rp2_common/pico_cyw43_driver/include/cyw43_configport.h \
+ /mnt/f/pico-webserver/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h \
+ /mnt/f/pico-webserver/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/sio.h \
+ /mnt/f/pico-webserver/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/interp.h \
+ /mnt/f/pico-webserver/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/padsbank0.h \
+ /mnt/f/pico-webserver/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pads_bank0.h \
+ /mnt/f/pico-webserver/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/iobank0.h \
+ /mnt/f/pico-webserver/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/io_bank0.h \
+ /mnt/f/pico-webserver/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h \
+ /mnt/f/pico-webserver/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
+ /mnt/f/pico-webserver/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h \
+ /mnt/f/pico-webserver/pico-sdk/lib/cyw43-driver/src/cyw43_ll.h \
+ /mnt/f/pico-webserver/pico-sdk/lib/cyw43-driver/src/cyw43_country.h \
+ /mnt/f/pico-webserver/pico-sdk/src/rp2_common/pico_async_context/include/pico/async_context.h \
+ /mnt/f/pico-webserver/pico-sdk/src/rp2_common/pico_cyw43_arch/include/pico/cyw43_arch/arch_threadsafe_background.h \
  /mnt/f/pico-webserver/pico-sdk/src/rp2_common/pico_unique_id/include/pico/unique_id.h

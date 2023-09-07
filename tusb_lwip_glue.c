@@ -35,6 +35,7 @@ static struct netif netif_data;
 /* shared between tud_network_recv_cb() and service_traffic() */
 static struct pbuf *received_frame;
 
+static uint8_t macaddr[6];
 /* this is used by this code, ./class/net/net_driver.c, and usb_descriptors.c */
 /* ideally speaking, this should be generated from the hardware's unique ID (if available) */
 /* it is suggested that the first byte is 0x02 to indicate a link-local address */
@@ -119,11 +120,12 @@ void init_lwip(void)
     
     /* Initialize lwip */
     lwip_init();
+	cyw43_hal_get_mac(0, macaddr);
     
     /* the lwip virtual MAC address must be different from the host's; to ensure this, we toggle the LSbit */
-    netif->hwaddr_len = sizeof(tud_network_mac_address);
-    memcpy(netif->hwaddr, tud_network_mac_address, sizeof(tud_network_mac_address));
-    netif->hwaddr[5] ^= 0x01;
+    netif->hwaddr_len = sizeof(macaddr);
+    memcpy(netif->hwaddr, macaddr, sizeof(macaddr));
+    //netif->hwaddr[5] ^= 0x01;
     
     netif = netif_add(netif, &ipaddr, &netmask, &gateway, NULL, netif_init_cb, ip_input);
     netif_set_default(netif);
@@ -148,6 +150,7 @@ bool tud_network_recv_cb(const uint8_t *src, uint16_t size)
     if (size)
     {
         struct pbuf *p = pbuf_alloc(PBUF_RAW, size, PBUF_POOL);
+		static pkt_s out_pkt;
 
         if (p)
         {
@@ -204,4 +207,20 @@ void dhcpd_init()
 void wait_for_netif_is_up()
 {
     while (!netif_is_up(&netif_data));    
+}
+
+/* lwip has provision for using a mutex, when applicable */
+sys_prot_t sys_arch_protect(void)
+{
+  return 0;
+}
+void sys_arch_unprotect(sys_prot_t pval)
+{
+  (void)pval;
+}
+
+/* lwip needs a millisecond time source, and the TinyUSB board support code has one available */
+uint32_t sys_now(void)
+{
+  return board_millis();
 }

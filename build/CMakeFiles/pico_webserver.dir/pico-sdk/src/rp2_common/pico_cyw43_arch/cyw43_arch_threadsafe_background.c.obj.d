@@ -53,47 +53,9 @@ CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch
  /usr/include/newlib/sys/timespec.h /usr/include/newlib/sys/_timespec.h \
  /usr/include/newlib/sys/_pthreadtypes.h /usr/include/newlib/sys/sched.h \
  /usr/include/newlib/machine/types.h /usr/include/newlib/sys/stdio.h \
- /mnt/f/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/netif.h \
- /mnt/f/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/opt.h \
- /mnt/f/pico-webserver/lwipopts.h \
- /mnt/f/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/debug.h \
- /mnt/f/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/arch.h \
- /mnt/f/pico-webserver/arch/cc.h /usr/include/newlib/stdlib.h \
- /usr/include/newlib/machine/stdlib.h /usr/include/newlib/alloca.h \
- /usr/include/newlib/inttypes.h /usr/include/newlib/sys/_intsup.h \
- /usr/include/newlib/sys/_locale.h \
- /usr/lib/gcc/arm-none-eabi/10.3.1/include-fixed/limits.h \
- /usr/include/newlib/ctype.h \
- /mnt/f/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/err.h \
- /mnt/f/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/ip_addr.h \
- /mnt/f/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/def.h \
- /mnt/f/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/ip4_addr.h \
- /mnt/f/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/ip6_addr.h \
- /mnt/f/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/def.h \
- /mnt/f/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/pbuf.h \
- /mnt/f/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/stats.h \
- /mnt/f/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/mem.h \
- /mnt/f/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/memp.h \
- /mnt/f/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/priv/memp_std.h \
- /mnt/f/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/priv/memp_priv.h \
- /mnt/f/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/priv/mem_priv.h \
- /mnt/f/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/dhcp.h \
- /mnt/f/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/udp.h \
- /mnt/f/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/ip.h \
- /mnt/f/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/ip4.h \
- /mnt/f/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/prot/ip4.h \
- /mnt/f/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/ip6.h \
- /mnt/f/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/prot/ip.h \
- /mnt/f/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/prot/udp.h \
- /mnt/f/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/acd.h \
- /mnt/f/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/etharp.h \
- /mnt/f/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/prot/ethernet.h \
- /mnt/f/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/prot/ieee.h \
- /mnt/f/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/prot/etharp.h \
- /mnt/f/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/prot/acd.h \
  /mnt/f/pico-webserver/pico-sdk/lib/cyw43-driver/src/cyw43_ll.h \
- /usr/include/newlib/string.h /usr/include/newlib/strings.h \
- /usr/include/newlib/sys/string.h \
+ /usr/include/newlib/string.h /usr/include/newlib/sys/_locale.h \
+ /usr/include/newlib/strings.h /usr/include/newlib/sys/string.h \
  /mnt/f/pico-webserver/pico-sdk/lib/cyw43-driver/src/cyw43_country.h \
  /mnt/f/pico-webserver/pico-sdk/src/rp2_common/pico_async_context/include/pico/async_context.h \
  /mnt/f/pico-webserver/pico-sdk/src/rp2_common/pico_cyw43_arch/include/pico/cyw43_arch/arch_threadsafe_background.h \
@@ -102,5 +64,4 @@ CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch
  /mnt/f/pico-webserver/pico-sdk/src/common/pico_sync/include/pico/sem.h \
  /mnt/f/pico-webserver/pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
  /mnt/f/pico-webserver/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
- /mnt/f/pico-webserver/pico-sdk/src/common/pico_sync/include/pico/mutex.h \
- /mnt/f/pico-webserver/pico-sdk/src/rp2_common/pico_lwip/include/pico/lwip_nosys.h
+ /mnt/f/pico-webserver/pico-sdk/src/common/pico_sync/include/pico/mutex.h

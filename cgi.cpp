@@ -156,7 +156,7 @@ cgi_handler_extended(int iIndex, int iNumParams, char *pcParam[], char *pcValue[
 void
 cgi_init(void)
 {
-    http_set_cgi_handlers(cgi_handlers, LWIP_ARRAYSIZE(cgi_handlers));
+    http_set_cgi_handlers(cgi_handlers, CYW43_ARRAY_SIZE(cgi_handlers));
 
     for(int i = LED1; i <= LED4; i++){
         gpio_init(i);
