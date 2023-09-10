@@ -11,20 +11,13 @@
 #include "lwip/init.h"
 #include "lwip/timeouts.h"
 #include "lwip/apps/httpd.h"
-#include "pico/util/queue.h"
 #include "bsp/board.h"
 #include "pico/cyw43_arch.h"
 
-#define QSIZE 16
-static queue_t qinbound; /* eth -> usb */
-static queue_t qoutbound; /* usb -> eth */
-
 #define MTU 1600
 
-typedef struct {
-    size_t len;
-    uint8_t payload[MTU];
-} pkt_s;
+static struct pbuf *received_frame;
+static volatile bool link_up;
 
 void init_lwip();
 void wait_for_netif_is_up();

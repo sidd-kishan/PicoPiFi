@@ -35,7 +35,7 @@ static struct netif netif_data;
 /* shared between tud_network_recv_cb() and service_traffic() */
 static struct pbuf *received_frame;
 
-static uint8_t macaddr[6];
+//static uint8_t macaddr[6];
 /* this is used by this code, ./class/net/net_driver.c, and usb_descriptors.c */
 /* ideally speaking, this should be generated from the hardware's unique ID (if available) */
 /* it is suggested that the first byte is 0x02 to indicate a link-local address */
@@ -74,7 +74,12 @@ static err_t linkoutput_fn(struct netif *netif, struct pbuf *p)
       /* if TinyUSB isn't ready, we must signal back to lwip that there is nothing we can do */
       if (!tud_ready())
         return ERR_USE;
-    
+	
+	  if (link_up){
+		cyw43_t *self = netif->state;
+		int itf = netif->name[1] - '0';
+		int ret = cyw43_send_ethernet(self, itf, p->tot_len, (void *)p, true);
+	  }
       /* if the network driver can accept another packet, we make it happen */
       if (tud_network_can_xmit(p->tot_len))
       {
@@ -95,7 +100,7 @@ static err_t output_fn(struct netif *netif, struct pbuf *p, const ip_addr_t *add
 static err_t netif_init_cb(struct netif *netif)
 {
     LWIP_ASSERT("netif != NULL", (netif != NULL));
-    netif->mtu = 1600;//CFG_TUD_NET_MTU;
+    netif->mtu = MTU;//CFG_TUD_NET_MTU;
     netif->flags = NETIF_FLAG_BROADCAST | NETIF_FLAG_ETHARP | NETIF_FLAG_LINK_UP | NETIF_FLAG_UP;
     netif->state = NULL;
     netif->name[0] = 'E';
@@ -120,12 +125,12 @@ void init_lwip(void)
     
     /* Initialize lwip */
     lwip_init();
-	cyw43_hal_get_mac(0, macaddr);
+	//cyw43_hal_get_mac(0, macaddr);
     
     /* the lwip virtual MAC address must be different from the host's; to ensure this, we toggle the LSbit */
-    netif->hwaddr_len = sizeof(macaddr);
-    memcpy(netif->hwaddr, macaddr, sizeof(macaddr));
-    //netif->hwaddr[5] ^= 0x01;
+    netif->hwaddr_len = sizeof(tud_network_mac_address);
+    memcpy(netif->hwaddr, tud_network_mac_address, sizeof(tud_network_mac_address));
+    netif->hwaddr[5] ^= 0x01;
     
     netif = netif_add(netif, &ipaddr, &netmask, &gateway, NULL, netif_init_cb, ip_input);
     netif_set_default(netif);
@@ -150,8 +155,7 @@ bool tud_network_recv_cb(const uint8_t *src, uint16_t size)
     if (size)
     {
         struct pbuf *p = pbuf_alloc(PBUF_RAW, size, PBUF_POOL);
-		static pkt_s out_pkt;
-
+		
         if (p)
         {
             /* pbuf_alloc() has already initialized struct; all we need to do is copy the data */
