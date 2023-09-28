@@ -1,4 +1,4 @@
-# Install script for directory: /mnt/f/pico-webserver/pico-sdk/src/rp2_common/hardware_uart
+# Install script for directory: /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/src/rp2_common/hardware_uart
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

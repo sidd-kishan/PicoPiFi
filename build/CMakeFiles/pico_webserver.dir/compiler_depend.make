@@ -40,9 +40,9 @@ CMakeFiles/pico_webserver.dir/cgi.cpp.obj: ../cgi.cpp \
   /usr/include/newlib/sys/stdio.h \
   /usr/include/newlib/c++/10.3.1/stdlib.h \
   /usr/include/newlib/c++/10.3.1/cstdlib \
-  /usr/include/newlib/c++/10.3.1/arm-none-eabi/bits/c++config.h \
-  /usr/include/newlib/c++/10.3.1/arm-none-eabi/bits/os_defines.h \
-  /usr/include/newlib/c++/10.3.1/arm-none-eabi/bits/cpu_defines.h \
+  /usr/include/newlib/c++/10.3.1/arm-none-eabi/thumb/v6-m/nofp/bits/c++config.h \
+  /usr/include/newlib/c++/10.3.1/arm-none-eabi/thumb/v6-m/nofp/bits/os_defines.h \
+  /usr/include/newlib/c++/10.3.1/arm-none-eabi/thumb/v6-m/nofp/bits/cpu_defines.h \
   /usr/include/newlib/stdlib.h \
   /usr/include/newlib/machine/stdlib.h \
   /usr/include/newlib/alloca.h \
@@ -8259,9 +8259,9 @@ CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_standard_link/binary_
 
 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj: ../pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp \
   /usr/include/newlib/c++/10.3.1/cstdlib \
-  /usr/include/newlib/c++/10.3.1/arm-none-eabi/bits/c++config.h \
-  /usr/include/newlib/c++/10.3.1/arm-none-eabi/bits/os_defines.h \
-  /usr/include/newlib/c++/10.3.1/arm-none-eabi/bits/cpu_defines.h \
+  /usr/include/newlib/c++/10.3.1/arm-none-eabi/thumb/v6-m/nofp/bits/c++config.h \
+  /usr/include/newlib/c++/10.3.1/arm-none-eabi/thumb/v6-m/nofp/bits/os_defines.h \
+  /usr/include/newlib/c++/10.3.1/arm-none-eabi/thumb/v6-m/nofp/bits/cpu_defines.h \
   /usr/include/newlib/c++/10.3.1/stdlib.h \
   /usr/include/newlib/stdlib.h \
   /usr/include/newlib/machine/ieeefp.h \
@@ -8462,9 +8462,9 @@ CMakeFiles/pico_webserver.dir/ssi.cpp.obj: ../ssi.cpp \
   ../pico-sdk/src/common/pico_base/include/pico/assert.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
   /usr/include/newlib/c++/10.3.1/cassert \
-  /usr/include/newlib/c++/10.3.1/arm-none-eabi/bits/c++config.h \
-  /usr/include/newlib/c++/10.3.1/arm-none-eabi/bits/os_defines.h \
-  /usr/include/newlib/c++/10.3.1/arm-none-eabi/bits/cpu_defines.h \
+  /usr/include/newlib/c++/10.3.1/arm-none-eabi/thumb/v6-m/nofp/bits/c++config.h \
+  /usr/include/newlib/c++/10.3.1/arm-none-eabi/thumb/v6-m/nofp/bits/os_defines.h \
+  /usr/include/newlib/c++/10.3.1/arm-none-eabi/thumb/v6-m/nofp/bits/cpu_defines.h \
   /usr/include/newlib/assert.h \
   /usr/include/newlib/_ansi.h \
   /usr/include/newlib/newlib.h \
@@ -9033,8 +9033,6 @@ CMakeFiles/pico_webserver.dir/webserver.c.obj: ../webserver.c \
 
 ../pico-sdk/src/rp2_common/pico_bootrom/bootrom.c:
 
-../pico-sdk/src/rp2_common/pico_async_context/include/pico/async_context_threadsafe_background.h:
-
 ../pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c:
 
 ../pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c:
@@ -9052,6 +9050,8 @@ CMakeFiles/pico_webserver.dir/webserver.c.obj: ../webserver.c \
 ../pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pio.h:
 
 ../pico-sdk/src/rp2_common/hardware_pio/include/hardware/pio.h:
+
+../pico-sdk/src/rp2_common/hardware_pio/pio.c:
 
 /usr/include/newlib/machine/_time.h:
 
@@ -9405,14 +9405,6 @@ generated/pico_base/pico/version.h:
 
 /usr/include/newlib/sys/select.h:
 
-/usr/include/newlib/c++/10.3.1/arm-none-eabi/bits/c++config.h:
-
-/usr/include/newlib/sys/reent.h:
-
-/usr/include/newlib/alloca.h:
-
-../pico-sdk/lib/lwip/src/include/lwip/raw.h:
-
 ../pico-sdk/lib/lwip/src/core/ipv4/acd.c:
 
 ../pico-sdk/lib/lwip/src/include/lwip/err.h:
@@ -9467,6 +9459,8 @@ generated/pico_base/pico/version.h:
 
 ../pico-sdk/lib/lwip/src/include/lwip/ip4.h:
 
+/usr/include/newlib/c++/10.3.1/arm-none-eabi/thumb/v6-m/nofp/bits/c++config.h:
+
 ../pico-sdk/lib/tinyusb/src/common/tusb_private.h:
 
 ../pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h:
@@ -9482,10 +9476,6 @@ generated/pico_base/pico/version.h:
 /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h:
 
 ../pico-sdk/lib/lwip/src/include/lwip/apps/httpd.h:
-
-../pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/interp.h:
-
-../pico-sdk/lib/lwip/src/include/netif/ppp/ppp_impl.h:
 
 ../pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c:
 
@@ -9511,11 +9501,21 @@ generated/pico_base/pico/version.h:
 
 /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h:
 
+/usr/include/newlib/sys/reent.h:
+
+/usr/include/newlib/alloca.h:
+
+../pico-sdk/lib/lwip/src/include/lwip/raw.h:
+
 ../pico-sdk/src/common/pico_base/include/pico/assert.h:
 
 ../pico-sdk/lib/lwip/src/include/lwip/dns.h:
 
 ../pico-sdk/lib/lwip/src/apps/http/httpd_structs.h:
+
+../pico-sdk/src/rp2_common/pico_async_context/include/pico/async_context_threadsafe_background.h:
+
+/usr/include/newlib/c++/10.3.1/arm-none-eabi/thumb/v6-m/nofp/bits/os_defines.h:
 
 ../pico-sdk/lib/cyw43-driver/firmware/wifi_nvram_43439.h:
 
@@ -9524,6 +9524,8 @@ generated/pico_base/pico/version.h:
 ../pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/sio.h:
 
 /usr/include/newlib/sys/_timespec.h:
+
+/usr/include/newlib/c++/10.3.1/arm-none-eabi/thumb/v6-m/nofp/bits/cpu_defines.h:
 
 ../pico-sdk/lib/lwip/src/netif/ppp/vj.c:
 
@@ -9554,8 +9556,6 @@ generated/pico_base/pico/version.h:
 /usr/include/newlib/sys/sched.h:
 
 /usr/include/newlib/sys/stdio.h:
-
-/usr/include/newlib/c++/10.3.1/arm-none-eabi/bits/os_defines.h:
 
 ../pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h:
 
@@ -9591,9 +9591,13 @@ pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.pio.h:
 
 ../pico-sdk/lib/lwip/src/netif/bridgeif.c:
 
-../pico-sdk/src/rp2_common/hardware_pio/pio.c:
+../pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/interp.h:
 
-/usr/include/newlib/c++/10.3.1/arm-none-eabi/bits/cpu_defines.h:
+../pico-sdk/lib/lwip/src/include/netif/ppp/ppp_impl.h:
+
+../pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c:
+
+/usr/include/newlib/inttypes.h:
 
 /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h:
 
@@ -9614,10 +9618,6 @@ generated/pico_base/pico/config_autogen.h:
 /usr/include/newlib/machine/_default_types.h:
 
 /usr/include/newlib/c++/10.3.1/bits/std_abs.h:
-
-../pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c:
-
-/usr/include/newlib/inttypes.h:
 
 /usr/include/newlib/sys/_locale.h:
 

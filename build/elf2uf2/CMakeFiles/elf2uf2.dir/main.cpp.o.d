@@ -1,5 +1,5 @@
 CMakeFiles/elf2uf2.dir/main.cpp.o: \
- /mnt/f/pico-webserver/pico-sdk/tools/elf2uf2/main.cpp \
+ /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/tools/elf2uf2/main.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/11/cstdio \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -107,8 +107,8 @@ CMakeFiles/elf2uf2.dir/main.cpp.o: \
  /usr/include/c++/11/bits/stl_heap.h \
  /usr/include/c++/11/bits/stl_tempbuf.h \
  /usr/include/c++/11/bits/uniform_int_dist.h \
- /mnt/f/pico-webserver/pico-sdk/src/common/boot_uf2/include/boot/uf2.h \
+ /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/src/common/boot_uf2/include/boot/uf2.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h /usr/include/assert.h \
- /mnt/f/pico-webserver/pico-sdk/tools/elf2uf2/elf.h
+ /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/tools/elf2uf2/elf.h

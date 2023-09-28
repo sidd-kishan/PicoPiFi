@@ -1,4 +1,4 @@
-# Install script for directory: /mnt/f/pico-webserver/pico-sdk
+# Install script for directory: /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,9 +39,9 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/mnt/f/pico-webserver/build/pico-sdk/tools/cmake_install.cmake")
-  include("/mnt/f/pico-webserver/build/pico-sdk/src/cmake_install.cmake")
-  include("/mnt/f/pico-webserver/build/pico-sdk/docs/cmake_install.cmake")
+  include("/mnt/c/Users/Aayush/Desktop/pico-webserver/build/pico-sdk/tools/cmake_install.cmake")
+  include("/mnt/c/Users/Aayush/Desktop/pico-webserver/build/pico-sdk/src/cmake_install.cmake")
+  include("/mnt/c/Users/Aayush/Desktop/pico-webserver/build/pico-sdk/docs/cmake_install.cmake")
 
 endif()
 

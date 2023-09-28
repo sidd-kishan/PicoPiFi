@@ -1,4 +1,4 @@
-# Install script for directory: /mnt/f/pico-webserver/pico-sdk/src/rp2_common/hardware_flash
+# Install script for directory: /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/src/rp2_common/hardware_flash
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

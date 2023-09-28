@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/f/pico-webserver
+CMAKE_SOURCE_DIR = /mnt/c/Users/Aayush/Desktop/pico-webserver
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/f/pico-webserver/build
+CMAKE_BINARY_DIR = /mnt/c/Users/Aayush/Desktop/pico-webserver/build
 
 # Include any dependencies generated for this target.
 include pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default.dir/depend.make
@@ -71,16 +71,16 @@ include pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default.dir/flags.mak
 
 pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default.dir/compile_time_choice.S.obj: pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default.dir/flags.make
 pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default.dir/compile_time_choice.S.obj: ../pico-sdk/src/rp2_common/boot_stage2/compile_time_choice.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/f/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building ASM object pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default.dir/compile_time_choice.S.obj"
-	cd /mnt/f/pico-webserver/build/pico-sdk/src/rp2_common/boot_stage2 && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/bs2_default.dir/compile_time_choice.S.obj   -c /mnt/f/pico-webserver/pico-sdk/src/rp2_common/boot_stage2/compile_time_choice.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building ASM object pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default.dir/compile_time_choice.S.obj"
+	cd /mnt/c/Users/Aayush/Desktop/pico-webserver/build/pico-sdk/src/rp2_common/boot_stage2 && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/bs2_default.dir/compile_time_choice.S.obj   -c /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/src/rp2_common/boot_stage2/compile_time_choice.S
 
 pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default.dir/compile_time_choice.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/bs2_default.dir/compile_time_choice.S.i"
-	cd /mnt/f/pico-webserver/build/pico-sdk/src/rp2_common/boot_stage2 && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /mnt/f/pico-webserver/pico-sdk/src/rp2_common/boot_stage2/compile_time_choice.S > CMakeFiles/bs2_default.dir/compile_time_choice.S.i
+	cd /mnt/c/Users/Aayush/Desktop/pico-webserver/build/pico-sdk/src/rp2_common/boot_stage2 && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/src/rp2_common/boot_stage2/compile_time_choice.S > CMakeFiles/bs2_default.dir/compile_time_choice.S.i
 
 pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default.dir/compile_time_choice.S.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/bs2_default.dir/compile_time_choice.S.s"
-	cd /mnt/f/pico-webserver/build/pico-sdk/src/rp2_common/boot_stage2 && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /mnt/f/pico-webserver/pico-sdk/src/rp2_common/boot_stage2/compile_time_choice.S -o CMakeFiles/bs2_default.dir/compile_time_choice.S.s
+	cd /mnt/c/Users/Aayush/Desktop/pico-webserver/build/pico-sdk/src/rp2_common/boot_stage2 && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/src/rp2_common/boot_stage2/compile_time_choice.S -o CMakeFiles/bs2_default.dir/compile_time_choice.S.s
 
 # Object files for target bs2_default
 bs2_default_OBJECTS = \
@@ -93,20 +93,20 @@ pico-sdk/src/rp2_common/boot_stage2/bs2_default.elf: pico-sdk/src/rp2_common/boo
 pico-sdk/src/rp2_common/boot_stage2/bs2_default.elf: pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default.dir/build.make
 pico-sdk/src/rp2_common/boot_stage2/bs2_default.elf: ../pico-sdk/src/rp2_common/boot_stage2/boot_stage2.ld
 pico-sdk/src/rp2_common/boot_stage2/bs2_default.elf: pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/f/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking ASM executable bs2_default.elf"
-	cd /mnt/f/pico-webserver/build/pico-sdk/src/rp2_common/boot_stage2 && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/bs2_default.dir/link.txt --verbose=$(VERBOSE)
-	cd /mnt/f/pico-webserver/build/pico-sdk/src/rp2_common/boot_stage2 && /usr/bin/arm-none-eabi-objdump -h /mnt/f/pico-webserver/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default.elf > bs2_default.dis
-	cd /mnt/f/pico-webserver/build/pico-sdk/src/rp2_common/boot_stage2 && /usr/bin/arm-none-eabi-objdump -d /mnt/f/pico-webserver/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default.elf >> bs2_default.dis
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking ASM executable bs2_default.elf"
+	cd /mnt/c/Users/Aayush/Desktop/pico-webserver/build/pico-sdk/src/rp2_common/boot_stage2 && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/bs2_default.dir/link.txt --verbose=$(VERBOSE)
+	cd /mnt/c/Users/Aayush/Desktop/pico-webserver/build/pico-sdk/src/rp2_common/boot_stage2 && /usr/bin/arm-none-eabi-objdump -h /mnt/c/Users/Aayush/Desktop/pico-webserver/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default.elf > bs2_default.dis
+	cd /mnt/c/Users/Aayush/Desktop/pico-webserver/build/pico-sdk/src/rp2_common/boot_stage2 && /usr/bin/arm-none-eabi-objdump -d /mnt/c/Users/Aayush/Desktop/pico-webserver/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default.elf >> bs2_default.dis
 
 # Rule to build all files generated by this target.
 pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default.dir/build: pico-sdk/src/rp2_common/boot_stage2/bs2_default.elf
 .PHONY : pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default.dir/build
 
 pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default.dir/clean:
-	cd /mnt/f/pico-webserver/build/pico-sdk/src/rp2_common/boot_stage2 && $(CMAKE_COMMAND) -P CMakeFiles/bs2_default.dir/cmake_clean.cmake
+	cd /mnt/c/Users/Aayush/Desktop/pico-webserver/build/pico-sdk/src/rp2_common/boot_stage2 && $(CMAKE_COMMAND) -P CMakeFiles/bs2_default.dir/cmake_clean.cmake
 .PHONY : pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default.dir/clean
 
 pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default.dir/depend:
-	cd /mnt/f/pico-webserver/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/f/pico-webserver /mnt/f/pico-webserver/pico-sdk/src/rp2_common/boot_stage2 /mnt/f/pico-webserver/build /mnt/f/pico-webserver/build/pico-sdk/src/rp2_common/boot_stage2 /mnt/f/pico-webserver/build/pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default.dir/DependInfo.cmake --color=$(COLOR)
+	cd /mnt/c/Users/Aayush/Desktop/pico-webserver/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/c/Users/Aayush/Desktop/pico-webserver /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/src/rp2_common/boot_stage2 /mnt/c/Users/Aayush/Desktop/pico-webserver/build /mnt/c/Users/Aayush/Desktop/pico-webserver/build/pico-sdk/src/rp2_common/boot_stage2 /mnt/c/Users/Aayush/Desktop/pico-webserver/build/pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default.dir/depend
 

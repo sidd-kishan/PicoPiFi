@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/f/pico-webserver
+CMAKE_SOURCE_DIR = /mnt/c/Users/Aayush/Desktop/pico-webserver
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/f/pico-webserver/build
+CMAKE_BINARY_DIR = /mnt/c/Users/Aayush/Desktop/pico-webserver/build
 
 # Utility rule file for ELF2UF2Build.
 
@@ -76,51 +76,51 @@ CMakeFiles/ELF2UF2Build-complete: elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-pa
 CMakeFiles/ELF2UF2Build-complete: elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-configure
 CMakeFiles/ELF2UF2Build-complete: elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-build
 CMakeFiles/ELF2UF2Build-complete: elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-install
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/mnt/f/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Completed 'ELF2UF2Build'"
-	/usr/bin/cmake -E make_directory /mnt/f/pico-webserver/build/CMakeFiles
-	/usr/bin/cmake -E touch /mnt/f/pico-webserver/build/CMakeFiles/ELF2UF2Build-complete
-	/usr/bin/cmake -E touch /mnt/f/pico-webserver/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-done
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Completed 'ELF2UF2Build'"
+	/usr/bin/cmake -E make_directory /mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles
+	/usr/bin/cmake -E touch /mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles/ELF2UF2Build-complete
+	/usr/bin/cmake -E touch /mnt/c/Users/Aayush/Desktop/pico-webserver/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-done
 
 elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-build: elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-configure
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/mnt/f/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Performing build step for 'ELF2UF2Build'"
-	cd /mnt/f/pico-webserver/build/elf2uf2 && $(MAKE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Performing build step for 'ELF2UF2Build'"
+	cd /mnt/c/Users/Aayush/Desktop/pico-webserver/build/elf2uf2 && $(MAKE)
 
 elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-configure: elf2uf2/tmp/ELF2UF2Build-cfgcmd.txt
 elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-configure: elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-patch
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/mnt/f/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Performing configure step for 'ELF2UF2Build'"
-	cd /mnt/f/pico-webserver/build/elf2uf2 && /usr/bin/cmake -DCMAKE_MAKE_PROGRAM:FILEPATH=/usr/bin/gmake "-GUnix Makefiles" /mnt/f/pico-webserver/pico-sdk/tools/elf2uf2
-	cd /mnt/f/pico-webserver/build/elf2uf2 && /usr/bin/cmake -E touch /mnt/f/pico-webserver/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-configure
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Performing configure step for 'ELF2UF2Build'"
+	cd /mnt/c/Users/Aayush/Desktop/pico-webserver/build/elf2uf2 && /usr/bin/cmake -DCMAKE_MAKE_PROGRAM:FILEPATH=/usr/bin/gmake "-GUnix Makefiles" /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/tools/elf2uf2
+	cd /mnt/c/Users/Aayush/Desktop/pico-webserver/build/elf2uf2 && /usr/bin/cmake -E touch /mnt/c/Users/Aayush/Desktop/pico-webserver/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-configure
 
 elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-download: elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-mkdir
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/mnt/f/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "No download step for 'ELF2UF2Build'"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "No download step for 'ELF2UF2Build'"
 	/usr/bin/cmake -E echo_append
-	/usr/bin/cmake -E touch /mnt/f/pico-webserver/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-download
+	/usr/bin/cmake -E touch /mnt/c/Users/Aayush/Desktop/pico-webserver/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-download
 
 elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-install: elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/mnt/f/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "No install step for 'ELF2UF2Build'"
-	cd /mnt/f/pico-webserver/build/elf2uf2 && /usr/bin/cmake -E echo_append
-	cd /mnt/f/pico-webserver/build/elf2uf2 && /usr/bin/cmake -E touch /mnt/f/pico-webserver/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-install
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "No install step for 'ELF2UF2Build'"
+	cd /mnt/c/Users/Aayush/Desktop/pico-webserver/build/elf2uf2 && /usr/bin/cmake -E echo_append
+	cd /mnt/c/Users/Aayush/Desktop/pico-webserver/build/elf2uf2 && /usr/bin/cmake -E touch /mnt/c/Users/Aayush/Desktop/pico-webserver/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-install
 
 elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-mkdir:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/mnt/f/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Creating directories for 'ELF2UF2Build'"
-	/usr/bin/cmake -E make_directory /mnt/f/pico-webserver/pico-sdk/tools/elf2uf2
-	/usr/bin/cmake -E make_directory /mnt/f/pico-webserver/build/elf2uf2
-	/usr/bin/cmake -E make_directory /mnt/f/pico-webserver/build/elf2uf2
-	/usr/bin/cmake -E make_directory /mnt/f/pico-webserver/build/elf2uf2/tmp
-	/usr/bin/cmake -E make_directory /mnt/f/pico-webserver/build/elf2uf2/src/ELF2UF2Build-stamp
-	/usr/bin/cmake -E make_directory /mnt/f/pico-webserver/build/elf2uf2/src
-	/usr/bin/cmake -E make_directory /mnt/f/pico-webserver/build/elf2uf2/src/ELF2UF2Build-stamp
-	/usr/bin/cmake -E touch /mnt/f/pico-webserver/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-mkdir
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Creating directories for 'ELF2UF2Build'"
+	/usr/bin/cmake -E make_directory /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/tools/elf2uf2
+	/usr/bin/cmake -E make_directory /mnt/c/Users/Aayush/Desktop/pico-webserver/build/elf2uf2
+	/usr/bin/cmake -E make_directory /mnt/c/Users/Aayush/Desktop/pico-webserver/build/elf2uf2
+	/usr/bin/cmake -E make_directory /mnt/c/Users/Aayush/Desktop/pico-webserver/build/elf2uf2/tmp
+	/usr/bin/cmake -E make_directory /mnt/c/Users/Aayush/Desktop/pico-webserver/build/elf2uf2/src/ELF2UF2Build-stamp
+	/usr/bin/cmake -E make_directory /mnt/c/Users/Aayush/Desktop/pico-webserver/build/elf2uf2/src
+	/usr/bin/cmake -E make_directory /mnt/c/Users/Aayush/Desktop/pico-webserver/build/elf2uf2/src/ELF2UF2Build-stamp
+	/usr/bin/cmake -E touch /mnt/c/Users/Aayush/Desktop/pico-webserver/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-mkdir
 
 elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-patch: elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-update
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/mnt/f/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "No patch step for 'ELF2UF2Build'"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "No patch step for 'ELF2UF2Build'"
 	/usr/bin/cmake -E echo_append
-	/usr/bin/cmake -E touch /mnt/f/pico-webserver/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-patch
+	/usr/bin/cmake -E touch /mnt/c/Users/Aayush/Desktop/pico-webserver/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-patch
 
 elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-update: elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-download
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/mnt/f/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "No update step for 'ELF2UF2Build'"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "No update step for 'ELF2UF2Build'"
 	/usr/bin/cmake -E echo_append
-	/usr/bin/cmake -E touch /mnt/f/pico-webserver/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-update
+	/usr/bin/cmake -E touch /mnt/c/Users/Aayush/Desktop/pico-webserver/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-update
 
 ELF2UF2Build: CMakeFiles/ELF2UF2Build
 ELF2UF2Build: CMakeFiles/ELF2UF2Build-complete
@@ -143,6 +143,6 @@ CMakeFiles/ELF2UF2Build.dir/clean:
 .PHONY : CMakeFiles/ELF2UF2Build.dir/clean
 
 CMakeFiles/ELF2UF2Build.dir/depend:
-	cd /mnt/f/pico-webserver/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/f/pico-webserver /mnt/f/pico-webserver /mnt/f/pico-webserver/build /mnt/f/pico-webserver/build /mnt/f/pico-webserver/build/CMakeFiles/ELF2UF2Build.dir/DependInfo.cmake --color=$(COLOR)
+	cd /mnt/c/Users/Aayush/Desktop/pico-webserver/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/c/Users/Aayush/Desktop/pico-webserver /mnt/c/Users/Aayush/Desktop/pico-webserver /mnt/c/Users/Aayush/Desktop/pico-webserver/build /mnt/c/Users/Aayush/Desktop/pico-webserver/build /mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles/ELF2UF2Build.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ELF2UF2Build.dir/depend
 

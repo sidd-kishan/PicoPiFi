@@ -1,5 +1,5 @@
 CMakeFiles/pioasm.dir/ada_output.cpp.o: \
- /mnt/f/pico-webserver/pico-sdk/tools/pioasm/ada_output.cpp \
+ /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/tools/pioasm/ada_output.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/11/algorithm \
  /usr/include/c++/11/utility \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
@@ -151,7 +151,7 @@ CMakeFiles/pioasm.dir/ada_output.cpp.o: \
  /usr/include/c++/11/bits/basic_ios.tcc \
  /usr/include/c++/11/bits/ostream.tcc /usr/include/c++/11/istream \
  /usr/include/c++/11/bits/istream.tcc \
- /mnt/f/pico-webserver/pico-sdk/tools/pioasm/output_format.h \
+ /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/tools/pioasm/output_format.h \
  /usr/include/c++/11/vector /usr/include/c++/11/bits/stl_uninitialized.h \
  /usr/include/c++/11/bits/stl_vector.h \
  /usr/include/c++/11/bits/stl_bvector.h \
@@ -174,4 +174,4 @@ CMakeFiles/pioasm.dir/ada_output.cpp.o: \
  /usr/include/c++/11/bits/atomic_base.h \
  /usr/include/c++/11/bits/atomic_lockfree_defines.h \
  /usr/include/c++/11/backward/auto_ptr.h \
- /mnt/f/pico-webserver/pico-sdk/tools/pioasm/pio_disassembler.h
+ /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/tools/pioasm/pio_disassembler.h

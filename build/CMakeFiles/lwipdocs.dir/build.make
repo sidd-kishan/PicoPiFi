@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/f/pico-webserver
+CMAKE_SOURCE_DIR = /mnt/c/Users/Aayush/Desktop/pico-webserver
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/f/pico-webserver/build
+CMAKE_BINARY_DIR = /mnt/c/Users/Aayush/Desktop/pico-webserver/build
 
 # Utility rule file for lwipdocs.
 
@@ -67,9 +67,9 @@ include CMakeFiles/lwipdocs.dir/compiler_depend.make
 include CMakeFiles/lwipdocs.dir/progress.make
 
 CMakeFiles/lwipdocs:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/mnt/f/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating API documentation with Doxygen"
-	cd /mnt/f/pico-webserver/pico-sdk/lib/lwip/doc/doxygen && /usr/bin/cmake -E remove_directory /mnt/f/pico-webserver/pico-sdk/lib/lwip/doc/doxygen/output/html
-	cd /mnt/f/pico-webserver/pico-sdk/lib/lwip/doc/doxygen && /usr/bin/doxygen /mnt/f/pico-webserver/pico-sdk/lib/lwip/doc/doxygen/lwip.Doxyfile
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating API documentation with Doxygen"
+	cd /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/doc/doxygen && /usr/bin/cmake -E remove_directory /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/doc/doxygen/output/html
+	cd /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/doc/doxygen && /usr/bin/doxygen /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/doc/doxygen/lwip.Doxyfile
 
 lwipdocs: CMakeFiles/lwipdocs
 lwipdocs: CMakeFiles/lwipdocs.dir/build.make
@@ -84,6 +84,6 @@ CMakeFiles/lwipdocs.dir/clean:
 .PHONY : CMakeFiles/lwipdocs.dir/clean
 
 CMakeFiles/lwipdocs.dir/depend:
-	cd /mnt/f/pico-webserver/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/f/pico-webserver /mnt/f/pico-webserver /mnt/f/pico-webserver/build /mnt/f/pico-webserver/build /mnt/f/pico-webserver/build/CMakeFiles/lwipdocs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /mnt/c/Users/Aayush/Desktop/pico-webserver/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/c/Users/Aayush/Desktop/pico-webserver /mnt/c/Users/Aayush/Desktop/pico-webserver /mnt/c/Users/Aayush/Desktop/pico-webserver/build /mnt/c/Users/Aayush/Desktop/pico-webserver/build /mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles/lwipdocs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/lwipdocs.dir/depend
 

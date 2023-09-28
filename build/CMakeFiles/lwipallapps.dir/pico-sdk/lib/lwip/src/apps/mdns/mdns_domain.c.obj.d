@@ -1,16 +1,16 @@
 CMakeFiles/lwipallapps.dir/pico-sdk/lib/lwip/src/apps/mdns/mdns_domain.c.obj: \
- /mnt/f/pico-webserver/pico-sdk/lib/lwip/src/apps/mdns/mdns_domain.c \
- /mnt/f/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/apps/mdns.h \
- /mnt/f/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/apps/mdns_opts.h \
- /mnt/f/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/opt.h \
- /mnt/f/pico-webserver/lwipopts.h \
- /mnt/f/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/debug.h \
- /mnt/f/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/arch.h \
- /mnt/f/pico-webserver/arch/cc.h /usr/include/newlib/stdio.h \
- /usr/include/newlib/_ansi.h /usr/include/newlib/newlib.h \
- /usr/include/newlib/_newlib_version.h /usr/include/newlib/sys/config.h \
- /usr/include/newlib/machine/ieeefp.h /usr/include/newlib/sys/features.h \
- /usr/include/newlib/sys/cdefs.h \
+ /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/apps/mdns/mdns_domain.c \
+ /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/apps/mdns.h \
+ /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/apps/mdns_opts.h \
+ /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/opt.h \
+ /mnt/c/Users/Aayush/Desktop/pico-webserver/lwipopts.h \
+ /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/debug.h \
+ /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/arch.h \
+ /mnt/c/Users/Aayush/Desktop/pico-webserver/arch/cc.h \
+ /usr/include/newlib/stdio.h /usr/include/newlib/_ansi.h \
+ /usr/include/newlib/newlib.h /usr/include/newlib/_newlib_version.h \
+ /usr/include/newlib/sys/config.h /usr/include/newlib/machine/ieeefp.h \
+ /usr/include/newlib/sys/features.h /usr/include/newlib/sys/cdefs.h \
  /usr/include/newlib/machine/_default_types.h \
  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h \
@@ -30,22 +30,22 @@ CMakeFiles/lwipallapps.dir/pico-sdk/lib/lwip/src/apps/mdns/mdns_domain.c.obj: \
  /usr/include/newlib/sys/_locale.h \
  /usr/lib/gcc/arm-none-eabi/10.3.1/include-fixed/limits.h \
  /usr/include/newlib/ctype.h \
- /mnt/f/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/netif.h \
- /mnt/f/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/err.h \
- /mnt/f/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/ip_addr.h \
- /mnt/f/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/def.h \
- /mnt/f/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/ip4_addr.h \
- /mnt/f/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/ip6_addr.h \
- /mnt/f/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/def.h \
- /mnt/f/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/pbuf.h \
- /mnt/f/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/stats.h \
- /mnt/f/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/mem.h \
- /mnt/f/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/memp.h \
- /mnt/f/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/priv/memp_std.h \
- /mnt/f/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/priv/memp_priv.h \
- /mnt/f/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/priv/mem_priv.h \
- /mnt/f/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/apps/mdns_domain.h \
- /mnt/f/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/apps/mdns_priv.h \
- /mnt/f/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/prot/dns.h \
+ /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/netif.h \
+ /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/err.h \
+ /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/ip_addr.h \
+ /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/def.h \
+ /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/ip4_addr.h \
+ /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/ip6_addr.h \
+ /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/def.h \
+ /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/pbuf.h \
+ /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/stats.h \
+ /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/mem.h \
+ /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/memp.h \
+ /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/priv/memp_std.h \
+ /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/priv/memp_priv.h \
+ /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/priv/mem_priv.h \
+ /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/apps/mdns_domain.h \
+ /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/apps/mdns_priv.h \
+ /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/prot/dns.h \
  /usr/include/newlib/string.h /usr/include/newlib/strings.h \
  /usr/include/newlib/sys/string.h
