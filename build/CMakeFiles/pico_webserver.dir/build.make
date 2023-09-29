@@ -1080,234 +1080,24 @@ CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c -o CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
 
-CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj: CMakeFiles/pico_webserver.dir/flags.make
-CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj: ../pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c
-CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj: CMakeFiles/pico_webserver.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj -MF CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj.d -o CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj -c /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c
+CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.obj: CMakeFiles/pico_webserver.dir/flags.make
+CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.obj: ../pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c
+CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.obj: CMakeFiles/pico_webserver.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.obj -MF CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.obj.d -o CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.obj -c /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c
 
-CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c > CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.i
+CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c > CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.i
 
-CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c -o CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.s
-
-CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj: CMakeFiles/pico_webserver.dir/flags.make
-CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj: ../pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c
-CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj: CMakeFiles/pico_webserver.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj -MF CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj.d -o CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj -c /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c
-
-CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c > CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.i
-
-CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c -o CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.s
-
-CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj: CMakeFiles/pico_webserver.dir/flags.make
-CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj: ../pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c
-CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj: CMakeFiles/pico_webserver.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj -MF CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj.d -o CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj -c /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c
-
-CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c > CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.i
-
-CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c -o CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.s
-
-CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj: CMakeFiles/pico_webserver.dir/flags.make
-CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj: ../pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c
-CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj: CMakeFiles/pico_webserver.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj -MF CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj.d -o CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj -c /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c
-
-CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c > CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.i
-
-CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c -o CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.s
-
-CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj: CMakeFiles/pico_webserver.dir/flags.make
-CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj: ../pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c
-CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj: CMakeFiles/pico_webserver.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj -MF CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj.d -o CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj -c /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c
-
-CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c > CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.i
-
-CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c -o CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.s
-
-CMakeFiles/pico_webserver.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj: CMakeFiles/pico_webserver.dir/flags.make
-CMakeFiles/pico_webserver.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj: ../pico-sdk/lib/cyw43-driver/src/cyw43_ll.c
-CMakeFiles/pico_webserver.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj: CMakeFiles/pico_webserver.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_webserver.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj -MF CMakeFiles/pico_webserver.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj.d -o CMakeFiles/pico_webserver.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj -c /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c
-
-CMakeFiles/pico_webserver.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico_webserver.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c > CMakeFiles/pico_webserver.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.i
-
-CMakeFiles/pico_webserver.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico_webserver.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c -o CMakeFiles/pico_webserver.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.s
-
-CMakeFiles/pico_webserver.dir/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.obj: CMakeFiles/pico_webserver.dir/flags.make
-CMakeFiles/pico_webserver.dir/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.obj: ../pico-sdk/lib/cyw43-driver/src/cyw43_stats.c
-CMakeFiles/pico_webserver.dir/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.obj: CMakeFiles/pico_webserver.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_webserver.dir/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.obj -MF CMakeFiles/pico_webserver.dir/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.obj.d -o CMakeFiles/pico_webserver.dir/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.obj -c /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c
-
-CMakeFiles/pico_webserver.dir/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico_webserver.dir/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c > CMakeFiles/pico_webserver.dir/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.i
-
-CMakeFiles/pico_webserver.dir/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico_webserver.dir/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c -o CMakeFiles/pico_webserver.dir/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.s
-
-CMakeFiles/pico_webserver.dir/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.obj: CMakeFiles/pico_webserver.dir/flags.make
-CMakeFiles/pico_webserver.dir/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.obj: ../pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c
-CMakeFiles/pico_webserver.dir/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.obj: CMakeFiles/pico_webserver.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_webserver.dir/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.obj -MF CMakeFiles/pico_webserver.dir/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.obj.d -o CMakeFiles/pico_webserver.dir/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.obj -c /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c
-
-CMakeFiles/pico_webserver.dir/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico_webserver.dir/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c > CMakeFiles/pico_webserver.dir/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.i
-
-CMakeFiles/pico_webserver.dir/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico_webserver.dir/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c -o CMakeFiles/pico_webserver.dir/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.s
-
-CMakeFiles/pico_webserver.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj: CMakeFiles/pico_webserver.dir/flags.make
-CMakeFiles/pico_webserver.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj: ../pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c
-CMakeFiles/pico_webserver.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj: CMakeFiles/pico_webserver.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_webserver.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj -MF CMakeFiles/pico_webserver.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj.d -o CMakeFiles/pico_webserver.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj -c /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c
-
-CMakeFiles/pico_webserver.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico_webserver.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c > CMakeFiles/pico_webserver.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.i
-
-CMakeFiles/pico_webserver.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico_webserver.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c -o CMakeFiles/pico_webserver.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.s
-
-CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj: CMakeFiles/pico_webserver.dir/flags.make
-CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj: ../pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c
-CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj: CMakeFiles/pico_webserver.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj -MF CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj.d -o CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj -c /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c
-
-CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c > CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.i
-
-CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c -o CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.s
-
-CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj: CMakeFiles/pico_webserver.dir/flags.make
-CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj: ../pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c
-CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj: CMakeFiles/pico_webserver.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj -MF CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj.d -o CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj -c /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c
-
-CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c > CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.i
-
-CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c -o CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.s
-
-CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj: CMakeFiles/pico_webserver.dir/flags.make
-CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj: ../pico-sdk/src/rp2_common/hardware_pio/pio.c
-CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj: CMakeFiles/pico_webserver.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj -MF CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj.d -o CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj -c /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/src/rp2_common/hardware_pio/pio.c
-
-CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_pio/pio.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_pio/pio.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/src/rp2_common/hardware_pio/pio.c > CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_pio/pio.c.i
-
-CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_pio/pio.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_pio/pio.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/src/rp2_common/hardware_pio/pio.c -o CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_pio/pio.c.s
-
-CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj: CMakeFiles/pico_webserver.dir/flags.make
-CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj: ../pico-sdk/src/rp2_common/hardware_dma/dma.c
-CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj: CMakeFiles/pico_webserver.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj -MF CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj.d -o CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj -c /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/src/rp2_common/hardware_dma/dma.c
-
-CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_dma/dma.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_dma/dma.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/src/rp2_common/hardware_dma/dma.c > CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_dma/dma.c.i
-
-CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_dma/dma.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_dma/dma.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/src/rp2_common/hardware_dma/dma.c -o CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_dma/dma.c.s
-
-CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj: CMakeFiles/pico_webserver.dir/flags.make
-CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj: ../pico-sdk/src/rp2_common/hardware_exception/exception.c
-CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj: CMakeFiles/pico_webserver.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj -MF CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj.d -o CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj -c /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/src/rp2_common/hardware_exception/exception.c
-
-CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_exception/exception.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_exception/exception.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/src/rp2_common/hardware_exception/exception.c > CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_exception/exception.c.i
-
-CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_exception/exception.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_exception/exception.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/src/rp2_common/hardware_exception/exception.c -o CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_exception/exception.c.s
-
-CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj: CMakeFiles/pico_webserver.dir/flags.make
-CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj: ../pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c
-CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj: CMakeFiles/pico_webserver.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj -MF CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj.d -o CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj -c /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c
-
-CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c > CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.i
-
-CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c -o CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.s
-
-CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj: CMakeFiles/pico_webserver.dir/flags.make
-CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj: ../pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c
-CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj: CMakeFiles/pico_webserver.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj -MF CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj.d -o CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj -c /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c
-
-CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c > CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.i
-
-CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c -o CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.s
+CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c -o CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.s
 
 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj: CMakeFiles/pico_webserver.dir/flags.make
 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj: ../pico-sdk/src/rp2_common/pico_async_context/async_context_base.c
 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj: CMakeFiles/pico_webserver.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj -MF CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj.d -o CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj -c /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c
 
 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.i: cmake_force
@@ -1318,10 +1108,24 @@ CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_async_context/async_c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c -o CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.s
 
+CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_rand/rand.c.obj: CMakeFiles/pico_webserver.dir/flags.make
+CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_rand/rand.c.obj: ../pico-sdk/src/rp2_common/pico_rand/rand.c
+CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_rand/rand.c.obj: CMakeFiles/pico_webserver.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_rand/rand.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_rand/rand.c.obj -MF CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_rand/rand.c.obj.d -o CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_rand/rand.c.obj -c /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/src/rp2_common/pico_rand/rand.c
+
+CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_rand/rand.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_rand/rand.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/src/rp2_common/pico_rand/rand.c > CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_rand/rand.c.i
+
+CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_rand/rand.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_rand/rand.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/src/rp2_common/pico_rand/rand.c -o CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_rand/rand.c.s
+
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/init.c.obj: CMakeFiles/pico_webserver.dir/flags.make
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/init.c.obj: ../pico-sdk/lib/lwip/src/core/init.c
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/init.c.obj: CMakeFiles/pico_webserver.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/init.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/init.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/init.c.obj -MF CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/init.c.obj.d -o CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/init.c.obj -c /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/core/init.c
 
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/init.c.i: cmake_force
@@ -1335,7 +1139,7 @@ CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/init.c.s: cmake_force
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/def.c.obj: CMakeFiles/pico_webserver.dir/flags.make
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/def.c.obj: ../pico-sdk/lib/lwip/src/core/def.c
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/def.c.obj: CMakeFiles/pico_webserver.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/def.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/def.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/def.c.obj -MF CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/def.c.obj.d -o CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/def.c.obj -c /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/core/def.c
 
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/def.c.i: cmake_force
@@ -1349,7 +1153,7 @@ CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/def.c.s: cmake_force
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/dns.c.obj: CMakeFiles/pico_webserver.dir/flags.make
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/dns.c.obj: ../pico-sdk/lib/lwip/src/core/dns.c
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/dns.c.obj: CMakeFiles/pico_webserver.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/dns.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/dns.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/dns.c.obj -MF CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/dns.c.obj.d -o CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/dns.c.obj -c /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/core/dns.c
 
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/dns.c.i: cmake_force
@@ -1363,7 +1167,7 @@ CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/dns.c.s: cmake_force
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/inet_chksum.c.obj: CMakeFiles/pico_webserver.dir/flags.make
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/inet_chksum.c.obj: ../pico-sdk/lib/lwip/src/core/inet_chksum.c
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/inet_chksum.c.obj: CMakeFiles/pico_webserver.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/inet_chksum.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/inet_chksum.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/inet_chksum.c.obj -MF CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/inet_chksum.c.obj.d -o CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/inet_chksum.c.obj -c /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/core/inet_chksum.c
 
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/inet_chksum.c.i: cmake_force
@@ -1377,7 +1181,7 @@ CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/inet_chksum.c.s: cmake_
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ip.c.obj: CMakeFiles/pico_webserver.dir/flags.make
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ip.c.obj: ../pico-sdk/lib/lwip/src/core/ip.c
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ip.c.obj: CMakeFiles/pico_webserver.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ip.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ip.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ip.c.obj -MF CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ip.c.obj.d -o CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ip.c.obj -c /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/core/ip.c
 
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ip.c.i: cmake_force
@@ -1391,7 +1195,7 @@ CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ip.c.s: cmake_force
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/mem.c.obj: CMakeFiles/pico_webserver.dir/flags.make
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/mem.c.obj: ../pico-sdk/lib/lwip/src/core/mem.c
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/mem.c.obj: CMakeFiles/pico_webserver.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/mem.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/mem.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/mem.c.obj -MF CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/mem.c.obj.d -o CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/mem.c.obj -c /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/core/mem.c
 
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/mem.c.i: cmake_force
@@ -1405,7 +1209,7 @@ CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/mem.c.s: cmake_force
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/memp.c.obj: CMakeFiles/pico_webserver.dir/flags.make
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/memp.c.obj: ../pico-sdk/lib/lwip/src/core/memp.c
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/memp.c.obj: CMakeFiles/pico_webserver.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/memp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/memp.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/memp.c.obj -MF CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/memp.c.obj.d -o CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/memp.c.obj -c /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/core/memp.c
 
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/memp.c.i: cmake_force
@@ -1419,7 +1223,7 @@ CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/memp.c.s: cmake_force
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/netif.c.obj: CMakeFiles/pico_webserver.dir/flags.make
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/netif.c.obj: ../pico-sdk/lib/lwip/src/core/netif.c
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/netif.c.obj: CMakeFiles/pico_webserver.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/netif.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/netif.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/netif.c.obj -MF CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/netif.c.obj.d -o CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/netif.c.obj -c /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/core/netif.c
 
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/netif.c.i: cmake_force
@@ -1433,7 +1237,7 @@ CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/netif.c.s: cmake_force
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/pbuf.c.obj: CMakeFiles/pico_webserver.dir/flags.make
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/pbuf.c.obj: ../pico-sdk/lib/lwip/src/core/pbuf.c
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/pbuf.c.obj: CMakeFiles/pico_webserver.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/pbuf.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/pbuf.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/pbuf.c.obj -MF CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/pbuf.c.obj.d -o CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/pbuf.c.obj -c /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/core/pbuf.c
 
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/pbuf.c.i: cmake_force
@@ -1447,7 +1251,7 @@ CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/pbuf.c.s: cmake_force
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/raw.c.obj: CMakeFiles/pico_webserver.dir/flags.make
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/raw.c.obj: ../pico-sdk/lib/lwip/src/core/raw.c
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/raw.c.obj: CMakeFiles/pico_webserver.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/raw.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/raw.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/raw.c.obj -MF CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/raw.c.obj.d -o CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/raw.c.obj -c /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/core/raw.c
 
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/raw.c.i: cmake_force
@@ -1461,7 +1265,7 @@ CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/raw.c.s: cmake_force
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/stats.c.obj: CMakeFiles/pico_webserver.dir/flags.make
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/stats.c.obj: ../pico-sdk/lib/lwip/src/core/stats.c
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/stats.c.obj: CMakeFiles/pico_webserver.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/stats.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/stats.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/stats.c.obj -MF CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/stats.c.obj.d -o CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/stats.c.obj -c /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/core/stats.c
 
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/stats.c.i: cmake_force
@@ -1475,7 +1279,7 @@ CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/stats.c.s: cmake_force
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/sys.c.obj: CMakeFiles/pico_webserver.dir/flags.make
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/sys.c.obj: ../pico-sdk/lib/lwip/src/core/sys.c
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/sys.c.obj: CMakeFiles/pico_webserver.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/sys.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/sys.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/sys.c.obj -MF CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/sys.c.obj.d -o CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/sys.c.obj -c /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/core/sys.c
 
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/sys.c.i: cmake_force
@@ -1489,7 +1293,7 @@ CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/sys.c.s: cmake_force
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/altcp.c.obj: CMakeFiles/pico_webserver.dir/flags.make
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/altcp.c.obj: ../pico-sdk/lib/lwip/src/core/altcp.c
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/altcp.c.obj: CMakeFiles/pico_webserver.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/altcp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/altcp.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/altcp.c.obj -MF CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/altcp.c.obj.d -o CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/altcp.c.obj -c /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/core/altcp.c
 
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/altcp.c.i: cmake_force
@@ -1503,7 +1307,7 @@ CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/altcp.c.s: cmake_force
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/altcp_alloc.c.obj: CMakeFiles/pico_webserver.dir/flags.make
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/altcp_alloc.c.obj: ../pico-sdk/lib/lwip/src/core/altcp_alloc.c
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/altcp_alloc.c.obj: CMakeFiles/pico_webserver.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/altcp_alloc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/altcp_alloc.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/altcp_alloc.c.obj -MF CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/altcp_alloc.c.obj.d -o CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/altcp_alloc.c.obj -c /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/core/altcp_alloc.c
 
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/altcp_alloc.c.i: cmake_force
@@ -1517,7 +1321,7 @@ CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/altcp_alloc.c.s: cmake_
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/altcp_tcp.c.obj: CMakeFiles/pico_webserver.dir/flags.make
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/altcp_tcp.c.obj: ../pico-sdk/lib/lwip/src/core/altcp_tcp.c
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/altcp_tcp.c.obj: CMakeFiles/pico_webserver.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/altcp_tcp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/altcp_tcp.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/altcp_tcp.c.obj -MF CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/altcp_tcp.c.obj.d -o CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/altcp_tcp.c.obj -c /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/core/altcp_tcp.c
 
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/altcp_tcp.c.i: cmake_force
@@ -1531,7 +1335,7 @@ CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/altcp_tcp.c.s: cmake_fo
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/tcp.c.obj: CMakeFiles/pico_webserver.dir/flags.make
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/tcp.c.obj: ../pico-sdk/lib/lwip/src/core/tcp.c
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/tcp.c.obj: CMakeFiles/pico_webserver.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/tcp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/tcp.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/tcp.c.obj -MF CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/tcp.c.obj.d -o CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/tcp.c.obj -c /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/core/tcp.c
 
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/tcp.c.i: cmake_force
@@ -1545,7 +1349,7 @@ CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/tcp.c.s: cmake_force
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/tcp_in.c.obj: CMakeFiles/pico_webserver.dir/flags.make
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/tcp_in.c.obj: ../pico-sdk/lib/lwip/src/core/tcp_in.c
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/tcp_in.c.obj: CMakeFiles/pico_webserver.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/tcp_in.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/tcp_in.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/tcp_in.c.obj -MF CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/tcp_in.c.obj.d -o CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/tcp_in.c.obj -c /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/core/tcp_in.c
 
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/tcp_in.c.i: cmake_force
@@ -1559,7 +1363,7 @@ CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/tcp_in.c.s: cmake_force
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/tcp_out.c.obj: CMakeFiles/pico_webserver.dir/flags.make
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/tcp_out.c.obj: ../pico-sdk/lib/lwip/src/core/tcp_out.c
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/tcp_out.c.obj: CMakeFiles/pico_webserver.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/tcp_out.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/tcp_out.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/tcp_out.c.obj -MF CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/tcp_out.c.obj.d -o CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/tcp_out.c.obj -c /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/core/tcp_out.c
 
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/tcp_out.c.i: cmake_force
@@ -1573,7 +1377,7 @@ CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/tcp_out.c.s: cmake_forc
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/timeouts.c.obj: CMakeFiles/pico_webserver.dir/flags.make
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/timeouts.c.obj: ../pico-sdk/lib/lwip/src/core/timeouts.c
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/timeouts.c.obj: CMakeFiles/pico_webserver.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/timeouts.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/timeouts.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/timeouts.c.obj -MF CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/timeouts.c.obj.d -o CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/timeouts.c.obj -c /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/core/timeouts.c
 
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/timeouts.c.i: cmake_force
@@ -1587,7 +1391,7 @@ CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/timeouts.c.s: cmake_for
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/udp.c.obj: CMakeFiles/pico_webserver.dir/flags.make
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/udp.c.obj: ../pico-sdk/lib/lwip/src/core/udp.c
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/udp.c.obj: CMakeFiles/pico_webserver.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/udp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/udp.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/udp.c.obj -MF CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/udp.c.obj.d -o CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/udp.c.obj -c /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/core/udp.c
 
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/udp.c.i: cmake_force
@@ -1601,7 +1405,7 @@ CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/udp.c.s: cmake_force
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.obj: CMakeFiles/pico_webserver.dir/flags.make
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.obj: ../pico-sdk/lib/lwip/src/core/ipv4/autoip.c
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.obj: CMakeFiles/pico_webserver.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_111) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.obj -MF CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.obj.d -o CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.obj -c /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/core/ipv4/autoip.c
 
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.i: cmake_force
@@ -1615,7 +1419,7 @@ CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.s: cmake_
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.obj: CMakeFiles/pico_webserver.dir/flags.make
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.obj: ../pico-sdk/lib/lwip/src/core/ipv4/dhcp.c
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.obj: CMakeFiles/pico_webserver.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_112) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.obj -MF CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.obj.d -o CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.obj -c /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c
 
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.i: cmake_force
@@ -1629,7 +1433,7 @@ CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.s: cmake_fo
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.obj: CMakeFiles/pico_webserver.dir/flags.make
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.obj: ../pico-sdk/lib/lwip/src/core/ipv4/etharp.c
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.obj: CMakeFiles/pico_webserver.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_113) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.obj -MF CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.obj.d -o CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.obj -c /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/core/ipv4/etharp.c
 
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.i: cmake_force
@@ -1643,7 +1447,7 @@ CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.s: cmake_
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.obj: CMakeFiles/pico_webserver.dir/flags.make
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.obj: ../pico-sdk/lib/lwip/src/core/ipv4/icmp.c
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.obj: CMakeFiles/pico_webserver.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_114) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.obj -MF CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.obj.d -o CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.obj -c /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/core/ipv4/icmp.c
 
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.i: cmake_force
@@ -1657,7 +1461,7 @@ CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.s: cmake_fo
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.obj: CMakeFiles/pico_webserver.dir/flags.make
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.obj: ../pico-sdk/lib/lwip/src/core/ipv4/igmp.c
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.obj: CMakeFiles/pico_webserver.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_115) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.obj -MF CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.obj.d -o CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.obj -c /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/core/ipv4/igmp.c
 
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.i: cmake_force
@@ -1671,7 +1475,7 @@ CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.s: cmake_fo
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.obj: CMakeFiles/pico_webserver.dir/flags.make
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.obj: ../pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.obj: CMakeFiles/pico_webserver.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_116) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.obj -MF CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.obj.d -o CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.obj -c /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c
 
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.i: cmake_force
@@ -1685,7 +1489,7 @@ CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.s: cmak
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.obj: CMakeFiles/pico_webserver.dir/flags.make
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.obj: ../pico-sdk/lib/lwip/src/core/ipv4/ip4.c
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.obj: CMakeFiles/pico_webserver.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_117) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.obj -MF CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.obj.d -o CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.obj -c /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/core/ipv4/ip4.c
 
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.i: cmake_force
@@ -1699,7 +1503,7 @@ CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.s: cmake_for
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.obj: CMakeFiles/pico_webserver.dir/flags.make
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.obj: ../pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.obj: CMakeFiles/pico_webserver.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_118) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.obj -MF CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.obj.d -o CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.obj -c /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c
 
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.i: cmake_force
@@ -1713,7 +1517,7 @@ CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.s: cmak
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv4/acd.c.obj: CMakeFiles/pico_webserver.dir/flags.make
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv4/acd.c.obj: ../pico-sdk/lib/lwip/src/core/ipv4/acd.c
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv4/acd.c.obj: CMakeFiles/pico_webserver.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_119) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv4/acd.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv4/acd.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv4/acd.c.obj -MF CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv4/acd.c.obj.d -o CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv4/acd.c.obj -c /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/core/ipv4/acd.c
 
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv4/acd.c.i: cmake_force
@@ -1727,7 +1531,7 @@ CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv4/acd.c.s: cmake_for
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.obj: CMakeFiles/pico_webserver.dir/flags.make
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.obj: ../pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.obj: CMakeFiles/pico_webserver.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_120) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.obj -MF CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.obj.d -o CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.obj -c /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c
 
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.i: cmake_force
@@ -1741,7 +1545,7 @@ CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.s: cmake_f
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.obj: CMakeFiles/pico_webserver.dir/flags.make
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.obj: ../pico-sdk/lib/lwip/src/core/ipv6/ethip6.c
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.obj: CMakeFiles/pico_webserver.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_121) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.obj -MF CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.obj.d -o CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.obj -c /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c
 
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.i: cmake_force
@@ -1755,7 +1559,7 @@ CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.s: cmake_
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.obj: CMakeFiles/pico_webserver.dir/flags.make
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.obj: ../pico-sdk/lib/lwip/src/core/ipv6/icmp6.c
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.obj: CMakeFiles/pico_webserver.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_122) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.obj -MF CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.obj.d -o CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.obj -c /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c
 
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.i: cmake_force
@@ -1769,7 +1573,7 @@ CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.s: cmake_f
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.obj: CMakeFiles/pico_webserver.dir/flags.make
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.obj: ../pico-sdk/lib/lwip/src/core/ipv6/inet6.c
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.obj: CMakeFiles/pico_webserver.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_123) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.obj -MF CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.obj.d -o CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.obj -c /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/core/ipv6/inet6.c
 
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.i: cmake_force
@@ -1783,7 +1587,7 @@ CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.s: cmake_f
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.obj: CMakeFiles/pico_webserver.dir/flags.make
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.obj: ../pico-sdk/lib/lwip/src/core/ipv6/ip6.c
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.obj: CMakeFiles/pico_webserver.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_124) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.obj -MF CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.obj.d -o CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.obj -c /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/core/ipv6/ip6.c
 
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.i: cmake_force
@@ -1797,7 +1601,7 @@ CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.s: cmake_for
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.obj: CMakeFiles/pico_webserver.dir/flags.make
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.obj: ../pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.obj: CMakeFiles/pico_webserver.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_125) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_111) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.obj -MF CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.obj.d -o CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.obj -c /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c
 
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.i: cmake_force
@@ -1811,7 +1615,7 @@ CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.s: cmak
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.obj: CMakeFiles/pico_webserver.dir/flags.make
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.obj: ../pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.obj: CMakeFiles/pico_webserver.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_126) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_112) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.obj -MF CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.obj.d -o CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.obj -c /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c
 
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.i: cmake_force
@@ -1825,7 +1629,7 @@ CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.s: cmak
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.obj: CMakeFiles/pico_webserver.dir/flags.make
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.obj: ../pico-sdk/lib/lwip/src/core/ipv6/mld6.c
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.obj: CMakeFiles/pico_webserver.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_127) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_113) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.obj -MF CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.obj.d -o CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.obj -c /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/core/ipv6/mld6.c
 
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.i: cmake_force
@@ -1839,7 +1643,7 @@ CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.s: cmake_fo
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.obj: CMakeFiles/pico_webserver.dir/flags.make
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.obj: ../pico-sdk/lib/lwip/src/core/ipv6/nd6.c
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.obj: CMakeFiles/pico_webserver.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_128) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_114) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.obj -MF CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.obj.d -o CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.obj -c /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/core/ipv6/nd6.c
 
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.i: cmake_force
@@ -1853,7 +1657,7 @@ CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.s: cmake_for
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/api/api_lib.c.obj: CMakeFiles/pico_webserver.dir/flags.make
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/api/api_lib.c.obj: ../pico-sdk/lib/lwip/src/api/api_lib.c
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/api/api_lib.c.obj: CMakeFiles/pico_webserver.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_129) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/api/api_lib.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_115) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/api/api_lib.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/api/api_lib.c.obj -MF CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/api/api_lib.c.obj.d -o CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/api/api_lib.c.obj -c /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/api/api_lib.c
 
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/api/api_lib.c.i: cmake_force
@@ -1867,7 +1671,7 @@ CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/api/api_lib.c.s: cmake_force
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/api/api_msg.c.obj: CMakeFiles/pico_webserver.dir/flags.make
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/api/api_msg.c.obj: ../pico-sdk/lib/lwip/src/api/api_msg.c
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/api/api_msg.c.obj: CMakeFiles/pico_webserver.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_130) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/api/api_msg.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_116) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/api/api_msg.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/api/api_msg.c.obj -MF CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/api/api_msg.c.obj.d -o CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/api/api_msg.c.obj -c /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/api/api_msg.c
 
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/api/api_msg.c.i: cmake_force
@@ -1881,7 +1685,7 @@ CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/api/api_msg.c.s: cmake_force
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/api/err.c.obj: CMakeFiles/pico_webserver.dir/flags.make
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/api/err.c.obj: ../pico-sdk/lib/lwip/src/api/err.c
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/api/err.c.obj: CMakeFiles/pico_webserver.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_131) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/api/err.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_117) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/api/err.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/api/err.c.obj -MF CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/api/err.c.obj.d -o CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/api/err.c.obj -c /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/api/err.c
 
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/api/err.c.i: cmake_force
@@ -1895,7 +1699,7 @@ CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/api/err.c.s: cmake_force
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/api/if_api.c.obj: CMakeFiles/pico_webserver.dir/flags.make
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/api/if_api.c.obj: ../pico-sdk/lib/lwip/src/api/if_api.c
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/api/if_api.c.obj: CMakeFiles/pico_webserver.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_132) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/api/if_api.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_118) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/api/if_api.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/api/if_api.c.obj -MF CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/api/if_api.c.obj.d -o CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/api/if_api.c.obj -c /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/api/if_api.c
 
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/api/if_api.c.i: cmake_force
@@ -1909,7 +1713,7 @@ CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/api/if_api.c.s: cmake_force
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/api/netbuf.c.obj: CMakeFiles/pico_webserver.dir/flags.make
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/api/netbuf.c.obj: ../pico-sdk/lib/lwip/src/api/netbuf.c
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/api/netbuf.c.obj: CMakeFiles/pico_webserver.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_133) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/api/netbuf.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_119) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/api/netbuf.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/api/netbuf.c.obj -MF CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/api/netbuf.c.obj.d -o CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/api/netbuf.c.obj -c /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/api/netbuf.c
 
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/api/netbuf.c.i: cmake_force
@@ -1923,7 +1727,7 @@ CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/api/netbuf.c.s: cmake_force
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/api/netdb.c.obj: CMakeFiles/pico_webserver.dir/flags.make
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/api/netdb.c.obj: ../pico-sdk/lib/lwip/src/api/netdb.c
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/api/netdb.c.obj: CMakeFiles/pico_webserver.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_134) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/api/netdb.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_120) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/api/netdb.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/api/netdb.c.obj -MF CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/api/netdb.c.obj.d -o CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/api/netdb.c.obj -c /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/api/netdb.c
 
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/api/netdb.c.i: cmake_force
@@ -1937,7 +1741,7 @@ CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/api/netdb.c.s: cmake_force
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/api/netifapi.c.obj: CMakeFiles/pico_webserver.dir/flags.make
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/api/netifapi.c.obj: ../pico-sdk/lib/lwip/src/api/netifapi.c
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/api/netifapi.c.obj: CMakeFiles/pico_webserver.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_135) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/api/netifapi.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_121) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/api/netifapi.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/api/netifapi.c.obj -MF CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/api/netifapi.c.obj.d -o CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/api/netifapi.c.obj -c /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/api/netifapi.c
 
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/api/netifapi.c.i: cmake_force
@@ -1951,7 +1755,7 @@ CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/api/netifapi.c.s: cmake_forc
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/api/sockets.c.obj: CMakeFiles/pico_webserver.dir/flags.make
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/api/sockets.c.obj: ../pico-sdk/lib/lwip/src/api/sockets.c
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/api/sockets.c.obj: CMakeFiles/pico_webserver.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_136) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/api/sockets.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_122) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/api/sockets.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/api/sockets.c.obj -MF CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/api/sockets.c.obj.d -o CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/api/sockets.c.obj -c /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/api/sockets.c
 
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/api/sockets.c.i: cmake_force
@@ -1965,7 +1769,7 @@ CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/api/sockets.c.s: cmake_force
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/api/tcpip.c.obj: CMakeFiles/pico_webserver.dir/flags.make
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/api/tcpip.c.obj: ../pico-sdk/lib/lwip/src/api/tcpip.c
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/api/tcpip.c.obj: CMakeFiles/pico_webserver.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_137) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/api/tcpip.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_123) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/api/tcpip.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/api/tcpip.c.obj -MF CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/api/tcpip.c.obj.d -o CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/api/tcpip.c.obj -c /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/api/tcpip.c
 
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/api/tcpip.c.i: cmake_force
@@ -1979,7 +1783,7 @@ CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/api/tcpip.c.s: cmake_force
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ethernet.c.obj: CMakeFiles/pico_webserver.dir/flags.make
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ethernet.c.obj: ../pico-sdk/lib/lwip/src/netif/ethernet.c
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ethernet.c.obj: CMakeFiles/pico_webserver.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_138) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ethernet.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_124) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ethernet.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ethernet.c.obj -MF CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ethernet.c.obj.d -o CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ethernet.c.obj -c /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/netif/ethernet.c
 
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ethernet.c.i: cmake_force
@@ -1993,7 +1797,7 @@ CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ethernet.c.s: cmake_fo
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/bridgeif.c.obj: CMakeFiles/pico_webserver.dir/flags.make
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/bridgeif.c.obj: ../pico-sdk/lib/lwip/src/netif/bridgeif.c
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/bridgeif.c.obj: CMakeFiles/pico_webserver.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_139) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/bridgeif.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_125) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/bridgeif.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/bridgeif.c.obj -MF CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/bridgeif.c.obj.d -o CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/bridgeif.c.obj -c /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/netif/bridgeif.c
 
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/bridgeif.c.i: cmake_force
@@ -2007,7 +1811,7 @@ CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/bridgeif.c.s: cmake_fo
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.obj: CMakeFiles/pico_webserver.dir/flags.make
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.obj: ../pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.obj: CMakeFiles/pico_webserver.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_140) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_126) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.obj -MF CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.obj.d -o CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.obj -c /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c
 
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.i: cmake_force
@@ -2021,7 +1825,7 @@ CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.s: cmak
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/slipif.c.obj: CMakeFiles/pico_webserver.dir/flags.make
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/slipif.c.obj: ../pico-sdk/lib/lwip/src/netif/slipif.c
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/slipif.c.obj: CMakeFiles/pico_webserver.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_141) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/slipif.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_127) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/slipif.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/slipif.c.obj -MF CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/slipif.c.obj.d -o CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/slipif.c.obj -c /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/netif/slipif.c
 
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/slipif.c.i: cmake_force
@@ -2035,7 +1839,7 @@ CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/slipif.c.s: cmake_forc
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.obj: CMakeFiles/pico_webserver.dir/flags.make
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.obj: ../pico-sdk/lib/lwip/src/netif/lowpan6_common.c
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.obj: CMakeFiles/pico_webserver.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_142) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_128) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.obj -MF CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.obj.d -o CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.obj -c /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/netif/lowpan6_common.c
 
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.i: cmake_force
@@ -2049,7 +1853,7 @@ CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.s: cm
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/lowpan6.c.obj: CMakeFiles/pico_webserver.dir/flags.make
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/lowpan6.c.obj: ../pico-sdk/lib/lwip/src/netif/lowpan6.c
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/lowpan6.c.obj: CMakeFiles/pico_webserver.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_143) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/lowpan6.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_129) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/lowpan6.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/lowpan6.c.obj -MF CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/lowpan6.c.obj.d -o CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/lowpan6.c.obj -c /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/netif/lowpan6.c
 
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/lowpan6.c.i: cmake_force
@@ -2063,7 +1867,7 @@ CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/lowpan6.c.s: cmake_for
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.obj: CMakeFiles/pico_webserver.dir/flags.make
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.obj: ../pico-sdk/lib/lwip/src/netif/lowpan6_ble.c
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.obj: CMakeFiles/pico_webserver.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_144) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_130) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.obj -MF CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.obj.d -o CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.obj -c /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c
 
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.i: cmake_force
@@ -2077,7 +1881,7 @@ CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.s: cmake
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/zepif.c.obj: CMakeFiles/pico_webserver.dir/flags.make
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/zepif.c.obj: ../pico-sdk/lib/lwip/src/netif/zepif.c
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/zepif.c.obj: CMakeFiles/pico_webserver.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_145) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/zepif.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_131) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/zepif.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/zepif.c.obj -MF CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/zepif.c.obj.d -o CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/zepif.c.obj -c /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/netif/zepif.c
 
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/zepif.c.i: cmake_force
@@ -2091,7 +1895,7 @@ CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/zepif.c.s: cmake_force
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/auth.c.obj: CMakeFiles/pico_webserver.dir/flags.make
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/auth.c.obj: ../pico-sdk/lib/lwip/src/netif/ppp/auth.c
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/auth.c.obj: CMakeFiles/pico_webserver.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_146) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/auth.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_132) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/auth.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/auth.c.obj -MF CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/auth.c.obj.d -o CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/auth.c.obj -c /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/netif/ppp/auth.c
 
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/auth.c.i: cmake_force
@@ -2105,7 +1909,7 @@ CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/auth.c.s: cmake_fo
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.obj: CMakeFiles/pico_webserver.dir/flags.make
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.obj: ../pico-sdk/lib/lwip/src/netif/ppp/ccp.c
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.obj: CMakeFiles/pico_webserver.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_147) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_133) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.obj -MF CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.obj.d -o CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.obj -c /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/netif/ppp/ccp.c
 
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.i: cmake_force
@@ -2119,7 +1923,7 @@ CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.s: cmake_for
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.obj: CMakeFiles/pico_webserver.dir/flags.make
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.obj: ../pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.obj: CMakeFiles/pico_webserver.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_148) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_134) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.obj -MF CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.obj.d -o CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.obj -c /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c
 
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.i: cmake_force
@@ -2133,7 +1937,7 @@ CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.s: cmak
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.obj: CMakeFiles/pico_webserver.dir/flags.make
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.obj: ../pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.obj: CMakeFiles/pico_webserver.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_149) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_135) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.obj -MF CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.obj.d -o CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.obj -c /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c
 
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.i: cmake_force
@@ -2147,7 +1951,7 @@ CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.s: cmake
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.obj: CMakeFiles/pico_webserver.dir/flags.make
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.obj: ../pico-sdk/lib/lwip/src/netif/ppp/chap-new.c
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.obj: CMakeFiles/pico_webserver.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_150) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_136) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.obj -MF CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.obj.d -o CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.obj -c /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c
 
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.i: cmake_force
@@ -2161,7 +1965,7 @@ CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.s: cmak
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/demand.c.obj: CMakeFiles/pico_webserver.dir/flags.make
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/demand.c.obj: ../pico-sdk/lib/lwip/src/netif/ppp/demand.c
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/demand.c.obj: CMakeFiles/pico_webserver.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_151) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/demand.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_137) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/demand.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/demand.c.obj -MF CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/demand.c.obj.d -o CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/demand.c.obj -c /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/netif/ppp/demand.c
 
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/demand.c.i: cmake_force
@@ -2175,7 +1979,7 @@ CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/demand.c.s: cmake_
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/eap.c.obj: CMakeFiles/pico_webserver.dir/flags.make
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/eap.c.obj: ../pico-sdk/lib/lwip/src/netif/ppp/eap.c
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/eap.c.obj: CMakeFiles/pico_webserver.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_152) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/eap.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_138) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/eap.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/eap.c.obj -MF CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/eap.c.obj.d -o CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/eap.c.obj -c /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/netif/ppp/eap.c
 
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/eap.c.i: cmake_force
@@ -2189,7 +1993,7 @@ CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/eap.c.s: cmake_for
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.obj: CMakeFiles/pico_webserver.dir/flags.make
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.obj: ../pico-sdk/lib/lwip/src/netif/ppp/ecp.c
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.obj: CMakeFiles/pico_webserver.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_153) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_139) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.obj -MF CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.obj.d -o CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.obj -c /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/netif/ppp/ecp.c
 
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.i: cmake_force
@@ -2203,7 +2007,7 @@ CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.s: cmake_for
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.obj: CMakeFiles/pico_webserver.dir/flags.make
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.obj: ../pico-sdk/lib/lwip/src/netif/ppp/eui64.c
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.obj: CMakeFiles/pico_webserver.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_154) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_140) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.obj -MF CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.obj.d -o CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.obj -c /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/netif/ppp/eui64.c
 
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.i: cmake_force
@@ -2217,7 +2021,7 @@ CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.s: cmake_f
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.obj: CMakeFiles/pico_webserver.dir/flags.make
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.obj: ../pico-sdk/lib/lwip/src/netif/ppp/fsm.c
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.obj: CMakeFiles/pico_webserver.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_155) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_141) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.obj -MF CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.obj.d -o CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.obj -c /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/netif/ppp/fsm.c
 
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.i: cmake_force
@@ -2231,7 +2035,7 @@ CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.s: cmake_for
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.obj: CMakeFiles/pico_webserver.dir/flags.make
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.obj: ../pico-sdk/lib/lwip/src/netif/ppp/ipcp.c
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.obj: CMakeFiles/pico_webserver.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_156) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_142) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.obj -MF CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.obj.d -o CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.obj -c /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c
 
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.i: cmake_force
@@ -2245,7 +2049,7 @@ CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.s: cmake_fo
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.obj: CMakeFiles/pico_webserver.dir/flags.make
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.obj: ../pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.obj: CMakeFiles/pico_webserver.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_157) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_143) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.obj -MF CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.obj.d -o CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.obj -c /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c
 
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.i: cmake_force
@@ -2259,7 +2063,7 @@ CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.s: cmake_
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.obj: CMakeFiles/pico_webserver.dir/flags.make
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.obj: ../pico-sdk/lib/lwip/src/netif/ppp/lcp.c
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.obj: CMakeFiles/pico_webserver.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_158) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_144) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.obj -MF CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.obj.d -o CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.obj -c /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/netif/ppp/lcp.c
 
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.i: cmake_force
@@ -2273,7 +2077,7 @@ CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.s: cmake_for
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/magic.c.obj: CMakeFiles/pico_webserver.dir/flags.make
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/magic.c.obj: ../pico-sdk/lib/lwip/src/netif/ppp/magic.c
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/magic.c.obj: CMakeFiles/pico_webserver.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_159) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/magic.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_145) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/magic.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/magic.c.obj -MF CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/magic.c.obj.d -o CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/magic.c.obj -c /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/netif/ppp/magic.c
 
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/magic.c.i: cmake_force
@@ -2287,7 +2091,7 @@ CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/magic.c.s: cmake_f
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.obj: CMakeFiles/pico_webserver.dir/flags.make
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.obj: ../pico-sdk/lib/lwip/src/netif/ppp/mppe.c
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.obj: CMakeFiles/pico_webserver.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_160) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_146) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.obj -MF CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.obj.d -o CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.obj -c /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/netif/ppp/mppe.c
 
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.i: cmake_force
@@ -2301,7 +2105,7 @@ CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.s: cmake_fo
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.obj: CMakeFiles/pico_webserver.dir/flags.make
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.obj: ../pico-sdk/lib/lwip/src/netif/ppp/multilink.c
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.obj: CMakeFiles/pico_webserver.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_161) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_147) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.obj -MF CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.obj.d -o CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.obj -c /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/netif/ppp/multilink.c
 
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.i: cmake_force
@@ -2315,7 +2119,7 @@ CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.s: cma
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.obj: CMakeFiles/pico_webserver.dir/flags.make
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.obj: ../pico-sdk/lib/lwip/src/netif/ppp/ppp.c
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.obj: CMakeFiles/pico_webserver.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_162) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_148) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.obj -MF CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.obj.d -o CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.obj -c /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/netif/ppp/ppp.c
 
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.i: cmake_force
@@ -2329,7 +2133,7 @@ CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.s: cmake_for
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.obj: CMakeFiles/pico_webserver.dir/flags.make
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.obj: ../pico-sdk/lib/lwip/src/netif/ppp/pppapi.c
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.obj: CMakeFiles/pico_webserver.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_163) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_149) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.obj -MF CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.obj.d -o CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.obj -c /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c
 
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.i: cmake_force
@@ -2343,7 +2147,7 @@ CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.s: cmake_
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.obj: CMakeFiles/pico_webserver.dir/flags.make
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.obj: ../pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.obj: CMakeFiles/pico_webserver.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_164) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_150) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.obj -MF CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.obj.d -o CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.obj -c /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c
 
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.i: cmake_force
@@ -2357,7 +2161,7 @@ CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.s: cmak
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.obj: CMakeFiles/pico_webserver.dir/flags.make
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.obj: ../pico-sdk/lib/lwip/src/netif/ppp/pppoe.c
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.obj: CMakeFiles/pico_webserver.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_165) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_151) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.obj -MF CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.obj.d -o CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.obj -c /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c
 
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.i: cmake_force
@@ -2371,7 +2175,7 @@ CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.s: cmake_f
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.obj: CMakeFiles/pico_webserver.dir/flags.make
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.obj: ../pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.obj: CMakeFiles/pico_webserver.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_166) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_152) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.obj -MF CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.obj.d -o CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.obj -c /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c
 
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.i: cmake_force
@@ -2385,7 +2189,7 @@ CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.s: cmak
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.obj: CMakeFiles/pico_webserver.dir/flags.make
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.obj: ../pico-sdk/lib/lwip/src/netif/ppp/pppos.c
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.obj: CMakeFiles/pico_webserver.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_167) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_153) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.obj -MF CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.obj.d -o CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.obj -c /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/netif/ppp/pppos.c
 
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.i: cmake_force
@@ -2399,7 +2203,7 @@ CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.s: cmake_f
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/upap.c.obj: CMakeFiles/pico_webserver.dir/flags.make
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/upap.c.obj: ../pico-sdk/lib/lwip/src/netif/ppp/upap.c
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/upap.c.obj: CMakeFiles/pico_webserver.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_168) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/upap.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_154) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/upap.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/upap.c.obj -MF CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/upap.c.obj.d -o CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/upap.c.obj -c /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/netif/ppp/upap.c
 
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/upap.c.i: cmake_force
@@ -2413,7 +2217,7 @@ CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/upap.c.s: cmake_fo
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/utils.c.obj: CMakeFiles/pico_webserver.dir/flags.make
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/utils.c.obj: ../pico-sdk/lib/lwip/src/netif/ppp/utils.c
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/utils.c.obj: CMakeFiles/pico_webserver.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_169) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/utils.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_155) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/utils.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/utils.c.obj -MF CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/utils.c.obj.d -o CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/utils.c.obj -c /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/netif/ppp/utils.c
 
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/utils.c.i: cmake_force
@@ -2427,7 +2231,7 @@ CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/utils.c.s: cmake_f
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/vj.c.obj: CMakeFiles/pico_webserver.dir/flags.make
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/vj.c.obj: ../pico-sdk/lib/lwip/src/netif/ppp/vj.c
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/vj.c.obj: CMakeFiles/pico_webserver.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_170) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/vj.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_156) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/vj.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/vj.c.obj -MF CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/vj.c.obj.d -o CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/vj.c.obj -c /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/netif/ppp/vj.c
 
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/vj.c.i: cmake_force
@@ -2441,7 +2245,7 @@ CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/vj.c.s: cmake_forc
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.obj: CMakeFiles/pico_webserver.dir/flags.make
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.obj: ../pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.obj: CMakeFiles/pico_webserver.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_171) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_157) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.obj -MF CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.obj.d -o CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.obj -c /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c
 
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.i: cmake_force
@@ -2455,7 +2259,7 @@ CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.s:
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.obj: CMakeFiles/pico_webserver.dir/flags.make
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.obj: ../pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.obj: CMakeFiles/pico_webserver.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_172) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_158) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.obj -MF CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.obj.d -o CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.obj -c /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c
 
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.i: cmake_force
@@ -2469,7 +2273,7 @@ CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.s: 
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.obj: CMakeFiles/pico_webserver.dir/flags.make
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.obj: ../pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.obj: CMakeFiles/pico_webserver.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_173) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_159) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.obj -MF CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.obj.d -o CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.obj -c /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c
 
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.i: cmake_force
@@ -2483,7 +2287,7 @@ CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.s: 
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.obj: CMakeFiles/pico_webserver.dir/flags.make
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.obj: ../pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.obj: CMakeFiles/pico_webserver.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_174) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_160) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.obj -MF CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.obj.d -o CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.obj -c /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c
 
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.i: cmake_force
@@ -2497,7 +2301,7 @@ CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.s: 
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.obj: CMakeFiles/pico_webserver.dir/flags.make
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.obj: ../pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.obj: CMakeFiles/pico_webserver.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_175) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_161) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.obj -MF CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.obj.d -o CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.obj -c /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c
 
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.i: cmake_force
@@ -2508,10 +2312,234 @@ CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.s:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c -o CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.s
 
+CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj: CMakeFiles/pico_webserver.dir/flags.make
+CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj: ../pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c
+CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj: CMakeFiles/pico_webserver.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_162) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj -MF CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj.d -o CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj -c /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c
+
+CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c > CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.i
+
+CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c -o CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.s
+
+CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj: CMakeFiles/pico_webserver.dir/flags.make
+CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj: ../pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c
+CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj: CMakeFiles/pico_webserver.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_163) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj -MF CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj.d -o CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj -c /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c
+
+CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c > CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.i
+
+CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c -o CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.s
+
+CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj: CMakeFiles/pico_webserver.dir/flags.make
+CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj: ../pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c
+CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj: CMakeFiles/pico_webserver.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_164) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj -MF CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj.d -o CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj -c /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c
+
+CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c > CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.i
+
+CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c -o CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.s
+
+CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj: CMakeFiles/pico_webserver.dir/flags.make
+CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj: ../pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c
+CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj: CMakeFiles/pico_webserver.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_165) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj -MF CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj.d -o CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj -c /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c
+
+CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c > CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.i
+
+CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c -o CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.s
+
+CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj: CMakeFiles/pico_webserver.dir/flags.make
+CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj: ../pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c
+CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj: CMakeFiles/pico_webserver.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_166) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj -MF CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj.d -o CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj -c /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c
+
+CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c > CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.i
+
+CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c -o CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.s
+
+CMakeFiles/pico_webserver.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj: CMakeFiles/pico_webserver.dir/flags.make
+CMakeFiles/pico_webserver.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj: ../pico-sdk/lib/cyw43-driver/src/cyw43_ll.c
+CMakeFiles/pico_webserver.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj: CMakeFiles/pico_webserver.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_167) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_webserver.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj -MF CMakeFiles/pico_webserver.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj.d -o CMakeFiles/pico_webserver.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj -c /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c
+
+CMakeFiles/pico_webserver.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico_webserver.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c > CMakeFiles/pico_webserver.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.i
+
+CMakeFiles/pico_webserver.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico_webserver.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c -o CMakeFiles/pico_webserver.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.s
+
+CMakeFiles/pico_webserver.dir/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.obj: CMakeFiles/pico_webserver.dir/flags.make
+CMakeFiles/pico_webserver.dir/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.obj: ../pico-sdk/lib/cyw43-driver/src/cyw43_stats.c
+CMakeFiles/pico_webserver.dir/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.obj: CMakeFiles/pico_webserver.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_168) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_webserver.dir/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.obj -MF CMakeFiles/pico_webserver.dir/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.obj.d -o CMakeFiles/pico_webserver.dir/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.obj -c /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c
+
+CMakeFiles/pico_webserver.dir/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico_webserver.dir/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c > CMakeFiles/pico_webserver.dir/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.i
+
+CMakeFiles/pico_webserver.dir/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico_webserver.dir/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c -o CMakeFiles/pico_webserver.dir/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.s
+
+CMakeFiles/pico_webserver.dir/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.obj: CMakeFiles/pico_webserver.dir/flags.make
+CMakeFiles/pico_webserver.dir/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.obj: ../pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c
+CMakeFiles/pico_webserver.dir/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.obj: CMakeFiles/pico_webserver.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_169) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_webserver.dir/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.obj -MF CMakeFiles/pico_webserver.dir/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.obj.d -o CMakeFiles/pico_webserver.dir/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.obj -c /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c
+
+CMakeFiles/pico_webserver.dir/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico_webserver.dir/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c > CMakeFiles/pico_webserver.dir/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.i
+
+CMakeFiles/pico_webserver.dir/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico_webserver.dir/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c -o CMakeFiles/pico_webserver.dir/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.s
+
+CMakeFiles/pico_webserver.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj: CMakeFiles/pico_webserver.dir/flags.make
+CMakeFiles/pico_webserver.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj: ../pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c
+CMakeFiles/pico_webserver.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj: CMakeFiles/pico_webserver.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_170) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_webserver.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj -MF CMakeFiles/pico_webserver.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj.d -o CMakeFiles/pico_webserver.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj -c /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c
+
+CMakeFiles/pico_webserver.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico_webserver.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c > CMakeFiles/pico_webserver.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.i
+
+CMakeFiles/pico_webserver.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico_webserver.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c -o CMakeFiles/pico_webserver.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.s
+
+CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj: CMakeFiles/pico_webserver.dir/flags.make
+CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj: ../pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c
+CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj: CMakeFiles/pico_webserver.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_171) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj -MF CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj.d -o CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj -c /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c
+
+CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c > CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.i
+
+CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c -o CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.s
+
+CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj: CMakeFiles/pico_webserver.dir/flags.make
+CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj: ../pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c
+CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj: CMakeFiles/pico_webserver.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_172) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj -MF CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj.d -o CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj -c /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c
+
+CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c > CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.i
+
+CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c -o CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.s
+
+CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj: CMakeFiles/pico_webserver.dir/flags.make
+CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj: ../pico-sdk/src/rp2_common/hardware_pio/pio.c
+CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj: CMakeFiles/pico_webserver.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_173) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj -MF CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj.d -o CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj -c /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/src/rp2_common/hardware_pio/pio.c
+
+CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_pio/pio.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_pio/pio.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/src/rp2_common/hardware_pio/pio.c > CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_pio/pio.c.i
+
+CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_pio/pio.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_pio/pio.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/src/rp2_common/hardware_pio/pio.c -o CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_pio/pio.c.s
+
+CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj: CMakeFiles/pico_webserver.dir/flags.make
+CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj: ../pico-sdk/src/rp2_common/hardware_dma/dma.c
+CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj: CMakeFiles/pico_webserver.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_174) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj -MF CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj.d -o CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj -c /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/src/rp2_common/hardware_dma/dma.c
+
+CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_dma/dma.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_dma/dma.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/src/rp2_common/hardware_dma/dma.c > CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_dma/dma.c.i
+
+CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_dma/dma.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_dma/dma.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/src/rp2_common/hardware_dma/dma.c -o CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_dma/dma.c.s
+
+CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj: CMakeFiles/pico_webserver.dir/flags.make
+CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj: ../pico-sdk/src/rp2_common/hardware_exception/exception.c
+CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj: CMakeFiles/pico_webserver.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_175) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj -MF CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj.d -o CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj -c /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/src/rp2_common/hardware_exception/exception.c
+
+CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_exception/exception.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_exception/exception.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/src/rp2_common/hardware_exception/exception.c > CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_exception/exception.c.i
+
+CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_exception/exception.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_exception/exception.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/src/rp2_common/hardware_exception/exception.c -o CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_exception/exception.c.s
+
+CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj: CMakeFiles/pico_webserver.dir/flags.make
+CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj: ../pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c
+CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj: CMakeFiles/pico_webserver.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_176) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj -MF CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj.d -o CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj -c /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c
+
+CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c > CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.i
+
+CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c -o CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.s
+
+CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj: CMakeFiles/pico_webserver.dir/flags.make
+CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj: ../pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c
+CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj: CMakeFiles/pico_webserver.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_177) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj -MF CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj.d -o CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj -c /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c
+
+CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c > CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.i
+
+CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c -o CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.s
+
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/apps/http/altcp_proxyconnect.c.obj: CMakeFiles/pico_webserver.dir/flags.make
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/apps/http/altcp_proxyconnect.c.obj: ../pico-sdk/lib/lwip/src/apps/http/altcp_proxyconnect.c
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/apps/http/altcp_proxyconnect.c.obj: CMakeFiles/pico_webserver.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_176) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/apps/http/altcp_proxyconnect.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_178) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/apps/http/altcp_proxyconnect.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/apps/http/altcp_proxyconnect.c.obj -MF CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/apps/http/altcp_proxyconnect.c.obj.d -o CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/apps/http/altcp_proxyconnect.c.obj -c /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/apps/http/altcp_proxyconnect.c
 
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/apps/http/altcp_proxyconnect.c.i: cmake_force
@@ -2525,7 +2553,7 @@ CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/apps/http/altcp_proxyconnect
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/apps/http/fs.c.obj: CMakeFiles/pico_webserver.dir/flags.make
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/apps/http/fs.c.obj: ../pico-sdk/lib/lwip/src/apps/http/fs.c
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/apps/http/fs.c.obj: CMakeFiles/pico_webserver.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_177) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/apps/http/fs.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_179) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/apps/http/fs.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/apps/http/fs.c.obj -MF CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/apps/http/fs.c.obj.d -o CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/apps/http/fs.c.obj -c /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/apps/http/fs.c
 
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/apps/http/fs.c.i: cmake_force
@@ -2539,7 +2567,7 @@ CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/apps/http/fs.c.s: cmake_forc
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/apps/http/http_client.c.obj: CMakeFiles/pico_webserver.dir/flags.make
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/apps/http/http_client.c.obj: ../pico-sdk/lib/lwip/src/apps/http/http_client.c
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/apps/http/http_client.c.obj: CMakeFiles/pico_webserver.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_178) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/apps/http/http_client.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_180) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/apps/http/http_client.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/apps/http/http_client.c.obj -MF CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/apps/http/http_client.c.obj.d -o CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/apps/http/http_client.c.obj -c /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/apps/http/http_client.c
 
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/apps/http/http_client.c.i: cmake_force
@@ -2553,7 +2581,7 @@ CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/apps/http/http_client.c.s: c
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/apps/http/httpd.c.obj: CMakeFiles/pico_webserver.dir/flags.make
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/apps/http/httpd.c.obj: ../pico-sdk/lib/lwip/src/apps/http/httpd.c
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/apps/http/httpd.c.obj: CMakeFiles/pico_webserver.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_179) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/apps/http/httpd.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_181) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/apps/http/httpd.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/apps/http/httpd.c.obj -MF CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/apps/http/httpd.c.obj.d -o CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/apps/http/httpd.c.obj -c /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/apps/http/httpd.c
 
 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/apps/http/httpd.c.i: cmake_force
@@ -2567,7 +2595,7 @@ CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/apps/http/httpd.c.s: cmake_f
 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj: CMakeFiles/pico_webserver.dir/flags.make
 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj: ../pico-sdk/src/rp2_common/hardware_adc/adc.c
 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj: CMakeFiles/pico_webserver.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_180) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_182) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj -MF CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj.d -o CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj -c /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/src/rp2_common/hardware_adc/adc.c
 
 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_adc/adc.c.i: cmake_force
@@ -2581,7 +2609,7 @@ CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_adc/adc.c.s: cmak
 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj: CMakeFiles/pico_webserver.dir/flags.make
 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj: ../pico-sdk/src/rp2_common/pico_multicore/multicore.c
 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj: CMakeFiles/pico_webserver.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_181) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_183) "Building C object CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj -MF CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj.d -o CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj -c /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/src/rp2_common/pico_multicore/multicore.c
 
 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_multicore/multicore.c.i: cmake_force
@@ -2667,23 +2695,9 @@ pico_webserver_OBJECTS = \
 "CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/src/tusb.c.obj" \
 "CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj" \
 "CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj" \
-"CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj" \
-"CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj" \
-"CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj" \
-"CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj" \
-"CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj" \
-"CMakeFiles/pico_webserver.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj" \
-"CMakeFiles/pico_webserver.dir/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.obj" \
-"CMakeFiles/pico_webserver.dir/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.obj" \
-"CMakeFiles/pico_webserver.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj" \
-"CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj" \
-"CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj" \
-"CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj" \
-"CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj" \
-"CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj" \
-"CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj" \
-"CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj" \
+"CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.obj" \
 "CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj" \
+"CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_rand/rand.c.obj" \
 "CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/init.c.obj" \
 "CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/def.c.obj" \
 "CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/dns.c.obj" \
@@ -2769,6 +2783,22 @@ pico_webserver_OBJECTS = \
 "CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.obj" \
 "CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.obj" \
 "CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.obj" \
+"CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj" \
+"CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj" \
+"CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj" \
+"CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj" \
+"CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj" \
+"CMakeFiles/pico_webserver.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj" \
+"CMakeFiles/pico_webserver.dir/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.obj" \
+"CMakeFiles/pico_webserver.dir/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.obj" \
+"CMakeFiles/pico_webserver.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj" \
+"CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj" \
+"CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj" \
+"CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj" \
+"CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj" \
+"CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj" \
+"CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj" \
+"CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj" \
 "CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/apps/http/altcp_proxyconnect.c.obj" \
 "CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/apps/http/fs.c.obj" \
 "CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/apps/http/http_client.c.obj" \
@@ -2852,23 +2882,9 @@ pico_webserver.elf: CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/src/class
 pico_webserver.elf: CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/src/tusb.c.obj
 pico_webserver.elf: CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
 pico_webserver.elf: CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
-pico_webserver.elf: CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj
-pico_webserver.elf: CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj
-pico_webserver.elf: CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj
-pico_webserver.elf: CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj
-pico_webserver.elf: CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj
-pico_webserver.elf: CMakeFiles/pico_webserver.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj
-pico_webserver.elf: CMakeFiles/pico_webserver.dir/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.obj
-pico_webserver.elf: CMakeFiles/pico_webserver.dir/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.obj
-pico_webserver.elf: CMakeFiles/pico_webserver.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj
-pico_webserver.elf: CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj
-pico_webserver.elf: CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj
-pico_webserver.elf: CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
-pico_webserver.elf: CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj
-pico_webserver.elf: CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj
-pico_webserver.elf: CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj
-pico_webserver.elf: CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj
+pico_webserver.elf: CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.obj
 pico_webserver.elf: CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj
+pico_webserver.elf: CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_rand/rand.c.obj
 pico_webserver.elf: CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/init.c.obj
 pico_webserver.elf: CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/def.c.obj
 pico_webserver.elf: CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/dns.c.obj
@@ -2954,6 +2970,22 @@ pico_webserver.elf: CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/pp
 pico_webserver.elf: CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.obj
 pico_webserver.elf: CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.obj
 pico_webserver.elf: CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.obj
+pico_webserver.elf: CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj
+pico_webserver.elf: CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj
+pico_webserver.elf: CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj
+pico_webserver.elf: CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj
+pico_webserver.elf: CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj
+pico_webserver.elf: CMakeFiles/pico_webserver.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj
+pico_webserver.elf: CMakeFiles/pico_webserver.dir/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.obj
+pico_webserver.elf: CMakeFiles/pico_webserver.dir/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.obj
+pico_webserver.elf: CMakeFiles/pico_webserver.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj
+pico_webserver.elf: CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj
+pico_webserver.elf: CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj
+pico_webserver.elf: CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
+pico_webserver.elf: CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj
+pico_webserver.elf: CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj
+pico_webserver.elf: CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj
+pico_webserver.elf: CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj
 pico_webserver.elf: CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/apps/http/altcp_proxyconnect.c.obj
 pico_webserver.elf: CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/apps/http/fs.c.obj
 pico_webserver.elf: CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/apps/http/http_client.c.obj
@@ -2965,7 +2997,7 @@ pico_webserver.elf: liblwipallapps.a
 pico_webserver.elf: liblwipcore.a
 pico_webserver.elf: pico-sdk/src/rp2_common/boot_stage2/bs2_default_padded_checksummed.S
 pico_webserver.elf: CMakeFiles/pico_webserver.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_182) "Linking CXX executable pico_webserver.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_184) "Linking CXX executable pico_webserver.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/pico_webserver.dir/link.txt --verbose=$(VERBOSE)
 	/usr/bin/arm-none-eabi-objcopy -Oihex /mnt/c/Users/Aayush/Desktop/pico-webserver/build/pico_webserver.elf pico_webserver.hex
 	/usr/bin/arm-none-eabi-objcopy -Obinary /mnt/c/Users/Aayush/Desktop/pico-webserver/build/pico_webserver.elf pico_webserver.bin

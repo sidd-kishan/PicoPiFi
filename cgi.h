@@ -26,6 +26,8 @@ const char * cgi_handler_extended(int iIndex, int iNumParams, char *pcParam[], c
 const char *
 wifi_cred_set(int iIndex, int iNumParams, char *pcParam[], char *pcValue[]);
 
+extern uint8_t macaddr[6];
+
 /* led control and debugging info */
 void Led_On(int led);
 void Led_Off(int led);

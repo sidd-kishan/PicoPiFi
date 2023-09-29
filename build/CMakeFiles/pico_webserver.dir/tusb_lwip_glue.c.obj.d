@@ -113,8 +113,6 @@ CMakeFiles/pico_webserver.dir/tusb_lwip_glue.c.obj: \
  /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/apps/httpd.h \
  /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/apps/httpd_opts.h \
  /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/prot/iana.h \
- /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/tinyusb/hw/bsp/board.h \
- /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/tinyusb/hw/bsp/ansi_escape.h \
  /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/src/rp2_common/pico_cyw43_arch/include/pico/cyw43_arch.h \
  /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/cyw43-driver/src/cyw43.h \
  /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/cyw43-driver/src/cyw43_config.h \
@@ -129,8 +127,10 @@ CMakeFiles/pico_webserver.dir/tusb_lwip_glue.c.obj: \
  /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h \
  /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
  /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h \
+ /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/dhcp.h \
+ /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/acd.h \
+ /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/prot/acd.h \
  /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/cyw43-driver/src/cyw43_ll.h \
  /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/cyw43-driver/src/cyw43_country.h \
  /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/src/rp2_common/pico_async_context/include/pico/async_context.h \
- /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/src/rp2_common/pico_cyw43_arch/include/pico/cyw43_arch/arch_threadsafe_background.h \
- /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/src/rp2_common/pico_unique_id/include/pico/unique_id.h
+ /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/src/rp2_common/pico_cyw43_arch/include/pico/cyw43_arch/arch_threadsafe_background.h

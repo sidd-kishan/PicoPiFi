@@ -27,8 +27,7 @@
  */
 
 #include "tusb_lwip_glue.h"
-#include "pico/unique_id.h"
-
+#include "pico/cyw43_arch.h"
 /* lwip context */
 static struct netif netif_data;
 
@@ -39,7 +38,6 @@ static struct pbuf *received_frame;
 /* ideally speaking, this should be generated from the hardware's unique ID (if available) */
 /* it is suggested that the first byte is 0x02 to indicate a link-local address */
 const uint8_t tud_network_mac_address[6] = {0x02,0x02,0x84,0x6A,0x96,0x00};
-
 /* network parameters of this MCU */
 static const ip_addr_t ipaddr  = IPADDR4_INIT_BYTES(192, 168, 7, 1);
 static const ip_addr_t netmask = IPADDR4_INIT_BYTES(255, 255, 255, 0);
@@ -119,11 +117,11 @@ void init_lwip(void)
     
     /* Initialize lwip */
     lwip_init();
-    
     /* the lwip virtual MAC address must be different from the host's; to ensure this, we toggle the LSbit */
+	//tud_network_mac_address[5]=0x00;
     netif->hwaddr_len = sizeof(tud_network_mac_address);
     memcpy(netif->hwaddr, tud_network_mac_address, sizeof(tud_network_mac_address));
-    netif->hwaddr[5] ^= 0x01;
+    //netif->hwaddr[5] ^= 0x01;
     
     netif = netif_add(netif, &ipaddr, &netmask, &gateway, NULL, netif_init_cb, ip_input);
     netif_set_default(netif);

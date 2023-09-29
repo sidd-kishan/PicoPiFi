@@ -134,7 +134,8 @@ u16_t __time_critical_func(ssi_handler)(int iIndex, char *pcInsert, int iInsertL
 			printed = snprintf(pcInsert, iInsertLen, "{\"ssid\":\"%s\",\"key\":\"%s\",\"enc\":\"%d\"}", wifi_ssid,wifi_key,wifi_enc);
 			break;
 		case 13: /* wifinet */
-			printed = snprintf(pcInsert, iInsertLen, "{\"ip\":\"%s\",\"netmask\":\"%s\",\"gw\":\"%s\"}", wifi_conn_detail[0],wifi_conn_detail[1],wifi_conn_detail[2]);
+			printed = snprintf(pcInsert, iInsertLen, "{\"ip\":\"%s\",\"netmask\":\"%s\",\"gw\":\"%s\",\"mac\":\"%02x:%02x:%02x:%02x:%02x:%02x\"}", wifi_conn_detail[0],wifi_conn_detail[1],wifi_conn_detail[2], macaddr[0],macaddr[1],macaddr[2],
+                                        macaddr[3],macaddr[4],macaddr[5]);
 			break;
         default: /* unknown tag */
             printed = 0;

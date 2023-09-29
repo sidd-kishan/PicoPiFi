@@ -17,6 +17,7 @@ void wait_for_netif_is_up();
 void dhcpd_init();
 void service_traffic();
 
+extern uint8_t macaddr[6];
 
 #ifdef __cplusplus
  }
