@@ -7,7 +7,8 @@
 #include "pico/bootrom.h"
 
 static int  LED_STATUS = 1;
-
+char wifi_ssid[32],wifi_key[32];
+int wifi_enc;
 static const tCGI cgi_handlers[] = {
     {
         /* Html request for "/leds.cgi" will start cgi_handler_basic */
@@ -155,7 +156,7 @@ cgi_handler_extended(int iIndex, int iNumParams, char *pcParam[], char *pcValue[
 void
 cgi_init(void)
 {
-    http_set_cgi_handlers(cgi_handlers, CYW43_ARRAY_SIZE(cgi_handlers));
+    http_set_cgi_handlers(cgi_handlers, LWIP_ARRAYSIZE(cgi_handlers));
 
     for(int i = LED1; i <= LED4; i++){
         gpio_init(i);

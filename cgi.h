@@ -1,10 +1,7 @@
 #ifndef __CGI_H__
 #define __CGI_H__
-#include "pico/types.h"
 extern char wifi_ssid[32],wifi_key[32];
 extern int wifi_enc;
-static int32_t wifi_status;
-static int32_t wifi_rssi, wifi_rate;
 #ifdef __cplusplus
 extern "C" {
 #endif
@@ -13,8 +10,6 @@ extern "C" {
 #define LED2	19
 #define LED3	20
 #define LED4	21
-#define WLC_GET_RATE                       ( (uint32_t)12 )
-#define WLC_GET_RSSI                       ( (uint32_t)127 )
 
 /* initialize the CGI handler */
 void  cgi_init();
@@ -34,8 +29,7 @@ wifi_cred_set(int iIndex, int iNumParams, char *pcParam[], char *pcValue[]);
 /* led control and debugging info */
 void Led_On(int led);
 void Led_Off(int led);
-static absolute_time_t next_wifi_status;
-static volatile absolute_time_t next_wifi_try;
+
 #ifdef __cplusplus
 };
 #endif
