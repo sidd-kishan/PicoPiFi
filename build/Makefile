@@ -5534,6 +5534,30 @@ webserver.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/webserver.c.s
 .PHONY : webserver.c.s
 
+wifi_code.obj: wifi_code.c.obj
+.PHONY : wifi_code.obj
+
+# target to build an object file
+wifi_code.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/wifi_code.c.obj
+.PHONY : wifi_code.c.obj
+
+wifi_code.i: wifi_code.c.i
+.PHONY : wifi_code.i
+
+# target to preprocess a source file
+wifi_code.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/wifi_code.c.i
+.PHONY : wifi_code.c.i
+
+wifi_code.s: wifi_code.c.s
+.PHONY : wifi_code.s
+
+# target to generate assembly for a file
+wifi_code.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/wifi_code.c.s
+.PHONY : wifi_code.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -6179,6 +6203,9 @@ help:
 	@echo "... webserver.obj"
 	@echo "... webserver.i"
 	@echo "... webserver.s"
+	@echo "... wifi_code.obj"
+	@echo "... wifi_code.i"
+	@echo "... wifi_code.s"
 .PHONY : help
 
 

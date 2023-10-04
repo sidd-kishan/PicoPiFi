@@ -354,6 +354,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/pico_webserver.dir/usb_descriptors.c.obj.d"
   "CMakeFiles/pico_webserver.dir/webserver.c.obj"
   "CMakeFiles/pico_webserver.dir/webserver.c.obj.d"
+  "CMakeFiles/pico_webserver.dir/wifi_code.c.obj"
+  "CMakeFiles/pico_webserver.dir/wifi_code.c.obj.d"
   "pico_webserver.elf"
   "pico_webserver.pdb"
 )

@@ -1,5 +1,5 @@
-CMakeFiles/pico_webserver.dir/tusb_lwip_glue.c.obj: \
- /mnt/c/Users/Aayush/Desktop/pico-webserver/tusb_lwip_glue.c \
+CMakeFiles/pico_webserver.dir/wifi_code.c.obj: \
+ /mnt/c/Users/Aayush/Desktop/pico-webserver/wifi_code.c \
  /mnt/c/Users/Aayush/Desktop/pico-webserver/tusb_lwip_glue.h \
  /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/tinyusb/src/tusb.h \
  /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/tinyusb/src/common/tusb_common.h \

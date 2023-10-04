@@ -7,7 +7,7 @@
 #include "cgi.h"
 #include "cstring"
 #include "pico/cyw43_arch.h"
-
+#include "wifi_code.h"
 char scan_results[93];
 
 int scan_result(void *env, const cyw43_ev_scan_result_t *result) {
@@ -41,7 +41,8 @@ const char * __not_in_flash("httpd") ssi_example_tags[] = {
     "bg4",      // 10
 	"wifiscan", // 11
 	"wifiset",  // 12
-	"wifinet"   // 13 
+	"wifinet",  // 13 
+	"pktout"    // 14
 };
 
 u16_t __time_critical_func(ssi_handler)(int iIndex, char *pcInsert, int iInsertLen)
@@ -136,6 +137,16 @@ u16_t __time_critical_func(ssi_handler)(int iIndex, char *pcInsert, int iInsertL
 		case 13: /* wifinet */
 			printed = snprintf(pcInsert, iInsertLen, "{\"ip\":\"%s\",\"netmask\":\"%s\",\"gw\":\"%s\",\"mac\":\"%02x:%02x:%02x:%02x:%02x:%02x\"}", wifi_conn_detail[0],wifi_conn_detail[1],wifi_conn_detail[2], macaddr[0],macaddr[1],macaddr[2],
                                         macaddr[3],macaddr[4],macaddr[5]);
+			break;
+		case 14: /* pktout */
+			{
+				pkt_s temp_pkt;
+				//if (queue_try_remove(&qoutbound, &temp_pkt)) {
+					printed = snprintf(pcInsert, iInsertLen, "tx:%d rx:%d",packet_stat_tx,packet_stat_rx);
+				//} else {
+					//printed = snprintf(pcInsert, iInsertLen, "queue empty");
+				//}
+			}
 			break;
         default: /* unknown tag */
             printed = 0;

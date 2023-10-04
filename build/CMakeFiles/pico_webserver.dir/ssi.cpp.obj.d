@@ -112,4 +112,8 @@ CMakeFiles/pico_webserver.dir/ssi.cpp.obj: \
  /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/cyw43-driver/src/cyw43_ll.h \
  /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/cyw43-driver/src/cyw43_country.h \
  /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/src/rp2_common/pico_async_context/include/pico/async_context.h \
- /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/src/rp2_common/pico_cyw43_arch/include/pico/cyw43_arch/arch_threadsafe_background.h
+ /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/src/rp2_common/pico_cyw43_arch/include/pico/cyw43_arch/arch_threadsafe_background.h \
+ /mnt/c/Users/Aayush/Desktop/pico-webserver/wifi_code.h \
+ /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/src/common/pico_util/include/pico/util/queue.h \
+ /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
+ /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/src/common/pico_sync/include/pico/lock_core.h

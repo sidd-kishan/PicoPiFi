@@ -28,12 +28,15 @@
 
 #include "tusb_lwip_glue.h"
 #include "pico/cyw43_arch.h"
+#include "wifi_code.h"
 /* lwip context */
 static struct netif netif_data;
 
 /* shared between tud_network_recv_cb() and service_traffic() */
 static struct pbuf *received_frame;
 
+int packet_stat_rx =0;
+int packet_stat_tx=0;
 /* this is used by this code, ./class/net/net_driver.c, and usb_descriptors.c */
 /* ideally speaking, this should be generated from the hardware's unique ID (if available) */
 /* it is suggested that the first byte is 0x02 to indicate a link-local address */
@@ -142,15 +145,21 @@ bool tud_network_recv_cb(const uint8_t *src, uint16_t size)
     /* this shouldn't happen, but if we get another packet before 
     parsing the previous, we must signal our inability to accept it */
     if (received_frame) return false;
-    
+    packet_stat_rx+=1;
     if (size)
     {
         struct pbuf *p = pbuf_alloc(PBUF_RAW, size, PBUF_POOL);
+		//static pkt_s out_pkt;
 
         if (p)
         {
             /* pbuf_alloc() has already initialized struct; all we need to do is copy the data */
             memcpy(p->payload, src, size);
+			//memcpy(&out_pkt.payload, src, size);
+			//out_pkt.len=size;
+			//if (!queue_try_add(&qoutbound, &out_pkt)) {
+                //DEBUG(("UQueue full\n"));
+            //}
         
             /* store away the pointer for service_traffic() to later handle */
             received_frame = p;
@@ -174,6 +183,7 @@ uint16_t tud_network_xmit_cb(uint8_t *dst, void *ref, uint16_t arg)
         memcpy(dst, (char *)q->payload, q->len);
         dst += q->len;
         len += q->len;
+		packet_stat_tx+=1;
         if (q->len == q->tot_len) break;
     }
 
