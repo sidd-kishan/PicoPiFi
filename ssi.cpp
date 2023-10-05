@@ -140,11 +140,13 @@ u16_t __time_critical_func(ssi_handler)(int iIndex, char *pcInsert, int iInsertL
 			break;
 		case 14: /* pktout */
 			{
-				pkt_s temp_pkt;
-				//if (queue_try_remove(&qoutbound, &temp_pkt)) {
-					printed = snprintf(pcInsert, iInsertLen, "tx:%d rx:%d",packet_stat_tx,packet_stat_rx);
-				//} else {
-					//printed = snprintf(pcInsert, iInsertLen, "queue empty");
+				static pkt_s temp_pkt;
+				while(queue_try_peek(&qinbound, &temp_pkt)) {
+					queue_remove_blocking(&qinbound, &temp_pkt);
+					printed = snprintf(pcInsert, iInsertLen, "%s%s%s%s%s%s%s",temp_pkt.payload[0],temp_pkt.payload[1],temp_pkt.payload[2],temp_pkt.payload[3],temp_pkt.payload[4],temp_pkt.payload[5],temp_pkt.payload[6]);
+				}
+				//else {
+				//printed = snprintf(pcInsert, iInsertLen, "test");
 				//}
 			}
 			break;

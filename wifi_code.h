@@ -7,7 +7,7 @@
 static queue_t qinbound; /* eth -> usb */
 static queue_t qoutbound; /* usb -> eth */
 typedef struct {
-    size_t len;
+    uint16_t len;
     uint8_t payload[MTU];
 } pkt_s;
 extern int packet_stat_rx;

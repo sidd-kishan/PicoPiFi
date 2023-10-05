@@ -145,21 +145,22 @@ bool tud_network_recv_cb(const uint8_t *src, uint16_t size)
     /* this shouldn't happen, but if we get another packet before 
     parsing the previous, we must signal our inability to accept it */
     if (received_frame) return false;
-    packet_stat_rx+=1;
+	packet_stat_rx+=1;
     if (size)
     {
         struct pbuf *p = pbuf_alloc(PBUF_RAW, size, PBUF_POOL);
-		//static pkt_s out_pkt;
+		pkt_s in_pkt;
 
         if (p)
         {
             /* pbuf_alloc() has already initialized struct; all we need to do is copy the data */
             memcpy(p->payload, src, size);
-			//memcpy(&out_pkt.payload, src, size);
-			//out_pkt.len=size;
-			//if (!queue_try_add(&qoutbound, &out_pkt)) {
-                //DEBUG(("UQueue full\n"));
-            //}
+			in_pkt.len = size;
+			memcpy(in_pkt.payload, src, size);
+
+			if (!queue_try_add(&qinbound, &in_pkt)) {
+				//DEBUG(("EQueue full\n"));
+			}
         
             /* store away the pointer for service_traffic() to later handle */
             received_frame = p;
@@ -183,7 +184,7 @@ uint16_t tud_network_xmit_cb(uint8_t *dst, void *ref, uint16_t arg)
         memcpy(dst, (char *)q->payload, q->len);
         dst += q->len;
         len += q->len;
-		packet_stat_tx+=1;
+		//packet_stat_tx+=1;
         if (q->len == q->tot_len) break;
     }
 
