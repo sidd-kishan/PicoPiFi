@@ -33,10 +33,11 @@
 static struct netif netif_data;
 
 /* shared between tud_network_recv_cb() and service_traffic() */
-static struct pbuf *received_frame;
+struct pbuf *received_frame;
 
 int packet_stat_rx =0;
 int packet_stat_tx=0;
+mutex_t usb_ready;
 /* this is used by this code, ./class/net/net_driver.c, and usb_descriptors.c */
 /* ideally speaking, this should be generated from the hardware's unique ID (if available) */
 /* it is suggested that the first byte is 0x02 to indicate a link-local address */
@@ -153,7 +154,8 @@ bool tud_network_recv_cb(const uint8_t *src, uint16_t size)
         {
             /* pbuf_alloc() has already initialized struct; all we need to do is copy the data */
             memcpy(p->payload, src, size);
-        
+			//if(size!=in_pkt.len){
+			//}
             /* store away the pointer for service_traffic() to later handle */
             received_frame = p;
         }
@@ -188,15 +190,14 @@ void service_traffic(void)
     /* handle any packet received by tud_network_recv_cb() */
     if (received_frame)
     {
-	  static pkt_s in_pkt;
-	  in_pkt.len = received_frame->len;
-	  memcpy(in_pkt.payload, received_frame->payload, received_frame->len);
-	  if (queue_try_add(&qinbound, &in_pkt)) {
-		  packet_stat_rx+=1;
-	  }
+	  //queue_add_blocking(&qinbound, &in_pkt);
+	  //if (!queue_try_add(&qinbound, &in_pkt)) {
+	  //}
       ethernet_input(received_frame, &netif_data);
+	  mutex_enter_blocking(&usb_ready);
       pbuf_free(received_frame);
       received_frame = NULL;
+	  mutex_exit(&usb_ready);
       tud_network_recv_renew();
     }
     

@@ -1,9 +1,40 @@
 #include "tusb_lwip_glue.h"
 #include "pico/cyw43_arch.h"
 #include "wifi_code.h"
+pkt_s in_pkt;
+void convertToHex(uint8_t* byteArray, uint16_t size, char* hexString) {
+    for (uint16_t i = 0; i < size; i++) {
+        unsigned char value = byteArray[i];
 
+        char hex[4] = {0, 0, ' ', '\0'};
+        char* hex_p = hex;
+
+        unsigned char TEMP_byte = 0;
+
+        TEMP_byte = value / 16;
+
+        if (TEMP_byte < 10) {
+            *hex_p = 48 + TEMP_byte;
+        } else {
+            *hex_p = 55 + TEMP_byte;
+        }
+
+        hex_p++;
+
+        TEMP_byte = value % 16;
+
+        if (TEMP_byte < 10) {
+            *hex_p = 48 + TEMP_byte;
+        } else {
+            *hex_p = 55 + TEMP_byte;
+        }
+
+        strcat(hexString, hex);
+    }
+}
 
 char wifi_conn_detail[3][16];
+char packet_stat_msg[100];
 
 void run_udp_beacon() {
     struct udp_pcb* pcb = udp_new();
@@ -48,6 +79,17 @@ void core1_entry() {
 	cyw43_wifi_pm(&cyw43_state, cyw43_pm_value(CYW43_NO_POWERSAVE_MODE, 20, 1, 1, 1));
 	//cyw43_arch_gpio_put(CYW43_WL_GPIO_LED_PIN, 1);
 	cyw43_hal_get_mac(0, macaddr);
+	while(1){
+		mutex_enter_blocking(&usb_ready);
+		if (received_frame)
+		{
+			in_pkt.len = received_frame->len;
+			memcpy(in_pkt.payload, received_frame->payload, received_frame->len);
+			//cyw43_send_ethernet(&cyw43_state, CYW43_ITF_STA, received_frame->len, received_frame->payload, false);
+		}
+		mutex_exit(&usb_ready);
+		
+	}
     //char ssid[32] = "SSS_EXT"; // Global variable to store ssid
 	//char key[64] = "1234567890";  // Global variable to store key
 	//while(cyw43_arch_wifi_connect_timeout_ms(ssid, key, CYW43_AUTH_WPA2_AES_PSK, 10000));

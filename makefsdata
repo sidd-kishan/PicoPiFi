@@ -58,7 +58,7 @@ while($file = <FILES>) {
     for($j = 0; $j < length($file); $j++) {
 	printf(OUTPUT "%#02x, ", unpack("C", substr($file, $j, 1)));
     }
-    printf(OUTPUT "0,\n");
+    printf(OUTPUT "0x00,\n");
     
     
     $i = 0;

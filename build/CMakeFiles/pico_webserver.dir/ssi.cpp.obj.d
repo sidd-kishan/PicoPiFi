@@ -116,4 +116,5 @@ CMakeFiles/pico_webserver.dir/ssi.cpp.obj: \
  /mnt/c/Users/Aayush/Desktop/pico-webserver/wifi_code.h \
  /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/src/common/pico_util/include/pico/util/queue.h \
  /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
- /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/src/common/pico_sync/include/pico/lock_core.h
+ /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
+ /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/src/common/pico_sync/include/pico/mutex.h

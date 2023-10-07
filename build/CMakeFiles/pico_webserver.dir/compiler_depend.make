@@ -8968,7 +8968,8 @@ CMakeFiles/pico_webserver.dir/ssi.cpp.obj: ../ssi.cpp \
   ../wifi_code.h \
   ../pico-sdk/src/common/pico_util/include/pico/util/queue.h \
   ../pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
-  ../pico-sdk/src/common/pico_sync/include/pico/lock_core.h
+  ../pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
+  ../pico-sdk/src/common/pico_sync/include/pico/mutex.h
 
 CMakeFiles/pico_webserver.dir/tusb_lwip_glue.c.obj: ../tusb_lwip_glue.c \
   ../tusb_lwip_glue.h \

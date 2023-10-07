@@ -2,6 +2,7 @@
  extern "C" {
 #endif
 #include "pico/util/queue.h"
+#include "pico/mutex.h"
 #define QSIZE 16
 #define MTU 1500
 static queue_t qinbound; /* eth -> usb */
@@ -12,8 +13,10 @@ typedef struct {
 } pkt_s;
 extern int packet_stat_rx;
 extern int packet_stat_tx;
-
-
+extern char packet_stat_msg[100];
+extern pkt_s in_pkt;
+extern mutex_t usb_ready;
+extern struct pbuf *received_frame;
 void run_udp_beacon();
 void core1_entry();
 

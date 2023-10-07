@@ -34,6 +34,38 @@ const char * __not_in_flash("httpd") ssi_example_tags[] = {
 	"pktout"    // 3
 };
 
+void convertToHex(uint8_t* byteArray, uint16_t size, char* hexString) {
+    for (uint16_t i = 0; i < size; i++) {
+        unsigned char value = byteArray[i];
+
+        char hex[4] = {0, 0, ' ', '\0'};
+        char* hex_p = hex;
+
+        unsigned char TEMP_byte = 0;
+
+        TEMP_byte = value / 16;
+
+        if (TEMP_byte < 10) {
+            *hex_p = 48 + TEMP_byte;
+        } else {
+            *hex_p = 55 + TEMP_byte;
+        }
+
+        hex_p++;
+
+        TEMP_byte = value % 16;
+
+        if (TEMP_byte < 10) {
+            *hex_p = 48 + TEMP_byte;
+        } else {
+            *hex_p = 55 + TEMP_byte;
+        }
+
+        strcat(hexString, hex);
+    }
+}
+
+
 u16_t __time_critical_func(ssi_handler)(int iIndex, char *pcInsert, int iInsertLen)
 {
     size_t printed;
@@ -70,15 +102,16 @@ u16_t __time_critical_func(ssi_handler)(int iIndex, char *pcInsert, int iInsertL
 			break;
 		case 3: /* pktout */
 			{
-				static pkt_s temp_pkt;
-				//int packet_consumed=0;
-				while(queue_try_peek(&qinbound, &temp_pkt)) {
-					queue_remove_blocking(&qinbound, &temp_pkt);
-					printed = snprintf(pcInsert, iInsertLen, "qinbound:%d",qinbound.element_count);
-				}
-				//else {
-				//printed = snprintf(pcInsert, iInsertLen, "test");
-				//}
+				//int output_index = queue_get_level(&qinbound); // Keep track of the current index in dmp_output
+
+				//char hexString[3000] = ""; // Make sure it's large enough to hold the result
+				//convertToHex(in_pkt.payload, in_pkt.len, hexString);
+
+				//dmp_output[3000]=0;
+				//printed = snprintf(pcInsert, iInsertLen, "%s",packet_stat_msg);
+				//for(int i=0;i<in_pkt.len;i++)if(!in_pkt.payload[i])in_pkt.payload[i]='a';
+				printed = snprintf(pcInsert, iInsertLen, "%d",in_pkt.len);
+				//in_pkt.len=0;
 			}
 			break;
         default: /* unknown tag */
