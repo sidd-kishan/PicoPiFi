@@ -213,3 +213,15 @@ void wait_for_netif_is_up()
 {
     while (!netif_is_up(&netif_data));    
 }
+
+sys_prot_t sys_arch_protect(void) {
+    return 0;
+}
+
+void sys_arch_unprotect(__unused sys_prot_t pval) {
+}
+
+/* lwip needs a millisecond time source, and the TinyUSB board support code has one available */
+uint32_t sys_now(void) {
+    return to_ms_since_boot(get_absolute_time());
+}

@@ -127,9 +127,6 @@ CMakeFiles/pico_webserver.dir/wifi_code.c.obj: \
  /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h \
  /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
  /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h \
- /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/dhcp.h \
- /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/acd.h \
- /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/prot/acd.h \
  /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/cyw43-driver/src/cyw43_ll.h \
  /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/cyw43-driver/src/cyw43_country.h \
  /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/src/rp2_common/pico_async_context/include/pico/async_context.h \

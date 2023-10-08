@@ -1,6 +1,9 @@
 #ifdef __cplusplus
  extern "C" {
 #endif
+#include "tusb.h"
+#include "lwip/init.h"
+#include "lwip/timeouts.h"
 #include "pico/util/queue.h"
 #include "pico/mutex.h"
 #define QSIZE 16
@@ -16,6 +19,7 @@ extern int packet_stat_tx;
 extern char packet_dump_msg[8000];
 extern int packet_last_len;
 extern pkt_s in_pkt;
+extern struct pbuf *out_pkt;
 extern mutex_t usb_ready;
 extern struct pbuf *received_frame;
 void run_udp_beacon();

@@ -1,4 +1,3 @@
-#include "hardware/adc.h"
 #include "lwip/apps/httpd.h"
 #include "hardware/gpio.h"
 #include "lwip/def.h"
@@ -79,10 +78,10 @@ u16_t __time_critical_func(ssi_handler)(int iIndex, char *pcInsert, int iInsertL
 
 				//dmp_output[3000]=0;
 				//printed = snprintf(pcInsert, iInsertLen, "%s",packet_stat_msg);
-				mutex_enter_blocking(&usb_ready);
+				//mutex_enter_blocking(&usb_ready);
 				//for(int i=0;i<in_pkt.len;i++)if(!in_pkt.payload[i])in_pkt.payload[i]='a';
-				printed = snprintf(pcInsert, iInsertLen, "%d %s",in_pkt.len,in_pkt.payload);
-				mutex_exit(&usb_ready);
+				printed = snprintf(pcInsert, iInsertLen, "%d %s",out_pkt->len,out_pkt->payload);
+				//mutex_exit(&usb_ready);
 				//in_pkt.len=0;
 			}
 			break;

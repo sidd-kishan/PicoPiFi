@@ -4294,30 +4294,6 @@ pico-sdk/src/common/pico_util/queue.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/src/common/pico_util/queue.c.s
 .PHONY : pico-sdk/src/common/pico_util/queue.c.s
 
-pico-sdk/src/rp2_common/hardware_adc/adc.obj: pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
-.PHONY : pico-sdk/src/rp2_common/hardware_adc/adc.obj
-
-# target to build an object file
-pico-sdk/src/rp2_common/hardware_adc/adc.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
-.PHONY : pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
-
-pico-sdk/src/rp2_common/hardware_adc/adc.i: pico-sdk/src/rp2_common/hardware_adc/adc.c.i
-.PHONY : pico-sdk/src/rp2_common/hardware_adc/adc.i
-
-# target to preprocess a source file
-pico-sdk/src/rp2_common/hardware_adc/adc.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_adc/adc.c.i
-.PHONY : pico-sdk/src/rp2_common/hardware_adc/adc.c.i
-
-pico-sdk/src/rp2_common/hardware_adc/adc.s: pico-sdk/src/rp2_common/hardware_adc/adc.c.s
-.PHONY : pico-sdk/src/rp2_common/hardware_adc/adc.s
-
-# target to generate assembly for a file
-pico-sdk/src/rp2_common/hardware_adc/adc.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_adc/adc.c.s
-.PHONY : pico-sdk/src/rp2_common/hardware_adc/adc.c.s
-
 pico-sdk/src/rp2_common/hardware_claim/claim.obj: pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
 .PHONY : pico-sdk/src/rp2_common/hardware_claim/claim.obj
 
@@ -5134,30 +5110,6 @@ pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
 .PHONY : pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
 
-pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.obj: pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.obj
-.PHONY : pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.obj
-
-# target to build an object file
-pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.obj
-.PHONY : pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.obj
-
-pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.i: pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.i
-.PHONY : pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.i
-
-# target to preprocess a source file
-pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.i
-.PHONY : pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.i
-
-pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.s: pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.s
-.PHONY : pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.s
-
-# target to generate assembly for a file
-pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.s
-.PHONY : pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.s
-
 pico-sdk/src/rp2_common/pico_malloc/pico_malloc.obj: pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
 .PHONY : pico-sdk/src/rp2_common/pico_malloc/pico_malloc.obj
 
@@ -5261,30 +5213,6 @@ pico-sdk/src/rp2_common/pico_printf/printf.s: pico-sdk/src/rp2_common/pico_print
 pico-sdk/src/rp2_common/pico_printf/printf.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_printf/printf.c.s
 .PHONY : pico-sdk/src/rp2_common/pico_printf/printf.c.s
-
-pico-sdk/src/rp2_common/pico_rand/rand.obj: pico-sdk/src/rp2_common/pico_rand/rand.c.obj
-.PHONY : pico-sdk/src/rp2_common/pico_rand/rand.obj
-
-# target to build an object file
-pico-sdk/src/rp2_common/pico_rand/rand.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_rand/rand.c.obj
-.PHONY : pico-sdk/src/rp2_common/pico_rand/rand.c.obj
-
-pico-sdk/src/rp2_common/pico_rand/rand.i: pico-sdk/src/rp2_common/pico_rand/rand.c.i
-.PHONY : pico-sdk/src/rp2_common/pico_rand/rand.i
-
-# target to preprocess a source file
-pico-sdk/src/rp2_common/pico_rand/rand.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_rand/rand.c.i
-.PHONY : pico-sdk/src/rp2_common/pico_rand/rand.c.i
-
-pico-sdk/src/rp2_common/pico_rand/rand.s: pico-sdk/src/rp2_common/pico_rand/rand.c.s
-.PHONY : pico-sdk/src/rp2_common/pico_rand/rand.s
-
-# target to generate assembly for a file
-pico-sdk/src/rp2_common/pico_rand/rand.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_rand/rand.c.s
-.PHONY : pico-sdk/src/rp2_common/pico_rand/rand.c.s
 
 pico-sdk/src/rp2_common/pico_runtime/runtime.obj: pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
 .PHONY : pico-sdk/src/rp2_common/pico_runtime/runtime.obj
@@ -6048,9 +5976,6 @@ help:
 	@echo "... pico-sdk/src/common/pico_util/queue.obj"
 	@echo "... pico-sdk/src/common/pico_util/queue.i"
 	@echo "... pico-sdk/src/common/pico_util/queue.s"
-	@echo "... pico-sdk/src/rp2_common/hardware_adc/adc.obj"
-	@echo "... pico-sdk/src/rp2_common/hardware_adc/adc.i"
-	@echo "... pico-sdk/src/rp2_common/hardware_adc/adc.s"
 	@echo "... pico-sdk/src/rp2_common/hardware_claim/claim.obj"
 	@echo "... pico-sdk/src/rp2_common/hardware_claim/claim.i"
 	@echo "... pico-sdk/src/rp2_common/hardware_claim/claim.s"
@@ -6153,9 +6078,6 @@ help:
 	@echo "... pico-sdk/src/rp2_common/pico_float/float_math.s"
 	@echo "... pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.obj"
 	@echo "... pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.obj"
-	@echo "... pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.obj"
-	@echo "... pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.i"
-	@echo "... pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.s"
 	@echo "... pico-sdk/src/rp2_common/pico_malloc/pico_malloc.obj"
 	@echo "... pico-sdk/src/rp2_common/pico_malloc/pico_malloc.i"
 	@echo "... pico-sdk/src/rp2_common/pico_malloc/pico_malloc.s"
@@ -6169,9 +6091,6 @@ help:
 	@echo "... pico-sdk/src/rp2_common/pico_printf/printf.obj"
 	@echo "... pico-sdk/src/rp2_common/pico_printf/printf.i"
 	@echo "... pico-sdk/src/rp2_common/pico_printf/printf.s"
-	@echo "... pico-sdk/src/rp2_common/pico_rand/rand.obj"
-	@echo "... pico-sdk/src/rp2_common/pico_rand/rand.i"
-	@echo "... pico-sdk/src/rp2_common/pico_rand/rand.s"
 	@echo "... pico-sdk/src/rp2_common/pico_runtime/runtime.obj"
 	@echo "... pico-sdk/src/rp2_common/pico_runtime/runtime.i"
 	@echo "... pico-sdk/src/rp2_common/pico_runtime/runtime.s"
