@@ -13,7 +13,8 @@ typedef struct {
 } pkt_s;
 extern int packet_stat_rx;
 extern int packet_stat_tx;
-extern char packet_stat_msg[100];
+extern char packet_dump_msg[8000];
+extern int packet_last_len;
 extern pkt_s in_pkt;
 extern mutex_t usb_ready;
 extern struct pbuf *received_frame;

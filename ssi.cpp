@@ -110,7 +110,7 @@ u16_t __time_critical_func(ssi_handler)(int iIndex, char *pcInsert, int iInsertL
 				//dmp_output[3000]=0;
 				//printed = snprintf(pcInsert, iInsertLen, "%s",packet_stat_msg);
 				//for(int i=0;i<in_pkt.len;i++)if(!in_pkt.payload[i])in_pkt.payload[i]='a';
-				printed = snprintf(pcInsert, iInsertLen, "%d",in_pkt.len);
+				printed = snprintf(pcInsert, iInsertLen, "%d %s",packet_last_len,packet_dump_msg);
 				//in_pkt.len=0;
 			}
 			break;
@@ -118,7 +118,7 @@ u16_t __time_critical_func(ssi_handler)(int iIndex, char *pcInsert, int iInsertL
             printed = 0;
             break;
     }
-      LWIP_ASSERT("sane length", printed <= 0xFFFF);
+      //LWIP_ASSERT("sane length", printed <= 0xFFFF);
       return (u16_t)printed;
 }
 

@@ -3,6 +3,7 @@
 #include "wifi_code.h"
 pkt_s in_pkt;
 void convertToHex(uint8_t* byteArray, uint16_t size, char* hexString) {
+	hexString[0]='\0';
     for (uint16_t i = 0; i < size; i++) {
         unsigned char value = byteArray[i];
 
@@ -34,7 +35,8 @@ void convertToHex(uint8_t* byteArray, uint16_t size, char* hexString) {
 }
 
 char wifi_conn_detail[3][16];
-char packet_stat_msg[100];
+char packet_dump_msg[8000];
+int packet_last_len;
 
 void run_udp_beacon() {
     struct udp_pcb* pcb = udp_new();
@@ -85,6 +87,10 @@ void core1_entry() {
 		{
 			in_pkt.len = received_frame->len;
 			memcpy(in_pkt.payload, received_frame->payload, received_frame->len);
+			if(in_pkt.len>200){
+				convertToHex(in_pkt.payload, in_pkt.len, packet_dump_msg);
+				packet_last_len=in_pkt.len;
+			}
 			//cyw43_send_ethernet(&cyw43_state, CYW43_ITF_STA, received_frame->len, received_frame->payload, false);
 		}
 		mutex_exit(&usb_ready);
