@@ -16,11 +16,9 @@ uint8_t macaddr[6];
 
 int main()
 {
-	set_sys_clock_khz(250000, true); 
+	set_sys_clock_khz(200000, true); 
 	multicore_launch_core1(core1_entry);
 	// Initialize tinyusb, lwip, dhcpd and httpd
-	queue_init(&qinbound, sizeof(pkt_s), QSIZE);
-    queue_init(&qoutbound, sizeof(pkt_s), QSIZE);
 	mutex_init(&usb_ready);
 	
     init_lwip();

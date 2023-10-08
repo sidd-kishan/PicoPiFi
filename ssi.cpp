@@ -29,8 +29,7 @@ int scan_result(void *env, const cyw43_ev_scan_result_t *result) {
 const char * __not_in_flash("httpd") ssi_example_tags[] = {
 	"wifiscan", // 0
 	"wifiset",  // 1
-	"wifinet",  // 2 
-	"pktout"    // 3
+	"wifinet"  // 2 
 };
 
 
@@ -69,22 +68,6 @@ u16_t __time_critical_func(ssi_handler)(int iIndex, char *pcInsert, int iInsertL
 			printed = snprintf(pcInsert, iInsertLen, "{\"ip\":\"%s\",\"netmask\":\"%s\",\"gw\":\"%s\",\"mac\":\"%02x:%02x:%02x:%02x:%02x:%02x\"}", wifi_conn_detail[0],wifi_conn_detail[1],wifi_conn_detail[2], macaddr[0],macaddr[1],macaddr[2],
                                         macaddr[3],macaddr[4],macaddr[5]);
 			break;
-		case 3: /* pktout */
-			{
-				//int output_index = queue_get_level(&qinbound); // Keep track of the current index in dmp_output
-
-				//char hexString[3000] = ""; // Make sure it's large enough to hold the result
-				//convertToHex(in_pkt.payload, in_pkt.len, hexString);
-
-				//dmp_output[3000]=0;
-				//printed = snprintf(pcInsert, iInsertLen, "%s",packet_stat_msg);
-				//mutex_enter_blocking(&usb_ready);
-				//for(int i=0;i<in_pkt.len;i++)if(!in_pkt.payload[i])in_pkt.payload[i]='a';
-				printed = snprintf(pcInsert, iInsertLen, "%d %s",out_pkt->len,out_pkt->payload);
-				//mutex_exit(&usb_ready);
-				//in_pkt.len=0;
-			}
-			break;
         default: /* unknown tag */
             printed = 0;
             break;
@@ -95,9 +78,6 @@ u16_t __time_critical_func(ssi_handler)(int iIndex, char *pcInsert, int iInsertL
 
 void ssi_init()
 {
-    //adc_init();
-    //adc_gpio_init(26);
-    //adc_select_input(0);
     size_t i;
     for (i = 0; i < LWIP_ARRAYSIZE(ssi_example_tags); i++) {
         LWIP_ASSERT("tag too long for LWIP_HTTPD_MAX_TAG_NAME_LEN",
