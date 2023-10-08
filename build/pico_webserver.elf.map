@@ -35,7 +35,7 @@ Archive member included to satisfy reference by file (symbol)
 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-sbrkr.o)
                               /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-mallocr.o) (_sbrk_r)
 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-strcat.o)
-                              CMakeFiles/pico_webserver.dir/ssi.cpp.obj (strcat)
+                              CMakeFiles/pico_webserver.dir/wifi_code.c.obj (strcat)
 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-strchr.o)
                               CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/apps/http/httpd.c.obj (strchr)
 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-strcmp.o)
@@ -120,8 +120,6 @@ Discarded input sections
  .text          0x0000000000000000        0x0 CMakeFiles/pico_webserver.dir/ssi.cpp.obj
  .data          0x0000000000000000        0x0 CMakeFiles/pico_webserver.dir/ssi.cpp.obj
  .bss           0x0000000000000000        0x0 CMakeFiles/pico_webserver.dir/ssi.cpp.obj
- .text._Z12convertToHexPhtPc
-                0x0000000000000000       0x68 CMakeFiles/pico_webserver.dir/ssi.cpp.obj
  .text          0x0000000000000000        0x0 CMakeFiles/pico_webserver.dir/cgi.cpp.obj
  .data          0x0000000000000000        0x0 CMakeFiles/pico_webserver.dir/cgi.cpp.obj
  .bss           0x0000000000000000        0x0 CMakeFiles/pico_webserver.dir/cgi.cpp.obj
@@ -2077,9 +2075,9 @@ Discarded input sections
                 0x0000000000000000        0x8 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
  .bss.lockout_victim_initialized
                 0x0000000000000000        0x2 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
- .text          0x0000000000000000        0x0 /tmp/ccAKdXhV.o
- .data          0x0000000000000000        0x0 /tmp/ccAKdXhV.o
- .bss           0x0000000000000000        0x0 /tmp/ccAKdXhV.o
+ .text          0x0000000000000000        0x0 /tmp/ccvUDmNF.o
+ .data          0x0000000000000000        0x0 /tmp/ccvUDmNF.o
+ .bss           0x0000000000000000        0x0 /tmp/ccvUDmNF.o
  .data          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .bss           0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .text          0x0000000000000000       0x10 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-atexit.o)
@@ -2289,7 +2287,7 @@ LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nof
 .boot2          0x0000000010000000      0x100
                 0x0000000010000000                __boot2_start__ = .
  *(.boot2)
- .boot2         0x0000000010000000      0x100 /tmp/ccAKdXhV.o
+ .boot2         0x0000000010000000      0x100 /tmp/ccvUDmNF.o
                 0x0000000010000100                __boot2_end__ = .
                 0x0000000000000001                ASSERT (((__boot2_end__ - __boot2_start__) == 0x100), ERROR: Pico second stage bootloader must be 256 bytes in size)
 
@@ -4270,601 +4268,602 @@ LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nof
                 0x0000000020000000       0xc0 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
                 0x0000000020000000                ram_vector_table
 
-.data           0x00000000200000c0     0x1b30 load address 0x0000000010075c70
+.data           0x00000000200000c0     0x1b70 load address 0x0000000010075c70
                 0x00000000200000c0                __data_start__ = .
  *(vtable)
  *(.time_critical*)
  .time_critical.ssi_handler
-                0x00000000200000c0      0x108 CMakeFiles/pico_webserver.dir/ssi.cpp.obj
+                0x00000000200000c0      0x144 CMakeFiles/pico_webserver.dir/ssi.cpp.obj
                 0x00000000200000c0                ssi_handler
  .time_critical.httpd
-                0x00000000200001c8       0x10 CMakeFiles/pico_webserver.dir/ssi.cpp.obj
-                0x00000000200001c8                ssi_example_tags
+                0x0000000020000204       0x10 CMakeFiles/pico_webserver.dir/ssi.cpp.obj
+                0x0000000020000204                ssi_example_tags
  .time_critical.sem_acquire_blocking
-                0x00000000200001d8       0x44 CMakeFiles/pico_webserver.dir/pico-sdk/src/common/pico_sync/sem.c.obj
-                0x00000000200001d8                sem_acquire_blocking
+                0x0000000020000214       0x44 CMakeFiles/pico_webserver.dir/pico-sdk/src/common/pico_sync/sem.c.obj
+                0x0000000020000214                sem_acquire_blocking
  .time_critical.sem_acquire_block_until
-                0x000000002000021c       0x68 CMakeFiles/pico_webserver.dir/pico-sdk/src/common/pico_sync/sem.c.obj
-                0x000000002000021c                sem_acquire_block_until
+                0x0000000020000258       0x68 CMakeFiles/pico_webserver.dir/pico-sdk/src/common/pico_sync/sem.c.obj
+                0x0000000020000258                sem_acquire_block_until
  .time_critical.sem_release
-                0x0000000020000284       0x4c CMakeFiles/pico_webserver.dir/pico-sdk/src/common/pico_sync/sem.c.obj
-                0x0000000020000284                sem_release
+                0x00000000200002c0       0x4c CMakeFiles/pico_webserver.dir/pico-sdk/src/common/pico_sync/sem.c.obj
+                0x00000000200002c0                sem_release
  .time_critical.mutex_enter_blocking
-                0x00000000200002d0       0x48 CMakeFiles/pico_webserver.dir/pico-sdk/src/common/pico_sync/mutex.c.obj
-                0x00000000200002d0                mutex_enter_blocking
+                0x000000002000030c       0x48 CMakeFiles/pico_webserver.dir/pico-sdk/src/common/pico_sync/mutex.c.obj
+                0x000000002000030c                mutex_enter_blocking
  .time_critical.recursive_mutex_enter_blocking
-                0x0000000020000318       0x54 CMakeFiles/pico_webserver.dir/pico-sdk/src/common/pico_sync/mutex.c.obj
-                0x0000000020000318                recursive_mutex_enter_blocking
+                0x0000000020000354       0x54 CMakeFiles/pico_webserver.dir/pico-sdk/src/common/pico_sync/mutex.c.obj
+                0x0000000020000354                recursive_mutex_enter_blocking
  .time_critical.mutex_try_enter_block_until
-                0x000000002000036c       0x9c CMakeFiles/pico_webserver.dir/pico-sdk/src/common/pico_sync/mutex.c.obj
-                0x000000002000036c                mutex_try_enter_block_until
+                0x00000000200003a8       0x9c CMakeFiles/pico_webserver.dir/pico-sdk/src/common/pico_sync/mutex.c.obj
+                0x00000000200003a8                mutex_try_enter_block_until
  .time_critical.recursive_mutex_try_enter
-                0x0000000020000408       0x54 CMakeFiles/pico_webserver.dir/pico-sdk/src/common/pico_sync/mutex.c.obj
-                0x0000000020000408                recursive_mutex_try_enter
+                0x0000000020000444       0x54 CMakeFiles/pico_webserver.dir/pico-sdk/src/common/pico_sync/mutex.c.obj
+                0x0000000020000444                recursive_mutex_try_enter
  .time_critical.mutex_enter_timeout_ms
-                0x000000002000045c       0x90 CMakeFiles/pico_webserver.dir/pico-sdk/src/common/pico_sync/mutex.c.obj
-                0x000000002000045c                mutex_enter_timeout_ms
+                0x0000000020000498       0x90 CMakeFiles/pico_webserver.dir/pico-sdk/src/common/pico_sync/mutex.c.obj
+                0x0000000020000498                mutex_enter_timeout_ms
  .time_critical.mutex_exit
-                0x00000000200004ec       0x28 CMakeFiles/pico_webserver.dir/pico-sdk/src/common/pico_sync/mutex.c.obj
-                0x00000000200004ec                mutex_exit
+                0x0000000020000528       0x28 CMakeFiles/pico_webserver.dir/pico-sdk/src/common/pico_sync/mutex.c.obj
+                0x0000000020000528                mutex_exit
  .time_critical.recursive_mutex_exit
-                0x0000000020000514       0x44 CMakeFiles/pico_webserver.dir/pico-sdk/src/common/pico_sync/mutex.c.obj
-                0x0000000020000514                recursive_mutex_exit
+                0x0000000020000550       0x44 CMakeFiles/pico_webserver.dir/pico-sdk/src/common/pico_sync/mutex.c.obj
+                0x0000000020000550                recursive_mutex_exit
  .time_critical.flash_init_boot2_copyout
-                0x0000000020000558       0x30 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
+                0x0000000020000594       0x30 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
  .time_critical.flash_enable_xip_via_boot2
-                0x0000000020000588       0x10 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
+                0x00000000200005c4       0x10 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
  .time_critical.flash_cs_force
-                0x0000000020000598       0x38 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
+                0x00000000200005d4       0x38 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
  .time_critical.flash_do_cmd
-                0x00000000200005d0       0xc4 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
-                0x00000000200005d0                flash_do_cmd
+                0x000000002000060c       0xc4 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
+                0x000000002000060c                flash_do_cmd
  .time_critical.reset_non_control_endpoints
-                0x0000000020000694       0xbc CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x00000000200006d0       0xbc CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
  .time_critical.hw_handle_buff_status
-                0x0000000020000750       0xa8 CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x000000002000078c       0xa8 CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
  .time_critical.dcd_rp2040_irq
-                0x00000000200007f8      0x4d8 CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x0000000020000834      0x4d8 CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
  .time_critical.e15_is_bulkin_ep
-                0x0000000020000cd0       0x28 CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+                0x0000000020000d0c       0x28 CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
  .time_critical.e15_is_critical_frame_period
-                0x0000000020000cf8       0x34 CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+                0x0000000020000d34       0x34 CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
  .time_critical.prepare_ep_buffer
-                0x0000000020000d2c       0x70 CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+                0x0000000020000d68       0x70 CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
  .time_critical.sync_ep_buffer
-                0x0000000020000d9c       0x4c CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+                0x0000000020000dd8       0x4c CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
  .time_critical._hw_endpoint_xfer_sync
-                0x0000000020000de8       0x28 CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+                0x0000000020000e24       0x28 CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
  .time_critical.hw_endpoint_reset_transfer
-                0x0000000020000e10        0xc CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
-                0x0000000020000e10                hw_endpoint_reset_transfer
+                0x0000000020000e4c        0xc CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+                0x0000000020000e4c                hw_endpoint_reset_transfer
  .time_critical._hw_endpoint_buffer_control_update32
-                0x0000000020000e1c       0x58 CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
-                0x0000000020000e1c                _hw_endpoint_buffer_control_update32
+                0x0000000020000e58       0x58 CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+                0x0000000020000e58                _hw_endpoint_buffer_control_update32
  .time_critical.hw_endpoint_start_next_buffer
-                0x0000000020000e74       0x6c CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
-                0x0000000020000e74                hw_endpoint_start_next_buffer
+                0x0000000020000eb0       0x6c CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+                0x0000000020000eb0                hw_endpoint_start_next_buffer
  .time_critical.hw_endpoint_xfer_continue
-                0x0000000020000ee0       0x50 CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
-                0x0000000020000ee0                hw_endpoint_xfer_continue
+                0x0000000020000f1c       0x50 CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+                0x0000000020000f1c                hw_endpoint_xfer_continue
  .time_critical.tinyusb
-                0x0000000020000f30      0x170 CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x0000000020000f30                dcd_event_handler
+                0x0000000020000f6c      0x170 CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x0000000020000f6c                dcd_event_handler
  *(.text*)
- .text          0x00000000200010a0        0x4 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
-                0x00000000200010a0                __aeabi_ldiv0
-                0x00000000200010a0                __aeabi_idiv0
- .text          0x00000000200010a4       0x48 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-memcmp.o)
-                0x00000000200010a4                memcmp
- .text          0x00000000200010ec       0xac /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-memmove.o)
-                0x00000000200010ec                memmove
- .text.__stub   0x0000000020001198       0x90 linker stubs
-                0x0000000020001228                . = ALIGN (0x4)
+ .text          0x00000000200010dc        0x4 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
+                0x00000000200010dc                __aeabi_ldiv0
+                0x00000000200010dc                __aeabi_idiv0
+ .text          0x00000000200010e0       0x48 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-memcmp.o)
+                0x00000000200010e0                memcmp
+ .text          0x0000000020001128       0xac /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-memmove.o)
+                0x0000000020001128                memmove
+ *fill*         0x00000000200011d4        0x4 
+ .text.__stub   0x00000000200011d8       0x90 linker stubs
+                0x0000000020001268                . = ALIGN (0x4)
  *(.rodata*)
-                0x0000000020001228                . = ALIGN (0x4)
+                0x0000000020001268                . = ALIGN (0x4)
  *(.data*)
- .data.entries  0x0000000020001228       0x30 CMakeFiles/pico_webserver.dir/tusb_lwip_glue.c.obj
+ .data.entries  0x0000000020001268       0x30 CMakeFiles/pico_webserver.dir/tusb_lwip_glue.c.obj
  .data.magic_cookie
-                0x0000000020001258        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/lib/networking/dhserver.c.obj
-                0x0000000020001258                magic_cookie
+                0x0000000020001298        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/lib/networking/dhserver.c.obj
+                0x0000000020001298                magic_cookie
  .data.ndis_report
-                0x000000002000125c        0x8 CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/lib/networking/rndis_reports.c.obj
+                0x000000002000129c        0x8 CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/lib/networking/rndis_reports.c.obj
  .data._ZL10LED_STATUS
-                0x0000000020001264        0x4 CMakeFiles/pico_webserver.dir/cgi.cpp.obj
+                0x00000000200012a4        0x4 CMakeFiles/pico_webserver.dir/cgi.cpp.obj
  .data.striped_spin_lock_num
-                0x0000000020001268        0x1 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
- *fill*         0x0000000020001269        0x3 
- .data          0x000000002000126c       0x48 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
-                0x000000002000126c                irq_handler_chain_slots
-                0x000000002000129c                irq_handler_chain_first_slot
-                0x00000000200012a6                irq_handler_chain_remove_tail
+                0x00000000200012a8        0x1 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+ *fill*         0x00000000200012a9        0x3 
+ .data          0x00000000200012ac       0x48 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
+                0x00000000200012ac                irq_handler_chain_slots
+                0x00000000200012dc                irq_handler_chain_first_slot
+                0x00000000200012e6                irq_handler_chain_remove_tail
  .data.default_alarm_pool
-                0x00000000200012b4       0x18 CMakeFiles/pico_webserver.dir/pico-sdk/src/common/pico_time/time.c.obj
+                0x00000000200012f4       0x18 CMakeFiles/pico_webserver.dir/pico-sdk/src/common/pico_time/time.c.obj
  .data.default_alarm_pool_heap
-                0x00000000200012cc       0x10 CMakeFiles/pico_webserver.dir/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x00000000200012dc        0x4 
+                0x000000002000130c       0x10 CMakeFiles/pico_webserver.dir/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x000000002000131c        0x4 
  .data.aeabi_bits_funcs
-                0x00000000200012e0       0x10 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
-                0x00000000200012e0                aeabi_bits_funcs
-                0x00000000200012f0                aeabi_bits_funcs_end
+                0x0000000020001320       0x10 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+                0x0000000020001320                aeabi_bits_funcs
+                0x0000000020001330                aeabi_bits_funcs_end
  .data.aeabi_mem_funcs
-                0x00000000200012f0       0x10 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
-                0x00000000200012f0                aeabi_mem_funcs
-                0x0000000020001300                aeabi_mem_funcs_end
+                0x0000000020001330       0x10 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+                0x0000000020001330                aeabi_mem_funcs
+                0x0000000020001340                aeabi_mem_funcs_end
  .data.ep_dir_string
-                0x0000000020001300        0x8 CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
-                0x0000000020001300                ep_dir_string
+                0x0000000020001340        0x8 CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+                0x0000000020001340                ep_dir_string
  .data._usbd_qdef
-                0x0000000020001308       0x1c CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x0000000020001308                _usbd_qdef
+                0x0000000020001348       0x1c CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x0000000020001348                _usbd_qdef
  .data._usbd_rhport
-                0x0000000020001324        0x1 CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
- *fill*         0x0000000020001325        0x3 
+                0x0000000020001364        0x1 CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+ *fill*         0x0000000020001365        0x3 
  .data.always_pending_update_timeout_worker
-                0x0000000020001328       0x10 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.obj
+                0x0000000020001368       0x10 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.obj
  .data.lwip_timeout_worker
-                0x0000000020001338       0x18 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.obj
- .data.iss.0    0x0000000020001350        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/tcp.c.obj
+                0x0000000020001378       0x18 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.obj
+ .data.iss.0    0x0000000020001390        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/tcp.c.obj
  .data.tcp_port
-                0x0000000020001354        0x2 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/tcp.c.obj
+                0x0000000020001394        0x2 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/tcp.c.obj
  .data.udp_port
-                0x0000000020001356        0x2 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/udp.c.obj
- .data.xid.0    0x0000000020001358        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.obj
+                0x0000000020001396        0x2 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/udp.c.obj
+ .data.xid.0    0x0000000020001398        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.obj
  .data.country_code
-                0x000000002000135c        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj
+                0x000000002000139c        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj
  .data.cyw43_poll_worker
-                0x0000000020001360       0x10 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj
+                0x00000000200013a0       0x10 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj
  .data.sleep_timeout_worker
-                0x0000000020001370       0x18 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj
- .data          0x0000000020001388      0x430 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-impure.o)
-                0x0000000020001388                _impure_ptr
- .data          0x00000000200017b8      0x410 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-mallocr.o)
-                0x00000000200017b8                __malloc_sbrk_base
-                0x00000000200017bc                __malloc_trim_threshold
-                0x00000000200017c0                __malloc_av_
-                0x0000000020001bc8                . = ALIGN (0x4)
+                0x00000000200013b0       0x18 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj
+ .data          0x00000000200013c8      0x430 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-impure.o)
+                0x00000000200013c8                _impure_ptr
+ .data          0x00000000200017f8      0x410 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-mallocr.o)
+                0x00000000200017f8                __malloc_sbrk_base
+                0x00000000200017fc                __malloc_trim_threshold
+                0x0000000020001800                __malloc_av_
+                0x0000000020001c08                . = ALIGN (0x4)
  *(.after_data.*)
-                0x0000000020001bc8                . = ALIGN (0x4)
-                0x0000000020001bc8                PROVIDE (__mutex_array_start = .)
+                0x0000000020001c08                . = ALIGN (0x4)
+                0x0000000020001c08                PROVIDE (__mutex_array_start = .)
  *(SORT_BY_NAME(.mutex_array.*))
  *(.mutex_array)
- .mutex_array   0x0000000020001bc8        0x8 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
- .mutex_array   0x0000000020001bd0        0x8 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x0000000020001bd8                PROVIDE (__mutex_array_end = .)
-                0x0000000020001bd8                . = ALIGN (0x4)
-                0x0000000020001bd8                PROVIDE (__preinit_array_start = .)
+ .mutex_array   0x0000000020001c08        0x8 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
+ .mutex_array   0x0000000020001c10        0x8 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x0000000020001c18                PROVIDE (__mutex_array_end = .)
+                0x0000000020001c18                . = ALIGN (0x4)
+                0x0000000020001c18                PROVIDE (__preinit_array_start = .)
  *(SORT_BY_NAME(.preinit_array.*))
  .preinit_array.00001
-                0x0000000020001bd8        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+                0x0000000020001c18        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
  .preinit_array.00010
-                0x0000000020001bdc        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+                0x0000000020001c1c        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
  .preinit_array.00020
-                0x0000000020001be0        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x0000000020001c20        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
  .preinit_array.00020
-                0x0000000020001be4        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+                0x0000000020001c24        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
  *(.preinit_array)
-                0x0000000020001be8                PROVIDE (__preinit_array_end = .)
-                0x0000000020001be8                . = ALIGN (0x4)
-                0x0000000020001be8                PROVIDE (__init_array_start = .)
+                0x0000000020001c28                PROVIDE (__preinit_array_end = .)
+                0x0000000020001c28                . = ALIGN (0x4)
+                0x0000000020001c28                PROVIDE (__init_array_start = .)
  *(SORT_BY_NAME(.init_array.*))
  *(.init_array)
- .init_array    0x0000000020001be8        0x4 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
- .init_array    0x0000000020001bec        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
-                0x0000000020001bf0                PROVIDE (__init_array_end = .)
-                0x0000000020001bf0                . = ALIGN (0x4)
-                0x0000000020001bf0                PROVIDE (__fini_array_start = .)
+ .init_array    0x0000000020001c28        0x4 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
+ .init_array    0x0000000020001c2c        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
+                0x0000000020001c30                PROVIDE (__init_array_end = .)
+                0x0000000020001c30                . = ALIGN (0x4)
+                0x0000000020001c30                PROVIDE (__fini_array_start = .)
  *(SORT_BY_NAME(.fini_array.*))
  *(.fini_array)
-                0x0000000020001bf0                PROVIDE (__fini_array_end = .)
+                0x0000000020001c30                PROVIDE (__fini_array_end = .)
  *(.jcr)
-                0x0000000020001bf0                . = ALIGN (0x4)
-                0x0000000020001bf0                __data_end__ = .
+                0x0000000020001c30                . = ALIGN (0x4)
+                0x0000000020001c30                __data_end__ = .
                 0x0000000010075c70                __etext = LOADADDR (.data)
 
 .tm_clone_table
-                0x0000000020001bf0        0x0 load address 0x00000000100777a0
+                0x0000000020001c30        0x0 load address 0x00000000100777e0
  .tm_clone_table
-                0x0000000020001bf0        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
+                0x0000000020001c30        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
  .tm_clone_table
-                0x0000000020001bf0        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtend.o
+                0x0000000020001c30        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtend.o
 
-.igot.plt       0x0000000020001bf0        0x0 load address 0x00000000100777a0
- .igot.plt      0x0000000020001bf0        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
+.igot.plt       0x0000000020001c30        0x0 load address 0x00000000100777e0
+ .igot.plt      0x0000000020001c30        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
 
 .uninitialized_data
-                0x0000000020001bf0        0x0 load address 0x00000000100777a0
-                0x0000000020001bf0                . = ALIGN (0x4)
+                0x0000000020001c30        0x0 load address 0x00000000100777e0
+                0x0000000020001c30                . = ALIGN (0x4)
  *(.uninitialized_data*)
 
-.scratch_x      0x0000000020040000        0x0 load address 0x00000000100777a0
+.scratch_x      0x0000000020040000        0x0 load address 0x00000000100777e0
                 0x0000000020040000                __scratch_x_start__ = .
  *(.scratch_x.*)
                 0x0000000020040000                . = ALIGN (0x4)
                 0x0000000020040000                __scratch_x_end__ = .
-                0x00000000100777a0                __scratch_x_source__ = LOADADDR (.scratch_x)
+                0x00000000100777e0                __scratch_x_source__ = LOADADDR (.scratch_x)
 
-.scratch_y      0x0000000020041000        0x0 load address 0x00000000100777a0
+.scratch_y      0x0000000020041000        0x0 load address 0x00000000100777e0
                 0x0000000020041000                __scratch_y_start__ = .
  *(.scratch_y.*)
                 0x0000000020041000                . = ALIGN (0x4)
                 0x0000000020041000                __scratch_y_end__ = .
-                0x00000000100777a0                __scratch_y_source__ = LOADADDR (.scratch_y)
+                0x00000000100777e0                __scratch_y_source__ = LOADADDR (.scratch_y)
 
-.bss            0x0000000020001bf0     0xc1bc
-                0x0000000020001bf0                . = ALIGN (0x4)
-                0x0000000020001bf0                __bss_start__ = .
+.bss            0x0000000020001c30     0xc1bc
+                0x0000000020001c30                . = ALIGN (0x4)
+                0x0000000020001c30                __bss_start__ = .
  *(SORT_BY_ALIGNMENT(SORT_BY_NAME(.bss*)))
  .bss.cyw43_async_context_threadsafe_background
-                0x0000000020001bf0       0x50 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj
+                0x0000000020001c30       0x50 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj
  .bss.default_alarm_pool_entries
-                0x0000000020001c40      0x100 CMakeFiles/pico_webserver.dir/pico-sdk/src/common/pico_time/time.c.obj
- .bss.sd_table  0x0000000020001d40      0x100 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
-                0x0000000020001d40                sd_table
- .bss           0x0000000020001e40       0x1c /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
- .bss           0x0000000020001e5c       0x34 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-mallocr.o)
-                0x0000000020001e5c                __malloc_top_pad
-                0x0000000020001e60                __malloc_current_mallinfo
-                0x0000000020001e88                __malloc_max_sbrked_mem
-                0x0000000020001e8c                __malloc_max_total_mem
- .bss           0x0000000020001e90        0x4 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-reent.o)
-                0x0000000020001e90                errno
+                0x0000000020001c80      0x100 CMakeFiles/pico_webserver.dir/pico-sdk/src/common/pico_time/time.c.obj
+ .bss.sd_table  0x0000000020001d80      0x100 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+                0x0000000020001d80                sd_table
+ .bss           0x0000000020001e80       0x1c /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
+ .bss           0x0000000020001e9c       0x34 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-mallocr.o)
+                0x0000000020001e9c                __malloc_top_pad
+                0x0000000020001ea0                __malloc_current_mallinfo
+                0x0000000020001ec8                __malloc_max_sbrked_mem
+                0x0000000020001ecc                __malloc_max_total_mem
+ .bss           0x0000000020001ed0        0x4 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-reent.o)
+                0x0000000020001ed0                errno
  .bss._app_driver
-                0x0000000020001e94        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x0000000020001ed4        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
  .bss._ctrl_xfer
-                0x0000000020001e98       0x14 CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+                0x0000000020001ed8       0x14 CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
  .bss._desc_str
-                0x0000000020001eac       0x40 CMakeFiles/pico_webserver.dir/usb_descriptors.c.obj
+                0x0000000020001eec       0x40 CMakeFiles/pico_webserver.dir/usb_descriptors.c.obj
  .bss._netd_itf
-                0x0000000020001eec        0xc CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj
+                0x0000000020001f2c        0xc CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj
  .bss._ubsd_mutexdef
-                0x0000000020001ef8        0x8 CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x0000000020001f38        0x8 CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
  .bss._usbd_ctrl_buf
-                0x0000000020001f00       0x40 CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+                0x0000000020001f40       0x40 CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
  .bss._usbd_dev
-                0x0000000020001f40       0x53 CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
- *fill*         0x0000000020001f93        0x1 
+                0x0000000020001f80       0x53 CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+ *fill*         0x0000000020001fd3        0x1 
  .bss._usbd_mutex
-                0x0000000020001f94        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
- .bss._usbd_q   0x0000000020001f98        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x0000000020001fd4        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+ .bss._usbd_q   0x0000000020001fd8        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
  .bss._usbd_qdef_buf
-                0x0000000020001f9c       0xc0 CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x0000000020001f9c                _usbd_qdef_buf
+                0x0000000020001fdc       0xc0 CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x0000000020001fdc                _usbd_qdef_buf
  .bss._used_instruction_space
-                0x000000002000205c        0x8 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
- .bss.ackno     0x0000000020002064        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/tcp_in.c.obj
+                0x000000002000209c        0x8 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
+ .bss.ackno     0x00000000200020a4        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/tcp_in.c.obj
  .bss.alarm_callbacks
-                0x0000000020002068       0x10 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x00000000200020a8       0x10 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
  .bss.arp_table
-                0x0000000020002078       0xf0 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.obj
+                0x00000000200020b8       0xf0 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.obj
  .bss.async_context
-                0x0000000020002168        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj
+                0x00000000200021a8        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj
  .bss.async_contexts_by_user_irq
-                0x000000002000216c       0x18 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj
+                0x00000000200021ac       0x18 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj
  .bss.boot2_copyout
-                0x0000000020002184      0x100 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
+                0x00000000200021c4      0x100 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
  .bss.bus_data_instance
-                0x0000000020002284        0xc CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj
- .bss.claimed   0x0000000020002290        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
- .bss.config    0x0000000020002294        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/lib/networking/dhserver.c.obj
+                0x00000000200022c4        0xc CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj
+ .bss.claimed   0x00000000200022d0        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+ .bss.config    0x00000000200022d4        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/lib/networking/dhserver.c.obj
  .bss.configured_freq
-                0x0000000020002298       0x28 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+                0x00000000200022d8       0x28 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
  .bss.current_timeout_due_time
-                0x00000000200022c0        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/timeouts.c.obj
+                0x0000000020002300        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/timeouts.c.obj
  .bss.cyw43_async_context
-                0x00000000200022c4        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj
+                0x0000000020002304        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj
  .bss.cyw43_poll
-                0x00000000200022c8        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj
-                0x00000000200022c8                cyw43_poll
+                0x0000000020002308        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj
+                0x0000000020002308                cyw43_poll
  .bss.cyw43_sleep
-                0x00000000200022cc        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj
-                0x00000000200022cc                cyw43_sleep
+                0x000000002000230c        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj
+                0x000000002000230c                cyw43_sleep
  .bss.cyw43_state
-                0x00000000200022d0      0x9b4 CMakeFiles/pico_webserver.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj
-                0x00000000200022d0                cyw43_state
+                0x0000000020002310      0x9b4 CMakeFiles/pico_webserver.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj
+                0x0000000020002310                cyw43_state
  .bss.default_alarm_pool_entry_ids_high
-                0x0000000020002c84       0x10 CMakeFiles/pico_webserver.dir/pico-sdk/src/common/pico_time/time.c.obj
+                0x0000000020002cc4       0x10 CMakeFiles/pico_webserver.dir/pico-sdk/src/common/pico_time/time.c.obj
  .bss.default_alarm_pool_heap_nodes
-                0x0000000020002c94       0x30 CMakeFiles/pico_webserver.dir/pico-sdk/src/common/pico_time/time.c.obj
+                0x0000000020002cd4       0x30 CMakeFiles/pico_webserver.dir/pico-sdk/src/common/pico_time/time.c.obj
  .bss.dhcp_data
-                0x0000000020002cc4      0x204 CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/lib/networking/dhserver.c.obj
-                0x0000000020002cc4                dhcp_data
- .bss.dhcp_pcb  0x0000000020002ec8        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.obj
+                0x0000000020002d04      0x204 CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/lib/networking/dhserver.c.obj
+                0x0000000020002d04                dhcp_data
+ .bss.dhcp_pcb  0x0000000020002f08        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.obj
  .bss.dhcp_rx_options_given
-                0x0000000020002ecc        0x8 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.obj
+                0x0000000020002f0c        0x8 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.obj
  .bss.dhcp_rx_options_val
-                0x0000000020002ed4       0x20 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.obj
- .bss.drivers   0x0000000020002ef4        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x0000000020002f14       0x20 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.obj
+ .bss.drivers   0x0000000020002f34        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .bss.e15_last_sof
-                0x0000000020002ef8        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
-                0x0000000020002ef8                e15_last_sof
+                0x0000000020002f38        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+                0x0000000020002f38                e15_last_sof
  .bss.encapsulated_buffer
-                0x0000000020002efc        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/lib/networking/rndis_reports.c.obj
- .bss.filter    0x0000000020002f00        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x0000000020002f3c        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/lib/networking/rndis_reports.c.obj
+ .bss.filter    0x0000000020002f40        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .bss.heap_end.0
-                0x0000000020002f04        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x0000000020002f44        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
  .bss.http_uri_buf
-                0x0000000020002f08       0x40 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/apps/http/httpd.c.obj
+                0x0000000020002f48       0x40 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/apps/http/httpd.c.obj
  .bss.httpd_cgis
-                0x0000000020002f48        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/apps/http/httpd.c.obj
+                0x0000000020002f88        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/apps/http/httpd.c.obj
  .bss.httpd_num_cgis
-                0x0000000020002f4c        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/apps/http/httpd.c.obj
+                0x0000000020002f8c        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/apps/http/httpd.c.obj
  .bss.httpd_num_tags
-                0x0000000020002f50        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/apps/http/httpd.c.obj
+                0x0000000020002f90        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/apps/http/httpd.c.obj
  .bss.httpd_req_buf
-                0x0000000020002f54      0x400 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/apps/http/httpd.c.obj
+                0x0000000020002f94      0x400 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/apps/http/httpd.c.obj
  .bss.httpd_ssi_handler
-                0x0000000020003354        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/apps/http/httpd.c.obj
+                0x0000000020003394        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/apps/http/httpd.c.obj
  .bss.httpd_tags
-                0x0000000020003358        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/apps/http/httpd.c.obj
+                0x0000000020003398        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/apps/http/httpd.c.obj
  .bss.hw_endpoints
-                0x000000002000335c      0x400 CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
- .bss.in_pkt    0x000000002000375c      0x5de CMakeFiles/pico_webserver.dir/wifi_code.c.obj
-                0x000000002000375c                in_pkt
- *fill*         0x0000000020003d3a        0x2 
- .bss.inseg     0x0000000020003d3c       0x10 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/tcp_in.c.obj
- .bss.ip_data   0x0000000020003d4c       0x18 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ip.c.obj
-                0x0000000020003d4c                ip_data
+                0x000000002000339c      0x400 CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+ .bss.in_pkt    0x000000002000379c      0x5de CMakeFiles/pico_webserver.dir/wifi_code.c.obj
+                0x000000002000379c                in_pkt
+ *fill*         0x0000000020003d7a        0x2 
+ .bss.inseg     0x0000000020003d7c       0x10 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/tcp_in.c.obj
+ .bss.ip_data   0x0000000020003d8c       0x18 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ip.c.obj
+                0x0000000020003d8c                ip_data
  .bss.lazy_vsnprintf
-                0x0000000020003d64        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- .bss.lfree     0x0000000020003d68        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/mem.c.obj
+                0x0000000020003da4        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .bss.lfree     0x0000000020003da8        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/mem.c.obj
  .bss.lwip_stats
-                0x0000000020003d6c       0xdc CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/stats.c.obj
-                0x0000000020003d6c                lwip_stats
- .bss.macaddr   0x0000000020003e48        0x6 CMakeFiles/pico_webserver.dir/webserver.c.obj
-                0x0000000020003e48                macaddr
- *fill*         0x0000000020003e4e        0x2 
+                0x0000000020003dac       0xdc CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/stats.c.obj
+                0x0000000020003dac                lwip_stats
+ .bss.macaddr   0x0000000020003e88        0x6 CMakeFiles/pico_webserver.dir/webserver.c.obj
+                0x0000000020003e88                macaddr
+ *fill*         0x0000000020003e8e        0x2 
  .bss.memp_memory_FRAG_PBUF_base
-                0x0000000020003e50      0x16b CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/memp.c.obj
-                0x0000000020003e50                memp_memory_FRAG_PBUF_base
- *fill*         0x0000000020003fbb        0x1 
+                0x0000000020003e90      0x16b CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/memp.c.obj
+                0x0000000020003e90                memp_memory_FRAG_PBUF_base
+ *fill*         0x0000000020003ffb        0x1 
  .bss.memp_memory_PBUF_POOL_base
-                0x0000000020003fbc     0x5fc3 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/memp.c.obj
-                0x0000000020003fbc                memp_memory_PBUF_POOL_base
- *fill*         0x0000000020009f7f        0x1 
+                0x0000000020003ffc     0x5fc3 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/memp.c.obj
+                0x0000000020003ffc                memp_memory_PBUF_POOL_base
+ *fill*         0x0000000020009fbf        0x1 
  .bss.memp_memory_PBUF_base
-                0x0000000020009f80      0x103 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/memp.c.obj
-                0x0000000020009f80                memp_memory_PBUF_base
- *fill*         0x000000002000a083        0x1 
+                0x0000000020009fc0      0x103 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/memp.c.obj
+                0x0000000020009fc0                memp_memory_PBUF_base
+ *fill*         0x000000002000a0c3        0x1 
  .bss.memp_memory_RAW_PCB_base
-                0x000000002000a084       0x73 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/memp.c.obj
-                0x000000002000a084                memp_memory_RAW_PCB_base
- *fill*         0x000000002000a0f7        0x1 
+                0x000000002000a0c4       0x73 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/memp.c.obj
+                0x000000002000a0c4                memp_memory_RAW_PCB_base
+ *fill*         0x000000002000a137        0x1 
  .bss.memp_memory_REASSDATA_base
-                0x000000002000a0f8       0xa3 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/memp.c.obj
-                0x000000002000a0f8                memp_memory_REASSDATA_base
- *fill*         0x000000002000a19b        0x1 
+                0x000000002000a138       0xa3 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/memp.c.obj
+                0x000000002000a138                memp_memory_REASSDATA_base
+ *fill*         0x000000002000a1db        0x1 
  .bss.memp_memory_SYS_TIMEOUT_base
-                0x000000002000a19c       0x63 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/memp.c.obj
-                0x000000002000a19c                memp_memory_SYS_TIMEOUT_base
- *fill*         0x000000002000a1ff        0x1 
+                0x000000002000a1dc       0x63 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/memp.c.obj
+                0x000000002000a1dc                memp_memory_SYS_TIMEOUT_base
+ *fill*         0x000000002000a23f        0x1 
  .bss.memp_memory_TCP_PCB_LISTEN_base
-                0x000000002000a200       0xe3 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/memp.c.obj
-                0x000000002000a200                memp_memory_TCP_PCB_LISTEN_base
- *fill*         0x000000002000a2e3        0x1 
+                0x000000002000a240       0xe3 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/memp.c.obj
+                0x000000002000a240                memp_memory_TCP_PCB_LISTEN_base
+ *fill*         0x000000002000a323        0x1 
  .bss.memp_memory_TCP_PCB_base
-                0x000000002000a2e4      0x30f CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/memp.c.obj
-                0x000000002000a2e4                memp_memory_TCP_PCB_base
- *fill*         0x000000002000a5f3        0x1 
+                0x000000002000a324      0x30f CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/memp.c.obj
+                0x000000002000a324                memp_memory_TCP_PCB_base
+ *fill*         0x000000002000a633        0x1 
  .bss.memp_memory_TCP_SEG_base
-                0x000000002000a5f4      0x103 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/memp.c.obj
-                0x000000002000a5f4                memp_memory_TCP_SEG_base
- *fill*         0x000000002000a6f7        0x1 
+                0x000000002000a634      0x103 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/memp.c.obj
+                0x000000002000a634                memp_memory_TCP_SEG_base
+ *fill*         0x000000002000a737        0x1 
  .bss.memp_memory_UDP_PCB_base
-                0x000000002000a6f8       0x83 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/memp.c.obj
-                0x000000002000a6f8                memp_memory_UDP_PCB_base
- *fill*         0x000000002000a77b        0x1 
+                0x000000002000a738       0x83 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/memp.c.obj
+                0x000000002000a738                memp_memory_UDP_PCB_base
+ *fill*         0x000000002000a7bb        0x1 
  .bss.memp_stats_FRAG_PBUF
-                0x000000002000a77c        0xa CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/memp.c.obj
- *fill*         0x000000002000a786        0x2 
+                0x000000002000a7bc        0xa CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/memp.c.obj
+ *fill*         0x000000002000a7c6        0x2 
  .bss.memp_stats_PBUF
-                0x000000002000a788        0xa CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/memp.c.obj
- *fill*         0x000000002000a792        0x2 
+                0x000000002000a7c8        0xa CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/memp.c.obj
+ *fill*         0x000000002000a7d2        0x2 
  .bss.memp_stats_PBUF_POOL
-                0x000000002000a794        0xa CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/memp.c.obj
- *fill*         0x000000002000a79e        0x2 
+                0x000000002000a7d4        0xa CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/memp.c.obj
+ *fill*         0x000000002000a7de        0x2 
  .bss.memp_stats_RAW_PCB
-                0x000000002000a7a0        0xa CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/memp.c.obj
- *fill*         0x000000002000a7aa        0x2 
+                0x000000002000a7e0        0xa CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/memp.c.obj
+ *fill*         0x000000002000a7ea        0x2 
  .bss.memp_stats_REASSDATA
-                0x000000002000a7ac        0xa CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/memp.c.obj
- *fill*         0x000000002000a7b6        0x2 
+                0x000000002000a7ec        0xa CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/memp.c.obj
+ *fill*         0x000000002000a7f6        0x2 
  .bss.memp_stats_SYS_TIMEOUT
-                0x000000002000a7b8        0xa CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/memp.c.obj
- *fill*         0x000000002000a7c2        0x2 
+                0x000000002000a7f8        0xa CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/memp.c.obj
+ *fill*         0x000000002000a802        0x2 
  .bss.memp_stats_TCP_PCB
-                0x000000002000a7c4        0xa CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/memp.c.obj
- *fill*         0x000000002000a7ce        0x2 
+                0x000000002000a804        0xa CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/memp.c.obj
+ *fill*         0x000000002000a80e        0x2 
  .bss.memp_stats_TCP_PCB_LISTEN
-                0x000000002000a7d0        0xa CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/memp.c.obj
- *fill*         0x000000002000a7da        0x2 
+                0x000000002000a810        0xa CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/memp.c.obj
+ *fill*         0x000000002000a81a        0x2 
  .bss.memp_stats_TCP_SEG
-                0x000000002000a7dc        0xa CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/memp.c.obj
- *fill*         0x000000002000a7e6        0x2 
+                0x000000002000a81c        0xa CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/memp.c.obj
+ *fill*         0x000000002000a826        0x2 
  .bss.memp_stats_UDP_PCB
-                0x000000002000a7e8        0xa CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/memp.c.obj
- *fill*         0x000000002000a7f2        0x2 
+                0x000000002000a828        0xa CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/memp.c.obj
+ *fill*         0x000000002000a832        0x2 
  .bss.memp_tab_FRAG_PBUF
-                0x000000002000a7f4        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/memp.c.obj
+                0x000000002000a834        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/memp.c.obj
  .bss.memp_tab_PBUF
-                0x000000002000a7f8        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/memp.c.obj
+                0x000000002000a838        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/memp.c.obj
  .bss.memp_tab_PBUF_POOL
-                0x000000002000a7fc        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/memp.c.obj
+                0x000000002000a83c        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/memp.c.obj
  .bss.memp_tab_RAW_PCB
-                0x000000002000a800        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/memp.c.obj
+                0x000000002000a840        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/memp.c.obj
  .bss.memp_tab_REASSDATA
-                0x000000002000a804        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/memp.c.obj
+                0x000000002000a844        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/memp.c.obj
  .bss.memp_tab_SYS_TIMEOUT
-                0x000000002000a808        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/memp.c.obj
+                0x000000002000a848        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/memp.c.obj
  .bss.memp_tab_TCP_PCB
-                0x000000002000a80c        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/memp.c.obj
+                0x000000002000a84c        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/memp.c.obj
  .bss.memp_tab_TCP_PCB_LISTEN
-                0x000000002000a810        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/memp.c.obj
+                0x000000002000a850        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/memp.c.obj
  .bss.memp_tab_TCP_SEG
-                0x000000002000a814        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/memp.c.obj
+                0x000000002000a854        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/memp.c.obj
  .bss.memp_tab_UDP_PCB
-                0x000000002000a818        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/memp.c.obj
+                0x000000002000a858        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/memp.c.obj
  .bss.netif_data
-                0x000000002000a81c       0x40 CMakeFiles/pico_webserver.dir/tusb_lwip_glue.c.obj
+                0x000000002000a85c       0x40 CMakeFiles/pico_webserver.dir/tusb_lwip_glue.c.obj
  .bss.netif_default
-                0x000000002000a85c        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/netif.c.obj
-                0x000000002000a85c                netif_default
+                0x000000002000a89c        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/netif.c.obj
+                0x000000002000a89c                netif_default
  .bss.netif_list
-                0x000000002000a860        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/netif.c.obj
-                0x000000002000a860                netif_list
+                0x000000002000a8a0        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/netif.c.obj
+                0x000000002000a8a0                netif_list
  .bss.next_buffer_ptr
-                0x000000002000a864        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x000000002000a8a4        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
  .bss.next_timeout
-                0x000000002000a868        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/timeouts.c.obj
- .bss.notify    0x000000002000a86c       0x78 CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj
+                0x000000002000a8a8        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/timeouts.c.obj
+ .bss.notify    0x000000002000a8ac       0x78 CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj
  .bss.oid_packet_filter
-                0x000000002000a8e4        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/lib/networking/rndis_reports.c.obj
+                0x000000002000a924        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/lib/networking/rndis_reports.c.obj
  .bss.packet_dump_msg
-                0x000000002000a8e8     0x1f40 CMakeFiles/pico_webserver.dir/wifi_code.c.obj
-                0x000000002000a8e8                packet_dump_msg
+                0x000000002000a928     0x1f40 CMakeFiles/pico_webserver.dir/wifi_code.c.obj
+                0x000000002000a928                packet_dump_msg
  .bss.packet_last_len
-                0x000000002000c828        0x4 CMakeFiles/pico_webserver.dir/wifi_code.c.obj
-                0x000000002000c828                packet_last_len
- .bss.pcb       0x000000002000c82c        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/lib/networking/dhserver.c.obj
- .bss.pools     0x000000002000c830       0x10 CMakeFiles/pico_webserver.dir/pico-sdk/src/common/pico_time/time.c.obj
- .bss.qinbound  0x000000002000c840       0x10 CMakeFiles/pico_webserver.dir/webserver.c.obj
+                0x000000002000c868        0x4 CMakeFiles/pico_webserver.dir/wifi_code.c.obj
+                0x000000002000c868                packet_last_len
+ .bss.pcb       0x000000002000c86c        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/lib/networking/dhserver.c.obj
+ .bss.pools     0x000000002000c870       0x10 CMakeFiles/pico_webserver.dir/pico-sdk/src/common/pico_time/time.c.obj
+ .bss.qinbound  0x000000002000c880       0x10 CMakeFiles/pico_webserver.dir/webserver.c.obj
  .bss.qoutbound
-                0x000000002000c850       0x10 CMakeFiles/pico_webserver.dir/webserver.c.obj
- .bss.ram       0x000000002000c860        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/mem.c.obj
- .bss.ram_end   0x000000002000c864        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/mem.c.obj
- .bss.ram_heap  0x000000002000c868      0x653 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/mem.c.obj
-                0x000000002000c868                ram_heap
- *fill*         0x000000002000cebb        0x1 
+                0x000000002000c890       0x10 CMakeFiles/pico_webserver.dir/webserver.c.obj
+ .bss.ram       0x000000002000c8a0        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/mem.c.obj
+ .bss.ram_end   0x000000002000c8a4        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/mem.c.obj
+ .bss.ram_heap  0x000000002000c8a8      0x653 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/mem.c.obj
+                0x000000002000c8a8                ram_heap
+ *fill*         0x000000002000cefb        0x1 
  .bss.raw_irq_mask
-                0x000000002000cebc        0x8 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
- .bss.raw_pcbs  0x000000002000cec4        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/raw.c.obj
+                0x000000002000cefc        0x8 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+ .bss.raw_pcbs  0x000000002000cf04        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/raw.c.obj
  .bss.reassdatagrams
-                0x000000002000cec8        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.obj
- .bss.received  0x000000002000cecc      0x642 CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj
- *fill*         0x000000002000d50e        0x2 
+                0x000000002000cf08        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.obj
+ .bss.received  0x000000002000cf0c      0x642 CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj
+ *fill*         0x000000002000d54e        0x2 
  .bss.received_frame
-                0x000000002000d510        0x4 CMakeFiles/pico_webserver.dir/tusb_lwip_glue.c.obj
-                0x000000002000d510                received_frame
+                0x000000002000d550        0x4 CMakeFiles/pico_webserver.dir/tusb_lwip_glue.c.obj
+                0x000000002000d550                received_frame
  .bss.recv_data
-                0x000000002000d514        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/tcp_in.c.obj
+                0x000000002000d554        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/tcp_in.c.obj
  .bss.retrieved_id
-                0x000000002000d518        0x8 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
+                0x000000002000d558        0x8 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
  .bss.scan_results
-                0x000000002000d520       0x5d CMakeFiles/pico_webserver.dir/ssi.cpp.obj
-                0x000000002000d520                scan_results
- *fill*         0x000000002000d57d        0x3 
- .bss.seqno     0x000000002000d580        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/tcp_in.c.obj
+                0x000000002000d560       0x5d CMakeFiles/pico_webserver.dir/ssi.cpp.obj
+                0x000000002000d560                scan_results
+ *fill*         0x000000002000d5bd        0x3 
+ .bss.seqno     0x000000002000d5c0        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/tcp_in.c.obj
  .bss.sf_clz_func
-                0x000000002000d584        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
-                0x000000002000d584                sf_clz_func
- .bss.sf_table  0x000000002000d588      0x100 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
-                0x000000002000d588                sf_table
+                0x000000002000d5c4        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+                0x000000002000d5c4                sf_clz_func
+ .bss.sf_table  0x000000002000d5c8      0x100 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+                0x000000002000d5c8                sf_table
  .bss.sleep_notifier
-                0x000000002000d688        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/src/common/pico_time/time.c.obj
+                0x000000002000d6c8        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/src/common/pico_time/time.c.obj
  .bss.target_hi
-                0x000000002000d68c       0x10 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x000000002000d6cc       0x10 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
  .bss.tcp_active_pcbs
-                0x000000002000d69c        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/tcp.c.obj
-                0x000000002000d69c                tcp_active_pcbs
+                0x000000002000d6dc        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/tcp.c.obj
+                0x000000002000d6dc                tcp_active_pcbs
  .bss.tcp_bound_pcbs
-                0x000000002000d6a0        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/tcp.c.obj
-                0x000000002000d6a0                tcp_bound_pcbs
+                0x000000002000d6e0        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/tcp.c.obj
+                0x000000002000d6e0                tcp_bound_pcbs
  .bss.tcp_input_pcb
-                0x000000002000d6a4        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/tcp_in.c.obj
-                0x000000002000d6a4                tcp_input_pcb
+                0x000000002000d6e4        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/tcp_in.c.obj
+                0x000000002000d6e4                tcp_input_pcb
  .bss.tcp_listen_pcbs
-                0x000000002000d6a8        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/tcp.c.obj
-                0x000000002000d6a8                tcp_listen_pcbs
+                0x000000002000d6e8        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/tcp.c.obj
+                0x000000002000d6e8                tcp_listen_pcbs
  .bss.tcp_ticks
-                0x000000002000d6ac        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/tcp.c.obj
-                0x000000002000d6ac                tcp_ticks
+                0x000000002000d6ec        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/tcp.c.obj
+                0x000000002000d6ec                tcp_ticks
  .bss.tcp_tw_pcbs
-                0x000000002000d6b0        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/tcp.c.obj
-                0x000000002000d6b0                tcp_tw_pcbs
- .bss.tcphdr    0x000000002000d6b4        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/tcp_in.c.obj
+                0x000000002000d6f0        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/tcp.c.obj
+                0x000000002000d6f0                tcp_tw_pcbs
+ .bss.tcphdr    0x000000002000d6f4        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/tcp_in.c.obj
  .bss.tcphdr_opt2
-                0x000000002000d6b8        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/tcp_in.c.obj
+                0x000000002000d6f8        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/tcp_in.c.obj
  .bss.tcpip_tcp_timer_active
-                0x000000002000d6bc        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/timeouts.c.obj
+                0x000000002000d6fc        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/timeouts.c.obj
  .bss.transmitted
-                0x000000002000d6c0      0x642 CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj
- *fill*         0x000000002000dd02        0x2 
- .bss.udp_pcbs  0x000000002000dd04        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/udp.c.obj
-                0x000000002000dd04                udp_pcbs
+                0x000000002000d700      0x642 CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj
+ *fill*         0x000000002000dd42        0x2 
+ .bss.udp_pcbs  0x000000002000dd44        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/udp.c.obj
+                0x000000002000dd44                udp_pcbs
  .bss.usb_ready
-                0x000000002000dd08        0x8 CMakeFiles/pico_webserver.dir/tusb_lwip_glue.c.obj
-                0x000000002000dd08                usb_ready
+                0x000000002000dd48        0x8 CMakeFiles/pico_webserver.dir/tusb_lwip_glue.c.obj
+                0x000000002000dd48                usb_ready
  .bss.wifi_conn_detail
-                0x000000002000dd10       0x30 CMakeFiles/pico_webserver.dir/wifi_code.c.obj
-                0x000000002000dd10                wifi_conn_detail
- .bss.wifi_enc  0x000000002000dd40        0x4 CMakeFiles/pico_webserver.dir/cgi.cpp.obj
-                0x000000002000dd40                wifi_enc
- .bss.wifi_key  0x000000002000dd44       0x20 CMakeFiles/pico_webserver.dir/cgi.cpp.obj
-                0x000000002000dd44                wifi_key
+                0x000000002000dd50       0x30 CMakeFiles/pico_webserver.dir/wifi_code.c.obj
+                0x000000002000dd50                wifi_conn_detail
+ .bss.wifi_enc  0x000000002000dd80        0x4 CMakeFiles/pico_webserver.dir/cgi.cpp.obj
+                0x000000002000dd80                wifi_enc
+ .bss.wifi_key  0x000000002000dd84       0x20 CMakeFiles/pico_webserver.dir/cgi.cpp.obj
+                0x000000002000dd84                wifi_key
  .bss.wifi_ssid
-                0x000000002000dd64       0x20 CMakeFiles/pico_webserver.dir/cgi.cpp.obj
-                0x000000002000dd64                wifi_ssid
- .bss._claimed  0x000000002000dd84        0x2 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj
- .bss.ip_id     0x000000002000dd86        0x2 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.obj
+                0x000000002000dda4       0x20 CMakeFiles/pico_webserver.dir/cgi.cpp.obj
+                0x000000002000dda4                wifi_ssid
+ .bss._claimed  0x000000002000ddc4        0x2 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj
+ .bss.ip_id     0x000000002000ddc6        0x2 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.obj
  .bss.ip_reass_pbufcount
-                0x000000002000dd88        0x2 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.obj
+                0x000000002000ddc8        0x2 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.obj
  .bss.last_spi_int.0
-                0x000000002000dd8a        0x2 CMakeFiles/pico_webserver.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj
+                0x000000002000ddca        0x2 CMakeFiles/pico_webserver.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj
  .bss.recv_acked
-                0x000000002000dd8c        0x2 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/tcp_in.c.obj
+                0x000000002000ddcc        0x2 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/tcp_in.c.obj
  .bss.tcp_optidx
-                0x000000002000dd8e        0x2 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/tcp_in.c.obj
+                0x000000002000ddce        0x2 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/tcp_in.c.obj
  .bss.tcphdr_opt1len
-                0x000000002000dd90        0x2 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/tcp_in.c.obj
+                0x000000002000ddd0        0x2 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/tcp_in.c.obj
  .bss.tcphdr_optlen
-                0x000000002000dd92        0x2 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/tcp_in.c.obj
- .bss.tcplen    0x000000002000dd94        0x2 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/tcp_in.c.obj
+                0x000000002000ddd2        0x2 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/tcp_in.c.obj
+ .bss.tcplen    0x000000002000ddd4        0x2 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/tcp_in.c.obj
  .bss._app_driver_count
-                0x000000002000dd96        0x1 CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x000000002000ddd6        0x1 CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
  .bss._sof_enable
-                0x000000002000dd97        0x1 CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x000000002000ddd7        0x1 CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
  .bss.boot2_copyout_valid
-                0x000000002000dd98        0x1 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
- .bss.can_xmit  0x000000002000dd99        0x1 CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj
- .bss.claimed   0x000000002000dd9a        0x1 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
- .bss.claimed   0x000000002000dd9b        0x1 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
+                0x000000002000ddd8        0x1 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
+ .bss.can_xmit  0x000000002000ddd9        0x1 CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj
+ .bss.claimed   0x000000002000ddda        0x1 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+ .bss.claimed   0x000000002000dddb        0x1 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
  .bss.dhcp_pcb_refcount
-                0x000000002000dd9c        0x1 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.obj
+                0x000000002000dddc        0x1 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.obj
  .bss.done_lwip_init.0
-                0x000000002000dd9d        0x1 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.obj
+                0x000000002000dddd        0x1 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.obj
  .bss.etharp_cached_entry
-                0x000000002000dd9e        0x1 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.obj
- .bss.flags     0x000000002000dd9f        0x1 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/tcp_in.c.obj
+                0x000000002000ddde        0x1 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.obj
+ .bss.flags     0x000000002000dddf        0x1 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/tcp_in.c.obj
  .bss.irq_hander_chain_free_slot_head
-                0x000000002000dda0        0x1 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x000000002000dde0        0x1 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
  .bss.netif_num
-                0x000000002000dda1        0x1 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/netif.c.obj
+                0x000000002000dde1        0x1 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/netif.c.obj
  .bss.pbuf_free_ooseq_pending
-                0x000000002000dda2        0x1 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/pbuf.c.obj
-                0x000000002000dda2                pbuf_free_ooseq_pending
+                0x000000002000dde2        0x1 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/pbuf.c.obj
+                0x000000002000dde2                pbuf_free_ooseq_pending
  .bss.recv_flags
-                0x000000002000dda3        0x1 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/tcp_in.c.obj
+                0x000000002000dde3        0x1 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/tcp_in.c.obj
  .bss.tcp_active_pcbs_changed
-                0x000000002000dda4        0x1 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/tcp.c.obj
-                0x000000002000dda4                tcp_active_pcbs_changed
+                0x000000002000dde4        0x1 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/tcp.c.obj
+                0x000000002000dde4                tcp_active_pcbs_changed
  .bss.tcp_timer
-                0x000000002000dda5        0x1 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/tcp.c.obj
+                0x000000002000dde5        0x1 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/tcp.c.obj
  .bss.tcp_timer_ctr
-                0x000000002000dda6        0x1 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/tcp.c.obj
+                0x000000002000dde6        0x1 CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/tcp.c.obj
  .bss.timer_callbacks_pending
-                0x000000002000dda7        0x1 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x000000002000dde7        0x1 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
  .bss.user_irq_claimed
-                0x000000002000dda8        0x1 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x000000002000dde8        0x1 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
  *(COMMON)
-                0x000000002000ddac                . = ALIGN (0x4)
- *fill*         0x000000002000dda9        0x3 
-                0x000000002000ddac                __bss_end__ = .
+                0x000000002000ddec                . = ALIGN (0x4)
+ *fill*         0x000000002000dde9        0x3 
+                0x000000002000ddec                __bss_end__ = .
 
-.heap           0x000000002000ddac      0x800
-                0x000000002000ddac                __end__ = .
-                0x000000002000ddac                end = __end__
+.heap           0x000000002000ddec      0x800
+                0x000000002000ddec                __end__ = .
+                0x000000002000ddec                end = __end__
  *(.heap*)
- .heap          0x000000002000ddac      0x800 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
-                0x000000002000e5ac                __HeapLimit = .
+ .heap          0x000000002000ddec      0x800 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
+                0x000000002000e5ec                __HeapLimit = .
 
 .stack1_dummy   0x0000000020040000      0x800
  *(.stack1*)
@@ -4874,8 +4873,8 @@ LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nof
  *(.stack*)
  .stack         0x0000000020041000      0x800 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
 
-.flash_end      0x00000000100777a0        0x0
-                0x00000000100777a0                PROVIDE (__flash_binary_end = .)
+.flash_end      0x00000000100777e0        0x0
+                0x00000000100777e0                PROVIDE (__flash_binary_end = .)
                 0x0000000020040000                __StackLimit = (ORIGIN (RAM) + LENGTH (RAM))
                 0x0000000020041000                __StackOneTop = (ORIGIN (SCRATCH_X) + LENGTH (SCRATCH_X))
                 0x0000000020042000                __StackTop = (ORIGIN (SCRATCH_Y) + LENGTH (SCRATCH_Y))
@@ -5070,7 +5069,7 @@ LOAD CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/hardware_adc/adc.c.ob
 LOAD CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
 LOAD liblwipallapps.a
 LOAD liblwipcore.a
-LOAD /tmp/ccAKdXhV.o
+LOAD /tmp/ccvUDmNF.o
 LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libstdc++.a
 LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libm.a
 START GROUP
@@ -5274,7 +5273,7 @@ LOAD linker stubs
  .ARM.attributes
                 0x0000000000000f48       0x2c CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
  .ARM.attributes
-                0x0000000000000f74       0x22 /tmp/ccAKdXhV.o
+                0x0000000000000f74       0x22 /tmp/ccvUDmNF.o
  .ARM.attributes
                 0x0000000000000f96       0x1e /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .ARM.attributes

@@ -3,16 +3,16 @@
 #include "wifi_code.h"
 pkt_s in_pkt;
 void convertToHex(uint8_t* byteArray, uint16_t size, char* hexString) {
-	hexString[0]='\0';
+    hexString[0] = '\0';
     for (uint16_t i = 0; i < size; i++) {
         unsigned char value = byteArray[i];
 
-        char hex[4] = {0, 0, ' ', '\0'};
+        char hex[4] = {0, 0,' ', '\0'};
         char* hex_p = hex;
 
-        unsigned char TEMP_byte = 0;
+        uint8_t TEMP_byte = 0;
 
-        TEMP_byte = value / 16;
+        TEMP_byte = (value >> 4) & 0x0F;  // Extract most significant nibble
 
         if (TEMP_byte < 10) {
             *hex_p = 48 + TEMP_byte;
@@ -22,7 +22,7 @@ void convertToHex(uint8_t* byteArray, uint16_t size, char* hexString) {
 
         hex_p++;
 
-        TEMP_byte = value % 16;
+        TEMP_byte = value & 0x0F;  // Extract least significant nibble
 
         if (TEMP_byte < 10) {
             *hex_p = 48 + TEMP_byte;
@@ -33,6 +33,7 @@ void convertToHex(uint8_t* byteArray, uint16_t size, char* hexString) {
         strcat(hexString, hex);
     }
 }
+
 
 char wifi_conn_detail[3][16];
 char packet_dump_msg[8000];
@@ -87,10 +88,10 @@ void core1_entry() {
 		{
 			in_pkt.len = received_frame->len;
 			memcpy(in_pkt.payload, received_frame->payload, received_frame->len);
-			if(in_pkt.len>200){
+			//if(in_pkt.len>200){
 				convertToHex(in_pkt.payload, in_pkt.len, packet_dump_msg);
 				packet_last_len=in_pkt.len;
-			}
+			//}
 			//cyw43_send_ethernet(&cyw43_state, CYW43_ITF_STA, received_frame->len, received_frame->payload, false);
 		}
 		mutex_exit(&usb_ready);

@@ -34,36 +34,6 @@ const char * __not_in_flash("httpd") ssi_example_tags[] = {
 	"pktout"    // 3
 };
 
-void convertToHex(uint8_t* byteArray, uint16_t size, char* hexString) {
-    for (uint16_t i = 0; i < size; i++) {
-        unsigned char value = byteArray[i];
-
-        char hex[4] = {0, 0, ' ', '\0'};
-        char* hex_p = hex;
-
-        unsigned char TEMP_byte = 0;
-
-        TEMP_byte = value / 16;
-
-        if (TEMP_byte < 10) {
-            *hex_p = 48 + TEMP_byte;
-        } else {
-            *hex_p = 55 + TEMP_byte;
-        }
-
-        hex_p++;
-
-        TEMP_byte = value % 16;
-
-        if (TEMP_byte < 10) {
-            *hex_p = 48 + TEMP_byte;
-        } else {
-            *hex_p = 55 + TEMP_byte;
-        }
-
-        strcat(hexString, hex);
-    }
-}
 
 
 u16_t __time_critical_func(ssi_handler)(int iIndex, char *pcInsert, int iInsertLen)
@@ -109,8 +79,10 @@ u16_t __time_critical_func(ssi_handler)(int iIndex, char *pcInsert, int iInsertL
 
 				//dmp_output[3000]=0;
 				//printed = snprintf(pcInsert, iInsertLen, "%s",packet_stat_msg);
+				mutex_enter_blocking(&usb_ready);
 				//for(int i=0;i<in_pkt.len;i++)if(!in_pkt.payload[i])in_pkt.payload[i]='a';
-				printed = snprintf(pcInsert, iInsertLen, "%d %s",packet_last_len,packet_dump_msg);
+				printed = snprintf(pcInsert, iInsertLen, "%d %s",in_pkt.len,in_pkt.payload);
+				mutex_exit(&usb_ready);
 				//in_pkt.len=0;
 			}
 			break;
