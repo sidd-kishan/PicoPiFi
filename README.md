@@ -4,12 +4,12 @@ A project for rp2040
 Use rndis in tinyusb and use freerots to create usb-related tasks.You can also use socket-related interfaces in this project
 ## Overview
 ```
-        ---------------------------       -------------------------------                         ----------
-       |Full USB 12 Mbps rndis link| --->| PI PICO W ( MCU <-SPI-> WIFI) | <----- 54 Mbps------> |2.4 Ghz AP|
-        ---------------------------       -------------------------------                         ----------
-               |                                                                                    |
-               V                                                                                    V
-            Raspberry pi (Windows on ARM)                                                         Client
+        ---------------------------       -------------------------------                     ----------
+       |Full USB 12 Mbps rndis link| --->| PI PICO W ( MCU <-SPI-> WIFI) | <--- 54 Mbps----> |2.4 Ghz AP|
+        ---------------------------       -------------------------------                     ----------
+               |                                                                                  |
+               V                                                                                  V
+          Raspberry pi (Windows on ARM64)                                                       Client
 ```
 
 Webserver example that came with TinyUSB slightly modified to run on a Raspberry Pi Pico.
