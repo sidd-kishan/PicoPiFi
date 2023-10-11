@@ -1,4 +1,16 @@
-# pico W windows arm64 Rdnis based usb wifi dongle
+# A Driverless RNDIS based wifi adapter based on pi pico w to enable usb wifi wlan on Windows on ARM devices like Windows on Raspberry pi 4 that makes use of the default driver of Windows RNDIS drivers
+# pico-rndis-use-freerots
+A project for rp2040
+Use rndis in tinyusb and use freerots to create usb-related tasks.You can also use socket-related interfaces in this project
+## Overview
+```
+        ---------------------------       -------------------------------                         ----------
+       |Full USB 12 Mbps rndis link| --->| PI PICO W ( MCU <-SPI-> WIFI) | <----- 54 Mbps------> |2.4 Ghz AP|
+        ---------------------------       -------------------------------                         ----------
+               |                                                                                    |
+               V                                                                                    V
+            Raspberry pi (Windows on ARM)                                                         Client
+```
 
 Webserver example that came with TinyUSB slightly modified to run on a Raspberry Pi Pico.
 Lets the Pico pretend to be a USB Ethernet device. Runs a webinterface at http://192.168.7.1/
