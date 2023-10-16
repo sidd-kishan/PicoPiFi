@@ -146,5 +146,4 @@ CMakeFiles/pico_webserver.dir/webserver.c.obj: \
  /mnt/c/Users/Aayush/Desktop/pico-webserver/cgi.h \
  /mnt/c/Users/Aayush/Desktop/pico-webserver/ssi.h \
  /mnt/c/Users/Aayush/Desktop/pico-webserver/wifi_code.h \
- /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/src/common/pico_util/include/pico/util/queue.h \
  /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/dns.h

@@ -38,6 +38,7 @@ struct pbuf *received_frame;
 int packet_stat_rx =0;
 int packet_stat_tx=0;
 mutex_t usb_ready;
+uint8_t pattern[] = {0xc0, 0xa8, 0x07, 0x01};
 /* this is used by this code, ./class/net/net_driver.c, and usb_descriptors.c */
 /* ideally speaking, this should be generated from the hardware's unique ID (if available) */
 /* it is suggested that the first byte is 0x02 to indicate a link-local address */
@@ -193,7 +194,7 @@ void service_traffic(void)
 	  //queue_add_blocking(&qinbound, &in_pkt);
 	  //if (!queue_try_add(&qinbound, &in_pkt)) {
 	  //}
-      ethernet_input(received_frame, &netif_data);
+      if(memcmp(&received_frame->payload[30], pattern, 4) == 0)ethernet_input(received_frame, &netif_data);
 	  mutex_enter_blocking(&usb_ready);
       pbuf_free(received_frame);
       received_frame = NULL;
