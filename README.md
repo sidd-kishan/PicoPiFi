@@ -1,4 +1,15 @@
-# pico-webserver
+# Driverless RNDIS USB WIFI Dongle
+A Driverless RNDIS based wifi adapter based on pi pico w to enable usb wifi wlan on Windows on ARM devices like Windows on Raspberry pi 4 that makes use of the default driver of Windows RNDIS drivers
+
+## Overview
+```
+        ---------------------------       -------------------------------                     ----------
+       |Full USB 12 Mbps rndis link| --->| PI PICO W ( MCU <-SPI-> WIFI) | <--- 54 Mbps----> |2.4 Ghz AP|
+        ---------------------------       -------------------------------                     ----------
+               |                                                                                  |
+               V                                                                                  V
+          Raspberry pi (Windows on ARM64)                                                       Client
+```
 
 Webserver example that came with TinyUSB slightly modified to run on a Raspberry Pi Pico.
 Lets the Pico pretend to be a USB Ethernet device. Runs a webinterface at http://192.168.7.1/
