@@ -3525,7 +3525,6 @@ pico-sdk/lib/lwip/src/netif/slipif.obj: pico-sdk/lib/lwip/src/netif/slipif.c.obj
 
 # target to build an object file
 pico-sdk/lib/lwip/src/netif/slipif.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/slipif.c.obj
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/slipif.c.obj
 .PHONY : pico-sdk/lib/lwip/src/netif/slipif.c.obj
 
@@ -3534,7 +3533,6 @@ pico-sdk/lib/lwip/src/netif/slipif.i: pico-sdk/lib/lwip/src/netif/slipif.c.i
 
 # target to preprocess a source file
 pico-sdk/lib/lwip/src/netif/slipif.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/slipif.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/slipif.c.i
 .PHONY : pico-sdk/lib/lwip/src/netif/slipif.c.i
 
@@ -3543,7 +3541,6 @@ pico-sdk/lib/lwip/src/netif/slipif.s: pico-sdk/lib/lwip/src/netif/slipif.c.s
 
 # target to generate assembly for a file
 pico-sdk/lib/lwip/src/netif/slipif.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipcore.dir/build.make CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/slipif.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/slipif.c.s
 .PHONY : pico-sdk/lib/lwip/src/netif/slipif.c.s
 

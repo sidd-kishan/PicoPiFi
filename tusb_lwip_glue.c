@@ -42,7 +42,7 @@ uint8_t pattern[] = {0xc0, 0xa8, 0x07, 0x01};
 /* this is used by this code, ./class/net/net_driver.c, and usb_descriptors.c */
 /* ideally speaking, this should be generated from the hardware's unique ID (if available) */
 /* it is suggested that the first byte is 0x02 to indicate a link-local address */
-const uint8_t tud_network_mac_address[6] = {0x02,0x02,0x84,0x6A,0x96,0x00};
+uint8_t tud_network_mac_address[6] = {0x02,0x02,0x84,0x6A,0x96,0x00};
 /* network parameters of this MCU */
 static const ip_addr_t ipaddr  = IPADDR4_INIT_BYTES(192, 168, 7, 1);
 static const ip_addr_t netmask = IPADDR4_INIT_BYTES(255, 255, 255, 0);
@@ -110,7 +110,14 @@ static err_t netif_init_cb(struct netif *netif)
 void init_lwip(void)
 {
     struct netif *netif = &netif_data;
-    
+	mutex_enter_blocking(&wifi_ready);
+    tud_network_mac_address[0]=macaddr[0];
+	tud_network_mac_address[1]=macaddr[1];
+	tud_network_mac_address[2]=macaddr[2];
+	tud_network_mac_address[3]=macaddr[3];
+	tud_network_mac_address[4]=macaddr[4];
+	tud_network_mac_address[5]=macaddr[5];
+	mutex_exit(&wifi_ready);
     /* Fixup MAC address based on flash serial */
     //pico_unique_board_id_t id;
     //pico_get_unique_board_id(&id);

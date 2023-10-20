@@ -769,24 +769,10 @@ CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.s: cmake_forc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c -o CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.s
 
-CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/slipif.c.obj: CMakeFiles/lwipcore.dir/flags.make
-CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/slipif.c.obj: ../pico-sdk/lib/lwip/src/netif/slipif.c
-CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/slipif.c.obj: CMakeFiles/lwipcore.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/slipif.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/slipif.c.obj -MF CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/slipif.c.obj.d -o CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/slipif.c.obj -c /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/netif/slipif.c
-
-CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/slipif.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/slipif.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/netif/slipif.c > CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/slipif.c.i
-
-CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/slipif.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/slipif.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/netif/slipif.c -o CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/slipif.c.s
-
 CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.obj: CMakeFiles/lwipcore.dir/flags.make
 CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.obj: ../pico-sdk/lib/lwip/src/netif/lowpan6_common.c
 CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.obj: CMakeFiles/lwipcore.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.obj -MF CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.obj.d -o CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.obj -c /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/netif/lowpan6_common.c
 
 CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.i: cmake_force
@@ -800,7 +786,7 @@ CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.s: cmake_fo
 CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/lowpan6.c.obj: CMakeFiles/lwipcore.dir/flags.make
 CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/lowpan6.c.obj: ../pico-sdk/lib/lwip/src/netif/lowpan6.c
 CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/lowpan6.c.obj: CMakeFiles/lwipcore.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/lowpan6.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/lowpan6.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/lowpan6.c.obj -MF CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/lowpan6.c.obj.d -o CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/lowpan6.c.obj -c /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/netif/lowpan6.c
 
 CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/lowpan6.c.i: cmake_force
@@ -814,7 +800,7 @@ CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/lowpan6.c.s: cmake_force
 CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.obj: CMakeFiles/lwipcore.dir/flags.make
 CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.obj: ../pico-sdk/lib/lwip/src/netif/lowpan6_ble.c
 CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.obj: CMakeFiles/lwipcore.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.obj -MF CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.obj.d -o CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.obj -c /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c
 
 CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.i: cmake_force
@@ -828,7 +814,7 @@ CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.s: cmake_force
 CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/zepif.c.obj: CMakeFiles/lwipcore.dir/flags.make
 CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/zepif.c.obj: ../pico-sdk/lib/lwip/src/netif/zepif.c
 CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/zepif.c.obj: CMakeFiles/lwipcore.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/zepif.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/zepif.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/zepif.c.obj -MF CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/zepif.c.obj.d -o CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/zepif.c.obj -c /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/netif/zepif.c
 
 CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/zepif.c.i: cmake_force
@@ -842,7 +828,7 @@ CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/zepif.c.s: cmake_force
 CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/auth.c.obj: CMakeFiles/lwipcore.dir/flags.make
 CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/auth.c.obj: ../pico-sdk/lib/lwip/src/netif/ppp/auth.c
 CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/auth.c.obj: CMakeFiles/lwipcore.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/auth.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/auth.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/auth.c.obj -MF CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/auth.c.obj.d -o CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/auth.c.obj -c /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/netif/ppp/auth.c
 
 CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/auth.c.i: cmake_force
@@ -856,7 +842,7 @@ CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/auth.c.s: cmake_force
 CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.obj: CMakeFiles/lwipcore.dir/flags.make
 CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.obj: ../pico-sdk/lib/lwip/src/netif/ppp/ccp.c
 CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.obj: CMakeFiles/lwipcore.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.obj -MF CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.obj.d -o CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.obj -c /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/netif/ppp/ccp.c
 
 CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.i: cmake_force
@@ -870,7 +856,7 @@ CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.s: cmake_force
 CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.obj: CMakeFiles/lwipcore.dir/flags.make
 CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.obj: ../pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c
 CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.obj: CMakeFiles/lwipcore.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.obj -MF CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.obj.d -o CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.obj -c /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c
 
 CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.i: cmake_force
@@ -884,7 +870,7 @@ CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.s: cmake_forc
 CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.obj: CMakeFiles/lwipcore.dir/flags.make
 CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.obj: ../pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c
 CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.obj: CMakeFiles/lwipcore.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.obj -MF CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.obj.d -o CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.obj -c /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c
 
 CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.i: cmake_force
@@ -898,7 +884,7 @@ CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.s: cmake_force
 CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.obj: CMakeFiles/lwipcore.dir/flags.make
 CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.obj: ../pico-sdk/lib/lwip/src/netif/ppp/chap-new.c
 CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.obj: CMakeFiles/lwipcore.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.obj -MF CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.obj.d -o CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.obj -c /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c
 
 CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.i: cmake_force
@@ -912,7 +898,7 @@ CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.s: cmake_forc
 CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/demand.c.obj: CMakeFiles/lwipcore.dir/flags.make
 CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/demand.c.obj: ../pico-sdk/lib/lwip/src/netif/ppp/demand.c
 CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/demand.c.obj: CMakeFiles/lwipcore.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/demand.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/demand.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/demand.c.obj -MF CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/demand.c.obj.d -o CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/demand.c.obj -c /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/netif/ppp/demand.c
 
 CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/demand.c.i: cmake_force
@@ -926,7 +912,7 @@ CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/demand.c.s: cmake_force
 CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/eap.c.obj: CMakeFiles/lwipcore.dir/flags.make
 CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/eap.c.obj: ../pico-sdk/lib/lwip/src/netif/ppp/eap.c
 CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/eap.c.obj: CMakeFiles/lwipcore.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/eap.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/eap.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/eap.c.obj -MF CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/eap.c.obj.d -o CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/eap.c.obj -c /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/netif/ppp/eap.c
 
 CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/eap.c.i: cmake_force
@@ -940,7 +926,7 @@ CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/eap.c.s: cmake_force
 CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.obj: CMakeFiles/lwipcore.dir/flags.make
 CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.obj: ../pico-sdk/lib/lwip/src/netif/ppp/ecp.c
 CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.obj: CMakeFiles/lwipcore.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.obj -MF CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.obj.d -o CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.obj -c /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/netif/ppp/ecp.c
 
 CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.i: cmake_force
@@ -954,7 +940,7 @@ CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.s: cmake_force
 CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.obj: CMakeFiles/lwipcore.dir/flags.make
 CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.obj: ../pico-sdk/lib/lwip/src/netif/ppp/eui64.c
 CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.obj: CMakeFiles/lwipcore.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.obj -MF CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.obj.d -o CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.obj -c /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/netif/ppp/eui64.c
 
 CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.i: cmake_force
@@ -968,7 +954,7 @@ CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.s: cmake_force
 CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.obj: CMakeFiles/lwipcore.dir/flags.make
 CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.obj: ../pico-sdk/lib/lwip/src/netif/ppp/fsm.c
 CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.obj: CMakeFiles/lwipcore.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.obj -MF CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.obj.d -o CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.obj -c /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/netif/ppp/fsm.c
 
 CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.i: cmake_force
@@ -982,7 +968,7 @@ CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.s: cmake_force
 CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.obj: CMakeFiles/lwipcore.dir/flags.make
 CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.obj: ../pico-sdk/lib/lwip/src/netif/ppp/ipcp.c
 CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.obj: CMakeFiles/lwipcore.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.obj -MF CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.obj.d -o CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.obj -c /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c
 
 CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.i: cmake_force
@@ -996,7 +982,7 @@ CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.s: cmake_force
 CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.obj: CMakeFiles/lwipcore.dir/flags.make
 CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.obj: ../pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c
 CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.obj: CMakeFiles/lwipcore.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.obj -MF CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.obj.d -o CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.obj -c /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c
 
 CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.i: cmake_force
@@ -1010,7 +996,7 @@ CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.s: cmake_force
 CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.obj: CMakeFiles/lwipcore.dir/flags.make
 CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.obj: ../pico-sdk/lib/lwip/src/netif/ppp/lcp.c
 CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.obj: CMakeFiles/lwipcore.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.obj -MF CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.obj.d -o CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.obj -c /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/netif/ppp/lcp.c
 
 CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.i: cmake_force
@@ -1024,7 +1010,7 @@ CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.s: cmake_force
 CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/magic.c.obj: CMakeFiles/lwipcore.dir/flags.make
 CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/magic.c.obj: ../pico-sdk/lib/lwip/src/netif/ppp/magic.c
 CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/magic.c.obj: CMakeFiles/lwipcore.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/magic.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/magic.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/magic.c.obj -MF CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/magic.c.obj.d -o CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/magic.c.obj -c /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/netif/ppp/magic.c
 
 CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/magic.c.i: cmake_force
@@ -1038,7 +1024,7 @@ CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/magic.c.s: cmake_force
 CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.obj: CMakeFiles/lwipcore.dir/flags.make
 CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.obj: ../pico-sdk/lib/lwip/src/netif/ppp/mppe.c
 CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.obj: CMakeFiles/lwipcore.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.obj -MF CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.obj.d -o CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.obj -c /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/netif/ppp/mppe.c
 
 CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.i: cmake_force
@@ -1052,7 +1038,7 @@ CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.s: cmake_force
 CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.obj: CMakeFiles/lwipcore.dir/flags.make
 CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.obj: ../pico-sdk/lib/lwip/src/netif/ppp/multilink.c
 CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.obj: CMakeFiles/lwipcore.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.obj -MF CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.obj.d -o CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.obj -c /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/netif/ppp/multilink.c
 
 CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.i: cmake_force
@@ -1066,7 +1052,7 @@ CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.s: cmake_for
 CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.obj: CMakeFiles/lwipcore.dir/flags.make
 CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.obj: ../pico-sdk/lib/lwip/src/netif/ppp/ppp.c
 CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.obj: CMakeFiles/lwipcore.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.obj -MF CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.obj.d -o CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.obj -c /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/netif/ppp/ppp.c
 
 CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.i: cmake_force
@@ -1080,7 +1066,7 @@ CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.s: cmake_force
 CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.obj: CMakeFiles/lwipcore.dir/flags.make
 CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.obj: ../pico-sdk/lib/lwip/src/netif/ppp/pppapi.c
 CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.obj: CMakeFiles/lwipcore.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.obj -MF CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.obj.d -o CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.obj -c /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c
 
 CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.i: cmake_force
@@ -1094,7 +1080,7 @@ CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.s: cmake_force
 CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.obj: CMakeFiles/lwipcore.dir/flags.make
 CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.obj: ../pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c
 CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.obj: CMakeFiles/lwipcore.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.obj -MF CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.obj.d -o CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.obj -c /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c
 
 CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.i: cmake_force
@@ -1108,7 +1094,7 @@ CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.s: cmake_forc
 CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.obj: CMakeFiles/lwipcore.dir/flags.make
 CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.obj: ../pico-sdk/lib/lwip/src/netif/ppp/pppoe.c
 CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.obj: CMakeFiles/lwipcore.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.obj -MF CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.obj.d -o CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.obj -c /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c
 
 CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.i: cmake_force
@@ -1122,7 +1108,7 @@ CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.s: cmake_force
 CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.obj: CMakeFiles/lwipcore.dir/flags.make
 CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.obj: ../pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c
 CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.obj: CMakeFiles/lwipcore.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.obj -MF CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.obj.d -o CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.obj -c /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c
 
 CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.i: cmake_force
@@ -1136,7 +1122,7 @@ CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.s: cmake_forc
 CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.obj: CMakeFiles/lwipcore.dir/flags.make
 CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.obj: ../pico-sdk/lib/lwip/src/netif/ppp/pppos.c
 CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.obj: CMakeFiles/lwipcore.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.obj -MF CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.obj.d -o CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.obj -c /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/netif/ppp/pppos.c
 
 CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.i: cmake_force
@@ -1150,7 +1136,7 @@ CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.s: cmake_force
 CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/upap.c.obj: CMakeFiles/lwipcore.dir/flags.make
 CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/upap.c.obj: ../pico-sdk/lib/lwip/src/netif/ppp/upap.c
 CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/upap.c.obj: CMakeFiles/lwipcore.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/upap.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/upap.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/upap.c.obj -MF CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/upap.c.obj.d -o CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/upap.c.obj -c /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/netif/ppp/upap.c
 
 CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/upap.c.i: cmake_force
@@ -1164,7 +1150,7 @@ CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/upap.c.s: cmake_force
 CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/utils.c.obj: CMakeFiles/lwipcore.dir/flags.make
 CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/utils.c.obj: ../pico-sdk/lib/lwip/src/netif/ppp/utils.c
 CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/utils.c.obj: CMakeFiles/lwipcore.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/utils.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/utils.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/utils.c.obj -MF CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/utils.c.obj.d -o CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/utils.c.obj -c /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/netif/ppp/utils.c
 
 CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/utils.c.i: cmake_force
@@ -1178,7 +1164,7 @@ CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/utils.c.s: cmake_force
 CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/vj.c.obj: CMakeFiles/lwipcore.dir/flags.make
 CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/vj.c.obj: ../pico-sdk/lib/lwip/src/netif/ppp/vj.c
 CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/vj.c.obj: CMakeFiles/lwipcore.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/vj.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/vj.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/vj.c.obj -MF CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/vj.c.obj.d -o CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/vj.c.obj -c /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/netif/ppp/vj.c
 
 CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/vj.c.i: cmake_force
@@ -1192,7 +1178,7 @@ CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/vj.c.s: cmake_force
 CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.obj: CMakeFiles/lwipcore.dir/flags.make
 CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.obj: ../pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c
 CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.obj: CMakeFiles/lwipcore.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.obj -MF CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.obj.d -o CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.obj -c /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c
 
 CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.i: cmake_force
@@ -1206,7 +1192,7 @@ CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.s: cmake
 CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.obj: CMakeFiles/lwipcore.dir/flags.make
 CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.obj: ../pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c
 CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.obj: CMakeFiles/lwipcore.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.obj -MF CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.obj.d -o CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.obj -c /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c
 
 CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.i: cmake_force
@@ -1220,7 +1206,7 @@ CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.s: cmake_
 CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.obj: CMakeFiles/lwipcore.dir/flags.make
 CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.obj: ../pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c
 CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.obj: CMakeFiles/lwipcore.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.obj -MF CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.obj.d -o CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.obj -c /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c
 
 CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.i: cmake_force
@@ -1234,7 +1220,7 @@ CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.s: cmake_
 CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.obj: CMakeFiles/lwipcore.dir/flags.make
 CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.obj: ../pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c
 CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.obj: CMakeFiles/lwipcore.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building C object CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.obj -MF CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.obj.d -o CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.obj -c /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c
 
 CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.i: cmake_force
@@ -1248,7 +1234,7 @@ CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.s: cmake_
 CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.obj: CMakeFiles/lwipcore.dir/flags.make
 CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.obj: ../pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c
 CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.obj: CMakeFiles/lwipcore.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building C object CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building C object CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.obj -MF CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.obj.d -o CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.obj -c /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c
 
 CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.i: cmake_force
@@ -1311,7 +1297,6 @@ lwipcore_OBJECTS = \
 "CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ethernet.c.obj" \
 "CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/bridgeif.c.obj" \
 "CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.obj" \
-"CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/slipif.c.obj" \
 "CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.obj" \
 "CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/lowpan6.c.obj" \
 "CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.obj" \
@@ -1400,7 +1385,6 @@ liblwipcore.a: CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/api/tcpip.c.obj
 liblwipcore.a: CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ethernet.c.obj
 liblwipcore.a: CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/bridgeif.c.obj
 liblwipcore.a: CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.obj
-liblwipcore.a: CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/slipif.c.obj
 liblwipcore.a: CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.obj
 liblwipcore.a: CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/lowpan6.c.obj
 liblwipcore.a: CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.obj
@@ -1437,7 +1421,7 @@ liblwipcore.a: CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/
 liblwipcore.a: CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.obj
 liblwipcore.a: CMakeFiles/lwipcore.dir/build.make
 liblwipcore.a: CMakeFiles/lwipcore.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Linking C static library liblwipcore.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Linking C static library liblwipcore.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/lwipcore.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/lwipcore.dir/link.txt --verbose=$(VERBOSE)
 

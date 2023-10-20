@@ -165,8 +165,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/utils.c.obj.d"
   "CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/vj.c.obj"
   "CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/ppp/vj.c.obj.d"
-  "CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/slipif.c.obj"
-  "CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/slipif.c.obj.d"
   "CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/zepif.c.obj"
   "CMakeFiles/lwipcore.dir/pico-sdk/lib/lwip/src/netif/zepif.c.obj.d"
   "liblwipcore.a"

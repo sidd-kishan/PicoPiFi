@@ -5452,7 +5452,6 @@ CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/lib/networking/rndis_reports.
   ../pico-sdk/lib/tinyusb/src/common/tusb_verify.h \
   ../pico-sdk/lib/tinyusb/src/common/tusb_types.h \
   ../pico-sdk/lib/tinyusb/src/common/tusb_debug.h \
-  ../pico-sdk/lib/tinyusb/src/common/tusb_timeout.h \
   ../pico-sdk/lib/tinyusb/src/class/net/ncm.h \
   ../pico-sdk/lib/tinyusb/lib/networking/rndis_protocol.h \
   ../pico-sdk/lib/tinyusb/lib/networking/ndis.h \
@@ -5574,7 +5573,6 @@ CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_devic
   ../pico-sdk/lib/tinyusb/src/common/tusb_verify.h \
   ../pico-sdk/lib/tinyusb/src/common/tusb_types.h \
   ../pico-sdk/lib/tinyusb/src/common/tusb_debug.h \
-  ../pico-sdk/lib/tinyusb/src/common/tusb_timeout.h \
   ../pico-sdk/lib/tinyusb/src/device/usbd_pvt.h \
   ../pico-sdk/lib/tinyusb/src/osal/osal.h \
   ../pico-sdk/lib/tinyusb/src/osal/osal_pico.h \
@@ -5680,7 +5678,6 @@ CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj: .
   ../pico-sdk/lib/tinyusb/src/common/tusb_verify.h \
   ../pico-sdk/lib/tinyusb/src/common/tusb_types.h \
   ../pico-sdk/lib/tinyusb/src/common/tusb_debug.h \
-  ../pico-sdk/lib/tinyusb/src/common/tusb_timeout.h \
   ../pico-sdk/lib/tinyusb/src/osal/osal_pico.h \
   ../pico-sdk/src/common/pico_time/include/pico/time.h \
   ../pico-sdk/src/common/pico_base/include/pico.h \
@@ -5756,7 +5753,6 @@ CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/src/device/usbd.c.obj: ../pic
   ../pico-sdk/lib/tinyusb/src/common/tusb_verify.h \
   ../pico-sdk/lib/tinyusb/src/common/tusb_types.h \
   ../pico-sdk/lib/tinyusb/src/common/tusb_debug.h \
-  ../pico-sdk/lib/tinyusb/src/common/tusb_timeout.h \
   ../pico-sdk/lib/tinyusb/src/osal/osal.h \
   ../pico-sdk/lib/tinyusb/src/osal/osal_pico.h \
   ../pico-sdk/src/common/pico_time/include/pico/time.h \
@@ -5844,7 +5840,6 @@ CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
   ../pico-sdk/lib/tinyusb/src/common/tusb_verify.h \
   ../pico-sdk/lib/tinyusb/src/common/tusb_types.h \
   ../pico-sdk/lib/tinyusb/src/common/tusb_debug.h \
-  ../pico-sdk/lib/tinyusb/src/common/tusb_timeout.h \
   ../pico-sdk/lib/tinyusb/src/osal/osal.h \
   ../pico-sdk/lib/tinyusb/src/osal/osal_pico.h \
   ../pico-sdk/src/common/pico_time/include/pico/time.h \
@@ -5915,6 +5910,8 @@ CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp20
   /usr/include/newlib/machine/_default_types.h \
   ../pico-sdk/src/common/pico_base/include/pico/types.h \
   ../pico-sdk/src/common/pico_base/include/pico/error.h \
+  ../pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
+  ../pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
   ../pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.h \
   ../pico-sdk/lib/tinyusb/src/common/tusb_common.h \
   /usr/include/newlib/string.h \
@@ -5945,9 +5942,7 @@ CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp20
   ../pico-sdk/lib/tinyusb/src/common/tusb_verify.h \
   ../pico-sdk/lib/tinyusb/src/common/tusb_types.h \
   ../pico-sdk/lib/tinyusb/src/common/tusb_debug.h \
-  ../pico-sdk/lib/tinyusb/src/common/tusb_timeout.h \
   ../pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/usb.h \
-  ../pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
   ../pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/usb.h \
   ../pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h \
   ../pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
@@ -5964,7 +5959,6 @@ CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp20
   ../pico-sdk/src/common/pico_time/include/pico/time.h \
   ../pico-sdk/src/common/pico_sync/include/pico/sem.h \
   ../pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
-  ../pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
   ../pico-sdk/src/common/pico_sync/include/pico/mutex.h \
   ../pico-sdk/src/common/pico_sync/include/pico/critical_section.h \
   ../pico-sdk/lib/tinyusb/src/common/tusb_fifo.h
@@ -6018,7 +6012,6 @@ CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp20
   ../pico-sdk/lib/tinyusb/src/common/tusb_verify.h \
   ../pico-sdk/lib/tinyusb/src/common/tusb_types.h \
   ../pico-sdk/lib/tinyusb/src/common/tusb_debug.h \
-  ../pico-sdk/lib/tinyusb/src/common/tusb_timeout.h \
   ../pico-sdk/src/common/pico_base/include/pico.h \
   ../pico-sdk/src/common/pico_base/include/pico/types.h \
   ../pico-sdk/src/common/pico_base/include/pico/assert.h \
@@ -6094,7 +6087,6 @@ CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/src/tusb.c.obj: ../pico-sdk/l
   ../pico-sdk/lib/tinyusb/src/common/tusb_verify.h \
   ../pico-sdk/lib/tinyusb/src/common/tusb_types.h \
   ../pico-sdk/lib/tinyusb/src/common/tusb_debug.h \
-  ../pico-sdk/lib/tinyusb/src/common/tusb_timeout.h \
   ../pico-sdk/lib/tinyusb/src/osal/osal.h \
   ../pico-sdk/lib/tinyusb/src/common/tusb_common.h \
   ../pico-sdk/lib/tinyusb/src/osal/osal_pico.h \
@@ -8524,7 +8516,6 @@ CMakeFiles/pico_webserver.dir/ssi.cpp.obj: ../ssi.cpp \
   ../pico-sdk/lib/tinyusb/src/common/tusb_verify.h \
   ../pico-sdk/lib/tinyusb/src/common/tusb_types.h \
   ../pico-sdk/lib/tinyusb/src/common/tusb_debug.h \
-  ../pico-sdk/lib/tinyusb/src/common/tusb_timeout.h \
   ../pico-sdk/lib/tinyusb/src/osal/osal.h \
   ../pico-sdk/lib/tinyusb/src/common/tusb_common.h \
   ../pico-sdk/lib/tinyusb/src/osal/osal_pico.h \
@@ -8591,7 +8582,6 @@ CMakeFiles/pico_webserver.dir/tusb_lwip_glue.c.obj: ../tusb_lwip_glue.c \
   ../pico-sdk/lib/tinyusb/src/common/tusb_verify.h \
   ../pico-sdk/lib/tinyusb/src/common/tusb_types.h \
   ../pico-sdk/lib/tinyusb/src/common/tusb_debug.h \
-  ../pico-sdk/lib/tinyusb/src/common/tusb_timeout.h \
   ../pico-sdk/lib/tinyusb/src/osal/osal.h \
   ../pico-sdk/lib/tinyusb/src/common/tusb_common.h \
   ../pico-sdk/lib/tinyusb/src/osal/osal_pico.h \
@@ -8740,7 +8730,6 @@ CMakeFiles/pico_webserver.dir/usb_descriptors.c.obj: ../usb_descriptors.c \
   ../pico-sdk/lib/tinyusb/src/common/tusb_verify.h \
   ../pico-sdk/lib/tinyusb/src/common/tusb_types.h \
   ../pico-sdk/lib/tinyusb/src/common/tusb_debug.h \
-  ../pico-sdk/lib/tinyusb/src/common/tusb_timeout.h \
   ../pico-sdk/lib/tinyusb/src/osal/osal.h \
   ../pico-sdk/lib/tinyusb/src/common/tusb_common.h \
   ../pico-sdk/lib/tinyusb/src/osal/osal_pico.h \
@@ -8880,7 +8869,6 @@ CMakeFiles/pico_webserver.dir/webserver.c.obj: ../webserver.c \
   ../pico-sdk/lib/tinyusb/src/common/tusb_verify.h \
   ../pico-sdk/lib/tinyusb/src/common/tusb_types.h \
   ../pico-sdk/lib/tinyusb/src/common/tusb_debug.h \
-  ../pico-sdk/lib/tinyusb/src/common/tusb_timeout.h \
   ../pico-sdk/lib/tinyusb/src/osal/osal.h \
   ../pico-sdk/lib/tinyusb/src/common/tusb_common.h \
   ../pico-sdk/lib/tinyusb/src/osal/osal_pico.h \
@@ -8991,7 +8979,6 @@ CMakeFiles/pico_webserver.dir/wifi_code.c.obj: ../wifi_code.c \
   ../pico-sdk/lib/tinyusb/src/common/tusb_verify.h \
   ../pico-sdk/lib/tinyusb/src/common/tusb_types.h \
   ../pico-sdk/lib/tinyusb/src/common/tusb_debug.h \
-  ../pico-sdk/lib/tinyusb/src/common/tusb_timeout.h \
   ../pico-sdk/lib/tinyusb/src/osal/osal.h \
   ../pico-sdk/lib/tinyusb/src/common/tusb_common.h \
   ../pico-sdk/lib/tinyusb/src/osal/osal_pico.h \
@@ -10032,7 +10019,5 @@ generated/pico_base/pico/config_autogen.h:
 ../pico-sdk/lib/lwip/src/netif/ppp/lcp.c:
 
 ../pico-sdk/lib/lwip/src/netif/ppp/magic.c:
-
-../pico-sdk/lib/tinyusb/src/common/tusb_timeout.h:
 
 ../pico-sdk/lib/lwip/src/netif/ppp/mppe.c:

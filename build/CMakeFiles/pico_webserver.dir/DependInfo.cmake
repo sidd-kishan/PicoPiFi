@@ -23,6 +23,7 @@ set(CMAKE_DEPENDS_CHECK_ASM
 
 # Preprocessor definitions for this target.
 set(CMAKE_TARGET_DEFINITIONS_ASM
+  "CFG_TUSB_DEBUG=0"
   "CFG_TUSB_MCU=OPT_MCU_RP2040"
   "CFG_TUSB_OS=OPT_OS_PICO"
   "CYW43_LWIP=0"
@@ -118,8 +119,6 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
   "../pico-sdk/src/rp2_common/boot_stage2/include"
   "../pico-sdk/src/rp2_common/pico_unique_id/include"
   "../pico-sdk/src/rp2_common/hardware_flash/include"
-  "../pico-sdk/lib/tinyusb/src/common"
-  "../pico-sdk/lib/tinyusb/hw"
   "../pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/include"
   "../pico-sdk/src/rp2_common/pico_cyw43_arch/include"
   "../pico-sdk/lib/cyw43-driver/src"

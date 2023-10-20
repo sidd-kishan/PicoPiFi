@@ -11,19 +11,21 @@
 #include "lwip/dns.h"
 
 
-
+mutex_t wifi_ready;
 uint8_t macaddr[6];
 
 int main()
 {
-	set_sys_clock_khz(200000, true); 
+	set_sys_clock_khz(230000, true);
+	mutex_init(&wifi_ready);
+	mutex_enter_blocking(&wifi_ready);
 	multicore_launch_core1(core1_entry);
 	// Initialize tinyusb, lwip, dhcpd and httpd
 	mutex_init(&usb_ready);
 	
     init_lwip();
     wait_for_netif_is_up();
-    dhcpd_init();
+    //dhcpd_init();
     httpd_init();
     ssi_init();
     cgi_init();

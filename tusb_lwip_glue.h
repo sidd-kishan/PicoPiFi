@@ -16,7 +16,7 @@ void init_lwip();
 void wait_for_netif_is_up();
 void dhcpd_init();
 void service_traffic();
-
+extern mutex_t wifi_ready;
 extern uint8_t macaddr[6];
 
 #ifdef __cplusplus

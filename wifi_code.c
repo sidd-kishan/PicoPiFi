@@ -39,10 +39,11 @@ void cyw43_cb_process_ethernet(void *cb_data, int itf, size_t len, const uint8_t
 char wifi_conn_detail[3][16];
 
 void core1_entry() {
-    cyw43_arch_init_with_country(CYW43_COUNTRY_INDIA);
+	cyw43_arch_init_with_country(CYW43_COUNTRY_INDIA);
     cyw43_arch_enable_sta_mode();
 	cyw43_wifi_pm(&cyw43_state, cyw43_pm_value(CYW43_NO_POWERSAVE_MODE, 20, 1, 1, 1));
 	cyw43_hal_get_mac(0, macaddr);
+	mutex_exit(&wifi_ready);
 	while(1){
 		if (!link_up) {
             if (absolute_time_diff_us(get_absolute_time(), next_wifi_try) < 0) {
