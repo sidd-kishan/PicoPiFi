@@ -33,6 +33,9 @@ cd pico-webserver
 git submodule update --init
 cd pico-sdk
 git submodule update --init
+cd lib/
+git submodule update --remote
+cd ..
 cd ..
 mkdir -p build
 cd build
