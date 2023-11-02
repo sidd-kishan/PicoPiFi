@@ -1,6 +1,4 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/pico_webserver.dir/cgi.cpp.obj"
-  "CMakeFiles/pico_webserver.dir/cgi.cpp.obj.d"
   "CMakeFiles/pico_webserver.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj"
   "CMakeFiles/pico_webserver.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj.d"
   "CMakeFiles/pico_webserver.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj"
@@ -340,8 +338,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj.d"
   "CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj"
   "CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj.d"
-  "CMakeFiles/pico_webserver.dir/ssi.cpp.obj"
-  "CMakeFiles/pico_webserver.dir/ssi.cpp.obj.d"
   "CMakeFiles/pico_webserver.dir/tusb_lwip_glue.c.obj"
   "CMakeFiles/pico_webserver.dir/tusb_lwip_glue.c.obj.d"
   "CMakeFiles/pico_webserver.dir/usb_descriptors.c.obj"

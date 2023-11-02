@@ -2,6 +2,7 @@
 #include "pico/cyw43_arch.h"
 #include "wifi_code.h"
 
+char scan_results[93];
 pkt_s in_pkt;
 struct pbuf *out_pkt;
 static volatile bool link_up = false;

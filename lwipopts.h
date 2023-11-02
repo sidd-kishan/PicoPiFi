@@ -35,14 +35,14 @@
 /* Prevent having to link sys_arch.c (we don't test the API layers in unit tests) */
 #define NO_SYS                          1
 #define MEM_ALIGNMENT                   4
-#define LWIP_RAW                        1
+#define LWIP_RAW                        0
 #define LWIP_NETCONN                    0
 #define LWIP_SOCKET                     0
-#define LWIP_NETIF_HOSTNAME             1
-#define LWIP_DHCP                       1
-#define LWIP_ICMP                       1
+#define LWIP_NETIF_HOSTNAME             0
+#define LWIP_DHCP                       0
+#define LWIP_ICMP                       0
 #define LWIP_UDP                        1
-#define LWIP_TCP                        1
+#define LWIP_TCP                        0
 #define ETH_PAD_SIZE                    0
 #define LWIP_IP_ACCEPT_UDP_PORT(p)      ((p) == PP_NTOHS(67))
 
@@ -51,12 +51,12 @@
 
 #define ETHARP_SUPPORT_STATIC_ENTRIES   1
 
-#define LWIP_HTTPD                      1
-#define IP_FORWARD                      1
-#define LWIP_HTTPD_CGI                  1
-#define LWIP_HTTPD_SSI                  1
+#define LWIP_HTTPD                      0
+#define IP_FORWARD                      0
+#define LWIP_HTTPD_CGI                  0
+#define LWIP_HTTPD_SSI                  0
 #define LWIP_HTTPD_SSI_INCLUDE_TAG      0
-#define HTTPD_USE_CUSTOM_FSDATA         1
+#define HTTPD_USE_CUSTOM_FSDATA         0
 #define HTTPD_FSDATA_FILE               "../../../../../../fsdata.c"
 
 #define LWIP_SINGLE_NETIF               0

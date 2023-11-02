@@ -259,30 +259,6 @@ cyw43_driver_picow_cyw43_bus_pio_spi_pio_h/fast:
 	$(MAKE) $(MAKESILENT) -f pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/build.make pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/build
 .PHONY : cyw43_driver_picow_cyw43_bus_pio_spi_pio_h/fast
 
-cgi.obj: cgi.cpp.obj
-.PHONY : cgi.obj
-
-# target to build an object file
-cgi.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/cgi.cpp.obj
-.PHONY : cgi.cpp.obj
-
-cgi.i: cgi.cpp.i
-.PHONY : cgi.i
-
-# target to preprocess a source file
-cgi.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/cgi.cpp.i
-.PHONY : cgi.cpp.i
-
-cgi.s: cgi.cpp.s
-.PHONY : cgi.s
-
-# target to generate assembly for a file
-cgi.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/cgi.cpp.s
-.PHONY : cgi.cpp.s
-
 pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.obj: pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj
 .PHONY : pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.obj
 
@@ -5363,30 +5339,6 @@ pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
 .PHONY : pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
 
-ssi.obj: ssi.cpp.obj
-.PHONY : ssi.obj
-
-# target to build an object file
-ssi.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/ssi.cpp.obj
-.PHONY : ssi.cpp.obj
-
-ssi.i: ssi.cpp.i
-.PHONY : ssi.i
-
-# target to preprocess a source file
-ssi.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/ssi.cpp.i
-.PHONY : ssi.cpp.i
-
-ssi.s: ssi.cpp.s
-.PHONY : ssi.s
-
-# target to generate assembly for a file
-ssi.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/ssi.cpp.s
-.PHONY : ssi.cpp.s
-
 tusb_lwip_glue.obj: tusb_lwip_glue.c.obj
 .PHONY : tusb_lwip_glue.obj
 
@@ -5502,9 +5454,6 @@ help:
 	@echo "... lwipcore"
 	@echo "... lwipmbedtls"
 	@echo "... pico_webserver"
-	@echo "... cgi.obj"
-	@echo "... cgi.i"
-	@echo "... cgi.s"
 	@echo "... pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.obj"
 	@echo "... pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.i"
 	@echo "... pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.s"
@@ -6107,9 +6056,6 @@ help:
 	@echo "... pico-sdk/src/rp2_common/pico_unique_id/unique_id.obj"
 	@echo "... pico-sdk/src/rp2_common/pico_unique_id/unique_id.i"
 	@echo "... pico-sdk/src/rp2_common/pico_unique_id/unique_id.s"
-	@echo "... ssi.obj"
-	@echo "... ssi.i"
-	@echo "... ssi.s"
 	@echo "... tusb_lwip_glue.obj"
 	@echo "... tusb_lwip_glue.i"
 	@echo "... tusb_lwip_glue.s"

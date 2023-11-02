@@ -16,6 +16,7 @@ extern mutex_t usb_ready;
 extern struct pbuf *received_frame;
 void core1_entry();
 extern char scan_results[93];
+extern char ssid[32],key[32];
 #ifdef __cplusplus
  }
 #endif
