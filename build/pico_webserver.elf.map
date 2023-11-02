@@ -23,7 +23,7 @@ Archive member included to satisfy reference by file (symbol)
 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-mallocr.o)
                               /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-callocr.o) (_malloc_r)
 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-memcmp.o)
-                              CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/lib/networking/dhserver.c.obj (memcmp)
+                              CMakeFiles/pico_webserver.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj (memcmp)
 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-memmove.o)
                               CMakeFiles/pico_webserver.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj (memmove)
 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-mlock.o)
@@ -93,45 +93,6 @@ Discarded input sections
  .text          0x0000000000000000        0x0 CMakeFiles/pico_webserver.dir/usb_descriptors.c.obj
  .data          0x0000000000000000        0x0 CMakeFiles/pico_webserver.dir/usb_descriptors.c.obj
  .bss           0x0000000000000000        0x0 CMakeFiles/pico_webserver.dir/usb_descriptors.c.obj
- .text          0x0000000000000000        0x0 CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/lib/networking/dhserver.c.obj
- .data          0x0000000000000000        0x0 CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/lib/networking/dhserver.c.obj
- .bss           0x0000000000000000        0x0 CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/lib/networking/dhserver.c.obj
- .text.find_dhcp_option
-                0x0000000000000000       0x28 CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/lib/networking/dhserver.c.obj
- .text.fill_options
-                0x0000000000000000       0xdc CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/lib/networking/dhserver.c.obj
- .text.udp_recv_proc
-                0x0000000000000000      0x2e8 CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/lib/networking/dhserver.c.obj
- .text.dhserv_init
-                0x0000000000000000       0x64 CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/lib/networking/dhserver.c.obj
- .text.dhserv_free
-                0x0000000000000000       0x18 CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/lib/networking/dhserver.c.obj
- .rodata        0x0000000000000000        0x6 CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/lib/networking/dhserver.c.obj
- .bss.config    0x0000000000000000        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/lib/networking/dhserver.c.obj
- .bss.dhcp_data
-                0x0000000000000000      0x204 CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/lib/networking/dhserver.c.obj
- .bss.pcb       0x0000000000000000        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/lib/networking/dhserver.c.obj
- .data.magic_cookie
-                0x0000000000000000        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/lib/networking/dhserver.c.obj
- .comment       0x0000000000000000       0x34 CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/lib/networking/dhserver.c.obj
- .ARM.attributes
-                0x0000000000000000       0x2c CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/lib/networking/dhserver.c.obj
- .text          0x0000000000000000        0x0 CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/lib/networking/dnserver.c.obj
- .data          0x0000000000000000        0x0 CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/lib/networking/dnserver.c.obj
- .bss           0x0000000000000000        0x0 CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/lib/networking/dnserver.c.obj
- .text.udp_recv_proc
-                0x0000000000000000      0x1c0 CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/lib/networking/dnserver.c.obj
- .text.dnserv_init
-                0x0000000000000000       0x64 CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/lib/networking/dnserver.c.obj
- .text.dnserv_free
-                0x0000000000000000       0x18 CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/lib/networking/dnserver.c.obj
- .bss.pcb       0x0000000000000000        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/lib/networking/dnserver.c.obj
- .bss.query.0   0x0000000000000000       0x84 CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/lib/networking/dnserver.c.obj
- .bss.query_proc
-                0x0000000000000000        0x4 CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/lib/networking/dnserver.c.obj
- .comment       0x0000000000000000       0x34 CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/lib/networking/dnserver.c.obj
- .ARM.attributes
-                0x0000000000000000       0x2c CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/lib/networking/dnserver.c.obj
  .text          0x0000000000000000        0x0 CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/lib/networking/rndis_reports.c.obj
  .data          0x0000000000000000        0x0 CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/lib/networking/rndis_reports.c.obj
  .bss           0x0000000000000000        0x0 CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/lib/networking/rndis_reports.c.obj
@@ -2095,9 +2056,9 @@ Discarded input sections
                 0x0000000000000000        0x8 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
  .bss.lockout_victim_initialized
                 0x0000000000000000        0x2 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
- .text          0x0000000000000000        0x0 /tmp/cc3C19lw.o
- .data          0x0000000000000000        0x0 /tmp/cc3C19lw.o
- .bss           0x0000000000000000        0x0 /tmp/cc3C19lw.o
+ .text          0x0000000000000000        0x0 /tmp/ccqj7YZP.o
+ .data          0x0000000000000000        0x0 /tmp/ccqj7YZP.o
+ .bss           0x0000000000000000        0x0 /tmp/ccqj7YZP.o
  .data          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .bss           0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .text          0x0000000000000000       0x10 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-atexit.o)
@@ -2323,7 +2284,7 @@ LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nof
 .boot2          0x0000000010000000      0x100
                 0x0000000010000000                __boot2_start__ = .
  *(.boot2)
- .boot2         0x0000000010000000      0x100 /tmp/cc3C19lw.o
+ .boot2         0x0000000010000000      0x100 /tmp/ccqj7YZP.o
                 0x0000000010000100                __boot2_end__ = .
                 0x0000000000000001                ASSERT (((__boot2_end__ - __boot2_start__) == 0x100), ERROR: Pico second stage bootloader must be 256 bytes in size)
 
@@ -4218,8 +4179,6 @@ LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nof
 LOAD CMakeFiles/pico_webserver.dir/webserver.c.obj
 LOAD CMakeFiles/pico_webserver.dir/tusb_lwip_glue.c.obj
 LOAD CMakeFiles/pico_webserver.dir/usb_descriptors.c.obj
-LOAD CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/lib/networking/dhserver.c.obj
-LOAD CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/lib/networking/dnserver.c.obj
 LOAD CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/lib/networking/rndis_reports.c.obj
 LOAD CMakeFiles/pico_webserver.dir/wifi_code.c.obj
 LOAD CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
@@ -4396,7 +4355,7 @@ LOAD CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/apps/http/httpd.c.obj
 LOAD CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
 LOAD liblwipallapps.a
 LOAD liblwipcore.a
-LOAD /tmp/cc3C19lw.o
+LOAD /tmp/ccqj7YZP.o
 LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libstdc++.a
 LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libm.a
 START GROUP
@@ -4570,7 +4529,7 @@ LOAD linker stubs
  .ARM.attributes
                 0x0000000000000cb4       0x2c CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
  .ARM.attributes
-                0x0000000000000ce0       0x22 /tmp/cc3C19lw.o
+                0x0000000000000ce0       0x22 /tmp/ccqj7YZP.o
  .ARM.attributes
                 0x0000000000000d02       0x1e /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .ARM.attributes

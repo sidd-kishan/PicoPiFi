@@ -3547,54 +3547,6 @@ pico-sdk/lib/lwip/src/netif/zepif.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/zepif.c.s
 .PHONY : pico-sdk/lib/lwip/src/netif/zepif.c.s
 
-pico-sdk/lib/tinyusb/lib/networking/dhserver.obj: pico-sdk/lib/tinyusb/lib/networking/dhserver.c.obj
-.PHONY : pico-sdk/lib/tinyusb/lib/networking/dhserver.obj
-
-# target to build an object file
-pico-sdk/lib/tinyusb/lib/networking/dhserver.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/lib/networking/dhserver.c.obj
-.PHONY : pico-sdk/lib/tinyusb/lib/networking/dhserver.c.obj
-
-pico-sdk/lib/tinyusb/lib/networking/dhserver.i: pico-sdk/lib/tinyusb/lib/networking/dhserver.c.i
-.PHONY : pico-sdk/lib/tinyusb/lib/networking/dhserver.i
-
-# target to preprocess a source file
-pico-sdk/lib/tinyusb/lib/networking/dhserver.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/lib/networking/dhserver.c.i
-.PHONY : pico-sdk/lib/tinyusb/lib/networking/dhserver.c.i
-
-pico-sdk/lib/tinyusb/lib/networking/dhserver.s: pico-sdk/lib/tinyusb/lib/networking/dhserver.c.s
-.PHONY : pico-sdk/lib/tinyusb/lib/networking/dhserver.s
-
-# target to generate assembly for a file
-pico-sdk/lib/tinyusb/lib/networking/dhserver.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/lib/networking/dhserver.c.s
-.PHONY : pico-sdk/lib/tinyusb/lib/networking/dhserver.c.s
-
-pico-sdk/lib/tinyusb/lib/networking/dnserver.obj: pico-sdk/lib/tinyusb/lib/networking/dnserver.c.obj
-.PHONY : pico-sdk/lib/tinyusb/lib/networking/dnserver.obj
-
-# target to build an object file
-pico-sdk/lib/tinyusb/lib/networking/dnserver.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/lib/networking/dnserver.c.obj
-.PHONY : pico-sdk/lib/tinyusb/lib/networking/dnserver.c.obj
-
-pico-sdk/lib/tinyusb/lib/networking/dnserver.i: pico-sdk/lib/tinyusb/lib/networking/dnserver.c.i
-.PHONY : pico-sdk/lib/tinyusb/lib/networking/dnserver.i
-
-# target to preprocess a source file
-pico-sdk/lib/tinyusb/lib/networking/dnserver.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/lib/networking/dnserver.c.i
-.PHONY : pico-sdk/lib/tinyusb/lib/networking/dnserver.c.i
-
-pico-sdk/lib/tinyusb/lib/networking/dnserver.s: pico-sdk/lib/tinyusb/lib/networking/dnserver.c.s
-.PHONY : pico-sdk/lib/tinyusb/lib/networking/dnserver.s
-
-# target to generate assembly for a file
-pico-sdk/lib/tinyusb/lib/networking/dnserver.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/lib/networking/dnserver.c.s
-.PHONY : pico-sdk/lib/tinyusb/lib/networking/dnserver.c.s
-
 pico-sdk/lib/tinyusb/lib/networking/rndis_reports.obj: pico-sdk/lib/tinyusb/lib/networking/rndis_reports.c.obj
 .PHONY : pico-sdk/lib/tinyusb/lib/networking/rndis_reports.obj
 
@@ -5832,12 +5784,6 @@ help:
 	@echo "... pico-sdk/lib/lwip/src/netif/zepif.obj"
 	@echo "... pico-sdk/lib/lwip/src/netif/zepif.i"
 	@echo "... pico-sdk/lib/lwip/src/netif/zepif.s"
-	@echo "... pico-sdk/lib/tinyusb/lib/networking/dhserver.obj"
-	@echo "... pico-sdk/lib/tinyusb/lib/networking/dhserver.i"
-	@echo "... pico-sdk/lib/tinyusb/lib/networking/dhserver.s"
-	@echo "... pico-sdk/lib/tinyusb/lib/networking/dnserver.obj"
-	@echo "... pico-sdk/lib/tinyusb/lib/networking/dnserver.i"
-	@echo "... pico-sdk/lib/tinyusb/lib/networking/dnserver.s"
 	@echo "... pico-sdk/lib/tinyusb/lib/networking/rndis_reports.obj"
 	@echo "... pico-sdk/lib/tinyusb/lib/networking/rndis_reports.i"
 	@echo "... pico-sdk/lib/tinyusb/lib/networking/rndis_reports.s"
