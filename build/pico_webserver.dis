@@ -400,7 +400,7 @@ Disassembly of section .text:
 100003a2:	f005 f8df 	bl	10005564 <tud_task_ext>
 100003a6:	f000 f8cb 	bl	10000540 <service_traffic>
 100003aa:	e7f7      	b.n	1000039c <main+0x48>
-100003ac:	00030d40 	.word	0x00030d40
+100003ac:	0003a980 	.word	0x0003a980
 100003b0:	10010498 	.word	0x10010498
 100003b4:	2000a83c 	.word	0x2000a83c
 100003b8:	10000af5 	.word	0x10000af5
