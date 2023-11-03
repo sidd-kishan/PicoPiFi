@@ -76,7 +76,6 @@ set(CMAKE_TARGET_DEFINITIONS_ASM
 
 # The include file search paths:
 set(CMAKE_ASM_TARGET_INCLUDE_PATH
-  "../pico-sdk/lib/lwip/src/include"
   "../"
   "../pico-sdk/lib/tinyusb/lib/networking"
   "../pico-sdk/src/common/pico_stdlib/include"
@@ -116,11 +115,11 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
   "../pico-sdk/src/rp2_common/pico_int64_ops/include"
   "../pico-sdk/src/rp2_common/pico_mem_ops/include"
   "../pico-sdk/src/rp2_common/boot_stage2/include"
-  "../pico-sdk/src/rp2_common/pico_unique_id/include"
-  "../pico-sdk/src/rp2_common/hardware_flash/include"
   "../pico-sdk/lib/tinyusb/src"
   "../pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/include"
   "../pico-sdk/src/rp2_common/pico_cyw43_arch/include"
+  "../pico-sdk/src/rp2_common/pico_unique_id/include"
+  "../pico-sdk/src/rp2_common/hardware_flash/include"
   "../pico-sdk/lib/cyw43-driver/src"
   "../pico-sdk/lib/cyw43-driver/firmware"
   "../pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus"
@@ -130,6 +129,7 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
   "../pico-sdk/src/rp2_common/pico_cyw43_driver/include"
   "../pico-sdk/src/rp2_common/pico_async_context/include"
   "pico-sdk/src/rp2_common/pico_cyw43_driver"
+  "../pico-sdk/lib/lwip/src/include"
   "../pico-sdk/src/rp2_common/pico_multicore/include"
   )
 
@@ -148,10 +148,6 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/api/netifapi.c" "CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/api/netifapi.c.obj" "gcc" "CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/api/netifapi.c.obj.d"
   "/mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/api/sockets.c" "CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/api/sockets.c.obj" "gcc" "CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/api/sockets.c.obj.d"
   "/mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/api/tcpip.c" "CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/api/tcpip.c.obj" "gcc" "CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/api/tcpip.c.obj.d"
-  "/mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/apps/http/altcp_proxyconnect.c" "CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/apps/http/altcp_proxyconnect.c.obj" "gcc" "CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/apps/http/altcp_proxyconnect.c.obj.d"
-  "/mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/apps/http/fs.c" "CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/apps/http/fs.c.obj" "gcc" "CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/apps/http/fs.c.obj.d"
-  "/mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/apps/http/http_client.c" "CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/apps/http/http_client.c.obj" "gcc" "CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/apps/http/http_client.c.obj.d"
-  "/mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/apps/http/httpd.c" "CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/apps/http/httpd.c.obj" "gcc" "CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/apps/http/httpd.c.obj.d"
   "/mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/core/altcp.c" "CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/altcp.c.obj" "gcc" "CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/altcp.c.obj.d"
   "/mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/core/altcp_alloc.c" "CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/altcp_alloc.c.obj" "gcc" "CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/altcp_alloc.c.obj.d"
   "/mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/core/altcp_tcp.c" "CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/altcp_tcp.c.obj" "gcc" "CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/altcp_tcp.c.obj.d"
@@ -305,8 +301,6 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles/lwipallapps.dir/DependInfo.cmake"
-  "/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles/lwipcore.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.
