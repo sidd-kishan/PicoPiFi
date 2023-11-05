@@ -1,3 +1,7 @@
+/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles/lwipdocs.dir
+/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles/lwipcore.dir
+/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles/lwipallapps.dir
+/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles/lwipmbedtls.dir
 /mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles/pico_webserver.dir
 /mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles/ELF2UF2Build.dir
 /mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles/edit_cache.dir

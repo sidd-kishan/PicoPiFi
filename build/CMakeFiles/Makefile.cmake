@@ -25,6 +25,9 @@ set(CMAKE_MAKEFILE_DEPENDS
   "../pico-sdk/cmake/preload/toolchains/pico_arm_gcc.cmake"
   "../pico-sdk/cmake/preload/toolchains/set_flags.cmake"
   "../pico-sdk/docs/CMakeLists.txt"
+  "../pico-sdk/lib/lwip/doc/doxygen/lwip.Doxyfile.cmake.in"
+  "../pico-sdk/lib/lwip/src/Filelists.cmake"
+  "../pico-sdk/lib/lwip/src/include/lwip/init.h.cmake.in"
   "../pico-sdk/lib/tinyusb/hw/bsp/family_support.cmake"
   "../pico-sdk/lib/tinyusb/hw/bsp/rp2040/boards/pico_sdk/board.cmake"
   "../pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.cmake"
@@ -149,6 +152,8 @@ set(CMAKE_MAKEFILE_OUTPUTS
 
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
+  "../pico-sdk/lib/lwip/src/include/lwip/init.h"
+  "../pico-sdk/lib/lwip/doc/doxygen/lwip.Doxyfile"
   "elf2uf2/tmp/ELF2UF2Build-cfgcmd.txt"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   "generated/pico_base/pico/version.h"
@@ -239,6 +244,10 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/lwipdocs.dir/DependInfo.cmake"
+  "CMakeFiles/lwipcore.dir/DependInfo.cmake"
+  "CMakeFiles/lwipallapps.dir/DependInfo.cmake"
+  "CMakeFiles/lwipmbedtls.dir/DependInfo.cmake"
   "CMakeFiles/pico_webserver.dir/DependInfo.cmake"
   "CMakeFiles/ELF2UF2Build.dir/DependInfo.cmake"
   "pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default.dir/DependInfo.cmake"

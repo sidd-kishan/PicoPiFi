@@ -76,7 +76,9 @@ set(CMAKE_TARGET_DEFINITIONS_ASM
 
 # The include file search paths:
 set(CMAKE_ASM_TARGET_INCLUDE_PATH
+  "../pico-sdk/lib/lwip/src/include"
   "../"
+  "../pico-sdk/lib/tinyusb/src"
   "../pico-sdk/lib/tinyusb/lib/networking"
   "../pico-sdk/src/common/pico_stdlib/include"
   "../pico-sdk/src/rp2_common/hardware_gpio/include"
@@ -115,11 +117,10 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
   "../pico-sdk/src/rp2_common/pico_int64_ops/include"
   "../pico-sdk/src/rp2_common/pico_mem_ops/include"
   "../pico-sdk/src/rp2_common/boot_stage2/include"
-  "../pico-sdk/lib/tinyusb/src"
-  "../pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/include"
-  "../pico-sdk/src/rp2_common/pico_cyw43_arch/include"
   "../pico-sdk/src/rp2_common/pico_unique_id/include"
   "../pico-sdk/src/rp2_common/hardware_flash/include"
+  "../pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/include"
+  "../pico-sdk/src/rp2_common/pico_cyw43_arch/include"
   "../pico-sdk/lib/cyw43-driver/src"
   "../pico-sdk/lib/cyw43-driver/firmware"
   "../pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus"
@@ -129,7 +130,6 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
   "../pico-sdk/src/rp2_common/pico_cyw43_driver/include"
   "../pico-sdk/src/rp2_common/pico_async_context/include"
   "pico-sdk/src/rp2_common/pico_cyw43_driver"
-  "../pico-sdk/lib/lwip/src/include"
   "../pico-sdk/src/rp2_common/pico_multicore/include"
   )
 
@@ -148,6 +148,10 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/api/netifapi.c" "CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/api/netifapi.c.obj" "gcc" "CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/api/netifapi.c.obj.d"
   "/mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/api/sockets.c" "CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/api/sockets.c.obj" "gcc" "CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/api/sockets.c.obj.d"
   "/mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/api/tcpip.c" "CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/api/tcpip.c.obj" "gcc" "CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/api/tcpip.c.obj.d"
+  "/mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/apps/http/altcp_proxyconnect.c" "CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/apps/http/altcp_proxyconnect.c.obj" "gcc" "CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/apps/http/altcp_proxyconnect.c.obj.d"
+  "/mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/apps/http/fs.c" "CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/apps/http/fs.c.obj" "gcc" "CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/apps/http/fs.c.obj.d"
+  "/mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/apps/http/http_client.c" "CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/apps/http/http_client.c.obj" "gcc" "CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/apps/http/http_client.c.obj.d"
+  "/mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/apps/http/httpd.c" "CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/apps/http/httpd.c.obj" "gcc" "CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/apps/http/httpd.c.obj.d"
   "/mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/core/altcp.c" "CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/altcp.c.obj" "gcc" "CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/altcp.c.obj.d"
   "/mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/core/altcp_alloc.c" "CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/altcp_alloc.c.obj" "gcc" "CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/altcp_alloc.c.obj.d"
   "/mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/core/altcp_tcp.c" "CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/altcp_tcp.c.obj" "gcc" "CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/core/altcp_tcp.c.obj.d"
@@ -224,6 +228,8 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/netif/ppp/vj.c" "CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/vj.c.obj" "gcc" "CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/ppp/vj.c.obj.d"
   "/mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/netif/slipif.c" "CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/slipif.c.obj" "gcc" "CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/slipif.c.obj.d"
   "/mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/netif/zepif.c" "CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/zepif.c.obj" "gcc" "CMakeFiles/pico_webserver.dir/pico-sdk/lib/lwip/src/netif/zepif.c.obj.d"
+  "/mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/tinyusb/lib/networking/dhserver.c" "CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/lib/networking/dhserver.c.obj" "gcc" "CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/lib/networking/dhserver.c.obj.d"
+  "/mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/tinyusb/lib/networking/dnserver.c" "CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/lib/networking/dnserver.c.obj" "gcc" "CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/lib/networking/dnserver.c.obj.d"
   "/mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/tinyusb/lib/networking/rndis_reports.c" "CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/lib/networking/rndis_reports.c.obj" "gcc" "CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/lib/networking/rndis_reports.c.obj.d"
   "/mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c" "CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj" "gcc" "CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj.d"
   "/mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c" "CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj" "gcc" "CMakeFiles/pico_webserver.dir/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj.d"
@@ -296,11 +302,15 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/mnt/c/Users/Aayush/Desktop/pico-webserver/usb_descriptors.c" "CMakeFiles/pico_webserver.dir/usb_descriptors.c.obj" "gcc" "CMakeFiles/pico_webserver.dir/usb_descriptors.c.obj.d"
   "/mnt/c/Users/Aayush/Desktop/pico-webserver/webserver.c" "CMakeFiles/pico_webserver.dir/webserver.c.obj" "gcc" "CMakeFiles/pico_webserver.dir/webserver.c.obj.d"
   "/mnt/c/Users/Aayush/Desktop/pico-webserver/wifi_code.c" "CMakeFiles/pico_webserver.dir/wifi_code.c.obj" "gcc" "CMakeFiles/pico_webserver.dir/wifi_code.c.obj.d"
+  "/mnt/c/Users/Aayush/Desktop/pico-webserver/cgi.cpp" "CMakeFiles/pico_webserver.dir/cgi.cpp.obj" "gcc" "CMakeFiles/pico_webserver.dir/cgi.cpp.obj.d"
   "/mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp" "CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj" "gcc" "CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj.d"
+  "/mnt/c/Users/Aayush/Desktop/pico-webserver/ssi.cpp" "CMakeFiles/pico_webserver.dir/ssi.cpp.obj" "gcc" "CMakeFiles/pico_webserver.dir/ssi.cpp.obj.d"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
+  "/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles/lwipallapps.dir/DependInfo.cmake"
+  "/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles/lwipcore.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

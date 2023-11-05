@@ -97,7 +97,7 @@ static err_t output_fn(struct netif *netif, struct pbuf *p, const ip_addr_t *add
 static err_t netif_init_cb(struct netif *netif)
 {
     LWIP_ASSERT("netif != NULL", (netif != NULL));
-    netif->mtu = 1600;//CFG_TUD_NET_MTU;
+    netif->mtu = 1500;//CFG_TUD_NET_MTU;
     netif->flags = NETIF_FLAG_BROADCAST | NETIF_FLAG_ETHARP | NETIF_FLAG_LINK_UP | NETIF_FLAG_UP;
     netif->state = NULL;
     netif->name[0] = 'E';
@@ -201,11 +201,11 @@ void service_traffic(void)
 	  //queue_add_blocking(&qinbound, &in_pkt);
 	  //if (!queue_try_add(&qinbound, &in_pkt)) {
 	  //}
-      //if(memcmp(&received_frame->payload[30], pattern, 4) == 0)ethernet_input(received_frame, &netif_data);
+      if (!link_up)ethernet_input(received_frame, &netif_data);
 	  mutex_enter_blocking(&usb_ready);
       pbuf_free(received_frame);
       received_frame = NULL;
-      tud_network_recv_renew();
+	  tud_network_recv_renew();
 	  mutex_exit(&usb_ready);
     }
     

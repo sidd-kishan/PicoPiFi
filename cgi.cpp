@@ -7,7 +7,7 @@
 #include "pico/bootrom.h"
 
 static int  LED_STATUS = 1;
-
+char wifi_ssid[32],wifi_key[32];
 int wifi_enc;
 static const tCGI cgi_handlers[] = {
 	{

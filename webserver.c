@@ -25,11 +25,11 @@ int main()
 	
     init_lwip();
     wait_for_netif_is_up();
-    //dhcpd_init();
-    //httpd_init();
-    //ssi_init();
-    //cgi_init();
-    //tcp_app();
+    dhcpd_init();
+    httpd_init();
+    ssi_init();
+    cgi_init();
+    
     while (true)
     {
         tud_task();
