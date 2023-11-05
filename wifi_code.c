@@ -59,7 +59,7 @@ int scan_result(void *env, const cyw43_ev_scan_result_t *result) {
 void core1_entry() {
 	cyw43_arch_init_with_country(CYW43_COUNTRY_INDIA);
     cyw43_arch_enable_sta_mode();
-	cyw43_wifi_pm(&cyw43_state, cyw43_pm_value(CYW43_NO_POWERSAVE_MODE, 20, 1, 1, 1));
+	cyw43_wifi_pm(&cyw43_state,  cyw43_pm_value(CYW43_PM2_POWERSAVE_MODE, 200, 1, 1, 10));
 	cyw43_hal_get_mac(0, macaddr);
 	mutex_exit(&wifi_ready);
 	while(1){
