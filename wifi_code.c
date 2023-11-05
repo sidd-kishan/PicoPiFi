@@ -4,7 +4,7 @@
 
 pkt_s in_pkt;
 struct pbuf *out_pkt;
-static volatile bool link_up = false;
+volatile bool link_up = false;
 static volatile absolute_time_t next_wifi_try;
 
 void cyw43_cb_tcpip_set_link_up(cyw43_t *self, int itf) {

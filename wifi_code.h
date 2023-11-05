@@ -14,7 +14,7 @@ extern pkt_s in_pkt;
 extern struct pbuf *out_pkt;
 extern mutex_t usb_ready;
 extern struct pbuf *received_frame;
-extern static volatile bool link_up;
+extern volatile bool link_up;
 void core1_entry();
 
 #ifdef __cplusplus

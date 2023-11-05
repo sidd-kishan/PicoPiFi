@@ -155,11 +155,25 @@ CMakeFiles/lwipallapps.dir/pico-sdk/lib/lwip/src/apps/http/http_client.c.obj: ..
   ../pico-sdk/lib/lwip/src/include/lwip/err.h \
   ../pico-sdk/lib/lwip/src/include/lwip/altcp.h \
   ../pico-sdk/lib/lwip/src/include/lwip/tcp.h \
-  ../pico-sdk/lib/lwip/src/include/lwip/prot/iana.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/tcpbase.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/mem.h \
   ../pico-sdk/lib/lwip/src/include/lwip/pbuf.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/ip.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/netif.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/stats.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/memp.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/priv/memp_std.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/priv/memp_priv.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/priv/mem_priv.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/ip4.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/prot/ip4.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/ip6.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/prot/ip.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/icmp.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/prot/icmp.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/prot/iana.h \
   ../pico-sdk/lib/lwip/src/include/lwip/altcp_tcp.h \
   ../pico-sdk/lib/lwip/src/include/lwip/dns.h \
-  ../pico-sdk/lib/lwip/src/include/lwip/mem.h \
   ../pico-sdk/lib/lwip/src/include/lwip/altcp_tls.h \
   ../pico-sdk/lib/lwip/src/include/lwip/init.h \
   /usr/include/newlib/string.h \
@@ -227,6 +241,19 @@ CMakeFiles/lwipallapps.dir/pico-sdk/lib/lwip/src/apps/http/httpd.c.obj: ../pico-
   ../pico-sdk/lib/lwip/src/include/lwip/def.h \
   ../pico-sdk/lib/lwip/src/include/lwip/altcp.h \
   ../pico-sdk/lib/lwip/src/include/lwip/tcp.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/tcpbase.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/ip.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/ip_addr.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/ip4_addr.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/ip6_addr.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/def.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/netif.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/ip4.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/prot/ip4.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/ip6.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/prot/ip.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/icmp.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/prot/icmp.h \
   ../pico-sdk/lib/lwip/src/include/lwip/altcp_tcp.h \
   /usr/include/newlib/string.h \
   /usr/include/newlib/strings.h \
@@ -283,6 +310,23 @@ CMakeFiles/lwipallapps.dir/pico-sdk/lib/lwip/src/apps/lwiperf/lwiperf.c.obj: ../
   ../pico-sdk/lib/lwip/src/include/lwip/ip6_addr.h \
   ../pico-sdk/lib/lwip/src/include/lwip/def.h \
   ../pico-sdk/lib/lwip/src/include/lwip/tcp.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/tcpbase.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/mem.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/pbuf.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/err.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/ip.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/netif.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/stats.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/memp.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/priv/memp_std.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/priv/memp_priv.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/priv/mem_priv.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/ip4.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/prot/ip4.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/ip6.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/prot/ip.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/icmp.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/prot/icmp.h \
   ../pico-sdk/lib/lwip/src/include/lwip/sys.h \
   ../pico-sdk/lib/lwip/src/include/lwip/inet.h \
   /usr/include/newlib/string.h \
@@ -567,9 +611,23 @@ CMakeFiles/lwipallapps.dir/pico-sdk/lib/lwip/src/apps/mqtt/mqtt.c.obj: ../pico-s
   ../pico-sdk/lib/lwip/src/include/lwip/apps/mqtt_priv.h \
   ../pico-sdk/lib/lwip/src/include/lwip/altcp.h \
   ../pico-sdk/lib/lwip/src/include/lwip/tcp.h \
-  ../pico-sdk/lib/lwip/src/include/lwip/timeouts.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/tcpbase.h \
   ../pico-sdk/lib/lwip/src/include/lwip/mem.h \
   ../pico-sdk/lib/lwip/src/include/lwip/pbuf.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/ip.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/netif.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/stats.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/memp.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/priv/memp_std.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/priv/memp_priv.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/priv/mem_priv.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/ip4.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/prot/ip4.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/ip6.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/prot/ip.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/icmp.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/prot/icmp.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/timeouts.h \
   ../pico-sdk/lib/lwip/src/include/lwip/altcp_tcp.h \
   ../pico-sdk/lib/lwip/src/include/lwip/altcp_tls.h \
   /usr/include/newlib/string.h \
@@ -695,7 +753,38 @@ CMakeFiles/lwipallapps.dir/pico-sdk/lib/lwip/src/apps/smtp/smtp.c.obj: ../pico-s
   /usr/lib/gcc/arm-none-eabi/10.3.1/include-fixed/limits.h \
   /usr/include/newlib/ctype.h \
   ../pico-sdk/lib/lwip/src/include/lwip/err.h \
-  ../pico-sdk/lib/lwip/src/include/lwip/prot/iana.h
+  ../pico-sdk/lib/lwip/src/include/lwip/prot/iana.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/sys.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/sockets.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/altcp.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/tcp.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/tcpbase.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/mem.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/pbuf.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/ip.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/def.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/ip_addr.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/ip4_addr.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/ip6_addr.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/def.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/netif.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/stats.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/memp.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/priv/memp_std.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/priv/memp_priv.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/priv/mem_priv.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/ip4.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/prot/ip4.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/ip6.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/prot/ip.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/icmp.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/prot/icmp.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/dns.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/altcp_tcp.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/altcp_tls.h \
+  /usr/include/newlib/string.h \
+  /usr/include/newlib/strings.h \
+  /usr/include/newlib/sys/string.h
 
 CMakeFiles/lwipallapps.dir/pico-sdk/lib/lwip/src/apps/snmp/snmp_asn1.c.obj: ../pico-sdk/lib/lwip/src/apps/snmp/snmp_asn1.c \
   ../pico-sdk/lib/lwip/src/include/lwip/apps/snmp_opts.h \
@@ -1221,13 +1310,25 @@ CMakeFiles/lwipallapps.dir/pico-sdk/lib/lwip/src/apps/snmp/snmp_mib2_tcp.c.obj: 
   ../pico-sdk/lib/lwip/src/include/lwip/apps/snmp_table.h \
   ../pico-sdk/lib/lwip/src/include/lwip/apps/snmp_scalar.h \
   ../pico-sdk/lib/lwip/src/include/lwip/tcp.h \
-  ../pico-sdk/lib/lwip/src/include/lwip/priv/tcp_priv.h \
-  ../pico-sdk/lib/lwip/src/include/lwip/stats.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/tcpbase.h \
   ../pico-sdk/lib/lwip/src/include/lwip/mem.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/pbuf.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/err.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/ip.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/netif.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/stats.h \
   ../pico-sdk/lib/lwip/src/include/lwip/memp.h \
   ../pico-sdk/lib/lwip/src/include/lwip/priv/memp_std.h \
   ../pico-sdk/lib/lwip/src/include/lwip/priv/memp_priv.h \
   ../pico-sdk/lib/lwip/src/include/lwip/priv/mem_priv.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/ip4.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/prot/ip4.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/ip6.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/prot/ip.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/icmp.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/prot/icmp.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/priv/tcp_priv.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/prot/tcp.h \
   /usr/include/newlib/string.h \
   /usr/include/newlib/strings.h \
   /usr/include/newlib/sys/string.h
@@ -1897,6 +1998,12 @@ CMakeFiles/lwipallapps.dir/pico-sdk/lib/lwip/src/apps/sntp/sntp.c.obj: ../pico-s
   ../pico-sdk/lib/lwip/src/include/lwip/prot/udp.h \
   ../pico-sdk/lib/lwip/src/include/lwip/dns.h \
   ../pico-sdk/lib/lwip/src/include/lwip/dhcp.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/acd.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/etharp.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/prot/ethernet.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/prot/ieee.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/prot/etharp.h \
+  ../pico-sdk/lib/lwip/src/include/lwip/prot/acd.h \
   /usr/include/newlib/string.h \
   /usr/include/newlib/strings.h \
   /usr/include/newlib/sys/string.h \
@@ -1989,6 +2096,8 @@ CMakeFiles/lwipallapps.dir/pico-sdk/lib/lwip/src/apps/tftp/tftp.c.obj: ../pico-s
 
 /usr/include/newlib/time.h:
 
+../pico-sdk/lib/lwip/src/include/lwip/prot/acd.h:
+
 ../pico-sdk/lib/lwip/src/include/lwip/apps/sntp.h:
 
 ../pico-sdk/lib/lwip/src/apps/sntp/sntp.c:
@@ -2018,6 +2127,8 @@ CMakeFiles/lwipallapps.dir/pico-sdk/lib/lwip/src/apps/tftp/tftp.c.obj: ../pico-s
 ../pico-sdk/lib/lwip/src/apps/snmp/snmp_mib2_udp.c:
 
 ../pico-sdk/lib/lwip/src/apps/snmp/snmp_mib2_tcp.c:
+
+../pico-sdk/lib/lwip/src/apps/snmp/snmp_mib2_snmp.c:
 
 ../pico-sdk/lib/lwip/src/apps/snmp/snmp_snmpv2_framework.c:
 
@@ -2075,8 +2186,6 @@ CMakeFiles/lwipallapps.dir/pico-sdk/lib/lwip/src/apps/tftp/tftp.c.obj: ../pico-s
 
 /usr/include/newlib/newlib.h:
 
-/usr/include/newlib/_ansi.h:
-
 ../pico-sdk/lib/lwip/src/include/lwip/prot/dns.h:
 
 ../pico-sdk/lib/lwip/src/include/lwip/mem.h:
@@ -2086,6 +2195,8 @@ CMakeFiles/lwipallapps.dir/pico-sdk/lib/lwip/src/apps/tftp/tftp.c.obj: ../pico-s
 ../pico-sdk/lib/lwip/src/apps/snmp/snmp_raw.c:
 
 /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h:
+
+../pico-sdk/lib/lwip/src/include/lwip/acd.h:
 
 ../pico-sdk/lib/lwip/src/include/lwip/debug.h:
 
@@ -2114,6 +2225,12 @@ CMakeFiles/lwipallapps.dir/pico-sdk/lib/lwip/src/apps/tftp/tftp.c.obj: ../pico-s
 /usr/include/newlib/machine/_default_types.h:
 
 ../pico-sdk/lib/lwip/src/include/lwip/prot/ip4.h:
+
+../pico-sdk/lib/lwip/src/include/lwip/prot/etharp.h:
+
+/usr/include/newlib/sys/_sigset.h:
+
+../pico-sdk/lib/lwip/src/include/lwip/apps/smtp.h:
 
 ../pico-sdk/lib/lwip/src/apps/http/http_client.c:
 
@@ -2157,9 +2274,45 @@ CMakeFiles/lwipallapps.dir/pico-sdk/lib/lwip/src/apps/tftp/tftp.c.obj: ../pico-s
 
 ../pico-sdk/lib/lwip/src/include/lwip/apps/snmp_scalar.h:
 
+../pico-sdk/lib/lwip/src/apps/snmp/snmpv3_priv.h:
+
+../pico-sdk/lib/lwip/src/include/lwip/memp.h:
+
 ../pico-sdk/lib/lwip/src/include/lwip/pbuf.h:
 
 ../pico-sdk/lib/lwip/src/apps/mqtt/mqtt.c:
+
+../pico-sdk/lib/lwip/src/include/lwip/inet.h:
+
+../pico-sdk/lib/lwip/src/include/lwip/apps/snmp_core.h:
+
+../pico-sdk/lib/lwip/src/include/lwip/prot/iana.h:
+
+../pico-sdk/lib/lwip/src/include/lwip/stats.h:
+
+/usr/include/newlib/alloca.h:
+
+/usr/include/newlib/sys/reent.h:
+
+../pico-sdk/lib/lwip/src/apps/snmp/snmp_mib2_icmp.c:
+
+../pico-sdk/lib/lwip/src/include/lwip/priv/memp_std.h:
+
+/usr/include/newlib/machine/endian.h:
+
+../pico-sdk/lib/lwip/src/include/lwip/priv/memp_priv.h:
+
+../pico-sdk/lib/lwip/src/include/lwip/udp.h:
+
+../pico-sdk/lib/lwip/src/include/lwip/apps/snmp.h:
+
+../pico-sdk/lib/lwip/src/include/lwip/ip4.h:
+
+../pico-sdk/lib/lwip/src/include/lwip/icmp.h:
+
+../pico-sdk/lib/lwip/src/include/lwip/prot/ip.h:
+
+../pico-sdk/lib/lwip/src/include/lwip/prot/icmp.h:
 
 ../pico-sdk/lib/lwip/src/include/lwip/altcp_tcp.h:
 
@@ -2176,30 +2329,6 @@ CMakeFiles/lwipallapps.dir/pico-sdk/lib/lwip/src/apps/tftp/tftp.c.obj: ../pico-s
 ../pico-sdk/lib/lwip/src/apps/http/httpd.c:
 
 ../pico-sdk/lib/lwip/src/include/lwip/apps/httpd.h:
-
-../pico-sdk/lib/lwip/src/include/lwip/prot/iana.h:
-
-../pico-sdk/lib/lwip/src/include/lwip/stats.h:
-
-/usr/include/newlib/alloca.h:
-
-/usr/include/newlib/sys/reent.h:
-
-../pico-sdk/lib/lwip/src/apps/snmp/snmp_mib2_icmp.c:
-
-../pico-sdk/lib/lwip/src/apps/snmp/snmpv3_priv.h:
-
-../pico-sdk/lib/lwip/src/include/lwip/memp.h:
-
-../pico-sdk/lib/lwip/src/include/lwip/priv/memp_std.h:
-
-/usr/include/newlib/machine/endian.h:
-
-../pico-sdk/lib/lwip/src/include/lwip/priv/memp_priv.h:
-
-../pico-sdk/lib/lwip/src/include/lwip/udp.h:
-
-../pico-sdk/lib/lwip/src/include/lwip/apps/snmp.h:
 
 ../pico-sdk/lib/lwip/src/include/lwip/init.h:
 
@@ -2219,11 +2348,9 @@ CMakeFiles/lwipallapps.dir/pico-sdk/lib/lwip/src/apps/tftp/tftp.c.obj: ../pico-s
 
 ../pico-sdk/lib/lwip/src/include/lwip/apps/mdns_opts.h:
 
-../pico-sdk/lib/lwip/src/include/lwip/inet.h:
-
-../pico-sdk/lib/lwip/src/include/lwip/apps/snmp_core.h:
-
 ../pico-sdk/lib/lwip/src/include/lwip/apps/mdns_domain.h:
+
+../pico-sdk/lib/lwip/src/include/lwip/prot/tcp.h:
 
 ../pico-sdk/lib/lwip/src/include/lwip/apps/mdns_out.h:
 
@@ -2232,8 +2359,6 @@ CMakeFiles/lwipallapps.dir/pico-sdk/lib/lwip/src/apps/tftp/tftp.c.obj: ../pico-s
 ../pico-sdk/lib/lwip/src/include/lwip/priv/tcp_priv.h:
 
 ../pico-sdk/lib/lwip/src/include/lwip/timeouts.h:
-
-../pico-sdk/lib/lwip/src/include/lwip/ip4.h:
 
 ../pico-sdk/lib/lwip/src/apps/mdns/mdns_domain.c:
 
@@ -2247,11 +2372,17 @@ CMakeFiles/lwipallapps.dir/pico-sdk/lib/lwip/src/apps/tftp/tftp.c.obj: ../pico-s
 
 ../pico-sdk/lib/lwip/src/apps/netbiosns/netbiosns.c:
 
+/usr/include/newlib/_ansi.h:
+
+../pico-sdk/lib/lwip/src/include/lwip/sockets.h:
+
 ../pico-sdk/lib/lwip/src/include/lwip/apps/tftp_opts.h:
 
 /usr/include/newlib/sys/types.h:
 
 ../pico-sdk/lib/lwip/src/apps/snmp/snmp_asn1.c:
+
+../pico-sdk/lib/lwip/src/include/lwip/tcpbase.h:
 
 ../pico-sdk/lib/lwip/src/include/lwip/apps/snmp_opts.h:
 
@@ -2270,20 +2401,6 @@ CMakeFiles/lwipallapps.dir/pico-sdk/lib/lwip/src/apps/tftp/tftp.c.obj: ../pico-s
 /usr/include/newlib/stdlib.h:
 
 ../pico-sdk/lib/lwip/src/include/lwip/apps/snmp_table.h:
-
-/usr/include/newlib/sys/_sigset.h:
-
-../pico-sdk/lib/lwip/src/include/lwip/apps/smtp.h:
-
-../pico-sdk/lib/lwip/src/include/lwip/prot/etharp.h:
-
-../pico-sdk/lib/lwip/src/include/lwip/icmp.h:
-
-../pico-sdk/lib/lwip/src/apps/snmp/snmp_mib2_snmp.c:
-
-../pico-sdk/lib/lwip/src/include/lwip/prot/ip.h:
-
-../pico-sdk/lib/lwip/src/include/lwip/prot/icmp.h:
 
 ../pico-sdk/lib/lwip/src/apps/snmp/snmp_mib2_interfaces.c:
 
