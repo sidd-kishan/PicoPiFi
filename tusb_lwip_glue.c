@@ -183,7 +183,7 @@ uint16_t tud_network_xmit_cb(uint8_t *dst, void *ref, uint16_t arg)
     /* traverse the "pbuf chain"; see ./lwip/src/core/pbuf.c for more info */
     for(q = p; q != NULL; q = q->next)
     {
-        memcpy(dst, (char *)q->payload, q->len);
+        memcpy(dst, (uint8_t *)q->payload, q->len);
         dst += q->len;
         len += q->len;
 		//packet_stat_tx+=1;

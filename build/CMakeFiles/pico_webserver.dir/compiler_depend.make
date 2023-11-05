@@ -7783,7 +7783,11 @@ CMakeFiles/pico_webserver.dir/tusb_lwip_glue.c.obj: ../tusb_lwip_glue.c \
   ../pico-sdk/lib/cyw43-driver/src/cyw43_country.h \
   ../pico-sdk/src/rp2_common/pico_async_context/include/pico/async_context.h \
   ../pico-sdk/src/rp2_common/pico_cyw43_arch/include/pico/cyw43_arch/arch_threadsafe_background.h \
-  ../wifi_code.h
+  ../wifi_code.h \
+  ../pico-sdk/src/rp2_common/hardware_dma/include/hardware/dma.h \
+  ../pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/dma.h \
+  ../pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dma.h \
+  ../pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h
 
 CMakeFiles/pico_webserver.dir/usb_descriptors.c.obj: ../usb_descriptors.c \
   ../pico-sdk/lib/tinyusb/src/tusb.h \
@@ -8031,6 +8035,9 @@ CMakeFiles/pico_webserver.dir/webserver.c.obj: ../webserver.c \
   ../cgi.h \
   ../ssi.h \
   ../wifi_code.h \
+  ../pico-sdk/src/rp2_common/hardware_dma/include/hardware/dma.h \
+  ../pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/dma.h \
+  ../pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dma.h \
   ../pico-sdk/lib/lwip/src/include/lwip/dns.h
 
 CMakeFiles/pico_webserver.dir/wifi_code.c.obj: ../wifi_code.c \
@@ -8180,7 +8187,11 @@ CMakeFiles/pico_webserver.dir/wifi_code.c.obj: ../wifi_code.c \
   ../pico-sdk/lib/cyw43-driver/src/cyw43_country.h \
   ../pico-sdk/src/rp2_common/pico_async_context/include/pico/async_context.h \
   ../pico-sdk/src/rp2_common/pico_cyw43_arch/include/pico/cyw43_arch/arch_threadsafe_background.h \
-  ../wifi_code.h
+  ../wifi_code.h \
+  ../pico-sdk/src/rp2_common/hardware_dma/include/hardware/dma.h \
+  ../pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/dma.h \
+  ../pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dma.h \
+  ../pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h
 
 
 ../ssi.h:
