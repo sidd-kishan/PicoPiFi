@@ -8509,11 +8509,11 @@ CMakeFiles/pico_webserver.dir/ssi.cpp.obj: ../ssi.cpp \
   ../pico-sdk/lib/lwip/src/include/lwip/timeouts.h
 
 CMakeFiles/pico_webserver.dir/tusb_lwip_glue.c.obj: ../tusb_lwip_glue.c \
-  ../tusb_lwip_glue.h \
+  ../pico-sdk/lib/tinyusb/hw/bsp/board_api.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
   ../pico-sdk/lib/tinyusb/src/tusb.h \
   ../pico-sdk/lib/tinyusb/src/common/tusb_common.h \
-  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
-  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
   /usr/include/newlib/string.h \
   /usr/include/newlib/_ansi.h \
@@ -8591,6 +8591,7 @@ CMakeFiles/pico_webserver.dir/tusb_lwip_glue.c.obj: ../tusb_lwip_glue.c \
   ../pico-sdk/lib/tinyusb/src/class/net/net_device.h \
   ../pico-sdk/lib/tinyusb/src/class/cdc/cdc.h \
   ../pico-sdk/lib/tinyusb/src/class/net/ncm.h \
+  ../tusb_lwip_glue.h \
   ../pico-sdk/lib/tinyusb/lib/networking/dhserver.h \
   ../pico-sdk/lib/lwip/src/include/lwip/err.h \
   ../pico-sdk/lib/lwip/src/include/lwip/opt.h \
@@ -9058,6 +9059,8 @@ CMakeFiles/pico_webserver.dir/wifi_code.c.obj: ../wifi_code.c \
 ../webserver.c:
 
 ../usb_descriptors.c:
+
+../pico-sdk/lib/tinyusb/hw/bsp/board_api.h:
 
 ../tusb_lwip_glue.c:
 

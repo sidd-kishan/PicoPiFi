@@ -21,14 +21,14 @@ void cyw43_cb_process_ethernet(void *cb_data, int itf, size_t len, const uint8_t
     if (len <= MTU) {
 		out_pkt = pbuf_alloc(PBUF_RAW, len, PBUF_POOL);
         memcpy(out_pkt->payload, buf, len);
-		if (tud_network_can_xmit(out_pkt->tot_len))
+		if (tud_network_can_xmit(out_pkt->len))
         {
 			tud_network_xmit(out_pkt, 0 /* unused for this example */);
 			//return ERR_OK;
         }
     
         /* transfer execution to TinyUSB in the hopes that it will finish transmitting the prior packet */
-        tud_task();
+        //tud_task();
 		pbuf_free(out_pkt);
 		out_pkt = NULL;
     } else {

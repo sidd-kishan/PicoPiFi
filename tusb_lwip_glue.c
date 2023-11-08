@@ -25,7 +25,7 @@
  * THE SOFTWARE.
  *
  */
-
+#include "bsp/board_api.h"
 #include "tusb_lwip_glue.h"
 #include "pico/cyw43_arch.h"
 #include "wifi_code.h"
@@ -231,5 +231,5 @@ void sys_arch_unprotect(__unused sys_prot_t pval) {
 
 /* lwip needs a millisecond time source, and the TinyUSB board support code has one available */
 uint32_t sys_now(void) {
-    return to_ms_since_boot(get_absolute_time());
+    return board_millis();
 }
