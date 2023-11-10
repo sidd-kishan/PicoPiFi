@@ -24,7 +24,6 @@
  */
 
 #include "tusb.h"
-#include "pico/unique_id.h"
 
 /* A combination of interfaces must have a unique product id, since PC will save device driver after the first plug.
  * Same VID/PID with different interface e.g MSC (first), then CDC (later) will possibly cause system error on PC.
@@ -183,26 +182,17 @@ uint16_t const* tud_descriptor_string_cb(uint8_t index, uint16_t langid)
 {
   (void) langid;
 
-  unsigned int chr_count = 0;
+  size_t chr_count = 0;
 
-  if (STRID_LANGID == index)
-  {
+
+  switch(index){
+  case STRID_LANGID:
     memcpy(&_desc_str[1], string_desc_arr[STRID_LANGID], 2);
     chr_count = 1;
-  }
-  else if (STRID_SERIAL == index)
-  {
-    pico_unique_board_id_t id;
-    pico_get_unique_board_id(&id);
-    
-    for (unsigned i=0; i<sizeof(id.id); i++)
-    {
-      _desc_str[1+chr_count++] = "0123456789ABCDEF"[(id.id[i] >> 4) & 0xf];
-      _desc_str[1+chr_count++] = "0123456789ABCDEF"[(id.id[i] >> 0) & 0xf];
-    }
-  }
-  else if (STRID_MAC == index)
-  {
+	break;
+	
+	
+  case STRID_MAC:
     // Convert MAC address into UTF-16
 
     for (unsigned i=0; i<sizeof(tud_network_mac_address); i++)
@@ -210,9 +200,9 @@ uint16_t const* tud_descriptor_string_cb(uint8_t index, uint16_t langid)
       _desc_str[1+chr_count++] = "0123456789ABCDEF"[(tud_network_mac_address[i] >> 4) & 0xf];
       _desc_str[1+chr_count++] = "0123456789ABCDEF"[(tud_network_mac_address[i] >> 0) & 0xf];
     }
-  }
-  else
-  {
+	break;
+  
+  default:
     // Note: the 0xEE index string is a Microsoft OS 1.0 Descriptors.
     // https://docs.microsoft.com/en-us/windows-hardware/drivers/usbcon/microsoft-defined-usb-descriptors
 
@@ -232,7 +222,7 @@ uint16_t const* tud_descriptor_string_cb(uint8_t index, uint16_t langid)
   }
 
   // first byte is length (including header), second byte is string type
-  _desc_str[0] = (TUSB_DESC_STRING << 8 ) | (2*chr_count + 2);
+  _desc_str[0] = (uint16_t)(TUSB_DESC_STRING << 8 ) | (2 * chr_count + 2);
 
   return _desc_str;
 }

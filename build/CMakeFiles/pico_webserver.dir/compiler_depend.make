@@ -3676,8 +3676,7 @@ CMakeFiles/pico_webserver.dir/usb_descriptors.c.obj: ../usb_descriptors.c \
   ../pico-sdk/lib/tinyusb/src/device/usbd.h \
   ../pico-sdk/lib/tinyusb/src/class/net/net_device.h \
   ../pico-sdk/lib/tinyusb/src/class/cdc/cdc.h \
-  ../pico-sdk/lib/tinyusb/src/class/net/ncm.h \
-  ../pico-sdk/src/rp2_common/pico_unique_id/include/pico/unique_id.h
+  ../pico-sdk/lib/tinyusb/src/class/net/ncm.h
 
 CMakeFiles/pico_webserver.dir/webserver.c.obj: ../webserver.c \
   ../pico-sdk/src/common/pico_stdlib/include/pico/stdlib.h \

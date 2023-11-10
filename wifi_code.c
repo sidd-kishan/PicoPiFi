@@ -34,7 +34,7 @@ void cyw43_cb_process_ethernet(void *cb_data, int itf, size_t len, const uint8_t
     } else {
         //DEBUG(("Oversized pkt = %d\n", len));
     }
-	sleep_us(8);
+	sleep_us(16);
 }
 
 char wifi_conn_detail[3][16];
@@ -53,7 +53,7 @@ void core1_entry() {
             }
         } else {
 			mutex_enter_blocking(&usb_ready);
-			if (received_frame)
+			if (received_frame&& received_frame->len>6)
 			{
 				cyw43_send_ethernet(&cyw43_state, CYW43_ITF_STA, received_frame->len, received_frame->payload, false);
 			}
