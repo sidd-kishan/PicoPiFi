@@ -51,9 +51,6 @@ CMakeFiles/pico_webserver.dir/webserver.c.obj: \
  /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
  /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/src/common/pico_sync/include/pico/mutex.h \
  /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/src/common/pico_sync/include/pico/critical_section.h \
- /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/src/rp2_common/hardware_watchdog/include/hardware/watchdog.h \
- /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/watchdog.h \
- /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/watchdog.h \
  /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/src/rp2_common/pico_cyw43_arch/include/pico/cyw43_arch.h \
  /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/cyw43-driver/src/cyw43.h \
  /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/cyw43-driver/src/cyw43_config.h \
@@ -142,7 +139,4 @@ CMakeFiles/pico_webserver.dir/webserver.c.obj: \
  /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/apps/httpd_opts.h \
  /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/prot/iana.h \
  /mnt/c/Users/Aayush/Desktop/pico-webserver/lwipopts.h \
- /mnt/c/Users/Aayush/Desktop/pico-webserver/cgi.h \
- /mnt/c/Users/Aayush/Desktop/pico-webserver/ssi.h \
- /mnt/c/Users/Aayush/Desktop/pico-webserver/wifi_code.h \
- /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/dns.h
+ /mnt/c/Users/Aayush/Desktop/pico-webserver/wifi_code.h

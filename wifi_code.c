@@ -9,16 +9,16 @@ static volatile absolute_time_t next_wifi_try;
 
 void cyw43_cb_tcpip_set_link_up(cyw43_t *self, int itf) {
     link_up = true;
-    cyw43_arch_gpio_put(CYW43_WL_GPIO_LED_PIN, link_up);
+    //cyw43_arch_gpio_put(CYW43_WL_GPIO_LED_PIN, link_up);
 }
 
 void cyw43_cb_tcpip_set_link_down(cyw43_t *self, int itf) {
     link_up = false;
-    cyw43_arch_gpio_put(CYW43_WL_GPIO_LED_PIN, link_up);
+    //cyw43_arch_gpio_put(CYW43_WL_GPIO_LED_PIN, link_up);
 }
 
 void cyw43_cb_process_ethernet(void *cb_data, int itf, size_t len, const uint8_t *buf) {
-    if (len <= MTU) {
+    if (len <= MTU && tud_ready()) {
 		out_pkt = pbuf_alloc(PBUF_RAW, len, PBUF_POOL);
         memcpy(out_pkt->payload, buf, len);
 		if (tud_network_can_xmit(out_pkt->len))
@@ -34,6 +34,7 @@ void cyw43_cb_process_ethernet(void *cb_data, int itf, size_t len, const uint8_t
     } else {
         //DEBUG(("Oversized pkt = %d\n", len));
     }
+	sleep_us(8);
 }
 
 char wifi_conn_detail[3][16];

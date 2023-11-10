@@ -3,7 +3,6 @@
 #endif
 #include "tusb.h"
 #include "lwip/init.h"
-#include "lwip/timeouts.h"
 #include "pico/mutex.h"
 #define MTU 1500
 typedef struct {

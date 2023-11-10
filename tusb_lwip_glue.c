@@ -209,7 +209,7 @@ void service_traffic(void)
 	  mutex_exit(&usb_ready);
     }
     
-    sys_check_timeouts();
+    //sys_check_timeouts();
 }
 
 void dhcpd_init()
