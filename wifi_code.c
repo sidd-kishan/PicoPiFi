@@ -34,7 +34,7 @@ void cyw43_cb_process_ethernet(void *cb_data, int itf, size_t len, const uint8_t
     } else {
         //DEBUG(("Oversized pkt = %d\n", len));
     }
-	sleep_us(16);
+	//sleep_us(16);
 }
 
 char wifi_conn_detail[3][16];

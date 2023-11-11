@@ -78,7 +78,7 @@ tusb_desc_device_t const desc_device =
 
     .idVendor           = 0xCafe,
     .idProduct          = USB_PID,
-    .bcdDevice          = 0x0101,
+    .bcdDevice          = 0x0100,
 
     .iManufacturer      = STRID_MANUFACTURER,
     .iProduct           = STRID_PRODUCT,
@@ -100,25 +100,10 @@ uint8_t const * tud_descriptor_device_cb(void)
 #define MAIN_CONFIG_TOTAL_LEN    (TUD_CONFIG_DESC_LEN + TUD_RNDIS_DESC_LEN)
 #define ALT_CONFIG_TOTAL_LEN     (TUD_CONFIG_DESC_LEN + TUD_CDC_ECM_DESC_LEN)
 
-#if CFG_TUSB_MCU == OPT_MCU_LPC175X_6X || CFG_TUSB_MCU == OPT_MCU_LPC177X_8X || CFG_TUSB_MCU == OPT_MCU_LPC40XX
-  // LPC 17xx and 40xx endpoint type (bulk/interrupt/iso) are fixed by its number
-  // 0 control, 1 In, 2 Bulk, 3 Iso, 4 In etc ...
-  #define EPNUM_NET_NOTIF   0x81
-  #define EPNUM_NET_OUT     0x02
-  #define EPNUM_NET_IN      0x82
 
-#elif CFG_TUSB_MCU == OPT_MCU_SAMG
-  // SAMG doesn't support a same endpoint number with different direction IN and OUT
-  //    e.g EP1 OUT & EP1 IN cannot exist together
-  #define EPNUM_NET_NOTIF   0x81
-  #define EPNUM_NET_OUT     0x02
-  #define EPNUM_NET_IN      0x83
-
-#else
-  #define EPNUM_NET_NOTIF   0x81
-  #define EPNUM_NET_OUT     0x02
-  #define EPNUM_NET_IN      0x82
-#endif
+#define EPNUM_NET_NOTIF   0x81
+#define EPNUM_NET_OUT     0x02
+#define EPNUM_NET_IN      0x82
 
 static uint8_t const rndis_configuration[] =
 {
