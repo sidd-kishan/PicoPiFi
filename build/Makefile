@@ -5099,6 +5099,30 @@ usb_descriptors.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/usb_descriptors.c.s
 .PHONY : usb_descriptors.c.s
 
+vendor_code.obj: vendor_code.c.obj
+.PHONY : vendor_code.obj
+
+# target to build an object file
+vendor_code.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/vendor_code.c.obj
+.PHONY : vendor_code.c.obj
+
+vendor_code.i: vendor_code.c.i
+.PHONY : vendor_code.i
+
+# target to preprocess a source file
+vendor_code.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/vendor_code.c.i
+.PHONY : vendor_code.c.i
+
+vendor_code.s: vendor_code.c.s
+.PHONY : vendor_code.s
+
+# target to generate assembly for a file
+vendor_code.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/vendor_code.c.s
+.PHONY : vendor_code.c.s
+
 webserver.obj: webserver.c.obj
 .PHONY : webserver.obj
 
@@ -5771,6 +5795,9 @@ help:
 	@echo "... usb_descriptors.obj"
 	@echo "... usb_descriptors.i"
 	@echo "... usb_descriptors.s"
+	@echo "... vendor_code.obj"
+	@echo "... vendor_code.i"
+	@echo "... vendor_code.s"
 	@echo "... webserver.obj"
 	@echo "... webserver.i"
 	@echo "... webserver.s"

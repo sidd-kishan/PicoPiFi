@@ -2,9 +2,9 @@
 #include "pico/multicore.h"
 #include "pico/cyw43_arch.h"
 #include "tusb_lwip_glue.h"
+#include "bsp/board_api.h"
 #include "lwipopts.h"
 #include "wifi_code.h"
-
 
 mutex_t wifi_ready;
 uint8_t macaddr[6];
@@ -29,6 +29,7 @@ int main()
     {
         tud_task();
         service_traffic();
+		webserial_task();
 		//sleep_us(1);
     }
 

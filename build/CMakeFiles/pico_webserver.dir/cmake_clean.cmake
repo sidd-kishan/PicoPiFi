@@ -164,6 +164,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/pico_webserver.dir/tusb_lwip_glue.c.obj.d"
   "CMakeFiles/pico_webserver.dir/usb_descriptors.c.obj"
   "CMakeFiles/pico_webserver.dir/usb_descriptors.c.obj.d"
+  "CMakeFiles/pico_webserver.dir/vendor_code.c.obj"
+  "CMakeFiles/pico_webserver.dir/vendor_code.c.obj.d"
   "CMakeFiles/pico_webserver.dir/webserver.c.obj"
   "CMakeFiles/pico_webserver.dir/webserver.c.obj.d"
   "CMakeFiles/pico_webserver.dir/wifi_code.c.obj"

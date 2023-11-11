@@ -1510,12 +1510,12 @@ pico-sdk/tools/clean:
 CMakeFiles/lwipdocs.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipdocs.dir/build.make CMakeFiles/lwipdocs.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipdocs.dir/build.make CMakeFiles/lwipdocs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=60 "Built target lwipdocs"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num= "Built target lwipdocs"
 .PHONY : CMakeFiles/lwipdocs.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/lwipdocs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/lwipdocs.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles 0
 .PHONY : CMakeFiles/lwipdocs.dir/rule
@@ -1588,12 +1588,12 @@ CMakeFiles/lwipallapps.dir/clean:
 CMakeFiles/lwipmbedtls.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipmbedtls.dir/build.make CMakeFiles/lwipmbedtls.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lwipmbedtls.dir/build.make CMakeFiles/lwipmbedtls.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=61 "Built target lwipmbedtls"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=60,61 "Built target lwipmbedtls"
 .PHONY : CMakeFiles/lwipmbedtls.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/lwipmbedtls.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/lwipmbedtls.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles 0
 .PHONY : CMakeFiles/lwipmbedtls.dir/rule
