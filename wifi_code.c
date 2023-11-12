@@ -45,6 +45,7 @@ void core1_entry() {
 	cyw43_wifi_pm(&cyw43_state, cyw43_pm_value(CYW43_NO_POWERSAVE_MODE, 20, 1, 1, 1));
 	cyw43_hal_get_mac(0, macaddr);
 	mutex_exit(&wifi_ready);
+	int eth_frame_send_success=0;
 	while(1){
 		if (!link_up) {
             if (absolute_time_diff_us(get_absolute_time(), next_wifi_try) < 0) {
@@ -53,9 +54,16 @@ void core1_entry() {
             }
         } else {
 			mutex_enter_blocking(&usb_ready);
-			if (received_frame&& received_frame->len>6)
+			if (received_frame)
 			{
-				cyw43_send_ethernet(&cyw43_state, CYW43_ITF_STA, received_frame->len, received_frame->payload, false);
+				eth_frame_send_success=cyw43_send_ethernet(&cyw43_state, CYW43_ITF_STA, received_frame->len, received_frame->payload, false);
+				if(eth_frame_send_success){ // if anything other than 0 is eth fail
+					link_up = false;
+					cyw43_arch_gpio_put(CYW43_WL_GPIO_LED_PIN, link_up);
+				} else { // if 0 is eth pass
+					link_up = true;
+					cyw43_arch_gpio_put(CYW43_WL_GPIO_LED_PIN, link_up);
+				}
 			}
 			mutex_exit(&usb_ready);
 		}
