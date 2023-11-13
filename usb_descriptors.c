@@ -63,7 +63,8 @@ enum
   STRID_SERIAL,
   STRID_INTERFACE,
   STRID_MAC,
-  STRID_VEN
+  STRID_VEN,
+  STRID_CDC
 };
 
 //--------------------------------------------------------------------+
@@ -127,10 +128,10 @@ static uint8_t const rndis_configuration[] =
   TUD_RNDIS_DESCRIPTOR(ITF_NUM_CDC, STRID_INTERFACE, EPNUM_NET_NOTIF, 8, EPNUM_NET_OUT, EPNUM_NET_IN, CFG_TUD_NET_ENDPOINT_SIZE),
 
   // 3rd CDC: Interface number, string index, EP notification address and size, EP data address (out, in) and size.
-  TUD_CDC_DESCRIPTOR(ITF_NUM_CDC_2, 4, EPNUM_CDC_2_NOTIF, 8, EPNUM_CDC_2_OUT, EPNUM_CDC_2_IN, 64),
+  TUD_CDC_DESCRIPTOR(ITF_NUM_CDC_2, STRID_CDC, EPNUM_CDC_2_NOTIF, 8, EPNUM_CDC_2_OUT, EPNUM_CDC_2_IN, 64),
   
   // Interface number, string index, EP Out & IN address, EP size
-  TUD_VENDOR_DESCRIPTOR(ITF_NUM_VENDOR, 5, EPNUM_VENDOR_OUT, EPNUM_VENDOR_IN, 64)
+  TUD_VENDOR_DESCRIPTOR(ITF_NUM_VENDOR, STRID_VEN, EPNUM_VENDOR_OUT, EPNUM_VENDOR_IN, 64)
 };
 
 static uint8_t const ecm_configuration[] =
@@ -142,10 +143,10 @@ static uint8_t const ecm_configuration[] =
   TUD_CDC_ECM_DESCRIPTOR(ITF_NUM_CDC, STRID_INTERFACE, STRID_MAC, EPNUM_NET_NOTIF, 64, EPNUM_NET_OUT, EPNUM_NET_IN, CFG_TUD_NET_ENDPOINT_SIZE, CFG_TUD_NET_MTU),
 
   // 3rd CDC: Interface number, string index, EP notification address and size, EP data address (out, in) and size.
-  TUD_CDC_DESCRIPTOR(ITF_NUM_CDC_2, 4, EPNUM_CDC_2_NOTIF, 8, EPNUM_CDC_2_OUT, EPNUM_CDC_2_IN, 64),
+  TUD_CDC_DESCRIPTOR(ITF_NUM_CDC_2, STRID_CDC, EPNUM_CDC_2_NOTIF, 8, EPNUM_CDC_2_OUT, EPNUM_CDC_2_IN, 64),
   
   // Interface number, string index, EP Out & IN address, EP size
-  TUD_VENDOR_DESCRIPTOR(ITF_NUM_VENDOR, 5, EPNUM_VENDOR_OUT, EPNUM_VENDOR_IN, 64)
+  TUD_VENDOR_DESCRIPTOR(ITF_NUM_VENDOR, STRID_VEN, EPNUM_VENDOR_OUT, EPNUM_VENDOR_IN, 64)
 };
 
 // Configuration array: RNDIS and CDC-ECM
@@ -251,6 +252,7 @@ static char const* string_desc_arr [] =
   [STRID_PRODUCT]      = "Go to http://192.168.7.1/",   // Product
   //[STRID_SERIAL]       = "123456",                      // Serial
   [STRID_INTERFACE]    = "TinyUSB Network Interface",    // Interface Description
+  [STRID_CDC]          = "TinyUSB CDC",
   [STRID_VEN]          = "TinyUSB WebUSB"
   // STRID_MAC index is handled separately
   // STRID_SERIAL index is handled seperately
