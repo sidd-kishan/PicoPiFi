@@ -259,6 +259,30 @@ cyw43_driver_picow_cyw43_bus_pio_spi_pio_h/fast:
 	$(MAKE) $(MAKESILENT) -f pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/build.make pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/build
 .PHONY : cyw43_driver_picow_cyw43_bus_pio_spi_pio_h/fast
 
+cdc.obj: cdc.c.obj
+.PHONY : cdc.obj
+
+# target to build an object file
+cdc.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/cdc.c.obj
+.PHONY : cdc.c.obj
+
+cdc.i: cdc.c.i
+.PHONY : cdc.i
+
+# target to preprocess a source file
+cdc.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/cdc.c.i
+.PHONY : cdc.c.i
+
+cdc.s: cdc.c.s
+.PHONY : cdc.s
+
+# target to generate assembly for a file
+cdc.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/cdc.c.s
+.PHONY : cdc.c.s
+
 pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.obj: pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj
 .PHONY : pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.obj
 
@@ -5190,6 +5214,9 @@ help:
 	@echo "... lwipcore"
 	@echo "... lwipmbedtls"
 	@echo "... pico_webserver"
+	@echo "... cdc.obj"
+	@echo "... cdc.i"
+	@echo "... cdc.s"
 	@echo "... pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.obj"
 	@echo "... pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.i"
 	@echo "... pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.s"
