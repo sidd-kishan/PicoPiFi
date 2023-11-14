@@ -93,6 +93,8 @@ CMakeFiles/pico_webserver.dir/webserver.c.obj: \
  /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/tinyusb/src/device/usbd.h \
  /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.h \
  /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/tinyusb/src/class/cdc/cdc.h \
+ /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/tinyusb/src/class/msc/msc_device.h \
+ /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/tinyusb/src/class/msc/msc.h \
  /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.h \
  /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/tinyusb/src/class/net/net_device.h \
  /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/tinyusb/src/class/cdc/cdc.h \

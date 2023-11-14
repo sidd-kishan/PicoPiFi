@@ -43,6 +43,7 @@ enum
   ITF_NUM_CDC_2,
   ITF_NUM_CDC_2_DATA,
   ITF_NUM_VENDOR,
+  ITF_NUM_MSC,
   ITF_NUM_TOTAL
 };
 
@@ -64,6 +65,7 @@ enum
   STRID_INTERFACE,
   STRID_MAC,
   STRID_VEN,
+  STRID_MSC,
   STRID_CDC
 };
 
@@ -104,8 +106,8 @@ uint8_t const * tud_descriptor_device_cb(void)
 //--------------------------------------------------------------------+
 // Configuration Descriptor
 //--------------------------------------------------------------------+
-#define MAIN_CONFIG_TOTAL_LEN    (TUD_CONFIG_DESC_LEN + TUD_RNDIS_DESC_LEN + TUD_VENDOR_DESC_LEN + TUD_CDC_DESC_LEN)
-#define ALT_CONFIG_TOTAL_LEN     (TUD_CONFIG_DESC_LEN + TUD_CDC_ECM_DESC_LEN + TUD_VENDOR_DESC_LEN + TUD_CDC_DESC_LEN)
+#define MAIN_CONFIG_TOTAL_LEN    (TUD_CONFIG_DESC_LEN + TUD_RNDIS_DESC_LEN + TUD_VENDOR_DESC_LEN + TUD_CDC_DESC_LEN + TUD_MSC_DESC_LEN)
+#define ALT_CONFIG_TOTAL_LEN     (TUD_CONFIG_DESC_LEN + TUD_CDC_ECM_DESC_LEN + TUD_VENDOR_DESC_LEN + TUD_CDC_DESC_LEN + TUD_MSC_DESC_LEN)
 
 
 #define EPNUM_NET_NOTIF   0x81
@@ -114,6 +116,10 @@ uint8_t const * tud_descriptor_device_cb(void)
 
 #define EPNUM_VENDOR_IN  0x83
 #define EPNUM_VENDOR_OUT 0x03
+
+#define EPNUM_MSC_OUT     0x04
+#define EPNUM_MSC_IN      0x84
+
 
 #define EPNUM_CDC_2_NOTIF   0x85
 #define EPNUM_CDC_2_OUT     0x05
@@ -130,6 +136,9 @@ static uint8_t const rndis_configuration[] =
   // 3rd CDC: Interface number, string index, EP notification address and size, EP data address (out, in) and size.
   TUD_CDC_DESCRIPTOR(ITF_NUM_CDC_2, STRID_CDC, EPNUM_CDC_2_NOTIF, 8, EPNUM_CDC_2_OUT, EPNUM_CDC_2_IN, 64),
   
+  // Interface number, string index, EP Out & EP In address, EP size
+  TUD_MSC_DESCRIPTOR(ITF_NUM_MSC, STRID_MSC, EPNUM_MSC_OUT, EPNUM_MSC_IN, 64),
+  
   // Interface number, string index, EP Out & IN address, EP size
   TUD_VENDOR_DESCRIPTOR(ITF_NUM_VENDOR, STRID_VEN, EPNUM_VENDOR_OUT, EPNUM_VENDOR_IN, 64)
 };
@@ -145,6 +154,9 @@ static uint8_t const ecm_configuration[] =
   // 3rd CDC: Interface number, string index, EP notification address and size, EP data address (out, in) and size.
   TUD_CDC_DESCRIPTOR(ITF_NUM_CDC_2, STRID_CDC, EPNUM_CDC_2_NOTIF, 8, EPNUM_CDC_2_OUT, EPNUM_CDC_2_IN, 64),
   
+  // Interface number, string index, EP Out & EP In address, EP size
+  TUD_MSC_DESCRIPTOR(ITF_NUM_MSC, STRID_MSC, EPNUM_MSC_OUT, EPNUM_MSC_IN, 64),
+    
   // Interface number, string index, EP Out & IN address, EP size
   TUD_VENDOR_DESCRIPTOR(ITF_NUM_VENDOR, STRID_VEN, EPNUM_VENDOR_OUT, EPNUM_VENDOR_IN, 64)
 };
@@ -250,10 +262,11 @@ static char const* string_desc_arr [] =
   [STRID_LANGID]       = (const char[]) { 0x09, 0x04 }, // supported language is English (0x0409)
   [STRID_MANUFACTURER] = "TinyUSB",                     // Manufacturer
   [STRID_PRODUCT]      = "Go to http://192.168.7.1/",   // Product
-  //[STRID_SERIAL]       = "123456",                      // Serial
-  [STRID_INTERFACE]    = "TinyUSB Network Interface",    // Interface Description
+  //[STRID_SERIAL]       = "123456",                    // Serial
+  [STRID_INTERFACE]    = "TinyUSB Network Interface",   // Interface Description
   [STRID_CDC]          = "TinyUSB CDC",
-  [STRID_VEN]          = "TinyUSB WebUSB"
+  [STRID_VEN]          = "TinyUSB WebUSB",
+  [STRID_MSC]          = "TinyUSB MSC"
   // STRID_MAC index is handled separately
   // STRID_SERIAL index is handled seperately
 };

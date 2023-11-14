@@ -138,6 +138,7 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/mnt/c/Users/Aayush/Desktop/pico-webserver/cdc.c" "CMakeFiles/pico_webserver.dir/cdc.c.obj" "gcc" "CMakeFiles/pico_webserver.dir/cdc.c.obj.d"
+  "/mnt/c/Users/Aayush/Desktop/pico-webserver/msc.c" "CMakeFiles/pico_webserver.dir/msc.c.obj" "gcc" "CMakeFiles/pico_webserver.dir/msc.c.obj.d"
   "/mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c" "CMakeFiles/pico_webserver.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj" "gcc" "CMakeFiles/pico_webserver.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj.d"
   "/mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c" "CMakeFiles/pico_webserver.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj" "gcc" "CMakeFiles/pico_webserver.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj.d"
   "/mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c" "CMakeFiles/pico_webserver.dir/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.obj" "gcc" "CMakeFiles/pico_webserver.dir/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.obj.d"

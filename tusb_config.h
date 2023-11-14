@@ -96,7 +96,7 @@
 
 //------------- CLASS -------------//
 #define CFG_TUD_CDC               1
-#define CFG_TUD_MSC               0
+#define CFG_TUD_MSC               1
 #define CFG_TUD_HID               0
 #define CFG_TUD_MIDI              0
 #define CFG_TUD_VENDOR            1
@@ -110,6 +110,14 @@
 // If not configured vendor endpoints will not be buffered
 #define CFG_TUD_VENDOR_RX_BUFSIZE 64
 #define CFG_TUD_VENDOR_TX_BUFSIZE 64
+
+
+// CDC Endpoint transfer buffer size, more is faster
+#define CFG_TUD_CDC_EP_BUFSIZE    64
+
+// MSC Buffer size of Device Mass storage
+#define CFG_TUD_MSC_EP_BUFSIZE   512
+
 #ifdef __cplusplus
  }
 #endif

@@ -28,7 +28,7 @@ set(TINYUSB_LIBNETWORKING_SOURCES
 	${PICO_TINYUSB_PATH}/lib/networking
 )
 
-add_executable(${PROJECT_NAME} webserver.c vendor_code.c cdc.c tusb_lwip_glue.c ${PICO_TINYUSB_PATH}/src/class/cdc/cdc_device.c usb_descriptors.c ${TINYUSB_LIBNETWORKING_SOURCES}/dhserver.c ${TINYUSB_LIBNETWORKING_SOURCES}/dnserver.c ${TINYUSB_LIBNETWORKING_SOURCES}/rndis_reports.c wifi_code.c)
+add_executable(${PROJECT_NAME} webserver.c vendor_code.c cdc.c msc.c tusb_lwip_glue.c ${PICO_TINYUSB_PATH}/src/class/cdc/cdc_device.c usb_descriptors.c ${TINYUSB_LIBNETWORKING_SOURCES}/dhserver.c ${TINYUSB_LIBNETWORKING_SOURCES}/dnserver.c ${TINYUSB_LIBNETWORKING_SOURCES}/rndis_reports.c wifi_code.c)
 
 pico_enable_stdio_usb(${PROJECT_NAME} 0)
 pico_enable_stdio_uart(${PROJECT_NAME} 0)

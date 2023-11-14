@@ -283,6 +283,30 @@ cdc.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/cdc.c.s
 .PHONY : cdc.c.s
 
+msc.obj: msc.c.obj
+.PHONY : msc.obj
+
+# target to build an object file
+msc.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/msc.c.obj
+.PHONY : msc.c.obj
+
+msc.i: msc.c.i
+.PHONY : msc.i
+
+# target to preprocess a source file
+msc.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/msc.c.i
+.PHONY : msc.c.i
+
+msc.s: msc.c.s
+.PHONY : msc.s
+
+# target to generate assembly for a file
+msc.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/msc.c.s
+.PHONY : msc.c.s
+
 pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.obj: pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj
 .PHONY : pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.obj
 
@@ -5217,6 +5241,9 @@ help:
 	@echo "... cdc.obj"
 	@echo "... cdc.i"
 	@echo "... cdc.s"
+	@echo "... msc.obj"
+	@echo "... msc.i"
+	@echo "... msc.s"
 	@echo "... pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.obj"
 	@echo "... pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.i"
 	@echo "... pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.s"

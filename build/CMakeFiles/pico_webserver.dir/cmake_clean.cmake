@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/pico_webserver.dir/cdc.c.obj"
   "CMakeFiles/pico_webserver.dir/cdc.c.obj.d"
+  "CMakeFiles/pico_webserver.dir/msc.c.obj"
+  "CMakeFiles/pico_webserver.dir/msc.c.obj.d"
   "CMakeFiles/pico_webserver.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj"
   "CMakeFiles/pico_webserver.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj.d"
   "CMakeFiles/pico_webserver.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj"

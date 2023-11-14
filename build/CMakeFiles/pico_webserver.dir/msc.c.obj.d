@@ -1,5 +1,5 @@
-CMakeFiles/pico_webserver.dir/tusb_lwip_glue.c.obj: \
- /mnt/c/Users/Aayush/Desktop/pico-webserver/tusb_lwip_glue.c \
+CMakeFiles/pico_webserver.dir/msc.c.obj: \
+ /mnt/c/Users/Aayush/Desktop/pico-webserver/msc.c \
  /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/tinyusb/hw/bsp/board_api.h \
  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
@@ -72,69 +72,4 @@ CMakeFiles/pico_webserver.dir/tusb_lwip_glue.c.obj: \
  /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.h \
  /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/tinyusb/src/class/net/net_device.h \
  /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/tinyusb/src/class/cdc/cdc.h \
- /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/tinyusb/src/class/net/ncm.h \
- /mnt/c/Users/Aayush/Desktop/pico-webserver/tusb_lwip_glue.h \
- /mnt/c/Users/Aayush/Desktop/pico-webserver/usb_descriptors.h \
- /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/tinyusb/lib/networking/dhserver.h \
- /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/err.h \
- /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/opt.h \
- /mnt/c/Users/Aayush/Desktop/pico-webserver/lwipopts.h \
- /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/debug.h \
- /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/arch.h \
- /mnt/c/Users/Aayush/Desktop/pico-webserver/arch/cc.h \
- /usr/include/newlib/stdlib.h /usr/include/newlib/machine/stdlib.h \
- /usr/include/newlib/alloca.h /usr/include/newlib/inttypes.h \
- /usr/include/newlib/sys/_intsup.h \
- /usr/lib/gcc/arm-none-eabi/10.3.1/include-fixed/limits.h \
- /usr/include/newlib/ctype.h \
- /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/udp.h \
- /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/pbuf.h \
- /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/netif.h \
- /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/ip_addr.h \
- /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/def.h \
- /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/ip4_addr.h \
- /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/ip6_addr.h \
- /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/def.h \
- /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/stats.h \
- /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/mem.h \
- /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/memp.h \
- /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/priv/memp_std.h \
- /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/priv/memp_priv.h \
- /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/priv/mem_priv.h \
- /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/ip.h \
- /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/ip4.h \
- /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/prot/ip4.h \
- /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/ip6.h \
- /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/prot/ip.h \
- /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/prot/udp.h \
- /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/include/netif/etharp.h \
- /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/etharp.h \
- /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/prot/ethernet.h \
- /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/prot/ieee.h \
- /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/prot/etharp.h \
- /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/include/netif/ethernet.h \
- /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/tinyusb/lib/networking/dnserver.h \
- /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/init.h \
- /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/timeouts.h \
- /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/apps/httpd.h \
- /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/apps/httpd_opts.h \
- /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/prot/iana.h \
- /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/src/rp2_common/pico_cyw43_arch/include/pico/cyw43_arch.h \
- /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/cyw43-driver/src/cyw43.h \
- /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/cyw43-driver/src/cyw43_config.h \
- /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/src/rp2_common/pico_cyw43_driver/include/cyw43_configport.h \
- /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h \
- /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/sio.h \
- /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/interp.h \
- /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/padsbank0.h \
- /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pads_bank0.h \
- /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/iobank0.h \
- /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/io_bank0.h \
- /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h \
- /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
- /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h \
- /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/cyw43-driver/src/cyw43_ll.h \
- /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/cyw43-driver/src/cyw43_country.h \
- /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/src/rp2_common/pico_async_context/include/pico/async_context.h \
- /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/src/rp2_common/pico_cyw43_arch/include/pico/cyw43_arch/arch_threadsafe_background.h \
- /mnt/c/Users/Aayush/Desktop/pico-webserver/wifi_code.h
+ /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/tinyusb/src/class/net/ncm.h
