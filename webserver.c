@@ -29,8 +29,6 @@ int main()
     {
         tud_task();
         service_traffic();
-		webserial_task();
-		cdc_task();
 		//sleep_us(1);
     }
 

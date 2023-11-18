@@ -54,7 +54,7 @@ void core1_entry() {
             }
         } else {
 			mutex_enter_blocking(&usb_ready);
-			if (received_frame)
+			if (received_frame&& received_frame->len>6)
 			{
 				eth_frame_send_success=cyw43_send_ethernet(&cyw43_state, CYW43_ITF_STA, received_frame->len, received_frame->payload, false);
 				if(eth_frame_send_success){ // if anything other than 0 is eth fail

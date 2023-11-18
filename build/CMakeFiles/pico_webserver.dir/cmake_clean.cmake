@@ -1,8 +1,4 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/pico_webserver.dir/cdc.c.obj"
-  "CMakeFiles/pico_webserver.dir/cdc.c.obj.d"
-  "CMakeFiles/pico_webserver.dir/msc.c.obj"
-  "CMakeFiles/pico_webserver.dir/msc.c.obj.d"
   "CMakeFiles/pico_webserver.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj"
   "CMakeFiles/pico_webserver.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj.d"
   "CMakeFiles/pico_webserver.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj"
@@ -168,8 +164,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/pico_webserver.dir/tusb_lwip_glue.c.obj.d"
   "CMakeFiles/pico_webserver.dir/usb_descriptors.c.obj"
   "CMakeFiles/pico_webserver.dir/usb_descriptors.c.obj.d"
-  "CMakeFiles/pico_webserver.dir/vendor_code.c.obj"
-  "CMakeFiles/pico_webserver.dir/vendor_code.c.obj.d"
   "CMakeFiles/pico_webserver.dir/webserver.c.obj"
   "CMakeFiles/pico_webserver.dir/webserver.c.obj.d"
   "CMakeFiles/pico_webserver.dir/wifi_code.c.obj"

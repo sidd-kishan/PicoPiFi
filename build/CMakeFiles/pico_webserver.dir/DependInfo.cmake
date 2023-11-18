@@ -27,7 +27,7 @@ set(CMAKE_TARGET_DEFINITIONS_ASM
   "CFG_TUSB_MCU=OPT_MCU_RP2040"
   "CFG_TUSB_OS=OPT_OS_PICO"
   "CYW43_LWIP=0"
-  "CYW43_SLEEP_CHECK_MS=1"
+  "CYW43_SLEEP_CHECK_MS=3"
   "LIB_PICO_ASYNC_CONTEXT_THREADSAFE_BACKGROUND=1"
   "LIB_PICO_BIT_OPS=1"
   "LIB_PICO_BIT_OPS_PICO=1"
@@ -137,8 +137,6 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/mnt/c/Users/Aayush/Desktop/pico-webserver/cdc.c" "CMakeFiles/pico_webserver.dir/cdc.c.obj" "gcc" "CMakeFiles/pico_webserver.dir/cdc.c.obj.d"
-  "/mnt/c/Users/Aayush/Desktop/pico-webserver/msc.c" "CMakeFiles/pico_webserver.dir/msc.c.obj" "gcc" "CMakeFiles/pico_webserver.dir/msc.c.obj.d"
   "/mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c" "CMakeFiles/pico_webserver.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj" "gcc" "CMakeFiles/pico_webserver.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj.d"
   "/mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c" "CMakeFiles/pico_webserver.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj" "gcc" "CMakeFiles/pico_webserver.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj.d"
   "/mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c" "CMakeFiles/pico_webserver.dir/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.obj" "gcc" "CMakeFiles/pico_webserver.dir/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.obj.d"
@@ -215,7 +213,6 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c" "CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj" "gcc" "CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj.d"
   "/mnt/c/Users/Aayush/Desktop/pico-webserver/tusb_lwip_glue.c" "CMakeFiles/pico_webserver.dir/tusb_lwip_glue.c.obj" "gcc" "CMakeFiles/pico_webserver.dir/tusb_lwip_glue.c.obj.d"
   "/mnt/c/Users/Aayush/Desktop/pico-webserver/usb_descriptors.c" "CMakeFiles/pico_webserver.dir/usb_descriptors.c.obj" "gcc" "CMakeFiles/pico_webserver.dir/usb_descriptors.c.obj.d"
-  "/mnt/c/Users/Aayush/Desktop/pico-webserver/vendor_code.c" "CMakeFiles/pico_webserver.dir/vendor_code.c.obj" "gcc" "CMakeFiles/pico_webserver.dir/vendor_code.c.obj.d"
   "/mnt/c/Users/Aayush/Desktop/pico-webserver/webserver.c" "CMakeFiles/pico_webserver.dir/webserver.c.obj" "gcc" "CMakeFiles/pico_webserver.dir/webserver.c.obj.d"
   "/mnt/c/Users/Aayush/Desktop/pico-webserver/wifi_code.c" "CMakeFiles/pico_webserver.dir/wifi_code.c.obj" "gcc" "CMakeFiles/pico_webserver.dir/wifi_code.c.obj.d"
   "/mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp" "CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj" "gcc" "CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj.d"

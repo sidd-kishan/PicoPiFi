@@ -6,7 +6,6 @@
 #endif
 
 #include "tusb.h"
-#include "usb_descriptors.h"
 #include "dhserver.h"
 #include "dnserver.h"
 #include "lwip/init.h"
@@ -19,9 +18,6 @@ void dhcpd_init();
 void service_traffic();
 extern mutex_t wifi_ready;
 extern uint8_t macaddr[6];
-void webserial_task(void);
-void cdc_task(void);
-void echo_all(uint8_t buf[], uint32_t count);
 
 #ifdef __cplusplus
  }

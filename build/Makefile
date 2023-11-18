@@ -259,54 +259,6 @@ cyw43_driver_picow_cyw43_bus_pio_spi_pio_h/fast:
 	$(MAKE) $(MAKESILENT) -f pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/build.make pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/build
 .PHONY : cyw43_driver_picow_cyw43_bus_pio_spi_pio_h/fast
 
-cdc.obj: cdc.c.obj
-.PHONY : cdc.obj
-
-# target to build an object file
-cdc.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/cdc.c.obj
-.PHONY : cdc.c.obj
-
-cdc.i: cdc.c.i
-.PHONY : cdc.i
-
-# target to preprocess a source file
-cdc.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/cdc.c.i
-.PHONY : cdc.c.i
-
-cdc.s: cdc.c.s
-.PHONY : cdc.s
-
-# target to generate assembly for a file
-cdc.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/cdc.c.s
-.PHONY : cdc.c.s
-
-msc.obj: msc.c.obj
-.PHONY : msc.obj
-
-# target to build an object file
-msc.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/msc.c.obj
-.PHONY : msc.c.obj
-
-msc.i: msc.c.i
-.PHONY : msc.i
-
-# target to preprocess a source file
-msc.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/msc.c.i
-.PHONY : msc.c.i
-
-msc.s: msc.c.s
-.PHONY : msc.s
-
-# target to generate assembly for a file
-msc.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/msc.c.s
-.PHONY : msc.c.s
-
 pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.obj: pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj
 .PHONY : pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.obj
 
@@ -5147,30 +5099,6 @@ usb_descriptors.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/usb_descriptors.c.s
 .PHONY : usb_descriptors.c.s
 
-vendor_code.obj: vendor_code.c.obj
-.PHONY : vendor_code.obj
-
-# target to build an object file
-vendor_code.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/vendor_code.c.obj
-.PHONY : vendor_code.c.obj
-
-vendor_code.i: vendor_code.c.i
-.PHONY : vendor_code.i
-
-# target to preprocess a source file
-vendor_code.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/vendor_code.c.i
-.PHONY : vendor_code.c.i
-
-vendor_code.s: vendor_code.c.s
-.PHONY : vendor_code.s
-
-# target to generate assembly for a file
-vendor_code.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pico_webserver.dir/build.make CMakeFiles/pico_webserver.dir/vendor_code.c.s
-.PHONY : vendor_code.c.s
-
 webserver.obj: webserver.c.obj
 .PHONY : webserver.obj
 
@@ -5238,12 +5166,6 @@ help:
 	@echo "... lwipcore"
 	@echo "... lwipmbedtls"
 	@echo "... pico_webserver"
-	@echo "... cdc.obj"
-	@echo "... cdc.i"
-	@echo "... cdc.s"
-	@echo "... msc.obj"
-	@echo "... msc.i"
-	@echo "... msc.s"
 	@echo "... pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.obj"
 	@echo "... pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.i"
 	@echo "... pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.s"
@@ -5849,9 +5771,6 @@ help:
 	@echo "... usb_descriptors.obj"
 	@echo "... usb_descriptors.i"
 	@echo "... usb_descriptors.s"
-	@echo "... vendor_code.obj"
-	@echo "... vendor_code.i"
-	@echo "... vendor_code.s"
 	@echo "... webserver.obj"
 	@echo "... webserver.i"
 	@echo "... webserver.s"
