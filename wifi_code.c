@@ -8,13 +8,17 @@ volatile bool link_up = false;
 static volatile absolute_time_t next_wifi_try;
 
 void cyw43_cb_tcpip_set_link_up(cyw43_t *self, int itf) {
-    link_up = true;
-    cyw43_arch_gpio_put(CYW43_WL_GPIO_LED_PIN, link_up);
+    if(!link_up){
+		link_up = true;
+		cyw43_arch_gpio_put(CYW43_WL_GPIO_LED_PIN, link_up);
+	}
 }
 
 void cyw43_cb_tcpip_set_link_down(cyw43_t *self, int itf) {
-    link_up = false;
-    cyw43_arch_gpio_put(CYW43_WL_GPIO_LED_PIN, link_up);
+    if(link_up){
+		link_up = false;
+		cyw43_arch_gpio_put(CYW43_WL_GPIO_LED_PIN, link_up);
+	}
 }
 
 void cyw43_cb_process_ethernet(void *cb_data, int itf, size_t len, const uint8_t *buf) {
@@ -31,6 +35,7 @@ void cyw43_cb_process_ethernet(void *cb_data, int itf, size_t len, const uint8_t
         //tud_task();
 		pbuf_free(out_pkt);
 		out_pkt = NULL;
+		watchdog_update();
     } else {
         //DEBUG(("Oversized pkt = %d\n", len));
     }
@@ -45,27 +50,13 @@ void core1_entry() {
 	cyw43_wifi_pm(&cyw43_state, cyw43_pm_value(CYW43_NO_POWERSAVE_MODE, 20, 1, 1, 1));
 	cyw43_hal_get_mac(0, macaddr);
 	mutex_exit(&wifi_ready);
-	int eth_frame_send_success=0;
-	while(1){
+	while(loop_break){
 		if (!link_up) {
             if (absolute_time_diff_us(get_absolute_time(), next_wifi_try) < 0) {
                 cyw43_arch_wifi_connect_async("ssid", "password", CYW43_AUTH_WPA2_AES_PSK);
                 next_wifi_try = make_timeout_time_ms(10000);
             }
-        } else {
-			mutex_enter_blocking(&usb_ready);
-			if (received_frame)
-			{
-				eth_frame_send_success=cyw43_send_ethernet(&cyw43_state, CYW43_ITF_STA, received_frame->len, received_frame->payload, false);
-				if(eth_frame_send_success){ // if anything other than 0 is eth fail
-					//link_up = false;
-					//cyw43_arch_gpio_put(CYW43_WL_GPIO_LED_PIN, link_up);
-				} else { // if 0 is eth pass
-					//link_up = true;
-					//cyw43_arch_gpio_put(CYW43_WL_GPIO_LED_PIN, link_up);
-				}
-			}
-			mutex_exit(&usb_ready);
-		}
+        }
 	}
+	loop_break=0;
 }

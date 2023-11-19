@@ -3360,7 +3360,6 @@ CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
  /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h
  /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h
  /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/src/rp2_common/pico_printf/include/pico/printf.h
- /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom.h
 
 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c
@@ -3750,6 +3749,9 @@ CMakeFiles/pico_webserver.dir/tusb_lwip_glue.c.obj
  /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/src/rp2_common/pico_async_context/include/pico/async_context.h
  /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/src/rp2_common/pico_cyw43_arch/include/pico/cyw43_arch/arch_threadsafe_background.h
  /mnt/c/Users/Aayush/Desktop/pico-webserver/wifi_code.h
+ /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/src/rp2_common/hardware_watchdog/include/hardware/watchdog.h
+ /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/watchdog.h
+ /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/watchdog.h
 
 CMakeFiles/pico_webserver.dir/usb_descriptors.c.obj
  /mnt/c/Users/Aayush/Desktop/pico-webserver/usb_descriptors.c
@@ -3998,6 +4000,9 @@ CMakeFiles/pico_webserver.dir/webserver.c.obj
  /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/tinyusb/hw/bsp/board_api.h
  /mnt/c/Users/Aayush/Desktop/pico-webserver/lwipopts.h
  /mnt/c/Users/Aayush/Desktop/pico-webserver/wifi_code.h
+ /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/src/rp2_common/hardware_watchdog/include/hardware/watchdog.h
+ /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/watchdog.h
+ /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/watchdog.h
 
 CMakeFiles/pico_webserver.dir/wifi_code.c.obj
  /mnt/c/Users/Aayush/Desktop/pico-webserver/wifi_code.c
@@ -4150,4 +4155,7 @@ CMakeFiles/pico_webserver.dir/wifi_code.c.obj
  /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/src/rp2_common/pico_async_context/include/pico/async_context.h
  /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/src/rp2_common/pico_cyw43_arch/include/pico/cyw43_arch/arch_threadsafe_background.h
  /mnt/c/Users/Aayush/Desktop/pico-webserver/wifi_code.h
+ /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/src/rp2_common/hardware_watchdog/include/hardware/watchdog.h
+ /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/watchdog.h
+ /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/watchdog.h
 

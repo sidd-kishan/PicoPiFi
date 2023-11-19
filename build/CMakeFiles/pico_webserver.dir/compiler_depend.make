@@ -3289,8 +3289,7 @@ CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
   ../pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
   ../pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
   ../pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
-  ../pico-sdk/src/rp2_common/pico_printf/include/pico/printf.h \
-  ../pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom.h
+  ../pico-sdk/src/rp2_common/pico_printf/include/pico/printf.h
 
 CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj: ../pico-sdk/src/rp2_common/pico_standard_link/binary_info.c \
   ../pico-sdk/src/common/pico_binary_info/include/pico/binary_info.h \
@@ -3673,7 +3672,10 @@ CMakeFiles/pico_webserver.dir/tusb_lwip_glue.c.obj: ../tusb_lwip_glue.c \
   ../pico-sdk/lib/cyw43-driver/src/cyw43_country.h \
   ../pico-sdk/src/rp2_common/pico_async_context/include/pico/async_context.h \
   ../pico-sdk/src/rp2_common/pico_cyw43_arch/include/pico/cyw43_arch/arch_threadsafe_background.h \
-  ../wifi_code.h
+  ../wifi_code.h \
+  ../pico-sdk/src/rp2_common/hardware_watchdog/include/hardware/watchdog.h \
+  ../pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/watchdog.h \
+  ../pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/watchdog.h
 
 CMakeFiles/pico_webserver.dir/usb_descriptors.c.obj: ../usb_descriptors.c \
   ../pico-sdk/lib/tinyusb/src/tusb.h \
@@ -3919,7 +3921,10 @@ CMakeFiles/pico_webserver.dir/webserver.c.obj: ../webserver.c \
   ../pico-sdk/lib/lwip/src/include/lwip/prot/iana.h \
   ../pico-sdk/lib/tinyusb/hw/bsp/board_api.h \
   ../lwipopts.h \
-  ../wifi_code.h
+  ../wifi_code.h \
+  ../pico-sdk/src/rp2_common/hardware_watchdog/include/hardware/watchdog.h \
+  ../pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/watchdog.h \
+  ../pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/watchdog.h
 
 CMakeFiles/pico_webserver.dir/wifi_code.c.obj: ../wifi_code.c \
   ../tusb_lwip_glue.h \
@@ -4070,7 +4075,10 @@ CMakeFiles/pico_webserver.dir/wifi_code.c.obj: ../wifi_code.c \
   ../pico-sdk/lib/cyw43-driver/src/cyw43_country.h \
   ../pico-sdk/src/rp2_common/pico_async_context/include/pico/async_context.h \
   ../pico-sdk/src/rp2_common/pico_cyw43_arch/include/pico/cyw43_arch/arch_threadsafe_background.h \
-  ../wifi_code.h
+  ../wifi_code.h \
+  ../pico-sdk/src/rp2_common/hardware_watchdog/include/hardware/watchdog.h \
+  ../pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/watchdog.h \
+  ../pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/watchdog.h
 
 
 ../webserver.c:

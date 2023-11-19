@@ -10,13 +10,14 @@ void cdc_task(void);
 
 mutex_t wifi_ready;
 uint8_t macaddr[6];
-
+int loop_break=1;
 int main()
 {
 	set_sys_clock_khz(200000, true);
 	mutex_init(&wifi_ready);
 	mutex_enter_blocking(&wifi_ready);
 	multicore_launch_core1(core1_entry);
+	watchdog_enable(4000, 1);
 	// Initialize tinyusb, lwip, dhcpd and httpd
 	mutex_init(&usb_ready);
 	
@@ -27,12 +28,13 @@ int main()
     //ssi_init();
     //cgi_init();
     
-    while (true)
+    while (loop_break)
     {
         tud_task();
         service_traffic();
 		cdc_task();
     }
+	loop_break=0;
 
     return 0;
 }
@@ -76,7 +78,7 @@ void cdc_task(void)
 
         // echo back to both serial ports
         echo_all(0, buf, count);
-        echo_all(1, buf, count);
+        //echo_all(1, buf, count);
 	  }
     }
   }

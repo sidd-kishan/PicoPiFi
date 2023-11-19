@@ -142,4 +142,7 @@ CMakeFiles/pico_webserver.dir/webserver.c.obj: \
  /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/prot/iana.h \
  /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/tinyusb/hw/bsp/board_api.h \
  /mnt/c/Users/Aayush/Desktop/pico-webserver/lwipopts.h \
- /mnt/c/Users/Aayush/Desktop/pico-webserver/wifi_code.h
+ /mnt/c/Users/Aayush/Desktop/pico-webserver/wifi_code.h \
+ /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/src/rp2_common/hardware_watchdog/include/hardware/watchdog.h \
+ /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/watchdog.h \
+ /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/watchdog.h

@@ -38,6 +38,7 @@ struct pbuf *received_frame;
 int packet_stat_rx =0;
 int packet_stat_tx=0;
 mutex_t usb_ready;
+int eth_frame_send_success=0;
 uint8_t pattern[] = {0xc0, 0xa8, 0x07, 0x01};
 /* this is used by this code, ./class/net/net_driver.c, and usb_descriptors.c */
 /* ideally speaking, this should be generated from the hardware's unique ID (if available) */
@@ -187,15 +188,12 @@ void service_traffic(void)
     /* handle any packet received by tud_network_recv_cb() */
     if (received_frame)
     {
-	  //queue_add_blocking(&qinbound, &in_pkt);
-	  //if (!queue_try_add(&qinbound, &in_pkt)) {
-	  //}
-      if (!link_up)ethernet_input(received_frame, &netif_data);
-	  mutex_enter_blocking(&usb_ready);
+	  eth_frame_send_success=cyw43_send_ethernet(&cyw43_state, CYW43_ITF_STA, received_frame->len, received_frame->payload, false);
+	  if(eth_frame_send_success==0){ // packet send pass
+	  }
       pbuf_free(received_frame);
       received_frame = NULL;
 	  tud_network_recv_renew();
-	  mutex_exit(&usb_ready);
     }
     
     //sys_check_timeouts();

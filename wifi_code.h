@@ -4,6 +4,7 @@
 #include "tusb.h"
 #include "lwip/init.h"
 #include "pico/mutex.h"
+#include "hardware/watchdog.h"
 #define MTU 1500
 typedef struct {
     uint16_t len;
@@ -15,7 +16,7 @@ extern mutex_t usb_ready;
 extern struct pbuf *received_frame;
 extern volatile bool link_up;
 void core1_entry();
-
+extern int loop_break;
 #ifdef __cplusplus
  }
 #endif
