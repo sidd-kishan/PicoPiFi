@@ -9,12 +9,12 @@ static volatile absolute_time_t next_wifi_try;
 
 void cyw43_cb_tcpip_set_link_up(cyw43_t *self, int itf) {
     link_up = true;
-    //cyw43_arch_gpio_put(CYW43_WL_GPIO_LED_PIN, link_up);
+    cyw43_arch_gpio_put(CYW43_WL_GPIO_LED_PIN, link_up);
 }
 
 void cyw43_cb_tcpip_set_link_down(cyw43_t *self, int itf) {
     link_up = false;
-    //cyw43_arch_gpio_put(CYW43_WL_GPIO_LED_PIN, link_up);
+    cyw43_arch_gpio_put(CYW43_WL_GPIO_LED_PIN, link_up);
 }
 
 void cyw43_cb_process_ethernet(void *cb_data, int itf, size_t len, const uint8_t *buf) {
@@ -54,15 +54,15 @@ void core1_entry() {
             }
         } else {
 			mutex_enter_blocking(&usb_ready);
-			if (received_frame&& received_frame->len>6)
+			if (received_frame)
 			{
 				eth_frame_send_success=cyw43_send_ethernet(&cyw43_state, CYW43_ITF_STA, received_frame->len, received_frame->payload, false);
 				if(eth_frame_send_success){ // if anything other than 0 is eth fail
-					link_up = false;
-					cyw43_arch_gpio_put(CYW43_WL_GPIO_LED_PIN, link_up);
+					//link_up = false;
+					//cyw43_arch_gpio_put(CYW43_WL_GPIO_LED_PIN, link_up);
 				} else { // if 0 is eth pass
-					link_up = true;
-					cyw43_arch_gpio_put(CYW43_WL_GPIO_LED_PIN, link_up);
+					//link_up = true;
+					//cyw43_arch_gpio_put(CYW43_WL_GPIO_LED_PIN, link_up);
 				}
 			}
 			mutex_exit(&usb_ready);
