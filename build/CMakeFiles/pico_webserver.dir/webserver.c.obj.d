@@ -91,8 +91,6 @@ CMakeFiles/pico_webserver.dir/webserver.c.obj: \
  /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/tinyusb/src/common/tusb_fifo.h \
  /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/tinyusb/src/class/hid/hid.h \
  /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/tinyusb/src/device/usbd.h \
- /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.h \
- /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/tinyusb/src/class/cdc/cdc.h \
  /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/tinyusb/src/class/net/net_device.h \
  /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/tinyusb/src/class/cdc/cdc.h \
  /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/tinyusb/src/class/net/ncm.h \
@@ -142,7 +140,4 @@ CMakeFiles/pico_webserver.dir/webserver.c.obj: \
  /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/prot/iana.h \
  /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/tinyusb/hw/bsp/board_api.h \
  /mnt/c/Users/Aayush/Desktop/pico-webserver/lwipopts.h \
- /mnt/c/Users/Aayush/Desktop/pico-webserver/wifi_code.h \
- /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/src/rp2_common/hardware_watchdog/include/hardware/watchdog.h \
- /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/watchdog.h \
- /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/watchdog.h
+ /mnt/c/Users/Aayush/Desktop/pico-webserver/wifi_code.h

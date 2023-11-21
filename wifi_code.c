@@ -35,7 +35,6 @@ void cyw43_cb_process_ethernet(void *cb_data, int itf, size_t len, const uint8_t
         //tud_task();
 		pbuf_free(out_pkt);
 		out_pkt = NULL;
-		watchdog_update();
     } else {
         //DEBUG(("Oversized pkt = %d\n", len));
     }
@@ -56,7 +55,14 @@ void core1_entry() {
                 cyw43_arch_wifi_connect_async("ssid", "password", CYW43_AUTH_WPA2_AES_PSK);
                 next_wifi_try = make_timeout_time_ms(10000);
             }
-        }
+        } else {
+			mutex_enter_blocking(&usb_ready);
+			if (received_frame&& received_frame->len>6)
+			{
+				cyw43_send_ethernet(&cyw43_state, CYW43_ITF_STA, received_frame->len, received_frame->payload, false);
+			}
+			mutex_exit(&usb_ready);
+		}
 	}
 	loop_break=0;
 }

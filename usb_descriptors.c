@@ -50,8 +50,6 @@ enum
 {
   ITF_NUM_CDC = 0,
   ITF_NUM_CDC_DATA,
-  ITF_NUM_CDC_1,
-  ITF_NUM_CDC_1_DATA,
   ITF_NUM_TOTAL
 };
 
@@ -99,17 +97,13 @@ uint8_t const * tud_descriptor_device_cb(void)
 //--------------------------------------------------------------------+
 // Configuration Descriptor
 //--------------------------------------------------------------------+
-#define MAIN_CONFIG_TOTAL_LEN    (TUD_CONFIG_DESC_LEN + TUD_RNDIS_DESC_LEN + TUD_CDC_DESC_LEN)
-#define ALT_CONFIG_TOTAL_LEN     (TUD_CONFIG_DESC_LEN + TUD_CDC_ECM_DESC_LEN + TUD_CDC_DESC_LEN)
+#define MAIN_CONFIG_TOTAL_LEN    (TUD_CONFIG_DESC_LEN + TUD_RNDIS_DESC_LEN)
+#define ALT_CONFIG_TOTAL_LEN     (TUD_CONFIG_DESC_LEN + TUD_CDC_ECM_DESC_LEN)
 
 
 #define EPNUM_NET_NOTIF   0x81
 #define EPNUM_NET_OUT     0x02
 #define EPNUM_NET_IN      0x82
-
-#define EPNUM_ECM_NOTIF   0x83
-#define EPNUM_ECM_OUT     0x03
-#define EPNUM_ECM_IN      0x84
 
 static uint8_t const rndis_configuration[] =
 {
@@ -118,18 +112,34 @@ static uint8_t const rndis_configuration[] =
 
   // Interface number, string index, EP notification address and size, EP data address (out, in) and size.
   TUD_RNDIS_DESCRIPTOR(ITF_NUM_CDC, STRID_INTERFACE, EPNUM_NET_NOTIF, 8, EPNUM_NET_OUT, EPNUM_NET_IN, CFG_TUD_NET_ENDPOINT_SIZE),
-  
-  // 2nd CDC: Interface number, string index, EP notification address and size, EP data address (out, in) and size.
-  TUD_CDC_DESCRIPTOR(ITF_NUM_CDC_1, 4, EPNUM_ECM_NOTIF, 8, EPNUM_ECM_OUT, EPNUM_ECM_IN, 64)
 };
 
+static uint8_t const ecm_configuration[] =
+{
+  // Config number (index+1), interface count, string index, total length, attribute, power in mA
+  TUD_CONFIG_DESCRIPTOR(CONFIG_ID_ECM+1, ITF_NUM_TOTAL, 0, ALT_CONFIG_TOTAL_LEN, 0, 100),
+
+  // Interface number, description string index, MAC address string index, EP notification address and size, EP data address (out, in), and size, max segment size.
+  TUD_CDC_ECM_DESCRIPTOR(ITF_NUM_CDC, STRID_INTERFACE, STRID_MAC, EPNUM_NET_NOTIF, 64, EPNUM_NET_OUT, EPNUM_NET_IN, CFG_TUD_NET_ENDPOINT_SIZE, CFG_TUD_NET_MTU),
+};
+
+// Configuration array: RNDIS and CDC-ECM
+// - Windows only works with RNDIS
+// - MacOS only works with CDC-ECM
+// - Linux will work on both
+// Note index is Num-1x
+static uint8_t const * const configuration_arr[2] =
+{
+  [CONFIG_ID_RNDIS] = rndis_configuration,
+  [CONFIG_ID_ECM  ] = ecm_configuration
+};
 
 // Invoked when received GET CONFIGURATION DESCRIPTOR
 // Application return pointer to descriptor
 // Descriptor contents must exist long enough for transfer to complete
 uint8_t const * tud_descriptor_configuration_cb(uint8_t index)
 {
-  return rndis_configuration;
+  return (index < CONFIG_ID_COUNT) ? configuration_arr[index] : NULL;
 }
 
 //--------------------------------------------------------------------+

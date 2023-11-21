@@ -4,7 +4,6 @@
 #include "tusb.h"
 #include "lwip/init.h"
 #include "pico/mutex.h"
-#include "hardware/watchdog.h"
 #define MTU 1500
 typedef struct {
     uint16_t len;
