@@ -12,7 +12,7 @@ A Driverless RNDIS based wifi adapter based on pi pico w to enable usb wifi wlan
 ```
 
 Webserver example that came with TinyUSB slightly modified to run on a Raspberry Pi Pico.
-Lets the Pico pretend to be a USB Ethernet device. Runs a webinterface at http://192.168.7.1/
+Lets the Pico pretend to be a USB Ethernet device. 
 
 ## Build dependencies
 
@@ -47,7 +47,7 @@ make -j$(nproc --all)
 ```
 
 Copy the resulting pico_webserver.uf2 file to the Pico mass storage device manually.
-Webserver will be available at http://192.168.7.1/
+
 
 Content it is serving is in /fs
 If you change any files there, run ./regen-fsdata.sh
