@@ -1,6 +1,12 @@
 # Driverless RNDIS USB WIFI Dongle
 A Driverless RNDIS based wifi adapter based on pi pico w to enable usb wifi wlan on Windows on ARM devices like Windows on Raspberry pi 4 that makes use of the default driver of Windows RNDIS drivers
 
+
+## Connect to Wifi
+### First change the 'ssid' and 'password' and the default security which is wpa2-aes in the file wifi_code.c
+### or keep it as is and change your ap config to match default config ;-)
+
+
 ## Overview
 ```
         ---------------------------       -------------------------------                     ----------
@@ -24,9 +30,6 @@ sudo apt install git build-essential cmake gcc-arm-none-eabi
 
 Your Linux distribution does need to provide a recent CMake (3.13+).
 If not, compile [CMake from source](https://cmake.org/download/#latest) first.
-
-### First change the 'ssid' and 'password' and the default security which is wpa2-aes in the file wifi_code.c
-### or keep it as is and change your ap config to match default config ;-)
 
 ## Build instructions
 
