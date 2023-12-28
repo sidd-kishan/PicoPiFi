@@ -25,7 +25,6 @@
  * THE SOFTWARE.
  *
  */
-#include "bsp/board_api.h"
 #include "tusb_lwip_glue.h"
 #include "pico/cyw43_arch.h"
 #include "wifi_code.h"
@@ -37,7 +36,6 @@ struct pbuf *received_frame;
 
 int packet_stat_rx =0;
 int packet_stat_tx=0;
-mutex_t usb_ready;
 int eth_frame_send_success=0;
 uint8_t pattern[] = {0xc0, 0xa8, 0x07, 0x01};
 /* this is used by this code, ./class/net/net_driver.c, and usb_descriptors.c */

@@ -3446,11 +3446,11 @@ CMakeFiles/pico_webserver.dir/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c
   ../pico-sdk/src/rp2_common/pico_unique_id/include/pico/unique_id.h
 
 CMakeFiles/pico_webserver.dir/tusb_lwip_glue.c.obj: ../tusb_lwip_glue.c \
-  ../pico-sdk/lib/tinyusb/hw/bsp/board_api.h \
-  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
-  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
+  ../tusb_lwip_glue.h \
   ../pico-sdk/lib/tinyusb/src/tusb.h \
   ../pico-sdk/lib/tinyusb/src/common/tusb_common.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
   /usr/include/newlib/string.h \
   /usr/include/newlib/_ansi.h \
@@ -3528,7 +3528,6 @@ CMakeFiles/pico_webserver.dir/tusb_lwip_glue.c.obj: ../tusb_lwip_glue.c \
   ../pico-sdk/lib/tinyusb/src/class/net/net_device.h \
   ../pico-sdk/lib/tinyusb/src/class/cdc/cdc.h \
   ../pico-sdk/lib/tinyusb/src/class/net/ncm.h \
-  ../tusb_lwip_glue.h \
   ../pico-sdk/lib/tinyusb/lib/networking/dhserver.h \
   ../pico-sdk/lib/lwip/src/include/lwip/err.h \
   ../pico-sdk/lib/lwip/src/include/lwip/opt.h \
@@ -3593,7 +3592,8 @@ CMakeFiles/pico_webserver.dir/tusb_lwip_glue.c.obj: ../tusb_lwip_glue.c \
   ../pico-sdk/lib/cyw43-driver/src/cyw43_country.h \
   ../pico-sdk/src/rp2_common/pico_async_context/include/pico/async_context.h \
   ../pico-sdk/src/rp2_common/pico_cyw43_arch/include/pico/cyw43_arch/arch_threadsafe_background.h \
-  ../wifi_code.h
+  ../wifi_code.h \
+  ../pico-sdk/lib/tinyusb/hw/bsp/board_api.h
 
 CMakeFiles/pico_webserver.dir/usb_descriptors.c.obj: ../usb_descriptors.c \
   ../pico-sdk/lib/tinyusb/src/tusb.h \
@@ -3833,9 +3833,9 @@ CMakeFiles/pico_webserver.dir/webserver.c.obj: ../webserver.c \
   ../pico-sdk/lib/lwip/src/include/lwip/apps/httpd.h \
   ../pico-sdk/lib/lwip/src/include/lwip/apps/httpd_opts.h \
   ../pico-sdk/lib/lwip/src/include/lwip/prot/iana.h \
-  ../pico-sdk/lib/tinyusb/hw/bsp/board_api.h \
   ../lwipopts.h \
-  ../wifi_code.h
+  ../wifi_code.h \
+  ../pico-sdk/lib/tinyusb/hw/bsp/board_api.h
 
 CMakeFiles/pico_webserver.dir/wifi_code.c.obj: ../wifi_code.c \
   ../tusb_lwip_glue.h \
@@ -3984,18 +3984,19 @@ CMakeFiles/pico_webserver.dir/wifi_code.c.obj: ../wifi_code.c \
   ../pico-sdk/lib/cyw43-driver/src/cyw43_country.h \
   ../pico-sdk/src/rp2_common/pico_async_context/include/pico/async_context.h \
   ../pico-sdk/src/rp2_common/pico_cyw43_arch/include/pico/cyw43_arch/arch_threadsafe_background.h \
-  ../wifi_code.h
+  ../wifi_code.h \
+  ../pico-sdk/lib/tinyusb/hw/bsp/board_api.h
 
 
 ../webserver.c:
 
 ../usb_descriptors.c:
 
+../pico-sdk/lib/tinyusb/hw/bsp/board_api.h:
+
 ../wifi_code.h:
 
 ../pico-sdk/lib/lwip/src/include/lwip/prot/iana.h:
-
-../pico-sdk/lib/tinyusb/hw/bsp/board_api.h:
 
 ../tusb_lwip_glue.c:
 

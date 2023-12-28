@@ -2,7 +2,6 @@
 #include "pico/multicore.h"
 #include "pico/cyw43_arch.h"
 #include "tusb_lwip_glue.h"
-#include "bsp/board_api.h"
 #include "lwipopts.h"
 #include "wifi_code.h"
 
@@ -17,7 +16,6 @@ int main()
 	mutex_enter_blocking(&wifi_ready);
 	multicore_launch_core1(core1_entry);
 	// Initialize tinyusb, lwip, dhcpd and httpd
-	mutex_init(&usb_ready);
 	
     init_lwip();
     wait_for_netif_is_up();

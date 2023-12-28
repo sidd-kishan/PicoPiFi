@@ -56,12 +56,6 @@ void core1_entry() {
                 next_wifi_try = make_timeout_time_ms(10000);
             }
         } else {
-			mutex_enter_blocking(&usb_ready);
-			if (received_frame&& received_frame->len>6)
-			{
-				cyw43_send_ethernet(&cyw43_state, CYW43_ITF_STA, received_frame->len, received_frame->payload, false);
-			}
-			mutex_exit(&usb_ready);
 		}
 	}
 	loop_break=0;
