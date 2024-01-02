@@ -559,11 +559,11 @@ Disassembly of section .text:
 1000050e:	d0f6      	beq.n	100004fe <tud_network_recv_cb+0x16>
 10000510:	0022      	movs	r2, r4
 10000512:	0029      	movs	r1, r5
-10000514:	6840      	ldr	r0, [r0, #4]
-10000516:	f004 fb2b 	bl	10004b70 <__wrap___aeabi_memcpy>
-1000051a:	2001      	movs	r0, #1
-1000051c:	6037      	str	r7, [r6, #0]
-1000051e:	e7eb      	b.n	100004f8 <tud_network_recv_cb+0x10>
+10000514:	f00c fbd0 	bl	1000ccb8 <pbuf_take>
+10000518:	2001      	movs	r0, #1
+1000051a:	6037      	str	r7, [r6, #0]
+1000051c:	e7ec      	b.n	100004f8 <tud_network_recv_cb+0x10>
+1000051e:	46c0      	nop			; (mov r8, r8)
 10000520:	2000df90 	.word	0x2000df90
 
 10000524 <tud_network_xmit_cb>:
@@ -578,27 +578,27 @@ Disassembly of section .text:
 10000536:	46c0      	nop			; (mov r8, r8)
 
 10000538 <service_traffic>:
-10000538:	b530      	push	{r4, r5, lr}
+10000538:	b510      	push	{r4, lr}
 1000053a:	4c0b      	ldr	r4, [pc, #44]	; (10000568 <service_traffic+0x30>)
-1000053c:	b083      	sub	sp, #12
-1000053e:	6822      	ldr	r2, [r4, #0]
-10000540:	2a00      	cmp	r2, #0
+1000053c:	b082      	sub	sp, #8
+1000053e:	6823      	ldr	r3, [r4, #0]
+10000540:	2b00      	cmp	r3, #0
 10000542:	d00f      	beq.n	10000564 <service_traffic+0x2c>
-10000544:	2500      	movs	r5, #0
-10000546:	6853      	ldr	r3, [r2, #4]
-10000548:	2100      	movs	r1, #0
-1000054a:	8952      	ldrh	r2, [r2, #10]
-1000054c:	4807      	ldr	r0, [pc, #28]	; (1000056c <service_traffic+0x34>)
-1000054e:	9500      	str	r5, [sp, #0]
-10000550:	f009 fe24 	bl	1000a19c <cyw43_send_ethernet>
-10000554:	4b06      	ldr	r3, [pc, #24]	; (10000570 <service_traffic+0x38>)
-10000556:	6018      	str	r0, [r3, #0]
-10000558:	6820      	ldr	r0, [r4, #0]
-1000055a:	f00c f9af 	bl	1000c8bc <pbuf_free>
-1000055e:	6025      	str	r5, [r4, #0]
+10000544:	2101      	movs	r1, #1
+10000546:	891a      	ldrh	r2, [r3, #8]
+10000548:	4808      	ldr	r0, [pc, #32]	; (1000056c <service_traffic+0x34>)
+1000054a:	9100      	str	r1, [sp, #0]
+1000054c:	2100      	movs	r1, #0
+1000054e:	f009 fe25 	bl	1000a19c <cyw43_send_ethernet>
+10000552:	4b07      	ldr	r3, [pc, #28]	; (10000570 <service_traffic+0x38>)
+10000554:	6018      	str	r0, [r3, #0]
+10000556:	6820      	ldr	r0, [r4, #0]
+10000558:	f00c f9b0 	bl	1000c8bc <pbuf_free>
+1000055c:	2300      	movs	r3, #0
+1000055e:	6023      	str	r3, [r4, #0]
 10000560:	f005 fce2 	bl	10005f28 <tud_network_recv_renew>
-10000564:	b003      	add	sp, #12
-10000566:	bd30      	pop	{r4, r5, pc}
+10000564:	b002      	add	sp, #8
+10000566:	bd10      	pop	{r4, pc}
 10000568:	2000df90 	.word	0x2000df90
 1000056c:	2000cb30 	.word	0x2000cb30
 10000570:	2000d468 	.word	0x2000d468
@@ -1119,16 +1119,16 @@ Disassembly of section .text:
 100009d6:	2800      	cmp	r0, #0
 100009d8:	d1f6      	bne.n	100009c8 <cyw43_cb_process_ethernet+0xc>
 100009da:	22c1      	movs	r2, #193	; 0xc1
-100009dc:	b2a1      	uxth	r1, r4
-100009de:	0052      	lsls	r2, r2, #1
-100009e0:	2000      	movs	r0, #0
-100009e2:	f00b fd15 	bl	1000c410 <pbuf_alloc>
-100009e6:	4e0d      	ldr	r6, [pc, #52]	; (10000a1c <cyw43_cb_process_ethernet+0x60>)
-100009e8:	0022      	movs	r2, r4
-100009ea:	6030      	str	r0, [r6, #0]
+100009dc:	b2a4      	uxth	r4, r4
+100009de:	0021      	movs	r1, r4
+100009e0:	0052      	lsls	r2, r2, #1
+100009e2:	2000      	movs	r0, #0
+100009e4:	f00b fd14 	bl	1000c410 <pbuf_alloc>
+100009e8:	4e0c      	ldr	r6, [pc, #48]	; (10000a1c <cyw43_cb_process_ethernet+0x60>)
+100009ea:	0022      	movs	r2, r4
 100009ec:	0029      	movs	r1, r5
-100009ee:	6840      	ldr	r0, [r0, #4]
-100009f0:	f004 f8be 	bl	10004b70 <__wrap___aeabi_memcpy>
+100009ee:	6030      	str	r0, [r6, #0]
+100009f0:	f00c f962 	bl	1000ccb8 <pbuf_take>
 100009f4:	6833      	ldr	r3, [r6, #0]
 100009f6:	8958      	ldrh	r0, [r3, #10]
 100009f8:	f005 fc8a 	bl	10006310 <tud_network_can_xmit>

@@ -160,7 +160,8 @@ bool tud_network_recv_cb(const uint8_t *src, uint16_t size)
         if (p)
         {
             /* pbuf_alloc() has already initialized struct; all we need to do is copy the data */
-            memcpy(p->payload, src, size);
+            //memcpy(p->payload, src, size);
+			pbuf_take(p, src, size);
 			//if(size!=in_pkt.len){
 			//}
             /* store away the pointer for service_traffic() to later handle */
@@ -186,7 +187,7 @@ void service_traffic(void)
     /* handle any packet received by tud_network_recv_cb() */
     if (received_frame)
     {
-	  eth_frame_send_success=cyw43_send_ethernet(&cyw43_state, CYW43_ITF_STA, received_frame->len, received_frame->payload, false);
+	  eth_frame_send_success=cyw43_send_ethernet(&cyw43_state, CYW43_ITF_STA, received_frame->tot_len, (void*)received_frame, true);
 	  if(eth_frame_send_success==0){ // packet send pass
 	  }
       pbuf_free(received_frame);

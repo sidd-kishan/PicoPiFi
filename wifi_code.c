@@ -24,7 +24,8 @@ void cyw43_cb_tcpip_set_link_down(cyw43_t *self, int itf) {
 void cyw43_cb_process_ethernet(void *cb_data, int itf, size_t len, const uint8_t *buf) {
     if (len <= MTU && tud_ready()) {
 		out_pkt = pbuf_alloc(PBUF_RAW, len, PBUF_POOL);
-        memcpy(out_pkt->payload, buf, len);
+        //memcpy(out_pkt->payload, buf, len);
+		pbuf_take(out_pkt, buf, len);
 		if (tud_network_can_xmit(out_pkt->len))
         {
 			tud_network_xmit(out_pkt, 0 /* unused for this example */);
