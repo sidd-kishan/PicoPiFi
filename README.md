@@ -43,7 +43,8 @@ cd lib/
 git submodule update --remote
 cd ..
 cd ..
-mkdir -p build
+rm -rf build/
+mkdir -p build/
 cd build
 cmake ..
 make -j$(nproc --all)
