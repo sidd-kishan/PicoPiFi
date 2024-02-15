@@ -1,3 +1,6 @@
 [submodule "pico-sdk"]
 	path = pico-sdk
 	url = https://github.com/raspberrypi/pico-sdk.git
+[submodule "CherryUSB"]
+	path = CherryUSB
+	url = https://github.com/cherry-embedded/CherryUSB
