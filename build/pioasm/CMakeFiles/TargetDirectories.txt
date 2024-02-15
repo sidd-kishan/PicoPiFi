@@ -1,3 +1,0 @@
-/mnt/c/Users/Aayush/Desktop/pico-webserver/build/pioasm/CMakeFiles/pioasm.dir
-/mnt/c/Users/Aayush/Desktop/pico-webserver/build/pioasm/CMakeFiles/edit_cache.dir
-/mnt/c/Users/Aayush/Desktop/pico-webserver/build/pioasm/CMakeFiles/rebuild_cache.dir
