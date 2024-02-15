@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<!-- saved from url=(0038)https://whatwebcando.today/serial.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">  <meta content="Can I rely on the Web Platform features to build my app? An overview of the device integration HTML5 APIs" name="description"> <meta content="width=device-width,initial-scale=1" name="viewport"> <!--<base href="/">--><base href="."><link href="./wifi_contorl_panel_files/main.4188134553.css" rel="stylesheet"><link href="./wifi_contorl_panel_files/index.1e803991.css" rel="stylesheet"><link href="./wifi_contorl_panel_files/Article.15023632.css" rel="stylesheet"><link rel="stylesheet" href="./wifi_contorl_panel_files/[feature].html.d41938c2.css"><link rel="stylesheet" href="./wifi_contorl_panel_files/prism.3fa19f60.css"><h3>Support in your browser</h3><div><div class="feature-test bg-success svelte-126eukc"><div class="pull-left svelte-126eukc"><code class="svelte-126eukc"><div id="console_log"></div></code></div><div class="pull-right svelte-126eukc"><button onclick="soft_reboot()">soft-reset</button>&nbsp;<button onclick="hard_reboot()">hard-reset</button>&nbsp;<button onclick="wifi_disconnect()">wifi-disconnect</button></div> </div></div></section> <section><h3>Live Demo</h3> <div class="demo-placeholder svelte-126eukc"><style>
+            
+            
+          </style> <button id="connectButton">Connect via Serial Port</button>
+
+<div id="target">
+</div>
+</div> </section>  </article></main>  </div>  <script id="oneOffScript" type="text/javascript">
+let database_of_wifi_scan = {};
+
+function stringToHexWithPadding(str, desiredLength) {
+  let hex = '';
+  
+  // Encode the string to hexadecimal
+  for (let i = 0; i < str.length; i++) {
+    let charCode = str.charCodeAt(i).toString(16);
+    hex += charCode.length === 1 ? '0' + charCode : charCode;
+  }
+
+  // Ensure the length is as desired
+  while (hex.length < desiredLength) {
+    hex += '0'; // Add null bytes
+  }
+
+  // Trim the excess if the length is greater than desired
+  hex = hex.slice(0, desiredLength);
+
+  return hex;
+}
+
+function remove_non_ascii(str) {
+  
+  if ((str===null) || (str===''))
+       return false;
+ else
+   str = str.toString();
+  
+  return str.replace(/[^\x20-\x7E]/g, '');
+}
+
+
+async function get_wifi_password(ssid,ssid_decodedString,security){
+	ssid_decodedString = remove_non_ascii(ssid_decodedString);
+	let password = prompt("Please enter your password for: " + ssid_decodedString,database_of_wifi_scan[ssid].password);
+	if(password.length>7){
+		database_of_wifi_scan[ssid].password = password;
+		const encoder = new TextEncoder();
+		const writer = port.writable.getWriter();
+		await writer.write(encoder.encode(ssid + " " + stringToHexWithPadding(password,190) + " 10000 "+security));
+		//alert((ssid + " " + stringToHexWithPadding(password,190) + " 10000 "+security));
+		writer.releaseLock();
+	}
+	//soft_reboot();
+}
+
+async function wifi_disconnect(){
+	//let password = prompt("Please enter your password for: " + ssid_decodedString);
+	//database_of_wifi_scan[ssid].password = password;
+	const encoder = new TextEncoder();
+	const writer = port.writable.getWriter();
+	//alert(stringToHexWithPadding(password.toLowerCase(),190));
+	await writer.write(encoder.encode("\r\n68656c6c6f 68656c6c6f 10000 X"));
+	writer.releaseLock();
+	//soft_reboot();
+}
+
+async function soft_reboot(){
+	//let password = prompt("Please enter your password for: " + ssid_decodedString);
+	//database_of_wifi_scan[ssid].password = password;
+	const encoder = new TextEncoder();
+	const writer = port.writable.getWriter();
+	//alert(stringToHexWithPadding(password.toLowerCase(),190));
+	await writer.write(encoder.encode("\r\n68656c6c6f 68656c6c6f 10000 Y"));
+	writer.releaseLock();
+}
+
+async function hard_reboot(){
+	//let password = prompt("Please enter your password for: " + ssid_decodedString);
+	//database_of_wifi_scan[ssid].password = password;
+	const encoder = new TextEncoder();
+	const writer = port.writable.getWriter();
+	//alert(stringToHexWithPadding(password.toLowerCase(),190));
+	await writer.write(encoder.encode("\r\n68656c6c6f 68656c6c6f 10000 Z"));
+	writer.releaseLock();
+}
+function renderTableAndGraph(dataObject) {
+    const targetDiv = document.getElementById('target');
+
+    // Create table element
+    const table = document.createElement('table');
+    table.border = '1';
+
+    // Create table header
+    const thead = document.createElement('thead');
+    const headerRow = thead.insertRow();
+    headerRow.innerHTML = '<th>SSID</th><th>RSSI</th><th>Channel</th><th>Beacon Count</th><th>Security</th><th>Password</th>';
+    table.appendChild(thead);
+
+    // Create table body
+    const tbody = document.createElement('tbody');
+
+    // Create arrays for Chart.js
+    const labels = [];
+    const rssiData = [];
+
+    // Iterate through dataObject and create rows
+    for (const ssid in dataObject) {
+        const rowData = dataObject[ssid];
+        const row = tbody.insertRow();
+		const uint8Array = new Uint8Array(ssid.match(/.{1,2}/g).map(byte => parseInt(byte, 16)));
+		// Convert Uint8Array to UTF-8 string
+		const ssid_decodedString = new TextDecoder('utf-8').decode(uint8Array);
+        row.innerHTML = "<td>"+ssid_decodedString+"</td><td>"+rowData.rssi+"</td><td>"+rowData.chan+"</td><td>"+rowData.beacon_count+"</td><td>"+rowData.sec+"</td><td id='"+ssid+"_password"+"'>"+"*".repeat(rowData.password.length)+"</td><td><button onclick=get_wifi_password('"+ssid+"','"+ssid_decodedString+"','"+rowData.sec+"')>Connect !</button></td>";
+    }
+
+    table.appendChild(tbody);
+
+    // Append the created table to the targetDiv
+    targetDiv.innerHTML = '';
+    targetDiv.appendChild(table);
+	
+}
+
+const macTracker = {};
+
+function createOrUpdateObject(existingObject, macTracker, extractedValues) {
+    // Check if the ssid already exists in the object
+	let display_rssi="";
+		if(extractedValues.rssi>=-100){
+			display_rssi=" >| "
+		}
+		if(extractedValues.rssi>=-80){
+			display_rssi=" >| >| "
+		}
+		if(extractedValues.rssi>=-60){
+			display_rssi=" >| >| >| "
+		}
+		if(extractedValues.rssi>=-40){
+			display_rssi=" >| >| >| >| "
+		}
+		
+    if (existingObject.hasOwnProperty(extractedValues.ssid)) {
+        // If ssid exists, update the existing entry
+		
+
+        existingObject[extractedValues.ssid].rssi = display_rssi;
+		existingObject[extractedValues.ssid].beacon_count += 1;
+
+        // Check uniqueness of MAC address before adding
+        if (!macTracker[extractedValues.mac]) {
+            existingObject[extractedValues.ssid].mac.push(extractedValues.mac);
+            macTracker[extractedValues.mac] = true;
+        }
+    } else {
+        // If ssid doesn't exist, create a new entry
+        existingObject[extractedValues.ssid] = {
+            rssi: display_rssi,
+            chan: extractedValues.chan,
+            mac: [extractedValues.mac],
+            sec: extractedValues.sec,
+			beacon_count: 1,
+			password: ""
+        };
+
+        // Track the MAC address
+        macTracker[extractedValues.mac] = true;
+    }
+}
+let leftover="";
+function extractValues(inputString) {
+	
+    // Define a regular expression pattern to extract values
+    const pattern = /ssid:\s*([\w\s]+)\s*rssi:\s*(-?\d+)\s*chan:\s*(\d+)\s*mac:\s*([\w:]+)\s*sec:\s*(\d+)/;
+
+    // Use the regular expression to match the pattern in the input string
+    const match = inputString.match(pattern);
+
+    // Check if the match is found
+    if (match) {
+        // Extract values from the matched groups
+        const ssid = match[1].trim();
+        const rssi = parseInt(match[2], 10);
+        const chan = parseInt(match[3], 10);
+        const mac = match[4];
+        const sec = parseInt(match[5], 10);
+
+        // Return an object with extracted values
+        return {
+            ssid,
+            rssi,
+            chan,
+            mac,
+            sec
+        };
+    } else {
+		
+		if(leftover.length + inputString.length <= 175){
+			leftover += inputString;
+		}
+		else {		
+			leftover = leftover.substr(leftover.indexOf("ssid:"),leftover.lastIndexOf("ssid:"));
+			let ex_fields = extractValues(leftover);
+			if(ex_fields === undefined) {
+				//document.getElementById("console_log").innerHTML += leftover+"<br>";
+			}
+			else {
+				createOrUpdateObject(database_of_wifi_scan, macTracker, ex_fields );
+			}
+			leftover=leftover.substr(leftover.lastIndexOf("ssid:"),leftover.length) + inputString;
+			//return 0;
+		}
+        
+		//console.log(leftover);
+		//leftover = "";
+    }
+}
+
+document.getElementById('connectButton').addEventListener('click', () => {
+  if (navigator.serial) {
+    connectSerial();
+  } else {
+    alert('Web Serial API not supported.');
+  }
+});
+let port;
+async function connectSerial() {
+  const log = document.getElementById('target');
+    
+  try {
+	const filter = { usbVendorId: 0xEFFF, usbProductId: 0xEFFF};
+    port = await navigator.serial.requestPort({ filters: [filter] });
+    await port.open({ baudRate: 115200 });
+    const decoder = new TextDecoderStream();
+    
+    port.readable.pipeTo(decoder.writable);
+
+    const inputStream = decoder.readable;
+    const reader = inputStream.getReader();
+
+    while (true) {
+      const { value, done } = await reader.read();
+      if (value) {
+		let extractedValues = extractValues(value);
+		if(extractedValues){
+			log.innerHTML += extractedValues.ssid + '<br>';
+			createOrUpdateObject(database_of_wifi_scan, macTracker,  extractedValues);
+			renderTableAndGraph(database_of_wifi_scan);
+		}
+      }
+      if (done) {
+        //console.log('[readLoop] DONE', done);
+        reader.releaseLock();
+        break;
+      }
+    }
+  
+  } catch (error) {
+    log.innerHTML = error;
+  }
+}</script></body></html>
