@@ -2,9 +2,10 @@
 A Driverless RNDIS based wifi adapter based on pi pico w to enable usb wifi wlan on Windows on ARM devices like Windows on Raspberry pi 4 that makes use of the default driver of Windows RNDIS drivers
 
 
-## Connect to Wifi
-### First change the 'ssid' and 'password' and the default security which is wpa2-aes in the file wifi_code.c
-### or keep it as is and change your ap config to match default config ;-)
+## 3 Steps connect to Wifi with PicoPiFi
+### 1) Download the UF2 firmware and index.html
+### 2) Upload Firmware to pi pico w
+### 3) Open the index.html locally or navigate to https://sidd-kishan.github.io/PicoPiFi/ to control the wifi adapter
 
 
 ## Overview
@@ -17,8 +18,8 @@ A Driverless RNDIS based wifi adapter based on pi pico w to enable usb wifi wlan
           Raspberry pi (Windows on ARM64)                                                       Client
 ```
 
-Webserver example that came with TinyUSB slightly modified to run on a Raspberry Pi Pico.
-Lets the Pico pretend to be a USB Ethernet device. 
+A RNDIS example that came with CherryUSB slightly modified to run on a Raspberry Pi Pico.
+Lets the Pico pretend to be a USB Ethernet device and CDC port to manage the device. 
 
 ## Build dependencies
 
@@ -50,10 +51,4 @@ cmake ..
 make -j$(nproc --all)
 ```
 
-Copy the resulting pico_webserver.uf2 file to the Pico mass storage device manually.
-
-
-Content it is serving is in /fs
-If you change any files there, run ./regen-fsdata.sh
-
-By default it shows a webpage that led you toggle the Pico's led, and allows you to switch to BOOTSEL mode.
+Copy the resulting PicoPiFi.uf2 file to the Pico mass storage device manually.
