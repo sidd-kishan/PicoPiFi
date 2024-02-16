@@ -1,13 +1,14 @@
 # Driverless RNDIS USB WIFI Dongle
 A Driverless RNDIS based wifi adapter based on pi pico w to enable usb wifi wlan on Windows on ARM devices like Windows on Raspberry pi 4 that makes use of the default driver of Windows RNDIS drivers
 
-![image](https://github.com/sidd-kishan/PicoPiFi/assets/1007208/29d206ca-cc51-4f08-8696-4dd7b14d2b2d)
-
 
 ## 3 Steps connect to Wifi with PicoPiFi
 ### 1) Download the UF2 firmware and index.html
 ### 2) Upload Firmware to pi pico w
 ### 3) Open the index.html locally or navigate to https://sidd-kishan.github.io/PicoPiFi/ to control the wifi adapter
+
+![image](https://github.com/sidd-kishan/PicoPiFi/assets/1007208/29d206ca-cc51-4f08-8696-4dd7b14d2b2d)
+
 
 
 
