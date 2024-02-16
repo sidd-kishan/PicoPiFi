@@ -30,7 +30,7 @@
 #define USBD_VID           0xEFFF
 #define USBD_PID           0xEFFF
 #define USBD_MAX_POWER     100
-#define USBD_LANGID_STRING 1033
+#define USBD_LANGID_STRING 0x0409
 /*!< config descriptor size */
 #define USB_CONFIG_SIZE (9 + CDC_RNDIS_DESCRIPTOR_LEN + CDC_ACM_DESCRIPTOR_LEN * 3)
 
@@ -43,10 +43,10 @@
 static const uint8_t cdc_descriptor[] = {
     USB_DEVICE_DESCRIPTOR_INIT(USB_2_0, 0xEF, 0x02, 0x01, USBD_VID, USBD_PID, 0x0100, 0x01),
     USB_CONFIG_DESCRIPTOR_INIT(USB_CONFIG_SIZE, 0x08, 0x01, USB_CONFIG_BUS_POWERED, USBD_MAX_POWER),
-    CDC_RNDIS_DESCRIPTOR_INIT(0x00, CDC_INT_EP, CDC_OUT_EP, CDC_IN_EP, CDC_MAX_MPS, 0x02),
-	CDC_ACM_DESCRIPTOR_INIT(0x02, CDC_INT_EP2, CDC_OUT_EP2, CDC_IN_EP2, CDC_MAX_MPS, 0x02),
+    CDC_RNDIS_DESCRIPTOR_INIT(0x00, CDC_INT_EP, CDC_OUT_EP, CDC_IN_EP, CDC_MAX_MPS, 0x01),
+	CDC_ACM_DESCRIPTOR_INIT(0x02, CDC_INT_EP2, CDC_OUT_EP2, CDC_IN_EP2, CDC_MAX_MPS, 0x04),
     CDC_ACM_DESCRIPTOR_INIT(0x04, CDC_INT_EP3, CDC_OUT_EP3, CDC_IN_EP3, CDC_MAX_MPS, 0x02),
-    CDC_ACM_DESCRIPTOR_INIT(0x06, CDC_INT_EP4, CDC_OUT_EP4, CDC_IN_EP4, CDC_MAX_MPS, 0x02),
+    CDC_ACM_DESCRIPTOR_INIT(0x06, CDC_INT_EP4, CDC_OUT_EP4, CDC_IN_EP4, CDC_MAX_MPS, 0x03),
     /*
      * string0 descriptor
      */
@@ -56,55 +56,74 @@ static const uint8_t cdc_descriptor[] = {
      */
     0x14,                       /* bLength */
     USB_DESCRIPTOR_TYPE_STRING, /* bDescriptorType */
-    'C', 0x00,                  /* wcChar0 */
-    'h', 0x00,                  /* wcChar1 */
-    'e', 0x00,                  /* wcChar2 */
-    'r', 0x00,                  /* wcChar3 */
-    'r', 0x00,                  /* wcChar4 */
-    'y', 0x00,                  /* wcChar5 */
-    'U', 0x00,                  /* wcChar6 */
-    'S', 0x00,                  /* wcChar7 */
-    'B', 0x00,                  /* wcChar8 */
+    'P', 0x00,                  /* wcChar0 */
+    'i', 0x00,                  /* wcChar1 */
+    'c', 0x00,                  /* wcChar2 */
+    'o', 0x00,                  /* wcChar3 */
+    ' ', 0x00,                  /* wcChar4 */
+    'P', 0x00,                  /* wcChar5 */
+    'i', 0x00,                  /* wcChar6 */
+    'F', 0x00,                  /* wcChar7 */
+    'i', 0x00,                  /* wcChar8 */
     /*
      * string2 descriptor
      */
-    0x2A,                       /* bLength */
+    0x18,                       /* bLength */
     USB_DESCRIPTOR_TYPE_STRING, /* bDescriptorType */
-    'C', 0x00,                  /* wcChar0 */
-    'h', 0x00,                  /* wcChar1 */
-    'e', 0x00,                  /* wcChar2 */
-    'r', 0x00,                  /* wcChar3 */
-    'r', 0x00,                  /* wcChar4 */
-    'y', 0x00,                  /* wcChar5 */
-    'U', 0x00,                  /* wcChar6 */
-    'S', 0x00,                  /* wcChar7 */
-    'B', 0x00,                  /* wcChar8 */
-    ' ', 0x00,                  /* wcChar9 */
-    'R', 0x00,                  /* wcChar10 */
-    'N', 0x00,                  /* wcChar11 */
-    'D', 0x00,                  /* wcChar12 */
-    'I', 0x00,                  /* wcChar13 */
-    'S', 0x00,                  /* wcChar14 */
+    'E', 0x00,                  /* wcChar0 */
+    'C', 0x00,                  /* wcChar1 */
+    'H', 0x00,                  /* wcChar2 */
+    'O', 0x00,                  /* wcChar3 */
+    ' ', 0x00,                  /* wcChar4 */
+    'C', 0x00,                  /* wcChar5 */
+    'D', 0x00,                  /* wcChar6 */
+    'C', 0x00,                  /* wcChar7 */
+    ' ', 0x00,                  /* wcChar8 */
+    '#', 0x00,                  /* wcChar9 */
+    '1', 0x00,                  /* wcChar10 */
+    /*
+     * string2 descriptor
+     */
+    0x18,                       /* bLength */
+    USB_DESCRIPTOR_TYPE_STRING, /* bDescriptorType */
+    'E', 0x00,                  /* wcChar11 */
+    'C', 0x00,                  /* wcChar12 */
+    'H', 0x00,                  /* wcChar13 */
+    'O', 0x00,                  /* wcChar14 */
     ' ', 0x00,                  /* wcChar15 */
-    'D', 0x00,                  /* wcChar16 */
-    'E', 0x00,                  /* wcChar17 */
-    'M', 0x00,                  /* wcChar18 */
-    'O', 0x00,                  /* wcChar19 */
+    'C', 0x00,                  /* wcChar16 */
+    'D', 0x00,                  /* wcChar17 */
+    'C', 0x00,                  /* wcChar18 */
+    ' ', 0x00,                  /* wcChar19 */
+    '#', 0x00,                  /* wcChar20 */
+    '2', 0x00,                  /* wcChar21 */
     /*
      * string3 descriptor
      */
-    0x16,                       /* bLength */
+    0x2E,                       /* bLength */
     USB_DESCRIPTOR_TYPE_STRING, /* bDescriptorType */
-    '2', 0x00,                  /* wcChar0 */
-    '0', 0x00,                  /* wcChar1 */
-    '2', 0x00,                  /* wcChar2 */
-    '2', 0x00,                  /* wcChar3 */
-    '1', 0x00,                  /* wcChar4 */
-    '2', 0x00,                  /* wcChar5 */
-    '3', 0x00,                  /* wcChar6 */
-    '4', 0x00,                  /* wcChar7 */
-    '5', 0x00,                  /* wcChar8 */
-    '6', 0x00,                  /* wcChar9 */
+    'P', 0x00,                  /* wcChar0 */
+    'i', 0x00,                  /* wcChar1 */
+    'c', 0x00,                  /* wcChar2 */
+    'o', 0x00,                  /* wcChar3 */
+    'P', 0x00,                  /* wcChar4 */
+    'i', 0x00,                  /* wcChar5 */
+    'F', 0x00,                  /* wcChar6 */
+    'i', 0x00,                  /* wcChar7 */
+    ' ', 0x00,                  /* wcChar8 */
+    'C', 0x00,                  /* wcChar9 */
+    'o', 0x00,                  /* wcChar10 */
+    'n', 0x00,                  /* wcChar11 */
+	't', 0x00,                  /* wcChar10 */
+    'r', 0x00,                  /* wcChar11 */
+    'o', 0x00,                  /* wcChar7 */
+    'l', 0x00,                  /* wcChar8 */
+    ' ', 0x00,                  /* wcChar9 */
+    'P', 0x00,                  /* wcChar10 */
+    'a', 0x00,                  /* wcChar11 */
+	'n', 0x00,                  /* wcChar10 */
+    'e', 0x00,                  /* wcChar11 */
+    'l', 0x00,                  /* wcChar11 */
 #ifdef CONFIG_USB_HS
     /*
      * device qualifier descriptor
