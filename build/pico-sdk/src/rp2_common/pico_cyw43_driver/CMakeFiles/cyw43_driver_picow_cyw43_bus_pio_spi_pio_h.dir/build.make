@@ -53,10 +53,10 @@ RM = /home/aayush/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E rm
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/c/Users/Aayush/Desktop/pico-webserver
+CMAKE_SOURCE_DIR = /mnt/c/Users/Aayush/Desktop/PicoPiFi
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/c/Users/Aayush/Desktop/pico-webserver/build
+CMAKE_BINARY_DIR = /mnt/c/Users/Aayush/Desktop/PicoPiFi/build
 
 # Utility rule file for cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.
 
@@ -68,9 +68,9 @@ include pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_
 
 pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h: pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.pio.h
 
-pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.pio.h: /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.pio
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating cyw43_bus_pio_spi.pio.h"
-	cd /mnt/c/Users/Aayush/Desktop/pico-webserver/build/pico-sdk/src/rp2_common/pico_cyw43_driver && ../../../../pioasm/pioasm -o c-sdk /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.pio /mnt/c/Users/Aayush/Desktop/pico-webserver/build/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.pio.h
+pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.pio.h: /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.pio
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/mnt/c/Users/Aayush/Desktop/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating cyw43_bus_pio_spi.pio.h"
+	cd /mnt/c/Users/Aayush/Desktop/PicoPiFi/build/pico-sdk/src/rp2_common/pico_cyw43_driver && ../../../../pioasm/pioasm -o c-sdk /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.pio /mnt/c/Users/Aayush/Desktop/PicoPiFi/build/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.pio.h
 
 cyw43_driver_picow_cyw43_bus_pio_spi_pio_h: pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h
 cyw43_driver_picow_cyw43_bus_pio_spi_pio_h: pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.pio.h
@@ -82,10 +82,10 @@ pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bu
 .PHONY : pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/build
 
 pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/clean:
-	cd /mnt/c/Users/Aayush/Desktop/pico-webserver/build/pico-sdk/src/rp2_common/pico_cyw43_driver && $(CMAKE_COMMAND) -P CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/cmake_clean.cmake
+	cd /mnt/c/Users/Aayush/Desktop/PicoPiFi/build/pico-sdk/src/rp2_common/pico_cyw43_driver && $(CMAKE_COMMAND) -P CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/cmake_clean.cmake
 .PHONY : pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/clean
 
 pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/depend:
-	cd /mnt/c/Users/Aayush/Desktop/pico-webserver/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/c/Users/Aayush/Desktop/pico-webserver /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/src/rp2_common/pico_cyw43_driver /mnt/c/Users/Aayush/Desktop/pico-webserver/build /mnt/c/Users/Aayush/Desktop/pico-webserver/build/pico-sdk/src/rp2_common/pico_cyw43_driver /mnt/c/Users/Aayush/Desktop/pico-webserver/build/pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /mnt/c/Users/Aayush/Desktop/PicoPiFi/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/c/Users/Aayush/Desktop/PicoPiFi /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/src/rp2_common/pico_cyw43_driver /mnt/c/Users/Aayush/Desktop/PicoPiFi/build /mnt/c/Users/Aayush/Desktop/PicoPiFi/build/pico-sdk/src/rp2_common/pico_cyw43_driver /mnt/c/Users/Aayush/Desktop/PicoPiFi/build/pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/depend
 

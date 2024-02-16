@@ -1,4 +1,4 @@
-# Install script for directory: /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/src/rp2_common/boot_stage2
+# Install script for directory: /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/src/rp2_common/boot_stage2
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

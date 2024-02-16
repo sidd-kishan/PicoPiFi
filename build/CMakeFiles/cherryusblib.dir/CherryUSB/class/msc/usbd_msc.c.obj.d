@@ -1,6 +1,6 @@
 CMakeFiles/cherryusblib.dir/CherryUSB/class/msc/usbd_msc.c.obj: \
- /mnt/c/Users/Aayush/Desktop/pico-webserver/CherryUSB/class/msc/usbd_msc.c \
- /mnt/c/Users/Aayush/Desktop/pico-webserver/CherryUSB/core/usbd_core.h \
+ /mnt/c/Users/Aayush/Desktop/PicoPiFi/CherryUSB/class/msc/usbd_msc.c \
+ /mnt/c/Users/Aayush/Desktop/PicoPiFi/CherryUSB/core/usbd_core.h \
  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
  /usr/include/newlib/string.h /usr/include/newlib/_ansi.h \
  /usr/include/newlib/newlib.h /usr/include/newlib/_newlib_version.h \
@@ -16,12 +16,12 @@ CMakeFiles/cherryusblib.dir/CherryUSB/class/msc/usbd_msc.c.obj: \
  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
  /usr/include/newlib/stdlib.h /usr/include/newlib/machine/stdlib.h \
  /usr/include/newlib/alloca.h \
- /mnt/c/Users/Aayush/Desktop/pico-webserver/usb_config.h \
- /mnt/c/Users/Aayush/Desktop/pico-webserver/CherryUSB/common/usb_util.h \
- /mnt/c/Users/Aayush/Desktop/pico-webserver/CherryUSB/common/usb_errno.h \
- /mnt/c/Users/Aayush/Desktop/pico-webserver/CherryUSB/common/usb_def.h \
- /mnt/c/Users/Aayush/Desktop/pico-webserver/CherryUSB/common/usb_list.h \
- /mnt/c/Users/Aayush/Desktop/pico-webserver/CherryUSB/common/usb_log.h \
+ /mnt/c/Users/Aayush/Desktop/PicoPiFi/usb_config.h \
+ /mnt/c/Users/Aayush/Desktop/PicoPiFi/CherryUSB/common/usb_util.h \
+ /mnt/c/Users/Aayush/Desktop/PicoPiFi/CherryUSB/common/usb_errno.h \
+ /mnt/c/Users/Aayush/Desktop/PicoPiFi/CherryUSB/common/usb_def.h \
+ /mnt/c/Users/Aayush/Desktop/PicoPiFi/CherryUSB/common/usb_list.h \
+ /mnt/c/Users/Aayush/Desktop/PicoPiFi/CherryUSB/common/usb_log.h \
  /usr/include/newlib/stdio.h \
  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h \
  /usr/include/newlib/sys/types.h /usr/include/newlib/sys/_stdint.h \
@@ -31,7 +31,7 @@ CMakeFiles/cherryusblib.dir/CherryUSB/class/msc/usbd_msc.c.obj: \
  /usr/include/newlib/sys/timespec.h /usr/include/newlib/sys/_timespec.h \
  /usr/include/newlib/sys/_pthreadtypes.h /usr/include/newlib/sys/sched.h \
  /usr/include/newlib/machine/types.h /usr/include/newlib/sys/stdio.h \
- /mnt/c/Users/Aayush/Desktop/pico-webserver/CherryUSB/common/usb_dc.h \
- /mnt/c/Users/Aayush/Desktop/pico-webserver/CherryUSB/class/msc/usbd_msc.h \
- /mnt/c/Users/Aayush/Desktop/pico-webserver/CherryUSB/class/msc/usb_msc.h \
- /mnt/c/Users/Aayush/Desktop/pico-webserver/CherryUSB/class/msc/usb_scsi.h
+ /mnt/c/Users/Aayush/Desktop/PicoPiFi/CherryUSB/common/usb_dc.h \
+ /mnt/c/Users/Aayush/Desktop/PicoPiFi/CherryUSB/class/msc/usbd_msc.h \
+ /mnt/c/Users/Aayush/Desktop/PicoPiFi/CherryUSB/class/msc/usb_msc.h \
+ /mnt/c/Users/Aayush/Desktop/PicoPiFi/CherryUSB/class/msc/usb_scsi.h

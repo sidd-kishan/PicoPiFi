@@ -1,5 +1,5 @@
 CMakeFiles/pioasm.dir/main.cpp.o: \
- /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/tools/pioasm/main.cpp \
+ /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/tools/pioasm/main.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/11/iostream \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -144,7 +144,7 @@ CMakeFiles/pioasm.dir/main.cpp.o: \
  /usr/include/c++/11/bits/basic_ios.tcc \
  /usr/include/c++/11/bits/ostream.tcc /usr/include/c++/11/istream \
  /usr/include/c++/11/bits/istream.tcc \
- /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/tools/pioasm/pio_assembler.h \
+ /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/tools/pioasm/pio_assembler.h \
  /usr/include/c++/11/algorithm /usr/include/c++/11/utility \
  /usr/include/c++/11/bits/stl_relops.h \
  /usr/include/c++/11/bits/stl_algo.h \
@@ -152,13 +152,13 @@ CMakeFiles/pioasm.dir/main.cpp.o: \
  /usr/include/c++/11/bits/stl_heap.h \
  /usr/include/c++/11/bits/stl_tempbuf.h \
  /usr/include/c++/11/bits/uniform_int_dist.h \
- /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/tools/pioasm/gen/parser.hpp \
+ /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/tools/pioasm/gen/parser.hpp \
  /usr/include/c++/11/fstream /usr/include/c++/11/bits/codecvt.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h \
  /usr/include/c++/11/bits/fstream.tcc /usr/include/c++/11/sstream \
  /usr/include/c++/11/bits/sstream.tcc \
- /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/tools/pioasm/pio_types.h \
+ /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/tools/pioasm/pio_types.h \
  /usr/include/c++/11/map /usr/include/c++/11/bits/stl_tree.h \
  /usr/include/c++/11/ext/aligned_buffer.h \
  /usr/include/c++/11/bits/stl_map.h /usr/include/c++/11/tuple \
@@ -183,7 +183,7 @@ CMakeFiles/pioasm.dir/main.cpp.o: \
  /usr/include/c++/11/bits/atomic_base.h \
  /usr/include/c++/11/bits/atomic_lockfree_defines.h \
  /usr/include/c++/11/backward/auto_ptr.h \
- /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/tools/pioasm/gen/location.h \
- /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/tools/pioasm/gen/location.h \
+ /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/tools/pioasm/gen/location.h \
+ /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/tools/pioasm/gen/location.h \
  /usr/include/c++/11/cassert /usr/include/assert.h \
- /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/tools/pioasm/output_format.h
+ /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/tools/pioasm/output_format.h

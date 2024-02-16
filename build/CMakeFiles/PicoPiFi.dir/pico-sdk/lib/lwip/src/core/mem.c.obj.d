@@ -1,10 +1,10 @@
 CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/mem.c.obj: \
- /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/core/mem.c \
- /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/opt.h \
- /mnt/c/Users/Aayush/Desktop/pico-webserver/src/lwipopts.h \
- /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/debug.h \
- /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/arch.h \
- /mnt/c/Users/Aayush/Desktop/pico-webserver/common/arch/cc.h \
+ /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/core/mem.c \
+ /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/opt.h \
+ /mnt/c/Users/Aayush/Desktop/PicoPiFi/src/lwipopts.h \
+ /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/debug.h \
+ /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/arch.h \
+ /mnt/c/Users/Aayush/Desktop/PicoPiFi/common/arch/cc.h \
  /usr/include/newlib/stdio.h /usr/include/newlib/_ansi.h \
  /usr/include/newlib/newlib.h /usr/include/newlib/_newlib_version.h \
  /usr/include/newlib/sys/config.h /usr/include/newlib/machine/ieeefp.h \
@@ -28,14 +28,14 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/mem.c.obj: \
  /usr/include/newlib/sys/_locale.h \
  /usr/lib/gcc/arm-none-eabi/10.3.1/include-fixed/limits.h \
  /usr/include/newlib/ctype.h \
- /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/mem.h \
- /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/def.h \
- /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/sys.h \
- /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/stats.h \
- /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/memp.h \
- /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/priv/memp_std.h \
- /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/priv/memp_priv.h \
- /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/priv/mem_priv.h \
- /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/err.h \
+ /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/mem.h \
+ /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/def.h \
+ /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/sys.h \
+ /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/stats.h \
+ /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/memp.h \
+ /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/priv/memp_std.h \
+ /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/priv/memp_priv.h \
+ /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/priv/mem_priv.h \
+ /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/err.h \
  /usr/include/newlib/string.h /usr/include/newlib/strings.h \
  /usr/include/newlib/sys/string.h

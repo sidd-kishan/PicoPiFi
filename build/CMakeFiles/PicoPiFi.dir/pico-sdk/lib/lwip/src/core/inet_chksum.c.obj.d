@@ -1,10 +1,10 @@
 CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/inet_chksum.c.obj: \
- /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/core/inet_chksum.c \
- /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/opt.h \
- /mnt/c/Users/Aayush/Desktop/pico-webserver/src/lwipopts.h \
- /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/debug.h \
- /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/arch.h \
- /mnt/c/Users/Aayush/Desktop/pico-webserver/common/arch/cc.h \
+ /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/core/inet_chksum.c \
+ /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/opt.h \
+ /mnt/c/Users/Aayush/Desktop/PicoPiFi/src/lwipopts.h \
+ /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/debug.h \
+ /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/arch.h \
+ /mnt/c/Users/Aayush/Desktop/PicoPiFi/common/arch/cc.h \
  /usr/include/newlib/stdio.h /usr/include/newlib/_ansi.h \
  /usr/include/newlib/newlib.h /usr/include/newlib/_newlib_version.h \
  /usr/include/newlib/sys/config.h /usr/include/newlib/machine/ieeefp.h \
@@ -28,13 +28,13 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/inet_chksum.c.obj: \
  /usr/include/newlib/sys/_locale.h \
  /usr/lib/gcc/arm-none-eabi/10.3.1/include-fixed/limits.h \
  /usr/include/newlib/ctype.h \
- /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/inet_chksum.h \
- /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/pbuf.h \
- /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/err.h \
- /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/ip_addr.h \
- /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/def.h \
- /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/ip4_addr.h \
- /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/ip6_addr.h \
- /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/def.h \
+ /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/inet_chksum.h \
+ /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/pbuf.h \
+ /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/err.h \
+ /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/ip_addr.h \
+ /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/def.h \
+ /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/ip4_addr.h \
+ /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/ip6_addr.h \
+ /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/def.h \
  /usr/include/newlib/string.h /usr/include/newlib/strings.h \
  /usr/include/newlib/sys/string.h

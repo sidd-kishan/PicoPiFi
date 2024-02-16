@@ -4,8 +4,8 @@
 
 // based on PICO_CONFIG_HEADER_FILES:
 
-#include "/mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/src/boards/include/boards/pico_w.h"
+#include "/mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/src/boards/include/boards/pico_w.h"
 
 // based on PICO_RP2040_CONFIG_HEADER_FILES:
 
-#include "/mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h"
+#include "/mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h"

@@ -53,10 +53,10 @@ RM = /home/aayush/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E rm
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/c/Users/Aayush/Desktop/pico-webserver
+CMAKE_SOURCE_DIR = /mnt/c/Users/Aayush/Desktop/PicoPiFi
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/c/Users/Aayush/Desktop/pico-webserver/build
+CMAKE_BINARY_DIR = /mnt/c/Users/Aayush/Desktop/PicoPiFi/build
 
 # Utility rule file for PioasmBuild.
 
@@ -76,48 +76,48 @@ pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/PioasmBuild-complete: pico-
 pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/PioasmBuild-complete: pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-configure
 pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/PioasmBuild-complete: pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-build
 pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/PioasmBuild-complete: pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-install
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Completed 'PioasmBuild'"
-	cd /mnt/c/Users/Aayush/Desktop/pico-webserver/build/pico-sdk/src/rp2_common/pico_cyw43_driver && /home/aayush/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E make_directory /mnt/c/Users/Aayush/Desktop/pico-webserver/build/pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles
-	cd /mnt/c/Users/Aayush/Desktop/pico-webserver/build/pico-sdk/src/rp2_common/pico_cyw43_driver && /home/aayush/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E touch /mnt/c/Users/Aayush/Desktop/pico-webserver/build/pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/PioasmBuild-complete
-	cd /mnt/c/Users/Aayush/Desktop/pico-webserver/build/pico-sdk/src/rp2_common/pico_cyw43_driver && /home/aayush/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E touch /mnt/c/Users/Aayush/Desktop/pico-webserver/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-done
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/mnt/c/Users/Aayush/Desktop/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Completed 'PioasmBuild'"
+	cd /mnt/c/Users/Aayush/Desktop/PicoPiFi/build/pico-sdk/src/rp2_common/pico_cyw43_driver && /home/aayush/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E make_directory /mnt/c/Users/Aayush/Desktop/PicoPiFi/build/pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles
+	cd /mnt/c/Users/Aayush/Desktop/PicoPiFi/build/pico-sdk/src/rp2_common/pico_cyw43_driver && /home/aayush/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E touch /mnt/c/Users/Aayush/Desktop/PicoPiFi/build/pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/PioasmBuild-complete
+	cd /mnt/c/Users/Aayush/Desktop/PicoPiFi/build/pico-sdk/src/rp2_common/pico_cyw43_driver && /home/aayush/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E touch /mnt/c/Users/Aayush/Desktop/PicoPiFi/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-done
 
 pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-build: pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-configure
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Performing build step for 'PioasmBuild'"
-	cd /mnt/c/Users/Aayush/Desktop/pico-webserver/build/pioasm && $(MAKE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/mnt/c/Users/Aayush/Desktop/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Performing build step for 'PioasmBuild'"
+	cd /mnt/c/Users/Aayush/Desktop/PicoPiFi/build/pioasm && $(MAKE)
 
 pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-configure: pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/tmp/PioasmBuild-cfgcmd.txt
 pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-configure: pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/tmp/PioasmBuild-cache-Release.cmake
 pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-configure: pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-patch
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Performing configure step for 'PioasmBuild'"
-	cd /mnt/c/Users/Aayush/Desktop/pico-webserver/build/pioasm && /home/aayush/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -DCMAKE_MAKE_PROGRAM:FILEPATH=/usr/bin/gmake "-GUnix Makefiles" -C/mnt/c/Users/Aayush/Desktop/pico-webserver/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/tmp/PioasmBuild-cache-Release.cmake -S /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/tools/pioasm -B /mnt/c/Users/Aayush/Desktop/pico-webserver/build/pioasm
-	cd /mnt/c/Users/Aayush/Desktop/pico-webserver/build/pioasm && /home/aayush/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E touch /mnt/c/Users/Aayush/Desktop/pico-webserver/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-configure
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/mnt/c/Users/Aayush/Desktop/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Performing configure step for 'PioasmBuild'"
+	cd /mnt/c/Users/Aayush/Desktop/PicoPiFi/build/pioasm && /home/aayush/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -DCMAKE_MAKE_PROGRAM:FILEPATH=/usr/bin/gmake "-GUnix Makefiles" -C/mnt/c/Users/Aayush/Desktop/PicoPiFi/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/tmp/PioasmBuild-cache-Release.cmake -S /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/tools/pioasm -B /mnt/c/Users/Aayush/Desktop/PicoPiFi/build/pioasm
+	cd /mnt/c/Users/Aayush/Desktop/PicoPiFi/build/pioasm && /home/aayush/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E touch /mnt/c/Users/Aayush/Desktop/PicoPiFi/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-configure
 
 pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-download: pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-source_dirinfo.txt
 pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-download: pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-mkdir
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "No download step for 'PioasmBuild'"
-	cd /mnt/c/Users/Aayush/Desktop/pico-webserver/build/pico-sdk/src/rp2_common/pico_cyw43_driver && /home/aayush/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E echo_append
-	cd /mnt/c/Users/Aayush/Desktop/pico-webserver/build/pico-sdk/src/rp2_common/pico_cyw43_driver && /home/aayush/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E touch /mnt/c/Users/Aayush/Desktop/pico-webserver/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-download
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/mnt/c/Users/Aayush/Desktop/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "No download step for 'PioasmBuild'"
+	cd /mnt/c/Users/Aayush/Desktop/PicoPiFi/build/pico-sdk/src/rp2_common/pico_cyw43_driver && /home/aayush/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E echo_append
+	cd /mnt/c/Users/Aayush/Desktop/PicoPiFi/build/pico-sdk/src/rp2_common/pico_cyw43_driver && /home/aayush/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E touch /mnt/c/Users/Aayush/Desktop/PicoPiFi/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-download
 
 pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-install: pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "No install step for 'PioasmBuild'"
-	cd /mnt/c/Users/Aayush/Desktop/pico-webserver/build/pioasm && /home/aayush/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E echo_append
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/mnt/c/Users/Aayush/Desktop/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "No install step for 'PioasmBuild'"
+	cd /mnt/c/Users/Aayush/Desktop/PicoPiFi/build/pioasm && /home/aayush/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E echo_append
 
 pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-mkdir:
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Creating directories for 'PioasmBuild'"
-	cd /mnt/c/Users/Aayush/Desktop/pico-webserver/build/pico-sdk/src/rp2_common/pico_cyw43_driver && /home/aayush/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -Dcfgdir= -P /mnt/c/Users/Aayush/Desktop/pico-webserver/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/tmp/PioasmBuild-mkdirs.cmake
-	cd /mnt/c/Users/Aayush/Desktop/pico-webserver/build/pico-sdk/src/rp2_common/pico_cyw43_driver && /home/aayush/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E touch /mnt/c/Users/Aayush/Desktop/pico-webserver/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-mkdir
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/mnt/c/Users/Aayush/Desktop/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Creating directories for 'PioasmBuild'"
+	cd /mnt/c/Users/Aayush/Desktop/PicoPiFi/build/pico-sdk/src/rp2_common/pico_cyw43_driver && /home/aayush/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -Dcfgdir= -P /mnt/c/Users/Aayush/Desktop/PicoPiFi/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/tmp/PioasmBuild-mkdirs.cmake
+	cd /mnt/c/Users/Aayush/Desktop/PicoPiFi/build/pico-sdk/src/rp2_common/pico_cyw43_driver && /home/aayush/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E touch /mnt/c/Users/Aayush/Desktop/PicoPiFi/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-mkdir
 
 pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-patch: pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-patch-info.txt
 pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-patch: pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-update
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "No patch step for 'PioasmBuild'"
-	cd /mnt/c/Users/Aayush/Desktop/pico-webserver/build/pico-sdk/src/rp2_common/pico_cyw43_driver && /home/aayush/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E echo_append
-	cd /mnt/c/Users/Aayush/Desktop/pico-webserver/build/pico-sdk/src/rp2_common/pico_cyw43_driver && /home/aayush/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E touch /mnt/c/Users/Aayush/Desktop/pico-webserver/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-patch
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/mnt/c/Users/Aayush/Desktop/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "No patch step for 'PioasmBuild'"
+	cd /mnt/c/Users/Aayush/Desktop/PicoPiFi/build/pico-sdk/src/rp2_common/pico_cyw43_driver && /home/aayush/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E echo_append
+	cd /mnt/c/Users/Aayush/Desktop/PicoPiFi/build/pico-sdk/src/rp2_common/pico_cyw43_driver && /home/aayush/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E touch /mnt/c/Users/Aayush/Desktop/PicoPiFi/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-patch
 
 pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-update: pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-update-info.txt
 pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-update: pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-download
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "No update step for 'PioasmBuild'"
-	cd /mnt/c/Users/Aayush/Desktop/pico-webserver/build/pico-sdk/src/rp2_common/pico_cyw43_driver && /home/aayush/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E echo_append
-	cd /mnt/c/Users/Aayush/Desktop/pico-webserver/build/pico-sdk/src/rp2_common/pico_cyw43_driver && /home/aayush/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E touch /mnt/c/Users/Aayush/Desktop/pico-webserver/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-update
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/mnt/c/Users/Aayush/Desktop/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "No update step for 'PioasmBuild'"
+	cd /mnt/c/Users/Aayush/Desktop/PicoPiFi/build/pico-sdk/src/rp2_common/pico_cyw43_driver && /home/aayush/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E echo_append
+	cd /mnt/c/Users/Aayush/Desktop/PicoPiFi/build/pico-sdk/src/rp2_common/pico_cyw43_driver && /home/aayush/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E touch /mnt/c/Users/Aayush/Desktop/PicoPiFi/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-update
 
 PioasmBuild: pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/PioasmBuild
 PioasmBuild: pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/PioasmBuild-complete
@@ -136,10 +136,10 @@ pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/PioasmBuild.dir/build: Pioa
 .PHONY : pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/PioasmBuild.dir/build
 
 pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/PioasmBuild.dir/clean:
-	cd /mnt/c/Users/Aayush/Desktop/pico-webserver/build/pico-sdk/src/rp2_common/pico_cyw43_driver && $(CMAKE_COMMAND) -P CMakeFiles/PioasmBuild.dir/cmake_clean.cmake
+	cd /mnt/c/Users/Aayush/Desktop/PicoPiFi/build/pico-sdk/src/rp2_common/pico_cyw43_driver && $(CMAKE_COMMAND) -P CMakeFiles/PioasmBuild.dir/cmake_clean.cmake
 .PHONY : pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/PioasmBuild.dir/clean
 
 pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/PioasmBuild.dir/depend:
-	cd /mnt/c/Users/Aayush/Desktop/pico-webserver/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/c/Users/Aayush/Desktop/pico-webserver /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/src/rp2_common/pico_cyw43_driver /mnt/c/Users/Aayush/Desktop/pico-webserver/build /mnt/c/Users/Aayush/Desktop/pico-webserver/build/pico-sdk/src/rp2_common/pico_cyw43_driver /mnt/c/Users/Aayush/Desktop/pico-webserver/build/pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/PioasmBuild.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /mnt/c/Users/Aayush/Desktop/PicoPiFi/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/c/Users/Aayush/Desktop/PicoPiFi /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/src/rp2_common/pico_cyw43_driver /mnt/c/Users/Aayush/Desktop/PicoPiFi/build /mnt/c/Users/Aayush/Desktop/PicoPiFi/build/pico-sdk/src/rp2_common/pico_cyw43_driver /mnt/c/Users/Aayush/Desktop/PicoPiFi/build/pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/PioasmBuild.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/PioasmBuild.dir/depend
 

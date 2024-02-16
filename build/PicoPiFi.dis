@@ -1,5 +1,5 @@
 
-/mnt/c/Users/Aayush/Desktop/pico-webserver/build/PicoPiFi.elf:     file format elf32-littlearm
+/mnt/c/Users/Aayush/Desktop/PicoPiFi/build/PicoPiFi.elf:     file format elf32-littlearm
 
 Sections:
 Idx Name          Size      VMA       LMA       File off  Algn
@@ -50,7 +50,7 @@ Idx Name          Size      VMA       LMA       File off  Algn
  22 .debug_ranges 00000c60  00000000  00000000  000a0838  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
 
-/mnt/c/Users/Aayush/Desktop/pico-webserver/build/PicoPiFi.elf:     file format elf32-littlearm
+/mnt/c/Users/Aayush/Desktop/PicoPiFi/build/PicoPiFi.elf:     file format elf32-littlearm
 
 
 Disassembly of section .boot2:

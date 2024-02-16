@@ -1,4 +1,4 @@
-# Install script for directory: /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/docs
+# Install script for directory: /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/docs
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

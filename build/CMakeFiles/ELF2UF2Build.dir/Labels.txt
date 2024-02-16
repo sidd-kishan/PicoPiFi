@@ -1,13 +1,13 @@
 # Target labels
  ELF2UF2Build
 # Source files and their labels
-/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles/ELF2UF2Build
-/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles/ELF2UF2Build.rule
-/mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles/ELF2UF2Build-complete.rule
-/mnt/c/Users/Aayush/Desktop/pico-webserver/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-build.rule
-/mnt/c/Users/Aayush/Desktop/pico-webserver/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-configure.rule
-/mnt/c/Users/Aayush/Desktop/pico-webserver/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-download.rule
-/mnt/c/Users/Aayush/Desktop/pico-webserver/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-install.rule
-/mnt/c/Users/Aayush/Desktop/pico-webserver/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-mkdir.rule
-/mnt/c/Users/Aayush/Desktop/pico-webserver/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-patch.rule
-/mnt/c/Users/Aayush/Desktop/pico-webserver/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-update.rule
+/mnt/c/Users/Aayush/Desktop/PicoPiFi/build/CMakeFiles/ELF2UF2Build
+/mnt/c/Users/Aayush/Desktop/PicoPiFi/build/CMakeFiles/ELF2UF2Build.rule
+/mnt/c/Users/Aayush/Desktop/PicoPiFi/build/CMakeFiles/ELF2UF2Build-complete.rule
+/mnt/c/Users/Aayush/Desktop/PicoPiFi/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-build.rule
+/mnt/c/Users/Aayush/Desktop/PicoPiFi/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-configure.rule
+/mnt/c/Users/Aayush/Desktop/PicoPiFi/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-download.rule
+/mnt/c/Users/Aayush/Desktop/PicoPiFi/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-install.rule
+/mnt/c/Users/Aayush/Desktop/PicoPiFi/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-mkdir.rule
+/mnt/c/Users/Aayush/Desktop/PicoPiFi/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-patch.rule
+/mnt/c/Users/Aayush/Desktop/PicoPiFi/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-update.rule

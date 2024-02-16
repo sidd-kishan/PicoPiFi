@@ -1,11 +1,11 @@
 CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/eap.c.obj: \
- /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/netif/ppp/eap.c \
- /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/include/netif/ppp/ppp_opts.h \
- /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/opt.h \
- /mnt/c/Users/Aayush/Desktop/pico-webserver/src/lwipopts.h \
- /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/debug.h \
- /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/arch.h \
- /mnt/c/Users/Aayush/Desktop/pico-webserver/common/arch/cc.h \
+ /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/netif/ppp/eap.c \
+ /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/netif/ppp/ppp_opts.h \
+ /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/opt.h \
+ /mnt/c/Users/Aayush/Desktop/PicoPiFi/src/lwipopts.h \
+ /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/debug.h \
+ /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/arch.h \
+ /mnt/c/Users/Aayush/Desktop/PicoPiFi/common/arch/cc.h \
  /usr/include/newlib/stdio.h /usr/include/newlib/_ansi.h \
  /usr/include/newlib/newlib.h /usr/include/newlib/_newlib_version.h \
  /usr/include/newlib/sys/config.h /usr/include/newlib/machine/ieeefp.h \

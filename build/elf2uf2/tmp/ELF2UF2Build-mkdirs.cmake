@@ -4,19 +4,19 @@
 cmake_minimum_required(VERSION 3.5)
 
 file(MAKE_DIRECTORY
-  "/mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/tools/elf2uf2"
-  "/mnt/c/Users/Aayush/Desktop/pico-webserver/build/elf2uf2"
-  "/mnt/c/Users/Aayush/Desktop/pico-webserver/build/elf2uf2"
-  "/mnt/c/Users/Aayush/Desktop/pico-webserver/build/elf2uf2/tmp"
-  "/mnt/c/Users/Aayush/Desktop/pico-webserver/build/elf2uf2/src/ELF2UF2Build-stamp"
-  "/mnt/c/Users/Aayush/Desktop/pico-webserver/build/elf2uf2/src"
-  "/mnt/c/Users/Aayush/Desktop/pico-webserver/build/elf2uf2/src/ELF2UF2Build-stamp"
+  "/mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/tools/elf2uf2"
+  "/mnt/c/Users/Aayush/Desktop/PicoPiFi/build/elf2uf2"
+  "/mnt/c/Users/Aayush/Desktop/PicoPiFi/build/elf2uf2"
+  "/mnt/c/Users/Aayush/Desktop/PicoPiFi/build/elf2uf2/tmp"
+  "/mnt/c/Users/Aayush/Desktop/PicoPiFi/build/elf2uf2/src/ELF2UF2Build-stamp"
+  "/mnt/c/Users/Aayush/Desktop/PicoPiFi/build/elf2uf2/src"
+  "/mnt/c/Users/Aayush/Desktop/PicoPiFi/build/elf2uf2/src/ELF2UF2Build-stamp"
 )
 
 set(configSubDirs )
 foreach(subDir IN LISTS configSubDirs)
-    file(MAKE_DIRECTORY "/mnt/c/Users/Aayush/Desktop/pico-webserver/build/elf2uf2/src/ELF2UF2Build-stamp/${subDir}")
+    file(MAKE_DIRECTORY "/mnt/c/Users/Aayush/Desktop/PicoPiFi/build/elf2uf2/src/ELF2UF2Build-stamp/${subDir}")
 endforeach()
 if(cfgdir)
-  file(MAKE_DIRECTORY "/mnt/c/Users/Aayush/Desktop/pico-webserver/build/elf2uf2/src/ELF2UF2Build-stamp${cfgdir}") # cfgdir has leading slash
+  file(MAKE_DIRECTORY "/mnt/c/Users/Aayush/Desktop/PicoPiFi/build/elf2uf2/src/ELF2UF2Build-stamp${cfgdir}") # cfgdir has leading slash
 endif()

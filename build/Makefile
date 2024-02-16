@@ -57,10 +57,10 @@ RM = /home/aayush/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E rm
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/c/Users/Aayush/Desktop/pico-webserver
+CMAKE_SOURCE_DIR = /mnt/c/Users/Aayush/Desktop/PicoPiFi
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/c/Users/Aayush/Desktop/pico-webserver/build
+CMAKE_BINARY_DIR = /mnt/c/Users/Aayush/Desktop/PicoPiFi/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles /mnt/c/Users/Aayush/Desktop/pico-webserver/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/Aayush/Desktop/PicoPiFi/build/CMakeFiles /mnt/c/Users/Aayush/Desktop/PicoPiFi/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/Aayush/Desktop/pico-webserver/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/Aayush/Desktop/PicoPiFi/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

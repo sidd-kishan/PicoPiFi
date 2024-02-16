@@ -1,4 +1,4 @@
-# Install script for directory: /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/src/common/boot_picoboot
+# Install script for directory: /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/src/common/boot_picoboot
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

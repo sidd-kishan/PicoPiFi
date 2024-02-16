@@ -1,6 +1,6 @@
 CMakeFiles/cherryusblib.dir/CherryUSB/class/wireless/usbd_rndis.c.obj: \
- /mnt/c/Users/Aayush/Desktop/pico-webserver/CherryUSB/class/wireless/usbd_rndis.c \
- /mnt/c/Users/Aayush/Desktop/pico-webserver/CherryUSB/core/usbd_core.h \
+ /mnt/c/Users/Aayush/Desktop/PicoPiFi/CherryUSB/class/wireless/usbd_rndis.c \
+ /mnt/c/Users/Aayush/Desktop/PicoPiFi/CherryUSB/core/usbd_core.h \
  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
  /usr/include/newlib/string.h /usr/include/newlib/_ansi.h \
  /usr/include/newlib/newlib.h /usr/include/newlib/_newlib_version.h \
@@ -16,12 +16,12 @@ CMakeFiles/cherryusblib.dir/CherryUSB/class/wireless/usbd_rndis.c.obj: \
  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
  /usr/include/newlib/stdlib.h /usr/include/newlib/machine/stdlib.h \
  /usr/include/newlib/alloca.h \
- /mnt/c/Users/Aayush/Desktop/pico-webserver/usb_config.h \
- /mnt/c/Users/Aayush/Desktop/pico-webserver/CherryUSB/common/usb_util.h \
- /mnt/c/Users/Aayush/Desktop/pico-webserver/CherryUSB/common/usb_errno.h \
- /mnt/c/Users/Aayush/Desktop/pico-webserver/CherryUSB/common/usb_def.h \
- /mnt/c/Users/Aayush/Desktop/pico-webserver/CherryUSB/common/usb_list.h \
- /mnt/c/Users/Aayush/Desktop/pico-webserver/CherryUSB/common/usb_log.h \
+ /mnt/c/Users/Aayush/Desktop/PicoPiFi/usb_config.h \
+ /mnt/c/Users/Aayush/Desktop/PicoPiFi/CherryUSB/common/usb_util.h \
+ /mnt/c/Users/Aayush/Desktop/PicoPiFi/CherryUSB/common/usb_errno.h \
+ /mnt/c/Users/Aayush/Desktop/PicoPiFi/CherryUSB/common/usb_def.h \
+ /mnt/c/Users/Aayush/Desktop/PicoPiFi/CherryUSB/common/usb_list.h \
+ /mnt/c/Users/Aayush/Desktop/PicoPiFi/CherryUSB/common/usb_log.h \
  /usr/include/newlib/stdio.h \
  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h \
  /usr/include/newlib/sys/types.h /usr/include/newlib/sys/_stdint.h \
@@ -31,18 +31,18 @@ CMakeFiles/cherryusblib.dir/CherryUSB/class/wireless/usbd_rndis.c.obj: \
  /usr/include/newlib/sys/timespec.h /usr/include/newlib/sys/_timespec.h \
  /usr/include/newlib/sys/_pthreadtypes.h /usr/include/newlib/sys/sched.h \
  /usr/include/newlib/machine/types.h /usr/include/newlib/sys/stdio.h \
- /mnt/c/Users/Aayush/Desktop/pico-webserver/CherryUSB/common/usb_dc.h \
- /mnt/c/Users/Aayush/Desktop/pico-webserver/CherryUSB/class/wireless/usbd_rndis.h \
- /mnt/c/Users/Aayush/Desktop/pico-webserver/CherryUSB/class/cdc/usb_cdc.h \
- /mnt/c/Users/Aayush/Desktop/pico-webserver/CherryUSB/class/wireless/rndis_protocol.h \
- /mnt/c/Users/Aayush/Desktop/pico-webserver/CherryUSB/class/wireless/ndis.h \
- /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/pbuf.h \
- /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/opt.h \
- /mnt/c/Users/Aayush/Desktop/pico-webserver/src/lwipopts.h \
- /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/debug.h \
- /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/arch.h \
- /mnt/c/Users/Aayush/Desktop/pico-webserver/common/arch/cc.h \
+ /mnt/c/Users/Aayush/Desktop/PicoPiFi/CherryUSB/common/usb_dc.h \
+ /mnt/c/Users/Aayush/Desktop/PicoPiFi/CherryUSB/class/wireless/usbd_rndis.h \
+ /mnt/c/Users/Aayush/Desktop/PicoPiFi/CherryUSB/class/cdc/usb_cdc.h \
+ /mnt/c/Users/Aayush/Desktop/PicoPiFi/CherryUSB/class/wireless/rndis_protocol.h \
+ /mnt/c/Users/Aayush/Desktop/PicoPiFi/CherryUSB/class/wireless/ndis.h \
+ /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/pbuf.h \
+ /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/opt.h \
+ /mnt/c/Users/Aayush/Desktop/PicoPiFi/src/lwipopts.h \
+ /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/debug.h \
+ /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/arch.h \
+ /mnt/c/Users/Aayush/Desktop/PicoPiFi/common/arch/cc.h \
  /usr/include/newlib/inttypes.h /usr/include/newlib/sys/_intsup.h \
  /usr/lib/gcc/arm-none-eabi/10.3.1/include-fixed/limits.h \
  /usr/include/newlib/ctype.h \
- /mnt/c/Users/Aayush/Desktop/pico-webserver/pico-sdk/lib/lwip/src/include/lwip/err.h
+ /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/err.h
