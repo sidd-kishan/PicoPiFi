@@ -35,4 +35,5 @@ CMakeFiles/PicoPiFi.dir/src/cdc_rndis_device.c.obj: \
  /mnt/c/Users/Aayush/Desktop/PicoPiFi/CherryUSB/class/wireless/usbd_rndis.h \
  /mnt/c/Users/Aayush/Desktop/PicoPiFi/CherryUSB/class/cdc/usb_cdc.h \
  /mnt/c/Users/Aayush/Desktop/PicoPiFi/CherryUSB/class/cdc/usbd_cdc.h \
- /mnt/c/Users/Aayush/Desktop/PicoPiFi/CherryUSB/class/cdc/usb_cdc.h
+ /mnt/c/Users/Aayush/Desktop/PicoPiFi/CherryUSB/class/cdc/usb_cdc.h \
+ /mnt/c/Users/Aayush/Desktop/PicoPiFi/CherryUSB/port/rp2040/usb_rp2040_reg.h

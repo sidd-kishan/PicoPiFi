@@ -19,6 +19,15 @@
 #define CONFIG_USB_DBG_LEVEL USB_DBG_INFO
 #endif
 
+#ifndef CONFIG_USBDEV_MAX_BUS
+#define CONFIG_USBDEV_MAX_BUS 1
+#endif
+
+#ifndef CONFIG_USBDEV_MSC_MAX_LUN
+#define CONFIG_USBDEV_MSC_MAX_LUN 1
+#endif
+
+
 /* Enable print with color */
 #define CONFIG_USB_PRINTF_COLOR_ENABLE
 
