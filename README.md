@@ -48,6 +48,7 @@ cd lib/
 git submodule update --remote
 cd ..
 cd ..
+cp -R rp2040/ CherryUSB/port/
 rm -rf build/
 mkdir -p build/
 cd build
