@@ -7057,6 +7057,7 @@ CMakeFiles/PicoPiFi.dir/src/cdc_rndis_device.c.obj
  /mnt/c/Users/Aayush/Desktop/PicoPiFi/CherryUSB/common/usb_log.h
  /mnt/c/Users/Aayush/Desktop/PicoPiFi/CherryUSB/common/usb_util.h
  /mnt/c/Users/Aayush/Desktop/PicoPiFi/CherryUSB/core/usbd_core.h
+ /mnt/c/Users/Aayush/Desktop/PicoPiFi/CherryUSB/port/rp2040/usb_rp2040_reg.h
  /mnt/c/Users/Aayush/Desktop/PicoPiFi/usb_config.h
  /usr/include/newlib/_ansi.h
  /usr/include/newlib/_newlib_version.h

@@ -158,7 +158,7 @@ void usbd_rndis_data_recv_done(void)
 {
 }
 
-void usbd_event_handler(uint8_t event)
+void usbd_event_handler(uint8_t busid, uint8_t event)
 {
     switch (event) {
     case USBD_EVENT_RESET:
@@ -289,7 +289,7 @@ void cdc_rndis_init(uint8_t mac[])
     usbd_add_interface(0, (struct usbd_interface *)usbd_cdc_acm_init_intf(0, &intf7));
     usbd_add_endpoint(0, &cdc_out_ep4);
     usbd_add_endpoint(0, &cdc_in_ep4);
-    usbd_initialize(0,usb_hw,usbd_event_handler);
+    usbd_initialize(0,USBCTRL_REGS_BASE,usbd_event_handler);
 }
 
 volatile uint8_t dtr_enable = 0;

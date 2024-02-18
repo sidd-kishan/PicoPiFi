@@ -6917,6 +6917,7 @@ CMakeFiles/PicoPiFi.dir/src/cdc_rndis_device.c.obj: /mnt/c/Users/Aayush/Desktop/
   /mnt/c/Users/Aayush/Desktop/PicoPiFi/CherryUSB/common/usb_log.h \
   /mnt/c/Users/Aayush/Desktop/PicoPiFi/CherryUSB/common/usb_util.h \
   /mnt/c/Users/Aayush/Desktop/PicoPiFi/CherryUSB/core/usbd_core.h \
+  /mnt/c/Users/Aayush/Desktop/PicoPiFi/CherryUSB/port/rp2040/usb_rp2040_reg.h \
   /mnt/c/Users/Aayush/Desktop/PicoPiFi/usb_config.h \
   /usr/include/newlib/_ansi.h \
   /usr/include/newlib/_newlib_version.h \
@@ -7506,6 +7507,8 @@ pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.pio.h:
 /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/src/common/pico_util/include/pico/util/pheap.h:
 
 /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/memp.h:
+
+/mnt/c/Users/Aayush/Desktop/PicoPiFi/CherryUSB/port/rp2040/usb_rp2040_reg.h:
 
 /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/core/udp.c:
 

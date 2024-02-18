@@ -1327,14 +1327,14 @@ Disassembly of section .text:
 
 10000bd8 <usbd_event_handler>:
 10000bd8:	b510      	push	{r4, lr}
-10000bda:	2807      	cmp	r0, #7
+10000bda:	2907      	cmp	r1, #7
 10000bdc:	d000      	beq.n	10000be0 <usbd_event_handler+0x8>
 10000bde:	bd10      	pop	{r4, pc}
 10000be0:	2380      	movs	r3, #128	; 0x80
 10000be2:	4c0c      	ldr	r4, [pc, #48]	; (10000c14 <usbd_event_handler+0x3c>)
-10000be4:	2102      	movs	r1, #2
+10000be4:	011b      	lsls	r3, r3, #4
 10000be6:	0022      	movs	r2, r4
-10000be8:	011b      	lsls	r3, r3, #4
+10000be8:	3905      	subs	r1, #5
 10000bea:	2000      	movs	r0, #0
 10000bec:	f00d fa5e 	bl	1000e0ac <usbd_ep_start_read>
 10000bf0:	2380      	movs	r3, #128	; 0x80
