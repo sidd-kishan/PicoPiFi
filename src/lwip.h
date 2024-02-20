@@ -12,7 +12,7 @@
 
 // We're going to erase and reprogram a region 256k from the start of flash.
 // Once done, we can access this at XIP_BASE + 256k.
-#define FLASH_TARGET_OFFSET (700 * 1024)
+#define FLASH_TARGET_OFFSET (1280 * 1024)
 
 extern const uint8_t *flash_target_contents;
 

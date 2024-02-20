@@ -27,6 +27,9 @@
 #define CONFIG_USBDEV_MSC_MAX_LUN 1
 #endif
 
+#ifndef CONFIG_USBDEV_EP_NUM
+#define CONFIG_USBDEV_EP_NUM 8
+#endif
 
 /* Enable print with color */
 #define CONFIG_USB_PRINTF_COLOR_ENABLE
