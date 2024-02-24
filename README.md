@@ -39,7 +39,7 @@ If not, compile [CMake from source](https://cmake.org/download/#latest) first.
 ## Build instructions
 
 ```
-git clone --depth 1 https://github.com/sidd-kishan/pico-webserver
+git clone --depth 1 https://github.com/sidd-kishan/PicoPiFi
 cd pico-webserver
 git submodule update --init
 cd pico-sdk
