@@ -81,7 +81,7 @@ void core1(){
     //user_init_lwip();
     lwip_init();
 	multicore_lockout_victim_init();
-	int wifi_conn_error;
+	//int wifi_conn_error;
     while(true) {
         /**/
 		//printline(2,(char *)read_queue[0].buffer,read_queue[0].tail);
@@ -115,7 +115,7 @@ void core1(){
 					}
 				}
 				if(enc_type[0]=='X') {
-					wifi_conn_error = cyw43_wifi_leave(&cyw43_state, CYW43_ITF_STA);
+					int wifi_conn_error = cyw43_wifi_leave(&cyw43_state, CYW43_ITF_STA);
 					wifi_congfig_len = sprintf(wifi_configuration,"s_a: %s p_a: %s r_a: %s c_a: %s ",connect_ssid,connect_password,retry_ms,enc_type);
 				}
 				else if(enc_type[0]=='Y') watchdog_reboot(0,0,0);

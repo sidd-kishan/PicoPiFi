@@ -973,7 +973,6 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/init.c.obj: /mnt/c/Users/Aayu
   /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/dns.h \
   /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/err.h \
   /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/etharp.h \
-  /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/icmp.h \
   /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/igmp.h \
   /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/init.h \
   /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/ip.h \
@@ -995,18 +994,14 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/init.c.obj: /mnt/c/Users/Aayu
   /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/priv/tcp_priv.h \
   /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/prot/etharp.h \
   /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/prot/ethernet.h \
-  /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/prot/icmp.h \
   /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/prot/ieee.h \
   /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/prot/ip.h \
   /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/prot/ip4.h \
-  /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/prot/tcp.h \
   /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/prot/udp.h \
   /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/raw.h \
   /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/sockets.h \
   /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/stats.h \
   /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/sys.h \
-  /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/tcp.h \
-  /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/tcpbase.h \
   /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/timeouts.h \
   /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/udp.h \
   /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/netif/ppp/ppp_impl.h \
@@ -1320,28 +1315,7 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.obj: /mnt/c/Users
   /mnt/c/Users/Aayush/Desktop/PicoPiFi/common/arch/cc.h \
   /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/arch.h \
   /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/debug.h \
-  /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/def.h \
-  /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/err.h \
-  /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/icmp.h \
-  /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/inet_chksum.h \
-  /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/ip.h \
-  /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/ip4.h \
-  /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/ip4_addr.h \
-  /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/ip6.h \
-  /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/ip6_addr.h \
-  /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/ip_addr.h \
-  /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/mem.h \
-  /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/memp.h \
-  /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/netif.h \
   /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/opt.h \
-  /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/pbuf.h \
-  /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/priv/mem_priv.h \
-  /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/priv/memp_priv.h \
-  /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/priv/memp_std.h \
-  /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/prot/icmp.h \
-  /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/prot/ip.h \
-  /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/prot/ip4.h \
-  /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/stats.h \
   /mnt/c/Users/Aayush/Desktop/PicoPiFi/src/lwipopts.h \
   /usr/include/newlib/_ansi.h \
   /usr/include/newlib/_newlib_version.h \
@@ -1358,8 +1332,6 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.obj: /mnt/c/Users
   /usr/include/newlib/newlib.h \
   /usr/include/newlib/stdio.h \
   /usr/include/newlib/stdlib.h \
-  /usr/include/newlib/string.h \
-  /usr/include/newlib/strings.h \
   /usr/include/newlib/sys/_intsup.h \
   /usr/include/newlib/sys/_locale.h \
   /usr/include/newlib/sys/_pthreadtypes.h \
@@ -1376,7 +1348,6 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.obj: /mnt/c/Users
   /usr/include/newlib/sys/sched.h \
   /usr/include/newlib/sys/select.h \
   /usr/include/newlib/sys/stdio.h \
-  /usr/include/newlib/sys/string.h \
   /usr/include/newlib/sys/timespec.h \
   /usr/include/newlib/sys/types.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include-fixed/limits.h \
@@ -1459,12 +1430,8 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.obj: /mnt/c/Users/
   /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/prot/icmp.h \
   /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/prot/ip.h \
   /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/prot/ip4.h \
-  /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/prot/tcp.h \
   /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/prot/udp.h \
-  /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/raw.h \
   /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/stats.h \
-  /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/tcp.h \
-  /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/tcpbase.h \
   /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/udp.h \
   /mnt/c/Users/Aayush/Desktop/PicoPiFi/src/lwipopts.h \
   /usr/include/newlib/_ansi.h \
@@ -2121,7 +2088,6 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/memp.c.obj: /mnt/c/Users/Aayu
   /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/dns.h \
   /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/err.h \
   /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/etharp.h \
-  /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/icmp.h \
   /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/igmp.h \
   /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/ip.h \
   /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/ip4.h \
@@ -2149,17 +2115,14 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/memp.c.obj: /mnt/c/Users/Aayu
   /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/priv/tcpip_priv.h \
   /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/prot/etharp.h \
   /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/prot/ethernet.h \
-  /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/prot/icmp.h \
   /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/prot/ieee.h \
   /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/prot/ip.h \
   /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/prot/ip4.h \
-  /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/prot/tcp.h \
   /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/prot/udp.h \
   /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/raw.h \
   /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/stats.h \
   /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/sys.h \
   /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/tcp.h \
-  /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/tcpbase.h \
   /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/timeouts.h \
   /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/udp.h \
   /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/netif/ppp/ppp_opts.h \
@@ -2212,7 +2175,6 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/netif.c.obj: /mnt/c/Users/Aay
   /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/def.h \
   /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/err.h \
   /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/etharp.h \
-  /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/icmp.h \
   /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/igmp.h \
   /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/ip.h \
   /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/ip4.h \
@@ -2232,18 +2194,13 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/netif.c.obj: /mnt/c/Users/Aay
   /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/priv/tcp_priv.h \
   /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/prot/etharp.h \
   /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/prot/ethernet.h \
-  /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/prot/icmp.h \
   /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/prot/ieee.h \
   /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/prot/ip.h \
   /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/prot/ip4.h \
-  /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/prot/tcp.h \
   /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/prot/udp.h \
-  /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/raw.h \
   /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/snmp.h \
   /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/stats.h \
   /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/sys.h \
-  /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/tcp.h \
-  /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/tcpbase.h \
   /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/udp.h \
   /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/netif/ethernet.h \
   /mnt/c/Users/Aayush/Desktop/PicoPiFi/src/lwipopts.h \
@@ -2294,11 +2251,7 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/pbuf.c.obj: /mnt/c/Users/Aayu
   /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/debug.h \
   /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/def.h \
   /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/err.h \
-  /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/icmp.h \
-  /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/ip.h \
-  /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/ip4.h \
   /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/ip4_addr.h \
-  /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/ip6.h \
   /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/ip6_addr.h \
   /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/ip_addr.h \
   /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/mem.h \
@@ -2309,15 +2262,8 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/pbuf.c.obj: /mnt/c/Users/Aayu
   /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/priv/mem_priv.h \
   /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/priv/memp_priv.h \
   /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/priv/memp_std.h \
-  /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/priv/tcp_priv.h \
-  /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/prot/icmp.h \
-  /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/prot/ip.h \
-  /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/prot/ip4.h \
-  /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/prot/tcp.h \
   /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/stats.h \
   /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/sys.h \
-  /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/tcp.h \
-  /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/tcpbase.h \
   /mnt/c/Users/Aayush/Desktop/PicoPiFi/src/lwipopts.h \
   /usr/include/newlib/_ansi.h \
   /usr/include/newlib/_newlib_version.h \
@@ -2364,28 +2310,7 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/raw.c.obj: /mnt/c/Users/Aayus
   /mnt/c/Users/Aayush/Desktop/PicoPiFi/common/arch/cc.h \
   /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/arch.h \
   /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/debug.h \
-  /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/def.h \
-  /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/err.h \
-  /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/inet_chksum.h \
-  /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/ip.h \
-  /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/ip4.h \
-  /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/ip4_addr.h \
-  /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/ip6.h \
-  /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/ip6_addr.h \
-  /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/ip_addr.h \
-  /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/mem.h \
-  /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/memp.h \
-  /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/netif.h \
   /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/opt.h \
-  /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/pbuf.h \
-  /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/priv/mem_priv.h \
-  /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/priv/memp_priv.h \
-  /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/priv/memp_std.h \
-  /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/priv/raw_priv.h \
-  /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/prot/ip.h \
-  /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/prot/ip4.h \
-  /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/raw.h \
-  /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/stats.h \
   /mnt/c/Users/Aayush/Desktop/PicoPiFi/src/lwipopts.h \
   /usr/include/newlib/_ansi.h \
   /usr/include/newlib/_newlib_version.h \
@@ -2402,8 +2327,6 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/raw.c.obj: /mnt/c/Users/Aayus
   /usr/include/newlib/newlib.h \
   /usr/include/newlib/stdio.h \
   /usr/include/newlib/stdlib.h \
-  /usr/include/newlib/string.h \
-  /usr/include/newlib/strings.h \
   /usr/include/newlib/sys/_intsup.h \
   /usr/include/newlib/sys/_locale.h \
   /usr/include/newlib/sys/_pthreadtypes.h \
@@ -2420,7 +2343,6 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/raw.c.obj: /mnt/c/Users/Aayus
   /usr/include/newlib/sys/sched.h \
   /usr/include/newlib/sys/select.h \
   /usr/include/newlib/sys/stdio.h \
-  /usr/include/newlib/sys/string.h \
   /usr/include/newlib/sys/timespec.h \
   /usr/include/newlib/sys/types.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include-fixed/limits.h \
@@ -2531,32 +2453,7 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/tcp.c.obj: /mnt/c/Users/Aayus
   /mnt/c/Users/Aayush/Desktop/PicoPiFi/common/arch/cc.h \
   /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/arch.h \
   /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/debug.h \
-  /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/def.h \
-  /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/err.h \
-  /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/icmp.h \
-  /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/ip.h \
-  /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/ip4.h \
-  /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/ip4_addr.h \
-  /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/ip6.h \
-  /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/ip6_addr.h \
-  /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/ip_addr.h \
-  /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/mem.h \
-  /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/memp.h \
-  /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/nd6.h \
-  /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/netif.h \
   /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/opt.h \
-  /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/pbuf.h \
-  /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/priv/mem_priv.h \
-  /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/priv/memp_priv.h \
-  /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/priv/memp_std.h \
-  /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/priv/tcp_priv.h \
-  /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/prot/icmp.h \
-  /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/prot/ip.h \
-  /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/prot/ip4.h \
-  /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/prot/tcp.h \
-  /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/stats.h \
-  /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/tcp.h \
-  /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/tcpbase.h \
   /mnt/c/Users/Aayush/Desktop/PicoPiFi/src/lwipopts.h \
   /usr/include/newlib/_ansi.h \
   /usr/include/newlib/_newlib_version.h \
@@ -2573,8 +2470,6 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/tcp.c.obj: /mnt/c/Users/Aayus
   /usr/include/newlib/newlib.h \
   /usr/include/newlib/stdio.h \
   /usr/include/newlib/stdlib.h \
-  /usr/include/newlib/string.h \
-  /usr/include/newlib/strings.h \
   /usr/include/newlib/sys/_intsup.h \
   /usr/include/newlib/sys/_locale.h \
   /usr/include/newlib/sys/_pthreadtypes.h \
@@ -2591,7 +2486,6 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/tcp.c.obj: /mnt/c/Users/Aayus
   /usr/include/newlib/sys/sched.h \
   /usr/include/newlib/sys/select.h \
   /usr/include/newlib/sys/stdio.h \
-  /usr/include/newlib/sys/string.h \
   /usr/include/newlib/sys/timespec.h \
   /usr/include/newlib/sys/types.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include-fixed/limits.h \
@@ -2603,33 +2497,7 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/tcp_in.c.obj: /mnt/c/Users/Aa
   /mnt/c/Users/Aayush/Desktop/PicoPiFi/common/arch/cc.h \
   /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/arch.h \
   /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/debug.h \
-  /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/def.h \
-  /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/err.h \
-  /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/icmp.h \
-  /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/inet_chksum.h \
-  /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/ip.h \
-  /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/ip4.h \
-  /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/ip4_addr.h \
-  /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/ip6.h \
-  /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/ip6_addr.h \
-  /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/ip_addr.h \
-  /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/mem.h \
-  /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/memp.h \
-  /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/nd6.h \
-  /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/netif.h \
   /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/opt.h \
-  /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/pbuf.h \
-  /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/priv/mem_priv.h \
-  /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/priv/memp_priv.h \
-  /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/priv/memp_std.h \
-  /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/priv/tcp_priv.h \
-  /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/prot/icmp.h \
-  /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/prot/ip.h \
-  /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/prot/ip4.h \
-  /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/prot/tcp.h \
-  /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/stats.h \
-  /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/tcp.h \
-  /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/tcpbase.h \
   /mnt/c/Users/Aayush/Desktop/PicoPiFi/src/lwipopts.h \
   /usr/include/newlib/_ansi.h \
   /usr/include/newlib/_newlib_version.h \
@@ -2646,8 +2514,6 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/tcp_in.c.obj: /mnt/c/Users/Aa
   /usr/include/newlib/newlib.h \
   /usr/include/newlib/stdio.h \
   /usr/include/newlib/stdlib.h \
-  /usr/include/newlib/string.h \
-  /usr/include/newlib/strings.h \
   /usr/include/newlib/sys/_intsup.h \
   /usr/include/newlib/sys/_locale.h \
   /usr/include/newlib/sys/_pthreadtypes.h \
@@ -2664,7 +2530,6 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/tcp_in.c.obj: /mnt/c/Users/Aa
   /usr/include/newlib/sys/sched.h \
   /usr/include/newlib/sys/select.h \
   /usr/include/newlib/sys/stdio.h \
-  /usr/include/newlib/sys/string.h \
   /usr/include/newlib/sys/timespec.h \
   /usr/include/newlib/sys/types.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include-fixed/limits.h \
@@ -2676,32 +2541,7 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/tcp_out.c.obj: /mnt/c/Users/A
   /mnt/c/Users/Aayush/Desktop/PicoPiFi/common/arch/cc.h \
   /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/arch.h \
   /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/debug.h \
-  /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/def.h \
-  /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/err.h \
-  /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/icmp.h \
-  /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/inet_chksum.h \
-  /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/ip.h \
-  /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/ip4.h \
-  /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/ip4_addr.h \
-  /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/ip6.h \
-  /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/ip6_addr.h \
-  /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/ip_addr.h \
-  /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/mem.h \
-  /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/memp.h \
-  /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/netif.h \
   /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/opt.h \
-  /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/pbuf.h \
-  /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/priv/mem_priv.h \
-  /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/priv/memp_priv.h \
-  /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/priv/memp_std.h \
-  /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/priv/tcp_priv.h \
-  /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/prot/icmp.h \
-  /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/prot/ip.h \
-  /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/prot/ip4.h \
-  /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/prot/tcp.h \
-  /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/stats.h \
-  /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/tcp.h \
-  /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/tcpbase.h \
   /mnt/c/Users/Aayush/Desktop/PicoPiFi/src/lwipopts.h \
   /usr/include/newlib/_ansi.h \
   /usr/include/newlib/_newlib_version.h \
@@ -2718,8 +2558,6 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/tcp_out.c.obj: /mnt/c/Users/A
   /usr/include/newlib/newlib.h \
   /usr/include/newlib/stdio.h \
   /usr/include/newlib/stdlib.h \
-  /usr/include/newlib/string.h \
-  /usr/include/newlib/strings.h \
   /usr/include/newlib/sys/_intsup.h \
   /usr/include/newlib/sys/_locale.h \
   /usr/include/newlib/sys/_pthreadtypes.h \
@@ -2736,7 +2574,6 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/tcp_out.c.obj: /mnt/c/Users/A
   /usr/include/newlib/sys/sched.h \
   /usr/include/newlib/sys/select.h \
   /usr/include/newlib/sys/stdio.h \
-  /usr/include/newlib/sys/string.h \
   /usr/include/newlib/sys/timespec.h \
   /usr/include/newlib/sys/types.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include-fixed/limits.h \
@@ -2755,7 +2592,6 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/timeouts.c.obj: /mnt/c/Users/
   /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/dns.h \
   /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/err.h \
   /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/etharp.h \
-  /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/icmp.h \
   /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/igmp.h \
   /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/ip.h \
   /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/ip4.h \
@@ -2779,15 +2615,11 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/timeouts.c.obj: /mnt/c/Users/
   /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/priv/tcpip_priv.h \
   /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/prot/etharp.h \
   /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/prot/ethernet.h \
-  /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/prot/icmp.h \
   /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/prot/ieee.h \
   /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/prot/ip.h \
   /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/prot/ip4.h \
-  /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/prot/tcp.h \
   /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/stats.h \
   /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/sys.h \
-  /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/tcp.h \
-  /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/tcpbase.h \
   /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/timeouts.h \
   /mnt/c/Users/Aayush/Desktop/PicoPiFi/src/lwipopts.h \
   /usr/include/newlib/_ansi.h \
@@ -7522,6 +7354,10 @@ pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.pio.h:
 
 /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/sys.h:
 
+/mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/src/rp2_common/pico_unique_id/include/pico/unique_id.h:
+
+/mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/core/altcp_alloc.c:
+
 /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/api/netifapi.c:
 
 /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/core/init.c:
@@ -7562,8 +7398,6 @@ pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.pio.h:
 
 /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c:
 
-/mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/tcpbase.h:
-
 /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/netif/slipif.h:
 
 /usr/lib/gcc/arm-none-eabi/10.3.1/include-fixed/limits.h:
@@ -7573,6 +7407,12 @@ pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.pio.h:
 /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/core/altcp.c:
 
 /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c:
+
+/mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/core/raw.c:
+
+/mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c:
+
+/mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/dhcp6.h:
 
 /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/netif/ethernet.c:
 
@@ -7850,10 +7690,6 @@ generated/pico_base/pico/config_autogen.h:
 
 /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/api/api_lib.c:
 
-/mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/icmp.h:
-
-/mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/core/ipv4/igmp.c:
-
 /usr/include/newlib/stdio.h:
 
 /usr/include/newlib/sys/_stdint.h:
@@ -7880,6 +7716,10 @@ generated/pico_base/pico/config_autogen.h:
 
 /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/netif/ppp/fsm.c:
 
+/mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/mld6.h:
+
+/mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/ip6.h:
+
 /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/debug.h:
 
 /mnt/c/Users/Aayush/Desktop/PicoPiFi/src/cdc_rndis_device.c:
@@ -7890,16 +7730,6 @@ generated/pico_base/pico/config_autogen.h:
 
 /usr/include/newlib/sys/reent.h:
 
-/mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/ip6.h:
-
-/mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/mld6.h:
-
-/mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/core/raw.c:
-
-/mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c:
-
-/mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/dhcp6.h:
-
 /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/nd6.h:
 
 /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c:
@@ -7908,35 +7738,11 @@ generated/pico_base/pico/config_autogen.h:
 
 /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/priv/mem_priv.h:
 
-/mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c:
-
-/mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/priv/memp_priv.h:
-
 /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/priv/memp_std.h:
 
 /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom.h:
 
 /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/prot/etharp.h:
-
-/mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/src/common/pico_sync/mutex.c:
-
-/mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/prot/icmp.h:
-
-/mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/src/rp2_common/pico_unique_id/include/pico/unique_id.h:
-
-/mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/core/altcp_alloc.c:
-
-/mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/prot/tcp.h:
-
-/mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/mpu.h:
-
-/usr/include/newlib/sys/sched.h:
-
-/mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/prot/ip.h:
-
-/mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/api.h:
-
-/mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/ip4_frag.h:
 
 /mnt/c/Users/Aayush/Desktop/PicoPiFi/src/cdc_rndis_device.h:
 
@@ -7955,10 +7761,6 @@ generated/pico_base/pico/config_autogen.h:
 /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/src/common/pico_base/include/pico/error.h:
 
 /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/stats.h:
-
-/mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/src/common/pico_util/include/pico/util/datetime.h:
-
-/mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/tcp.h:
 
 /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/core/ip.c:
 
@@ -7992,7 +7794,29 @@ generated/pico_base/pico/config_autogen.h:
 
 /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/core/ipv4/icmp.c:
 
+/mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/core/ipv4/igmp.c:
+
+/mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/icmp.h:
+
+/mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/priv/memp_priv.h:
+
+/mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c:
+
+/mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/mpu.h:
+
+/usr/include/newlib/sys/sched.h:
+
+/mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/prot/ip.h:
+
+/mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/api.h:
+
+/mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/ip4_frag.h:
+
 /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/priv/raw_priv.h:
+
+/mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/src/common/pico_sync/mutex.c:
+
+/mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/prot/icmp.h:
 
 /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c:
 
@@ -8056,6 +7880,10 @@ generated/pico_base/pico/config_autogen.h:
 
 /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/priv/tcpip_priv.h:
 
+/mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/src/common/pico_util/include/pico/util/datetime.h:
+
+/mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/tcp.h:
+
 /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/core/stats.c:
 
 /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/ethip6.h:
@@ -8074,9 +7902,9 @@ generated/pico_base/pico/config_autogen.h:
 
 /mnt/c/Users/Aayush/Desktop/PicoPiFi/CherryUSB/common/usb_util.h:
 
-/mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/src/common/pico_time/time.c:
-
 /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/cyw43-driver/src/cyw43.h:
+
+/mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/src/common/pico_time/time.c:
 
 /mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c:
 
