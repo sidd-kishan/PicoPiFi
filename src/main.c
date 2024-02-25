@@ -18,6 +18,7 @@ static volatile absolute_time_t comm_manager;
 char connect_ssid[190], connect_ssid_decode[95], connect_password[190], connect_password_decode[95], retry_ms[6], enc_type[1], wifi_configuration[450], wifi_configuration_last[450];
 uint8_t rndis_mac[6] = { 0x20, 0x89, 0x84, 0x6A, 0x96, 0xAA };
 int wifi_congfig_len=0;
+int eth_frame_send_success;
 
 void printline(int cdc,char string[],int len){
 	char buf[2048];
@@ -115,17 +116,13 @@ void core1(){
 					}
 				}
 				if(enc_type[0]=='X') {
-					int wifi_conn_error = cyw43_wifi_leave(&cyw43_state, CYW43_ITF_STA);
+					eth_frame_send_success = cyw43_wifi_leave(&cyw43_state, CYW43_ITF_STA);
 					wifi_congfig_len = sprintf(wifi_configuration,"s_a: %s p_a: %s r_a: %s c_a: %s ",connect_ssid,connect_password,retry_ms,enc_type);
 				}
 				else if(enc_type[0]=='Y') watchdog_reboot(0,0,0);
 				else if(enc_type[0]=='Z') reset_usb_boot(0, 0);
 				read_queue[0].tail=0;
 			}
-			printline(3,(char *)read_queue[1].buffer,read_queue[1].tail);
-			read_queue[1].tail=0;
-			printline(4,(char *)read_queue[2].buffer,read_queue[2].tail);
-			read_queue[2].tail=0;
 			next_wifi_try = make_timeout_time_ms(1000);
 		}
     }
@@ -181,25 +178,25 @@ int main(void)
 				hexDecode(connect_password, connect_password_decode);
 				//printline(2,connect_password_decode,strlen(connect_password_decode));
 				if(enc_type[0]=='7'){
-					cyw43_arch_wifi_connect_async(connect_ssid_decode, connect_password_decode, CYW43_AUTH_WPA2_MIXED_PSK);
+					eth_frame_send_success = cyw43_arch_wifi_connect_async(connect_ssid_decode, connect_password_decode, CYW43_AUTH_WPA2_MIXED_PSK);
 					wifi_congfig_len = sprintf(wifi_configuration,"s_a: %s p_a: %s r_a: %s c_a: %s ",connect_ssid,connect_password,retry_ms,enc_type);
 					//wifi_configuration[wifi_congfig_len]=' ';
 					//wifi_configuration[wifi_congfig_len+1]=' ';
 					//printline(2,wifi_configuration,wifi_congfig_len-1);
 				}else if(enc_type[0]=='5'){
-					cyw43_arch_wifi_connect_async(connect_ssid_decode, connect_password_decode, CYW43_AUTH_WPA2_AES_PSK);
+					eth_frame_send_success = cyw43_arch_wifi_connect_async(connect_ssid_decode, connect_password_decode, CYW43_AUTH_WPA2_AES_PSK);
 					wifi_congfig_len = sprintf(wifi_configuration, "s_a: %s p_a: %s r_a: %s c_a: %s ",connect_ssid,connect_password,retry_ms,enc_type);
 					//wifi_configuration[wifi_congfig_len]=' ';
 					//wifi_configuration[wifi_congfig_len+1]=' ';
 					//printline(2,wifi_configuration,wifi_congfig_len-1);
 				}else if(enc_type[0]=='3'){
-					cyw43_arch_wifi_connect_async(connect_ssid_decode, connect_password_decode, CYW43_AUTH_WPA_TKIP_PSK);
+					eth_frame_send_success = cyw43_arch_wifi_connect_async(connect_ssid_decode, connect_password_decode, CYW43_AUTH_WPA_TKIP_PSK);
 					wifi_congfig_len = sprintf(wifi_configuration, "s_a: %s p_a: %s r_a: %s c_a: %s ",connect_ssid,connect_password,retry_ms,enc_type);
 					//wifi_configuration[wifi_congfig_len]=' ';
 					//wifi_configuration[wifi_congfig_len+1]=' ';
 					//printline(2,wifi_configuration,wifi_congfig_len-1);
 				}else if(enc_type[0]=='0'){
-					cyw43_arch_wifi_connect_async(connect_ssid_decode, connect_password_decode, CYW43_AUTH_OPEN);
+					eth_frame_send_success = cyw43_arch_wifi_connect_async(connect_ssid_decode, connect_password_decode, CYW43_AUTH_OPEN);
 					wifi_congfig_len = sprintf(wifi_configuration, "s_a: %s p_a: %s r_a: %s c_a: %s ",connect_ssid,connect_password,retry_ms,enc_type);
 					//wifi_configuration[wifi_congfig_len]=' ';
 					//wifi_configuration[wifi_congfig_len+1]=' ';
@@ -214,10 +211,11 @@ int main(void)
 			p = usbd_rndis_eth_rx();
 			if (p != NULL) {
 				/* entry point to the LwIP stack */
-				int eth_frame_send_success=cyw43_send_ethernet(&cyw43_state, CYW43_ITF_STA, p->tot_len, (void*)p, true);
+				eth_frame_send_success=cyw43_send_ethernet(&cyw43_state, CYW43_ITF_STA, p->tot_len, (void*)p, true);
 				//err = netif_data.input(p, &netif_data);
 				pbuf_free(p);
 				p = (struct pbuf *) eth_frame_send_success;
+				p = NULL;
 			}
 			//if(link_up){
 		//}
