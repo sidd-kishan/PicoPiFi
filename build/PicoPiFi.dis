@@ -23527,7 +23527,7 @@ Disassembly of section .text:
 1000c4ba:	d102      	bne.n	1000c4c2 <rndis_bulk_out+0x16>
 1000c4bc:	6850      	ldr	r0, [r2, #4]
 1000c4be:	4298      	cmp	r0, r3
-1000c4c0:	d007      	beq.n	1000c4d2 <rndis_bulk_out+0x26>
+1000c4c0:	d907      	bls.n	1000c4d2 <rndis_bulk_out+0x26>
 1000c4c2:	2330      	movs	r3, #48	; 0x30
 1000c4c4:	5cc9      	ldrb	r1, [r1, r3]
 1000c4c6:	23c1      	movs	r3, #193	; 0xc1
@@ -24036,10 +24036,10 @@ Disassembly of section .text:
 1000c92c:	0007      	movs	r7, r0
 1000c92e:	6873      	ldr	r3, [r6, #4]
 1000c930:	2b01      	cmp	r3, #1
-1000c932:	d02d      	beq.n	1000c990 <usbd_rndis_eth_tx+0x68>
+1000c932:	d030      	beq.n	1000c996 <usbd_rndis_eth_tx+0x6e>
 1000c934:	6af3      	ldr	r3, [r6, #44]	; 0x2c
 1000c936:	2b00      	cmp	r3, #0
-1000c938:	d12c      	bne.n	1000c994 <usbd_rndis_eth_tx+0x6c>
+1000c938:	d12a      	bne.n	1000c990 <usbd_rndis_eth_tx+0x68>
 1000c93a:	23c1      	movs	r3, #193	; 0xc1
 1000c93c:	8902      	ldrh	r2, [r0, #8]
 1000c93e:	00db      	lsls	r3, r3, #3
@@ -24080,12 +24080,12 @@ Disassembly of section .text:
 1000c98a:	bdf8      	pop	{r3, r4, r5, r6, r7, pc}
 1000c98c:	8103      	strh	r3, [r0, #8]
 1000c98e:	e7d9      	b.n	1000c944 <usbd_rndis_eth_tx+0x1c>
-1000c990:	2000      	movs	r0, #0
-1000c992:	e7fa      	b.n	1000c98a <usbd_rndis_eth_tx+0x62>
-1000c994:	2006      	movs	r0, #6
-1000c996:	4240      	negs	r0, r0
-1000c998:	e7f7      	b.n	1000c98a <usbd_rndis_eth_tx+0x62>
-1000c99a:	46c0      	nop			; (mov r8, r8)
+1000c990:	2006      	movs	r0, #6
+1000c992:	4240      	negs	r0, r0
+1000c994:	e7f9      	b.n	1000c98a <usbd_rndis_eth_tx+0x62>
+1000c996:	2004      	movs	r0, #4
+1000c998:	4240      	negs	r0, r0
+1000c99a:	e7f6      	b.n	1000c98a <usbd_rndis_eth_tx+0x62>
 1000c99c:	200012b8 	.word	0x200012b8
 1000c9a0:	200013d8 	.word	0x200013d8
 1000c9a4:	200013b0 	.word	0x200013b0
