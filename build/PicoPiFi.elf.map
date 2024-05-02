@@ -2015,9 +2015,9 @@ Discarded input sections
  .bss           0x0000000000000000        0x0 libcherryusblib.a(usbd_cdc.c.obj)
  .data          0x0000000000000000        0x0 libcherryusblib.a(usbd_rndis.c.obj)
  .data          0x0000000000000000        0x0 libcherryusblib.a(usbd_core.c.obj)
- .text          0x0000000000000000        0x0 /tmp/ccDvtBYa.o
- .data          0x0000000000000000        0x0 /tmp/ccDvtBYa.o
- .bss           0x0000000000000000        0x0 /tmp/ccDvtBYa.o
+ .text          0x0000000000000000        0x0 /tmp/cctOclZk.o
+ .data          0x0000000000000000        0x0 /tmp/cctOclZk.o
+ .bss           0x0000000000000000        0x0 /tmp/cctOclZk.o
  .data          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .bss           0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .text          0x0000000000000000       0x10 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-atexit.o)
@@ -2234,11 +2234,11 @@ LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nof
 .boot2          0x0000000010000000      0x100
                 0x0000000010000000                __boot2_start__ = .
  *(.boot2)
- .boot2         0x0000000010000000      0x100 /tmp/ccDvtBYa.o
+ .boot2         0x0000000010000000      0x100 /tmp/cctOclZk.o
                 0x0000000010000100                __boot2_end__ = .
                 0x0000000000000001                ASSERT (((__boot2_end__ - __boot2_start__) == 0x100), ERROR: Pico second stage bootloader must be 256 bytes in size)
 
-.text           0x0000000010000100    0x14030
+.text           0x0000000010000100    0x140c0
                 0x0000000010000100                __logical_binary_start = .
  *(.vectors)
  .vectors       0x0000000010000100       0xd4 CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
@@ -3220,182 +3220,185 @@ LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nof
                 0x000000001000c8d8                usbd_rndis_eth_rx
                 0x000000001000c928                usbd_rndis_eth_tx
                 0x000000001000c9a8                usbd_rndis_init_intf
- .text          0x000000001000ca34     0x1338 libcherryusblib.a(usbd_core.c.obj)
-                0x000000001000ca34                usbd_event_ep0_in_complete_handler
-                0x000000001000d7c8                usbd_event_ep0_out_complete_handler
-                0x000000001000d834                usbd_event_connect_handler
-                0x000000001000d858                usbd_event_disconnect_handler
-                0x000000001000d87c                usbd_event_resume_handler
-                0x000000001000d8a0                usbd_event_suspend_handler
-                0x000000001000d8c4                usbd_event_reset_handler
-                0x000000001000d990                usbd_event_ep0_setup_complete_handler
-                0x000000001000daa4                usbd_event_ep_in_complete_handler
-                0x000000001000dad4                usbd_event_ep_out_complete_handler
-                0x000000001000db04                usbd_desc_register
-                0x000000001000db54                usbd_msosv1_desc_register
-                0x000000001000db6c                usbd_msosv2_desc_register
-                0x000000001000db84                usbd_bos_desc_register
-                0x000000001000db9c                usbd_add_interface
-                0x000000001000dbd0                usbd_add_endpoint
-                0x000000001000dc30                usb_device_is_configured
-                0x000000001000dc54                usbd_initialize
-                0x000000001000dcdc                usbd_deinitialize
- .text          0x000000001000dd6c       0x18 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-calloc.o)
-                0x000000001000dd6c                calloc
- .text          0x000000001000dd84       0x5c /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-callocr.o)
-                0x000000001000dd84                _calloc_r
- .text          0x000000001000dde0       0x28 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-malloc.o)
-                0x000000001000dde0                malloc
-                0x000000001000ddf4                free
- .text          0x000000001000de08      0x574 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-mallocr.o)
-                0x000000001000de08                _malloc_r
- .text          0x000000001000e37c        0x8 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-mlock.o)
-                0x000000001000e37c                __malloc_lock
-                0x000000001000e380                __malloc_unlock
- .text          0x000000001000e384      0x354 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-reallocr.o)
-                0x000000001000e384                _realloc_r
- .text          0x000000001000e6d8       0x24 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-sbrkr.o)
-                0x000000001000e6d8                _sbrk_r
- .text          0x000000001000e6fc       0xa0 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-sscanf.o)
-                0x000000001000e6fc                sscanf
-                0x000000001000e74c                _sscanf_r
- .text          0x000000001000e79c       0xa4 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-stdio.o)
-                0x000000001000e79c                __sread
-                0x000000001000e7c4                __seofread
-                0x000000001000e7c8                __swrite
-                0x000000001000e808                __sseek
-                0x000000001000e834                __sclose
- .text          0x000000001000e840       0x5c /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-strlen-stub.o)
-                0x000000001000e840                strlen
- .text          0x000000001000e89c       0x74 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-strncmp.o)
-                0x000000001000e89c                strncmp
- .text          0x000000001000e910      0x1b8 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-strtol.o)
-                0x000000001000ea54                _strtol_r
-                0x000000001000ea70                strtol_l
-                0x000000001000ea9c                strtol
- .text          0x000000001000eac8      0xf70 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-svfscanf.o)
-                0x000000001000eac8                __ssvfscanf_r
- .text          0x000000001000fa38       0x28 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-writer.o)
-                0x000000001000fa38                _write_r
- .text          0x000000001000fa60       0x24 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-closer.o)
-                0x000000001000fa60                _close_r
- .text          0x000000001000fa84        0xc /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-errno.o)
-                0x000000001000fa84                __errno
- .text          0x000000001000fa90      0x260 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-freer.o)
-                0x000000001000fa90                _malloc_trim_r
-                0x000000001000fb2c                _free_r
- .text          0x000000001000fcf0        0xc /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-iswspace.o)
-                0x000000001000fcf0                iswspace
- .text          0x000000001000fcfc       0x18 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-iswspace_l.o)
-                0x000000001000fcfc                iswspace_l
- .text          0x000000001000fd14       0x98 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-locale.o)
-                0x000000001000fd14                _setlocale_r
-                0x000000001000fd58                __locale_mb_cur_max
-                0x000000001000fd68                setlocale
- .text          0x000000001000fdac       0x14 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-localeconv.o)
-                0x000000001000fdac                __localeconv_l
-                0x000000001000fdb0                _localeconv_r
-                0x000000001000fdb8                localeconv
- .text          0x000000001000fdc0       0x28 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-lseekr.o)
-                0x000000001000fdc0                _lseek_r
- .text          0x000000001000fde8       0x9c /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-mbrtowc.o)
-                0x000000001000fde8                _mbrtowc_r
-                0x000000001000fe34                mbrtowc
- .text          0x000000001000fe84       0x44 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-mbtowc_r.o)
-                0x000000001000fe84                _mbtowc_r
-                0x000000001000fe9c                __ascii_mbtowc
- .text          0x000000001000fec8       0x28 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-readr.o)
-                0x000000001000fec8                _read_r
- .text          0x000000001000fef0       0x80 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-sccl.o)
-                0x000000001000fef0                __sccl
- .text          0x000000001000ff70        0x8 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-sf_nan.o)
-                0x000000001000ff70                nanf
- .text          0x000000001000ff78       0x88 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-strcmp.o)
-                0x000000001000ff78                strcmp
- .text          0x0000000010010000     0x1128 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-strtod.o)
-                0x0000000010010000                _strtod_l
-                0x0000000010010f80                _strtod_r
-                0x0000000010010f90                strtod_l
-                0x0000000010010fa8                strtod
-                0x0000000010010fc4                strtof_l
-                0x0000000010011074                strtof
- .text          0x0000000010011128      0x1d0 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-strtoll.o)
-                0x00000000100112c0                _strtoll_r
-                0x00000000100112c8                strtoll_l
-                0x00000000100112e0                strtoll
- .text          0x00000000100112f8      0x180 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-strtoul.o)
-                0x0000000010011440                _strtoul_r
-                0x0000000010011448                strtoul_l
-                0x0000000010011460                strtoul
- .text          0x0000000010011478      0x1f4 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-strtoull.o)
-                0x0000000010011634                _strtoull_r
-                0x000000001001163c                strtoull_l
-                0x0000000010011654                strtoull
- .text          0x000000001001166c      0xf10 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-svfiscanf.o)
-                0x000000001001166c                _sungetc_r
-                0x00000000100116f0                __ssrefill_r
-                0x0000000010011730                _sfread_r
-                0x00000000100117f4                __ssvfiscanf_r
- .text          0x000000001001257c      0x188 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-ungetc.o)
-                0x000000001001257c                __submore
-                0x0000000010012600                _ungetc_r
-                0x00000000100126ec                ungetc
- .text          0x0000000010012704       0x2c /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-wctomb_r.o)
-                0x0000000010012704                _wctomb_r
-                0x0000000010012714                __ascii_wctomb
- .text          0x0000000010012730      0x1c0 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-fflush.o)
-                0x0000000010012730                __sflush_r
-                0x0000000010012870                _fflush_r
-                0x000000001001289c                fflush
- .text          0x00000000100128f0      0x248 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-findfp.o)
-                0x00000000100128f4                _cleanup_r
-                0x00000000100129f0                __sfmoreglue
-                0x0000000010012a20                __sfp
-                0x0000000010012ad0                _cleanup
-                0x0000000010012ae8                __sinit
-                0x0000000010012af8                __sfp_lock_acquire
-                0x0000000010012afc                __sfp_lock_release
-                0x0000000010012b00                __sinit_lock_acquire
-                0x0000000010012b04                __sinit_lock_release
-                0x0000000010012b08                __fp_lock_all
-                0x0000000010012b20                __fp_unlock_all
- .text          0x0000000010012b38       0x88 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-fwalk.o)
-                0x0000000010012b38                _fwalk
-                0x0000000010012b78                _fwalk_reent
- .text          0x0000000010012bc0      0x670 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-gdtoa-gethex.o)
-                0x0000000010012c64                __gethex
- .text          0x0000000010013230      0x1fc /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-gdtoa-hexnan.o)
-                0x0000000010013230                __match
-                0x000000001001325c                __hexnan
- .text          0x000000001001342c      0xafc /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-mprec.o)
-                0x000000001001342c                _Balloc
-                0x000000001001347c                _Bfree
-                0x0000000010013490                __multadd
-                0x0000000010013538                __s2b
-                0x00000000100135e8                __hi0bits
-                0x0000000010013620                __lo0bits
-                0x000000001001367c                __i2b
-                0x00000000100136dc                __multiply
-                0x0000000010013880                __pow5mult
-                0x0000000010013958                __lshift
-                0x0000000010013a54                __mcmp
-                0x0000000010013a88                __mdiff
-                0x0000000010013c14                __ulp
-                0x0000000010013c5c                __b2d
-                0x0000000010013d24                __d2b
-                0x0000000010013dfc                __ratio
-                0x0000000010013e64                _mprec_log10
-                0x0000000010013e98                __copybits
-                0x0000000010013ed8                __any_on
- .text          0x0000000010013f28        0xc /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-s_nan.o)
-                0x0000000010013f28                nan
- .text          0x0000000010013f34       0xe8 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-fclose.o)
-                0x0000000010013fa4                _fclose_r
-                0x0000000010013fdc                fclose
+ .text          0x000000001000ca34     0x13c4 libcherryusblib.a(usbd_core.c.obj)
+                0x000000001000cb04                usbd_event_ep0_in_complete_handler
+                0x000000001000d794                usbd_event_ep0_out_complete_handler
+                0x000000001000d800                usbd_event_connect_handler
+                0x000000001000d824                usbd_event_disconnect_handler
+                0x000000001000d848                usbd_event_resume_handler
+                0x000000001000d86c                usbd_event_suspend_handler
+                0x000000001000d890                usbd_event_reset_handler
+                0x000000001000d95c                usbd_event_ep0_setup_complete_handler
+                0x000000001000da88                usbd_event_ep_in_complete_handler
+                0x000000001000dab8                usbd_event_ep_out_complete_handler
+                0x000000001000dae8                usbd_desc_register
+                0x000000001000db38                usbd_msosv1_desc_register
+                0x000000001000db50                usbd_msosv2_desc_register
+                0x000000001000db68                usbd_bos_desc_register
+                0x000000001000db80                usbd_add_interface
+                0x000000001000dbb4                usbd_add_endpoint
+                0x000000001000dc14                usbd_get_ep_mps
+                0x000000001000dc68                usbd_get_ep_mult
+                0x000000001000dcbc                usb_device_is_configured
+                0x000000001000dce0                usbd_initialize
+                0x000000001000dd68                usbd_deinitialize
+ .text          0x000000001000ddf8       0x18 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-calloc.o)
+                0x000000001000ddf8                calloc
+ .text          0x000000001000de10       0x5c /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-callocr.o)
+                0x000000001000de10                _calloc_r
+ .text          0x000000001000de6c       0x28 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-malloc.o)
+                0x000000001000de6c                malloc
+                0x000000001000de80                free
+ .text          0x000000001000de94      0x574 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-mallocr.o)
+                0x000000001000de94                _malloc_r
+ .text          0x000000001000e408        0x8 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-mlock.o)
+                0x000000001000e408                __malloc_lock
+                0x000000001000e40c                __malloc_unlock
+ .text          0x000000001000e410      0x354 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-reallocr.o)
+                0x000000001000e410                _realloc_r
+ .text          0x000000001000e764       0x24 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-sbrkr.o)
+                0x000000001000e764                _sbrk_r
+ .text          0x000000001000e788       0xa0 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-sscanf.o)
+                0x000000001000e788                sscanf
+                0x000000001000e7d8                _sscanf_r
+ .text          0x000000001000e828       0xa4 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-stdio.o)
+                0x000000001000e828                __sread
+                0x000000001000e850                __seofread
+                0x000000001000e854                __swrite
+                0x000000001000e894                __sseek
+                0x000000001000e8c0                __sclose
+ .text          0x000000001000e8cc       0x5c /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-strlen-stub.o)
+                0x000000001000e8cc                strlen
+ .text          0x000000001000e928       0x74 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-strncmp.o)
+                0x000000001000e928                strncmp
+ .text          0x000000001000e99c      0x1b8 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-strtol.o)
+                0x000000001000eae0                _strtol_r
+                0x000000001000eafc                strtol_l
+                0x000000001000eb28                strtol
+ .text          0x000000001000eb54      0xf70 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-svfscanf.o)
+                0x000000001000eb54                __ssvfscanf_r
+ .text          0x000000001000fac4       0x28 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-writer.o)
+                0x000000001000fac4                _write_r
+ .text          0x000000001000faec       0x24 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-closer.o)
+                0x000000001000faec                _close_r
+ .text          0x000000001000fb10        0xc /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-errno.o)
+                0x000000001000fb10                __errno
+ .text          0x000000001000fb1c      0x260 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-freer.o)
+                0x000000001000fb1c                _malloc_trim_r
+                0x000000001000fbb8                _free_r
+ .text          0x000000001000fd7c        0xc /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-iswspace.o)
+                0x000000001000fd7c                iswspace
+ .text          0x000000001000fd88       0x18 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-iswspace_l.o)
+                0x000000001000fd88                iswspace_l
+ .text          0x000000001000fda0       0x98 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-locale.o)
+                0x000000001000fda0                _setlocale_r
+                0x000000001000fde4                __locale_mb_cur_max
+                0x000000001000fdf4                setlocale
+ .text          0x000000001000fe38       0x14 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-localeconv.o)
+                0x000000001000fe38                __localeconv_l
+                0x000000001000fe3c                _localeconv_r
+                0x000000001000fe44                localeconv
+ .text          0x000000001000fe4c       0x28 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-lseekr.o)
+                0x000000001000fe4c                _lseek_r
+ .text          0x000000001000fe74       0x9c /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-mbrtowc.o)
+                0x000000001000fe74                _mbrtowc_r
+                0x000000001000fec0                mbrtowc
+ .text          0x000000001000ff10       0x44 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-mbtowc_r.o)
+                0x000000001000ff10                _mbtowc_r
+                0x000000001000ff28                __ascii_mbtowc
+ .text          0x000000001000ff54       0x28 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-readr.o)
+                0x000000001000ff54                _read_r
+ .text          0x000000001000ff7c       0x80 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-sccl.o)
+                0x000000001000ff7c                __sccl
+ .text          0x000000001000fffc        0x8 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-sf_nan.o)
+                0x000000001000fffc                nanf
+ .text          0x0000000010010004       0x88 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-strcmp.o)
+                0x0000000010010004                strcmp
+ .text          0x000000001001008c     0x1128 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-strtod.o)
+                0x000000001001008c                _strtod_l
+                0x000000001001100c                _strtod_r
+                0x000000001001101c                strtod_l
+                0x0000000010011034                strtod
+                0x0000000010011050                strtof_l
+                0x0000000010011100                strtof
+ .text          0x00000000100111b4      0x1d0 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-strtoll.o)
+                0x000000001001134c                _strtoll_r
+                0x0000000010011354                strtoll_l
+                0x000000001001136c                strtoll
+ .text          0x0000000010011384      0x180 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-strtoul.o)
+                0x00000000100114cc                _strtoul_r
+                0x00000000100114d4                strtoul_l
+                0x00000000100114ec                strtoul
+ .text          0x0000000010011504      0x1f4 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-strtoull.o)
+                0x00000000100116c0                _strtoull_r
+                0x00000000100116c8                strtoull_l
+                0x00000000100116e0                strtoull
+ .text          0x00000000100116f8      0xf10 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-svfiscanf.o)
+                0x00000000100116f8                _sungetc_r
+                0x000000001001177c                __ssrefill_r
+                0x00000000100117bc                _sfread_r
+                0x0000000010011880                __ssvfiscanf_r
+ .text          0x0000000010012608      0x188 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-ungetc.o)
+                0x0000000010012608                __submore
+                0x000000001001268c                _ungetc_r
+                0x0000000010012778                ungetc
+ .text          0x0000000010012790       0x2c /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-wctomb_r.o)
+                0x0000000010012790                _wctomb_r
+                0x00000000100127a0                __ascii_wctomb
+ .text          0x00000000100127bc      0x1c0 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-fflush.o)
+                0x00000000100127bc                __sflush_r
+                0x00000000100128fc                _fflush_r
+                0x0000000010012928                fflush
+ .text          0x000000001001297c      0x248 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-findfp.o)
+                0x0000000010012980                _cleanup_r
+                0x0000000010012a7c                __sfmoreglue
+                0x0000000010012aac                __sfp
+                0x0000000010012b5c                _cleanup
+                0x0000000010012b74                __sinit
+                0x0000000010012b84                __sfp_lock_acquire
+                0x0000000010012b88                __sfp_lock_release
+                0x0000000010012b8c                __sinit_lock_acquire
+                0x0000000010012b90                __sinit_lock_release
+                0x0000000010012b94                __fp_lock_all
+                0x0000000010012bac                __fp_unlock_all
+ .text          0x0000000010012bc4       0x88 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-fwalk.o)
+                0x0000000010012bc4                _fwalk
+                0x0000000010012c04                _fwalk_reent
+ .text          0x0000000010012c4c      0x670 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-gdtoa-gethex.o)
+                0x0000000010012cf0                __gethex
+ .text          0x00000000100132bc      0x1fc /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-gdtoa-hexnan.o)
+                0x00000000100132bc                __match
+                0x00000000100132e8                __hexnan
+ .text          0x00000000100134b8      0xafc /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-mprec.o)
+                0x00000000100134b8                _Balloc
+                0x0000000010013508                _Bfree
+                0x000000001001351c                __multadd
+                0x00000000100135c4                __s2b
+                0x0000000010013674                __hi0bits
+                0x00000000100136ac                __lo0bits
+                0x0000000010013708                __i2b
+                0x0000000010013768                __multiply
+                0x000000001001390c                __pow5mult
+                0x00000000100139e4                __lshift
+                0x0000000010013ae0                __mcmp
+                0x0000000010013b14                __mdiff
+                0x0000000010013ca0                __ulp
+                0x0000000010013ce8                __b2d
+                0x0000000010013db0                __d2b
+                0x0000000010013e88                __ratio
+                0x0000000010013ef0                _mprec_log10
+                0x0000000010013f24                __copybits
+                0x0000000010013f64                __any_on
+ .text          0x0000000010013fb4        0xc /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-s_nan.o)
+                0x0000000010013fb4                nan
+ .text          0x0000000010013fc0       0xe8 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-fclose.o)
+                0x0000000010014030                _fclose_r
+                0x0000000010014068                fclose
  *(.fini)
- .fini          0x000000001001401c        0x4 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crti.o
-                0x000000001001401c                _fini
- .fini.__stub   0x0000000010014020      0x110 linker stubs
+ .fini          0x00000000100140a8        0x4 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crti.o
+                0x00000000100140a8                _fini
+ *fill*         0x00000000100140ac        0x4 
+ .fini.__stub   0x00000000100140b0      0x110 linker stubs
  *crtbegin.o(.ctors)
  *crtbegin?.o(.ctors)
  *(EXCLUDE_FILE(*crtend.o *crtend?.o) .ctors)
@@ -3407,329 +3410,329 @@ LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nof
  *(SORT_BY_NAME(.dtors.*))
  *(.dtors)
  *(.eh_frame*)
- .eh_frame      0x0000000010014130        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
-                0x0000000010014130                . = ALIGN (0x4)
+ .eh_frame      0x00000000100141c0        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
+                0x00000000100141c0                . = ALIGN (0x4)
 
-.glue_7         0x0000000010014130        0x0
- .glue_7        0x0000000010014130        0x0 linker stubs
+.glue_7         0x00000000100141c0        0x0
+ .glue_7        0x00000000100141c0        0x0 linker stubs
 
-.glue_7t        0x0000000010014130        0x0
- .glue_7t       0x0000000010014130        0x0 linker stubs
+.glue_7t        0x00000000100141c0        0x0
+ .glue_7t       0x00000000100141c0        0x0 linker stubs
 
-.vfp11_veneer   0x0000000010014130        0x0
- .vfp11_veneer  0x0000000010014130        0x0 linker stubs
+.vfp11_veneer   0x00000000100141c0        0x0
+ .vfp11_veneer  0x00000000100141c0        0x0 linker stubs
 
-.v4_bx          0x0000000010014130        0x0
- .v4_bx         0x0000000010014130        0x0 linker stubs
+.v4_bx          0x00000000100141c0        0x0
+ .v4_bx         0x00000000100141c0        0x0 linker stubs
 
-.iplt           0x0000000010014130        0x0
- .iplt          0x0000000010014130        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
+.iplt           0x00000000100141c0        0x0
+ .iplt          0x00000000100141c0        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
 
-.rodata         0x0000000010014130    0x394e8
+.rodata         0x00000000100141c0    0x394d0
  *(EXCLUDE_FILE(*libm.a: *libc.a:*lib_a-mem*.o *libgcc.a:) .rodata*)
  .rodata.core1.str1.4
-                0x0000000010014130       0x21 CMakeFiles/PicoPiFi.dir/src/main.c.obj
- *fill*         0x0000000010014151        0x3 
+                0x00000000100141c0       0x21 CMakeFiles/PicoPiFi.dir/src/main.c.obj
+ *fill*         0x00000000100141e1        0x3 
  .rodata.scan_result.str1.4
-                0x0000000010014154       0x53 CMakeFiles/PicoPiFi.dir/src/main.c.obj
- *fill*         0x00000000100141a7        0x1 
+                0x00000000100141e4       0x53 CMakeFiles/PicoPiFi.dir/src/main.c.obj
+ *fill*         0x0000000010014237        0x1 
  .rodata.main.str1.4
-                0x00000000100141a8       0x32 CMakeFiles/PicoPiFi.dir/src/main.c.obj
- *fill*         0x00000000100141da        0x2 
- .rodata        0x00000000100141dc        0x8 CMakeFiles/PicoPiFi.dir/src/main.c.obj
+                0x0000000010014238       0x32 CMakeFiles/PicoPiFi.dir/src/main.c.obj
+ *fill*         0x000000001001426a        0x2 
+ .rodata        0x000000001001426c        0x8 CMakeFiles/PicoPiFi.dir/src/main.c.obj
  .rodata.cdc_descriptor
-                0x00000000100141e4      0x19a CMakeFiles/PicoPiFi.dir/src/cdc_rndis_device.c.obj
- *fill*         0x000000001001437e        0x2 
+                0x0000000010014274      0x19a CMakeFiles/PicoPiFi.dir/src/cdc_rndis_device.c.obj
+ *fill*         0x000000001001440e        0x2 
  .rodata.user_irq_claim_unused.str1.4
-                0x0000000010014380       0x1b CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- *fill*         0x000000001001439b        0x5 
+                0x0000000010014410       0x1b CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ *fill*         0x000000001001442b        0x5 
  .rodata.at_the_end_of_time
-                0x00000000100143a0        0x8 CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_time/time.c.obj
-                0x00000000100143a0                at_the_end_of_time
+                0x0000000010014430        0x8 CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_time/time.c.obj
+                0x0000000010014430                at_the_end_of_time
  .rodata.nil_time
-                0x00000000100143a8        0x8 CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_time/time.c.obj
-                0x00000000100143a8                nil_time
+                0x0000000010014438        0x8 CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_time/time.c.obj
+                0x0000000010014438                nil_time
  .rodata.hardware_alarm_claim.str1.4
-                0x00000000100143b0       0x22 CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
- *fill*         0x00000000100143d2        0x2 
+                0x0000000010014440       0x22 CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+ *fill*         0x0000000010014462        0x2 
  .rodata.hardware_alarm_claim_unused.str1.4
-                0x00000000100143d4       0x14 CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x0000000010014464       0x14 CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
  .rodata.__assert_func.str1.4
-                0x00000000100143e8       0x3f CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x0000000010014478       0x3f CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
                                          0x43 (size before relaxing)
- *fill*         0x0000000010014427        0x1 
+ *fill*         0x00000000100144b7        0x1 
  .rodata.panic.str1.4
-                0x0000000010014428       0x10 CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x00000000100144b8       0x10 CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
                                          0x12 (size before relaxing)
  .rodata.hard_assertion_failure.str1.4
-                0x0000000010014438        0xc CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x00000000100144c8        0xc CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
  .rodata._ftoa.str1.4
-                0x0000000010014444       0x15 CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- *fill*         0x0000000010014459        0x3 
+                0x00000000100144d4       0x15 CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ *fill*         0x00000000100144e9        0x3 
  .rodata._vsnprintf
-                0x000000001001445c      0x1e0 CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- *fill*         0x000000001001463c        0x4 
+                0x00000000100144ec      0x1e0 CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ *fill*         0x00000000100146cc        0x4 
  .rodata.pow10.0
-                0x0000000010014640       0x50 CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x00000000100146d0       0x50 CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .rodata.missing_double_func_shim.str1.4
-                0x0000000010014690       0x18 CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+                0x0000000010014720       0x18 CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
  .rodata.missing_float_func_shim.str1.4
-                0x00000000100146a8        0x1 CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+                0x0000000010014738        0x1 CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
  .rodata.__wrap_malloc.str1.4
-                0x00000000100146a8        0xe CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
- *fill*         0x00000000100146b6        0x2 
+                0x0000000010014738        0xe CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
+ *fill*         0x0000000010014746        0x2 
  .rodata.str1.4
-                0x00000000100146b8       0x40 CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x0000000010014748       0x40 CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .rodata.__bi_44
-                0x00000000100146f8        0xc CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x0000000010014788        0xc CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .rodata.__bi_75
-                0x0000000010014704        0xc CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x0000000010014794        0xc CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .rodata.__bi_81
-                0x0000000010014710        0xc CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x00000000100147a0        0xc CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .rodata.crlf_str.0
-                0x000000001001471c        0x2 CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
- *fill*         0x000000001001471e        0x2 
+                0x00000000100147ac        0x2 CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+ *fill*         0x00000000100147ae        0x2 
  .rodata.mem_free.str1.4
-                0x0000000010014720       0xfe CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/mem.c.obj
- *fill*         0x000000001001481e        0x2 
+                0x00000000100147b0       0xfe CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/mem.c.obj
+ *fill*         0x00000000100148ae        0x2 
  .rodata.mem_trim.str1.4
-                0x0000000010014820       0x49 CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/mem.c.obj
- *fill*         0x0000000010014869        0x3 
+                0x00000000100148b0       0x49 CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/mem.c.obj
+ *fill*         0x00000000100148f9        0x3 
  .rodata.mem_malloc.str1.4
-                0x000000001001486c       0x83 CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/mem.c.obj
- *fill*         0x00000000100148ef        0x1 
+                0x00000000100148fc       0x83 CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/mem.c.obj
+ *fill*         0x000000001001497f        0x1 
  .rodata.memp_malloc_pool.str1.4
-                0x00000000100148f0       0x37 CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/memp.c.obj
- *fill*         0x0000000010014927        0x1 
+                0x0000000010014980       0x37 CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/memp.c.obj
+ *fill*         0x00000000100149b7        0x1 
  .rodata.memp_free_pool.str1.4
-                0x0000000010014928       0x20 CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/memp.c.obj
+                0x00000000100149b8       0x20 CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/memp.c.obj
  .rodata.memp_FRAG_PBUF
-                0x0000000010014948       0x10 CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/memp.c.obj
-                0x0000000010014948                memp_FRAG_PBUF
+                0x00000000100149d8       0x10 CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/memp.c.obj
+                0x00000000100149d8                memp_FRAG_PBUF
  .rodata.memp_PBUF
-                0x0000000010014958       0x10 CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/memp.c.obj
-                0x0000000010014958                memp_PBUF
+                0x00000000100149e8       0x10 CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/memp.c.obj
+                0x00000000100149e8                memp_PBUF
  .rodata.memp_PBUF_POOL
-                0x0000000010014968       0x10 CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/memp.c.obj
-                0x0000000010014968                memp_PBUF_POOL
+                0x00000000100149f8       0x10 CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/memp.c.obj
+                0x00000000100149f8                memp_PBUF_POOL
  .rodata.memp_REASSDATA
-                0x0000000010014978       0x10 CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/memp.c.obj
-                0x0000000010014978                memp_REASSDATA
+                0x0000000010014a08       0x10 CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/memp.c.obj
+                0x0000000010014a08                memp_REASSDATA
  .rodata.memp_SYS_TIMEOUT
-                0x0000000010014988       0x10 CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/memp.c.obj
-                0x0000000010014988                memp_SYS_TIMEOUT
+                0x0000000010014a18       0x10 CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/memp.c.obj
+                0x0000000010014a18                memp_SYS_TIMEOUT
  .rodata.memp_UDP_PCB
-                0x0000000010014998       0x10 CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/memp.c.obj
-                0x0000000010014998                memp_UDP_PCB
+                0x0000000010014a28       0x10 CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/memp.c.obj
+                0x0000000010014a28                memp_UDP_PCB
  .rodata.memp_pools
-                0x00000000100149a8       0x18 CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/memp.c.obj
-                0x00000000100149a8                memp_pools
+                0x0000000010014a38       0x18 CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/memp.c.obj
+                0x0000000010014a38                memp_pools
  .rodata.pbuf_free.part.0.str1.4
-                0x00000000100149c0       0x4e CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/pbuf.c.obj
- *fill*         0x0000000010014a0e        0x2 
+                0x0000000010014a50       0x4e CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/pbuf.c.obj
+ *fill*         0x0000000010014a9e        0x2 
  .rodata.pbuf_alloc.str1.4
-                0x0000000010014a10       0x1b CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/pbuf.c.obj
- *fill*         0x0000000010014a2b        0x1 
+                0x0000000010014aa0       0x1b CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/pbuf.c.obj
+ *fill*         0x0000000010014abb        0x1 
  .rodata.pbuf_add_header.str1.4
-                0x0000000010014a2c        0xa CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/pbuf.c.obj
- *fill*         0x0000000010014a36        0x2 
+                0x0000000010014abc        0xa CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/pbuf.c.obj
+ *fill*         0x0000000010014ac6        0x2 
  .rodata.pbuf_take.str1.4
-                0x0000000010014a38       0x2e CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/pbuf.c.obj
- *fill*         0x0000000010014a66        0x2 
+                0x0000000010014ac8       0x2e CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/pbuf.c.obj
+ *fill*         0x0000000010014af6        0x2 
  .rodata.sys_timeout_abs.str1.4
-                0x0000000010014a68       0x3d CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/timeouts.c.obj
- *fill*         0x0000000010014aa5        0x3 
+                0x0000000010014af8       0x3d CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/timeouts.c.obj
+ *fill*         0x0000000010014b35        0x3 
  .rodata.sys_timeouts_init.str1.4
-                0x0000000010014aa8       0x36 CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/timeouts.c.obj
- *fill*         0x0000000010014ade        0x2 
+                0x0000000010014b38       0x36 CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/timeouts.c.obj
+ *fill*         0x0000000010014b6e        0x2 
  .rodata.lwip_cyclic_timers
-                0x0000000010014ae0       0x10 CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/timeouts.c.obj
-                0x0000000010014ae0                lwip_cyclic_timers
+                0x0000000010014b70       0x10 CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/timeouts.c.obj
+                0x0000000010014b70                lwip_cyclic_timers
  .rodata.etharp_raw.str1.4
-                0x0000000010014af0       0x85 CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.obj
- *fill*         0x0000000010014b75        0x3 
+                0x0000000010014b80       0x85 CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.obj
+ *fill*         0x0000000010014c05        0x3 
  .rodata.ip_reass_free_complete_datagram.str1.4
-                0x0000000010014b78       0x7e CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.obj
- *fill*         0x0000000010014bf6        0x2 
+                0x0000000010014c08       0x7e CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.obj
+ *fill*         0x0000000010014c86        0x2 
  .rodata.ethernet_output.str1.4
-                0x0000000010014bf8       0x31 CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ethernet.c.obj
- *fill*         0x0000000010014c29        0x3 
+                0x0000000010014c88       0x31 CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ethernet.c.obj
+ *fill*         0x0000000010014cb9        0x3 
  .rodata.ethbroadcast
-                0x0000000010014c2c        0x6 CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ethernet.c.obj
-                0x0000000010014c2c                ethbroadcast
- *fill*         0x0000000010014c32        0x2 
+                0x0000000010014cbc        0x6 CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ethernet.c.obj
+                0x0000000010014cbc                ethbroadcast
+ *fill*         0x0000000010014cc2        0x2 
  .rodata.ethzero
-                0x0000000010014c34        0x6 CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ethernet.c.obj
-                0x0000000010014c34                ethzero
- *fill*         0x0000000010014c3a        0x2 
+                0x0000000010014cc4        0x6 CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ethernet.c.obj
+                0x0000000010014cc4                ethzero
+ *fill*         0x0000000010014cca        0x2 
  .rodata.cyw43_read_bytes.str1.4
-                0x0000000010014c3c       0x1a CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj
+                0x0000000010014ccc       0x1a CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj
  .rodata.cyw43_write_bytes.str1.4
-                0x0000000010014c56       0x1a CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj
+                0x0000000010014ce6       0x1a CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj
                                           0xd (size before relaxing)
- *fill*         0x0000000010014c56        0x2 
+ *fill*         0x0000000010014ce6        0x2 
  .rodata.spi_gap01_sample0_program
-                0x0000000010014c58        0x6 CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj
- *fill*         0x0000000010014c5e        0x2 
+                0x0000000010014ce8        0x6 CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj
+ *fill*         0x0000000010014cee        0x2 
  .rodata.spi_gap01_sample0_program_instructions
-                0x0000000010014c60        0xc CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj
+                0x0000000010014cf0        0xc CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj
  .rodata.cyw43_kso_set.str1.4
-                0x0000000010014c6c       0x23 CMakeFiles/PicoPiFi.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj
- *fill*         0x0000000010014c8f        0x1 
+                0x0000000010014cfc       0x23 CMakeFiles/PicoPiFi.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj
+ *fill*         0x0000000010014d1f        0x1 
  .rodata.cyw43_ll_sdpcm_poll_device.str1.4
-                0x0000000010014c90       0x55 CMakeFiles/PicoPiFi.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj
- *fill*         0x0000000010014ce5        0x3 
+                0x0000000010014d20       0x55 CMakeFiles/PicoPiFi.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj
+ *fill*         0x0000000010014d75        0x3 
  .rodata.cyw43_sdpcm_send_common.str1.4
-                0x0000000010014ce8       0x22 CMakeFiles/PicoPiFi.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj
- *fill*         0x0000000010014d0a        0x2 
+                0x0000000010014d78       0x22 CMakeFiles/PicoPiFi.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj
+ *fill*         0x0000000010014d9a        0x2 
  .rodata.cyw43_do_ioctl.part.0.str1.4
-                0x0000000010014d0c       0x53 CMakeFiles/PicoPiFi.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj
- *fill*         0x0000000010014d5f        0x1 
+                0x0000000010014d9c       0x53 CMakeFiles/PicoPiFi.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj
+ *fill*         0x0000000010014def        0x1 
  .rodata.reset_device_core.constprop.0.str1.4
-                0x0000000010014d60       0x1a CMakeFiles/PicoPiFi.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj
- *fill*         0x0000000010014d7a        0x2 
+                0x0000000010014df0       0x1a CMakeFiles/PicoPiFi.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj
+ *fill*         0x0000000010014e0a        0x2 
  .rodata.cyw43_ll_wifi_on.str1.4
-                0x0000000010014d7c       0x52 CMakeFiles/PicoPiFi.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj
- *fill*         0x0000000010014dce        0x2 
+                0x0000000010014e0c       0x52 CMakeFiles/PicoPiFi.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj
+ *fill*         0x0000000010014e5e        0x2 
  .rodata.cyw43_ll_bus_init.str1.4
-                0x0000000010014dd0       0xea CMakeFiles/PicoPiFi.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj
- *fill*         0x0000000010014eba        0x2 
+                0x0000000010014e60       0xea CMakeFiles/PicoPiFi.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj
+ *fill*         0x0000000010014f4a        0x2 
  .rodata.cyw43_ll_wifi_pm.str1.4
-                0x0000000010014ebc       0x35 CMakeFiles/PicoPiFi.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj
- *fill*         0x0000000010014ef1        0x3 
+                0x0000000010014f4c       0x35 CMakeFiles/PicoPiFi.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj
+ *fill*         0x0000000010014f81        0x3 
  .rodata.cyw43_ll_wifi_scan.str1.4
-                0x0000000010014ef4        0x6 CMakeFiles/PicoPiFi.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj
- *fill*         0x0000000010014efa        0x2 
+                0x0000000010014f84        0x6 CMakeFiles/PicoPiFi.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj
+ *fill*         0x0000000010014f8a        0x2 
  .rodata.cyw43_ll_wifi_join.str1.4
-                0x0000000010014efc       0x41 CMakeFiles/PicoPiFi.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj
- *fill*         0x0000000010014f3d        0x3 
+                0x0000000010014f8c       0x41 CMakeFiles/PicoPiFi.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj
+ *fill*         0x0000000010014fcd        0x3 
  .rodata.cyw43_ll_wifi_ap_init.str1.4
-                0x0000000010014f40       0x31 CMakeFiles/PicoPiFi.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj
- *fill*         0x0000000010014f71        0x3 
+                0x0000000010014fd0       0x31 CMakeFiles/PicoPiFi.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj
+ *fill*         0x0000000010015001        0x3 
  .rodata.cyw43_ll_wifi_ap_set_up.str1.4
-                0x0000000010014f74        0x4 CMakeFiles/PicoPiFi.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj
+                0x0000000010015004        0x4 CMakeFiles/PicoPiFi.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj
  .rodata.cyw43_ll_gpio_set.str1.4
-                0x0000000010014f78        0x8 CMakeFiles/PicoPiFi.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj
- .rodata        0x0000000010014f80       0x72 CMakeFiles/PicoPiFi.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj
- *fill*         0x0000000010014ff2        0x2 
+                0x0000000010015008        0x8 CMakeFiles/PicoPiFi.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj
+ .rodata        0x0000000010015010       0x72 CMakeFiles/PicoPiFi.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj
+ *fill*         0x0000000010015082        0x2 
  .rodata.w43439A0_7_95_49_00_combined
-                0x0000000010014ff4    0x36fd8 CMakeFiles/PicoPiFi.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj
+                0x0000000010015084    0x36fd8 CMakeFiles/PicoPiFi.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj
  .rodata.wifi_nvram_4343
-                0x000000001004bfcc      0x2e7 CMakeFiles/PicoPiFi.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj
- *fill*         0x000000001004c2b3        0x1 
+                0x000000001004c05c      0x2e7 CMakeFiles/PicoPiFi.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj
+ *fill*         0x000000001004c343        0x1 
  .rodata.cyw43_cb_process_async_event.str1.4
-                0x000000001004c2b4       0x24 CMakeFiles/PicoPiFi.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj
+                0x000000001004c344       0x24 CMakeFiles/PicoPiFi.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj
                                          0x28 (size before relaxing)
  .rodata.str1.4
-                0x000000001004c2d8       0x9e CMakeFiles/PicoPiFi.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj
- *fill*         0x000000001004c376        0x2 
+                0x000000001004c368       0x9e CMakeFiles/PicoPiFi.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj
+ *fill*         0x000000001004c406        0x2 
  .rodata.cyw43_async_event_name_table
-                0x000000001004c378      0x164 CMakeFiles/PicoPiFi.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj
+                0x000000001004c408      0x164 CMakeFiles/PicoPiFi.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj
  .rodata.pio_claim_unused_sm.str1.4
-                0x000000001004c4dc       0x24 CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
+                0x000000001004c56c       0x24 CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
  .rodata.pio_add_program.str1.4
-                0x000000001004c500       0x11 CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
- *fill*         0x000000001004c511        0x3 
+                0x000000001004c590       0x11 CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
+ *fill*         0x000000001004c5a1        0x3 
  .rodata.dma_claim_unused_channel.str1.4
-                0x000000001004c514       0x1e CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj
- *fill*         0x000000001004c532        0x2 
+                0x000000001004c5a4       0x1e CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj
+ *fill*         0x000000001004c5c2        0x2 
  .rodata.async_context_threadsafe_background_lock_check.str1.4
-                0x000000001004c534       0x20 CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj
+                0x000000001004c5c4       0x20 CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj
  .rodata.template
-                0x000000001004c554       0x38 CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj
+                0x000000001004c5e4       0x38 CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj
  .rodata.str1.4
-                0x000000001004c58c       0xbc libcherryusblib.a(usb_dc_rp2040.c.obj)
+                0x000000001004c61c       0xbc libcherryusblib.a(usb_dc_rp2040.c.obj)
  .rodata.str1.4
-                0x000000001004c648       0x3e libcherryusblib.a(usbd_cdc.c.obj)
+                0x000000001004c6d8       0x3e libcherryusblib.a(usbd_cdc.c.obj)
                                          0x5e (size before relaxing)
- *fill*         0x000000001004c686        0x2 
+ *fill*         0x000000001004c716        0x2 
  .rodata.str1.4
-                0x000000001004c688       0x88 libcherryusblib.a(usbd_rndis.c.obj)
+                0x000000001004c718       0x88 libcherryusblib.a(usbd_rndis.c.obj)
                                          0xa0 (size before relaxing)
- .rodata        0x000000001004c710      0x100 libcherryusblib.a(usbd_rndis.c.obj)
-                0x000000001004c79c                oid_supported_list
+ .rodata        0x000000001004c7a0      0x100 libcherryusblib.a(usbd_rndis.c.obj)
+                0x000000001004c82c                oid_supported_list
  .rodata.str1.4
-                0x000000001004c810      0x23e libcherryusblib.a(usbd_core.c.obj)
-                                        0x276 (size before relaxing)
- *fill*         0x000000001004ca4e        0x2 
- .rodata        0x000000001004ca50       0x28 libcherryusblib.a(usbd_core.c.obj)
- .rodata        0x000000001004ca78      0x101 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-ctype_.o)
-                0x000000001004ca78                _ctype_
- *fill*         0x000000001004cb79        0x3 
- .rodata        0x000000001004cb7c        0x4 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-impure.o)
-                0x000000001004cb7c                _global_impure_ptr
+                0x000000001004c8a0      0x22a libcherryusblib.a(usbd_core.c.obj)
+                                        0x252 (size before relaxing)
+ *fill*         0x000000001004caca        0x2 
+ .rodata        0x000000001004cacc       0x28 libcherryusblib.a(usbd_core.c.obj)
+ .rodata        0x000000001004caf4      0x101 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-ctype_.o)
+                0x000000001004caf4                _ctype_
+ *fill*         0x000000001004cbf5        0x3 
+ .rodata        0x000000001004cbf8        0x4 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-impure.o)
+                0x000000001004cbf8                _global_impure_ptr
  .rodata.str1.4
-                0x000000001004cb80        0x5 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-svfscanf.o)
+                0x000000001004cbfc        0x5 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-svfscanf.o)
                                           0x9 (size before relaxing)
- *fill*         0x000000001004cb85        0x3 
- .rodata        0x000000001004cb88      0x3e6 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-svfscanf.o)
- *fill*         0x000000001004cf6e        0x2 
+ *fill*         0x000000001004cc01        0x3 
+ .rodata        0x000000001004cc04      0x3e6 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-svfscanf.o)
+ *fill*         0x000000001004cfea        0x2 
  .rodata.str1.4
-                0x000000001004cf70        0xa /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-locale.o)
+                0x000000001004cfec        0xa /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-locale.o)
                                          0x12 (size before relaxing)
  .rodata.str1.4
-                0x000000001004cf7a        0x1 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-mbrtowc.o)
- *fill*         0x000000001004cf7a        0x2 
+                0x000000001004cff6        0x1 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-mbrtowc.o)
+ *fill*         0x000000001004cff6        0x2 
  .rodata.str1.4
-                0x000000001004cf7c        0xf /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-strtod.o)
+                0x000000001004cff8        0xf /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-strtod.o)
                                          0x11 (size before relaxing)
- *fill*         0x000000001004cf8b        0x5 
- .rodata        0x000000001004cf90      0x120 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-strtod.o)
- .rodata        0x000000001004d0b0      0x2aa /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-svfiscanf.o)
- *fill*         0x000000001004d35a        0x2 
+ *fill*         0x000000001004d007        0x1 
+ .rodata        0x000000001004d008      0x120 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-strtod.o)
+ .rodata        0x000000001004d128      0x2aa /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-svfiscanf.o)
+ *fill*         0x000000001004d3d2        0x2 
  .rodata.str1.4
-                0x000000001004d35c       0x4e /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-gdtoa-gethex.o)
- *fill*         0x000000001004d3aa        0x2 
- .rodata        0x000000001004d3ac      0x100 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-gdtoa-gethex.o)
-                0x000000001004d3ac                __hexdig
+                0x000000001004d3d4       0x4e /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-gdtoa-gethex.o)
+ *fill*         0x000000001004d422        0x2 
+ .rodata        0x000000001004d424      0x100 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-gdtoa-gethex.o)
+                0x000000001004d424                __hexdig
  .rodata.str1.4
-                0x000000001004d4ac        0x5 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-lnumeric.o)
- .rodata        0x000000001004d4ac        0xc /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-lnumeric.o)
-                0x000000001004d4ac                _C_numeric_locale
+                0x000000001004d524        0x5 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-lnumeric.o)
+ .rodata        0x000000001004d524        0xc /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-lnumeric.o)
+                0x000000001004d524                _C_numeric_locale
  .rodata.str1.4
-                0x000000001004d4b8       0x33 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-mprec.o)
+                0x000000001004d530       0x33 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-mprec.o)
                                          0x47 (size before relaxing)
- *fill*         0x000000001004d4eb        0x5 
- .rodata        0x000000001004d4f0      0x128 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-mprec.o)
-                0x000000001004d500                __mprec_tinytens
-                0x000000001004d528                __mprec_bigtens
-                0x000000001004d550                __mprec_tens
-                0x000000001004d618                . = ALIGN (0x4)
+ *fill*         0x000000001004d563        0x5 
+ .rodata        0x000000001004d568      0x128 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-mprec.o)
+                0x000000001004d578                __mprec_tinytens
+                0x000000001004d5a0                __mprec_bigtens
+                0x000000001004d5c8                __mprec_tens
+                0x000000001004d690                . = ALIGN (0x4)
  *(SORT_BY_ALIGNMENT(SORT_BY_NAME(.flashdata*)))
-                0x000000001004d618                . = ALIGN (0x4)
+                0x000000001004d690                . = ALIGN (0x4)
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x000000001004d618                __exidx_start = .
+                0x000000001004d690                __exidx_start = .
 
 .ARM.exidx
  *(.ARM.exidx* .gnu.linkonce.armexidx.*)
-                0x000000001004d618                __exidx_end = .
-                0x000000001004d618                . = ALIGN (0x4)
-                0x000000001004d618                __binary_info_start = .
+                0x000000001004d690                __exidx_end = .
+                0x000000001004d690                . = ALIGN (0x4)
+                0x000000001004d690                __binary_info_start = .
 
-.binary_info    0x000000001004d618       0x1c
+.binary_info    0x000000001004d690       0x1c
  *(.binary_info.keep.*)
  .binary_info.keep.__bi_ptr22
-                0x000000001004d618        0x4 CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x000000001004d690        0x4 CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr30
-                0x000000001004d61c        0x4 CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x000000001004d694        0x4 CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr38
-                0x000000001004d620        0x4 CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x000000001004d698        0x4 CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr44
-                0x000000001004d624        0x4 CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x000000001004d69c        0x4 CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr50
-                0x000000001004d628        0x4 CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x000000001004d6a0        0x4 CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr75
-                0x000000001004d62c        0x4 CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x000000001004d6a4        0x4 CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr81
-                0x000000001004d630        0x4 CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x000000001004d6a8        0x4 CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  *(.binary_info.*)
-                0x000000001004d634                __binary_info_end = .
+                0x000000001004d6ac                __binary_info_end = .
 
-.rel.dyn        0x000000001004d634        0x0
- .rel.iplt      0x000000001004d634        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
-                0x000000001004d634                . = ALIGN (0x4)
+.rel.dyn        0x000000001004d6ac        0x0
+ .rel.iplt      0x000000001004d6ac        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
+                0x000000001004d6ac                . = ALIGN (0x4)
 
 .ram_vector_table
                 0x0000000020000000       0xc0
@@ -3738,7 +3741,7 @@ LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nof
                 0x0000000020000000       0xc0 CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
                 0x0000000020000000                ram_vector_table
 
-.data           0x00000000200000c0     0x11f8 load address 0x000000001004d634
+.data           0x00000000200000c0     0x11f8 load address 0x000000001004d6ac
                 0x00000000200000c0                __data_start__ = .
  *(vtable)
  *(.time_critical*)
@@ -3902,36 +3905,36 @@ LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nof
  *(.jcr)
                 0x00000000200012b8                . = ALIGN (0x4)
                 0x00000000200012b8                __data_end__ = .
-                0x000000001004d634                __etext = LOADADDR (.data)
+                0x000000001004d6ac                __etext = LOADADDR (.data)
 
 .tm_clone_table
-                0x00000000200012b8        0x0 load address 0x000000001004e82c
+                0x00000000200012b8        0x0 load address 0x000000001004e8a4
  .tm_clone_table
                 0x00000000200012b8        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
  .tm_clone_table
                 0x00000000200012b8        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtend.o
 
-.igot.plt       0x00000000200012b8        0x0 load address 0x000000001004e82c
+.igot.plt       0x00000000200012b8        0x0 load address 0x000000001004e8a4
  .igot.plt      0x00000000200012b8        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
 
 .uninitialized_data
-                0x00000000200012b8        0x0 load address 0x000000001004e82c
+                0x00000000200012b8        0x0 load address 0x000000001004e8a4
                 0x00000000200012b8                . = ALIGN (0x4)
  *(.uninitialized_data*)
 
-.scratch_x      0x0000000020040000        0x0 load address 0x000000001004e82c
+.scratch_x      0x0000000020040000        0x0 load address 0x000000001004e8a4
                 0x0000000020040000                __scratch_x_start__ = .
  *(.scratch_x.*)
                 0x0000000020040000                . = ALIGN (0x4)
                 0x0000000020040000                __scratch_x_end__ = .
-                0x000000001004e82c                __scratch_x_source__ = LOADADDR (.scratch_x)
+                0x000000001004e8a4                __scratch_x_source__ = LOADADDR (.scratch_x)
 
-.scratch_y      0x0000000020041000        0x0 load address 0x000000001004e82c
+.scratch_y      0x0000000020041000        0x0 load address 0x000000001004e8a4
                 0x0000000020041000                __scratch_y_start__ = .
  *(.scratch_y.*)
                 0x0000000020041000                . = ALIGN (0x4)
                 0x0000000020041000                __scratch_y_end__ = .
-                0x000000001004e82c                __scratch_y_source__ = LOADADDR (.scratch_y)
+                0x000000001004e8a4                __scratch_y_source__ = LOADADDR (.scratch_y)
 
 .bss            0x00000000200012b8     0xfc80
                 0x00000000200012b8                . = ALIGN (0x4)
@@ -4198,8 +4201,8 @@ LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nof
  *(.stack*)
  .stack         0x0000000020041000      0x800 CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
 
-.flash_end      0x000000001004e82c        0x0
-                0x000000001004e82c                PROVIDE (__flash_binary_end = .)
+.flash_end      0x000000001004e8a4        0x0
+                0x000000001004e8a4                PROVIDE (__flash_binary_end = .)
                 0x0000000020040000                __StackLimit = (ORIGIN (RAM) + LENGTH (RAM))
                 0x0000000020041000                __StackOneTop = (ORIGIN (SCRATCH_X) + LENGTH (SCRATCH_X))
                 0x0000000020042000                __StackTop = (ORIGIN (SCRATCH_Y) + LENGTH (SCRATCH_Y))
@@ -4363,7 +4366,7 @@ LOAD CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_dri
 LOAD CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj
 LOAD CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj
 LOAD libcherryusblib.a
-LOAD /tmp/ccDvtBYa.o
+LOAD /tmp/cctOclZk.o
 LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libstdc++.a
 LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libm.a
 START GROUP
@@ -4519,7 +4522,7 @@ LOAD linker stubs
  .ARM.attributes
                 0x0000000000000b22       0x2c libcherryusblib.a(usbd_core.c.obj)
  .ARM.attributes
-                0x0000000000000b4e       0x22 /tmp/ccDvtBYa.o
+                0x0000000000000b4e       0x22 /tmp/cctOclZk.o
  .ARM.attributes
                 0x0000000000000b70       0x1e /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .ARM.attributes
