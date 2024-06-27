@@ -2060,9 +2060,9 @@ Discarded input sections
  .bss           0x00000000        0x0 libcherryusblib.a(usbd_cdc.c.obj)
  .data          0x00000000        0x0 libcherryusblib.a(usbd_rndis.c.obj)
  .data          0x00000000        0x0 libcherryusblib.a(usbd_core.c.obj)
- .text          0x00000000        0x0 /var/folders/d4/dfms1fxd015546h18z0xlxd40000gn/T//cc9nrorq.o
- .data          0x00000000        0x0 /var/folders/d4/dfms1fxd015546h18z0xlxd40000gn/T//cc9nrorq.o
- .bss           0x00000000        0x0 /var/folders/d4/dfms1fxd015546h18z0xlxd40000gn/T//cc9nrorq.o
+ .text          0x00000000        0x0 /var/folders/d4/dfms1fxd015546h18z0xlxd40000gn/T//ccOEMUDd.o
+ .data          0x00000000        0x0 /var/folders/d4/dfms1fxd015546h18z0xlxd40000gn/T//ccOEMUDd.o
+ .bss           0x00000000        0x0 /var/folders/d4/dfms1fxd015546h18z0xlxd40000gn/T//ccOEMUDd.o
  .data          0x00000000        0x0 /Applications/ArmGNUToolchain/12.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .bss           0x00000000        0x0 /Applications/ArmGNUToolchain/12.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .text          0x00000000        0x0 /Applications/ArmGNUToolchain/12.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(libc_a-atoi.o)
@@ -2557,7 +2557,7 @@ LOAD /Applications/ArmGNUToolchain/12.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-no
 .boot2          0x10000000      0x100
                 0x10000000                        __boot2_start__ = .
  *(.boot2)
- .boot2         0x10000000      0x100 /var/folders/d4/dfms1fxd015546h18z0xlxd40000gn/T//cc9nrorq.o
+ .boot2         0x10000000      0x100 /var/folders/d4/dfms1fxd015546h18z0xlxd40000gn/T//ccOEMUDd.o
                 0x10000100                        __boot2_end__ = .
                 0x00000001                        ASSERT (((__boot2_end__ - __boot2_start__) == 0x100), ERROR: Pico second stage bootloader must be 256 bytes in size)
 
@@ -4745,7 +4745,7 @@ LOAD CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_dri
 LOAD CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj
 LOAD CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj
 LOAD libcherryusblib.a
-LOAD /var/folders/d4/dfms1fxd015546h18z0xlxd40000gn/T//cc9nrorq.o
+LOAD /var/folders/d4/dfms1fxd015546h18z0xlxd40000gn/T//ccOEMUDd.o
 LOAD /Applications/ArmGNUToolchain/12.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libstdc++.a
 LOAD /Applications/ArmGNUToolchain/12.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libm.a
 START GROUP
@@ -4901,7 +4901,7 @@ LOAD linker stubs
  .ARM.attributes
                 0x00000b1c       0x2c libcherryusblib.a(usbd_core.c.obj)
  .ARM.attributes
-                0x00000b48       0x22 /var/folders/d4/dfms1fxd015546h18z0xlxd40000gn/T//cc9nrorq.o
+                0x00000b48       0x22 /var/folders/d4/dfms1fxd015546h18z0xlxd40000gn/T//ccOEMUDd.o
  .ARM.attributes
                 0x00000b6a       0x1e /Applications/ArmGNUToolchain/12.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .ARM.attributes
