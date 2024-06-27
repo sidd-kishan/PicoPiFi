@@ -4,6 +4,6 @@
 
 method=source_dir
 command=
-source_dir=/mnt/c/Users/Aayush/Desktop/PicoPiFi/pico-sdk/tools/pioasm
+source_dir=/Users/aayushdeo/Downloads/PicoPiFi/pico-sdk/tools/pioasm
 work_dir=
 
