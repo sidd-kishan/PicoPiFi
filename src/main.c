@@ -6,7 +6,6 @@
  */
 
 #include <stdio.h>
-#include "board.h"
 #include "usbd_core.h"
 #include "usbd_rndis.h"
 #include "cdc_rndis_device.h"

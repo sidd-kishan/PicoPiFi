@@ -16,7 +16,6 @@ CMakeFiles/PicoPiFi.dir/src/main.c.obj: \
  /usr/include/newlib/sys/timespec.h /usr/include/newlib/sys/_timespec.h \
  /usr/include/newlib/sys/_pthreadtypes.h /usr/include/newlib/sys/sched.h \
  /usr/include/newlib/machine/types.h /usr/include/newlib/sys/stdio.h \
- /mnt/c/Users/siddk/Downloads/PicoPiFi/pico-sdk/lib/tinyusb/hw/bsp/rp2040/board.h \
  /mnt/c/Users/siddk/Downloads/PicoPiFi/CherryUSB/core/usbd_core.h \
  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
  /usr/include/newlib/string.h /usr/include/newlib/sys/_locale.h \
