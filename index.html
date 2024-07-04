@@ -42,7 +42,7 @@ function remove_non_ascii(str) {
 
 
 async function get_wifi_password(ssid,ssid_decodedString,security){
-	ssid_decodedString = remove_non_ascii(ssid_decodedString);
+	ssid_decodedString = remove_non_ascii(decodeURIComponent(ssid_decodedString));
 	let password = prompt("Please enter your password for: " + ssid_decodedString,database_of_wifi_scan[ssid].password);
 	if(password.length>7){
 		database_of_wifi_scan[ssid].password = password;
@@ -112,7 +112,7 @@ function renderTableAndGraph(dataObject) {
 		const uint8Array = new Uint8Array(ssid.match(/.{1,2}/g).map(byte => parseInt(byte, 16)));
 		// Convert Uint8Array to UTF-8 string
 		const ssid_decodedString = new TextDecoder('utf-8').decode(uint8Array);
-        row.innerHTML = "<td>"+ssid_decodedString+"</td><td>"+rowData.rssi+"</td><td>"+rowData.chan+"</td><td>"+rowData.beacon_count+"</td><td>"+rowData.sec+"</td><td id='"+ssid+"_password"+"'>"+"*".repeat(rowData.password.length)+"</td><td><button onclick=get_wifi_password('"+ssid+"','"+ssid_decodedString+"','"+rowData.sec+"')>Connect !</button></td>";
+        row.innerHTML = "<td>"+ssid_decodedString+"</td><td>"+rowData.rssi+"</td><td>"+rowData.chan+"</td><td>"+rowData.beacon_count+"</td><td>"+rowData.sec+"</td><td id='"+ssid+"_password"+"'>"+"*".repeat(rowData.password.length)+"</td><td><button onclick=get_wifi_password('"+ssid+"','"+encodeURIComponent(ssid_decodedString)+"','"+rowData.sec+"')>Connect !</button></td>";
     }
 
     table.appendChild(tbody);

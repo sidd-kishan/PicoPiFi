@@ -1,5 +1,5 @@
-/Users/aayushdeo/Downloads/PicoPiFi/build/elf2uf2/CMakeFiles/elf2uf2.dir
-/Users/aayushdeo/Downloads/PicoPiFi/build/elf2uf2/CMakeFiles/edit_cache.dir
-/Users/aayushdeo/Downloads/PicoPiFi/build/elf2uf2/CMakeFiles/rebuild_cache.dir
-/Users/aayushdeo/Downloads/PicoPiFi/build/elf2uf2/boot_uf2_headers/CMakeFiles/edit_cache.dir
-/Users/aayushdeo/Downloads/PicoPiFi/build/elf2uf2/boot_uf2_headers/CMakeFiles/rebuild_cache.dir
+/mnt/c/Users/siddk/Downloads/PicoPiFi/build/elf2uf2/CMakeFiles/elf2uf2.dir
+/mnt/c/Users/siddk/Downloads/PicoPiFi/build/elf2uf2/CMakeFiles/edit_cache.dir
+/mnt/c/Users/siddk/Downloads/PicoPiFi/build/elf2uf2/CMakeFiles/rebuild_cache.dir
+/mnt/c/Users/siddk/Downloads/PicoPiFi/build/elf2uf2/boot_uf2_headers/CMakeFiles/edit_cache.dir
+/mnt/c/Users/siddk/Downloads/PicoPiFi/build/elf2uf2/boot_uf2_headers/CMakeFiles/rebuild_cache.dir

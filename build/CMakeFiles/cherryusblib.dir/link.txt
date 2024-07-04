@@ -1,2 +1,2 @@
-/usr/local/bin/arm-none-eabi-ar qc libcherryusblib.a CMakeFiles/cherryusblib.dir/CherryUSB/port/rp2040/usb_dc_rp2040.c.obj CMakeFiles/cherryusblib.dir/CherryUSB/class/cdc/usbd_cdc.c.obj CMakeFiles/cherryusblib.dir/CherryUSB/class/msc/usbd_msc.c.obj CMakeFiles/cherryusblib.dir/CherryUSB/class/wireless/usbd_rndis.c.obj CMakeFiles/cherryusblib.dir/CherryUSB/core/usbd_core.c.obj
-/usr/local/bin/arm-none-eabi-ranlib libcherryusblib.a
+/usr/bin/arm-none-eabi-ar qc libcherryusblib.a CMakeFiles/cherryusblib.dir/CherryUSB/port/rp2040/usb_dc_rp2040.c.obj CMakeFiles/cherryusblib.dir/CherryUSB/class/cdc/usbd_cdc.c.obj CMakeFiles/cherryusblib.dir/CherryUSB/class/msc/usbd_msc.c.obj CMakeFiles/cherryusblib.dir/CherryUSB/class/wireless/usbd_rndis.c.obj CMakeFiles/cherryusblib.dir/CherryUSB/core/usbd_core.c.obj
+/usr/bin/arm-none-eabi-ranlib libcherryusblib.a
