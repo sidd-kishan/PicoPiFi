@@ -1,8 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/cherryusblib.dir/CherryUSB/class/cdc/usbd_cdc.c.obj"
   "CMakeFiles/cherryusblib.dir/CherryUSB/class/cdc/usbd_cdc.c.obj.d"
-  "CMakeFiles/cherryusblib.dir/CherryUSB/class/msc/usbd_msc.c.obj"
-  "CMakeFiles/cherryusblib.dir/CherryUSB/class/msc/usbd_msc.c.obj.d"
   "CMakeFiles/cherryusblib.dir/CherryUSB/class/wireless/usbd_rndis.c.obj"
   "CMakeFiles/cherryusblib.dir/CherryUSB/class/wireless/usbd_rndis.c.obj.d"
   "CMakeFiles/cherryusblib.dir/CherryUSB/core/usbd_core.c.obj"

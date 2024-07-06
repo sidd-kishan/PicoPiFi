@@ -97,24 +97,10 @@ CMakeFiles/cherryusblib.dir/CherryUSB/class/cdc/usbd_cdc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cherryusblib.dir/CherryUSB/class/cdc/usbd_cdc.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/siddk/Downloads/PicoPiFi/CherryUSB/class/cdc/usbd_cdc.c -o CMakeFiles/cherryusblib.dir/CherryUSB/class/cdc/usbd_cdc.c.s
 
-CMakeFiles/cherryusblib.dir/CherryUSB/class/msc/usbd_msc.c.obj: CMakeFiles/cherryusblib.dir/flags.make
-CMakeFiles/cherryusblib.dir/CherryUSB/class/msc/usbd_msc.c.obj: ../CherryUSB/class/msc/usbd_msc.c
-CMakeFiles/cherryusblib.dir/CherryUSB/class/msc/usbd_msc.c.obj: CMakeFiles/cherryusblib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/siddk/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/cherryusblib.dir/CherryUSB/class/msc/usbd_msc.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cherryusblib.dir/CherryUSB/class/msc/usbd_msc.c.obj -MF CMakeFiles/cherryusblib.dir/CherryUSB/class/msc/usbd_msc.c.obj.d -o CMakeFiles/cherryusblib.dir/CherryUSB/class/msc/usbd_msc.c.obj -c /mnt/c/Users/siddk/Downloads/PicoPiFi/CherryUSB/class/msc/usbd_msc.c
-
-CMakeFiles/cherryusblib.dir/CherryUSB/class/msc/usbd_msc.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cherryusblib.dir/CherryUSB/class/msc/usbd_msc.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/siddk/Downloads/PicoPiFi/CherryUSB/class/msc/usbd_msc.c > CMakeFiles/cherryusblib.dir/CherryUSB/class/msc/usbd_msc.c.i
-
-CMakeFiles/cherryusblib.dir/CherryUSB/class/msc/usbd_msc.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cherryusblib.dir/CherryUSB/class/msc/usbd_msc.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/siddk/Downloads/PicoPiFi/CherryUSB/class/msc/usbd_msc.c -o CMakeFiles/cherryusblib.dir/CherryUSB/class/msc/usbd_msc.c.s
-
 CMakeFiles/cherryusblib.dir/CherryUSB/class/wireless/usbd_rndis.c.obj: CMakeFiles/cherryusblib.dir/flags.make
 CMakeFiles/cherryusblib.dir/CherryUSB/class/wireless/usbd_rndis.c.obj: ../CherryUSB/class/wireless/usbd_rndis.c
 CMakeFiles/cherryusblib.dir/CherryUSB/class/wireless/usbd_rndis.c.obj: CMakeFiles/cherryusblib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/siddk/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/cherryusblib.dir/CherryUSB/class/wireless/usbd_rndis.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/siddk/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/cherryusblib.dir/CherryUSB/class/wireless/usbd_rndis.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cherryusblib.dir/CherryUSB/class/wireless/usbd_rndis.c.obj -MF CMakeFiles/cherryusblib.dir/CherryUSB/class/wireless/usbd_rndis.c.obj.d -o CMakeFiles/cherryusblib.dir/CherryUSB/class/wireless/usbd_rndis.c.obj -c /mnt/c/Users/siddk/Downloads/PicoPiFi/CherryUSB/class/wireless/usbd_rndis.c
 
 CMakeFiles/cherryusblib.dir/CherryUSB/class/wireless/usbd_rndis.c.i: cmake_force
@@ -128,7 +114,7 @@ CMakeFiles/cherryusblib.dir/CherryUSB/class/wireless/usbd_rndis.c.s: cmake_force
 CMakeFiles/cherryusblib.dir/CherryUSB/core/usbd_core.c.obj: CMakeFiles/cherryusblib.dir/flags.make
 CMakeFiles/cherryusblib.dir/CherryUSB/core/usbd_core.c.obj: ../CherryUSB/core/usbd_core.c
 CMakeFiles/cherryusblib.dir/CherryUSB/core/usbd_core.c.obj: CMakeFiles/cherryusblib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/siddk/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/cherryusblib.dir/CherryUSB/core/usbd_core.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/siddk/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/cherryusblib.dir/CherryUSB/core/usbd_core.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cherryusblib.dir/CherryUSB/core/usbd_core.c.obj -MF CMakeFiles/cherryusblib.dir/CherryUSB/core/usbd_core.c.obj.d -o CMakeFiles/cherryusblib.dir/CherryUSB/core/usbd_core.c.obj -c /mnt/c/Users/siddk/Downloads/PicoPiFi/CherryUSB/core/usbd_core.c
 
 CMakeFiles/cherryusblib.dir/CherryUSB/core/usbd_core.c.i: cmake_force
@@ -143,7 +129,6 @@ CMakeFiles/cherryusblib.dir/CherryUSB/core/usbd_core.c.s: cmake_force
 cherryusblib_OBJECTS = \
 "CMakeFiles/cherryusblib.dir/CherryUSB/port/rp2040/usb_dc_rp2040.c.obj" \
 "CMakeFiles/cherryusblib.dir/CherryUSB/class/cdc/usbd_cdc.c.obj" \
-"CMakeFiles/cherryusblib.dir/CherryUSB/class/msc/usbd_msc.c.obj" \
 "CMakeFiles/cherryusblib.dir/CherryUSB/class/wireless/usbd_rndis.c.obj" \
 "CMakeFiles/cherryusblib.dir/CherryUSB/core/usbd_core.c.obj"
 
@@ -152,12 +137,11 @@ cherryusblib_EXTERNAL_OBJECTS =
 
 libcherryusblib.a: CMakeFiles/cherryusblib.dir/CherryUSB/port/rp2040/usb_dc_rp2040.c.obj
 libcherryusblib.a: CMakeFiles/cherryusblib.dir/CherryUSB/class/cdc/usbd_cdc.c.obj
-libcherryusblib.a: CMakeFiles/cherryusblib.dir/CherryUSB/class/msc/usbd_msc.c.obj
 libcherryusblib.a: CMakeFiles/cherryusblib.dir/CherryUSB/class/wireless/usbd_rndis.c.obj
 libcherryusblib.a: CMakeFiles/cherryusblib.dir/CherryUSB/core/usbd_core.c.obj
 libcherryusblib.a: CMakeFiles/cherryusblib.dir/build.make
 libcherryusblib.a: CMakeFiles/cherryusblib.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/c/Users/siddk/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking C static library libcherryusblib.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/c/Users/siddk/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C static library libcherryusblib.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/cherryusblib.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/cherryusblib.dir/link.txt --verbose=$(VERBOSE)
 

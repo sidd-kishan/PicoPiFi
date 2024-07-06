@@ -52,58 +52,6 @@ CMakeFiles/cherryusblib.dir/CherryUSB/class/cdc/usbd_cdc.c.obj: ../CherryUSB/cla
   ../CherryUSB/class/cdc/usbd_cdc.h \
   ../CherryUSB/class/cdc/usb_cdc.h
 
-CMakeFiles/cherryusblib.dir/CherryUSB/class/msc/usbd_msc.c.obj: ../CherryUSB/class/msc/usbd_msc.c \
-  ../CherryUSB/core/usbd_core.h \
-  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
-  /usr/include/newlib/string.h \
-  /usr/include/newlib/_ansi.h \
-  /usr/include/newlib/newlib.h \
-  /usr/include/newlib/_newlib_version.h \
-  /usr/include/newlib/sys/config.h \
-  /usr/include/newlib/machine/ieeefp.h \
-  /usr/include/newlib/sys/features.h \
-  /usr/include/newlib/sys/reent.h \
-  /usr/include/newlib/_ansi.h \
-  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
-  /usr/include/newlib/sys/_types.h \
-  /usr/include/newlib/machine/_types.h \
-  /usr/include/newlib/machine/_default_types.h \
-  /usr/include/newlib/sys/lock.h \
-  /usr/include/newlib/sys/cdefs.h \
-  /usr/include/newlib/sys/_locale.h \
-  /usr/include/newlib/strings.h \
-  /usr/include/newlib/sys/string.h \
-  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
-  /usr/include/newlib/stdlib.h \
-  /usr/include/newlib/machine/stdlib.h \
-  /usr/include/newlib/alloca.h \
-  ../usb_config.h \
-  ../CherryUSB/common/usb_util.h \
-  ../CherryUSB/common/usb_errno.h \
-  ../CherryUSB/common/usb_def.h \
-  ../CherryUSB/common/usb_list.h \
-  ../CherryUSB/common/usb_log.h \
-  /usr/include/newlib/stdio.h \
-  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h \
-  /usr/include/newlib/sys/types.h \
-  /usr/include/newlib/sys/_stdint.h \
-  /usr/include/newlib/machine/endian.h \
-  /usr/include/newlib/machine/_endian.h \
-  /usr/include/newlib/sys/select.h \
-  /usr/include/newlib/sys/_sigset.h \
-  /usr/include/newlib/sys/_timeval.h \
-  /usr/include/newlib/sys/timespec.h \
-  /usr/include/newlib/sys/_timespec.h \
-  /usr/include/newlib/sys/_pthreadtypes.h \
-  /usr/include/newlib/sys/sched.h \
-  /usr/include/newlib/machine/types.h \
-  /usr/include/newlib/sys/stdio.h \
-  ../CherryUSB/common/usb_dc.h \
-  ../CherryUSB/common/usb_memcpy.h \
-  ../CherryUSB/class/msc/usbd_msc.h \
-  ../CherryUSB/class/msc/usb_msc.h \
-  ../CherryUSB/class/msc/usb_scsi.h
-
 CMakeFiles/cherryusblib.dir/CherryUSB/class/wireless/usbd_rndis.c.obj: ../CherryUSB/class/wireless/usbd_rndis.c \
   ../CherryUSB/core/usbd_core.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
@@ -278,10 +226,6 @@ CMakeFiles/cherryusblib.dir/CherryUSB/port/rp2040/usb_dc_rp2040.c.obj: ../Cherry
 
 /usr/include/newlib/inttypes.h:
 
-../common/arch/cc.h:
-
-../pico-sdk/lib/lwip/src/include/lwip/arch.h:
-
 ../CherryUSB/common/usb_errno.h:
 
 /usr/lib/gcc/arm-none-eabi/10.3.1/include-fixed/limits.h:
@@ -304,15 +248,17 @@ CMakeFiles/cherryusblib.dir/CherryUSB/port/rp2040/usb_dc_rp2040.c.obj: ../Cherry
 
 /usr/include/newlib/sys/timespec.h:
 
+../common/arch/cc.h:
+
 /usr/include/newlib/sys/lock.h:
 
 /usr/include/newlib/machine/_types.h:
 
-../CherryUSB/class/msc/usbd_msc.c:
-
 /usr/include/newlib/machine/_default_types.h:
 
 /usr/include/newlib/sys/cdefs.h:
+
+../src/lwipopts.h:
 
 ../pico-sdk/lib/lwip/src/include/lwip/debug.h:
 
@@ -360,8 +306,6 @@ CMakeFiles/cherryusblib.dir/CherryUSB/port/rp2040/usb_dc_rp2040.c.obj: ../Cherry
 
 ../CherryUSB/common/usb_dc.h:
 
-../CherryUSB/class/msc/usb_msc.h:
-
 /usr/include/newlib/sys/types.h:
 
 /usr/include/newlib/machine/types.h:
@@ -382,8 +326,6 @@ CMakeFiles/cherryusblib.dir/CherryUSB/port/rp2040/usb_dc_rp2040.c.obj: ../Cherry
 
 /usr/include/newlib/sys/sched.h:
 
-../CherryUSB/class/msc/usb_scsi.h:
-
 /usr/include/newlib/sys/stdio.h:
 
 ../pico-sdk/lib/lwip/src/include/lwip/pbuf.h:
@@ -398,10 +340,6 @@ CMakeFiles/cherryusblib.dir/CherryUSB/port/rp2040/usb_dc_rp2040.c.obj: ../Cherry
 
 ../CherryUSB/class/cdc/usb_cdc.h:
 
-../src/lwipopts.h:
-
-../CherryUSB/class/msc/usbd_msc.h:
-
 ../CherryUSB/class/wireless/usbd_rndis.c:
 
 ../CherryUSB/class/wireless/usbd_rndis.h:
@@ -409,3 +347,5 @@ CMakeFiles/cherryusblib.dir/CherryUSB/port/rp2040/usb_dc_rp2040.c.obj: ../Cherry
 ../CherryUSB/class/wireless/rndis_protocol.h:
 
 ../CherryUSB/class/wireless/ndis.h:
+
+../pico-sdk/lib/lwip/src/include/lwip/arch.h:

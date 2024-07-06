@@ -244,30 +244,6 @@ CherryUSB/class/cdc/usbd_cdc.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cherryusblib.dir/build.make CMakeFiles/cherryusblib.dir/CherryUSB/class/cdc/usbd_cdc.c.s
 .PHONY : CherryUSB/class/cdc/usbd_cdc.c.s
 
-CherryUSB/class/msc/usbd_msc.obj: CherryUSB/class/msc/usbd_msc.c.obj
-.PHONY : CherryUSB/class/msc/usbd_msc.obj
-
-# target to build an object file
-CherryUSB/class/msc/usbd_msc.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cherryusblib.dir/build.make CMakeFiles/cherryusblib.dir/CherryUSB/class/msc/usbd_msc.c.obj
-.PHONY : CherryUSB/class/msc/usbd_msc.c.obj
-
-CherryUSB/class/msc/usbd_msc.i: CherryUSB/class/msc/usbd_msc.c.i
-.PHONY : CherryUSB/class/msc/usbd_msc.i
-
-# target to preprocess a source file
-CherryUSB/class/msc/usbd_msc.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cherryusblib.dir/build.make CMakeFiles/cherryusblib.dir/CherryUSB/class/msc/usbd_msc.c.i
-.PHONY : CherryUSB/class/msc/usbd_msc.c.i
-
-CherryUSB/class/msc/usbd_msc.s: CherryUSB/class/msc/usbd_msc.c.s
-.PHONY : CherryUSB/class/msc/usbd_msc.s
-
-# target to generate assembly for a file
-CherryUSB/class/msc/usbd_msc.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cherryusblib.dir/build.make CMakeFiles/cherryusblib.dir/CherryUSB/class/msc/usbd_msc.c.s
-.PHONY : CherryUSB/class/msc/usbd_msc.c.s
-
 CherryUSB/class/wireless/usbd_rndis.obj: CherryUSB/class/wireless/usbd_rndis.c.obj
 .PHONY : CherryUSB/class/wireless/usbd_rndis.obj
 
@@ -3879,9 +3855,6 @@ help:
 	@echo "... CherryUSB/class/cdc/usbd_cdc.obj"
 	@echo "... CherryUSB/class/cdc/usbd_cdc.i"
 	@echo "... CherryUSB/class/cdc/usbd_cdc.s"
-	@echo "... CherryUSB/class/msc/usbd_msc.obj"
-	@echo "... CherryUSB/class/msc/usbd_msc.i"
-	@echo "... CherryUSB/class/msc/usbd_msc.s"
 	@echo "... CherryUSB/class/wireless/usbd_rndis.obj"
 	@echo "... CherryUSB/class/wireless/usbd_rndis.i"
 	@echo "... CherryUSB/class/wireless/usbd_rndis.s"

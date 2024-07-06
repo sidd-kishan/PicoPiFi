@@ -7125,7 +7125,6 @@ CMakeFiles/PicoPiFi.dir/src/main.c.obj: ../src/main.c \
   /usr/include/newlib/sys/sched.h \
   /usr/include/newlib/machine/types.h \
   /usr/include/newlib/sys/stdio.h \
-  ../pico-sdk/lib/tinyusb/hw/bsp/rp2040/board.h \
   ../CherryUSB/core/usbd_core.h \
   /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
   /usr/include/newlib/string.h \
@@ -7343,8 +7342,6 @@ CMakeFiles/PicoPiFi.dir/src/wifi_tx.c.obj: ../src/wifi_tx.c \
 ../src/wifi_tx.c:
 
 ../src/cdc_rndis_device.h:
-
-../pico-sdk/lib/tinyusb/hw/bsp/rp2040/board.h:
 
 ../src/lwip.h:
 

@@ -25,7 +25,7 @@ set(CMAKE_ASM_COMPILER_ID "GNU")
 # Preprocessor definitions for this target.
 set(CMAKE_TARGET_DEFINITIONS_ASM
   "CYW43_LWIP=0"
-  "CYW43_SLEEP_CHECK_MS=3"
+  "CYW43_SLEEP_CHECK_MS=1"
   "LIB_PICO_ASYNC_CONTEXT_THREADSAFE_BACKGROUND=1"
   "LIB_PICO_BIT_OPS=1"
   "LIB_PICO_BIT_OPS_PICO=1"
@@ -74,11 +74,9 @@ set(CMAKE_TARGET_DEFINITIONS_ASM
 set(CMAKE_ASM_TARGET_INCLUDE_PATH
   "../"
   "../CherryUSB/class/cdc"
-  "../CherryUSB/class/msc"
   "../CherryUSB/class/wireless"
   "../CherryUSB/common"
   "../CherryUSB/core"
-  "../CherryUSB/demo"
   "../CherryUSB/port/rp2040"
   "../pico-sdk/lib/lwip/src/include"
   "../src"
