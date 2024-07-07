@@ -71,7 +71,7 @@ void cyw43_cb_tcpip_set_link_down(cyw43_t *self, int itf) {
 }
 
 void cyw43_cb_process_ethernet(void *cb_data, int itf, size_t len, const uint8_t *buf) {
-	if (len <= 1500) {
+	//if (len <= 1600) {
 		out_pkt = pbuf_alloc(PBUF_RAW, len, PBUF_POOL);
 		//memcpy(out_pkt->payload, buf, len);
 		pbuf_take(out_pkt, buf, len);
@@ -81,5 +81,5 @@ void cyw43_cb_process_ethernet(void *cb_data, int itf, size_t len, const uint8_t
 		}
 		pbuf_free(out_pkt);
 		out_pkt = NULL;
-	}
+	//}
 }
