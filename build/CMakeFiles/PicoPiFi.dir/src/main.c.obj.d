@@ -102,4 +102,7 @@ CMakeFiles/PicoPiFi.dir/src/main.c.obj: \
  /mnt/c/Users/siddk/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_watchdog/include/hardware/watchdog.h \
  /mnt/c/Users/siddk/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/watchdog.h \
  /mnt/c/Users/siddk/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/watchdog.h \
- /mnt/c/Users/siddk/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom.h
+ /mnt/c/Users/siddk/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom.h \
+ /mnt/c/Users/siddk/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_dma/include/hardware/dma.h \
+ /mnt/c/Users/siddk/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/dma.h \
+ /mnt/c/Users/siddk/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dma.h

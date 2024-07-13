@@ -19,6 +19,8 @@ uint8_t rndis_mac[6] = { 0x20, 0x89, 0x84, 0x6A, 0x96, 0xAA };
 int wifi_congfig_len=0;
 int eth_frame_send_success;
 
+int chan = 0;
+
 void printline(int cdc,char string[],int len){
 	char buf[2048];
 	//memcpy(buf,"\r\n",2);
@@ -148,7 +150,7 @@ int main(void)
 	absolute_time_t scan_time = nil_time;
     bool scan_in_progress = false;
 	next_wifi_try = nil_time;
-	
+	chan = dma_claim_unused_channel(false);
 	while (1) {
 		if (!link_up) {
 			if (absolute_time_diff_us(get_absolute_time(), scan_time) < 0) {

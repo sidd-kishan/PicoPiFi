@@ -92,6 +92,9 @@ CMakeFiles/PicoPiFi.dir/src/lwip.c.obj: \
  /mnt/c/Users/siddk/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/watchdog.h \
  /mnt/c/Users/siddk/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/watchdog.h \
  /mnt/c/Users/siddk/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom.h \
+ /mnt/c/Users/siddk/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_dma/include/hardware/dma.h \
+ /mnt/c/Users/siddk/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/dma.h \
+ /mnt/c/Users/siddk/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dma.h \
  /mnt/c/Users/siddk/Downloads/PicoPiFi/CherryUSB/core/usbd_core.h \
  /mnt/c/Users/siddk/Downloads/PicoPiFi/usb_config.h \
  /mnt/c/Users/siddk/Downloads/PicoPiFi/CherryUSB/common/usb_util.h \

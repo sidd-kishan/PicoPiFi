@@ -7083,6 +7083,9 @@ CMakeFiles/PicoPiFi.dir/src/lwip.c.obj: ../src/lwip.c \
   ../pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/watchdog.h \
   ../pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/watchdog.h \
   ../pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom.h \
+  ../pico-sdk/src/rp2_common/hardware_dma/include/hardware/dma.h \
+  ../pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/dma.h \
+  ../pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dma.h \
   ../CherryUSB/core/usbd_core.h \
   ../usb_config.h \
   ../CherryUSB/common/usb_util.h \
@@ -7215,7 +7218,10 @@ CMakeFiles/PicoPiFi.dir/src/main.c.obj: ../src/main.c \
   ../pico-sdk/src/rp2_common/hardware_watchdog/include/hardware/watchdog.h \
   ../pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/watchdog.h \
   ../pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/watchdog.h \
-  ../pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom.h
+  ../pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom.h \
+  ../pico-sdk/src/rp2_common/hardware_dma/include/hardware/dma.h \
+  ../pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/dma.h \
+  ../pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dma.h
 
 CMakeFiles/PicoPiFi.dir/src/wifi_tx.c.obj: ../src/wifi_tx.c \
   ../src/lwip.h \
@@ -7326,6 +7332,9 @@ CMakeFiles/PicoPiFi.dir/src/wifi_tx.c.obj: ../src/wifi_tx.c \
   ../pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/watchdog.h \
   ../pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/watchdog.h \
   ../pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom.h \
+  ../pico-sdk/src/rp2_common/hardware_dma/include/hardware/dma.h \
+  ../pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/dma.h \
+  ../pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dma.h \
   ../CherryUSB/core/usbd_core.h \
   ../usb_config.h \
   ../CherryUSB/common/usb_util.h \
