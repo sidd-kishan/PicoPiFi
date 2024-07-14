@@ -76,7 +76,8 @@ void cyw43_cb_process_ethernet(void *cb_data, int itf, size_t len, const uint8_t
 		out_pkt = pbuf_alloc(PBUF_RAW, len, PBUF_POOL);
 		//memcpy(out_pkt->payload, buf, len);
 		//pbuf_take(out_pkt, buf, len);
-		
+		/*
+		int transfer = (len%2==0)?(len/2):((len+1)/2);
 		dma_channel_config c = dma_channel_get_default_config(chan);
 		channel_config_set_transfer_data_size(&c, DMA_SIZE_16);
 		channel_config_set_read_increment(&c, true);
@@ -87,10 +88,11 @@ void cyw43_cb_process_ethernet(void *cb_data, int itf, size_t len, const uint8_t
 			&c,              // The configuration we just created
 			out_pkt->payload,// The initial write address
 			buf,             // The initial read address
-			(len/2)+1,             // Number of transfers; in this case each is 1 byte.
+			transfer,             // Number of transfers; in this case each is 1 byte.
 			true             // Start immediately.
 		);
-		
+		*/
+		out_pkt->payload = buf;
 		int ret = usbd_rndis_eth_tx(out_pkt);
 		if (0 != ret) {
 			ret = ERR_BUF;
@@ -98,9 +100,9 @@ void cyw43_cb_process_ethernet(void *cb_data, int itf, size_t len, const uint8_t
 		// We could choose to go and do something else whilst the DMA is doing its
 		// thing. In this case the processor has nothing else to do, so we just
 		// wait for the DMA to finish.
-		dma_channel_wait_for_finish_blocking(chan);
+		//dma_channel_wait_for_finish_blocking(chan);
 		
 		pbuf_free(out_pkt);
-		out_pkt = NULL;
+		//out_pkt = NULL;
 	//}
 }
