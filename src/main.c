@@ -19,7 +19,8 @@ uint8_t rndis_mac[6] = { 0x20, 0x89, 0x84, 0x6A, 0x96, 0xAA };
 int wifi_congfig_len=0;
 int eth_frame_send_success;
 
-//int chan = 0;
+int chan = 0;
+int chan_2 = 0;
 
 void printline(int cdc,char string[],int len){
 	char buf[2048];
@@ -150,7 +151,20 @@ int main(void)
 	absolute_time_t scan_time = nil_time;
     bool scan_in_progress = false;
 	next_wifi_try = nil_time;
-	//chan = dma_claim_unused_channel(false);
+	chan = dma_claim_unused_channel(false);
+	dma_channel_set_irq0_enabled(chan, true);
+
+    // Configure the processor to run dma_handler() when DMA IRQ 0 is asserted
+    irq_set_exclusive_handler(DMA_IRQ_0, dma_handler);
+    irq_set_enabled(DMA_IRQ_0, true);
+	
+	chan_2 = dma_claim_unused_channel(false);
+	dma_channel_set_irq1_enabled(chan_2, true);
+
+    // Configure the processor to run dma_handler() when DMA IRQ 0 is asserted
+    irq_set_exclusive_handler(DMA_IRQ_1, dma_handler_2);
+    irq_set_enabled(DMA_IRQ_1, true);
+
 	while (1) {
 		if (!link_up) {
 			if (absolute_time_diff_us(get_absolute_time(), scan_time) < 0) {
