@@ -176,3 +176,42 @@
 
 /* ================= enabling the lwip ================ */
 #define CONFIG_USBDEV_RNDIS_USING_LWIP 1
+
+#define USB_MEMCPY_H 1
+
+#include <stdint.h>
+#include <stddef.h>
+
+#define IS_ALIGNED_DWORD(x) (((uintptr_t)(x) & (sizeof(uint32_t) - 1)) == 0)
+
+static inline void *usb_memcpy(void *dest, const void *src, size_t n)
+{
+    char *d = (char *)dest;
+    const char *s = (const char *)src;
+
+    // Align destination to a 32-bit boundary
+    while (n > 0 && ((uintptr_t)d & 3)) {
+        *d++ = *s++;
+        --n;
+    }
+
+    // Copy 32-bit words as much as possible
+    uint32_t *dw = (uint32_t *)d;
+    const uint32_t *sw = (const uint32_t *)s;
+
+    while (n >= 4) {
+        *dw++ = *sw++;
+        n -= 4;
+    }
+
+    d = (char *)dw;
+    s = (const char *)sw;
+
+    // Copy remaining bytes
+    while (n > 0) {
+        *d++ = *s++;
+        --n;
+    }
+
+    return dest;
+}
