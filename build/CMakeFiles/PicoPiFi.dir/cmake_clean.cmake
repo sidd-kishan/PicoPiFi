@@ -1,4 +1,12 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/PicoPiFi.dir/CherryUSB/class/cdc/usbd_cdc.c.obj"
+  "CMakeFiles/PicoPiFi.dir/CherryUSB/class/cdc/usbd_cdc.c.obj.d"
+  "CMakeFiles/PicoPiFi.dir/CherryUSB/class/wireless/usbd_rndis.c.obj"
+  "CMakeFiles/PicoPiFi.dir/CherryUSB/class/wireless/usbd_rndis.c.obj.d"
+  "CMakeFiles/PicoPiFi.dir/CherryUSB/core/usbd_core.c.obj"
+  "CMakeFiles/PicoPiFi.dir/CherryUSB/core/usbd_core.c.obj.d"
+  "CMakeFiles/PicoPiFi.dir/CherryUSB/port/rp2040/usb_dc_rp2040.c.obj"
+  "CMakeFiles/PicoPiFi.dir/CherryUSB/port/rp2040/usb_dc_rp2040.c.obj.d"
   "CMakeFiles/PicoPiFi.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj"
   "CMakeFiles/PicoPiFi.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj.d"
   "CMakeFiles/PicoPiFi.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj"

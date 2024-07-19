@@ -117,19 +117,6 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named cherryusblib
-
-# Build rule for target.
-cherryusblib: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cherryusblib
-.PHONY : cherryusblib
-
-# fast build rule for target.
-cherryusblib/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cherryusblib.dir/build.make CMakeFiles/cherryusblib.dir/build
-.PHONY : cherryusblib/fast
-
-#=============================================================================
 # Target rules for targets named PicoPiFi
 
 # Build rule for target.
@@ -225,7 +212,7 @@ CherryUSB/class/cdc/usbd_cdc.obj: CherryUSB/class/cdc/usbd_cdc.c.obj
 
 # target to build an object file
 CherryUSB/class/cdc/usbd_cdc.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cherryusblib.dir/build.make CMakeFiles/cherryusblib.dir/CherryUSB/class/cdc/usbd_cdc.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PicoPiFi.dir/build.make CMakeFiles/PicoPiFi.dir/CherryUSB/class/cdc/usbd_cdc.c.obj
 .PHONY : CherryUSB/class/cdc/usbd_cdc.c.obj
 
 CherryUSB/class/cdc/usbd_cdc.i: CherryUSB/class/cdc/usbd_cdc.c.i
@@ -233,7 +220,7 @@ CherryUSB/class/cdc/usbd_cdc.i: CherryUSB/class/cdc/usbd_cdc.c.i
 
 # target to preprocess a source file
 CherryUSB/class/cdc/usbd_cdc.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cherryusblib.dir/build.make CMakeFiles/cherryusblib.dir/CherryUSB/class/cdc/usbd_cdc.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PicoPiFi.dir/build.make CMakeFiles/PicoPiFi.dir/CherryUSB/class/cdc/usbd_cdc.c.i
 .PHONY : CherryUSB/class/cdc/usbd_cdc.c.i
 
 CherryUSB/class/cdc/usbd_cdc.s: CherryUSB/class/cdc/usbd_cdc.c.s
@@ -241,7 +228,7 @@ CherryUSB/class/cdc/usbd_cdc.s: CherryUSB/class/cdc/usbd_cdc.c.s
 
 # target to generate assembly for a file
 CherryUSB/class/cdc/usbd_cdc.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cherryusblib.dir/build.make CMakeFiles/cherryusblib.dir/CherryUSB/class/cdc/usbd_cdc.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PicoPiFi.dir/build.make CMakeFiles/PicoPiFi.dir/CherryUSB/class/cdc/usbd_cdc.c.s
 .PHONY : CherryUSB/class/cdc/usbd_cdc.c.s
 
 CherryUSB/class/wireless/usbd_rndis.obj: CherryUSB/class/wireless/usbd_rndis.c.obj
@@ -249,7 +236,7 @@ CherryUSB/class/wireless/usbd_rndis.obj: CherryUSB/class/wireless/usbd_rndis.c.o
 
 # target to build an object file
 CherryUSB/class/wireless/usbd_rndis.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cherryusblib.dir/build.make CMakeFiles/cherryusblib.dir/CherryUSB/class/wireless/usbd_rndis.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PicoPiFi.dir/build.make CMakeFiles/PicoPiFi.dir/CherryUSB/class/wireless/usbd_rndis.c.obj
 .PHONY : CherryUSB/class/wireless/usbd_rndis.c.obj
 
 CherryUSB/class/wireless/usbd_rndis.i: CherryUSB/class/wireless/usbd_rndis.c.i
@@ -257,7 +244,7 @@ CherryUSB/class/wireless/usbd_rndis.i: CherryUSB/class/wireless/usbd_rndis.c.i
 
 # target to preprocess a source file
 CherryUSB/class/wireless/usbd_rndis.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cherryusblib.dir/build.make CMakeFiles/cherryusblib.dir/CherryUSB/class/wireless/usbd_rndis.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PicoPiFi.dir/build.make CMakeFiles/PicoPiFi.dir/CherryUSB/class/wireless/usbd_rndis.c.i
 .PHONY : CherryUSB/class/wireless/usbd_rndis.c.i
 
 CherryUSB/class/wireless/usbd_rndis.s: CherryUSB/class/wireless/usbd_rndis.c.s
@@ -265,7 +252,7 @@ CherryUSB/class/wireless/usbd_rndis.s: CherryUSB/class/wireless/usbd_rndis.c.s
 
 # target to generate assembly for a file
 CherryUSB/class/wireless/usbd_rndis.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cherryusblib.dir/build.make CMakeFiles/cherryusblib.dir/CherryUSB/class/wireless/usbd_rndis.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PicoPiFi.dir/build.make CMakeFiles/PicoPiFi.dir/CherryUSB/class/wireless/usbd_rndis.c.s
 .PHONY : CherryUSB/class/wireless/usbd_rndis.c.s
 
 CherryUSB/core/usbd_core.obj: CherryUSB/core/usbd_core.c.obj
@@ -273,7 +260,7 @@ CherryUSB/core/usbd_core.obj: CherryUSB/core/usbd_core.c.obj
 
 # target to build an object file
 CherryUSB/core/usbd_core.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cherryusblib.dir/build.make CMakeFiles/cherryusblib.dir/CherryUSB/core/usbd_core.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PicoPiFi.dir/build.make CMakeFiles/PicoPiFi.dir/CherryUSB/core/usbd_core.c.obj
 .PHONY : CherryUSB/core/usbd_core.c.obj
 
 CherryUSB/core/usbd_core.i: CherryUSB/core/usbd_core.c.i
@@ -281,7 +268,7 @@ CherryUSB/core/usbd_core.i: CherryUSB/core/usbd_core.c.i
 
 # target to preprocess a source file
 CherryUSB/core/usbd_core.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cherryusblib.dir/build.make CMakeFiles/cherryusblib.dir/CherryUSB/core/usbd_core.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PicoPiFi.dir/build.make CMakeFiles/PicoPiFi.dir/CherryUSB/core/usbd_core.c.i
 .PHONY : CherryUSB/core/usbd_core.c.i
 
 CherryUSB/core/usbd_core.s: CherryUSB/core/usbd_core.c.s
@@ -289,7 +276,7 @@ CherryUSB/core/usbd_core.s: CherryUSB/core/usbd_core.c.s
 
 # target to generate assembly for a file
 CherryUSB/core/usbd_core.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cherryusblib.dir/build.make CMakeFiles/cherryusblib.dir/CherryUSB/core/usbd_core.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PicoPiFi.dir/build.make CMakeFiles/PicoPiFi.dir/CherryUSB/core/usbd_core.c.s
 .PHONY : CherryUSB/core/usbd_core.c.s
 
 CherryUSB/port/rp2040/usb_dc_rp2040.obj: CherryUSB/port/rp2040/usb_dc_rp2040.c.obj
@@ -297,7 +284,7 @@ CherryUSB/port/rp2040/usb_dc_rp2040.obj: CherryUSB/port/rp2040/usb_dc_rp2040.c.o
 
 # target to build an object file
 CherryUSB/port/rp2040/usb_dc_rp2040.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cherryusblib.dir/build.make CMakeFiles/cherryusblib.dir/CherryUSB/port/rp2040/usb_dc_rp2040.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PicoPiFi.dir/build.make CMakeFiles/PicoPiFi.dir/CherryUSB/port/rp2040/usb_dc_rp2040.c.obj
 .PHONY : CherryUSB/port/rp2040/usb_dc_rp2040.c.obj
 
 CherryUSB/port/rp2040/usb_dc_rp2040.i: CherryUSB/port/rp2040/usb_dc_rp2040.c.i
@@ -305,7 +292,7 @@ CherryUSB/port/rp2040/usb_dc_rp2040.i: CherryUSB/port/rp2040/usb_dc_rp2040.c.i
 
 # target to preprocess a source file
 CherryUSB/port/rp2040/usb_dc_rp2040.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cherryusblib.dir/build.make CMakeFiles/cherryusblib.dir/CherryUSB/port/rp2040/usb_dc_rp2040.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PicoPiFi.dir/build.make CMakeFiles/PicoPiFi.dir/CherryUSB/port/rp2040/usb_dc_rp2040.c.i
 .PHONY : CherryUSB/port/rp2040/usb_dc_rp2040.c.i
 
 CherryUSB/port/rp2040/usb_dc_rp2040.s: CherryUSB/port/rp2040/usb_dc_rp2040.c.s
@@ -313,7 +300,7 @@ CherryUSB/port/rp2040/usb_dc_rp2040.s: CherryUSB/port/rp2040/usb_dc_rp2040.c.s
 
 # target to generate assembly for a file
 CherryUSB/port/rp2040/usb_dc_rp2040.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cherryusblib.dir/build.make CMakeFiles/cherryusblib.dir/CherryUSB/port/rp2040/usb_dc_rp2040.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PicoPiFi.dir/build.make CMakeFiles/PicoPiFi.dir/CherryUSB/port/rp2040/usb_dc_rp2040.c.s
 .PHONY : CherryUSB/port/rp2040/usb_dc_rp2040.c.s
 
 pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.obj: pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj
@@ -3851,7 +3838,6 @@ help:
 	@echo "... cyw43_driver_picow_cyw43_bus_pio_spi_pio_h"
 	@echo "... PicoPiFi"
 	@echo "... bs2_default"
-	@echo "... cherryusblib"
 	@echo "... CherryUSB/class/cdc/usbd_cdc.obj"
 	@echo "... CherryUSB/class/cdc/usbd_cdc.i"
 	@echo "... CherryUSB/class/cdc/usbd_cdc.s"

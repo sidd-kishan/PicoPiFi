@@ -1,4 +1,3 @@
-/mnt/c/Users/siddk/Downloads/PicoPiFi/build/CMakeFiles/cherryusblib.dir
 /mnt/c/Users/siddk/Downloads/PicoPiFi/build/CMakeFiles/PicoPiFi.dir
 /mnt/c/Users/siddk/Downloads/PicoPiFi/build/CMakeFiles/ELF2UF2Build.dir
 /mnt/c/Users/siddk/Downloads/PicoPiFi/build/CMakeFiles/edit_cache.dir

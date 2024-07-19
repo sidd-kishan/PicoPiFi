@@ -139,6 +139,10 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/mnt/c/Users/siddk/Downloads/PicoPiFi/CherryUSB/class/cdc/usbd_cdc.c" "CMakeFiles/PicoPiFi.dir/CherryUSB/class/cdc/usbd_cdc.c.obj" "gcc" "CMakeFiles/PicoPiFi.dir/CherryUSB/class/cdc/usbd_cdc.c.obj.d"
+  "/mnt/c/Users/siddk/Downloads/PicoPiFi/CherryUSB/class/wireless/usbd_rndis.c" "CMakeFiles/PicoPiFi.dir/CherryUSB/class/wireless/usbd_rndis.c.obj" "gcc" "CMakeFiles/PicoPiFi.dir/CherryUSB/class/wireless/usbd_rndis.c.obj.d"
+  "/mnt/c/Users/siddk/Downloads/PicoPiFi/CherryUSB/core/usbd_core.c" "CMakeFiles/PicoPiFi.dir/CherryUSB/core/usbd_core.c.obj" "gcc" "CMakeFiles/PicoPiFi.dir/CherryUSB/core/usbd_core.c.obj.d"
+  "/mnt/c/Users/siddk/Downloads/PicoPiFi/CherryUSB/port/rp2040/usb_dc_rp2040.c" "CMakeFiles/PicoPiFi.dir/CherryUSB/port/rp2040/usb_dc_rp2040.c.obj" "gcc" "CMakeFiles/PicoPiFi.dir/CherryUSB/port/rp2040/usb_dc_rp2040.c.obj.d"
   "/mnt/c/Users/siddk/Downloads/PicoPiFi/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c" "CMakeFiles/PicoPiFi.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj" "gcc" "CMakeFiles/PicoPiFi.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj.d"
   "/mnt/c/Users/siddk/Downloads/PicoPiFi/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c" "CMakeFiles/PicoPiFi.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj" "gcc" "CMakeFiles/PicoPiFi.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj.d"
   "/mnt/c/Users/siddk/Downloads/PicoPiFi/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c" "CMakeFiles/PicoPiFi.dir/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.obj" "gcc" "CMakeFiles/PicoPiFi.dir/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.obj.d"
@@ -286,7 +290,6 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/mnt/c/Users/siddk/Downloads/PicoPiFi/build/CMakeFiles/cherryusblib.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

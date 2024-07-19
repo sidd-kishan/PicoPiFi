@@ -4311,22 +4311,24 @@ typedef struct {
  * \param addr Address of writable register
  * \param mask Bit-mask specifying bits to set
  */
+ /*
 __force_inline static void hw_set_bits(io_rw_32 *addr, uint32_t mask)
 {
     *(io_rw_32 *)hw_set_alias_untyped((volatile void *)addr) = mask;
 }
-
+*/
 /*! \brief Atomically clear the specified bits to 0 in a HW register
  *  \ingroup hardware_base
  *
  * \param addr Address of writable register
  * \param mask Bit-mask specifying bits to clear
  */
+ /*
 __force_inline static void hw_clear_bits(io_rw_32 *addr, uint32_t mask)
 {
     *(io_rw_32 *)hw_clear_alias_untyped((volatile void *)addr) = mask;
 }
-
+*/
 /*! \brief Reset the specified HW blocks
  *  \ingroup hardware_resets
  *

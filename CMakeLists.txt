@@ -52,12 +52,6 @@ include_directories(${CMAKE_CURRENT_LIST_DIR}
 )
 
 
-add_library(cherryusblib STATIC)
-target_sources(cherryusblib PRIVATE ${CMAKE_CURRENT_LIST_DIR}/CherryUSB/port/rp2040/usb_dc_rp2040.c)
-target_sources(cherryusblib PRIVATE ${CMAKE_CURRENT_LIST_DIR}/CherryUSB/class/cdc/usbd_cdc.c)
-target_sources(cherryusblib PRIVATE ${CMAKE_CURRENT_LIST_DIR}/CherryUSB/class/wireless/usbd_rndis.c)
-target_sources(cherryusblib PRIVATE ${CMAKE_CURRENT_LIST_DIR}/CherryUSB/core/usbd_core.c)
-
 set(CONFIG_CHERRYUSB 1)
 set(CONFIG_USB_DEVICE 1)
 set(CONFIG_USB_DEVICE_RNDIS 1)
@@ -71,9 +65,9 @@ endif()
 project(PicoPiFi)
 
 include_directories(${PROJECT_NAME} PRIVATE ${CMAKE_CURRENT_SOURCE_DIR}/src ${PICO_EXAMPLES_PATH}/pico-sdk/lib/lwip/src/include ${PICO_EXAMPLES_PATH}/pico-sdk/lib/tinyusb/hw/bsp/rp2040)
-add_executable(${PROJECT_NAME} ${CMAKE_CURRENT_SOURCE_DIR}/src/main.c ${CMAKE_CURRENT_SOURCE_DIR}/src/lwip.c ${CMAKE_CURRENT_SOURCE_DIR}/src/wifi_tx.c ${CMAKE_CURRENT_SOURCE_DIR}/src/cdc_rndis_device.c)
+add_executable(${PROJECT_NAME} ${CMAKE_CURRENT_SOURCE_DIR}/src/main.c ${CMAKE_CURRENT_SOURCE_DIR}/src/lwip.c ${CMAKE_CURRENT_SOURCE_DIR}/src/wifi_tx.c ${CMAKE_CURRENT_SOURCE_DIR}/src/cdc_rndis_device.c ${CMAKE_CURRENT_LIST_DIR}/CherryUSB/port/rp2040/usb_dc_rp2040.c ${CMAKE_CURRENT_LIST_DIR}/CherryUSB/class/cdc/usbd_cdc.c ${CMAKE_CURRENT_LIST_DIR}/CherryUSB/class/wireless/usbd_rndis.c ${CMAKE_CURRENT_LIST_DIR}/CherryUSB/core/usbd_core.c)
 
 
-target_link_libraries(${PROJECT_NAME} PRIVATE pico_stdlib cherryusblib hardware_resets hardware_irq pico_lwip pico_multicore pico_cyw43_arch_none hardware_flash hardware_sync hardware_dma)
+target_link_libraries(${PROJECT_NAME} PRIVATE pico_stdlib hardware_resets hardware_irq pico_lwip pico_multicore pico_cyw43_arch_none hardware_flash hardware_sync hardware_dma)
 pico_add_extra_outputs(${PROJECT_NAME})
 target_compile_definitions(${PROJECT_NAME} PRIVATE CYW43_SLEEP_CHECK_MS=1)
