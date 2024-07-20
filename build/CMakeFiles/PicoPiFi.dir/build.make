@@ -153,19 +153,19 @@ CMakeFiles/PicoPiFi.dir/CherryUSB/class/cdc/usbd_cdc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/PicoPiFi.dir/CherryUSB/class/cdc/usbd_cdc.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/siddk/Downloads/PicoPiFi/CherryUSB/class/cdc/usbd_cdc.c -o CMakeFiles/PicoPiFi.dir/CherryUSB/class/cdc/usbd_cdc.c.s
 
-CMakeFiles/PicoPiFi.dir/CherryUSB/class/wireless/usbd_rndis.c.obj: CMakeFiles/PicoPiFi.dir/flags.make
-CMakeFiles/PicoPiFi.dir/CherryUSB/class/wireless/usbd_rndis.c.obj: ../CherryUSB/class/wireless/usbd_rndis.c
-CMakeFiles/PicoPiFi.dir/CherryUSB/class/wireless/usbd_rndis.c.obj: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/siddk/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/PicoPiFi.dir/CherryUSB/class/wireless/usbd_rndis.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/CherryUSB/class/wireless/usbd_rndis.c.obj -MF CMakeFiles/PicoPiFi.dir/CherryUSB/class/wireless/usbd_rndis.c.obj.d -o CMakeFiles/PicoPiFi.dir/CherryUSB/class/wireless/usbd_rndis.c.obj -c /mnt/c/Users/siddk/Downloads/PicoPiFi/CherryUSB/class/wireless/usbd_rndis.c
+CMakeFiles/PicoPiFi.dir/src/usbd_rndis.c.obj: CMakeFiles/PicoPiFi.dir/flags.make
+CMakeFiles/PicoPiFi.dir/src/usbd_rndis.c.obj: ../src/usbd_rndis.c
+CMakeFiles/PicoPiFi.dir/src/usbd_rndis.c.obj: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/siddk/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/PicoPiFi.dir/src/usbd_rndis.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/src/usbd_rndis.c.obj -MF CMakeFiles/PicoPiFi.dir/src/usbd_rndis.c.obj.d -o CMakeFiles/PicoPiFi.dir/src/usbd_rndis.c.obj -c /mnt/c/Users/siddk/Downloads/PicoPiFi/src/usbd_rndis.c
 
-CMakeFiles/PicoPiFi.dir/CherryUSB/class/wireless/usbd_rndis.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/PicoPiFi.dir/CherryUSB/class/wireless/usbd_rndis.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/siddk/Downloads/PicoPiFi/CherryUSB/class/wireless/usbd_rndis.c > CMakeFiles/PicoPiFi.dir/CherryUSB/class/wireless/usbd_rndis.c.i
+CMakeFiles/PicoPiFi.dir/src/usbd_rndis.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/PicoPiFi.dir/src/usbd_rndis.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/siddk/Downloads/PicoPiFi/src/usbd_rndis.c > CMakeFiles/PicoPiFi.dir/src/usbd_rndis.c.i
 
-CMakeFiles/PicoPiFi.dir/CherryUSB/class/wireless/usbd_rndis.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/PicoPiFi.dir/CherryUSB/class/wireless/usbd_rndis.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/siddk/Downloads/PicoPiFi/CherryUSB/class/wireless/usbd_rndis.c -o CMakeFiles/PicoPiFi.dir/CherryUSB/class/wireless/usbd_rndis.c.s
+CMakeFiles/PicoPiFi.dir/src/usbd_rndis.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/PicoPiFi.dir/src/usbd_rndis.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/siddk/Downloads/PicoPiFi/src/usbd_rndis.c -o CMakeFiles/PicoPiFi.dir/src/usbd_rndis.c.s
 
 CMakeFiles/PicoPiFi.dir/CherryUSB/core/usbd_core.c.obj: CMakeFiles/PicoPiFi.dir/flags.make
 CMakeFiles/PicoPiFi.dir/CherryUSB/core/usbd_core.c.obj: ../CherryUSB/core/usbd_core.c
@@ -2278,7 +2278,7 @@ PicoPiFi_OBJECTS = \
 "CMakeFiles/PicoPiFi.dir/src/cdc_rndis_device.c.obj" \
 "CMakeFiles/PicoPiFi.dir/CherryUSB/port/rp2040/usb_dc_rp2040.c.obj" \
 "CMakeFiles/PicoPiFi.dir/CherryUSB/class/cdc/usbd_cdc.c.obj" \
-"CMakeFiles/PicoPiFi.dir/CherryUSB/class/wireless/usbd_rndis.c.obj" \
+"CMakeFiles/PicoPiFi.dir/src/usbd_rndis.c.obj" \
 "CMakeFiles/PicoPiFi.dir/CherryUSB/core/usbd_core.c.obj" \
 "CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj" \
 "CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj" \
@@ -2440,7 +2440,7 @@ PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/src/wifi_tx.c.obj
 PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/src/cdc_rndis_device.c.obj
 PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/CherryUSB/port/rp2040/usb_dc_rp2040.c.obj
 PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/CherryUSB/class/cdc/usbd_cdc.c.obj
-PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/CherryUSB/class/wireless/usbd_rndis.c.obj
+PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/src/usbd_rndis.c.obj
 PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/CherryUSB/core/usbd_core.c.obj
 PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
 PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj

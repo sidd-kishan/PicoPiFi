@@ -1,5 +1,5 @@
-CMakeFiles/PicoPiFi.dir/CherryUSB/port/rp2040/usb_dc_rp2040.c.obj: \
- /mnt/c/Users/siddk/Downloads/PicoPiFi/CherryUSB/port/rp2040/usb_dc_rp2040.c \
+CMakeFiles/PicoPiFi.dir/src/usbd_rndis.c.obj: \
+ /mnt/c/Users/siddk/Downloads/PicoPiFi/src/usbd_rndis.c \
  /mnt/c/Users/siddk/Downloads/PicoPiFi/CherryUSB/core/usbd_core.h \
  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
  /usr/include/newlib/string.h /usr/include/newlib/_ansi.h \
@@ -105,4 +105,8 @@ CMakeFiles/PicoPiFi.dir/CherryUSB/port/rp2040/usb_dc_rp2040.c.obj: \
  /mnt/c/Users/siddk/Downloads/PicoPiFi/CherryUSB/common/usb_log.h \
  /mnt/c/Users/siddk/Downloads/PicoPiFi/CherryUSB/common/usb_dc.h \
  /mnt/c/Users/siddk/Downloads/PicoPiFi/CherryUSB/common/usb_memcpy.h \
- /mnt/c/Users/siddk/Downloads/PicoPiFi/CherryUSB/port/rp2040/usb_rp2040_reg.h
+ /mnt/c/Users/siddk/Downloads/PicoPiFi/CherryUSB/class/wireless/usbd_rndis.h \
+ /mnt/c/Users/siddk/Downloads/PicoPiFi/CherryUSB/class/cdc/usb_cdc.h \
+ /mnt/c/Users/siddk/Downloads/PicoPiFi/CherryUSB/class/wireless/rndis_protocol.h \
+ /mnt/c/Users/siddk/Downloads/PicoPiFi/CherryUSB/class/wireless/ndis.h \
+ /mnt/c/Users/siddk/Downloads/PicoPiFi/src/lwip.h

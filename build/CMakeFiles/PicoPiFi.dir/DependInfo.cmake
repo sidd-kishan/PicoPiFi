@@ -140,7 +140,6 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/mnt/c/Users/siddk/Downloads/PicoPiFi/CherryUSB/class/cdc/usbd_cdc.c" "CMakeFiles/PicoPiFi.dir/CherryUSB/class/cdc/usbd_cdc.c.obj" "gcc" "CMakeFiles/PicoPiFi.dir/CherryUSB/class/cdc/usbd_cdc.c.obj.d"
-  "/mnt/c/Users/siddk/Downloads/PicoPiFi/CherryUSB/class/wireless/usbd_rndis.c" "CMakeFiles/PicoPiFi.dir/CherryUSB/class/wireless/usbd_rndis.c.obj" "gcc" "CMakeFiles/PicoPiFi.dir/CherryUSB/class/wireless/usbd_rndis.c.obj.d"
   "/mnt/c/Users/siddk/Downloads/PicoPiFi/CherryUSB/core/usbd_core.c" "CMakeFiles/PicoPiFi.dir/CherryUSB/core/usbd_core.c.obj" "gcc" "CMakeFiles/PicoPiFi.dir/CherryUSB/core/usbd_core.c.obj.d"
   "/mnt/c/Users/siddk/Downloads/PicoPiFi/CherryUSB/port/rp2040/usb_dc_rp2040.c" "CMakeFiles/PicoPiFi.dir/CherryUSB/port/rp2040/usb_dc_rp2040.c.obj" "gcc" "CMakeFiles/PicoPiFi.dir/CherryUSB/port/rp2040/usb_dc_rp2040.c.obj.d"
   "/mnt/c/Users/siddk/Downloads/PicoPiFi/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c" "CMakeFiles/PicoPiFi.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj" "gcc" "CMakeFiles/PicoPiFi.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj.d"
@@ -284,6 +283,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/mnt/c/Users/siddk/Downloads/PicoPiFi/src/cdc_rndis_device.c" "CMakeFiles/PicoPiFi.dir/src/cdc_rndis_device.c.obj" "gcc" "CMakeFiles/PicoPiFi.dir/src/cdc_rndis_device.c.obj.d"
   "/mnt/c/Users/siddk/Downloads/PicoPiFi/src/lwip.c" "CMakeFiles/PicoPiFi.dir/src/lwip.c.obj" "gcc" "CMakeFiles/PicoPiFi.dir/src/lwip.c.obj.d"
   "/mnt/c/Users/siddk/Downloads/PicoPiFi/src/main.c" "CMakeFiles/PicoPiFi.dir/src/main.c.obj" "gcc" "CMakeFiles/PicoPiFi.dir/src/main.c.obj.d"
+  "/mnt/c/Users/siddk/Downloads/PicoPiFi/src/usbd_rndis.c" "CMakeFiles/PicoPiFi.dir/src/usbd_rndis.c.obj" "gcc" "CMakeFiles/PicoPiFi.dir/src/usbd_rndis.c.obj.d"
   "/mnt/c/Users/siddk/Downloads/PicoPiFi/src/wifi_tx.c" "CMakeFiles/PicoPiFi.dir/src/wifi_tx.c.obj" "gcc" "CMakeFiles/PicoPiFi.dir/src/wifi_tx.c.obj.d"
   "/mnt/c/Users/siddk/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp" "CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj" "gcc" "CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj.d"
   )

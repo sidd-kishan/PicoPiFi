@@ -231,30 +231,6 @@ CherryUSB/class/cdc/usbd_cdc.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PicoPiFi.dir/build.make CMakeFiles/PicoPiFi.dir/CherryUSB/class/cdc/usbd_cdc.c.s
 .PHONY : CherryUSB/class/cdc/usbd_cdc.c.s
 
-CherryUSB/class/wireless/usbd_rndis.obj: CherryUSB/class/wireless/usbd_rndis.c.obj
-.PHONY : CherryUSB/class/wireless/usbd_rndis.obj
-
-# target to build an object file
-CherryUSB/class/wireless/usbd_rndis.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PicoPiFi.dir/build.make CMakeFiles/PicoPiFi.dir/CherryUSB/class/wireless/usbd_rndis.c.obj
-.PHONY : CherryUSB/class/wireless/usbd_rndis.c.obj
-
-CherryUSB/class/wireless/usbd_rndis.i: CherryUSB/class/wireless/usbd_rndis.c.i
-.PHONY : CherryUSB/class/wireless/usbd_rndis.i
-
-# target to preprocess a source file
-CherryUSB/class/wireless/usbd_rndis.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PicoPiFi.dir/build.make CMakeFiles/PicoPiFi.dir/CherryUSB/class/wireless/usbd_rndis.c.i
-.PHONY : CherryUSB/class/wireless/usbd_rndis.c.i
-
-CherryUSB/class/wireless/usbd_rndis.s: CherryUSB/class/wireless/usbd_rndis.c.s
-.PHONY : CherryUSB/class/wireless/usbd_rndis.s
-
-# target to generate assembly for a file
-CherryUSB/class/wireless/usbd_rndis.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PicoPiFi.dir/build.make CMakeFiles/PicoPiFi.dir/CherryUSB/class/wireless/usbd_rndis.c.s
-.PHONY : CherryUSB/class/wireless/usbd_rndis.c.s
-
 CherryUSB/core/usbd_core.obj: CherryUSB/core/usbd_core.c.obj
 .PHONY : CherryUSB/core/usbd_core.obj
 
@@ -3799,6 +3775,30 @@ src/main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PicoPiFi.dir/build.make CMakeFiles/PicoPiFi.dir/src/main.c.s
 .PHONY : src/main.c.s
 
+src/usbd_rndis.obj: src/usbd_rndis.c.obj
+.PHONY : src/usbd_rndis.obj
+
+# target to build an object file
+src/usbd_rndis.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PicoPiFi.dir/build.make CMakeFiles/PicoPiFi.dir/src/usbd_rndis.c.obj
+.PHONY : src/usbd_rndis.c.obj
+
+src/usbd_rndis.i: src/usbd_rndis.c.i
+.PHONY : src/usbd_rndis.i
+
+# target to preprocess a source file
+src/usbd_rndis.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PicoPiFi.dir/build.make CMakeFiles/PicoPiFi.dir/src/usbd_rndis.c.i
+.PHONY : src/usbd_rndis.c.i
+
+src/usbd_rndis.s: src/usbd_rndis.c.s
+.PHONY : src/usbd_rndis.s
+
+# target to generate assembly for a file
+src/usbd_rndis.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PicoPiFi.dir/build.make CMakeFiles/PicoPiFi.dir/src/usbd_rndis.c.s
+.PHONY : src/usbd_rndis.c.s
+
 src/wifi_tx.obj: src/wifi_tx.c.obj
 .PHONY : src/wifi_tx.obj
 
@@ -3841,9 +3841,6 @@ help:
 	@echo "... CherryUSB/class/cdc/usbd_cdc.obj"
 	@echo "... CherryUSB/class/cdc/usbd_cdc.i"
 	@echo "... CherryUSB/class/cdc/usbd_cdc.s"
-	@echo "... CherryUSB/class/wireless/usbd_rndis.obj"
-	@echo "... CherryUSB/class/wireless/usbd_rndis.i"
-	@echo "... CherryUSB/class/wireless/usbd_rndis.s"
 	@echo "... CherryUSB/core/usbd_core.obj"
 	@echo "... CherryUSB/core/usbd_core.i"
 	@echo "... CherryUSB/core/usbd_core.s"
@@ -4287,6 +4284,9 @@ help:
 	@echo "... src/main.obj"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/usbd_rndis.obj"
+	@echo "... src/usbd_rndis.i"
+	@echo "... src/usbd_rndis.s"
 	@echo "... src/wifi_tx.obj"
 	@echo "... src/wifi_tx.i"
 	@echo "... src/wifi_tx.s"

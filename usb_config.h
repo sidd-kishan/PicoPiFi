@@ -179,7 +179,7 @@
 
 #define USB_MEMCPY_H 1
 
-#include "hardware/dma.h"
+#include "lwip.h"
 #include <stdint.h>
 #include <stddef.h>
 #define IS_ALIGNED_DWORD(x) (((uintptr_t)(x) & (sizeof(uint32_t) - 1)) == 0)

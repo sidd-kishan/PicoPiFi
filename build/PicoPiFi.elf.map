@@ -176,9 +176,9 @@ Discarded input sections
                 0x0000000000000000       0x14 CMakeFiles/PicoPiFi.dir/CherryUSB/class/cdc/usbd_cdc.c.obj
  .data.stop_name
                 0x0000000000000000        0xc CMakeFiles/PicoPiFi.dir/CherryUSB/class/cdc/usbd_cdc.c.obj
- .text          0x0000000000000000        0x0 CMakeFiles/PicoPiFi.dir/CherryUSB/class/wireless/usbd_rndis.c.obj
- .data          0x0000000000000000        0x0 CMakeFiles/PicoPiFi.dir/CherryUSB/class/wireless/usbd_rndis.c.obj
- .bss           0x0000000000000000        0x0 CMakeFiles/PicoPiFi.dir/CherryUSB/class/wireless/usbd_rndis.c.obj
+ .text          0x0000000000000000        0x0 CMakeFiles/PicoPiFi.dir/src/usbd_rndis.c.obj
+ .data          0x0000000000000000        0x0 CMakeFiles/PicoPiFi.dir/src/usbd_rndis.c.obj
+ .bss           0x0000000000000000        0x0 CMakeFiles/PicoPiFi.dir/src/usbd_rndis.c.obj
  .text          0x0000000000000000        0x0 CMakeFiles/PicoPiFi.dir/CherryUSB/core/usbd_core.c.obj
  .data          0x0000000000000000        0x0 CMakeFiles/PicoPiFi.dir/CherryUSB/core/usbd_core.c.obj
  .bss           0x0000000000000000        0x0 CMakeFiles/PicoPiFi.dir/CherryUSB/core/usbd_core.c.obj
@@ -2050,9 +2050,9 @@ Discarded input sections
                 0x0000000000000000       0x50 CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj
  .text.async_context_base_refresh_next_timeout
                 0x0000000000000000       0x40 CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj
- .text          0x0000000000000000        0x0 /tmp/ccgErFDz.o
- .data          0x0000000000000000        0x0 /tmp/ccgErFDz.o
- .bss           0x0000000000000000        0x0 /tmp/ccgErFDz.o
+ .text          0x0000000000000000        0x0 /tmp/ccWzEeDR.o
+ .data          0x0000000000000000        0x0 /tmp/ccWzEeDR.o
+ .bss           0x0000000000000000        0x0 /tmp/ccWzEeDR.o
  .data          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .bss           0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .text          0x0000000000000000       0x10 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-atexit.o)
@@ -2269,7 +2269,7 @@ LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nof
 .boot2          0x0000000010000000      0x100
                 0x0000000010000000                __boot2_start__ = .
  *(.boot2)
- .boot2         0x0000000010000000      0x100 /tmp/ccgErFDz.o
+ .boot2         0x0000000010000000      0x100 /tmp/ccWzEeDR.o
                 0x0000000010000100                __boot2_end__ = .
                 0x0000000000000001                ASSERT (((__boot2_end__ - __boot2_start__) == 0x100), ERROR: Pico second stage bootloader must be 256 bytes in size)
 
@@ -2430,26 +2430,26 @@ LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nof
  .text.cdc_acm_class_interface_request_handler
                 0x00000000100019ec       0xbc CMakeFiles/PicoPiFi.dir/CherryUSB/class/cdc/usbd_cdc.c.obj
  .text.rndis_int_in
-                0x0000000010001aa8        0x4 CMakeFiles/PicoPiFi.dir/CherryUSB/class/wireless/usbd_rndis.c.obj
+                0x0000000010001aa8        0x4 CMakeFiles/PicoPiFi.dir/src/usbd_rndis.c.obj
                 0x0000000010001aa8                rndis_int_in
  .text.rndis_notify_handler
-                0x0000000010001aac       0x48 CMakeFiles/PicoPiFi.dir/CherryUSB/class/wireless/usbd_rndis.c.obj
+                0x0000000010001aac       0x48 CMakeFiles/PicoPiFi.dir/src/usbd_rndis.c.obj
  .text.rndis_bulk_out
-                0x0000000010001af4       0x4c CMakeFiles/PicoPiFi.dir/CherryUSB/class/wireless/usbd_rndis.c.obj
+                0x0000000010001af4       0x4c CMakeFiles/PicoPiFi.dir/src/usbd_rndis.c.obj
                 0x0000000010001af4                rndis_bulk_out
  .text.rndis_bulk_in
-                0x0000000010001b40       0x34 CMakeFiles/PicoPiFi.dir/CherryUSB/class/wireless/usbd_rndis.c.obj
+                0x0000000010001b40       0x34 CMakeFiles/PicoPiFi.dir/src/usbd_rndis.c.obj
                 0x0000000010001b40                rndis_bulk_in
  .text.rndis_class_interface_request_handler
-                0x0000000010001b74      0x3f8 CMakeFiles/PicoPiFi.dir/CherryUSB/class/wireless/usbd_rndis.c.obj
+                0x0000000010001b74      0x3f8 CMakeFiles/PicoPiFi.dir/src/usbd_rndis.c.obj
  .text.usbd_rndis_eth_rx
-                0x0000000010001f6c      0x150 CMakeFiles/PicoPiFi.dir/CherryUSB/class/wireless/usbd_rndis.c.obj
+                0x0000000010001f6c      0x150 CMakeFiles/PicoPiFi.dir/src/usbd_rndis.c.obj
                 0x0000000010001f6c                usbd_rndis_eth_rx
  .text.usbd_rndis_eth_tx
-                0x00000000100020bc      0x188 CMakeFiles/PicoPiFi.dir/CherryUSB/class/wireless/usbd_rndis.c.obj
+                0x00000000100020bc      0x188 CMakeFiles/PicoPiFi.dir/src/usbd_rndis.c.obj
                 0x00000000100020bc                usbd_rndis_eth_tx
  .text.usbd_rndis_init_intf
-                0x0000000010002244       0x88 CMakeFiles/PicoPiFi.dir/CherryUSB/class/wireless/usbd_rndis.c.obj
+                0x0000000010002244       0x88 CMakeFiles/PicoPiFi.dir/src/usbd_rndis.c.obj
                 0x0000000010002244                usbd_rndis_init_intf
  .text.usbd_event_ep0_in_complete_handler
                 0x00000000100022cc       0x50 CMakeFiles/PicoPiFi.dir/CherryUSB/core/usbd_core.c.obj
@@ -3550,12 +3550,12 @@ LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nof
                                          0x3d (size before relaxing)
  *fill*         0x00000000100142fa        0x2 
  .rodata.rndis_class_interface_request_handler.str1.4
-                0x00000000100142fc       0x88 CMakeFiles/PicoPiFi.dir/CherryUSB/class/wireless/usbd_rndis.c.obj
+                0x00000000100142fc       0x88 CMakeFiles/PicoPiFi.dir/src/usbd_rndis.c.obj
                                          0xa0 (size before relaxing)
  .rodata.rndis_class_interface_request_handler
-                0x0000000010014384       0x8c CMakeFiles/PicoPiFi.dir/CherryUSB/class/wireless/usbd_rndis.c.obj
+                0x0000000010014384       0x8c CMakeFiles/PicoPiFi.dir/src/usbd_rndis.c.obj
  .rodata.oid_supported_list
-                0x0000000010014410       0x74 CMakeFiles/PicoPiFi.dir/CherryUSB/class/wireless/usbd_rndis.c.obj
+                0x0000000010014410       0x74 CMakeFiles/PicoPiFi.dir/src/usbd_rndis.c.obj
                 0x0000000010014410                oid_supported_list
  .rodata.usbd_setup_request_handler.str1.4
                 0x0000000010014484      0x120 CMakeFiles/PicoPiFi.dir/CherryUSB/core/usbd_core.c.obj
@@ -4053,7 +4053,7 @@ LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nof
  .bss.next_wifi_try
                 0x0000000020001408        0x8 CMakeFiles/PicoPiFi.dir/src/main.c.obj
  .bss.rndis_encapsulated_resp_buffer
-                0x0000000020001410       0x9c CMakeFiles/PicoPiFi.dir/CherryUSB/class/wireless/usbd_rndis.c.obj
+                0x0000000020001410       0x9c CMakeFiles/PicoPiFi.dir/src/usbd_rndis.c.obj
                 0x0000000020001410                rndis_encapsulated_resp_buffer
  *fill*         0x00000000200014ac        0x4 
  .bss.sd_table  0x00000000200014b0      0x100 CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
@@ -4067,7 +4067,7 @@ LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nof
  .bss           0x0000000020001600        0x4 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-reent.o)
                 0x0000000020001600                errno
  .bss.NOTIFY_RESPONSE_AVAILABLE
-                0x0000000020001604        0x8 CMakeFiles/PicoPiFi.dir/CherryUSB/class/wireless/usbd_rndis.c.obj
+                0x0000000020001604        0x8 CMakeFiles/PicoPiFi.dir/src/usbd_rndis.c.obj
                 0x0000000020001604                NOTIFY_RESPONSE_AVAILABLE
  .bss._used_instruction_space
                 0x000000002000160c        0x8 CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
@@ -4131,17 +4131,17 @@ LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nof
                 0x00000000200023f0                eth_frame_send_success
  .bss.filter    0x00000000200023f4        0x4 CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .bss.g_rndis_rx_buffer
-                0x00000000200023f8      0x62c CMakeFiles/PicoPiFi.dir/CherryUSB/class/wireless/usbd_rndis.c.obj
+                0x00000000200023f8      0x62c CMakeFiles/PicoPiFi.dir/src/usbd_rndis.c.obj
  .bss.g_rndis_rx_data_buffer
-                0x0000000020002a24        0x4 CMakeFiles/PicoPiFi.dir/CherryUSB/class/wireless/usbd_rndis.c.obj
+                0x0000000020002a24        0x4 CMakeFiles/PicoPiFi.dir/src/usbd_rndis.c.obj
                 0x0000000020002a24                g_rndis_rx_data_buffer
  .bss.g_rndis_rx_data_length
-                0x0000000020002a28        0x4 CMakeFiles/PicoPiFi.dir/CherryUSB/class/wireless/usbd_rndis.c.obj
+                0x0000000020002a28        0x4 CMakeFiles/PicoPiFi.dir/src/usbd_rndis.c.obj
                 0x0000000020002a28                g_rndis_rx_data_length
  .bss.g_rndis_tx_buffer
-                0x0000000020002a2c      0x62c CMakeFiles/PicoPiFi.dir/CherryUSB/class/wireless/usbd_rndis.c.obj
+                0x0000000020002a2c      0x62c CMakeFiles/PicoPiFi.dir/src/usbd_rndis.c.obj
  .bss.g_rndis_tx_data_length
-                0x0000000020003058        0x4 CMakeFiles/PicoPiFi.dir/CherryUSB/class/wireless/usbd_rndis.c.obj
+                0x0000000020003058        0x4 CMakeFiles/PicoPiFi.dir/src/usbd_rndis.c.obj
                 0x0000000020003058                g_rndis_tx_data_length
  .bss.g_rp2040_udc
                 0x000000002000305c      0x48c CMakeFiles/PicoPiFi.dir/CherryUSB/port/rp2040/usb_dc_rp2040.c.obj
@@ -4150,7 +4150,7 @@ LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nof
                 0x00000000200034e8      0x534 CMakeFiles/PicoPiFi.dir/CherryUSB/core/usbd_core.c.obj
                 0x00000000200034e8                g_usbd_core
  .bss.g_usbd_rndis
-                0x0000000020003a1c       0x24 CMakeFiles/PicoPiFi.dir/CherryUSB/class/wireless/usbd_rndis.c.obj
+                0x0000000020003a1c       0x24 CMakeFiles/PicoPiFi.dir/src/usbd_rndis.c.obj
                 0x0000000020003a1c                g_usbd_rndis
  .bss.g_usbdev_bus
                 0x0000000020003a40        0x8 CMakeFiles/PicoPiFi.dir/CherryUSB/core/usbd_core.c.obj
@@ -4274,7 +4274,7 @@ LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nof
                 0x0000000020010ad0                retry_ms
  *fill*         0x0000000020010ad6        0x2 
  .bss.rndis_ep_data
-                0x0000000020010ad8       0x18 CMakeFiles/PicoPiFi.dir/CherryUSB/class/wireless/usbd_rndis.c.obj
+                0x0000000020010ad8       0x18 CMakeFiles/PicoPiFi.dir/src/usbd_rndis.c.obj
  .bss.sf_clz_func
                 0x0000000020010af0        0x4 CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
                 0x0000000020010af0                sf_clz_func
@@ -4356,7 +4356,7 @@ LOAD CMakeFiles/PicoPiFi.dir/src/wifi_tx.c.obj
 LOAD CMakeFiles/PicoPiFi.dir/src/cdc_rndis_device.c.obj
 LOAD CMakeFiles/PicoPiFi.dir/CherryUSB/port/rp2040/usb_dc_rp2040.c.obj
 LOAD CMakeFiles/PicoPiFi.dir/CherryUSB/class/cdc/usbd_cdc.c.obj
-LOAD CMakeFiles/PicoPiFi.dir/CherryUSB/class/wireless/usbd_rndis.c.obj
+LOAD CMakeFiles/PicoPiFi.dir/src/usbd_rndis.c.obj
 LOAD CMakeFiles/PicoPiFi.dir/CherryUSB/core/usbd_core.c.obj
 LOAD CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
 LOAD CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
@@ -4508,7 +4508,7 @@ LOAD CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_exception/exceptio
 LOAD CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj
 LOAD CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj
 LOAD CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj
-LOAD /tmp/ccgErFDz.o
+LOAD /tmp/ccWzEeDR.o
 LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libstdc++.a
 LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libm.a
 START GROUP
@@ -4544,7 +4544,7 @@ LOAD linker stubs
  .ARM.attributes
                 0x0000000000000126       0x2c CMakeFiles/PicoPiFi.dir/CherryUSB/class/cdc/usbd_cdc.c.obj
  .ARM.attributes
-                0x0000000000000152       0x2c CMakeFiles/PicoPiFi.dir/CherryUSB/class/wireless/usbd_rndis.c.obj
+                0x0000000000000152       0x2c CMakeFiles/PicoPiFi.dir/src/usbd_rndis.c.obj
  .ARM.attributes
                 0x000000000000017e       0x2c CMakeFiles/PicoPiFi.dir/CherryUSB/core/usbd_core.c.obj
  .ARM.attributes
@@ -4664,7 +4664,7 @@ LOAD linker stubs
  .ARM.attributes
                 0x0000000000000b22       0x2c CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj
  .ARM.attributes
-                0x0000000000000b4e       0x22 /tmp/ccgErFDz.o
+                0x0000000000000b4e       0x22 /tmp/ccWzEeDR.o
  .ARM.attributes
                 0x0000000000000b70       0x1e /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .ARM.attributes
@@ -4777,7 +4777,7 @@ LOAD linker stubs
  .comment       0x0000000000000033       0x34 CMakeFiles/PicoPiFi.dir/src/cdc_rndis_device.c.obj
  .comment       0x0000000000000033       0x34 CMakeFiles/PicoPiFi.dir/CherryUSB/port/rp2040/usb_dc_rp2040.c.obj
  .comment       0x0000000000000033       0x34 CMakeFiles/PicoPiFi.dir/CherryUSB/class/cdc/usbd_cdc.c.obj
- .comment       0x0000000000000033       0x34 CMakeFiles/PicoPiFi.dir/CherryUSB/class/wireless/usbd_rndis.c.obj
+ .comment       0x0000000000000033       0x34 CMakeFiles/PicoPiFi.dir/src/usbd_rndis.c.obj
  .comment       0x0000000000000033       0x34 CMakeFiles/PicoPiFi.dir/CherryUSB/core/usbd_core.c.obj
  .comment       0x0000000000000033       0x34 CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
  .comment       0x0000000000000033       0x34 CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj

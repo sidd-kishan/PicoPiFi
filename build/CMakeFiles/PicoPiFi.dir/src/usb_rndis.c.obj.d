@@ -1,5 +1,5 @@
-CMakeFiles/cherryusblib.dir/CherryUSB/class/wireless/usbd_rndis.c.obj: \
- /mnt/c/Users/siddk/Downloads/PicoPiFi/CherryUSB/class/wireless/usbd_rndis.c \
+CMakeFiles/PicoPiFi.dir/src/usb_rndis.c.obj: \
+ /mnt/c/Users/siddk/Downloads/PicoPiFi/src/usb_rndis.c \
  /mnt/c/Users/siddk/Downloads/PicoPiFi/CherryUSB/core/usbd_core.h \
  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
  /usr/include/newlib/string.h /usr/include/newlib/_ansi.h \
@@ -17,6 +17,26 @@ CMakeFiles/cherryusblib.dir/CherryUSB/class/wireless/usbd_rndis.c.obj: \
  /usr/include/newlib/stdlib.h /usr/include/newlib/machine/stdlib.h \
  /usr/include/newlib/alloca.h \
  /mnt/c/Users/siddk/Downloads/PicoPiFi/usb_config.h \
+ /mnt/c/Users/siddk/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_dma/include/hardware/dma.h \
+ /mnt/c/Users/siddk/Downloads/PicoPiFi/pico-sdk/src/common/pico_base/include/pico.h \
+ /mnt/c/Users/siddk/Downloads/PicoPiFi/pico-sdk/src/common/pico_base/include/pico/types.h \
+ /mnt/c/Users/siddk/Downloads/PicoPiFi/pico-sdk/src/common/pico_base/include/pico/assert.h \
+ /usr/include/newlib/assert.h \
+ /mnt/c/Users/siddk/Downloads/PicoPiFi/build/generated/pico_base/pico/version.h \
+ /mnt/c/Users/siddk/Downloads/PicoPiFi/pico-sdk/src/common/pico_base/include/pico/config.h \
+ /mnt/c/Users/siddk/Downloads/PicoPiFi/build/generated/pico_base/pico/config_autogen.h \
+ /mnt/c/Users/siddk/Downloads/PicoPiFi/pico-sdk/src/boards/include/boards/pico_w.h \
+ /mnt/c/Users/siddk/Downloads/PicoPiFi/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+ /mnt/c/Users/siddk/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h \
+ /mnt/c/Users/siddk/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+ /mnt/c/Users/siddk/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+ /mnt/c/Users/siddk/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+ /mnt/c/Users/siddk/Downloads/PicoPiFi/pico-sdk/src/common/pico_base/include/pico/types.h \
+ /mnt/c/Users/siddk/Downloads/PicoPiFi/pico-sdk/src/common/pico_base/include/pico/error.h \
+ /mnt/c/Users/siddk/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/dma.h \
+ /mnt/c/Users/siddk/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+ /mnt/c/Users/siddk/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dma.h \
+ /mnt/c/Users/siddk/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h \
  /mnt/c/Users/siddk/Downloads/PicoPiFi/CherryUSB/common/usb_util.h \
  /mnt/c/Users/siddk/Downloads/PicoPiFi/CherryUSB/common/usb_errno.h \
  /mnt/c/Users/siddk/Downloads/PicoPiFi/CherryUSB/common/usb_def.h \

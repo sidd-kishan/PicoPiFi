@@ -24,7 +24,19 @@ CMakeFiles/PicoPiFi.dir/src/main.c.obj: \
  /usr/include/newlib/stdlib.h /usr/include/newlib/machine/stdlib.h \
  /usr/include/newlib/alloca.h \
  /mnt/c/Users/siddk/Downloads/PicoPiFi/usb_config.h \
- /mnt/c/Users/siddk/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_dma/include/hardware/dma.h \
+ /mnt/c/Users/siddk/Downloads/PicoPiFi/src/lwip.h \
+ /mnt/c/Users/siddk/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/init.h \
+ /mnt/c/Users/siddk/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/opt.h \
+ /mnt/c/Users/siddk/Downloads/PicoPiFi/src/lwipopts.h \
+ /mnt/c/Users/siddk/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/debug.h \
+ /mnt/c/Users/siddk/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/arch.h \
+ /mnt/c/Users/siddk/Downloads/PicoPiFi/common/arch/cc.h \
+ /usr/include/newlib/inttypes.h /usr/include/newlib/sys/_intsup.h \
+ /usr/lib/gcc/arm-none-eabi/10.3.1/include-fixed/limits.h \
+ /usr/include/newlib/ctype.h \
+ /mnt/c/Users/siddk/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/pbuf.h \
+ /mnt/c/Users/siddk/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/err.h \
+ /mnt/c/Users/siddk/Downloads/PicoPiFi/pico-sdk/src/common/pico_stdlib/include/pico/stdlib.h \
  /mnt/c/Users/siddk/Downloads/PicoPiFi/pico-sdk/src/common/pico_base/include/pico.h \
  /mnt/c/Users/siddk/Downloads/PicoPiFi/pico-sdk/src/common/pico_base/include/pico/types.h \
  /mnt/c/Users/siddk/Downloads/PicoPiFi/pico-sdk/src/common/pico_base/include/pico/assert.h \
@@ -40,37 +52,11 @@ CMakeFiles/PicoPiFi.dir/src/main.c.obj: \
  /mnt/c/Users/siddk/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
  /mnt/c/Users/siddk/Downloads/PicoPiFi/pico-sdk/src/common/pico_base/include/pico/types.h \
  /mnt/c/Users/siddk/Downloads/PicoPiFi/pico-sdk/src/common/pico_base/include/pico/error.h \
- /mnt/c/Users/siddk/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/dma.h \
- /mnt/c/Users/siddk/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
- /mnt/c/Users/siddk/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dma.h \
- /mnt/c/Users/siddk/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h \
- /mnt/c/Users/siddk/Downloads/PicoPiFi/CherryUSB/common/usb_util.h \
- /mnt/c/Users/siddk/Downloads/PicoPiFi/CherryUSB/common/usb_errno.h \
- /mnt/c/Users/siddk/Downloads/PicoPiFi/CherryUSB/common/usb_def.h \
- /mnt/c/Users/siddk/Downloads/PicoPiFi/CherryUSB/common/usb_list.h \
- /mnt/c/Users/siddk/Downloads/PicoPiFi/CherryUSB/common/usb_log.h \
- /mnt/c/Users/siddk/Downloads/PicoPiFi/CherryUSB/common/usb_dc.h \
- /mnt/c/Users/siddk/Downloads/PicoPiFi/CherryUSB/common/usb_memcpy.h \
- /mnt/c/Users/siddk/Downloads/PicoPiFi/CherryUSB/class/wireless/usbd_rndis.h \
- /mnt/c/Users/siddk/Downloads/PicoPiFi/CherryUSB/class/cdc/usb_cdc.h \
- /mnt/c/Users/siddk/Downloads/PicoPiFi/src/cdc_rndis_device.h \
- /mnt/c/Users/siddk/Downloads/PicoPiFi/src/lwip.h \
- /mnt/c/Users/siddk/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/init.h \
- /mnt/c/Users/siddk/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/opt.h \
- /mnt/c/Users/siddk/Downloads/PicoPiFi/src/lwipopts.h \
- /mnt/c/Users/siddk/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/debug.h \
- /mnt/c/Users/siddk/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/arch.h \
- /mnt/c/Users/siddk/Downloads/PicoPiFi/common/arch/cc.h \
- /usr/include/newlib/inttypes.h /usr/include/newlib/sys/_intsup.h \
- /usr/lib/gcc/arm-none-eabi/10.3.1/include-fixed/limits.h \
- /usr/include/newlib/ctype.h \
- /mnt/c/Users/siddk/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/pbuf.h \
- /mnt/c/Users/siddk/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/err.h \
- /mnt/c/Users/siddk/Downloads/PicoPiFi/pico-sdk/src/common/pico_stdlib/include/pico/stdlib.h \
  /mnt/c/Users/siddk/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
  /mnt/c/Users/siddk/Downloads/PicoPiFi/pico-sdk/src/common/pico_time/include/pico/time.h \
  /mnt/c/Users/siddk/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
  /mnt/c/Users/siddk/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
+ /mnt/c/Users/siddk/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
  /mnt/c/Users/siddk/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
  /mnt/c/Users/siddk/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h \
  /mnt/c/Users/siddk/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/sio.h \
@@ -85,6 +71,7 @@ CMakeFiles/PicoPiFi.dir/src/main.c.obj: \
  /mnt/c/Users/siddk/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_uart/include/hardware/uart.h \
  /mnt/c/Users/siddk/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/uart.h \
  /mnt/c/Users/siddk/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/uart.h \
+ /mnt/c/Users/siddk/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h \
  /mnt/c/Users/siddk/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_stdio_uart/include/pico/stdio_uart.h \
  /mnt/c/Users/siddk/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_multicore/include/pico/multicore.h \
  /mnt/c/Users/siddk/Downloads/PicoPiFi/pico-sdk/src/common/pico_sync/include/pico/sync.h \
@@ -105,4 +92,18 @@ CMakeFiles/PicoPiFi.dir/src/main.c.obj: \
  /mnt/c/Users/siddk/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_watchdog/include/hardware/watchdog.h \
  /mnt/c/Users/siddk/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/watchdog.h \
  /mnt/c/Users/siddk/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/watchdog.h \
- /mnt/c/Users/siddk/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom.h
+ /mnt/c/Users/siddk/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom.h \
+ /mnt/c/Users/siddk/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_dma/include/hardware/dma.h \
+ /mnt/c/Users/siddk/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/dma.h \
+ /mnt/c/Users/siddk/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dma.h \
+ /mnt/c/Users/siddk/Downloads/PicoPiFi/CherryUSB/common/usb_util.h \
+ /mnt/c/Users/siddk/Downloads/PicoPiFi/CherryUSB/common/usb_errno.h \
+ /mnt/c/Users/siddk/Downloads/PicoPiFi/CherryUSB/common/usb_def.h \
+ /mnt/c/Users/siddk/Downloads/PicoPiFi/CherryUSB/common/usb_list.h \
+ /mnt/c/Users/siddk/Downloads/PicoPiFi/CherryUSB/common/usb_log.h \
+ /mnt/c/Users/siddk/Downloads/PicoPiFi/CherryUSB/common/usb_dc.h \
+ /mnt/c/Users/siddk/Downloads/PicoPiFi/CherryUSB/common/usb_memcpy.h \
+ /mnt/c/Users/siddk/Downloads/PicoPiFi/CherryUSB/class/wireless/usbd_rndis.h \
+ /mnt/c/Users/siddk/Downloads/PicoPiFi/CherryUSB/class/cdc/usb_cdc.h \
+ /mnt/c/Users/siddk/Downloads/PicoPiFi/src/cdc_rndis_device.h \
+ /mnt/c/Users/siddk/Downloads/PicoPiFi/src/lwip.h

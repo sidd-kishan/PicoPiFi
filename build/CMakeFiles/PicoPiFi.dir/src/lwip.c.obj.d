@@ -97,6 +97,7 @@ CMakeFiles/PicoPiFi.dir/src/lwip.c.obj: \
  /mnt/c/Users/siddk/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dma.h \
  /mnt/c/Users/siddk/Downloads/PicoPiFi/CherryUSB/core/usbd_core.h \
  /mnt/c/Users/siddk/Downloads/PicoPiFi/usb_config.h \
+ /mnt/c/Users/siddk/Downloads/PicoPiFi/src/lwip.h \
  /mnt/c/Users/siddk/Downloads/PicoPiFi/CherryUSB/common/usb_util.h \
  /mnt/c/Users/siddk/Downloads/PicoPiFi/CherryUSB/common/usb_errno.h \
  /mnt/c/Users/siddk/Downloads/PicoPiFi/CherryUSB/common/usb_def.h \

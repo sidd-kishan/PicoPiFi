@@ -1,6 +1,7 @@
 # Hashes of file build rules.
 e1f6d93340b49d683f867113c4c61bf9 CMakeFiles/ELF2UF2Build
 887453ba1afb26bcaf9b7cde2992d841 CMakeFiles/ELF2UF2Build-complete
+a89ffe563f33c11bcd1b7a2f8eda7432 align_data.pio.h
 7b27467d3006bcda27b1d698afcbecef elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-build
 3465ca55c6caf8a6a1aa2b14af431116 elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-configure
 00a27c111ba75a3fe02aa641b57863d8 elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-download
