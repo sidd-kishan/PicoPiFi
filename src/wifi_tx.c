@@ -73,17 +73,12 @@ void cyw43_cb_tcpip_set_link_down(cyw43_t *self, int itf) {
 }
 
 void cyw43_cb_process_ethernet(void *cb_data, int itf, size_t len, const uint8_t *buf) {
-		/*if((dma_hw->ch[chan].ctrl_trig & DMA_CH0_CTRL_TRIG_BUSY_BITS)&&(dma_hw->ch[chan_2].ctrl_trig & DMA_CH0_CTRL_TRIG_BUSY_BITS)){
-			
-		} else*/ if(!(dma_hw->ch[chan].ctrl_trig & DMA_CH0_CTRL_TRIG_BUSY_BITS)) {
+		if(!(dma_hw->ch[chan].ctrl_trig & DMA_CH0_CTRL_TRIG_BUSY_BITS)) {
 			out_pkt_dma = pbuf_alloc(PBUF_RAW, len, PBUF_POOL);
 			//memcpy(out_pkt->payload, buf, len);
 			//pbuf_take(out_pkt, buf, len);
 			int transfer = (len%2==0)?(len/2):((len+1)/2);
-			dma_channel_config c = dma_channel_get_default_config(chan);
-			channel_config_set_transfer_data_size(&c, DMA_SIZE_16);
-			channel_config_set_read_increment(&c, true);
-			channel_config_set_write_increment(&c, true);
+			
 
 			dma_channel_configure(
 				chan,            // Channel to be configured
@@ -93,16 +88,11 @@ void cyw43_cb_process_ethernet(void *cb_data, int itf, size_t len, const uint8_t
 				transfer,             // Number of transfers; in this case each is 1 byte.
 				true             // Start immediately.
 			);
-			}
-			else if(!(dma_hw->ch[chan_2].ctrl_trig & DMA_CH0_CTRL_TRIG_BUSY_BITS)){
+			} else if(!(dma_hw->ch[chan_2].ctrl_trig & DMA_CH0_CTRL_TRIG_BUSY_BITS)){
 				out_pkt_dma_2 = pbuf_alloc(PBUF_RAW, len, PBUF_POOL);
 				//memcpy(out_pkt->payload, buf, len);
 				//pbuf_take(out_pkt, buf, len);
 				int transfer_2 = (len%2==0)?(len/2):((len+1)/2);
-				dma_channel_config c_2 = dma_channel_get_default_config(chan_2);
-				channel_config_set_transfer_data_size(&c_2, DMA_SIZE_16);
-				channel_config_set_read_increment(&c_2, true);
-				channel_config_set_write_increment(&c_2, true);
 
 				dma_channel_configure(
 					chan_2,            // Channel to be configured
@@ -130,13 +120,4 @@ void dma_handler() {
 	}
 	pbuf_free(out_pkt_dma);
     dma_hw->ints0 = 1u << chan;
-}
-
-void dma_handler_2() {
-	int ret = usbd_rndis_eth_tx(out_pkt_dma_2);
-	if (0 != ret) {
-		ret = ERR_BUF;
-	}
-	pbuf_free(out_pkt_dma_2);
-    dma_hw->ints1 = 1u << chan_2;
 }

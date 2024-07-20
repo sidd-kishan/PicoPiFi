@@ -23,9 +23,11 @@ extern bool link_up;
 static void  lwip_service_traffic(void);
 void printline(int cdc,char string[],int len);
 void dma_handler();
-void dma_handler_2();
 extern int chan;
 extern int chan_2;
+
+extern dma_channel_config c;
+extern dma_channel_config c_2;
 
 extern char connect_ssid[190], connect_ssid_decode[95], connect_password[190], connect_password_decode[95], retry_ms[6], enc_type[1], wifi_configuration[450], 	wifi_configuration_last[450];
 extern int wifi_congfig_len;

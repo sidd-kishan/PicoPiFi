@@ -189,28 +189,35 @@ static inline void *usb_memcpy(void *dest, const void *src, size_t n)
     char *d = (char *)dest;
     const char *s = (const char *)src;
 
-    // Align destination to a 32-bit boundary
-    while (n > 0 && ((uintptr_t)d & 3)) {
-        *d++ = *s++;
-        --n;
+    // Handle the initial misaligned bytes, if any
+    size_t leading_bytes = (uintptr_t)d & 3;
+    if (leading_bytes) {
+        leading_bytes = 4 - leading_bytes;
+        if (n < leading_bytes) {
+            leading_bytes = n;
+        }
+        memcpy(d, s, leading_bytes);
+        d += leading_bytes;
+        s += leading_bytes;
+        n -= leading_bytes;
     }
 
-    // Copy 32-bit words as much as possible
+    // Copy 32-bit words
     uint32_t *dw = (uint32_t *)d;
     const uint32_t *sw = (const uint32_t *)s;
-
-    while (n >= 4) {
-        *dw++ = *sw++;
-        n -= 4;
+    size_t word_count = n / 4;
+    for (size_t i = 0; i < word_count; ++i) {
+        dw[i] = sw[i];
     }
 
-    d = (char *)dw;
-    s = (const char *)sw;
+    // Update pointers and remaining byte count
+    d = (char *)(dw + word_count);
+    s = (const char *)(sw + word_count);
+    n -= word_count * 4;
 
     // Copy remaining bytes
-    while (n > 0) {
-        *d++ = *s++;
-        --n;
+    if (n > 0) {
+        memcpy(d, s, n);
     }
 
     return dest;

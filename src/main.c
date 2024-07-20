@@ -20,7 +20,9 @@ int wifi_congfig_len=0;
 int eth_frame_send_success;
 
 int chan = 0;
+dma_channel_config c;
 int chan_2 = 0;
+dma_channel_config c_2;
 
 void printline(int cdc,char string[],int len){
 	char buf[2048];
@@ -158,12 +160,18 @@ int main(void)
     irq_set_exclusive_handler(DMA_IRQ_0, dma_handler);
     irq_set_enabled(DMA_IRQ_0, true);
 	
+	c = dma_channel_get_default_config(chan);
+	channel_config_set_transfer_data_size(&c, DMA_SIZE_16);
+	channel_config_set_read_increment(&c, true);
+	channel_config_set_write_increment(&c, true);
+	
 	chan_2 = dma_claim_unused_channel(false);
-	dma_channel_set_irq1_enabled(chan_2, true);
-
-    // Configure the processor to run dma_handler() when DMA IRQ 0 is asserted
-    irq_set_exclusive_handler(DMA_IRQ_1, dma_handler_2);
-    irq_set_enabled(DMA_IRQ_1, true);
+	dma_channel_set_irq0_enabled(chan_2, true);
+	
+	c_2 = dma_channel_get_default_config(chan_2);
+	channel_config_set_transfer_data_size(&c_2, DMA_SIZE_16);
+	channel_config_set_read_increment(&c_2, true);
+	channel_config_set_write_increment(&c_2, true);
 
 	while (1) {
 		if (!link_up) {
