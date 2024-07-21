@@ -504,7 +504,16 @@ int usbd_rndis_eth_tx(struct pbuf *p)
     struct pbuf *q;
     uint8_t *buffer;
     rndis_data_packet_t *hdr;
-
+	hdr = (rndis_data_packet_t *)g_rndis_tx_buffer;
+	uint16_t zerobuf[] = {0};
+	dma_channel_configure(
+					dma_memset_0,            // Channel to be configured
+					&memset_0,              // The configuration we just created
+					hdr,// The initial write address
+					zerobuf,             // The initial read address
+					(sizeof(rndis_data_packet_t)/2)+1,             // Number of transfers; in this case each is 1 byte.
+					true             // Start immediately.
+				);
     if (g_usbd_rndis.link_status == NDIS_MEDIA_STATE_DISCONNECTED) {
         return -USB_ERR_NOTCONN;
     }
@@ -523,9 +532,9 @@ int usbd_rndis_eth_tx(struct pbuf *p)
         buffer += q->len;
     }
 
-    hdr = (rndis_data_packet_t *)g_rndis_tx_buffer;
-
-    memset(hdr, 0, sizeof(rndis_data_packet_t));
+    
+	dma_channel_wait_for_finish_blocking(dma_memset_0);
+    //memset(hdr, 0, sizeof(rndis_data_packet_t));
     hdr->MessageType = REMOTE_NDIS_PACKET_MSG;
     hdr->MessageLength = sizeof(rndis_data_packet_t) + p->tot_len;
     hdr->DataOffset = sizeof(rndis_data_packet_t) - sizeof(rndis_generic_msg_t);

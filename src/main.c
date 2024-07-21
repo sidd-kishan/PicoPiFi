@@ -23,6 +23,16 @@ int chan = 0;
 dma_channel_config c;
 int chan_2 = 0;
 dma_channel_config c_2;
+int dma_memset_0 = 0;
+dma_channel_config memset_0;
+int dma_align_cpy_head = 0;
+dma_channel_config align_cpy_head;
+int dma_align_cpy = 0;
+dma_channel_config align_cpy;
+int dma_align_cpy_tail = 0;
+dma_channel_config align_cpy_tail;
+int dma_usb_cpy = 0;
+dma_channel_config usb_cpy;
 
 void printline(int cdc,char string[],int len){
 	char buf[2048];
@@ -165,13 +175,43 @@ int main(void)
 	channel_config_set_read_increment(&c, true);
 	channel_config_set_write_increment(&c, true);
 	
-	chan_2 = dma_claim_unused_channel(false);
+	chan_2 = dma_claim_unused_channel(true);
 	dma_channel_set_irq0_enabled(chan_2, true);
 	
 	c_2 = dma_channel_get_default_config(chan_2);
 	channel_config_set_transfer_data_size(&c_2, DMA_SIZE_16);
 	channel_config_set_read_increment(&c_2, true);
 	channel_config_set_write_increment(&c_2, true);
+	
+	dma_memset_0 = dma_claim_unused_channel(true);
+	memset_0 =  dma_channel_get_default_config(dma_memset_0);
+	channel_config_set_transfer_data_size(&memset_0, DMA_SIZE_16);
+	channel_config_set_read_increment(&memset_0, false);
+	channel_config_set_write_increment(&memset_0, true);
+	
+	dma_align_cpy_head = dma_claim_unused_channel(true);
+	align_cpy_head =  dma_channel_get_default_config(dma_align_cpy_head);
+	channel_config_set_transfer_data_size(&align_cpy_head, DMA_SIZE_8);
+	channel_config_set_read_increment(&align_cpy_head, true);
+	channel_config_set_write_increment(&align_cpy_head, true);
+	
+	dma_align_cpy = dma_claim_unused_channel(true);
+	align_cpy =  dma_channel_get_default_config(dma_align_cpy);
+	channel_config_set_transfer_data_size(&align_cpy, DMA_SIZE_32);
+	channel_config_set_read_increment(&align_cpy, true);
+	channel_config_set_write_increment(&align_cpy, true);
+	
+	dma_align_cpy_tail = dma_claim_unused_channel(true);
+	align_cpy_tail =  dma_channel_get_default_config(dma_align_cpy_tail);
+	channel_config_set_transfer_data_size(&align_cpy_tail, DMA_SIZE_8);
+	channel_config_set_read_increment(&align_cpy_tail, true);
+	channel_config_set_write_increment(&align_cpy_tail, true);
+	
+	dma_usb_cpy = dma_claim_unused_channel(true);
+	usb_cpy =  dma_channel_get_default_config(dma_usb_cpy);
+	channel_config_set_transfer_data_size(&usb_cpy, DMA_SIZE_32);
+	channel_config_set_read_increment(&usb_cpy, true);
+	channel_config_set_write_increment(&usb_cpy, true);
 
 	while (1) {
 		if (!link_up) {

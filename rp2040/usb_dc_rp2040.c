@@ -1,6 +1,6 @@
 #include "usbd_core.h"
 #include "usb_rp2040_reg.h"
-
+#include "lwip.h"
 #ifndef USBD_IRQHandler
 #define USBD_IRQHandler isr_irq5
 #endif
@@ -156,7 +156,16 @@ static void usb_start_transfer(struct usb_dc_ep_state *ep, uint8_t *buf, uint16_
     if (USB_EP_DIR_IS_IN(ep->ep_addr)) {
         /*!< Need to copy the data from the user buffer to the usb memory */
         if (buf != NULL) {
-            memcpy((void *)ep->dpram_data_buf, (void *)buf, len);
+			dma_channel_configure(
+					dma_usb_cpy,            // Channel to be configured
+					&usb_cpy,              // The configuration we just created
+					(void *)ep->dpram_data_buf,// The initial write address
+					buf,             // The initial read address
+					(len/4)+1,             // Number of transfers; in this case each is 1 byte.
+					true             // Start immediately.
+				);
+			//dma_channel_wait_for_finish_blocking(dma_usb_cpy);
+            //memcpy((void *)ep->dpram_data_buf, (void *)buf, len);
         }
         /*!< Mark as full */
         val |= USB_BUF_CTRL_FULL;

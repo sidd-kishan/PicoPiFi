@@ -196,7 +196,15 @@ static inline void *usb_memcpy(void *dest, const void *src, size_t n)
         if (n < leading_bytes) {
             leading_bytes = n;
         }
-        memcpy(d, s, leading_bytes);
+        //memcpy(d, s, leading_bytes);
+		dma_channel_configure(
+					dma_align_cpy_head,            // Channel to be configured
+					&align_cpy_head,              // The configuration we just created
+					d,// The initial write address
+					s,             // The initial read address
+					leading_bytes,             // Number of transfers; in this case each is 1 byte.
+					true             // Start immediately.
+				);
         d += leading_bytes;
         s += leading_bytes;
         n -= leading_bytes;
@@ -206,9 +214,19 @@ static inline void *usb_memcpy(void *dest, const void *src, size_t n)
     uint32_t *dw = (uint32_t *)d;
     const uint32_t *sw = (const uint32_t *)s;
     size_t word_count = n / 4;
-    for (size_t i = 0; i < word_count; ++i) {
+    /*
+	for (size_t i = 0; i < word_count; ++i) {
         dw[i] = sw[i];
-    }
+    }*/
+	dma_channel_configure(
+					dma_align_cpy,            // Channel to be configured
+					&align_cpy,              // The configuration we just created
+					dw,// The initial write address
+					sw,             // The initial read address
+					word_count,             // Number of transfers; in this case each is 1 byte.
+					true             // Start immediately.
+				);
+	
 
     // Update pointers and remaining byte count
     d = (char *)(dw + word_count);
@@ -217,8 +235,17 @@ static inline void *usb_memcpy(void *dest, const void *src, size_t n)
 
     // Copy remaining bytes
     if (n > 0) {
-        memcpy(d, s, n);
+        //memcpy(d, s, n);
+		dma_channel_configure(
+					dma_align_cpy_tail,            // Channel to be configured
+					&align_cpy_tail,              // The configuration we just created
+					d,// The initial write address
+					s,             // The initial read address
+					n,             // Number of transfers; in this case each is 1 byte.
+					true             // Start immediately.
+				);
     }
+	//dma_channel_wait_for_finish_blocking(dma_align_cpy);
 
     return dest;
 }
