@@ -506,14 +506,24 @@ int usbd_rndis_eth_tx(struct pbuf *p)
     rndis_data_packet_t *hdr;
 	hdr = (rndis_data_packet_t *)g_rndis_tx_buffer;
 	uint16_t zerobuf[] = {0};
-	dma_channel_configure(
-					dma_memset_0,            // Channel to be configured
-					&memset_0,              // The configuration we just created
-					hdr,// The initial write address
-					zerobuf,             // The initial read address
-					(sizeof(rndis_data_packet_t)/2)+1,             // Number of transfers; in this case each is 1 byte.
-					true             // Start immediately.
-				);
+	if(!dma_memset_0_flag){
+		dma_channel_configure(
+						dma_memset_0,            // Channel to be configured
+						&memset_0,              // The configuration we just created
+						hdr,// The initial write address
+						zerobuf,             // The initial read address
+						(sizeof(rndis_data_packet_t)/2)+1,             // Number of transfers; in this case each is 1 byte.
+						true             // Start immediately.
+					);
+		dma_memset_0_flag = 1;
+	} else {
+		//dma_channel_start(dma_memset_0);
+		//dma_channel_transfer_from_buffer_now( dma_memset_0, zerobuf, (sizeof(rndis_data_packet_t)/2)+1);
+		
+		dma_channel_set_read_addr(dma_memset_0, zerobuf, false);
+        dma_channel_set_write_addr(dma_memset_0, hdr, false);
+        dma_channel_set_trans_count(dma_memset_0, (sizeof(rndis_data_packet_t)%2==1)?((sizeof(rndis_data_packet_t)+1)/2):(sizeof(rndis_data_packet_t)/2), true);
+	}
     if (g_usbd_rndis.link_status == NDIS_MEDIA_STATE_DISCONNECTED) {
         return -USB_ERR_NOTCONN;
     }

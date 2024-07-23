@@ -102,6 +102,11 @@ void cyw43_cb_process_ethernet(void *cb_data, int itf, size_t len, const uint8_t
 					transfer_2,             // Number of transfers; in this case each is 1 byte.
 					true             // Start immediately.
 				);
+				int ret = usbd_rndis_eth_tx(out_pkt_dma_2);
+				if (0 != ret) {
+					ret = ERR_BUF;
+				}
+				pbuf_free(out_pkt_dma_2);
 			} else {
 				out_pkt = pbuf_alloc(PBUF_RAW, len, PBUF_POOL);
 				out_pkt->payload = buf;
@@ -119,5 +124,5 @@ void dma_handler() {
 		ret = ERR_BUF;
 	}
 	pbuf_free(out_pkt_dma);
-    dma_hw->ints0 = 1u << chan;
+	dma_hw->ints0 = 1u << chan;
 }

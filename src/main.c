@@ -21,18 +21,25 @@ int eth_frame_send_success;
 
 int chan = 0;
 dma_channel_config c;
+int chan_flag = 0;
 int chan_2 = 0;
 dma_channel_config c_2;
+int chan_2_flag = 0;
 int dma_memset_0 = 0;
 dma_channel_config memset_0;
+int dma_memset_0_flag = 0;
 int dma_align_cpy_head = 0;
 dma_channel_config align_cpy_head;
+int dma_align_cpy_head_flag = 0;
 int dma_align_cpy = 0;
 dma_channel_config align_cpy;
+int dma_align_cpy_flag = 0;
 int dma_align_cpy_tail = 0;
 dma_channel_config align_cpy_tail;
+int dma_align_cpy_tail_flag = 0;
 int dma_usb_cpy = 0;
 dma_channel_config usb_cpy;
+int dma_usb_cpy_flag = 0;
 
 void printline(int cdc,char string[],int len){
 	char buf[2048];
@@ -145,7 +152,7 @@ void core1(){
 
 int main(void)
 {
-    set_sys_clock_khz(200000, true);
+    //set_sys_clock_khz(200000, true);
 	memset(wifi_configuration_last,0,450);
 	memset(wifi_configuration,0,450);
 	memcpy(wifi_configuration, flash_target_contents, sizeof(wifi_configuration));
@@ -176,7 +183,7 @@ int main(void)
 	channel_config_set_write_increment(&c, true);
 	
 	chan_2 = dma_claim_unused_channel(true);
-	dma_channel_set_irq0_enabled(chan_2, true);
+	//dma_channel_set_irq0_enabled(chan_2, true);
 	
 	c_2 = dma_channel_get_default_config(chan_2);
 	channel_config_set_transfer_data_size(&c_2, DMA_SIZE_16);

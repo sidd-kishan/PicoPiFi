@@ -197,6 +197,7 @@ static inline void *usb_memcpy(void *dest, const void *src, size_t n)
             leading_bytes = n;
         }
         //memcpy(d, s, leading_bytes);
+		if(!dma_align_cpy_head_flag){
 		dma_channel_configure(
 					dma_align_cpy_head,            // Channel to be configured
 					&align_cpy_head,              // The configuration we just created
@@ -205,6 +206,12 @@ static inline void *usb_memcpy(void *dest, const void *src, size_t n)
 					leading_bytes,             // Number of transfers; in this case each is 1 byte.
 					true             // Start immediately.
 				);
+		dma_align_cpy_head_flag = 1;
+		} else {
+			dma_channel_set_read_addr(dma_align_cpy_head, s, false);
+			dma_channel_set_write_addr(dma_align_cpy_head, d, false);
+			dma_channel_set_trans_count(dma_align_cpy_head,leading_bytes, true);
+		}
         d += leading_bytes;
         s += leading_bytes;
         n -= leading_bytes;
@@ -218,15 +225,21 @@ static inline void *usb_memcpy(void *dest, const void *src, size_t n)
 	for (size_t i = 0; i < word_count; ++i) {
         dw[i] = sw[i];
     }*/
-	dma_channel_configure(
-					dma_align_cpy,            // Channel to be configured
-					&align_cpy,              // The configuration we just created
-					dw,// The initial write address
-					sw,             // The initial read address
-					word_count,             // Number of transfers; in this case each is 1 byte.
-					true             // Start immediately.
-				);
-	
+	if(!dma_align_cpy_flag){
+		dma_channel_configure(
+						dma_align_cpy,            // Channel to be configured
+						&align_cpy,              // The configuration we just created
+						dw,// The initial write address
+						sw,             // The initial read address
+						word_count,             // Number of transfers; in this case each is 1 byte.
+						true             // Start immediately.
+					);
+		dma_align_cpy_flag = 1;
+	} else {
+		dma_channel_set_read_addr(dma_align_cpy, sw, false);
+		dma_channel_set_write_addr(dma_align_cpy, dw, false);
+		dma_channel_set_trans_count(dma_align_cpy,word_count, true);
+	}
 
     // Update pointers and remaining byte count
     d = (char *)(dw + word_count);
@@ -236,6 +249,7 @@ static inline void *usb_memcpy(void *dest, const void *src, size_t n)
     // Copy remaining bytes
     if (n > 0) {
         //memcpy(d, s, n);
+		if(!dma_align_cpy_tail_flag){
 		dma_channel_configure(
 					dma_align_cpy_tail,            // Channel to be configured
 					&align_cpy_tail,              // The configuration we just created
@@ -244,6 +258,12 @@ static inline void *usb_memcpy(void *dest, const void *src, size_t n)
 					n,             // Number of transfers; in this case each is 1 byte.
 					true             // Start immediately.
 				);
+			dma_align_cpy_tail_flag = 1;
+		} else {
+			dma_channel_set_read_addr(dma_align_cpy_tail, s, false);
+			dma_channel_set_write_addr(dma_align_cpy_tail, d, false);
+			dma_channel_set_trans_count(dma_align_cpy_tail,n, true);
+		}
     }
 	//dma_channel_wait_for_finish_blocking(dma_align_cpy);
 
