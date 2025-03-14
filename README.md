@@ -30,7 +30,7 @@ Lets the Pico pretend to be a USB Ethernet device and CDC port to manage the dev
 On Debian:
 
 ```
-sudo apt install git build-essential cmake gcc-arm-none-eabi
+sudo apt install git build-essential cmake gcc-arm-none-eabi doxygen
 ```
 
 Your Linux distribution does need to provide a recent CMake (3.13+).
