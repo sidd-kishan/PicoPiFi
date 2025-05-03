@@ -1,0 +1,14 @@
+# Target labels
+ picotoolBuild
+# Source files and their labels
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/pico-sdk/src/rp2040/boot_stage2/CMakeFiles/picotoolBuild
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/pico-sdk/src/rp2040/boot_stage2/CMakeFiles/picotoolBuild.rule
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/pico-sdk/src/rp2040/boot_stage2/CMakeFiles/picotoolBuild-complete.rule
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/pico-sdk/src/rp2040/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-build.rule
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/pico-sdk/src/rp2040/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-configure.rule
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/pico-sdk/src/rp2040/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-download.rule
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/pico-sdk/src/rp2040/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-install.rule
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/pico-sdk/src/rp2040/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-mkdir.rule
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/pico-sdk/src/rp2040/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-patch.rule
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/pico-sdk/src/rp2040/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-test.rule
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/pico-sdk/src/rp2040/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-update.rule

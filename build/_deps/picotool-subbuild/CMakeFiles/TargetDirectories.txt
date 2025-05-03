@@ -1,0 +1,3 @@
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/_deps/picotool-subbuild/CMakeFiles/picotool-populate.dir
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/_deps/picotool-subbuild/CMakeFiles/edit_cache.dir
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/_deps/picotool-subbuild/CMakeFiles/rebuild_cache.dir

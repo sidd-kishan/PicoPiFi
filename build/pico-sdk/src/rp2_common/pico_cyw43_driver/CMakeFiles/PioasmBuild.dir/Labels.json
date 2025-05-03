@@ -2,42 +2,42 @@
 	"sources" : 
 	[
 		{
-			"file" : "/mnt/c/Users/siddk/Downloads/PicoPiFi/build/pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/PioasmBuild"
+			"file" : "/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/pioasmBuild"
 		},
 		{
-			"file" : "/mnt/c/Users/siddk/Downloads/PicoPiFi/build/pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/PioasmBuild.rule"
+			"file" : "/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/pioasmBuild.rule"
 		},
 		{
-			"file" : "/mnt/c/Users/siddk/Downloads/PicoPiFi/build/pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/PioasmBuild-complete.rule"
+			"file" : "/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/pioasmBuild-complete.rule"
 		},
 		{
-			"file" : "/mnt/c/Users/siddk/Downloads/PicoPiFi/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-build.rule"
+			"file" : "/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/pioasmBuild-stamp/pioasmBuild-build.rule"
 		},
 		{
-			"file" : "/mnt/c/Users/siddk/Downloads/PicoPiFi/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-configure.rule"
+			"file" : "/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/pioasmBuild-stamp/pioasmBuild-configure.rule"
 		},
 		{
-			"file" : "/mnt/c/Users/siddk/Downloads/PicoPiFi/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-download.rule"
+			"file" : "/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/pioasmBuild-stamp/pioasmBuild-download.rule"
 		},
 		{
-			"file" : "/mnt/c/Users/siddk/Downloads/PicoPiFi/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-install.rule"
+			"file" : "/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/pioasmBuild-stamp/pioasmBuild-install.rule"
 		},
 		{
-			"file" : "/mnt/c/Users/siddk/Downloads/PicoPiFi/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-mkdir.rule"
+			"file" : "/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/pioasmBuild-stamp/pioasmBuild-mkdir.rule"
 		},
 		{
-			"file" : "/mnt/c/Users/siddk/Downloads/PicoPiFi/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-patch.rule"
+			"file" : "/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/pioasmBuild-stamp/pioasmBuild-patch.rule"
 		},
 		{
-			"file" : "/mnt/c/Users/siddk/Downloads/PicoPiFi/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-update.rule"
+			"file" : "/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/pioasmBuild-stamp/pioasmBuild-update.rule"
 		}
 	],
 	"target" : 
 	{
 		"labels" : 
 		[
-			"PioasmBuild"
+			"pioasmBuild"
 		],
-		"name" : "PioasmBuild"
+		"name" : "pioasmBuild"
 	}
 }

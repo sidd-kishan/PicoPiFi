@@ -1,2 +1,2 @@
 # CMAKE generated file: DO NOT EDIT!
-# Timestamp file for custom commands dependencies management for PioasmBuild.
+# Timestamp file for custom commands dependencies management for pioasmBuild.

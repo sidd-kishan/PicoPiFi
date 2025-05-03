@@ -1,0 +1,5 @@
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/_deps/picotool/picotool
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/_deps/picotool/picotoolTargets.cmake
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/_deps/picotool/picotoolTargets-release.cmake
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/_deps/picotool/picotoolConfig.cmake
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/_deps/picotool/picotoolConfigVersion.cmake

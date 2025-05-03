@@ -65,7 +65,7 @@ endif()
 project(PicoPiFi)
 
 include_directories(${PROJECT_NAME} PRIVATE ${CMAKE_CURRENT_SOURCE_DIR}/src ${PICO_EXAMPLES_PATH}/pico-sdk/lib/lwip/src/include ${PICO_EXAMPLES_PATH}/pico-sdk/lib/tinyusb/hw/bsp/rp2040)
-add_executable(${PROJECT_NAME} ${CMAKE_CURRENT_SOURCE_DIR}/src/main.c ${CMAKE_CURRENT_SOURCE_DIR}/src/lwip.c ${CMAKE_CURRENT_SOURCE_DIR}/src/wifi_tx.c ${CMAKE_CURRENT_SOURCE_DIR}/src/cdc_rndis_device.c ${CMAKE_CURRENT_LIST_DIR}/CherryUSB/port/rp2040/usb_dc_rp2040.c ${CMAKE_CURRENT_LIST_DIR}/CherryUSB/class/cdc/usbd_cdc.c ${CMAKE_CURRENT_LIST_DIR}/src/usbd_rndis.c ${CMAKE_CURRENT_LIST_DIR}/CherryUSB/core/usbd_core.c)
+add_executable(${PROJECT_NAME} ${CMAKE_CURRENT_SOURCE_DIR}/src/main.c ${CMAKE_CURRENT_SOURCE_DIR}/src/lwip.c ${CMAKE_CURRENT_SOURCE_DIR}/src/wifi_tx.c ${CMAKE_CURRENT_SOURCE_DIR}/src/cdc_rndis_device.c ${CMAKE_CURRENT_LIST_DIR}/CherryUSB/port/rp2040/usb_dc_rp2040.c ${CMAKE_CURRENT_LIST_DIR}/CherryUSB/class/cdc/usbd_cdc_acm.c ${CMAKE_CURRENT_LIST_DIR}/src/usbd_rndis.c ${CMAKE_CURRENT_LIST_DIR}/CherryUSB/core/usbd_core.c)
 
 
 target_link_libraries(${PROJECT_NAME} PRIVATE pico_stdlib hardware_resets hardware_irq pico_lwip pico_multicore pico_cyw43_arch_none hardware_flash hardware_sync hardware_dma)

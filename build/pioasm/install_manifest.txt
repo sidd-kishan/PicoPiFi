@@ -1,0 +1,5 @@
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/pioasm-install/pioasm/pioasm
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/pioasm-install/pioasm/pioasmTargets.cmake
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/pioasm-install/pioasm/pioasmTargets-release.cmake
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/pioasm-install/pioasm/pioasmConfig.cmake
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/pioasm-install/pioasm/pioasmConfigVersion.cmake

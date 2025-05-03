@@ -479,7 +479,12 @@ void rndis_bulk_out(uint8_t busid, uint8_t ep, uint32_t nbytes)
     g_rndis_rx_data_buffer += hdr->DataOffset + sizeof(rndis_generic_msg_t);
     g_rndis_rx_data_length = hdr->DataLength;
 
-    usbd_rndis_data_recv_done();
+    usbd_rndis_data_recv_done(nbytes);
+}
+
+__WEAK void usbd_rndis_data_recv_done(uint32_t len)
+{
+    (void)len;
 }
 
 void rndis_bulk_in(uint8_t busid, uint8_t ep, uint32_t nbytes)

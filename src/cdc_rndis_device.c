@@ -154,9 +154,6 @@ struct circular_queue read_queue[3];
 
 volatile bool ep_tx_busy_flag = false;
 
-void usbd_rndis_data_recv_done(void)
-{
-}
 
 void usbd_event_handler(uint8_t busid, uint8_t event)
 {

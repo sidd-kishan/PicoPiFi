@@ -4190,7 +4190,7 @@ typedef struct {
     // 0x00000001 [0]     : HOST_CONN_DIS (0): Host: raised when a device is connected or disconnected (i
     io_ro_32 ints;
 } usb_hw_t;
-
+/*
 typedef struct {
     _REG_(RESETS_RESET_OFFSET) // RESETS_RESET
     // Reset control
@@ -4278,7 +4278,7 @@ typedef struct {
     // 0x00000002 [1]     : busctrl (0)
     // 0x00000001 [0]     : adc (0)
     io_ro_32 reset_done;
-} resets_hw_t;
+} resets_hw_t;*/
 
 #define USBCTRL_REGS_BASE  _u(0x50110000)
 #define USBCTRL_DPRAM_BASE _u(0x50100000)
@@ -4334,19 +4334,22 @@ __force_inline static void hw_clear_bits(io_rw_32 *addr, uint32_t mask)
  *
  * \param bits Bit pattern indicating blocks to reset. See \ref reset_bitmask
  */
+/*
 static inline void reset_block(uint32_t bits)
 {
     hw_set_bits(&resets_hw->reset, bits);
 }
-
+*/
 /*! \brief Bring specified HW blocks out of reset and wait for completion
  *  \ingroup hardware_resets
  *
  * \param bits Bit pattern indicating blocks to unreset. See \ref reset_bitmask
  */
+ /*
 static inline void unreset_block_wait(uint32_t bits)
 {
     hw_clear_bits(&resets_hw->reset, bits);
     while (~resets_hw->reset_done & bits) {
     }
 }
+*/
