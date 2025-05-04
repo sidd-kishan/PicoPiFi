@@ -47,8 +47,7 @@ bintool/CMakeFiles/bintool.dir/mbedtls_wrapper.c.o: \
  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h /usr/include/assert.h \
  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/mbedtls/include/mbedtls/sha256.h \
- /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/mbedtls/include/mbedtls/config.h \
- /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/mbedtls/include/mbedtls/check_config.h \
+ /mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
  /usr/lib/gcc/x86_64-linux-gnu/14/include/limits.h \
  /usr/lib/gcc/x86_64-linux-gnu/14/include/syslimits.h \
  /usr/include/limits.h /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
@@ -83,5 +82,5 @@ bintool/CMakeFiles/bintool.dir/mbedtls_wrapper.c.o: \
  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/mbedtls/include/mbedtls/entropy.h \
  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/mbedtls/include/mbedtls/sha512.h \
  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/mbedtls/include/mbedtls/pk.h \
- /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/mbedtls/include/mbedtls/rsa.h \
+ /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/mbedtls/include/mbedtls/version.h \
  /usr/include/string.h /usr/include/strings.h

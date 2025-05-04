@@ -6,8 +6,6 @@
 #ifndef CHERRYUSB_CONFIG_H
 #define CHERRYUSB_CONFIG_H
 
-#define CHERRYUSB_VERSION 0x000700
-
 /* ================ USB common Configuration ================ */
 
 #define CONFIG_USB_PRINTF(...) printf(__VA_ARGS__)
@@ -177,12 +175,14 @@
 /* ================= enabling the lwip ================ */
 #define CONFIG_USBDEV_RNDIS_USING_LWIP 1
 
+/*
 #define USB_MEMCPY_H 1
 
 #include "lwip.h"
 #include <stdint.h>
 #include <stddef.h>
 #define IS_ALIGNED_DWORD(x) (((uintptr_t)(x) & (sizeof(uint32_t) - 1)) == 0)
+
 
 static inline void *usb_memcpy(void *dest, const void *src, size_t n)
 {
@@ -221,10 +221,10 @@ static inline void *usb_memcpy(void *dest, const void *src, size_t n)
     uint32_t *dw = (uint32_t *)d;
     const uint32_t *sw = (const uint32_t *)s;
     size_t word_count = n / 4;
-    /*
-	for (size_t i = 0; i < word_count; ++i) {
-        dw[i] = sw[i];
-    }*/
+    
+	//for (size_t i = 0; i < word_count; ++i) {
+    //    dw[i] = sw[i];
+    //}
 	if(!dma_align_cpy_flag){
 		dma_channel_configure(
 						dma_align_cpy,            // Channel to be configured
@@ -269,3 +269,4 @@ static inline void *usb_memcpy(void *dest, const void *src, size_t n)
 
     return dest;
 }
+*/

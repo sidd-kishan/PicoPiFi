@@ -151,9 +151,7 @@ picotool: CMakeFiles/picotool.dir/build.make
 picotool: bintool/libbintool.a
 picotool: elf2uf2/libelf2uf2.a
 picotool: errors/liberrors.a
-picotool: lib/mbedtls/library/libmbedtls.a
-picotool: lib/mbedtls/library/libmbedx509.a
-picotool: lib/mbedtls/library/libmbedcrypto.a
+picotool: lib/libmbedtls.a
 picotool: elf/libelf.a
 picotool: errors/liberrors.a
 picotool: CMakeFiles/picotool.dir/link.txt

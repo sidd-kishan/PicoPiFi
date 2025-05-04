@@ -179,6 +179,7 @@ CMakeFiles/picotool.dir/main.cpp.o: \
  /usr/include/c++/14/bits/istream.tcc /usr/include/c++/14/numeric \
  /usr/include/c++/14/bits/stl_numeric.h /usr/include/c++/14/sstream \
  /usr/include/c++/14/bits/sstream.tcc /usr/include/c++/14/limits \
+ /usr/include/c++/14/cstdint \
  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/_deps/picotool-src/clipp/clipp.h \
  /usr/include/c++/14/cstring /usr/include/string.h /usr/include/strings.h \
  /usr/include/c++/14/stack /usr/include/c++/14/deque \
@@ -186,8 +187,8 @@ CMakeFiles/picotool.dir/main.cpp.o: \
  /usr/include/c++/14/bits/stl_stack.h /usr/include/c++/14/utility \
  /usr/include/c++/14/bits/stl_relops.h /usr/include/c++/14/iterator \
  /usr/include/c++/14/bits/stream_iterator.h /usr/include/c++/14/cinttypes \
- /usr/include/c++/14/cstdint /usr/include/inttypes.h \
- /usr/include/c++/14/csignal /usr/include/signal.h \
+ /usr/include/inttypes.h /usr/include/c++/14/csignal \
+ /usr/include/signal.h \
  /usr/include/x86_64-linux-gnu/bits/signum-generic.h \
  /usr/include/x86_64-linux-gnu/bits/signum-arch.h \
  /usr/include/x86_64-linux-gnu/bits/types/sig_atomic_t.h \
@@ -253,8 +254,7 @@ CMakeFiles/picotool.dir/main.cpp.o: \
  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/_deps/picotool-src/bintool/mbedtls_wrapper.h \
  /usr/include/c++/14/stdlib.h \
  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/mbedtls/include/mbedtls/sha256.h \
- /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/mbedtls/include/mbedtls/config.h \
- /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/mbedtls/include/mbedtls/check_config.h \
+ /mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
  /usr/lib/gcc/x86_64-linux-gnu/14/include/limits.h \
  /usr/lib/gcc/x86_64-linux-gnu/14/include/syslimits.h \
  /usr/include/limits.h /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
@@ -274,7 +274,7 @@ CMakeFiles/picotool.dir/main.cpp.o: \
  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/mbedtls/include/mbedtls/entropy.h \
  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/mbedtls/include/mbedtls/sha512.h \
  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/mbedtls/include/mbedtls/pk.h \
- /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/mbedtls/include/mbedtls/rsa.h \
+ /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/mbedtls/include/mbedtls/version.h \
  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/_deps/picotool-src/elf/elf_file.h \
  /usr/include/c++/14/fstream \
  /usr/include/x86_64-linux-gnu/c++/14/bits/basic_file.h \
@@ -284,7 +284,7 @@ CMakeFiles/picotool.dir/main.cpp.o: \
  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/_deps/picotool-src/elf/addresses.h \
  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/_deps/picotool-src/bintool/metadata.h \
  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/_deps/picotool-src/elf2uf2/elf2uf2.h \
- /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom_constants.h \
+ /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/boot_bootrom_headers/include/boot/bootrom_constants.h \
  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/common/pico_binary_info/include/pico/binary_info.h \
  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/defs.h \
  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/structure.h \

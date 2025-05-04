@@ -249,12 +249,17 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
+  include("/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/pico-sdk/src/rp2_common/hardware_xip_cache/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
   include("/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/pico-sdk/src/rp2_common/hardware_xosc/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/pico-sdk/src/rp2_common/pico_bootrom/cmake_install.cmake")
+  include("/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/pico-sdk/src/rp2_common/boot_bootrom_headers/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
@@ -275,6 +280,11 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
   include("/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/pico-sdk/src/rp2_common/pico_aon_timer/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/pico-sdk/src/rp2_common/pico_bootrom/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)

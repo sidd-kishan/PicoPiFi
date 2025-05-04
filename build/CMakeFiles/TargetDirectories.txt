@@ -41,7 +41,7 @@
 /mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/pico-sdk/src/rp2040/hardware_structs/CMakeFiles/rebuild_cache.dir
 /mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default.dir
 /mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_bin.dir
-/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_library.dir
 /mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/pico-sdk/src/rp2040/boot_stage2/CMakeFiles/edit_cache.dir
 /mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/pico-sdk/src/rp2040/boot_stage2/CMakeFiles/rebuild_cache.dir
 /mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/pico-sdk/src/rp2_common/hardware_base/CMakeFiles/edit_cache.dir
@@ -94,10 +94,12 @@
 /mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/pico-sdk/src/rp2_common/hardware_vreg/CMakeFiles/rebuild_cache.dir
 /mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/pico-sdk/src/rp2_common/hardware_watchdog/CMakeFiles/edit_cache.dir
 /mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/pico-sdk/src/rp2_common/hardware_watchdog/CMakeFiles/rebuild_cache.dir
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/pico-sdk/src/rp2_common/hardware_xip_cache/CMakeFiles/edit_cache.dir
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/pico-sdk/src/rp2_common/hardware_xip_cache/CMakeFiles/rebuild_cache.dir
 /mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/pico-sdk/src/rp2_common/hardware_xosc/CMakeFiles/edit_cache.dir
 /mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/pico-sdk/src/rp2_common/hardware_xosc/CMakeFiles/rebuild_cache.dir
-/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/pico-sdk/src/rp2_common/pico_bootrom/CMakeFiles/edit_cache.dir
-/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/pico-sdk/src/rp2_common/pico_bootrom/CMakeFiles/rebuild_cache.dir
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/pico-sdk/src/rp2_common/boot_bootrom_headers/CMakeFiles/edit_cache.dir
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/pico-sdk/src/rp2_common/boot_bootrom_headers/CMakeFiles/rebuild_cache.dir
 /mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/pico-sdk/src/rp2_common/pico_platform_compiler/CMakeFiles/edit_cache.dir
 /mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/pico-sdk/src/rp2_common/pico_platform_compiler/CMakeFiles/rebuild_cache.dir
 /mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/pico-sdk/src/rp2_common/pico_platform_sections/CMakeFiles/edit_cache.dir
@@ -106,6 +108,8 @@
 /mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/pico-sdk/src/rp2_common/pico_platform_panic/CMakeFiles/rebuild_cache.dir
 /mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/pico-sdk/src/rp2_common/pico_aon_timer/CMakeFiles/edit_cache.dir
 /mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/pico-sdk/src/rp2_common/pico_aon_timer/CMakeFiles/rebuild_cache.dir
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/pico-sdk/src/rp2_common/pico_bootrom/CMakeFiles/edit_cache.dir
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/pico-sdk/src/rp2_common/pico_bootrom/CMakeFiles/rebuild_cache.dir
 /mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/pico-sdk/src/rp2_common/pico_bootsel_via_double_reset/CMakeFiles/edit_cache.dir
 /mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/pico-sdk/src/rp2_common/pico_bootsel_via_double_reset/CMakeFiles/rebuild_cache.dir
 /mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/pico-sdk/src/rp2_common/pico_multicore/CMakeFiles/edit_cache.dir

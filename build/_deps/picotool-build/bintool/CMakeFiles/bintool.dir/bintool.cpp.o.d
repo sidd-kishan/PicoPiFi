@@ -192,7 +192,8 @@ bintool/CMakeFiles/bintool.dir/bintool.cpp.o: \
  /usr/include/c++/14/bits/vector.tcc \
  /usr/include/x86_64-linux-gnu/c++/14/bits/opt_random.h \
  /usr/include/c++/14/bits/random.tcc /usr/include/c++/14/numeric \
- /usr/include/c++/14/bits/stl_numeric.h \
+ /usr/include/c++/14/bits/stl_numeric.h /usr/include/c++/14/cinttypes \
+ /usr/include/inttypes.h \
  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/common/boot_picobin_headers/include/boot/picobin.h \
  /usr/lib/gcc/x86_64-linux-gnu/14/include/stdbool.h \
  /usr/include/c++/14/map /usr/include/c++/14/bits/stl_tree.h \
@@ -208,8 +209,7 @@ bintool/CMakeFiles/bintool.dir/bintool.cpp.o: \
  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/_deps/picotool-src/bintool/mbedtls_wrapper.h \
  /usr/include/c++/14/stdlib.h /usr/include/assert.h \
  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/mbedtls/include/mbedtls/sha256.h \
- /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/mbedtls/include/mbedtls/config.h \
- /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/mbedtls/include/mbedtls/check_config.h \
+ /mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
  /usr/lib/gcc/x86_64-linux-gnu/14/include/limits.h \
  /usr/lib/gcc/x86_64-linux-gnu/14/include/syslimits.h \
  /usr/include/limits.h /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
@@ -229,7 +229,7 @@ bintool/CMakeFiles/bintool.dir/bintool.cpp.o: \
  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/mbedtls/include/mbedtls/entropy.h \
  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/mbedtls/include/mbedtls/sha512.h \
  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/mbedtls/include/mbedtls/pk.h \
- /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/mbedtls/include/mbedtls/rsa.h \
+ /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/mbedtls/include/mbedtls/version.h \
  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/mbedtls/include/mbedtls/error.h \
  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/_deps/picotool-src/bintool/bintool.h \
  /usr/include/c++/14/functional /usr/include/c++/14/bits/std_function.h \

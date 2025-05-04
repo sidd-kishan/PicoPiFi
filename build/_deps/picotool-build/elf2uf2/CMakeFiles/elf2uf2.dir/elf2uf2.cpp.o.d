@@ -144,7 +144,8 @@ elf2uf2/CMakeFiles/elf2uf2.dir/elf2uf2.cpp.o: \
  /usr/include/c++/14/bits/shared_ptr_atomic.h \
  /usr/include/c++/14/bits/atomic_base.h \
  /usr/include/c++/14/bits/atomic_lockfree_defines.h \
- /usr/include/c++/14/backward/auto_ptr.h \
+ /usr/include/c++/14/backward/auto_ptr.h /usr/include/c++/14/cinttypes \
+ /usr/include/c++/14/cstdint /usr/include/inttypes.h \
  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/_deps/picotool-src/elf2uf2/elf2uf2.h \
  /usr/include/c++/14/fstream /usr/include/c++/14/istream \
  /usr/include/c++/14/ios /usr/include/c++/14/bits/char_traits.h \
@@ -185,7 +186,7 @@ elf2uf2/CMakeFiles/elf2uf2.dir/elf2uf2.cpp.o: \
  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/common/boot_uf2_headers/include/boot/uf2.h \
  /usr/include/assert.h \
  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/_deps/picotool-src/elf/elf_file.h \
- /usr/include/c++/14/cstdint /usr/include/c++/14/iostream \
+ /usr/include/c++/14/iostream \
  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/_deps/picotool-src/elf/elf.h \
  /usr/include/c++/14/sstream /usr/include/c++/14/bits/sstream.tcc \
  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/_deps/picotool-src/elf/addresses.h \

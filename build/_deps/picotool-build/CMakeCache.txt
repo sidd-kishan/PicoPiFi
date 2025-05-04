@@ -284,23 +284,11 @@ CMAKE_TAPI:FILEPATH=CMAKE_TAPI-NOTFOUND
 // Studio IDE projects all commands are done without /nologo.
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
-//Build Mbed TLS programs.
-ENABLE_PROGRAMS:BOOL=OFF
-
-//Build Mbed TLS tests.
-ENABLE_TESTING:BOOL=OFF
-
-//Build Mbed TLS with zlib library.
-ENABLE_ZLIB_SUPPORT:BOOL=OFF
-
 //Git command line client
 GIT_EXECUTABLE:FILEPATH=/usr/bin/git
 
 //Check submodules during build
 GIT_SUBMODULE:BOOL=OFF
-
-//Install Mbed TLS headers.
-INSTALL_MBEDTLS_HEADERS:BOOL=ON
 
 //Enable CI build targets.
 JSON_CI:BOOL=OFF
@@ -329,30 +317,6 @@ JSON_MultipleHeaders:BOOL=OFF
 //Include as system headers (skip for clang-tidy).
 JSON_SystemInclude:BOOL=OFF
 
-//Explicitly link Mbed TLS library to pthread.
-LINK_WITH_PTHREAD:BOOL=OFF
-
-//Explicitly link Mbed TLS library to trusted_storage.
-LINK_WITH_TRUSTED_STORAGE:BOOL=OFF
-
-//Mbed TLS config file (overrides default).
-MBEDTLS_CONFIG_FILE:FILEPATH=
-
-//Compiler warnings treated as errors
-MBEDTLS_FATAL_WARNINGS:BOOL=ON
-
-//Mbed TLS user config file (appended to default).
-MBEDTLS_USER_CONFIG_FILE:FILEPATH=
-
-//Value Computed by CMake
-Mbed TLS_BINARY_DIR:STATIC=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/_deps/picotool-build/lib/mbedtls
-
-//Value Computed by CMake
-Mbed TLS_IS_TOP_LEVEL:STATIC=OFF
-
-//Value Computed by CMake
-Mbed TLS_SOURCE_DIR:STATIC=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/mbedtls
-
 //No help, variable specified on the command line.
 PICOTOOL_FLAT_INSTALL:UNINITIALIZED=1
 
@@ -361,24 +325,6 @@ PICOTOOL_NO_LIBUSB:UNINITIALIZED=1
 
 //No help, variable specified on the command line.
 PICO_SDK_PATH:FILEPATH=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk
-
-//Allow unsafe builds. These builds ARE NOT SECURE.
-UNSAFE_BUILD:BOOL=OFF
-
-//Build Mbed TLS with the pkcs11-helper library.
-USE_PKCS11_HELPER_LIBRARY:BOOL=OFF
-
-//Build Mbed TLS shared library.
-USE_SHARED_MBEDTLS_LIBRARY:BOOL=OFF
-
-//Build Mbed TLS static library.
-USE_STATIC_MBEDTLS_LIBRARY:BOOL=ON
-
-//Dependencies for the target
-mbedtls_LIB_DEPENDS:STATIC=general;mbedx509;
-
-//Dependencies for the target
-mbedx509_LIB_DEPENDS:STATIC=general;mbedcrypto;
 
 //Value Computed by CMake
 nlohmann_json_BINARY_DIR:STATIC=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/_deps/picotool-build/lib/nlohmann_json
@@ -533,7 +479,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=21
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=16
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
@@ -578,10 +524,6 @@ CMAKE_TAPI-ADVANCED:INTERNAL=1
 CMAKE_UNAME:INTERNAL=/usr/bin/uname
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
-//Test C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS
-C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS:INTERNAL=1
-//Details about finding Python3
-FIND_PACKAGE_MESSAGE_DETAILS_Python3:INTERNAL=[/usr/bin/python3][cfound components: Interpreter ][v3.13.2()]
 //ADVANCED property for variable: GIT_EXECUTABLE
 GIT_EXECUTABLE-ADVANCED:INTERNAL=1
 //Build the unit tests when BUILD_TESTING is enabled.
@@ -591,15 +533,4 @@ NLOHMANN_JSON_CONFIG_INSTALL_DIR:INTERNAL=share/cmake/nlohmann_json
 _CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED:INTERNAL=TRUE
 //CMAKE_INSTALL_PREFIX during last run
 _GNUInstallDirs_LAST_CMAKE_INSTALL_PREFIX:INTERNAL=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/_deps
-//Compiler reason failure
-_Python3_Compiler_REASON_FAILURE:INTERNAL=
-//Development reason failure
-_Python3_Development_REASON_FAILURE:INTERNAL=
-//Path to a program.
-_Python3_EXECUTABLE:INTERNAL=/usr/bin/python3
-//Python3 Properties
-_Python3_INTERPRETER_PROPERTIES:INTERNAL=Python;3;13;2;64;32;<none>;cpython-313-x86_64-linux-gnu;abi3;/usr/lib/python3.13;/usr/lib/python3.13;/usr/local/lib/python3.13/dist-packages;/usr/local/lib/python3.13/dist-packages
-_Python3_INTERPRETER_SIGNATURE:INTERNAL=4c8bfa8951e99fa32e4000a94f8c04a2
-//NumPy reason failure
-_Python3_NumPy_REASON_FAILURE:INTERNAL=
 

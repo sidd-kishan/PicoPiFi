@@ -97,6 +97,7 @@ elf2uf2/CMakeFiles/elf2uf2.dir/elf2uf2.cpp.o: /mnt/c/Users/Pentest1/Downloads/Pi
   /usr/include/c++/14/bits/version.h \
   /usr/include/c++/14/cctype \
   /usr/include/c++/14/cerrno \
+  /usr/include/c++/14/cinttypes \
   /usr/include/c++/14/clocale \
   /usr/include/c++/14/concepts \
   /usr/include/c++/14/cstdarg \
@@ -141,6 +142,7 @@ elf2uf2/CMakeFiles/elf2uf2.dir/elf2uf2.cpp.o: /mnt/c/Users/Pentest1/Downloads/Pi
   /usr/include/errno.h \
   /usr/include/features-time64.h \
   /usr/include/features.h \
+  /usr/include/inttypes.h \
   /usr/include/linux/errno.h \
   /usr/include/locale.h \
   /usr/include/pthread.h \
@@ -356,9 +358,7 @@ elf2uf2/CMakeFiles/elf2uf2.dir/elf2uf2.cpp.o: /mnt/c/Users/Pentest1/Downloads/Pi
 
 /usr/include/locale.h:
 
-/usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h:
-
-/usr/include/linux/errno.h:
+/usr/include/inttypes.h:
 
 /usr/include/features-time64.h:
 
@@ -381,6 +381,8 @@ elf2uf2/CMakeFiles/elf2uf2.dir/elf2uf2.cpp.o: /mnt/c/Users/Pentest1/Downloads/Pi
 /usr/include/x86_64-linux-gnu/bits/stdint-least.h:
 
 /usr/include/c++/14/streambuf:
+
+/usr/include/c++/14/sstream:
 
 /usr/lib/gcc/x86_64-linux-gnu/14/include/stdarg.h:
 
@@ -427,6 +429,12 @@ elf2uf2/CMakeFiles/elf2uf2.dir/elf2uf2.cpp.o: /mnt/c/Users/Pentest1/Downloads/Pi
 /usr/include/pthread.h:
 
 /usr/include/c++/14/bits/functexcept.h:
+
+/usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h:
+
+/usr/include/linux/errno.h:
+
+/usr/include/c++/14/cinttypes:
 
 /usr/include/c++/14/cwctype:
 
@@ -539,8 +547,6 @@ elf2uf2/CMakeFiles/elf2uf2.dir/elf2uf2.cpp.o: /mnt/c/Users/Pentest1/Downloads/Pi
 /usr/include/c++/14/bits/alloc_traits.h:
 
 /usr/include/c++/14/bits/atomic_lockfree_defines.h:
-
-/usr/include/c++/14/sstream:
 
 /mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/_deps/picotool-src/elf2uf2/elf2uf2.h:
 

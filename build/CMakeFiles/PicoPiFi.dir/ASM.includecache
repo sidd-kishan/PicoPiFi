@@ -108,6 +108,10 @@ hardware/structs/nvic.h
 hardware/structs/scb.h
 /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2040/pico_platform/include/pico/platform/hardware/structs/scb.h
 
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/boot_bootrom_headers/include/boot/bootrom_constants.h
+pico/platform.h
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/boot_bootrom_headers/include/boot/pico/platform.h
+
 /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h
 
 /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h
@@ -191,6 +195,8 @@ string.h
 -
 pico/bootrom/lock.h
 /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_bootrom/include/pico/pico/bootrom/lock.h
+pico/flash.h
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_bootrom/include/pico/pico/flash.h
 
 /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom/lock.h
 hardware/boot_lock.h
@@ -201,8 +207,8 @@ pico/bootrom_constants.h
 /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom/sf_table.h
 
 /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom_constants.h
-pico/platform.h
-/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_bootrom/include/pico/pico/platform.h
+boot/bootrom_constants.h
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_bootrom/include/pico/boot/bootrom_constants.h
 
 /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_crt0/crt0.S
 pico.h
@@ -251,6 +257,10 @@ hardware/divider_helper.S
 /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S
 pico/asm_helper.S
 /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_double/pico/asm_helper.S
+
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_flash/include/pico/flash.h
+pico.h
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_flash/include/pico/pico.h
 
 /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S
 pico/asm_helper.S

@@ -227,45 +227,6 @@ elf2uf2/fast:
 .PHONY : elf2uf2/fast
 
 #=============================================================================
-# Target rules for targets named apidoc
-
-# Build rule for target.
-apidoc: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 apidoc
-.PHONY : apidoc
-
-# fast build rule for target.
-apidoc/fast:
-	$(MAKE) $(MAKESILENT) -f lib/mbedtls/CMakeFiles/apidoc.dir/build.make lib/mbedtls/CMakeFiles/apidoc.dir/build
-.PHONY : apidoc/fast
-
-#=============================================================================
-# Target rules for targets named mbedcrypto
-
-# Build rule for target.
-mbedcrypto: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 mbedcrypto
-.PHONY : mbedcrypto
-
-# fast build rule for target.
-mbedcrypto/fast:
-	$(MAKE) $(MAKESILENT) -f lib/mbedtls/library/CMakeFiles/mbedcrypto.dir/build.make lib/mbedtls/library/CMakeFiles/mbedcrypto.dir/build
-.PHONY : mbedcrypto/fast
-
-#=============================================================================
-# Target rules for targets named mbedx509
-
-# Build rule for target.
-mbedx509: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 mbedx509
-.PHONY : mbedx509
-
-# fast build rule for target.
-mbedx509/fast:
-	$(MAKE) $(MAKESILENT) -f lib/mbedtls/library/CMakeFiles/mbedx509.dir/build.make lib/mbedtls/library/CMakeFiles/mbedx509.dir/build
-.PHONY : mbedx509/fast
-
-#=============================================================================
 # Target rules for targets named mbedtls
 
 # Build rule for target.
@@ -275,21 +236,8 @@ mbedtls: cmake_check_build_system
 
 # fast build rule for target.
 mbedtls/fast:
-	$(MAKE) $(MAKESILENT) -f lib/mbedtls/library/CMakeFiles/mbedtls.dir/build.make lib/mbedtls/library/CMakeFiles/mbedtls.dir/build
+	$(MAKE) $(MAKESILENT) -f lib/CMakeFiles/mbedtls.dir/build.make lib/CMakeFiles/mbedtls.dir/build
 .PHONY : mbedtls/fast
-
-#=============================================================================
-# Target rules for targets named lib
-
-# Build rule for target.
-lib: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib
-.PHONY : lib
-
-# fast build rule for target.
-lib/fast:
-	$(MAKE) $(MAKESILENT) -f lib/mbedtls/library/CMakeFiles/lib.dir/build.make lib/mbedtls/library/CMakeFiles/lib.dir/build
-.PHONY : lib/fast
 
 #=============================================================================
 # Target rules for targets named bintool
@@ -436,16 +384,12 @@ help:
 	@echo "... install/strip"
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
-	@echo "... apidoc"
 	@echo "... binary_data"
-	@echo "... lib"
 	@echo "... bintool"
 	@echo "... elf"
 	@echo "... elf2uf2"
 	@echo "... errors"
-	@echo "... mbedcrypto"
 	@echo "... mbedtls"
-	@echo "... mbedx509"
 	@echo "... picotool"
 	@echo "... data_locs.o"
 	@echo "... data_locs.i"

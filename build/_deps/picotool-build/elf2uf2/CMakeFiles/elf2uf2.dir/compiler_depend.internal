@@ -98,6 +98,7 @@ elf2uf2/CMakeFiles/elf2uf2.dir/elf2uf2.cpp.o
  /usr/include/c++/14/bits/version.h
  /usr/include/c++/14/cctype
  /usr/include/c++/14/cerrno
+ /usr/include/c++/14/cinttypes
  /usr/include/c++/14/clocale
  /usr/include/c++/14/concepts
  /usr/include/c++/14/cstdarg
@@ -142,6 +143,7 @@ elf2uf2/CMakeFiles/elf2uf2.dir/elf2uf2.cpp.o
  /usr/include/errno.h
  /usr/include/features-time64.h
  /usr/include/features.h
+ /usr/include/inttypes.h
  /usr/include/linux/errno.h
  /usr/include/locale.h
  /usr/include/pthread.h

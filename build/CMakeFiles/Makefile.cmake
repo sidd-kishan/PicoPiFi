@@ -64,6 +64,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h"
   "/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_structs/CMakeLists.txt"
   "/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2040/pico_platform/CMakeLists.txt"
+  "/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/boot_bootrom_headers/CMakeLists.txt"
   "/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/cmsis/CMakeLists.txt"
   "/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_adc/CMakeLists.txt"
   "/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_base/CMakeLists.txt"
@@ -90,6 +91,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_uart/CMakeLists.txt"
   "/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_vreg/CMakeLists.txt"
   "/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_watchdog/CMakeLists.txt"
+  "/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_xip_cache/CMakeLists.txt"
   "/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_xosc/CMakeLists.txt"
   "/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_aon_timer/CMakeLists.txt"
   "/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_async_context/CMakeLists.txt"
@@ -160,6 +162,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/usr/share/cmake-3.30/Modules/FindPackageMessage.cmake"
   "/usr/share/cmake-3.30/Modules/FindPython/Support.cmake"
   "/usr/share/cmake-3.30/Modules/FindPython3.cmake"
+  "/usr/share/cmake-3.30/Modules/Platform/UnixPaths.cmake"
   )
 
 # The corresponding makefile is:
@@ -220,12 +223,14 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "pico-sdk/src/rp2_common/hardware_uart/CMakeFiles/CMakeDirectoryInformation.cmake"
   "pico-sdk/src/rp2_common/hardware_vreg/CMakeFiles/CMakeDirectoryInformation.cmake"
   "pico-sdk/src/rp2_common/hardware_watchdog/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "pico-sdk/src/rp2_common/hardware_xip_cache/CMakeFiles/CMakeDirectoryInformation.cmake"
   "pico-sdk/src/rp2_common/hardware_xosc/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "pico-sdk/src/rp2_common/pico_bootrom/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "pico-sdk/src/rp2_common/boot_bootrom_headers/CMakeFiles/CMakeDirectoryInformation.cmake"
   "pico-sdk/src/rp2_common/pico_platform_compiler/CMakeFiles/CMakeDirectoryInformation.cmake"
   "pico-sdk/src/rp2_common/pico_platform_sections/CMakeFiles/CMakeDirectoryInformation.cmake"
   "pico-sdk/src/rp2_common/pico_platform_panic/CMakeFiles/CMakeDirectoryInformation.cmake"
   "pico-sdk/src/rp2_common/pico_aon_timer/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "pico-sdk/src/rp2_common/pico_bootrom/CMakeFiles/CMakeDirectoryInformation.cmake"
   "pico-sdk/src/rp2_common/pico_bootsel_via_double_reset/CMakeFiles/CMakeDirectoryInformation.cmake"
   "pico-sdk/src/rp2_common/pico_multicore/CMakeFiles/CMakeDirectoryInformation.cmake"
   "pico-sdk/src/rp2_common/pico_unique_id/CMakeFiles/CMakeDirectoryInformation.cmake"
@@ -276,6 +281,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/PicoPiFi.dir/DependInfo.cmake"
   "pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default.dir/DependInfo.cmake"
   "pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_bin.dir/DependInfo.cmake"
-  "pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/DependInfo.cmake"
+  "pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_library.dir/DependInfo.cmake"
   "pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/DependInfo.cmake"
   )

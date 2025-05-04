@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/bs2_default.dir/compile_time_choice.S.obj"
+  "CMakeFiles/bs2_default.dir/compile_time_choice.S.o"
   "bs2_default.elf"
   "bs2_default.pdb"
 )

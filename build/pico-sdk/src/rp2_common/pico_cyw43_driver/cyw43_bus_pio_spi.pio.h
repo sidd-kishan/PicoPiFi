@@ -21,11 +21,11 @@
 
 static const uint16_t spi_gap0_sample1_program_instructions[] = {
             //     .wrap_target
-    0x6001, //  0: out    pins, 1         side 0     
-    0x1040, //  1: jmp    x--, 0          side 1     
-    0xe080, //  2: set    pindirs, 0      side 0     
-    0x5001, //  3: in     pins, 1         side 1     
-    0x0083, //  4: jmp    y--, 3          side 0     
+    0x6001, //  0: out    pins, 1         side 0
+    0x1040, //  1: jmp    x--, 0          side 1
+    0xe080, //  2: set    pindirs, 0      side 0
+    0x5001, //  3: in     pins, 1         side 1
+    0x0083, //  4: jmp    y--, 3          side 0
             //     .wrap
 };
 
@@ -34,7 +34,7 @@ static const struct pio_program spi_gap0_sample1_program = {
     .instructions = spi_gap0_sample1_program_instructions,
     .length = 5,
     .origin = -1,
-    .pio_version = 0,
+    .pio_version = spi_gap0_sample1_pio_version,
 #if PICO_PIO_VERSION > 0
     .used_gpio_ranges = 0x0
 #endif
@@ -61,12 +61,12 @@ static inline pio_sm_config spi_gap0_sample1_program_get_default_config(uint off
 
 static const uint16_t spi_gap01_sample0_program_instructions[] = {
             //     .wrap_target
-    0x6001, //  0: out    pins, 1         side 0     
-    0x1040, //  1: jmp    x--, 0          side 1     
-    0xe080, //  2: set    pindirs, 0      side 0     
-    0xb042, //  3: nop                    side 1     
-    0x4001, //  4: in     pins, 1         side 0     
-    0x1084, //  5: jmp    y--, 4          side 1     
+    0x6001, //  0: out    pins, 1         side 0
+    0x1040, //  1: jmp    x--, 0          side 1
+    0xe080, //  2: set    pindirs, 0      side 0
+    0xb042, //  3: nop                    side 1
+    0x4001, //  4: in     pins, 1         side 0
+    0x1084, //  5: jmp    y--, 4          side 1
             //     .wrap
 };
 
@@ -75,7 +75,7 @@ static const struct pio_program spi_gap01_sample0_program = {
     .instructions = spi_gap01_sample0_program_instructions,
     .length = 6,
     .origin = -1,
-    .pio_version = 0,
+    .pio_version = spi_gap01_sample0_pio_version,
 #if PICO_PIO_VERSION > 0
     .used_gpio_ranges = 0x0
 #endif
@@ -102,13 +102,13 @@ static inline pio_sm_config spi_gap01_sample0_program_get_default_config(uint of
 
 static const uint16_t spi_gap010_sample1_program_instructions[] = {
             //     .wrap_target
-    0x6001, //  0: out    pins, 1         side 0     
-    0x1040, //  1: jmp    x--, 0          side 1     
-    0xe080, //  2: set    pindirs, 0      side 0     
-    0xb042, //  3: nop                    side 1     
-    0xa042, //  4: nop                    side 0     
-    0x5001, //  5: in     pins, 1         side 1     
-    0x0085, //  6: jmp    y--, 5          side 0     
+    0x6001, //  0: out    pins, 1         side 0
+    0x1040, //  1: jmp    x--, 0          side 1
+    0xe080, //  2: set    pindirs, 0      side 0
+    0xb042, //  3: nop                    side 1
+    0xa042, //  4: nop                    side 0
+    0x5001, //  5: in     pins, 1         side 1
+    0x0085, //  6: jmp    y--, 5          side 0
             //     .wrap
 };
 
@@ -117,7 +117,7 @@ static const struct pio_program spi_gap010_sample1_program = {
     .instructions = spi_gap010_sample1_program_instructions,
     .length = 7,
     .origin = -1,
-    .pio_version = 0,
+    .pio_version = spi_gap010_sample1_pio_version,
 #if PICO_PIO_VERSION > 0
     .used_gpio_ranges = 0x0
 #endif
@@ -144,11 +144,11 @@ static inline pio_sm_config spi_gap010_sample1_program_get_default_config(uint o
 
 static const uint16_t spi_gap0_sample1_regular_program_instructions[] = {
             //     .wrap_target
-    0x6001, //  0: out    pins, 1         side 0     
-    0x1040, //  1: jmp    x--, 0          side 1     
-    0xe080, //  2: set    pindirs, 0      side 0     
-    0x5001, //  3: in     pins, 1         side 1     
-    0x0083, //  4: jmp    y--, 3          side 0     
+    0x6001, //  0: out    pins, 1         side 0
+    0x1040, //  1: jmp    x--, 0          side 1
+    0xe080, //  2: set    pindirs, 0      side 0
+    0x5001, //  3: in     pins, 1         side 1
+    0x0083, //  4: jmp    y--, 3          side 0
             //     .wrap
 };
 
@@ -157,7 +157,7 @@ static const struct pio_program spi_gap0_sample1_regular_program = {
     .instructions = spi_gap0_sample1_regular_program_instructions,
     .length = 5,
     .origin = -1,
-    .pio_version = 0,
+    .pio_version = spi_gap0_sample1_regular_pio_version,
 #if PICO_PIO_VERSION > 0
     .used_gpio_ranges = 0x0
 #endif

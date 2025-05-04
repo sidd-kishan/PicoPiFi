@@ -27,7 +27,7 @@ set_property(GLOBAL PROPERTY _CMAKE_FindGit_GIT_EXECUTABLE_VERSION
 
 include(ExternalProject)
 ExternalProject_Add(picotool-populate
-                     "UPDATE_DISCONNECTED" "False" "GIT_REPOSITORY" "https://github.com/raspberrypi/picotool.git" "EXTERNALPROJECT_INTERNAL_ARGUMENT_SEPARATOR" "GIT_TAG" "2.0.0" "GIT_PROGRESS" "true"
+                     "GIT_REPOSITORY" "https://github.com/raspberrypi/picotool.git" "GIT_TAG" "develop"
                     SOURCE_DIR          "/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/_deps/picotool-src"
                     BINARY_DIR          "/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/_deps/picotool-build"
                     CONFIGURE_COMMAND   ""

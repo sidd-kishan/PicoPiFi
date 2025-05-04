@@ -10,10 +10,9 @@ bintool/CMakeFiles/bintool.dir/bintool.cpp.o
  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/_deps/picotool-src/elf/elf.h
  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/_deps/picotool-src/elf/elf_file.h
  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/_deps/picotool-src/errors/errors.h
+ /mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h
  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/mbedtls/include/mbedtls/aes.h
  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/mbedtls/include/mbedtls/bignum.h
- /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/mbedtls/include/mbedtls/check_config.h
- /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/mbedtls/include/mbedtls/config.h
  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/mbedtls/include/mbedtls/ctr_drbg.h
  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/mbedtls/include/mbedtls/ecdsa.h
  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/mbedtls/include/mbedtls/ecp.h
@@ -23,9 +22,9 @@ bintool/CMakeFiles/bintool.dir/bintool.cpp.o
  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/mbedtls/include/mbedtls/pk.h
  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/mbedtls/include/mbedtls/platform_time.h
  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/mbedtls/include/mbedtls/platform_util.h
- /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/mbedtls/include/mbedtls/rsa.h
  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/mbedtls/include/mbedtls/sha256.h
  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/mbedtls/include/mbedtls/sha512.h
+ /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/mbedtls/include/mbedtls/version.h
  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/common/boot_picobin_headers/include/boot/picobin.h
  /usr/include/alloca.h
  /usr/include/asm-generic/errno-base.h
@@ -120,6 +119,7 @@ bintool/CMakeFiles/bintool.dir/bintool.cpp.o
  /usr/include/c++/14/cassert
  /usr/include/c++/14/cctype
  /usr/include/c++/14/cerrno
+ /usr/include/c++/14/cinttypes
  /usr/include/c++/14/clocale
  /usr/include/c++/14/cmath
  /usr/include/c++/14/concepts
@@ -170,6 +170,7 @@ bintool/CMakeFiles/bintool.dir/bintool.cpp.o
  /usr/include/errno.h
  /usr/include/features-time64.h
  /usr/include/features.h
+ /usr/include/inttypes.h
  /usr/include/limits.h
  /usr/include/linux/errno.h
  /usr/include/linux/limits.h
@@ -294,10 +295,9 @@ bintool/CMakeFiles/bintool.dir/bintool.cpp.o
 bintool/CMakeFiles/bintool.dir/mbedtls_wrapper.c.o
  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/_deps/picotool-src/bintool/mbedtls_wrapper.c
  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/_deps/picotool-src/bintool/mbedtls_wrapper.h
+ /mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h
  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/mbedtls/include/mbedtls/aes.h
  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/mbedtls/include/mbedtls/bignum.h
- /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/mbedtls/include/mbedtls/check_config.h
- /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/mbedtls/include/mbedtls/config.h
  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/mbedtls/include/mbedtls/ctr_drbg.h
  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/mbedtls/include/mbedtls/ecdsa.h
  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/mbedtls/include/mbedtls/ecp.h
@@ -306,9 +306,9 @@ bintool/CMakeFiles/bintool.dir/mbedtls_wrapper.c.o
  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/mbedtls/include/mbedtls/pk.h
  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/mbedtls/include/mbedtls/platform_time.h
  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/mbedtls/include/mbedtls/platform_util.h
- /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/mbedtls/include/mbedtls/rsa.h
  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/mbedtls/include/mbedtls/sha256.h
  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/mbedtls/include/mbedtls/sha512.h
+ /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/mbedtls/include/mbedtls/version.h
  /usr/include/alloca.h
  /usr/include/assert.h
  /usr/include/endian.h

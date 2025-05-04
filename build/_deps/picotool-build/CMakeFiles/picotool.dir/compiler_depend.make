@@ -416,13 +416,12 @@ CMakeFiles/picotool.dir/main.cpp.o: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/bui
   /mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/_deps/picotool-src/elf/elf_file.h \
   /mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/_deps/picotool-src/elf2uf2/elf2uf2.h \
   /mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/_deps/picotool-src/errors/errors.h \
+  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
   /mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/_deps/picotool-src/lib/nlohmann_json/single_include/nlohmann/json.hpp \
   /mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/_deps/picotool-src/otp.h \
   /mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/_deps/picotool-src/picoboot_connection/picoboot_connection.h \
   /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/mbedtls/include/mbedtls/aes.h \
   /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/mbedtls/include/mbedtls/bignum.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/mbedtls/include/mbedtls/check_config.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/mbedtls/include/mbedtls/config.h \
   /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/mbedtls/include/mbedtls/ctr_drbg.h \
   /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/mbedtls/include/mbedtls/ecdsa.h \
   /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/mbedtls/include/mbedtls/ecp.h \
@@ -431,9 +430,9 @@ CMakeFiles/picotool.dir/main.cpp.o: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/bui
   /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/mbedtls/include/mbedtls/pk.h \
   /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/mbedtls/include/mbedtls/platform_time.h \
   /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/mbedtls/include/mbedtls/platform_util.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/mbedtls/include/mbedtls/rsa.h \
   /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/mbedtls/include/mbedtls/sha256.h \
   /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/mbedtls/include/mbedtls/sha512.h \
+  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/mbedtls/include/mbedtls/version.h \
   /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/common/boot_picobin_headers/include/boot/picobin.h \
   /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/common/boot_picoboot_headers/include/boot/picoboot.h \
   /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/common/boot_picoboot_headers/include/boot/picoboot_constants.h \
@@ -446,7 +445,7 @@ CMakeFiles/picotool.dir/main.cpp.o: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/bui
   /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/host/pico_platform/include/pico/platform.h \
   /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
   /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/otp_data.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom_constants.h \
+  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/boot_bootrom_headers/include/boot/bootrom_constants.h \
   /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb/reset_interface.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/errno-base.h \
@@ -1199,8 +1198,6 @@ CMakeFiles/picotool.dir/no_otp.cpp.o: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/b
 
 /usr/include/c++/14/bitset:
 
-/usr/include/c++/14/bits/valarray_before.h:
-
 /usr/include/c++/14/bits/valarray_array.tcc:
 
 /usr/include/x86_64-linux-gnu/bits/uio_lim.h:
@@ -1250,8 +1247,6 @@ CMakeFiles/picotool.dir/no_otp.cpp.o: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/b
 /usr/include/c++/14/bits/shared_ptr_base.h:
 
 /usr/include/c++/14/bits/shared_ptr.h:
-
-/usr/include/c++/14/bits/regex_executor.h:
 
 /usr/include/c++/14/bits/regex_error.h:
 
@@ -1308,6 +1303,10 @@ CMakeFiles/picotool.dir/no_otp.cpp.o: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/b
 /usr/include/x86_64-linux-gnu/bits/types/error_t.h:
 
 /usr/include/c++/14/bits/erase_if.h:
+
+/usr/include/c++/14/bits/regex_executor.h:
+
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/boot_bootrom_headers/include/boot/bootrom_constants.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h:
 
@@ -1527,8 +1526,6 @@ data_locs.cpp:
 
 /usr/include/c++/14/bits/allocator.h:
 
-/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/mbedtls/include/mbedtls/config.h:
-
 /usr/include/c++/14/bits/alloc_traits.h:
 
 /usr/include/x86_64-linux-gnu/bits/waitflags.h:
@@ -1575,6 +1572,8 @@ data_locs.cpp:
 
 /usr/lib/gcc/x86_64-linux-gnu/14/include/stdbool.h:
 
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h:
+
 /usr/include/c++/14/bits/range_access.h:
 
 /usr/include/c++/14/utility:
@@ -1592,12 +1591,6 @@ data_locs.cpp:
 /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h:
 
 /usr/include/x86_64-linux-gnu/c++/14/bits/error_constants.h:
-
-/usr/include/c++/14/bits/forward_list.tcc:
-
-/usr/include/c++/14/stdlib.h:
-
-/usr/include/x86_64-linux-gnu/bits/long-double.h:
 
 /usr/include/c++/14/bits/atomic_base.h:
 
@@ -1717,8 +1710,6 @@ data_locs.cpp:
 
 /usr/include/libintl.h:
 
-/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom_constants.h:
-
 /usr/include/c++/14/bits/locale_classes.tcc:
 
 /usr/include/c++/14/bits/nested_exception.h:
@@ -1738,6 +1729,8 @@ data_locs.cpp:
 /usr/include/c++/14/cstring:
 
 /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/mbedtls/include/mbedtls/ecdsa.h:
+
+/usr/include/c++/14/ext/atomicity.h:
 
 /usr/include/c++/14/typeinfo:
 
@@ -1839,8 +1832,6 @@ data_locs.cpp:
 
 /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/mbedtls/include/mbedtls/aes.h:
 
-/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/mbedtls/include/mbedtls/check_config.h:
-
 /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h:
 
 /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/mbedtls/include/mbedtls/ctr_drbg.h:
@@ -1861,9 +1852,9 @@ data_locs.cpp:
 
 /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/mbedtls/include/mbedtls/platform_util.h:
 
-/usr/include/c++/14/ext/atomicity.h:
+/usr/include/c++/14/bits/valarray_before.h:
 
-/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/mbedtls/include/mbedtls/rsa.h:
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/mbedtls/include/mbedtls/version.h:
 
 /usr/include/x86_64-linux-gnu/bits/struct_mutex.h:
 
@@ -1904,3 +1895,9 @@ data_locs.cpp:
 /usr/include/c++/14/bits/std_function.h:
 
 /usr/include/c++/14/bits/enable_special_members.h:
+
+/usr/include/c++/14/stdlib.h:
+
+/usr/include/x86_64-linux-gnu/bits/long-double.h:
+
+/usr/include/c++/14/bits/forward_list.tcc:

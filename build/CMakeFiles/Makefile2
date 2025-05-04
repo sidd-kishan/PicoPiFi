@@ -158,12 +158,14 @@ pico-sdk/src/all: pico-sdk/src/rp2_common/hardware_timer/all
 pico-sdk/src/all: pico-sdk/src/rp2_common/hardware_uart/all
 pico-sdk/src/all: pico-sdk/src/rp2_common/hardware_vreg/all
 pico-sdk/src/all: pico-sdk/src/rp2_common/hardware_watchdog/all
+pico-sdk/src/all: pico-sdk/src/rp2_common/hardware_xip_cache/all
 pico-sdk/src/all: pico-sdk/src/rp2_common/hardware_xosc/all
-pico-sdk/src/all: pico-sdk/src/rp2_common/pico_bootrom/all
+pico-sdk/src/all: pico-sdk/src/rp2_common/boot_bootrom_headers/all
 pico-sdk/src/all: pico-sdk/src/rp2_common/pico_platform_compiler/all
 pico-sdk/src/all: pico-sdk/src/rp2_common/pico_platform_sections/all
 pico-sdk/src/all: pico-sdk/src/rp2_common/pico_platform_panic/all
 pico-sdk/src/all: pico-sdk/src/rp2_common/pico_aon_timer/all
+pico-sdk/src/all: pico-sdk/src/rp2_common/pico_bootrom/all
 pico-sdk/src/all: pico-sdk/src/rp2_common/pico_bootsel_via_double_reset/all
 pico-sdk/src/all: pico-sdk/src/rp2_common/pico_multicore/all
 pico-sdk/src/all: pico-sdk/src/rp2_common/pico_unique_id/all
@@ -247,12 +249,14 @@ pico-sdk/src/preinstall: pico-sdk/src/rp2_common/hardware_timer/preinstall
 pico-sdk/src/preinstall: pico-sdk/src/rp2_common/hardware_uart/preinstall
 pico-sdk/src/preinstall: pico-sdk/src/rp2_common/hardware_vreg/preinstall
 pico-sdk/src/preinstall: pico-sdk/src/rp2_common/hardware_watchdog/preinstall
+pico-sdk/src/preinstall: pico-sdk/src/rp2_common/hardware_xip_cache/preinstall
 pico-sdk/src/preinstall: pico-sdk/src/rp2_common/hardware_xosc/preinstall
-pico-sdk/src/preinstall: pico-sdk/src/rp2_common/pico_bootrom/preinstall
+pico-sdk/src/preinstall: pico-sdk/src/rp2_common/boot_bootrom_headers/preinstall
 pico-sdk/src/preinstall: pico-sdk/src/rp2_common/pico_platform_compiler/preinstall
 pico-sdk/src/preinstall: pico-sdk/src/rp2_common/pico_platform_sections/preinstall
 pico-sdk/src/preinstall: pico-sdk/src/rp2_common/pico_platform_panic/preinstall
 pico-sdk/src/preinstall: pico-sdk/src/rp2_common/pico_aon_timer/preinstall
+pico-sdk/src/preinstall: pico-sdk/src/rp2_common/pico_bootrom/preinstall
 pico-sdk/src/preinstall: pico-sdk/src/rp2_common/pico_bootsel_via_double_reset/preinstall
 pico-sdk/src/preinstall: pico-sdk/src/rp2_common/pico_multicore/preinstall
 pico-sdk/src/preinstall: pico-sdk/src/rp2_common/pico_unique_id/preinstall
@@ -336,12 +340,14 @@ pico-sdk/src/clean: pico-sdk/src/rp2_common/hardware_timer/clean
 pico-sdk/src/clean: pico-sdk/src/rp2_common/hardware_uart/clean
 pico-sdk/src/clean: pico-sdk/src/rp2_common/hardware_vreg/clean
 pico-sdk/src/clean: pico-sdk/src/rp2_common/hardware_watchdog/clean
+pico-sdk/src/clean: pico-sdk/src/rp2_common/hardware_xip_cache/clean
 pico-sdk/src/clean: pico-sdk/src/rp2_common/hardware_xosc/clean
-pico-sdk/src/clean: pico-sdk/src/rp2_common/pico_bootrom/clean
+pico-sdk/src/clean: pico-sdk/src/rp2_common/boot_bootrom_headers/clean
 pico-sdk/src/clean: pico-sdk/src/rp2_common/pico_platform_compiler/clean
 pico-sdk/src/clean: pico-sdk/src/rp2_common/pico_platform_sections/clean
 pico-sdk/src/clean: pico-sdk/src/rp2_common/pico_platform_panic/clean
 pico-sdk/src/clean: pico-sdk/src/rp2_common/pico_aon_timer/clean
+pico-sdk/src/clean: pico-sdk/src/rp2_common/pico_bootrom/clean
 pico-sdk/src/clean: pico-sdk/src/rp2_common/pico_bootsel_via_double_reset/clean
 pico-sdk/src/clean: pico-sdk/src/rp2_common/pico_multicore/clean
 pico-sdk/src/clean: pico-sdk/src/rp2_common/pico_unique_id/clean
@@ -582,6 +588,7 @@ pico-sdk/src/common/pico_util/clean:
 
 # Recursive "all" directory target.
 pico-sdk/src/rp2040/boot_stage2/all: pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default.dir/all
+pico-sdk/src/rp2040/boot_stage2/all: pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_library.dir/all
 .PHONY : pico-sdk/src/rp2040/boot_stage2/all
 
 # Recursive "preinstall" directory target.
@@ -591,7 +598,7 @@ pico-sdk/src/rp2040/boot_stage2/preinstall:
 # Recursive "clean" directory target.
 pico-sdk/src/rp2040/boot_stage2/clean: pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default.dir/clean
 pico-sdk/src/rp2040/boot_stage2/clean: pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_bin.dir/clean
-pico-sdk/src/rp2040/boot_stage2/clean: pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/clean
+pico-sdk/src/rp2040/boot_stage2/clean: pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_library.dir/clean
 .PHONY : pico-sdk/src/rp2040/boot_stage2/clean
 
 #=============================================================================
@@ -638,6 +645,21 @@ pico-sdk/src/rp2040/pico_platform/preinstall:
 # Recursive "clean" directory target.
 pico-sdk/src/rp2040/pico_platform/clean:
 .PHONY : pico-sdk/src/rp2040/pico_platform/clean
+
+#=============================================================================
+# Directory level rules for directory pico-sdk/src/rp2_common/boot_bootrom_headers
+
+# Recursive "all" directory target.
+pico-sdk/src/rp2_common/boot_bootrom_headers/all:
+.PHONY : pico-sdk/src/rp2_common/boot_bootrom_headers/all
+
+# Recursive "preinstall" directory target.
+pico-sdk/src/rp2_common/boot_bootrom_headers/preinstall:
+.PHONY : pico-sdk/src/rp2_common/boot_bootrom_headers/preinstall
+
+# Recursive "clean" directory target.
+pico-sdk/src/rp2_common/boot_bootrom_headers/clean:
+.PHONY : pico-sdk/src/rp2_common/boot_bootrom_headers/clean
 
 #=============================================================================
 # Directory level rules for directory pico-sdk/src/rp2_common/cmsis
@@ -1028,6 +1050,21 @@ pico-sdk/src/rp2_common/hardware_watchdog/preinstall:
 # Recursive "clean" directory target.
 pico-sdk/src/rp2_common/hardware_watchdog/clean:
 .PHONY : pico-sdk/src/rp2_common/hardware_watchdog/clean
+
+#=============================================================================
+# Directory level rules for directory pico-sdk/src/rp2_common/hardware_xip_cache
+
+# Recursive "all" directory target.
+pico-sdk/src/rp2_common/hardware_xip_cache/all:
+.PHONY : pico-sdk/src/rp2_common/hardware_xip_cache/all
+
+# Recursive "preinstall" directory target.
+pico-sdk/src/rp2_common/hardware_xip_cache/preinstall:
+.PHONY : pico-sdk/src/rp2_common/hardware_xip_cache/preinstall
+
+# Recursive "clean" directory target.
+pico-sdk/src/rp2_common/hardware_xip_cache/clean:
+.PHONY : pico-sdk/src/rp2_common/hardware_xip_cache/clean
 
 #=============================================================================
 # Directory level rules for directory pico-sdk/src/rp2_common/hardware_xosc
@@ -1739,7 +1776,7 @@ pico-sdk/tools/clean:
 # Target rules for target CMakeFiles/PicoPiFi.dir
 
 # All Build rule for target.
-CMakeFiles/PicoPiFi.dir/all: pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/all
+CMakeFiles/PicoPiFi.dir/all: pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_library.dir/all
 CMakeFiles/PicoPiFi.dir/all: pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PicoPiFi.dir/build.make CMakeFiles/PicoPiFi.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PicoPiFi.dir/build.make CMakeFiles/PicoPiFi.dir/build
@@ -1748,7 +1785,7 @@ CMakeFiles/PicoPiFi.dir/all: pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFile
 
 # Build rule for subdir invocation for target.
 CMakeFiles/PicoPiFi.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles 99
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles 100
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/PicoPiFi.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles 0
 .PHONY : CMakeFiles/PicoPiFi.dir/rule
@@ -1795,12 +1832,12 @@ pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default.dir/clean:
 pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_bin.dir/all: pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default.dir/all
 	$(MAKE) $(MAKESILENT) -f pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_bin.dir/build.make pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_bin.dir/depend
 	$(MAKE) $(MAKESILENT) -f pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_bin.dir/build.make pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_bin.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=98 "Built target bs2_default_bin"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num= "Built target bs2_default_bin"
 .PHONY : pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_bin.dir/all
 
 # Build rule for subdir invocation for target.
 pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_bin.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_bin.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles 0
 .PHONY : pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_bin.dir/rule
@@ -1815,30 +1852,30 @@ pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_bin.dir/clean:
 .PHONY : pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_bin.dir/clean
 
 #=============================================================================
-# Target rules for target pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir
+# Target rules for target pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_library.dir
 
 # All Build rule for target.
-pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/all: pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default.dir/all
-	$(MAKE) $(MAKESILENT) -f pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/build.make pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/depend
-	$(MAKE) $(MAKESILENT) -f pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/build.make pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=99 "Built target bs2_default_padded_checksummed_asm"
-.PHONY : pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/all
+pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_library.dir/all: pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default.dir/all
+	$(MAKE) $(MAKESILENT) -f pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_library.dir/build.make pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_library.dir/depend
+	$(MAKE) $(MAKESILENT) -f pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_library.dir/build.make pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_library.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=98,99 "Built target bs2_default_library"
+.PHONY : pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_library.dir/all
 
 # Build rule for subdir invocation for target.
-pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/all
+pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_library.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles 3
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_library.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles 0
-.PHONY : pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/rule
+.PHONY : pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_library.dir/rule
 
 # Convenience name for target.
-bs2_default_padded_checksummed_asm: pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/rule
-.PHONY : bs2_default_padded_checksummed_asm
+bs2_default_library: pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_library.dir/rule
+.PHONY : bs2_default_library
 
 # clean rule for target.
-pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/clean:
-	$(MAKE) $(MAKESILENT) -f pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/build.make pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/clean
-.PHONY : pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/clean
+pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_library.dir/clean:
+	$(MAKE) $(MAKESILENT) -f pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_library.dir/build.make pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_library.dir/clean
+.PHONY : pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_library.dir/clean
 
 #=============================================================================
 # Target rules for target pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir

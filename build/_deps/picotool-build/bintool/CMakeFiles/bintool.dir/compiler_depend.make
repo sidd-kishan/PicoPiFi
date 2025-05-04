@@ -9,10 +9,9 @@ bintool/CMakeFiles/bintool.dir/bintool.cpp.o: /mnt/c/Users/Pentest1/Downloads/Pi
   /mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/_deps/picotool-src/elf/elf.h \
   /mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/_deps/picotool-src/elf/elf_file.h \
   /mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/_deps/picotool-src/errors/errors.h \
+  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
   /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/mbedtls/include/mbedtls/aes.h \
   /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/mbedtls/include/mbedtls/bignum.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/mbedtls/include/mbedtls/check_config.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/mbedtls/include/mbedtls/config.h \
   /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/mbedtls/include/mbedtls/ctr_drbg.h \
   /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/mbedtls/include/mbedtls/ecdsa.h \
   /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/mbedtls/include/mbedtls/ecp.h \
@@ -22,9 +21,9 @@ bintool/CMakeFiles/bintool.dir/bintool.cpp.o: /mnt/c/Users/Pentest1/Downloads/Pi
   /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/mbedtls/include/mbedtls/pk.h \
   /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/mbedtls/include/mbedtls/platform_time.h \
   /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/mbedtls/include/mbedtls/platform_util.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/mbedtls/include/mbedtls/rsa.h \
   /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/mbedtls/include/mbedtls/sha256.h \
   /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/mbedtls/include/mbedtls/sha512.h \
+  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/mbedtls/include/mbedtls/version.h \
   /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/common/boot_picobin_headers/include/boot/picobin.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/errno-base.h \
@@ -119,6 +118,7 @@ bintool/CMakeFiles/bintool.dir/bintool.cpp.o: /mnt/c/Users/Pentest1/Downloads/Pi
   /usr/include/c++/14/cassert \
   /usr/include/c++/14/cctype \
   /usr/include/c++/14/cerrno \
+  /usr/include/c++/14/cinttypes \
   /usr/include/c++/14/clocale \
   /usr/include/c++/14/cmath \
   /usr/include/c++/14/concepts \
@@ -169,6 +169,7 @@ bintool/CMakeFiles/bintool.dir/bintool.cpp.o: /mnt/c/Users/Pentest1/Downloads/Pi
   /usr/include/errno.h \
   /usr/include/features-time64.h \
   /usr/include/features.h \
+  /usr/include/inttypes.h \
   /usr/include/limits.h \
   /usr/include/linux/errno.h \
   /usr/include/linux/limits.h \
@@ -292,10 +293,9 @@ bintool/CMakeFiles/bintool.dir/bintool.cpp.o: /mnt/c/Users/Pentest1/Downloads/Pi
 
 bintool/CMakeFiles/bintool.dir/mbedtls_wrapper.c.o: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/_deps/picotool-src/bintool/mbedtls_wrapper.c \
   /mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/_deps/picotool-src/bintool/mbedtls_wrapper.h \
+  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
   /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/mbedtls/include/mbedtls/aes.h \
   /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/mbedtls/include/mbedtls/bignum.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/mbedtls/include/mbedtls/check_config.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/mbedtls/include/mbedtls/config.h \
   /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/mbedtls/include/mbedtls/ctr_drbg.h \
   /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/mbedtls/include/mbedtls/ecdsa.h \
   /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/mbedtls/include/mbedtls/ecp.h \
@@ -304,9 +304,9 @@ bintool/CMakeFiles/bintool.dir/mbedtls_wrapper.c.o: /mnt/c/Users/Pentest1/Downlo
   /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/mbedtls/include/mbedtls/pk.h \
   /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/mbedtls/include/mbedtls/platform_time.h \
   /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/mbedtls/include/mbedtls/platform_util.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/mbedtls/include/mbedtls/rsa.h \
   /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/mbedtls/include/mbedtls/sha256.h \
   /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/mbedtls/include/mbedtls/sha512.h \
+  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/mbedtls/include/mbedtls/version.h \
   /usr/include/alloca.h \
   /usr/include/assert.h \
   /usr/include/endian.h \
@@ -430,9 +430,15 @@ bintool/CMakeFiles/bintool.dir/mbedtls_wrapper.c.o: /mnt/c/Users/Pentest1/Downlo
 
 /usr/include/x86_64-linux-gnu/bits/wchar.h:
 
+/usr/include/x86_64-linux-gnu/bits/waitstatus.h:
+
 /usr/include/c++/14/cwchar:
 
 /usr/include/c++/14/stdexcept:
+
+/usr/include/c++/14/cstdlib:
+
+/usr/include/c++/14/system_error:
 
 /usr/include/c++/14/cstdarg:
 
@@ -510,8 +516,6 @@ bintool/CMakeFiles/bintool.dir/mbedtls_wrapper.c.o: /mnt/c/Users/Pentest1/Downlo
 
 /usr/include/c++/14/bits/refwrap.h:
 
-/usr/include/c++/14/bits/range_access.h:
-
 /usr/include/x86_64-linux-gnu/c++/14/bits/opt_random.h:
 
 /usr/include/c++/14/bits/stl_construct.h:
@@ -550,7 +554,21 @@ bintool/CMakeFiles/bintool.dir/mbedtls_wrapper.c.o: /mnt/c/Users/Pentest1/Downlo
 
 /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h:
 
+/usr/include/c++/14/bits/ptr_traits.h:
+
+/usr/include/alloca.h:
+
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/mbedtls/include/mbedtls/aes.h:
+
 /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/mbedtls/include/mbedtls/sha512.h:
+
+/usr/include/c++/14/bits/range_access.h:
+
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h:
+
+/usr/include/c++/14/cctype:
+
+/usr/include/c++/14/bits/exception.h:
 
 /usr/include/c++/14/bits/stl_multimap.h:
 
@@ -559,6 +577,30 @@ bintool/CMakeFiles/bintool.dir/mbedtls_wrapper.c.o: /mnt/c/Users/Pentest1/Downlo
 /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/error_t.h:
+
+/usr/include/c++/14/bits/stl_uninitialized.h:
+
+/usr/include/x86_64-linux-gnu/bits/endianness.h:
+
+/usr/include/c++/14/bits/stl_map.h:
+
+/usr/include/c++/14/bits/fstream.tcc:
+
+/usr/include/x86_64-linux-gnu/bits/struct_rwlock.h:
+
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/_deps/picotool-src/bintool/bintool.h:
+
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/mbedtls/include/mbedtls/sha256.h:
+
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/_deps/picotool-src/bintool/bintool.cpp:
+
+/usr/include/c++/14/bits/cxxabi_init_exception.h:
+
+/usr/include/c++/14/limits:
+
+/usr/include/c++/14/bits/functional_hash.h:
+
+/usr/include/c++/14/bits/alloc_traits.h:
 
 /usr/include/c++/14/bits/stringfwd.h:
 
@@ -572,15 +614,9 @@ bintool/CMakeFiles/bintool.dir/mbedtls_wrapper.c.o: /mnt/c/Users/Pentest1/Downlo
 
 /usr/include/c++/14/bits/exception_ptr.h:
 
-/usr/include/c++/14/bits/stl_uninitialized.h:
-
-/usr/include/x86_64-linux-gnu/bits/endianness.h:
-
 /usr/include/c++/14/cassert:
 
 /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/mbedtls/include/mbedtls/md.h:
-
-/usr/include/c++/14/bits/invoke.h:
 
 /usr/include/x86_64-linux-gnu/bits/sched.h:
 
@@ -596,33 +632,25 @@ bintool/CMakeFiles/bintool.dir/mbedtls_wrapper.c.o: /mnt/c/Users/Pentest1/Downlo
 
 /usr/include/c++/14/bits/localefwd.h:
 
-/usr/include/c++/14/bits/alloc_traits.h:
-
-/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/mbedtls/include/mbedtls/config.h:
-
 /usr/include/stdint.h:
 
 /usr/include/endian.h:
 
-/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/_deps/picotool-src/bintool/bintool.cpp:
-
-/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/mbedtls/include/mbedtls/sha256.h:
-
 /mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/_deps/picotool-src/bintool/mbedtls_wrapper.h:
-
-/usr/include/c++/14/bits/stl_map.h:
-
-/usr/include/x86_64-linux-gnu/bits/struct_rwlock.h:
-
-/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/_deps/picotool-src/bintool/bintool.h:
-
-/usr/include/c++/14/bits/fstream.tcc:
 
 /usr/include/x86_64-linux-gnu/bits/timesize.h:
 
 /mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/_deps/picotool-src/bintool/metadata.h:
 
 /usr/include/c++/14/typeinfo:
+
+/usr/include/c++/14/algorithm:
+
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/mbedtls/include/mbedtls/bignum.h:
+
+/usr/include/c++/14/istream:
+
+/usr/include/stdlib.h:
 
 /usr/include/c++/14/cstdint:
 
@@ -642,10 +670,6 @@ bintool/CMakeFiles/bintool.dir/mbedtls_wrapper.c.o: /mnt/c/Users/Pentest1/Downlo
 
 /usr/include/c++/14/bit:
 
-/usr/include/c++/14/cctype:
-
-/usr/include/c++/14/bits/exception.h:
-
 /usr/include/c++/14/bits/char_traits.h:
 
 /usr/include/c++/14/bits/shared_ptr_atomic.h:
@@ -660,12 +684,6 @@ bintool/CMakeFiles/bintool.dir/mbedtls_wrapper.c.o: /mnt/c/Users/Pentest1/Downlo
 
 /usr/include/c++/14/bits/random.h:
 
-/usr/include/x86_64-linux-gnu/c++/14/bits/cpu_defines.h:
-
-/usr/include/x86_64-linux-gnu/bits/struct_mutex.h:
-
-/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/common/boot_picobin_headers/include/boot/picobin.h:
-
 /usr/include/c++/14/concepts:
 
 /mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/_deps/picotool-src/elf/elf_file.h:
@@ -675,32 +693,6 @@ bintool/CMakeFiles/bintool.dir/mbedtls_wrapper.c.o: /mnt/c/Users/Pentest1/Downlo
 /usr/include/c++/14/bits/stl_raw_storage_iter.h:
 
 /usr/include/c++/14/bits/basic_ios.h:
-
-/usr/include/c++/14/bits/cxxabi_init_exception.h:
-
-/usr/include/c++/14/limits:
-
-/usr/include/c++/14/bits/functional_hash.h:
-
-/usr/include/c++/14/cstdlib:
-
-/usr/include/c++/14/system_error:
-
-/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/mbedtls/include/mbedtls/check_config.h:
-
-/usr/include/c++/14/bits/ptr_traits.h:
-
-/usr/include/alloca.h:
-
-/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/mbedtls/include/mbedtls/aes.h:
-
-/usr/include/c++/14/algorithm:
-
-/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/mbedtls/include/mbedtls/bignum.h:
-
-/usr/include/c++/14/istream:
-
-/usr/include/stdlib.h:
 
 /usr/include/c++/14/bits/shared_ptr.h:
 
@@ -748,11 +740,7 @@ bintool/CMakeFiles/bintool.dir/mbedtls_wrapper.c.o: /mnt/c/Users/Pentest1/Downlo
 
 /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/mbedtls/include/mbedtls/ecdsa.h:
 
-/usr/include/x86_64-linux-gnu/bits/wordsize.h:
-
-/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/mbedtls/include/mbedtls/error.h:
-
-/usr/include/c++/14/exception:
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/mbedtls/include/mbedtls/version.h:
 
 /mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/_deps/picotool-src/elf/elf.h:
 
@@ -762,9 +750,31 @@ bintool/CMakeFiles/bintool.dir/mbedtls_wrapper.c.o: /mnt/c/Users/Pentest1/Downlo
 
 /usr/include/x86_64-linux-gnu/bits/locale.h:
 
+/usr/include/c++/14/cinttypes:
+
+/usr/include/linux/errno.h:
+
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/mbedtls/include/mbedtls/ctr_drbg.h:
+
+/usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h:
+
 /usr/include/c++/14/bits/functexcept.h:
 
 /usr/include/pthread.h:
+
+/usr/include/x86_64-linux-gnu/bits/wordsize.h:
+
+/usr/include/c++/14/exception:
+
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/mbedtls/include/mbedtls/error.h:
+
+/usr/include/x86_64-linux-gnu/c++/14/bits/cpu_defines.h:
+
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/common/boot_picobin_headers/include/boot/picobin.h:
+
+/usr/include/x86_64-linux-gnu/bits/struct_mutex.h:
+
+/usr/include/c++/14/bits/invoke.h:
 
 /usr/include/c++/14/cwctype:
 
@@ -785,8 +795,6 @@ bintool/CMakeFiles/bintool.dir/mbedtls_wrapper.c.o: /mnt/c/Users/Pentest1/Downlo
 /usr/include/c++/14/new:
 
 /usr/include/c++/14/ext/alloc_traits.h:
-
-/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/mbedtls/include/mbedtls/rsa.h:
 
 /usr/include/c++/14/ext/atomicity.h:
 
@@ -830,23 +838,17 @@ bintool/CMakeFiles/bintool.dir/mbedtls_wrapper.c.o: /mnt/c/Users/Pentest1/Downlo
 
 /usr/include/c++/14/type_traits:
 
-/usr/include/x86_64-linux-gnu/bits/waitstatus.h:
-
 /usr/include/ctype.h:
 
-/usr/include/linux/errno.h:
-
-/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/mbedtls/include/mbedtls/ctr_drbg.h:
-
-/usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h:
+/usr/include/inttypes.h:
 
 /usr/include/locale.h:
 
 /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h:
 
-/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/mbedtls/include/mbedtls/platform_time.h:
-
 /usr/include/x86_64-linux-gnu/bits/types/__FILE.h:
+
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/mbedtls/include/mbedtls/platform_time.h:
 
 /usr/include/math.h:
 

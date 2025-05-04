@@ -69,11 +69,11 @@ include CMakeFiles/PicoPiFi.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/PicoPiFi.dir/flags.make
 
-CMakeFiles/PicoPiFi.dir/src/main.c.obj: CMakeFiles/PicoPiFi.dir/flags.make
-CMakeFiles/PicoPiFi.dir/src/main.c.obj: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/src/main.c
-CMakeFiles/PicoPiFi.dir/src/main.c.obj: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/PicoPiFi.dir/src/main.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/src/main.c.obj -MF CMakeFiles/PicoPiFi.dir/src/main.c.obj.d -o CMakeFiles/PicoPiFi.dir/src/main.c.obj -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/src/main.c
+CMakeFiles/PicoPiFi.dir/src/main.c.o: CMakeFiles/PicoPiFi.dir/flags.make
+CMakeFiles/PicoPiFi.dir/src/main.c.o: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/src/main.c
+CMakeFiles/PicoPiFi.dir/src/main.c.o: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/PicoPiFi.dir/src/main.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/src/main.c.o -MF CMakeFiles/PicoPiFi.dir/src/main.c.o.d -o CMakeFiles/PicoPiFi.dir/src/main.c.o -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/src/main.c
 
 CMakeFiles/PicoPiFi.dir/src/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PicoPiFi.dir/src/main.c.i"
@@ -83,11 +83,11 @@ CMakeFiles/PicoPiFi.dir/src/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PicoPiFi.dir/src/main.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Pentest1/Downloads/PicoPiFi/src/main.c -o CMakeFiles/PicoPiFi.dir/src/main.c.s
 
-CMakeFiles/PicoPiFi.dir/src/lwip.c.obj: CMakeFiles/PicoPiFi.dir/flags.make
-CMakeFiles/PicoPiFi.dir/src/lwip.c.obj: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/src/lwip.c
-CMakeFiles/PicoPiFi.dir/src/lwip.c.obj: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/PicoPiFi.dir/src/lwip.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/src/lwip.c.obj -MF CMakeFiles/PicoPiFi.dir/src/lwip.c.obj.d -o CMakeFiles/PicoPiFi.dir/src/lwip.c.obj -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/src/lwip.c
+CMakeFiles/PicoPiFi.dir/src/lwip.c.o: CMakeFiles/PicoPiFi.dir/flags.make
+CMakeFiles/PicoPiFi.dir/src/lwip.c.o: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/src/lwip.c
+CMakeFiles/PicoPiFi.dir/src/lwip.c.o: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/PicoPiFi.dir/src/lwip.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/src/lwip.c.o -MF CMakeFiles/PicoPiFi.dir/src/lwip.c.o.d -o CMakeFiles/PicoPiFi.dir/src/lwip.c.o -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/src/lwip.c
 
 CMakeFiles/PicoPiFi.dir/src/lwip.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PicoPiFi.dir/src/lwip.c.i"
@@ -97,11 +97,11 @@ CMakeFiles/PicoPiFi.dir/src/lwip.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PicoPiFi.dir/src/lwip.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Pentest1/Downloads/PicoPiFi/src/lwip.c -o CMakeFiles/PicoPiFi.dir/src/lwip.c.s
 
-CMakeFiles/PicoPiFi.dir/src/wifi_tx.c.obj: CMakeFiles/PicoPiFi.dir/flags.make
-CMakeFiles/PicoPiFi.dir/src/wifi_tx.c.obj: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/src/wifi_tx.c
-CMakeFiles/PicoPiFi.dir/src/wifi_tx.c.obj: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/PicoPiFi.dir/src/wifi_tx.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/src/wifi_tx.c.obj -MF CMakeFiles/PicoPiFi.dir/src/wifi_tx.c.obj.d -o CMakeFiles/PicoPiFi.dir/src/wifi_tx.c.obj -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/src/wifi_tx.c
+CMakeFiles/PicoPiFi.dir/src/wifi_tx.c.o: CMakeFiles/PicoPiFi.dir/flags.make
+CMakeFiles/PicoPiFi.dir/src/wifi_tx.c.o: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/src/wifi_tx.c
+CMakeFiles/PicoPiFi.dir/src/wifi_tx.c.o: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/PicoPiFi.dir/src/wifi_tx.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/src/wifi_tx.c.o -MF CMakeFiles/PicoPiFi.dir/src/wifi_tx.c.o.d -o CMakeFiles/PicoPiFi.dir/src/wifi_tx.c.o -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/src/wifi_tx.c
 
 CMakeFiles/PicoPiFi.dir/src/wifi_tx.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PicoPiFi.dir/src/wifi_tx.c.i"
@@ -111,11 +111,11 @@ CMakeFiles/PicoPiFi.dir/src/wifi_tx.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PicoPiFi.dir/src/wifi_tx.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Pentest1/Downloads/PicoPiFi/src/wifi_tx.c -o CMakeFiles/PicoPiFi.dir/src/wifi_tx.c.s
 
-CMakeFiles/PicoPiFi.dir/src/cdc_rndis_device.c.obj: CMakeFiles/PicoPiFi.dir/flags.make
-CMakeFiles/PicoPiFi.dir/src/cdc_rndis_device.c.obj: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/src/cdc_rndis_device.c
-CMakeFiles/PicoPiFi.dir/src/cdc_rndis_device.c.obj: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/PicoPiFi.dir/src/cdc_rndis_device.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/src/cdc_rndis_device.c.obj -MF CMakeFiles/PicoPiFi.dir/src/cdc_rndis_device.c.obj.d -o CMakeFiles/PicoPiFi.dir/src/cdc_rndis_device.c.obj -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/src/cdc_rndis_device.c
+CMakeFiles/PicoPiFi.dir/src/cdc_rndis_device.c.o: CMakeFiles/PicoPiFi.dir/flags.make
+CMakeFiles/PicoPiFi.dir/src/cdc_rndis_device.c.o: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/src/cdc_rndis_device.c
+CMakeFiles/PicoPiFi.dir/src/cdc_rndis_device.c.o: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/PicoPiFi.dir/src/cdc_rndis_device.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/src/cdc_rndis_device.c.o -MF CMakeFiles/PicoPiFi.dir/src/cdc_rndis_device.c.o.d -o CMakeFiles/PicoPiFi.dir/src/cdc_rndis_device.c.o -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/src/cdc_rndis_device.c
 
 CMakeFiles/PicoPiFi.dir/src/cdc_rndis_device.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PicoPiFi.dir/src/cdc_rndis_device.c.i"
@@ -125,11 +125,11 @@ CMakeFiles/PicoPiFi.dir/src/cdc_rndis_device.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PicoPiFi.dir/src/cdc_rndis_device.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Pentest1/Downloads/PicoPiFi/src/cdc_rndis_device.c -o CMakeFiles/PicoPiFi.dir/src/cdc_rndis_device.c.s
 
-CMakeFiles/PicoPiFi.dir/CherryUSB/port/rp2040/usb_dc_rp2040.c.obj: CMakeFiles/PicoPiFi.dir/flags.make
-CMakeFiles/PicoPiFi.dir/CherryUSB/port/rp2040/usb_dc_rp2040.c.obj: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/CherryUSB/port/rp2040/usb_dc_rp2040.c
-CMakeFiles/PicoPiFi.dir/CherryUSB/port/rp2040/usb_dc_rp2040.c.obj: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/PicoPiFi.dir/CherryUSB/port/rp2040/usb_dc_rp2040.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/CherryUSB/port/rp2040/usb_dc_rp2040.c.obj -MF CMakeFiles/PicoPiFi.dir/CherryUSB/port/rp2040/usb_dc_rp2040.c.obj.d -o CMakeFiles/PicoPiFi.dir/CherryUSB/port/rp2040/usb_dc_rp2040.c.obj -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/CherryUSB/port/rp2040/usb_dc_rp2040.c
+CMakeFiles/PicoPiFi.dir/CherryUSB/port/rp2040/usb_dc_rp2040.c.o: CMakeFiles/PicoPiFi.dir/flags.make
+CMakeFiles/PicoPiFi.dir/CherryUSB/port/rp2040/usb_dc_rp2040.c.o: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/CherryUSB/port/rp2040/usb_dc_rp2040.c
+CMakeFiles/PicoPiFi.dir/CherryUSB/port/rp2040/usb_dc_rp2040.c.o: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/PicoPiFi.dir/CherryUSB/port/rp2040/usb_dc_rp2040.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/CherryUSB/port/rp2040/usb_dc_rp2040.c.o -MF CMakeFiles/PicoPiFi.dir/CherryUSB/port/rp2040/usb_dc_rp2040.c.o.d -o CMakeFiles/PicoPiFi.dir/CherryUSB/port/rp2040/usb_dc_rp2040.c.o -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/CherryUSB/port/rp2040/usb_dc_rp2040.c
 
 CMakeFiles/PicoPiFi.dir/CherryUSB/port/rp2040/usb_dc_rp2040.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PicoPiFi.dir/CherryUSB/port/rp2040/usb_dc_rp2040.c.i"
@@ -139,11 +139,11 @@ CMakeFiles/PicoPiFi.dir/CherryUSB/port/rp2040/usb_dc_rp2040.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PicoPiFi.dir/CherryUSB/port/rp2040/usb_dc_rp2040.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Pentest1/Downloads/PicoPiFi/CherryUSB/port/rp2040/usb_dc_rp2040.c -o CMakeFiles/PicoPiFi.dir/CherryUSB/port/rp2040/usb_dc_rp2040.c.s
 
-CMakeFiles/PicoPiFi.dir/CherryUSB/class/cdc/usbd_cdc_acm.c.obj: CMakeFiles/PicoPiFi.dir/flags.make
-CMakeFiles/PicoPiFi.dir/CherryUSB/class/cdc/usbd_cdc_acm.c.obj: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/CherryUSB/class/cdc/usbd_cdc_acm.c
-CMakeFiles/PicoPiFi.dir/CherryUSB/class/cdc/usbd_cdc_acm.c.obj: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/PicoPiFi.dir/CherryUSB/class/cdc/usbd_cdc_acm.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/CherryUSB/class/cdc/usbd_cdc_acm.c.obj -MF CMakeFiles/PicoPiFi.dir/CherryUSB/class/cdc/usbd_cdc_acm.c.obj.d -o CMakeFiles/PicoPiFi.dir/CherryUSB/class/cdc/usbd_cdc_acm.c.obj -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/CherryUSB/class/cdc/usbd_cdc_acm.c
+CMakeFiles/PicoPiFi.dir/CherryUSB/class/cdc/usbd_cdc_acm.c.o: CMakeFiles/PicoPiFi.dir/flags.make
+CMakeFiles/PicoPiFi.dir/CherryUSB/class/cdc/usbd_cdc_acm.c.o: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/CherryUSB/class/cdc/usbd_cdc_acm.c
+CMakeFiles/PicoPiFi.dir/CherryUSB/class/cdc/usbd_cdc_acm.c.o: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/PicoPiFi.dir/CherryUSB/class/cdc/usbd_cdc_acm.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/CherryUSB/class/cdc/usbd_cdc_acm.c.o -MF CMakeFiles/PicoPiFi.dir/CherryUSB/class/cdc/usbd_cdc_acm.c.o.d -o CMakeFiles/PicoPiFi.dir/CherryUSB/class/cdc/usbd_cdc_acm.c.o -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/CherryUSB/class/cdc/usbd_cdc_acm.c
 
 CMakeFiles/PicoPiFi.dir/CherryUSB/class/cdc/usbd_cdc_acm.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PicoPiFi.dir/CherryUSB/class/cdc/usbd_cdc_acm.c.i"
@@ -153,25 +153,25 @@ CMakeFiles/PicoPiFi.dir/CherryUSB/class/cdc/usbd_cdc_acm.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PicoPiFi.dir/CherryUSB/class/cdc/usbd_cdc_acm.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Pentest1/Downloads/PicoPiFi/CherryUSB/class/cdc/usbd_cdc_acm.c -o CMakeFiles/PicoPiFi.dir/CherryUSB/class/cdc/usbd_cdc_acm.c.s
 
-CMakeFiles/PicoPiFi.dir/src/usbd_rndis.c.obj: CMakeFiles/PicoPiFi.dir/flags.make
-CMakeFiles/PicoPiFi.dir/src/usbd_rndis.c.obj: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/src/usbd_rndis.c
-CMakeFiles/PicoPiFi.dir/src/usbd_rndis.c.obj: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/PicoPiFi.dir/src/usbd_rndis.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/src/usbd_rndis.c.obj -MF CMakeFiles/PicoPiFi.dir/src/usbd_rndis.c.obj.d -o CMakeFiles/PicoPiFi.dir/src/usbd_rndis.c.obj -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/src/usbd_rndis.c
+CMakeFiles/PicoPiFi.dir/CherryUSB/class/wireless/usbd_rndis.c.o: CMakeFiles/PicoPiFi.dir/flags.make
+CMakeFiles/PicoPiFi.dir/CherryUSB/class/wireless/usbd_rndis.c.o: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/CherryUSB/class/wireless/usbd_rndis.c
+CMakeFiles/PicoPiFi.dir/CherryUSB/class/wireless/usbd_rndis.c.o: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/PicoPiFi.dir/CherryUSB/class/wireless/usbd_rndis.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/CherryUSB/class/wireless/usbd_rndis.c.o -MF CMakeFiles/PicoPiFi.dir/CherryUSB/class/wireless/usbd_rndis.c.o.d -o CMakeFiles/PicoPiFi.dir/CherryUSB/class/wireless/usbd_rndis.c.o -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/CherryUSB/class/wireless/usbd_rndis.c
 
-CMakeFiles/PicoPiFi.dir/src/usbd_rndis.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PicoPiFi.dir/src/usbd_rndis.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/Pentest1/Downloads/PicoPiFi/src/usbd_rndis.c > CMakeFiles/PicoPiFi.dir/src/usbd_rndis.c.i
+CMakeFiles/PicoPiFi.dir/CherryUSB/class/wireless/usbd_rndis.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PicoPiFi.dir/CherryUSB/class/wireless/usbd_rndis.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/Pentest1/Downloads/PicoPiFi/CherryUSB/class/wireless/usbd_rndis.c > CMakeFiles/PicoPiFi.dir/CherryUSB/class/wireless/usbd_rndis.c.i
 
-CMakeFiles/PicoPiFi.dir/src/usbd_rndis.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PicoPiFi.dir/src/usbd_rndis.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Pentest1/Downloads/PicoPiFi/src/usbd_rndis.c -o CMakeFiles/PicoPiFi.dir/src/usbd_rndis.c.s
+CMakeFiles/PicoPiFi.dir/CherryUSB/class/wireless/usbd_rndis.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PicoPiFi.dir/CherryUSB/class/wireless/usbd_rndis.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Pentest1/Downloads/PicoPiFi/CherryUSB/class/wireless/usbd_rndis.c -o CMakeFiles/PicoPiFi.dir/CherryUSB/class/wireless/usbd_rndis.c.s
 
-CMakeFiles/PicoPiFi.dir/CherryUSB/core/usbd_core.c.obj: CMakeFiles/PicoPiFi.dir/flags.make
-CMakeFiles/PicoPiFi.dir/CherryUSB/core/usbd_core.c.obj: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/CherryUSB/core/usbd_core.c
-CMakeFiles/PicoPiFi.dir/CherryUSB/core/usbd_core.c.obj: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/PicoPiFi.dir/CherryUSB/core/usbd_core.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/CherryUSB/core/usbd_core.c.obj -MF CMakeFiles/PicoPiFi.dir/CherryUSB/core/usbd_core.c.obj.d -o CMakeFiles/PicoPiFi.dir/CherryUSB/core/usbd_core.c.obj -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/CherryUSB/core/usbd_core.c
+CMakeFiles/PicoPiFi.dir/CherryUSB/core/usbd_core.c.o: CMakeFiles/PicoPiFi.dir/flags.make
+CMakeFiles/PicoPiFi.dir/CherryUSB/core/usbd_core.c.o: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/CherryUSB/core/usbd_core.c
+CMakeFiles/PicoPiFi.dir/CherryUSB/core/usbd_core.c.o: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/PicoPiFi.dir/CherryUSB/core/usbd_core.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/CherryUSB/core/usbd_core.c.o -MF CMakeFiles/PicoPiFi.dir/CherryUSB/core/usbd_core.c.o.d -o CMakeFiles/PicoPiFi.dir/CherryUSB/core/usbd_core.c.o -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/CherryUSB/core/usbd_core.c
 
 CMakeFiles/PicoPiFi.dir/CherryUSB/core/usbd_core.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PicoPiFi.dir/CherryUSB/core/usbd_core.c.i"
@@ -181,11 +181,11 @@ CMakeFiles/PicoPiFi.dir/CherryUSB/core/usbd_core.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PicoPiFi.dir/CherryUSB/core/usbd_core.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Pentest1/Downloads/PicoPiFi/CherryUSB/core/usbd_core.c -o CMakeFiles/PicoPiFi.dir/CherryUSB/core/usbd_core.c.s
 
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: CMakeFiles/PicoPiFi.dir/flags.make
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj -MF CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o: CMakeFiles/PicoPiFi.dir/flags.make
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o -MF CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c
 
 CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i"
@@ -195,11 +195,11 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s: cmake_fo
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
 
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj: CMakeFiles/PicoPiFi.dir/flags.make
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_gpio/gpio.c
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj -MF CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_gpio/gpio.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o: CMakeFiles/PicoPiFi.dir/flags.make
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_gpio/gpio.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o -MF CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_gpio/gpio.c
 
 CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i"
@@ -209,11 +209,11 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s: cmake_fo
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_gpio/gpio.c -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
 
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2040/pico_platform/platform.c.obj: CMakeFiles/PicoPiFi.dir/flags.make
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2040/pico_platform/platform.c.obj: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2040/pico_platform/platform.c
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2040/pico_platform/platform.c.obj: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2040/pico_platform/platform.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2040/pico_platform/platform.c.obj -MF CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2040/pico_platform/platform.c.obj.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2040/pico_platform/platform.c.obj -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2040/pico_platform/platform.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2040/pico_platform/platform.c.o: CMakeFiles/PicoPiFi.dir/flags.make
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2040/pico_platform/platform.c.o: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2040/pico_platform/platform.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2040/pico_platform/platform.c.o: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2040/pico_platform/platform.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2040/pico_platform/platform.c.o -MF CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2040/pico_platform/platform.c.o.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2040/pico_platform/platform.c.o -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2040/pico_platform/platform.c
 
 CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2040/pico_platform/platform.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2040/pico_platform/platform.c.i"
@@ -223,11 +223,11 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2040/pico_platform/platform.c.s: cmake_fo
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2040/pico_platform/platform.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2040/pico_platform/platform.c -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2040/pico_platform/platform.c.s
 
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.obj: CMakeFiles/PicoPiFi.dir/flags.make
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.obj: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_platform_panic/panic.c
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.obj: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.obj -MF CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.obj.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.obj -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_platform_panic/panic.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o: CMakeFiles/PicoPiFi.dir/flags.make
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_platform_panic/panic.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o -MF CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_platform_panic/panic.c
 
 CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.i"
@@ -237,11 +237,11 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.s: c
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_platform_panic/panic.c -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.s
 
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/hardware_claim/claim.c.obj: CMakeFiles/PicoPiFi.dir/flags.make
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/hardware_claim/claim.c.obj: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/common/hardware_claim/claim.c
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/hardware_claim/claim.c.obj: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/hardware_claim/claim.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/hardware_claim/claim.c.obj -MF CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/hardware_claim/claim.c.obj.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/hardware_claim/claim.c.obj -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/common/hardware_claim/claim.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/hardware_claim/claim.c.o: CMakeFiles/PicoPiFi.dir/flags.make
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/hardware_claim/claim.c.o: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/common/hardware_claim/claim.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/hardware_claim/claim.c.o: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/hardware_claim/claim.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/hardware_claim/claim.c.o -MF CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/hardware_claim/claim.c.o.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/hardware_claim/claim.c.o -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/common/hardware_claim/claim.c
 
 CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/hardware_claim/claim.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/hardware_claim/claim.c.i"
@@ -251,11 +251,11 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/hardware_claim/claim.c.s: cmake_forc
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/hardware_claim/claim.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/common/hardware_claim/claim.c -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/hardware_claim/claim.c.s
 
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj: CMakeFiles/PicoPiFi.dir/flags.make
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_sync/sync.c
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj -MF CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_sync/sync.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_sync/sync.c.o: CMakeFiles/PicoPiFi.dir/flags.make
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_sync/sync.c.o: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_sync/sync.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_sync/sync.c.o: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_sync/sync.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_sync/sync.c.o -MF CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_sync/sync.c.o.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_sync/sync.c.o -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_sync/sync.c
 
 CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_sync/sync.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_sync/sync.c.i"
@@ -265,11 +265,11 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_sync/sync.c.s: cmake_fo
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_sync/sync.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_sync/sync.c -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
 
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj: CMakeFiles/PicoPiFi.dir/flags.make
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj -MF CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o: CMakeFiles/PicoPiFi.dir/flags.make
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o -MF CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c
 
 CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.i"
@@ -279,11 +279,11 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spi
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.s
 
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: CMakeFiles/PicoPiFi.dir/flags.make
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_irq/irq.c
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj -MF CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_irq/irq.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_irq/irq.c.o: CMakeFiles/PicoPiFi.dir/flags.make
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_irq/irq.c.o: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_irq/irq.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_irq/irq.c.o: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_irq/irq.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_irq/irq.c.o -MF CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_irq/irq.c.o.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_irq/irq.c.o -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_irq/irq.c
 
 CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_irq/irq.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_irq/irq.c.i"
@@ -293,10 +293,10 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_irq/irq.c.s: cmake_forc
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_irq/irq.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_irq/irq.c -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
 
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj: CMakeFiles/PicoPiFi.dir/flags.make
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building ASM object CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj"
-	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj   -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o: CMakeFiles/PicoPiFi.dir/flags.make
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building ASM object CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o"
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o   -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S
 
 CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing ASM source to CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.i"
@@ -306,11 +306,11 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling ASM source to assembly CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.s"
 	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.s
 
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_sync/sem.c.obj: CMakeFiles/PicoPiFi.dir/flags.make
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_sync/sem.c.obj: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/common/pico_sync/sem.c
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_sync/sem.c.obj: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_sync/sem.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_sync/sem.c.obj -MF CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_sync/sem.c.obj.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_sync/sem.c.obj -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/common/pico_sync/sem.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_sync/sem.c.o: CMakeFiles/PicoPiFi.dir/flags.make
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_sync/sem.c.o: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/common/pico_sync/sem.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_sync/sem.c.o: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_sync/sem.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_sync/sem.c.o -MF CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_sync/sem.c.o.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_sync/sem.c.o -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/common/pico_sync/sem.c
 
 CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_sync/sem.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_sync/sem.c.i"
@@ -320,11 +320,11 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_sync/sem.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_sync/sem.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/common/pico_sync/sem.c -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_sync/sem.c.s
 
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_sync/lock_core.c.obj: CMakeFiles/PicoPiFi.dir/flags.make
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_sync/lock_core.c.obj: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/common/pico_sync/lock_core.c
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_sync/lock_core.c.obj: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_sync/lock_core.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_sync/lock_core.c.obj -MF CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_sync/lock_core.c.obj.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_sync/lock_core.c.obj -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/common/pico_sync/lock_core.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_sync/lock_core.c.o: CMakeFiles/PicoPiFi.dir/flags.make
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_sync/lock_core.c.o: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/common/pico_sync/lock_core.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_sync/lock_core.c.o: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_sync/lock_core.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_sync/lock_core.c.o -MF CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_sync/lock_core.c.o.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_sync/lock_core.c.o -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/common/pico_sync/lock_core.c
 
 CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_sync/lock_core.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_sync/lock_core.c.i"
@@ -334,11 +334,11 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_sync/lock_core.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_sync/lock_core.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/common/pico_sync/lock_core.c -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_sync/lock_core.c.s
 
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_sync/mutex.c.obj: CMakeFiles/PicoPiFi.dir/flags.make
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_sync/mutex.c.obj: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/common/pico_sync/mutex.c
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_sync/mutex.c.obj: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_sync/mutex.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_sync/mutex.c.obj -MF CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_sync/mutex.c.obj.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_sync/mutex.c.obj -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/common/pico_sync/mutex.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_sync/mutex.c.o: CMakeFiles/PicoPiFi.dir/flags.make
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_sync/mutex.c.o: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/common/pico_sync/mutex.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_sync/mutex.c.o: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_sync/mutex.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_sync/mutex.c.o -MF CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_sync/mutex.c.o.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_sync/mutex.c.o -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/common/pico_sync/mutex.c
 
 CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_sync/mutex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_sync/mutex.c.i"
@@ -348,11 +348,11 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_sync/mutex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_sync/mutex.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/common/pico_sync/mutex.c -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_sync/mutex.c.s
 
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_sync/critical_section.c.obj: CMakeFiles/PicoPiFi.dir/flags.make
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_sync/critical_section.c.obj: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/common/pico_sync/critical_section.c
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_sync/critical_section.c.obj: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_sync/critical_section.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_sync/critical_section.c.obj -MF CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_sync/critical_section.c.obj.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_sync/critical_section.c.obj -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/common/pico_sync/critical_section.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_sync/critical_section.c.o: CMakeFiles/PicoPiFi.dir/flags.make
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_sync/critical_section.c.o: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/common/pico_sync/critical_section.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_sync/critical_section.c.o: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_sync/critical_section.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_sync/critical_section.c.o -MF CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_sync/critical_section.c.o.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_sync/critical_section.c.o -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/common/pico_sync/critical_section.c
 
 CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_sync/critical_section.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_sync/critical_section.c.i"
@@ -362,11 +362,11 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_sync/critical_section.c.s: cmak
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_sync/critical_section.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/common/pico_sync/critical_section.c -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_sync/critical_section.c.s
 
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_time/time.c.obj: CMakeFiles/PicoPiFi.dir/flags.make
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_time/time.c.obj: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/common/pico_time/time.c
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_time/time.c.obj: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_time/time.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_time/time.c.obj -MF CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_time/time.c.obj.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_time/time.c.obj -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/common/pico_time/time.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_time/time.c.o: CMakeFiles/PicoPiFi.dir/flags.make
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_time/time.c.o: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/common/pico_time/time.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_time/time.c.o: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_time/time.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_time/time.c.o -MF CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_time/time.c.o.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_time/time.c.o -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/common/pico_time/time.c
 
 CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_time/time.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_time/time.c.i"
@@ -376,11 +376,11 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_time/time.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_time/time.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/common/pico_time/time.c -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_time/time.c.s
 
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_time/timeout_helper.c.obj: CMakeFiles/PicoPiFi.dir/flags.make
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_time/timeout_helper.c.obj: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/common/pico_time/timeout_helper.c
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_time/timeout_helper.c.obj: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_time/timeout_helper.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_time/timeout_helper.c.obj -MF CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_time/timeout_helper.c.obj.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_time/timeout_helper.c.obj -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/common/pico_time/timeout_helper.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_time/timeout_helper.c.o: CMakeFiles/PicoPiFi.dir/flags.make
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_time/timeout_helper.c.o: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/common/pico_time/timeout_helper.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_time/timeout_helper.c.o: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_time/timeout_helper.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_time/timeout_helper.c.o -MF CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_time/timeout_helper.c.o.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_time/timeout_helper.c.o -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/common/pico_time/timeout_helper.c
 
 CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_time/timeout_helper.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_time/timeout_helper.c.i"
@@ -390,11 +390,11 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_time/timeout_helper.c.s: cmake_
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_time/timeout_helper.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/common/pico_time/timeout_helper.c -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_time/timeout_helper.c.s
 
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj: CMakeFiles/PicoPiFi.dir/flags.make
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_timer/timer.c
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj -MF CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_timer/timer.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_timer/timer.c.o: CMakeFiles/PicoPiFi.dir/flags.make
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_timer/timer.c.o: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_timer/timer.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_timer/timer.c.o: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_timer/timer.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_timer/timer.c.o -MF CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_timer/timer.c.o.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_timer/timer.c.o -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_timer/timer.c
 
 CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_timer/timer.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_timer/timer.c.i"
@@ -404,11 +404,11 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_timer/timer.c.s: cmake_
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_timer/timer.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_timer/timer.c -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
 
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_util/datetime.c.obj: CMakeFiles/PicoPiFi.dir/flags.make
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_util/datetime.c.obj: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/common/pico_util/datetime.c
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_util/datetime.c.obj: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_util/datetime.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_util/datetime.c.obj -MF CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_util/datetime.c.obj.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_util/datetime.c.obj -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/common/pico_util/datetime.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_util/datetime.c.o: CMakeFiles/PicoPiFi.dir/flags.make
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_util/datetime.c.o: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/common/pico_util/datetime.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_util/datetime.c.o: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_util/datetime.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_util/datetime.c.o -MF CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_util/datetime.c.o.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_util/datetime.c.o -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/common/pico_util/datetime.c
 
 CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_util/datetime.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_util/datetime.c.i"
@@ -418,11 +418,11 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_util/datetime.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_util/datetime.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/common/pico_util/datetime.c -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_util/datetime.c.s
 
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_util/pheap.c.obj: CMakeFiles/PicoPiFi.dir/flags.make
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_util/pheap.c.obj: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/common/pico_util/pheap.c
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_util/pheap.c.obj: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_util/pheap.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_util/pheap.c.obj -MF CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_util/pheap.c.obj.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_util/pheap.c.obj -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/common/pico_util/pheap.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_util/pheap.c.o: CMakeFiles/PicoPiFi.dir/flags.make
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_util/pheap.c.o: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/common/pico_util/pheap.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_util/pheap.c.o: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_util/pheap.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_util/pheap.c.o -MF CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_util/pheap.c.o.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_util/pheap.c.o -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/common/pico_util/pheap.c
 
 CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_util/pheap.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_util/pheap.c.i"
@@ -432,11 +432,11 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_util/pheap.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_util/pheap.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/common/pico_util/pheap.c -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_util/pheap.c.s
 
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_util/queue.c.obj: CMakeFiles/PicoPiFi.dir/flags.make
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_util/queue.c.obj: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/common/pico_util/queue.c
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_util/queue.c.obj: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_util/queue.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_util/queue.c.obj -MF CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_util/queue.c.obj.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_util/queue.c.obj -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/common/pico_util/queue.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_util/queue.c.o: CMakeFiles/PicoPiFi.dir/flags.make
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_util/queue.c.o: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/common/pico_util/queue.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_util/queue.c.o: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_util/queue.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_util/queue.c.o -MF CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_util/queue.c.o.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_util/queue.c.o -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/common/pico_util/queue.c
 
 CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_util/queue.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_util/queue.c.i"
@@ -446,11 +446,11 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_util/queue.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_util/queue.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/common/pico_util/queue.c -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_util/queue.c.s
 
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: CMakeFiles/PicoPiFi.dir/flags.make
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_uart/uart.c
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj -MF CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_uart/uart.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_uart/uart.c.o: CMakeFiles/PicoPiFi.dir/flags.make
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_uart/uart.c.o: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_uart/uart.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_uart/uart.c.o: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_uart/uart.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_uart/uart.c.o -MF CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_uart/uart.c.o.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_uart/uart.c.o -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_uart/uart.c
 
 CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_uart/uart.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_uart/uart.c.i"
@@ -460,11 +460,11 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_uart/uart.c.s: cmake_fo
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_uart/uart.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_uart/uart.c -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
 
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj: CMakeFiles/PicoPiFi.dir/flags.make
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_clocks/clocks.c
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj -MF CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_clocks/clocks.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o: CMakeFiles/PicoPiFi.dir/flags.make
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_clocks/clocks.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o -MF CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_clocks/clocks.c
 
 CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i"
@@ -474,11 +474,11 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s: cmak
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_clocks/clocks.c -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
 
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: CMakeFiles/PicoPiFi.dir/flags.make
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_pll/pll.c
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj -MF CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_pll/pll.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_pll/pll.c.o: CMakeFiles/PicoPiFi.dir/flags.make
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_pll/pll.c.o: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_pll/pll.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_pll/pll.c.o: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_pll/pll.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_pll/pll.c.o -MF CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_pll/pll.c.o.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_pll/pll.c.o -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_pll/pll.c
 
 CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_pll/pll.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_pll/pll.c.i"
@@ -488,11 +488,11 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_pll/pll.c.s: cmake_forc
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_pll/pll.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_pll/pll.c -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
 
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: CMakeFiles/PicoPiFi.dir/flags.make
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_vreg/vreg.c
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj -MF CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_vreg/vreg.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o: CMakeFiles/PicoPiFi.dir/flags.make
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_vreg/vreg.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o -MF CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_vreg/vreg.c
 
 CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i"
@@ -502,11 +502,11 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s: cmake_fo
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_vreg/vreg.c -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
 
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: CMakeFiles/PicoPiFi.dir/flags.make
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj -MF CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o: CMakeFiles/PicoPiFi.dir/flags.make
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o -MF CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c
 
 CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i"
@@ -516,11 +516,11 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s: 
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
 
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.obj: CMakeFiles/PicoPiFi.dir/flags.make
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.obj: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_ticks/ticks.c
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.obj: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.obj -MF CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.obj.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.obj -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_ticks/ticks.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o: CMakeFiles/PicoPiFi.dir/flags.make
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_ticks/ticks.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o -MF CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_ticks/ticks.c
 
 CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.i"
@@ -530,107 +530,11 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.s: cmake_
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_ticks/ticks.c -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.s
 
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: CMakeFiles/PicoPiFi.dir/flags.make
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_xosc/xosc.c
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj -MF CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_xosc/xosc.c
-
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_xosc/xosc.c > CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
-
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_xosc/xosc.c -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
-
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj: CMakeFiles/PicoPiFi.dir/flags.make
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_divider/divider.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building ASM object CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj"
-	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj   -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_divider/divider.S
-
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_divider/divider.S.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing ASM source to CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_divider/divider.S.i"
-	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_divider/divider.S > CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_divider/divider.S.i
-
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_divider/divider.S.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling ASM source to assembly CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_divider/divider.S.s"
-	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_divider/divider.S -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_divider/divider.S.s
-
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: CMakeFiles/PicoPiFi.dir/flags.make
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_runtime/runtime.c
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj -MF CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_runtime/runtime.c
-
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_runtime/runtime.c > CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
-
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_runtime/runtime.c -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
-
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.obj: CMakeFiles/PicoPiFi.dir/flags.make
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.obj: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.obj: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.obj -MF CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.obj.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.obj -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c
-
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c > CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.i
-
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.s
-
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj: CMakeFiles/PicoPiFi.dir/flags.make
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj -MF CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c
-
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c > CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.i
-
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.s
-
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.obj: CMakeFiles/PicoPiFi.dir/flags.make
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.obj: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.obj: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.obj -MF CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.obj.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.obj -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c
-
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c > CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.i
-
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.s
-
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj: CMakeFiles/PicoPiFi.dir/flags.make
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building ASM object CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj"
-	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj   -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S
-
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing ASM source to CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.i"
-	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S > CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.i
-
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling ASM source to assembly CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.s"
-	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.s
-
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: CMakeFiles/PicoPiFi.dir/flags.make
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj -MF CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o: CMakeFiles/PicoPiFi.dir/flags.make
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o -MF CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c
 
 CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i"
@@ -640,11 +544,11 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s: cmake_
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
 
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.obj: CMakeFiles/PicoPiFi.dir/flags.make
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.obj: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.obj: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.obj -MF CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.obj.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.obj -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o: CMakeFiles/PicoPiFi.dir/flags.make
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o -MF CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c
 
 CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.i"
@@ -654,11 +558,11 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.s: c
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.s
 
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.obj: CMakeFiles/PicoPiFi.dir/flags.make
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.obj: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.obj: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.obj -MF CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.obj.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.obj -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o: CMakeFiles/PicoPiFi.dir/flags.make
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o -MF CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c
 
 CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.i"
@@ -668,10 +572,120 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.s
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.s
 
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.obj: CMakeFiles/PicoPiFi.dir/flags.make
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.obj: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building ASM object CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.obj"
-	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.obj   -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_flash/flash.c.o: CMakeFiles/PicoPiFi.dir/flags.make
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_flash/flash.c.o: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_flash/flash.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_flash/flash.c.o: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_flash/flash.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_flash/flash.c.o -MF CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_flash/flash.c.o.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_flash/flash.c.o -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_flash/flash.c
+
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_flash/flash.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_flash/flash.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_flash/flash.c > CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_flash/flash.c.i
+
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_flash/flash.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_flash/flash.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_flash/flash.c -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_flash/flash.c.s
+
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o: CMakeFiles/PicoPiFi.dir/flags.make
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_xosc/xosc.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o -MF CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_xosc/xosc.c
+
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_xosc/xosc.c > CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
+
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_xosc/xosc.c -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
+
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_divider/divider.S.o: CMakeFiles/PicoPiFi.dir/flags.make
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_divider/divider.S.o: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_divider/divider.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building ASM object CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_divider/divider.S.o"
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_divider/divider.S.o   -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_divider/divider.S
+
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_divider/divider.S.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing ASM source to CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_divider/divider.S.i"
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_divider/divider.S > CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_divider/divider.S.i
+
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_divider/divider.S.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling ASM source to assembly CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_divider/divider.S.s"
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_divider/divider.S -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_divider/divider.S.s
+
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o: CMakeFiles/PicoPiFi.dir/flags.make
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_runtime/runtime.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o -MF CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_runtime/runtime.c
+
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_runtime/runtime.c > CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
+
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_runtime/runtime.c -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
+
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o: CMakeFiles/PicoPiFi.dir/flags.make
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o -MF CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c
+
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c > CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.i
+
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.s
+
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o: CMakeFiles/PicoPiFi.dir/flags.make
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o -MF CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c
+
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c > CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.i
+
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.s
+
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o: CMakeFiles/PicoPiFi.dir/flags.make
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o -MF CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c
+
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c > CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.i
+
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.s
+
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o: CMakeFiles/PicoPiFi.dir/flags.make
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building ASM object CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o"
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o   -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S
+
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing ASM source to CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.i"
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S > CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.i
+
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling ASM source to assembly CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.s"
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.s
+
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.o: CMakeFiles/PicoPiFi.dir/flags.make
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.o: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building ASM object CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.o"
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.o   -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S
 
 CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing ASM source to CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.i"
@@ -681,10 +695,10 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling ASM source to assembly CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.s"
 	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.s
 
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj: CMakeFiles/PicoPiFi.dir/flags.make
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building ASM object CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj"
-	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj   -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.o: CMakeFiles/PicoPiFi.dir/flags.make
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.o: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building ASM object CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.o"
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.o   -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S
 
 CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing ASM source to CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.i"
@@ -694,11 +708,11 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling ASM source to assembly CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.s"
 	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.s
 
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj: CMakeFiles/PicoPiFi.dir/flags.make
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj -MF CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o: CMakeFiles/PicoPiFi.dir/flags.make
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o -MF CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c
 
 CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.i"
@@ -708,11 +722,11 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp20
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.s
 
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: CMakeFiles/PicoPiFi.dir/flags.make
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_double/double_math.c
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_double/double_math.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_double/double_math.c.obj -MF CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_double/double_math.c.obj.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_double/double_math.c.obj -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_double/double_math.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_double/double_math.c.o: CMakeFiles/PicoPiFi.dir/flags.make
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_double/double_math.c.o: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_double/double_math.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_double/double_math.c.o: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_double/double_math.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_double/double_math.c.o -MF CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_double/double_math.c.o.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_double/double_math.c.o -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_double/double_math.c
 
 CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_double/double_math.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_double/double_math.c.i"
@@ -722,10 +736,10 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_double/double_math.c.s: cma
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_double/double_math.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_double/double_math.c -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_double/double_math.c.s
 
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj: CMakeFiles/PicoPiFi.dir/flags.make
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building ASM object CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj"
-	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj   -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o: CMakeFiles/PicoPiFi.dir/flags.make
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building ASM object CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o"
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o   -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S
 
 CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing ASM source to CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.i"
@@ -735,10 +749,10 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_r
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling ASM source to assembly CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.s"
 	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.s
 
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj: CMakeFiles/PicoPiFi.dir/flags.make
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building ASM object CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj"
-	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj   -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o: CMakeFiles/PicoPiFi.dir/flags.make
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building ASM object CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o"
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o   -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S
 
 CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing ASM source to CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.i"
@@ -748,10 +762,10 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_ae
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling ASM source to assembly CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.s"
 	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.s
 
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj: CMakeFiles/PicoPiFi.dir/flags.make
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building ASM object CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj"
-	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj   -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.o: CMakeFiles/PicoPiFi.dir/flags.make
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.o: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building ASM object CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.o"
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.o   -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S
 
 CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing ASM source to CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.i"
@@ -761,11 +775,11 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling ASM source to assembly CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.s"
 	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.s
 
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj: CMakeFiles/PicoPiFi.dir/flags.make
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj -MF CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o: CMakeFiles/PicoPiFi.dir/flags.make
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o -MF CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c
 
 CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.i"
@@ -775,11 +789,11 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.s
 
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: CMakeFiles/PicoPiFi.dir/flags.make
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_float/float_math.c
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_float/float_math.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_float/float_math.c.obj -MF CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_float/float_math.c.obj.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_float/float_math.c.obj -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_float/float_math.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_float/float_math.c.o: CMakeFiles/PicoPiFi.dir/flags.make
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_float/float_math.c.o: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_float/float_math.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_float/float_math.c.o: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_float/float_math.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_float/float_math.c.o -MF CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_float/float_math.c.o.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_float/float_math.c.o -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_float/float_math.c
 
 CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_float/float_math.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_float/float_math.c.i"
@@ -789,10 +803,10 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_float/float_math.c.s: cmake
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_float/float_math.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_float/float_math.c -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_float/float_math.c.s
 
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.obj: CMakeFiles/PicoPiFi.dir/flags.make
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.obj: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building ASM object CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.obj"
-	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.obj   -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.o: CMakeFiles/PicoPiFi.dir/flags.make
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.o: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building ASM object CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.o"
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.o   -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S
 
 CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing ASM source to CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.i"
@@ -802,11 +816,11 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling ASM source to assembly CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.s"
 	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.s
 
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_malloc/malloc.c.obj: CMakeFiles/PicoPiFi.dir/flags.make
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_malloc/malloc.c.obj: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_malloc/malloc.c
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_malloc/malloc.c.obj: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_malloc/malloc.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_malloc/malloc.c.obj -MF CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_malloc/malloc.c.obj.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_malloc/malloc.c.obj -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_malloc/malloc.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o: CMakeFiles/PicoPiFi.dir/flags.make
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_malloc/malloc.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o -MF CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_malloc/malloc.c
 
 CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_malloc/malloc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_malloc/malloc.c.i"
@@ -816,10 +830,10 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_malloc/malloc.c.s: cmake_fo
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_malloc/malloc.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_malloc/malloc.c -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_malloc/malloc.c.s
 
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj: CMakeFiles/PicoPiFi.dir/flags.make
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building ASM object CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj"
-	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj   -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o: CMakeFiles/PicoPiFi.dir/flags.make
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building ASM object CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o"
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o   -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S
 
 CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing ASM source to CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.i"
@@ -829,11 +843,11 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.s: 
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling ASM source to assembly CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.s"
 	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.s
 
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_atomic/atomic.c.obj: CMakeFiles/PicoPiFi.dir/flags.make
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_atomic/atomic.c.obj: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_atomic/atomic.c
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_atomic/atomic.c.obj: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_atomic/atomic.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_atomic/atomic.c.obj -MF CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_atomic/atomic.c.obj.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_atomic/atomic.c.obj -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_atomic/atomic.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o: CMakeFiles/PicoPiFi.dir/flags.make
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_atomic/atomic.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o -MF CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_atomic/atomic.c
 
 CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_atomic/atomic.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_atomic/atomic.c.i"
@@ -843,11 +857,11 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_atomic/atomic.c.s: cmake_fo
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_atomic/atomic.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_atomic/atomic.c -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_atomic/atomic.c.s
 
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.obj: CMakeFiles/PicoPiFi.dir/flags.make
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.obj: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.obj: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building CXX object CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.obj"
-	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.obj -MF CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.obj.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.obj -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o: CMakeFiles/PicoPiFi.dir/flags.make
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building CXX object CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o"
+	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o -MF CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp
 
 CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.i"
@@ -857,11 +871,11 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.s"
 	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.s
 
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj: CMakeFiles/PicoPiFi.dir/flags.make
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj -MF CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o: CMakeFiles/PicoPiFi.dir/flags.make
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o -MF CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c
 
 CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.i"
@@ -871,11 +885,11 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_standard_binary_info/standa
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.s
 
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: CMakeFiles/PicoPiFi.dir/flags.make
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_printf/printf.c
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_printf/printf.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_printf/printf.c.obj -MF CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_printf/printf.c.obj.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_printf/printf.c.obj -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_printf/printf.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_printf/printf.c.o: CMakeFiles/PicoPiFi.dir/flags.make
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_printf/printf.c.o: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_printf/printf.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_printf/printf.c.o: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_printf/printf.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_printf/printf.c.o -MF CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_printf/printf.c.o.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_printf/printf.c.o -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_printf/printf.c
 
 CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_printf/printf.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_printf/printf.c.i"
@@ -885,10 +899,10 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_printf/printf.c.s: cmake_fo
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_printf/printf.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_printf/printf.c -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_printf/printf.c.s
 
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_crt0/crt0.S.obj: CMakeFiles/PicoPiFi.dir/flags.make
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_crt0/crt0.S.obj: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_crt0/crt0.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building ASM object CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_crt0/crt0.S.obj"
-	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_crt0/crt0.S.obj   -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_crt0/crt0.S
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o: CMakeFiles/PicoPiFi.dir/flags.make
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_crt0/crt0.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building ASM object CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o"
+	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o   -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_crt0/crt0.S
 
 CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_crt0/crt0.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing ASM source to CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_crt0/crt0.S.i"
@@ -898,11 +912,11 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_crt0/crt0.S.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling ASM source to assembly CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_crt0/crt0.S.s"
 	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_crt0/crt0.S -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_crt0/crt0.S.s
 
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.obj: CMakeFiles/PicoPiFi.dir/flags.make
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.obj: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.obj: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.obj -MF CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.obj.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.obj -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o: CMakeFiles/PicoPiFi.dir/flags.make
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o -MF CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c
 
 CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.i"
@@ -912,11 +926,11 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_clib_interface/newlib_inter
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.s
 
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj: CMakeFiles/PicoPiFi.dir/flags.make
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_stdio/stdio.c
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj -MF CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_stdio/stdio.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o: CMakeFiles/PicoPiFi.dir/flags.make
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_stdio/stdio.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o -MF CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_stdio/stdio.c
 
 CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i"
@@ -926,11 +940,11 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s: cmake_forc
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_stdio/stdio.c -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
 
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: CMakeFiles/PicoPiFi.dir/flags.make
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj -MF CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o: CMakeFiles/PicoPiFi.dir/flags.make
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o -MF CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c
 
 CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i"
@@ -940,11 +954,11 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s: 
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
 
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/init.c.obj: CMakeFiles/PicoPiFi.dir/flags.make
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/init.c.obj: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/init.c
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/init.c.obj: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/init.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/init.c.obj -MF CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/init.c.obj.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/init.c.obj -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/init.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/init.c.o: CMakeFiles/PicoPiFi.dir/flags.make
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/init.c.o: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/init.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/init.c.o: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/init.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/init.c.o -MF CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/init.c.o.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/init.c.o -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/init.c
 
 CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/init.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/init.c.i"
@@ -954,11 +968,11 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/init.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/init.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/init.c -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/init.c.s
 
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/def.c.obj: CMakeFiles/PicoPiFi.dir/flags.make
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/def.c.obj: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/def.c
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/def.c.obj: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/def.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/def.c.obj -MF CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/def.c.obj.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/def.c.obj -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/def.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/def.c.o: CMakeFiles/PicoPiFi.dir/flags.make
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/def.c.o: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/def.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/def.c.o: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/def.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/def.c.o -MF CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/def.c.o.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/def.c.o -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/def.c
 
 CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/def.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/def.c.i"
@@ -968,11 +982,11 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/def.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/def.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/def.c -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/def.c.s
 
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/dns.c.obj: CMakeFiles/PicoPiFi.dir/flags.make
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/dns.c.obj: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/dns.c
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/dns.c.obj: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/dns.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/dns.c.obj -MF CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/dns.c.obj.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/dns.c.obj -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/dns.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/dns.c.o: CMakeFiles/PicoPiFi.dir/flags.make
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/dns.c.o: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/dns.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/dns.c.o: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/dns.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/dns.c.o -MF CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/dns.c.o.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/dns.c.o -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/dns.c
 
 CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/dns.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/dns.c.i"
@@ -982,11 +996,11 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/dns.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/dns.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/dns.c -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/dns.c.s
 
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/inet_chksum.c.obj: CMakeFiles/PicoPiFi.dir/flags.make
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/inet_chksum.c.obj: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/inet_chksum.c
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/inet_chksum.c.obj: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/inet_chksum.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/inet_chksum.c.obj -MF CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/inet_chksum.c.obj.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/inet_chksum.c.obj -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/inet_chksum.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/inet_chksum.c.o: CMakeFiles/PicoPiFi.dir/flags.make
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/inet_chksum.c.o: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/inet_chksum.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/inet_chksum.c.o: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/inet_chksum.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/inet_chksum.c.o -MF CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/inet_chksum.c.o.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/inet_chksum.c.o -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/inet_chksum.c
 
 CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/inet_chksum.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/inet_chksum.c.i"
@@ -996,11 +1010,11 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/inet_chksum.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/inet_chksum.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/inet_chksum.c -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/inet_chksum.c.s
 
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ip.c.obj: CMakeFiles/PicoPiFi.dir/flags.make
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ip.c.obj: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/ip.c
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ip.c.obj: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ip.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ip.c.obj -MF CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ip.c.obj.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ip.c.obj -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/ip.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ip.c.o: CMakeFiles/PicoPiFi.dir/flags.make
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ip.c.o: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/ip.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ip.c.o: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ip.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ip.c.o -MF CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ip.c.o.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ip.c.o -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/ip.c
 
 CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ip.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ip.c.i"
@@ -1010,11 +1024,11 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ip.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ip.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/ip.c -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ip.c.s
 
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/mem.c.obj: CMakeFiles/PicoPiFi.dir/flags.make
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/mem.c.obj: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/mem.c
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/mem.c.obj: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/mem.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/mem.c.obj -MF CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/mem.c.obj.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/mem.c.obj -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/mem.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/mem.c.o: CMakeFiles/PicoPiFi.dir/flags.make
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/mem.c.o: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/mem.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/mem.c.o: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/mem.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/mem.c.o -MF CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/mem.c.o.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/mem.c.o -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/mem.c
 
 CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/mem.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/mem.c.i"
@@ -1024,11 +1038,11 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/mem.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/mem.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/mem.c -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/mem.c.s
 
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/memp.c.obj: CMakeFiles/PicoPiFi.dir/flags.make
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/memp.c.obj: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/memp.c
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/memp.c.obj: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/memp.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/memp.c.obj -MF CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/memp.c.obj.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/memp.c.obj -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/memp.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/memp.c.o: CMakeFiles/PicoPiFi.dir/flags.make
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/memp.c.o: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/memp.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/memp.c.o: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/memp.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/memp.c.o -MF CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/memp.c.o.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/memp.c.o -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/memp.c
 
 CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/memp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/memp.c.i"
@@ -1038,11 +1052,11 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/memp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/memp.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/memp.c -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/memp.c.s
 
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/netif.c.obj: CMakeFiles/PicoPiFi.dir/flags.make
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/netif.c.obj: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/netif.c
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/netif.c.obj: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/netif.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/netif.c.obj -MF CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/netif.c.obj.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/netif.c.obj -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/netif.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/netif.c.o: CMakeFiles/PicoPiFi.dir/flags.make
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/netif.c.o: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/netif.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/netif.c.o: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/netif.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/netif.c.o -MF CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/netif.c.o.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/netif.c.o -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/netif.c
 
 CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/netif.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/netif.c.i"
@@ -1052,11 +1066,11 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/netif.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/netif.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/netif.c -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/netif.c.s
 
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/pbuf.c.obj: CMakeFiles/PicoPiFi.dir/flags.make
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/pbuf.c.obj: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/pbuf.c
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/pbuf.c.obj: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/pbuf.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/pbuf.c.obj -MF CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/pbuf.c.obj.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/pbuf.c.obj -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/pbuf.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/pbuf.c.o: CMakeFiles/PicoPiFi.dir/flags.make
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/pbuf.c.o: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/pbuf.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/pbuf.c.o: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/pbuf.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/pbuf.c.o -MF CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/pbuf.c.o.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/pbuf.c.o -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/pbuf.c
 
 CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/pbuf.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/pbuf.c.i"
@@ -1066,11 +1080,11 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/pbuf.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/pbuf.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/pbuf.c -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/pbuf.c.s
 
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/raw.c.obj: CMakeFiles/PicoPiFi.dir/flags.make
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/raw.c.obj: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/raw.c
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/raw.c.obj: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/raw.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/raw.c.obj -MF CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/raw.c.obj.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/raw.c.obj -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/raw.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/raw.c.o: CMakeFiles/PicoPiFi.dir/flags.make
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/raw.c.o: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/raw.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/raw.c.o: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/raw.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/raw.c.o -MF CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/raw.c.o.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/raw.c.o -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/raw.c
 
 CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/raw.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/raw.c.i"
@@ -1080,11 +1094,11 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/raw.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/raw.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/raw.c -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/raw.c.s
 
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/stats.c.obj: CMakeFiles/PicoPiFi.dir/flags.make
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/stats.c.obj: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/stats.c
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/stats.c.obj: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/stats.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/stats.c.obj -MF CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/stats.c.obj.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/stats.c.obj -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/stats.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/stats.c.o: CMakeFiles/PicoPiFi.dir/flags.make
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/stats.c.o: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/stats.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/stats.c.o: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/stats.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/stats.c.o -MF CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/stats.c.o.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/stats.c.o -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/stats.c
 
 CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/stats.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/stats.c.i"
@@ -1094,11 +1108,11 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/stats.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/stats.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/stats.c -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/stats.c.s
 
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/sys.c.obj: CMakeFiles/PicoPiFi.dir/flags.make
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/sys.c.obj: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/sys.c
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/sys.c.obj: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/sys.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/sys.c.obj -MF CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/sys.c.obj.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/sys.c.obj -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/sys.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/sys.c.o: CMakeFiles/PicoPiFi.dir/flags.make
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/sys.c.o: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/sys.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/sys.c.o: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/sys.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/sys.c.o -MF CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/sys.c.o.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/sys.c.o -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/sys.c
 
 CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/sys.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/sys.c.i"
@@ -1108,11 +1122,11 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/sys.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/sys.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/sys.c -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/sys.c.s
 
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/altcp.c.obj: CMakeFiles/PicoPiFi.dir/flags.make
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/altcp.c.obj: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/altcp.c
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/altcp.c.obj: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/altcp.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/altcp.c.obj -MF CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/altcp.c.obj.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/altcp.c.obj -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/altcp.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/altcp.c.o: CMakeFiles/PicoPiFi.dir/flags.make
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/altcp.c.o: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/altcp.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/altcp.c.o: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/altcp.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/altcp.c.o -MF CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/altcp.c.o.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/altcp.c.o -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/altcp.c
 
 CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/altcp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/altcp.c.i"
@@ -1122,11 +1136,11 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/altcp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/altcp.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/altcp.c -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/altcp.c.s
 
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/altcp_alloc.c.obj: CMakeFiles/PicoPiFi.dir/flags.make
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/altcp_alloc.c.obj: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/altcp_alloc.c
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/altcp_alloc.c.obj: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/altcp_alloc.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/altcp_alloc.c.obj -MF CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/altcp_alloc.c.obj.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/altcp_alloc.c.obj -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/altcp_alloc.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/altcp_alloc.c.o: CMakeFiles/PicoPiFi.dir/flags.make
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/altcp_alloc.c.o: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/altcp_alloc.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/altcp_alloc.c.o: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/altcp_alloc.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/altcp_alloc.c.o -MF CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/altcp_alloc.c.o.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/altcp_alloc.c.o -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/altcp_alloc.c
 
 CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/altcp_alloc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/altcp_alloc.c.i"
@@ -1136,11 +1150,11 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/altcp_alloc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/altcp_alloc.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/altcp_alloc.c -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/altcp_alloc.c.s
 
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/altcp_tcp.c.obj: CMakeFiles/PicoPiFi.dir/flags.make
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/altcp_tcp.c.obj: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/altcp_tcp.c
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/altcp_tcp.c.obj: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/altcp_tcp.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/altcp_tcp.c.obj -MF CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/altcp_tcp.c.obj.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/altcp_tcp.c.obj -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/altcp_tcp.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/altcp_tcp.c.o: CMakeFiles/PicoPiFi.dir/flags.make
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/altcp_tcp.c.o: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/altcp_tcp.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/altcp_tcp.c.o: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/altcp_tcp.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/altcp_tcp.c.o -MF CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/altcp_tcp.c.o.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/altcp_tcp.c.o -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/altcp_tcp.c
 
 CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/altcp_tcp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/altcp_tcp.c.i"
@@ -1150,11 +1164,11 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/altcp_tcp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/altcp_tcp.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/altcp_tcp.c -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/altcp_tcp.c.s
 
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/tcp.c.obj: CMakeFiles/PicoPiFi.dir/flags.make
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/tcp.c.obj: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/tcp.c
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/tcp.c.obj: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/tcp.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/tcp.c.obj -MF CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/tcp.c.obj.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/tcp.c.obj -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/tcp.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/tcp.c.o: CMakeFiles/PicoPiFi.dir/flags.make
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/tcp.c.o: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/tcp.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/tcp.c.o: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/tcp.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/tcp.c.o -MF CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/tcp.c.o.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/tcp.c.o -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/tcp.c
 
 CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/tcp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/tcp.c.i"
@@ -1164,11 +1178,11 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/tcp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/tcp.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/tcp.c -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/tcp.c.s
 
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/tcp_in.c.obj: CMakeFiles/PicoPiFi.dir/flags.make
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/tcp_in.c.obj: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/tcp_in.c
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/tcp_in.c.obj: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/tcp_in.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/tcp_in.c.obj -MF CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/tcp_in.c.obj.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/tcp_in.c.obj -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/tcp_in.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/tcp_in.c.o: CMakeFiles/PicoPiFi.dir/flags.make
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/tcp_in.c.o: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/tcp_in.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/tcp_in.c.o: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/tcp_in.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/tcp_in.c.o -MF CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/tcp_in.c.o.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/tcp_in.c.o -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/tcp_in.c
 
 CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/tcp_in.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/tcp_in.c.i"
@@ -1178,11 +1192,11 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/tcp_in.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/tcp_in.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/tcp_in.c -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/tcp_in.c.s
 
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/tcp_out.c.obj: CMakeFiles/PicoPiFi.dir/flags.make
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/tcp_out.c.obj: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/tcp_out.c
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/tcp_out.c.obj: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/tcp_out.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/tcp_out.c.obj -MF CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/tcp_out.c.obj.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/tcp_out.c.obj -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/tcp_out.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/tcp_out.c.o: CMakeFiles/PicoPiFi.dir/flags.make
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/tcp_out.c.o: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/tcp_out.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/tcp_out.c.o: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/tcp_out.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/tcp_out.c.o -MF CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/tcp_out.c.o.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/tcp_out.c.o -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/tcp_out.c
 
 CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/tcp_out.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/tcp_out.c.i"
@@ -1192,11 +1206,11 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/tcp_out.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/tcp_out.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/tcp_out.c -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/tcp_out.c.s
 
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/timeouts.c.obj: CMakeFiles/PicoPiFi.dir/flags.make
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/timeouts.c.obj: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/timeouts.c
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/timeouts.c.obj: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/timeouts.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/timeouts.c.obj -MF CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/timeouts.c.obj.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/timeouts.c.obj -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/timeouts.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/timeouts.c.o: CMakeFiles/PicoPiFi.dir/flags.make
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/timeouts.c.o: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/timeouts.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/timeouts.c.o: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/timeouts.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/timeouts.c.o -MF CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/timeouts.c.o.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/timeouts.c.o -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/timeouts.c
 
 CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/timeouts.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/timeouts.c.i"
@@ -1206,11 +1220,11 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/timeouts.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/timeouts.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/timeouts.c -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/timeouts.c.s
 
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/udp.c.obj: CMakeFiles/PicoPiFi.dir/flags.make
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/udp.c.obj: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/udp.c
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/udp.c.obj: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/udp.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/udp.c.obj -MF CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/udp.c.obj.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/udp.c.obj -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/udp.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/udp.c.o: CMakeFiles/PicoPiFi.dir/flags.make
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/udp.c.o: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/udp.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/udp.c.o: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/udp.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/udp.c.o -MF CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/udp.c.o.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/udp.c.o -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/udp.c
 
 CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/udp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/udp.c.i"
@@ -1220,11 +1234,11 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/udp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/udp.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/udp.c -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/udp.c.s
 
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.obj: CMakeFiles/PicoPiFi.dir/flags.make
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.obj: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/ipv4/autoip.c
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.obj: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.obj -MF CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.obj.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.obj -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/ipv4/autoip.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.o: CMakeFiles/PicoPiFi.dir/flags.make
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.o: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/ipv4/autoip.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.o: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.o -MF CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.o.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.o -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/ipv4/autoip.c
 
 CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.i"
@@ -1234,11 +1248,11 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/ipv4/autoip.c -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.s
 
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.obj: CMakeFiles/PicoPiFi.dir/flags.make
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.obj: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.obj: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.obj -MF CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.obj.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.obj -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.o: CMakeFiles/PicoPiFi.dir/flags.make
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.o: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.o: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.o -MF CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.o.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.o -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c
 
 CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.i"
@@ -1248,11 +1262,11 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.s
 
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.obj: CMakeFiles/PicoPiFi.dir/flags.make
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.obj: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/ipv4/etharp.c
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.obj: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.obj -MF CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.obj.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.obj -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/ipv4/etharp.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.o: CMakeFiles/PicoPiFi.dir/flags.make
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.o: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/ipv4/etharp.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.o: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.o -MF CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.o.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.o -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/ipv4/etharp.c
 
 CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.i"
@@ -1262,11 +1276,11 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/ipv4/etharp.c -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.s
 
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.obj: CMakeFiles/PicoPiFi.dir/flags.make
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.obj: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/ipv4/icmp.c
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.obj: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.obj -MF CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.obj.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.obj -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/ipv4/icmp.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.o: CMakeFiles/PicoPiFi.dir/flags.make
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.o: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/ipv4/icmp.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.o: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.o -MF CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.o.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.o -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/ipv4/icmp.c
 
 CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.i"
@@ -1276,11 +1290,11 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/ipv4/icmp.c -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.s
 
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.obj: CMakeFiles/PicoPiFi.dir/flags.make
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.obj: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/ipv4/igmp.c
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.obj: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.obj -MF CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.obj.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.obj -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/ipv4/igmp.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.o: CMakeFiles/PicoPiFi.dir/flags.make
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.o: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/ipv4/igmp.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.o: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.o -MF CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.o.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.o -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/ipv4/igmp.c
 
 CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.i"
@@ -1290,11 +1304,11 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/ipv4/igmp.c -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.s
 
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.obj: CMakeFiles/PicoPiFi.dir/flags.make
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.obj: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.obj: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.obj -MF CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.obj.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.obj -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.o: CMakeFiles/PicoPiFi.dir/flags.make
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.o: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.o: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.o -MF CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.o.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.o -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c
 
 CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.i"
@@ -1304,11 +1318,11 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.s: cmake_forc
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.s
 
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.obj: CMakeFiles/PicoPiFi.dir/flags.make
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.obj: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/ipv4/ip4.c
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.obj: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.obj -MF CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.obj.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.obj -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/ipv4/ip4.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.o: CMakeFiles/PicoPiFi.dir/flags.make
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.o: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/ipv4/ip4.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.o: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.o -MF CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.o.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.o -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/ipv4/ip4.c
 
 CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.i"
@@ -1318,11 +1332,11 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/ipv4/ip4.c -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.s
 
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.obj: CMakeFiles/PicoPiFi.dir/flags.make
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.obj: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.obj: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.obj -MF CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.obj.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.obj -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.o: CMakeFiles/PicoPiFi.dir/flags.make
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.o: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.o: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.o -MF CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.o.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.o -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c
 
 CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.i"
@@ -1332,11 +1346,11 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.s: cmake_forc
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.s
 
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/acd.c.obj: CMakeFiles/PicoPiFi.dir/flags.make
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/acd.c.obj: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/ipv4/acd.c
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/acd.c.obj: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/acd.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/acd.c.obj -MF CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/acd.c.obj.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/acd.c.obj -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/ipv4/acd.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/acd.c.o: CMakeFiles/PicoPiFi.dir/flags.make
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/acd.c.o: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/ipv4/acd.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/acd.c.o: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/acd.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/acd.c.o -MF CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/acd.c.o.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/acd.c.o -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/ipv4/acd.c
 
 CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/acd.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/acd.c.i"
@@ -1346,11 +1360,11 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/acd.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/acd.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/ipv4/acd.c -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/acd.c.s
 
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.obj: CMakeFiles/PicoPiFi.dir/flags.make
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.obj: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.obj: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.obj -MF CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.obj.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.obj -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.o: CMakeFiles/PicoPiFi.dir/flags.make
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.o: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.o: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.o -MF CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.o.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.o -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c
 
 CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.i"
@@ -1360,11 +1374,11 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.s
 
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.obj: CMakeFiles/PicoPiFi.dir/flags.make
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.obj: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.obj: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.obj -MF CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.obj.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.obj -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.o: CMakeFiles/PicoPiFi.dir/flags.make
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.o: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.o: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.o -MF CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.o.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.o -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c
 
 CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.i"
@@ -1374,11 +1388,11 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.s
 
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.obj: CMakeFiles/PicoPiFi.dir/flags.make
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.obj: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.obj: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.obj -MF CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.obj.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.obj -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.o: CMakeFiles/PicoPiFi.dir/flags.make
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.o: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.o: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.o -MF CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.o.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.o -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c
 
 CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.i"
@@ -1388,11 +1402,11 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.s
 
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.obj: CMakeFiles/PicoPiFi.dir/flags.make
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.obj: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/ipv6/inet6.c
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.obj: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.obj -MF CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.obj.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.obj -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/ipv6/inet6.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.o: CMakeFiles/PicoPiFi.dir/flags.make
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.o: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/ipv6/inet6.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.o: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.o -MF CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.o.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.o -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/ipv6/inet6.c
 
 CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.i"
@@ -1402,11 +1416,11 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/ipv6/inet6.c -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.s
 
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.obj: CMakeFiles/PicoPiFi.dir/flags.make
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.obj: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/ipv6/ip6.c
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.obj: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.obj -MF CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.obj.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.obj -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/ipv6/ip6.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.o: CMakeFiles/PicoPiFi.dir/flags.make
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.o: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/ipv6/ip6.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.o: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.o -MF CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.o.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.o -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/ipv6/ip6.c
 
 CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.i"
@@ -1416,11 +1430,11 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/ipv6/ip6.c -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.s
 
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.obj: CMakeFiles/PicoPiFi.dir/flags.make
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.obj: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.obj: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.obj -MF CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.obj.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.obj -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.o: CMakeFiles/PicoPiFi.dir/flags.make
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.o: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.o: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.o -MF CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.o.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.o -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c
 
 CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.i"
@@ -1430,11 +1444,11 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.s: cmake_forc
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.s
 
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.obj: CMakeFiles/PicoPiFi.dir/flags.make
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.obj: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.obj: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.obj -MF CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.obj.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.obj -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.o: CMakeFiles/PicoPiFi.dir/flags.make
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.o: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.o: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.o -MF CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.o.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.o -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c
 
 CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.i"
@@ -1444,11 +1458,11 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.s: cmake_forc
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.s
 
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.obj: CMakeFiles/PicoPiFi.dir/flags.make
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.obj: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/ipv6/mld6.c
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.obj: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.obj -MF CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.obj.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.obj -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/ipv6/mld6.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.o: CMakeFiles/PicoPiFi.dir/flags.make
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.o: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/ipv6/mld6.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.o: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.o -MF CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.o.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.o -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/ipv6/mld6.c
 
 CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.i"
@@ -1458,11 +1472,11 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/ipv6/mld6.c -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.s
 
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.obj: CMakeFiles/PicoPiFi.dir/flags.make
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.obj: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/ipv6/nd6.c
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.obj: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.obj -MF CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.obj.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.obj -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/ipv6/nd6.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.o: CMakeFiles/PicoPiFi.dir/flags.make
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.o: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/ipv6/nd6.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.o: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.o -MF CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.o.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.o -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/ipv6/nd6.c
 
 CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.i"
@@ -1472,11 +1486,11 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/ipv6/nd6.c -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.s
 
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/api_lib.c.obj: CMakeFiles/PicoPiFi.dir/flags.make
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/api_lib.c.obj: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/api/api_lib.c
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/api_lib.c.obj: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/api_lib.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/api_lib.c.obj -MF CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/api_lib.c.obj.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/api_lib.c.obj -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/api/api_lib.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/api_lib.c.o: CMakeFiles/PicoPiFi.dir/flags.make
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/api_lib.c.o: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/api/api_lib.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/api_lib.c.o: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/api_lib.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/api_lib.c.o -MF CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/api_lib.c.o.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/api_lib.c.o -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/api/api_lib.c
 
 CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/api_lib.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/api_lib.c.i"
@@ -1486,11 +1500,11 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/api_lib.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/api_lib.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/api/api_lib.c -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/api_lib.c.s
 
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/api_msg.c.obj: CMakeFiles/PicoPiFi.dir/flags.make
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/api_msg.c.obj: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/api/api_msg.c
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/api_msg.c.obj: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/api_msg.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/api_msg.c.obj -MF CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/api_msg.c.obj.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/api_msg.c.obj -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/api/api_msg.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/api_msg.c.o: CMakeFiles/PicoPiFi.dir/flags.make
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/api_msg.c.o: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/api/api_msg.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/api_msg.c.o: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/api_msg.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/api_msg.c.o -MF CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/api_msg.c.o.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/api_msg.c.o -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/api/api_msg.c
 
 CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/api_msg.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/api_msg.c.i"
@@ -1500,11 +1514,11 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/api_msg.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/api_msg.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/api/api_msg.c -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/api_msg.c.s
 
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/err.c.obj: CMakeFiles/PicoPiFi.dir/flags.make
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/err.c.obj: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/api/err.c
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/err.c.obj: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/err.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/err.c.obj -MF CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/err.c.obj.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/err.c.obj -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/api/err.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/err.c.o: CMakeFiles/PicoPiFi.dir/flags.make
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/err.c.o: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/api/err.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/err.c.o: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/err.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/err.c.o -MF CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/err.c.o.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/err.c.o -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/api/err.c
 
 CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/err.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/err.c.i"
@@ -1514,11 +1528,11 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/err.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/err.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/api/err.c -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/err.c.s
 
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/if_api.c.obj: CMakeFiles/PicoPiFi.dir/flags.make
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/if_api.c.obj: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/api/if_api.c
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/if_api.c.obj: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/if_api.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/if_api.c.obj -MF CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/if_api.c.obj.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/if_api.c.obj -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/api/if_api.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/if_api.c.o: CMakeFiles/PicoPiFi.dir/flags.make
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/if_api.c.o: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/api/if_api.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/if_api.c.o: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/if_api.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/if_api.c.o -MF CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/if_api.c.o.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/if_api.c.o -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/api/if_api.c
 
 CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/if_api.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/if_api.c.i"
@@ -1528,11 +1542,11 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/if_api.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/if_api.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/api/if_api.c -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/if_api.c.s
 
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/netbuf.c.obj: CMakeFiles/PicoPiFi.dir/flags.make
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/netbuf.c.obj: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/api/netbuf.c
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/netbuf.c.obj: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/netbuf.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/netbuf.c.obj -MF CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/netbuf.c.obj.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/netbuf.c.obj -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/api/netbuf.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/netbuf.c.o: CMakeFiles/PicoPiFi.dir/flags.make
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/netbuf.c.o: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/api/netbuf.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/netbuf.c.o: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/netbuf.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/netbuf.c.o -MF CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/netbuf.c.o.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/netbuf.c.o -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/api/netbuf.c
 
 CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/netbuf.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/netbuf.c.i"
@@ -1542,11 +1556,11 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/netbuf.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/netbuf.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/api/netbuf.c -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/netbuf.c.s
 
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/netdb.c.obj: CMakeFiles/PicoPiFi.dir/flags.make
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/netdb.c.obj: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/api/netdb.c
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/netdb.c.obj: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/netdb.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/netdb.c.obj -MF CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/netdb.c.obj.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/netdb.c.obj -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/api/netdb.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/netdb.c.o: CMakeFiles/PicoPiFi.dir/flags.make
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/netdb.c.o: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/api/netdb.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/netdb.c.o: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/netdb.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/netdb.c.o -MF CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/netdb.c.o.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/netdb.c.o -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/api/netdb.c
 
 CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/netdb.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/netdb.c.i"
@@ -1556,11 +1570,11 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/netdb.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/netdb.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/api/netdb.c -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/netdb.c.s
 
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/netifapi.c.obj: CMakeFiles/PicoPiFi.dir/flags.make
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/netifapi.c.obj: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/api/netifapi.c
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/netifapi.c.obj: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/netifapi.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/netifapi.c.obj -MF CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/netifapi.c.obj.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/netifapi.c.obj -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/api/netifapi.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/netifapi.c.o: CMakeFiles/PicoPiFi.dir/flags.make
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/netifapi.c.o: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/api/netifapi.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/netifapi.c.o: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/netifapi.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/netifapi.c.o -MF CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/netifapi.c.o.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/netifapi.c.o -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/api/netifapi.c
 
 CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/netifapi.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/netifapi.c.i"
@@ -1570,11 +1584,11 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/netifapi.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/netifapi.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/api/netifapi.c -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/netifapi.c.s
 
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/sockets.c.obj: CMakeFiles/PicoPiFi.dir/flags.make
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/sockets.c.obj: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/api/sockets.c
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/sockets.c.obj: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/sockets.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/sockets.c.obj -MF CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/sockets.c.obj.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/sockets.c.obj -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/api/sockets.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/sockets.c.o: CMakeFiles/PicoPiFi.dir/flags.make
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/sockets.c.o: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/api/sockets.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/sockets.c.o: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/sockets.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/sockets.c.o -MF CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/sockets.c.o.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/sockets.c.o -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/api/sockets.c
 
 CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/sockets.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/sockets.c.i"
@@ -1584,11 +1598,11 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/sockets.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/sockets.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/api/sockets.c -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/sockets.c.s
 
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/tcpip.c.obj: CMakeFiles/PicoPiFi.dir/flags.make
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/tcpip.c.obj: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/api/tcpip.c
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/tcpip.c.obj: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/tcpip.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/tcpip.c.obj -MF CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/tcpip.c.obj.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/tcpip.c.obj -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/api/tcpip.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/tcpip.c.o: CMakeFiles/PicoPiFi.dir/flags.make
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/tcpip.c.o: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/api/tcpip.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/tcpip.c.o: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_111) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/tcpip.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/tcpip.c.o -MF CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/tcpip.c.o.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/tcpip.c.o -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/api/tcpip.c
 
 CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/tcpip.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/tcpip.c.i"
@@ -1598,11 +1612,11 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/tcpip.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/tcpip.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/api/tcpip.c -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/tcpip.c.s
 
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ethernet.c.obj: CMakeFiles/PicoPiFi.dir/flags.make
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ethernet.c.obj: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/ethernet.c
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ethernet.c.obj: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_111) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ethernet.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ethernet.c.obj -MF CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ethernet.c.obj.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ethernet.c.obj -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/ethernet.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ethernet.c.o: CMakeFiles/PicoPiFi.dir/flags.make
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ethernet.c.o: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/ethernet.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ethernet.c.o: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_112) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ethernet.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ethernet.c.o -MF CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ethernet.c.o.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ethernet.c.o -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/ethernet.c
 
 CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ethernet.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ethernet.c.i"
@@ -1612,11 +1626,11 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ethernet.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ethernet.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/ethernet.c -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ethernet.c.s
 
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/bridgeif.c.obj: CMakeFiles/PicoPiFi.dir/flags.make
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/bridgeif.c.obj: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/bridgeif.c
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/bridgeif.c.obj: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_112) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/bridgeif.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/bridgeif.c.obj -MF CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/bridgeif.c.obj.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/bridgeif.c.obj -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/bridgeif.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/bridgeif.c.o: CMakeFiles/PicoPiFi.dir/flags.make
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/bridgeif.c.o: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/bridgeif.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/bridgeif.c.o: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_113) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/bridgeif.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/bridgeif.c.o -MF CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/bridgeif.c.o.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/bridgeif.c.o -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/bridgeif.c
 
 CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/bridgeif.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/bridgeif.c.i"
@@ -1626,11 +1640,11 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/bridgeif.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/bridgeif.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/bridgeif.c -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/bridgeif.c.s
 
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.obj: CMakeFiles/PicoPiFi.dir/flags.make
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.obj: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.obj: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_113) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.obj -MF CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.obj.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.obj -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.o: CMakeFiles/PicoPiFi.dir/flags.make
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.o: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.o: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_114) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.o -MF CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.o.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.o -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c
 
 CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.i"
@@ -1640,11 +1654,11 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.s: cmake_forc
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.s
 
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/slipif.c.obj: CMakeFiles/PicoPiFi.dir/flags.make
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/slipif.c.obj: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/slipif.c
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/slipif.c.obj: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_114) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/slipif.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/slipif.c.obj -MF CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/slipif.c.obj.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/slipif.c.obj -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/slipif.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/slipif.c.o: CMakeFiles/PicoPiFi.dir/flags.make
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/slipif.c.o: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/slipif.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/slipif.c.o: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_115) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/slipif.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/slipif.c.o -MF CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/slipif.c.o.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/slipif.c.o -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/slipif.c
 
 CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/slipif.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/slipif.c.i"
@@ -1654,11 +1668,11 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/slipif.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/slipif.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/slipif.c -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/slipif.c.s
 
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.obj: CMakeFiles/PicoPiFi.dir/flags.make
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.obj: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/lowpan6_common.c
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.obj: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_115) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.obj -MF CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.obj.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.obj -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/lowpan6_common.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.o: CMakeFiles/PicoPiFi.dir/flags.make
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.o: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/lowpan6_common.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.o: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_116) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.o -MF CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.o.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.o -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/lowpan6_common.c
 
 CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.i"
@@ -1668,11 +1682,11 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.s: cmake_fo
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/lowpan6_common.c -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.s
 
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/lowpan6.c.obj: CMakeFiles/PicoPiFi.dir/flags.make
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/lowpan6.c.obj: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/lowpan6.c
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/lowpan6.c.obj: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_116) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/lowpan6.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/lowpan6.c.obj -MF CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/lowpan6.c.obj.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/lowpan6.c.obj -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/lowpan6.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/lowpan6.c.o: CMakeFiles/PicoPiFi.dir/flags.make
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/lowpan6.c.o: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/lowpan6.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/lowpan6.c.o: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_117) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/lowpan6.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/lowpan6.c.o -MF CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/lowpan6.c.o.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/lowpan6.c.o -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/lowpan6.c
 
 CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/lowpan6.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/lowpan6.c.i"
@@ -1682,11 +1696,11 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/lowpan6.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/lowpan6.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/lowpan6.c -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/lowpan6.c.s
 
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.obj: CMakeFiles/PicoPiFi.dir/flags.make
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.obj: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.obj: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_117) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.obj -MF CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.obj.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.obj -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.o: CMakeFiles/PicoPiFi.dir/flags.make
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.o: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.o: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_118) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.o -MF CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.o.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.o -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c
 
 CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.i"
@@ -1696,11 +1710,11 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.s
 
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/zepif.c.obj: CMakeFiles/PicoPiFi.dir/flags.make
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/zepif.c.obj: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/zepif.c
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/zepif.c.obj: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_118) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/zepif.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/zepif.c.obj -MF CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/zepif.c.obj.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/zepif.c.obj -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/zepif.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/zepif.c.o: CMakeFiles/PicoPiFi.dir/flags.make
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/zepif.c.o: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/zepif.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/zepif.c.o: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_119) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/zepif.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/zepif.c.o -MF CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/zepif.c.o.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/zepif.c.o -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/zepif.c
 
 CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/zepif.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/zepif.c.i"
@@ -1710,11 +1724,11 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/zepif.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/zepif.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/zepif.c -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/zepif.c.s
 
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/auth.c.obj: CMakeFiles/PicoPiFi.dir/flags.make
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/auth.c.obj: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/ppp/auth.c
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/auth.c.obj: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_119) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/auth.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/auth.c.obj -MF CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/auth.c.obj.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/auth.c.obj -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/ppp/auth.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/auth.c.o: CMakeFiles/PicoPiFi.dir/flags.make
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/auth.c.o: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/ppp/auth.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/auth.c.o: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_120) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/auth.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/auth.c.o -MF CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/auth.c.o.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/auth.c.o -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/ppp/auth.c
 
 CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/auth.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/auth.c.i"
@@ -1724,11 +1738,11 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/auth.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/auth.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/ppp/auth.c -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/auth.c.s
 
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.obj: CMakeFiles/PicoPiFi.dir/flags.make
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.obj: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/ppp/ccp.c
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.obj: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_120) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.obj -MF CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.obj.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.obj -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/ppp/ccp.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.o: CMakeFiles/PicoPiFi.dir/flags.make
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.o: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/ppp/ccp.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.o: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_121) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.o -MF CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.o.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.o -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/ppp/ccp.c
 
 CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.i"
@@ -1738,11 +1752,11 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/ppp/ccp.c -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.s
 
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.obj: CMakeFiles/PicoPiFi.dir/flags.make
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.obj: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.obj: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_121) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.obj -MF CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.obj.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.obj -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.o: CMakeFiles/PicoPiFi.dir/flags.make
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.o: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.o: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_122) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.o -MF CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.o.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.o -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c
 
 CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.i"
@@ -1752,11 +1766,11 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.s: cmake_forc
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.s
 
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.obj: CMakeFiles/PicoPiFi.dir/flags.make
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.obj: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.obj: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_122) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.obj -MF CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.obj.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.obj -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.o: CMakeFiles/PicoPiFi.dir/flags.make
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.o: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.o: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_123) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.o -MF CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.o.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.o -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c
 
 CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.i"
@@ -1766,11 +1780,11 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.s
 
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.obj: CMakeFiles/PicoPiFi.dir/flags.make
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.obj: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.obj: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_123) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.obj -MF CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.obj.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.obj -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.o: CMakeFiles/PicoPiFi.dir/flags.make
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.o: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.o: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_124) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.o -MF CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.o.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.o -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c
 
 CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.i"
@@ -1780,11 +1794,11 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.s: cmake_forc
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.s
 
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/demand.c.obj: CMakeFiles/PicoPiFi.dir/flags.make
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/demand.c.obj: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/ppp/demand.c
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/demand.c.obj: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_124) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/demand.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/demand.c.obj -MF CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/demand.c.obj.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/demand.c.obj -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/ppp/demand.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/demand.c.o: CMakeFiles/PicoPiFi.dir/flags.make
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/demand.c.o: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/ppp/demand.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/demand.c.o: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_125) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/demand.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/demand.c.o -MF CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/demand.c.o.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/demand.c.o -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/ppp/demand.c
 
 CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/demand.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/demand.c.i"
@@ -1794,11 +1808,11 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/demand.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/demand.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/ppp/demand.c -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/demand.c.s
 
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/eap.c.obj: CMakeFiles/PicoPiFi.dir/flags.make
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/eap.c.obj: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/ppp/eap.c
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/eap.c.obj: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_125) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/eap.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/eap.c.obj -MF CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/eap.c.obj.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/eap.c.obj -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/ppp/eap.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/eap.c.o: CMakeFiles/PicoPiFi.dir/flags.make
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/eap.c.o: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/ppp/eap.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/eap.c.o: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_126) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/eap.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/eap.c.o -MF CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/eap.c.o.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/eap.c.o -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/ppp/eap.c
 
 CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/eap.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/eap.c.i"
@@ -1808,11 +1822,11 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/eap.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/eap.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/ppp/eap.c -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/eap.c.s
 
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.obj: CMakeFiles/PicoPiFi.dir/flags.make
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.obj: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/ppp/ecp.c
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.obj: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_126) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.obj -MF CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.obj.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.obj -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/ppp/ecp.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.o: CMakeFiles/PicoPiFi.dir/flags.make
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.o: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/ppp/ecp.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.o: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_127) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.o -MF CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.o.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.o -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/ppp/ecp.c
 
 CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.i"
@@ -1822,11 +1836,11 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/ppp/ecp.c -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.s
 
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.obj: CMakeFiles/PicoPiFi.dir/flags.make
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.obj: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/ppp/eui64.c
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.obj: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_127) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.obj -MF CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.obj.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.obj -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/ppp/eui64.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.o: CMakeFiles/PicoPiFi.dir/flags.make
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.o: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/ppp/eui64.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.o: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_128) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.o -MF CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.o.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.o -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/ppp/eui64.c
 
 CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.i"
@@ -1836,11 +1850,11 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/ppp/eui64.c -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.s
 
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.obj: CMakeFiles/PicoPiFi.dir/flags.make
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.obj: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/ppp/fsm.c
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.obj: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_128) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.obj -MF CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.obj.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.obj -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/ppp/fsm.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.o: CMakeFiles/PicoPiFi.dir/flags.make
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.o: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/ppp/fsm.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.o: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_129) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.o -MF CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.o.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.o -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/ppp/fsm.c
 
 CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.i"
@@ -1850,11 +1864,11 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/ppp/fsm.c -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.s
 
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.obj: CMakeFiles/PicoPiFi.dir/flags.make
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.obj: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.obj: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_129) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.obj -MF CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.obj.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.obj -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.o: CMakeFiles/PicoPiFi.dir/flags.make
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.o: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.o: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_130) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.o -MF CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.o.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.o -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c
 
 CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.i"
@@ -1864,11 +1878,11 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.s
 
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.obj: CMakeFiles/PicoPiFi.dir/flags.make
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.obj: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.obj: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_130) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.obj -MF CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.obj.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.obj -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.o: CMakeFiles/PicoPiFi.dir/flags.make
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.o: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.o: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_131) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.o -MF CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.o.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.o -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c
 
 CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.i"
@@ -1878,11 +1892,11 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.s
 
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.obj: CMakeFiles/PicoPiFi.dir/flags.make
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.obj: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/ppp/lcp.c
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.obj: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_131) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.obj -MF CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.obj.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.obj -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/ppp/lcp.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.o: CMakeFiles/PicoPiFi.dir/flags.make
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.o: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/ppp/lcp.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.o: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_132) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.o -MF CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.o.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.o -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/ppp/lcp.c
 
 CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.i"
@@ -1892,11 +1906,11 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/ppp/lcp.c -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.s
 
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/magic.c.obj: CMakeFiles/PicoPiFi.dir/flags.make
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/magic.c.obj: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/ppp/magic.c
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/magic.c.obj: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_132) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/magic.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/magic.c.obj -MF CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/magic.c.obj.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/magic.c.obj -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/ppp/magic.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/magic.c.o: CMakeFiles/PicoPiFi.dir/flags.make
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/magic.c.o: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/ppp/magic.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/magic.c.o: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_133) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/magic.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/magic.c.o -MF CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/magic.c.o.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/magic.c.o -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/ppp/magic.c
 
 CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/magic.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/magic.c.i"
@@ -1906,11 +1920,11 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/magic.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/magic.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/ppp/magic.c -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/magic.c.s
 
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.obj: CMakeFiles/PicoPiFi.dir/flags.make
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.obj: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/ppp/mppe.c
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.obj: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_133) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.obj -MF CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.obj.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.obj -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/ppp/mppe.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.o: CMakeFiles/PicoPiFi.dir/flags.make
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.o: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/ppp/mppe.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.o: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_134) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.o -MF CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.o.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.o -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/ppp/mppe.c
 
 CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.i"
@@ -1920,11 +1934,11 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/ppp/mppe.c -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.s
 
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.obj: CMakeFiles/PicoPiFi.dir/flags.make
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.obj: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/ppp/multilink.c
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.obj: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_134) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.obj -MF CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.obj.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.obj -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/ppp/multilink.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.o: CMakeFiles/PicoPiFi.dir/flags.make
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.o: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/ppp/multilink.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.o: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_135) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.o -MF CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.o.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.o -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/ppp/multilink.c
 
 CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.i"
@@ -1934,11 +1948,11 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.s: cmake_for
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/ppp/multilink.c -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.s
 
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.obj: CMakeFiles/PicoPiFi.dir/flags.make
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.obj: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/ppp/ppp.c
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.obj: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_135) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.obj -MF CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.obj.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.obj -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/ppp/ppp.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.o: CMakeFiles/PicoPiFi.dir/flags.make
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.o: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/ppp/ppp.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.o: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_136) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.o -MF CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.o.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.o -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/ppp/ppp.c
 
 CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.i"
@@ -1948,11 +1962,11 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/ppp/ppp.c -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.s
 
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.obj: CMakeFiles/PicoPiFi.dir/flags.make
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.obj: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.obj: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_136) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.obj -MF CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.obj.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.obj -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.o: CMakeFiles/PicoPiFi.dir/flags.make
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.o: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.o: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_137) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.o -MF CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.o.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.o -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c
 
 CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.i"
@@ -1962,11 +1976,11 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.s
 
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.obj: CMakeFiles/PicoPiFi.dir/flags.make
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.obj: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.obj: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_137) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.obj -MF CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.obj.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.obj -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.o: CMakeFiles/PicoPiFi.dir/flags.make
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.o: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.o: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_138) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.o -MF CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.o.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.o -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c
 
 CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.i"
@@ -1976,11 +1990,11 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.s: cmake_forc
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.s
 
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.obj: CMakeFiles/PicoPiFi.dir/flags.make
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.obj: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.obj: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_138) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.obj -MF CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.obj.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.obj -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.o: CMakeFiles/PicoPiFi.dir/flags.make
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.o: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.o: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_139) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.o -MF CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.o.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.o -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c
 
 CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.i"
@@ -1990,11 +2004,11 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.s
 
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.obj: CMakeFiles/PicoPiFi.dir/flags.make
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.obj: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.obj: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_139) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.obj -MF CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.obj.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.obj -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.o: CMakeFiles/PicoPiFi.dir/flags.make
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.o: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.o: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_140) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.o -MF CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.o.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.o -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c
 
 CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.i"
@@ -2004,11 +2018,11 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.s: cmake_forc
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.s
 
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.obj: CMakeFiles/PicoPiFi.dir/flags.make
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.obj: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/ppp/pppos.c
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.obj: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_140) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.obj -MF CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.obj.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.obj -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/ppp/pppos.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.o: CMakeFiles/PicoPiFi.dir/flags.make
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.o: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/ppp/pppos.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.o: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_141) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.o -MF CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.o.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.o -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/ppp/pppos.c
 
 CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.i"
@@ -2018,11 +2032,11 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/ppp/pppos.c -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.s
 
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/upap.c.obj: CMakeFiles/PicoPiFi.dir/flags.make
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/upap.c.obj: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/ppp/upap.c
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/upap.c.obj: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_141) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/upap.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/upap.c.obj -MF CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/upap.c.obj.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/upap.c.obj -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/ppp/upap.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/upap.c.o: CMakeFiles/PicoPiFi.dir/flags.make
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/upap.c.o: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/ppp/upap.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/upap.c.o: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_142) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/upap.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/upap.c.o -MF CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/upap.c.o.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/upap.c.o -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/ppp/upap.c
 
 CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/upap.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/upap.c.i"
@@ -2032,11 +2046,11 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/upap.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/upap.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/ppp/upap.c -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/upap.c.s
 
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/utils.c.obj: CMakeFiles/PicoPiFi.dir/flags.make
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/utils.c.obj: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/ppp/utils.c
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/utils.c.obj: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_142) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/utils.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/utils.c.obj -MF CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/utils.c.obj.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/utils.c.obj -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/ppp/utils.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/utils.c.o: CMakeFiles/PicoPiFi.dir/flags.make
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/utils.c.o: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/ppp/utils.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/utils.c.o: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_143) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/utils.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/utils.c.o -MF CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/utils.c.o.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/utils.c.o -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/ppp/utils.c
 
 CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/utils.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/utils.c.i"
@@ -2046,11 +2060,11 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/utils.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/utils.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/ppp/utils.c -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/utils.c.s
 
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/vj.c.obj: CMakeFiles/PicoPiFi.dir/flags.make
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/vj.c.obj: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/ppp/vj.c
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/vj.c.obj: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_143) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/vj.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/vj.c.obj -MF CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/vj.c.obj.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/vj.c.obj -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/ppp/vj.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/vj.c.o: CMakeFiles/PicoPiFi.dir/flags.make
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/vj.c.o: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/ppp/vj.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/vj.c.o: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_144) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/vj.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/vj.c.o -MF CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/vj.c.o.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/vj.c.o -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/ppp/vj.c
 
 CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/vj.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/vj.c.i"
@@ -2060,11 +2074,11 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/vj.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/vj.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/ppp/vj.c -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/vj.c.s
 
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.obj: CMakeFiles/PicoPiFi.dir/flags.make
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.obj: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.obj: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_144) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.obj -MF CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.obj.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.obj -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.o: CMakeFiles/PicoPiFi.dir/flags.make
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.o: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.o: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_145) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.o -MF CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.o.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.o -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c
 
 CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.i"
@@ -2074,11 +2088,11 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.s: cmake
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.s
 
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.obj: CMakeFiles/PicoPiFi.dir/flags.make
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.obj: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.obj: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_145) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.obj -MF CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.obj.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.obj -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.o: CMakeFiles/PicoPiFi.dir/flags.make
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.o: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.o: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_146) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.o -MF CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.o.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.o -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c
 
 CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.i"
@@ -2088,11 +2102,11 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.s: cmake_
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.s
 
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.obj: CMakeFiles/PicoPiFi.dir/flags.make
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.obj: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.obj: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_146) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.obj -MF CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.obj.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.obj -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.o: CMakeFiles/PicoPiFi.dir/flags.make
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.o: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.o: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_147) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.o -MF CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.o.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.o -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c
 
 CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.i"
@@ -2102,11 +2116,11 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.s: cmake_
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.s
 
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.obj: CMakeFiles/PicoPiFi.dir/flags.make
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.obj: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.obj: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_147) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.obj -MF CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.obj.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.obj -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.o: CMakeFiles/PicoPiFi.dir/flags.make
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.o: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.o: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_148) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.o -MF CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.o.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.o -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c
 
 CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.i"
@@ -2116,11 +2130,11 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.s: cmake_
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.s
 
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.obj: CMakeFiles/PicoPiFi.dir/flags.make
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.obj: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.obj: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_148) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.obj -MF CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.obj.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.obj -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.o: CMakeFiles/PicoPiFi.dir/flags.make
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.o: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.o: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_149) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.o -MF CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.o.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.o -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c
 
 CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.i"
@@ -2130,11 +2144,11 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.s: cmake
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.s
 
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj: CMakeFiles/PicoPiFi.dir/flags.make
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_multicore/multicore.c
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_149) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj -MF CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_multicore/multicore.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_multicore/multicore.c.o: CMakeFiles/PicoPiFi.dir/flags.make
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_multicore/multicore.c.o: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_multicore/multicore.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_multicore/multicore.c.o: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_150) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_multicore/multicore.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_multicore/multicore.c.o -MF CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_multicore/multicore.c.o.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_multicore/multicore.c.o -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_multicore/multicore.c
 
 CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_multicore/multicore.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_multicore/multicore.c.i"
@@ -2144,11 +2158,11 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_multicore/multicore.c.s: cm
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_multicore/multicore.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_multicore/multicore.c -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_multicore/multicore.c.s
 
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj: CMakeFiles/PicoPiFi.dir/flags.make
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_150) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj -MF CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.o: CMakeFiles/PicoPiFi.dir/flags.make
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.o: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.o: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_151) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.o -MF CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.o.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.o -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c
 
 CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.i"
@@ -2158,11 +2172,11 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.s: 
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.s
 
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj: CMakeFiles/PicoPiFi.dir/flags.make
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_151) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj -MF CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.o: CMakeFiles/PicoPiFi.dir/flags.make
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.o: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.o: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_152) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.o -MF CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.o.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.o -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c
 
 CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.i"
@@ -2172,11 +2186,11 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.s
 
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj: CMakeFiles/PicoPiFi.dir/flags.make
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_152) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj -MF CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.o: CMakeFiles/PicoPiFi.dir/flags.make
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.o: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.o: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_153) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.o -MF CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.o.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.o -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c
 
 CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.i"
@@ -2186,11 +2200,11 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threa
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.s
 
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj: CMakeFiles/PicoPiFi.dir/flags.make
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_153) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj -MF CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.o: CMakeFiles/PicoPiFi.dir/flags.make
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.o: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.o: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_154) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.o -MF CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.o.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.o -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c
 
 CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.i"
@@ -2200,11 +2214,11 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freer
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.s
 
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj: CMakeFiles/PicoPiFi.dir/flags.make
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_154) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj -MF CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o: CMakeFiles/PicoPiFi.dir/flags.make
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_155) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o -MF CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c
 
 CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i"
@@ -2214,11 +2228,11 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s: cm
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
 
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj: CMakeFiles/PicoPiFi.dir/flags.make
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_flash/flash.c
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_155) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj -MF CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_flash/flash.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_flash/flash.c.o: CMakeFiles/PicoPiFi.dir/flags.make
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_flash/flash.c.o: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_flash/flash.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_flash/flash.c.o: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_156) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_flash/flash.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_flash/flash.c.o -MF CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_flash/flash.c.o.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_flash/flash.c.o -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_flash/flash.c
 
 CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_flash/flash.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_flash/flash.c.i"
@@ -2228,11 +2242,25 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_flash/flash.c.s: cmake_
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_flash/flash.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_flash/flash.c -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_flash/flash.c.s
 
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj: CMakeFiles/PicoPiFi.dir/flags.make
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_156) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj -MF CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o: CMakeFiles/PicoPiFi.dir/flags.make
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_157) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o -MF CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c
+
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c > CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.i
+
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.s
+
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.o: CMakeFiles/PicoPiFi.dir/flags.make
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.o: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.o: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_158) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.o -MF CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.o.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.o -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c
 
 CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.i"
@@ -2242,11 +2270,11 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.s
 
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj: CMakeFiles/PicoPiFi.dir/flags.make
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_157) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj -MF CMakeFiles/PicoPiFi.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.o: CMakeFiles/PicoPiFi.dir/flags.make
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.o: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.o: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_159) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.o -MF CMakeFiles/PicoPiFi.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.o.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.o -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c
 
 CMakeFiles/PicoPiFi.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PicoPiFi.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.i"
@@ -2256,11 +2284,11 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PicoPiFi.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.s
 
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.obj: CMakeFiles/PicoPiFi.dir/flags.make
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.obj: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.obj: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_158) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.obj -MF CMakeFiles/PicoPiFi.dir/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.obj.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.obj -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.o: CMakeFiles/PicoPiFi.dir/flags.make
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.o: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.o: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_160) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.o -MF CMakeFiles/PicoPiFi.dir/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.o.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.o -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c
 
 CMakeFiles/PicoPiFi.dir/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PicoPiFi.dir/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.i"
@@ -2270,11 +2298,11 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.s: cmake_for
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PicoPiFi.dir/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.s
 
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.obj: CMakeFiles/PicoPiFi.dir/flags.make
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.obj: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.obj: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_159) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.obj -MF CMakeFiles/PicoPiFi.dir/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.obj.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.obj -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.o: CMakeFiles/PicoPiFi.dir/flags.make
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.o: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.o: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_161) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.o -MF CMakeFiles/PicoPiFi.dir/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.o.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.o -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c
 
 CMakeFiles/PicoPiFi.dir/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PicoPiFi.dir/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.i"
@@ -2284,11 +2312,11 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.s: cmake_forc
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PicoPiFi.dir/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.s
 
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj: CMakeFiles/PicoPiFi.dir/flags.make
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c
-CMakeFiles/PicoPiFi.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_160) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj -MF CMakeFiles/PicoPiFi.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.o: CMakeFiles/PicoPiFi.dir/flags.make
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.o: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.o: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_162) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.o -MF CMakeFiles/PicoPiFi.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.o.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.o -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c
 
 CMakeFiles/PicoPiFi.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PicoPiFi.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.i"
@@ -2298,11 +2326,11 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.s: cmake_forc
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PicoPiFi.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c -o CMakeFiles/PicoPiFi.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.s
 
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj: CMakeFiles/PicoPiFi.dir/flags.make
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_161) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj -MF CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.o: CMakeFiles/PicoPiFi.dir/flags.make
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.o: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.o: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_163) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.o -MF CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.o.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.o -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c
 
 CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.i"
@@ -2312,11 +2340,11 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bu
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.s
 
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj: CMakeFiles/PicoPiFi.dir/flags.make
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_162) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj -MF CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.o: CMakeFiles/PicoPiFi.dir/flags.make
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.o: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.o: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_164) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.o -MF CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.o.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.o -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c
 
 CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.i"
@@ -2326,11 +2354,11 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bu
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.s
 
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj: CMakeFiles/PicoPiFi.dir/flags.make
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_pio/pio.c
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_163) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj -MF CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_pio/pio.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_pio/pio.c.o: CMakeFiles/PicoPiFi.dir/flags.make
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_pio/pio.c.o: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_pio/pio.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_pio/pio.c.o: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_165) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_pio/pio.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_pio/pio.c.o -MF CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_pio/pio.c.o.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_pio/pio.c.o -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_pio/pio.c
 
 CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_pio/pio.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_pio/pio.c.i"
@@ -2340,11 +2368,11 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_pio/pio.c.s: cmake_forc
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_pio/pio.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_pio/pio.c -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_pio/pio.c.s
 
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj: CMakeFiles/PicoPiFi.dir/flags.make
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_dma/dma.c
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_164) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj -MF CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_dma/dma.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_dma/dma.c.o: CMakeFiles/PicoPiFi.dir/flags.make
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_dma/dma.c.o: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_dma/dma.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_dma/dma.c.o: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_166) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_dma/dma.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_dma/dma.c.o -MF CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_dma/dma.c.o.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_dma/dma.c.o -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_dma/dma.c
 
 CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_dma/dma.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_dma/dma.c.i"
@@ -2354,11 +2382,11 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_dma/dma.c.s: cmake_forc
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_dma/dma.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_dma/dma.c -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_dma/dma.c.s
 
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj: CMakeFiles/PicoPiFi.dir/flags.make
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_exception/exception.c
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_165) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj -MF CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_exception/exception.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_exception/exception.c.o: CMakeFiles/PicoPiFi.dir/flags.make
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_exception/exception.c.o: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_exception/exception.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_exception/exception.c.o: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_167) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_exception/exception.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_exception/exception.c.o -MF CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_exception/exception.c.o.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_exception/exception.c.o -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_exception/exception.c
 
 CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_exception/exception.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_exception/exception.c.i"
@@ -2368,11 +2396,11 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_exception/exception.c.s
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_exception/exception.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_exception/exception.c -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_exception/exception.c.s
 
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj: CMakeFiles/PicoPiFi.dir/flags.make
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_166) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj -MF CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.o: CMakeFiles/PicoPiFi.dir/flags.make
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.o: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.o: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_168) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.o -MF CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.o.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.o -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c
 
 CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.i"
@@ -2382,11 +2410,11 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.s
 
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj: CMakeFiles/PicoPiFi.dir/flags.make
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_167) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj -MF CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.o: CMakeFiles/PicoPiFi.dir/flags.make
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.o: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.o: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_169) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.o -MF CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.o.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.o -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c
 
 CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.i"
@@ -2396,11 +2424,11 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_async_context/async_context
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.s
 
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj: CMakeFiles/PicoPiFi.dir/flags.make
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c
-CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_168) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj -MF CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.o: CMakeFiles/PicoPiFi.dir/flags.make
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.o: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c
+CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.o: CMakeFiles/PicoPiFi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_170) "Building C object CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.o -MF CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.o.d -o CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.o -c /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c
 
 CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.i"
@@ -2412,357 +2440,361 @@ CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_async_context/async_context
 
 # Object files for target PicoPiFi
 PicoPiFi_OBJECTS = \
-"CMakeFiles/PicoPiFi.dir/src/main.c.obj" \
-"CMakeFiles/PicoPiFi.dir/src/lwip.c.obj" \
-"CMakeFiles/PicoPiFi.dir/src/wifi_tx.c.obj" \
-"CMakeFiles/PicoPiFi.dir/src/cdc_rndis_device.c.obj" \
-"CMakeFiles/PicoPiFi.dir/CherryUSB/port/rp2040/usb_dc_rp2040.c.obj" \
-"CMakeFiles/PicoPiFi.dir/CherryUSB/class/cdc/usbd_cdc_acm.c.obj" \
-"CMakeFiles/PicoPiFi.dir/src/usbd_rndis.c.obj" \
-"CMakeFiles/PicoPiFi.dir/CherryUSB/core/usbd_core.c.obj" \
-"CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj" \
-"CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj" \
-"CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2040/pico_platform/platform.c.obj" \
-"CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.obj" \
-"CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/hardware_claim/claim.c.obj" \
-"CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj" \
-"CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj" \
-"CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj" \
-"CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj" \
-"CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_sync/sem.c.obj" \
-"CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_sync/lock_core.c.obj" \
-"CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_sync/mutex.c.obj" \
-"CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_sync/critical_section.c.obj" \
-"CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_time/time.c.obj" \
-"CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_time/timeout_helper.c.obj" \
-"CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj" \
-"CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_util/datetime.c.obj" \
-"CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_util/pheap.c.obj" \
-"CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_util/queue.c.obj" \
-"CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj" \
-"CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj" \
-"CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj" \
-"CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj" \
-"CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj" \
-"CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.obj" \
-"CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj" \
-"CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj" \
-"CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj" \
-"CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.obj" \
-"CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj" \
-"CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.obj" \
-"CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj" \
-"CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj" \
-"CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.obj" \
-"CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.obj" \
-"CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.obj" \
-"CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj" \
-"CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj" \
-"CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_double/double_math.c.obj" \
-"CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj" \
-"CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj" \
-"CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj" \
-"CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj" \
-"CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_float/float_math.c.obj" \
-"CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.obj" \
-"CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_malloc/malloc.c.obj" \
-"CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj" \
-"CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_atomic/atomic.c.obj" \
-"CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.obj" \
-"CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj" \
-"CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_printf/printf.c.obj" \
-"CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_crt0/crt0.S.obj" \
-"CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.obj" \
-"CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj" \
-"CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj" \
-"CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/init.c.obj" \
-"CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/def.c.obj" \
-"CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/dns.c.obj" \
-"CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/inet_chksum.c.obj" \
-"CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ip.c.obj" \
-"CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/mem.c.obj" \
-"CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/memp.c.obj" \
-"CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/netif.c.obj" \
-"CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/pbuf.c.obj" \
-"CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/raw.c.obj" \
-"CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/stats.c.obj" \
-"CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/sys.c.obj" \
-"CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/altcp.c.obj" \
-"CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/altcp_alloc.c.obj" \
-"CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/altcp_tcp.c.obj" \
-"CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/tcp.c.obj" \
-"CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/tcp_in.c.obj" \
-"CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/tcp_out.c.obj" \
-"CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/timeouts.c.obj" \
-"CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/udp.c.obj" \
-"CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.obj" \
-"CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.obj" \
-"CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.obj" \
-"CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.obj" \
-"CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.obj" \
-"CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.obj" \
-"CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.obj" \
-"CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.obj" \
-"CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/acd.c.obj" \
-"CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.obj" \
-"CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.obj" \
-"CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.obj" \
-"CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.obj" \
-"CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.obj" \
-"CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.obj" \
-"CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.obj" \
-"CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.obj" \
-"CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.obj" \
-"CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/api_lib.c.obj" \
-"CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/api_msg.c.obj" \
-"CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/err.c.obj" \
-"CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/if_api.c.obj" \
-"CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/netbuf.c.obj" \
-"CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/netdb.c.obj" \
-"CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/netifapi.c.obj" \
-"CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/sockets.c.obj" \
-"CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/tcpip.c.obj" \
-"CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ethernet.c.obj" \
-"CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/bridgeif.c.obj" \
-"CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.obj" \
-"CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/slipif.c.obj" \
-"CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.obj" \
-"CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/lowpan6.c.obj" \
-"CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.obj" \
-"CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/zepif.c.obj" \
-"CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/auth.c.obj" \
-"CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.obj" \
-"CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.obj" \
-"CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.obj" \
-"CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.obj" \
-"CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/demand.c.obj" \
-"CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/eap.c.obj" \
-"CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.obj" \
-"CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.obj" \
-"CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.obj" \
-"CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.obj" \
-"CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.obj" \
-"CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.obj" \
-"CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/magic.c.obj" \
-"CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.obj" \
-"CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.obj" \
-"CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.obj" \
-"CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.obj" \
-"CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.obj" \
-"CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.obj" \
-"CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.obj" \
-"CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.obj" \
-"CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/upap.c.obj" \
-"CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/utils.c.obj" \
-"CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/vj.c.obj" \
-"CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.obj" \
-"CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.obj" \
-"CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.obj" \
-"CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.obj" \
-"CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.obj" \
-"CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj" \
-"CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj" \
-"CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj" \
-"CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj" \
-"CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj" \
-"CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj" \
-"CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj" \
-"CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj" \
-"CMakeFiles/PicoPiFi.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj" \
-"CMakeFiles/PicoPiFi.dir/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.obj" \
-"CMakeFiles/PicoPiFi.dir/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.obj" \
-"CMakeFiles/PicoPiFi.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj" \
-"CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj" \
-"CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj" \
-"CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj" \
-"CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj" \
-"CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj" \
-"CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj" \
-"CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj" \
-"CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj"
+"CMakeFiles/PicoPiFi.dir/src/main.c.o" \
+"CMakeFiles/PicoPiFi.dir/src/lwip.c.o" \
+"CMakeFiles/PicoPiFi.dir/src/wifi_tx.c.o" \
+"CMakeFiles/PicoPiFi.dir/src/cdc_rndis_device.c.o" \
+"CMakeFiles/PicoPiFi.dir/CherryUSB/port/rp2040/usb_dc_rp2040.c.o" \
+"CMakeFiles/PicoPiFi.dir/CherryUSB/class/cdc/usbd_cdc_acm.c.o" \
+"CMakeFiles/PicoPiFi.dir/CherryUSB/class/wireless/usbd_rndis.c.o" \
+"CMakeFiles/PicoPiFi.dir/CherryUSB/core/usbd_core.c.o" \
+"CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o" \
+"CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o" \
+"CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2040/pico_platform/platform.c.o" \
+"CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o" \
+"CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/hardware_claim/claim.c.o" \
+"CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_sync/sync.c.o" \
+"CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o" \
+"CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_irq/irq.c.o" \
+"CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o" \
+"CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_sync/sem.c.o" \
+"CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_sync/lock_core.c.o" \
+"CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_sync/mutex.c.o" \
+"CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_sync/critical_section.c.o" \
+"CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_time/time.c.o" \
+"CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_time/timeout_helper.c.o" \
+"CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_timer/timer.c.o" \
+"CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_util/datetime.c.o" \
+"CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_util/pheap.c.o" \
+"CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_util/queue.c.o" \
+"CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_uart/uart.c.o" \
+"CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o" \
+"CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_pll/pll.c.o" \
+"CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o" \
+"CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o" \
+"CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o" \
+"CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o" \
+"CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o" \
+"CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o" \
+"CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_flash/flash.c.o" \
+"CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o" \
+"CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_divider/divider.S.o" \
+"CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o" \
+"CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o" \
+"CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o" \
+"CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o" \
+"CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o" \
+"CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.o" \
+"CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.o" \
+"CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o" \
+"CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_double/double_math.c.o" \
+"CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o" \
+"CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o" \
+"CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.o" \
+"CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o" \
+"CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_float/float_math.c.o" \
+"CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.o" \
+"CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o" \
+"CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o" \
+"CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o" \
+"CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o" \
+"CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o" \
+"CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_printf/printf.c.o" \
+"CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o" \
+"CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o" \
+"CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o" \
+"CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o" \
+"CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/init.c.o" \
+"CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/def.c.o" \
+"CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/dns.c.o" \
+"CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/inet_chksum.c.o" \
+"CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ip.c.o" \
+"CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/mem.c.o" \
+"CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/memp.c.o" \
+"CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/netif.c.o" \
+"CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/pbuf.c.o" \
+"CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/raw.c.o" \
+"CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/stats.c.o" \
+"CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/sys.c.o" \
+"CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/altcp.c.o" \
+"CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/altcp_alloc.c.o" \
+"CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/altcp_tcp.c.o" \
+"CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/tcp.c.o" \
+"CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/tcp_in.c.o" \
+"CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/tcp_out.c.o" \
+"CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/timeouts.c.o" \
+"CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/udp.c.o" \
+"CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.o" \
+"CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.o" \
+"CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.o" \
+"CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.o" \
+"CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.o" \
+"CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.o" \
+"CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.o" \
+"CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.o" \
+"CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/acd.c.o" \
+"CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.o" \
+"CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.o" \
+"CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.o" \
+"CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.o" \
+"CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.o" \
+"CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.o" \
+"CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.o" \
+"CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.o" \
+"CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.o" \
+"CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/api_lib.c.o" \
+"CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/api_msg.c.o" \
+"CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/err.c.o" \
+"CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/if_api.c.o" \
+"CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/netbuf.c.o" \
+"CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/netdb.c.o" \
+"CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/netifapi.c.o" \
+"CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/sockets.c.o" \
+"CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/tcpip.c.o" \
+"CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ethernet.c.o" \
+"CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/bridgeif.c.o" \
+"CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.o" \
+"CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/slipif.c.o" \
+"CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.o" \
+"CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/lowpan6.c.o" \
+"CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.o" \
+"CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/zepif.c.o" \
+"CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/auth.c.o" \
+"CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.o" \
+"CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.o" \
+"CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.o" \
+"CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.o" \
+"CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/demand.c.o" \
+"CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/eap.c.o" \
+"CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.o" \
+"CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.o" \
+"CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.o" \
+"CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.o" \
+"CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.o" \
+"CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.o" \
+"CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/magic.c.o" \
+"CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.o" \
+"CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.o" \
+"CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.o" \
+"CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.o" \
+"CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.o" \
+"CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.o" \
+"CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.o" \
+"CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.o" \
+"CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/upap.c.o" \
+"CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/utils.c.o" \
+"CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/vj.c.o" \
+"CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.o" \
+"CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.o" \
+"CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.o" \
+"CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.o" \
+"CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.o" \
+"CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_multicore/multicore.c.o" \
+"CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.o" \
+"CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.o" \
+"CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.o" \
+"CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.o" \
+"CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o" \
+"CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_flash/flash.c.o" \
+"CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o" \
+"CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.o" \
+"CMakeFiles/PicoPiFi.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.o" \
+"CMakeFiles/PicoPiFi.dir/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.o" \
+"CMakeFiles/PicoPiFi.dir/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.o" \
+"CMakeFiles/PicoPiFi.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.o" \
+"CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.o" \
+"CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.o" \
+"CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_pio/pio.c.o" \
+"CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_dma/dma.c.o" \
+"CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_exception/exception.c.o" \
+"CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.o" \
+"CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.o" \
+"CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.o"
 
 # External object files for target PicoPiFi
 PicoPiFi_EXTERNAL_OBJECTS =
 
-PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/src/main.c.obj
-PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/src/lwip.c.obj
-PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/src/wifi_tx.c.obj
-PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/src/cdc_rndis_device.c.obj
-PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/CherryUSB/port/rp2040/usb_dc_rp2040.c.obj
-PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/CherryUSB/class/cdc/usbd_cdc_acm.c.obj
-PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/src/usbd_rndis.c.obj
-PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/CherryUSB/core/usbd_core.c.obj
-PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
-PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
-PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2040/pico_platform/platform.c.obj
-PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.obj
-PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/hardware_claim/claim.c.obj
-PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
-PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj
-PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
-PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_sync/sem.c.obj
-PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_sync/lock_core.c.obj
-PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_sync/mutex.c.obj
-PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_sync/critical_section.c.obj
-PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_time/time.c.obj
-PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_time/timeout_helper.c.obj
-PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_util/datetime.c.obj
-PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_util/pheap.c.obj
-PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_util/queue.c.obj
-PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
-PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
-PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
-PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
-PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
-PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.obj
-PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
-PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
-PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.obj
-PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj
-PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.obj
-PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
-PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
-PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.obj
-PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.obj
-PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.obj
-PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
-PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj
-PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
-PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj
-PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
-PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj
-PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj
-PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
-PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.obj
-PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_malloc/malloc.c.obj
-PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
-PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_atomic/atomic.c.obj
-PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.obj
-PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
-PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
-PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_crt0/crt0.S.obj
-PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.obj
-PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
-PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/init.c.obj
-PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/def.c.obj
-PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/dns.c.obj
-PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/inet_chksum.c.obj
-PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ip.c.obj
-PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/mem.c.obj
-PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/memp.c.obj
-PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/netif.c.obj
-PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/pbuf.c.obj
-PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/raw.c.obj
-PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/stats.c.obj
-PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/sys.c.obj
-PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/altcp.c.obj
-PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/altcp_alloc.c.obj
-PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/altcp_tcp.c.obj
-PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/tcp.c.obj
-PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/tcp_in.c.obj
-PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/tcp_out.c.obj
-PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/timeouts.c.obj
-PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/udp.c.obj
-PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.obj
-PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.obj
-PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.obj
-PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.obj
-PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.obj
-PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.obj
-PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.obj
-PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.obj
-PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/acd.c.obj
-PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.obj
-PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.obj
-PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.obj
-PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.obj
-PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.obj
-PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.obj
-PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.obj
-PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.obj
-PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.obj
-PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/api_lib.c.obj
-PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/api_msg.c.obj
-PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/err.c.obj
-PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/if_api.c.obj
-PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/netbuf.c.obj
-PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/netdb.c.obj
-PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/netifapi.c.obj
-PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/sockets.c.obj
-PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/tcpip.c.obj
-PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ethernet.c.obj
-PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/bridgeif.c.obj
-PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.obj
-PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/slipif.c.obj
-PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.obj
-PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/lowpan6.c.obj
-PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.obj
-PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/zepif.c.obj
-PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/auth.c.obj
-PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.obj
-PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.obj
-PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.obj
-PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.obj
-PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/demand.c.obj
-PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/eap.c.obj
-PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.obj
-PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.obj
-PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.obj
-PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.obj
-PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.obj
-PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.obj
-PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/magic.c.obj
-PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.obj
-PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.obj
-PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.obj
-PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.obj
-PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.obj
-PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.obj
-PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.obj
-PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.obj
-PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/upap.c.obj
-PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/utils.c.obj
-PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/vj.c.obj
-PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.obj
-PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.obj
-PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.obj
-PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.obj
-PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.obj
-PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
-PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj
-PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj
-PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj
-PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj
-PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
-PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
-PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj
-PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj
-PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.obj
-PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.obj
-PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj
-PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj
-PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj
-PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
-PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj
-PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj
-PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj
-PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj
-PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj
+PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/src/main.c.o
+PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/src/lwip.c.o
+PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/src/wifi_tx.c.o
+PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/src/cdc_rndis_device.c.o
+PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/CherryUSB/port/rp2040/usb_dc_rp2040.c.o
+PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/CherryUSB/class/cdc/usbd_cdc_acm.c.o
+PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/CherryUSB/class/wireless/usbd_rndis.c.o
+PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/CherryUSB/core/usbd_core.c.o
+PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o
+PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o
+PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2040/pico_platform/platform.c.o
+PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o
+PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/hardware_claim/claim.c.o
+PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_sync/sync.c.o
+PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o
+PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_irq/irq.c.o
+PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o
+PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_sync/sem.c.o
+PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_sync/lock_core.c.o
+PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_sync/mutex.c.o
+PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_sync/critical_section.c.o
+PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_time/time.c.o
+PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_time/timeout_helper.c.o
+PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_timer/timer.c.o
+PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_util/datetime.c.o
+PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_util/pheap.c.o
+PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/src/common/pico_util/queue.c.o
+PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_uart/uart.c.o
+PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o
+PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_pll/pll.c.o
+PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o
+PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o
+PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o
+PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o
+PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o
+PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o
+PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_flash/flash.c.o
+PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o
+PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_divider/divider.S.o
+PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o
+PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
+PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o
+PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o
+PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o
+PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.o
+PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.o
+PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o
+PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_double/double_math.c.o
+PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o
+PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o
+PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.o
+PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o
+PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_float/float_math.c.o
+PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.o
+PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o
+PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o
+PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o
+PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o
+PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
+PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_printf/printf.c.o
+PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o
+PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o
+PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
+PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o
+PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/init.c.o
+PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/def.c.o
+PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/dns.c.o
+PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/inet_chksum.c.o
+PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ip.c.o
+PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/mem.c.o
+PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/memp.c.o
+PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/netif.c.o
+PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/pbuf.c.o
+PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/raw.c.o
+PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/stats.c.o
+PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/sys.c.o
+PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/altcp.c.o
+PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/altcp_alloc.c.o
+PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/altcp_tcp.c.o
+PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/tcp.c.o
+PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/tcp_in.c.o
+PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/tcp_out.c.o
+PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/timeouts.c.o
+PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/udp.c.o
+PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.o
+PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.o
+PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.o
+PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.o
+PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.o
+PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.o
+PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.o
+PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.o
+PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv4/acd.c.o
+PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.o
+PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.o
+PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.o
+PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.o
+PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.o
+PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.o
+PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.o
+PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.o
+PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.o
+PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/api_lib.c.o
+PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/api_msg.c.o
+PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/err.c.o
+PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/if_api.c.o
+PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/netbuf.c.o
+PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/netdb.c.o
+PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/netifapi.c.o
+PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/sockets.c.o
+PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/api/tcpip.c.o
+PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ethernet.c.o
+PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/bridgeif.c.o
+PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.o
+PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/slipif.c.o
+PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.o
+PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/lowpan6.c.o
+PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.o
+PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/zepif.c.o
+PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/auth.c.o
+PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.o
+PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.o
+PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.o
+PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.o
+PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/demand.c.o
+PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/eap.c.o
+PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.o
+PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.o
+PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.o
+PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.o
+PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.o
+PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.o
+PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/magic.c.o
+PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.o
+PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.o
+PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.o
+PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.o
+PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.o
+PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.o
+PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.o
+PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.o
+PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/upap.c.o
+PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/utils.c.o
+PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/vj.c.o
+PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.o
+PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.o
+PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.o
+PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.o
+PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.o
+PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_multicore/multicore.c.o
+PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.o
+PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.o
+PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.o
+PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.o
+PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o
+PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_flash/flash.c.o
+PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o
+PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.o
+PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.o
+PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.o
+PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.o
+PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.o
+PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.o
+PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.o
+PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_pio/pio.c.o
+PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_dma/dma.c.o
+PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/hardware_exception/exception.c.o
+PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.o
+PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.o
+PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.o
 PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/build.make
-PicoPiFi.elf: pico-sdk/src/rp2040/boot_stage2/bs2_default_padded_checksummed.S
+PicoPiFi.elf: pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_library.dir/bs2_default_padded_checksummed.S.o
 PicoPiFi.elf: /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_crt0/rp2040/memmap_default.ld
 PicoPiFi.elf: CMakeFiles/PicoPiFi.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_169) "Linking CXX executable PicoPiFi.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_171) "Linking CXX executable PicoPiFi.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/PicoPiFi.dir/link.txt --verbose=$(VERBOSE)
 	/usr/bin/arm-none-eabi-objdump -h /mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/PicoPiFi.elf > PicoPiFi.dis
 	/usr/bin/arm-none-eabi-objdump -d /mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/PicoPiFi.elf >> PicoPiFi.dis
-	_deps/picotool/picotool coprodis --quiet PicoPiFi.dis PicoPiFi.dis || /usr/bin/cmake -E echo "WARNING: Disassembly is not correct"
+	/usr/bin/arm-none-eabi-objcopy -Oihex /mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/PicoPiFi.elf PicoPiFi.hex
 	/usr/bin/arm-none-eabi-objcopy -Obinary /mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/PicoPiFi.elf PicoPiFi.bin
-	_deps/picotool/picotool uf2 convert --quiet /mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/PicoPiFi.elf PicoPiFi.uf2 --family rp2040 --abs-block
+	_deps/picotool/picotool uf2 convert --quiet /mnt/c/Users/Pentest1/Downloads/PicoPiFi/build/PicoPiFi.elf PicoPiFi.uf2 --family rp2040
 
 # Rule to build all files generated by this target.
 CMakeFiles/PicoPiFi.dir/build: PicoPiFi.elf
