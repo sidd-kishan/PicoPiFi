@@ -13,97 +13,10 @@ CMakeFiles/PicoPiFi.dir/CherryUSB/class/cdc/usbd_cdc_acm.c.o: /mnt/c/Users/Pente
   /mnt/c/Users/Pentest1/Downloads/PicoPiFi/CherryUSB/common/usb_util.h \
   /mnt/c/Users/Pentest1/Downloads/PicoPiFi/CherryUSB/common/usb_version.h \
   /mnt/c/Users/Pentest1/Downloads/PicoPiFi/CherryUSB/core/usbd_core.h \
-  generated/pico_base/pico/config_autogen.h \
-  generated/pico_base/pico/version.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/common/arch/cc.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/cyw43-driver/src/cyw43.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/cyw43-driver/src/cyw43_config.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/cyw43-driver/src/cyw43_country.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/cyw43-driver/src/cyw43_ll.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/arch.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/debug.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/err.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/init.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/opt.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/pbuf.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/boards/include/boards/pico_w.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/common/pico_base_headers/include/pico.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/common/pico_stdlib_headers/include/pico/stdlib.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/common/pico_sync/include/pico/critical_section.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/common/pico_sync/include/pico/mutex.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/common/pico_sync/include/pico/sem.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/common/pico_sync/include/pico/sync.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/common/pico_time/include/pico/time.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dma.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/io_bank0.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pads_bank0.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/resets.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/uart.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/watchdog.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/dma.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/dma_debug.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/interp.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/io_bank0.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/m0plus.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/nvic.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/pads_bank0.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/resets.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/scb.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/sio.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/uart.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/watchdog.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2040/pico_platform/include/pico/platform/cpu_regs.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/boot_bootrom_headers/include/boot/bootrom_constants.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_boot_lock/include/hardware/boot_lock.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_dma/include/hardware/dma.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_flash/include/hardware/flash.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_resets/include/hardware/resets.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_uart/include/hardware/uart.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_watchdog/include/hardware/watchdog.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_async_context/include/pico/async_context.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom/lock.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom_constants.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_cyw43_arch/include/pico/cyw43_arch.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_cyw43_arch/include/pico/cyw43_arch/arch_threadsafe_background.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_cyw43_driver/include/cyw43_configport.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_flash/include/pico/flash.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_multicore/include/pico/multicore.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_stdio_uart/include/pico/stdio_uart.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/src/lwip.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/src/lwipopts.h \
   /mnt/c/Users/Pentest1/Downloads/PicoPiFi/usb_config.h \
   /usr/include/newlib/_ansi.h \
   /usr/include/newlib/_newlib_version.h \
   /usr/include/newlib/alloca.h \
-  /usr/include/newlib/assert.h \
-  /usr/include/newlib/ctype.h \
-  /usr/include/newlib/inttypes.h \
   /usr/include/newlib/machine/_default_types.h \
   /usr/include/newlib/machine/_types.h \
   /usr/include/newlib/machine/ieeefp.h \
@@ -113,7 +26,6 @@ CMakeFiles/PicoPiFi.dir/CherryUSB/class/cdc/usbd_cdc_acm.c.o: /mnt/c/Users/Pente
   /usr/include/newlib/stdlib.h \
   /usr/include/newlib/string.h \
   /usr/include/newlib/strings.h \
-  /usr/include/newlib/sys/_intsup.h \
   /usr/include/newlib/sys/_locale.h \
   /usr/include/newlib/sys/_types.h \
   /usr/include/newlib/sys/cdefs.h \
@@ -123,7 +35,6 @@ CMakeFiles/PicoPiFi.dir/CherryUSB/class/cdc/usbd_cdc_acm.c.o: /mnt/c/Users/Pente
   /usr/include/newlib/sys/reent.h \
   /usr/include/newlib/sys/stdio.h \
   /usr/include/newlib/sys/string.h \
-  /usr/lib/gcc/arm-none-eabi/14.2.1/include/limits.h \
   /usr/lib/gcc/arm-none-eabi/14.2.1/include/stdarg.h \
   /usr/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h \
   /usr/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
@@ -143,95 +54,17 @@ CMakeFiles/PicoPiFi.dir/CherryUSB/class/wireless/usbd_rndis.c.o: /mnt/c/Users/Pe
   /mnt/c/Users/Pentest1/Downloads/PicoPiFi/CherryUSB/common/usb_util.h \
   /mnt/c/Users/Pentest1/Downloads/PicoPiFi/CherryUSB/common/usb_version.h \
   /mnt/c/Users/Pentest1/Downloads/PicoPiFi/CherryUSB/core/usbd_core.h \
-  generated/pico_base/pico/config_autogen.h \
-  generated/pico_base/pico/version.h \
   /mnt/c/Users/Pentest1/Downloads/PicoPiFi/common/arch/cc.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/cyw43-driver/src/cyw43.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/cyw43-driver/src/cyw43_config.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/cyw43-driver/src/cyw43_country.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/cyw43-driver/src/cyw43_ll.h \
   /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/arch.h \
   /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/debug.h \
   /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/err.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/init.h \
   /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/opt.h \
   /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/pbuf.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/boards/include/boards/pico_w.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/common/pico_base_headers/include/pico.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/common/pico_stdlib_headers/include/pico/stdlib.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/common/pico_sync/include/pico/critical_section.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/common/pico_sync/include/pico/mutex.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/common/pico_sync/include/pico/sem.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/common/pico_sync/include/pico/sync.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/common/pico_time/include/pico/time.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dma.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/io_bank0.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pads_bank0.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/resets.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/uart.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/watchdog.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/dma.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/dma_debug.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/interp.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/io_bank0.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/m0plus.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/nvic.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/pads_bank0.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/resets.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/scb.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/sio.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/uart.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/watchdog.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2040/pico_platform/include/pico/platform/cpu_regs.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/boot_bootrom_headers/include/boot/bootrom_constants.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_boot_lock/include/hardware/boot_lock.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_dma/include/hardware/dma.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_flash/include/hardware/flash.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_resets/include/hardware/resets.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_uart/include/hardware/uart.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_watchdog/include/hardware/watchdog.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_async_context/include/pico/async_context.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom/lock.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom_constants.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_cyw43_arch/include/pico/cyw43_arch.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_cyw43_arch/include/pico/cyw43_arch/arch_threadsafe_background.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_cyw43_driver/include/cyw43_configport.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_flash/include/pico/flash.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_multicore/include/pico/multicore.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_stdio_uart/include/pico/stdio_uart.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/src/lwip.h \
   /mnt/c/Users/Pentest1/Downloads/PicoPiFi/src/lwipopts.h \
   /mnt/c/Users/Pentest1/Downloads/PicoPiFi/usb_config.h \
   /usr/include/newlib/_ansi.h \
   /usr/include/newlib/_newlib_version.h \
   /usr/include/newlib/alloca.h \
-  /usr/include/newlib/assert.h \
   /usr/include/newlib/ctype.h \
   /usr/include/newlib/inttypes.h \
   /usr/include/newlib/machine/_default_types.h \
@@ -269,97 +102,10 @@ CMakeFiles/PicoPiFi.dir/CherryUSB/core/usbd_core.c.o: /mnt/c/Users/Pentest1/Down
   /mnt/c/Users/Pentest1/Downloads/PicoPiFi/CherryUSB/common/usb_util.h \
   /mnt/c/Users/Pentest1/Downloads/PicoPiFi/CherryUSB/common/usb_version.h \
   /mnt/c/Users/Pentest1/Downloads/PicoPiFi/CherryUSB/core/usbd_core.h \
-  generated/pico_base/pico/config_autogen.h \
-  generated/pico_base/pico/version.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/common/arch/cc.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/cyw43-driver/src/cyw43.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/cyw43-driver/src/cyw43_config.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/cyw43-driver/src/cyw43_country.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/cyw43-driver/src/cyw43_ll.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/arch.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/debug.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/err.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/init.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/opt.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/pbuf.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/boards/include/boards/pico_w.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/common/pico_base_headers/include/pico.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/common/pico_stdlib_headers/include/pico/stdlib.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/common/pico_sync/include/pico/critical_section.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/common/pico_sync/include/pico/mutex.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/common/pico_sync/include/pico/sem.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/common/pico_sync/include/pico/sync.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/common/pico_time/include/pico/time.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dma.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/io_bank0.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pads_bank0.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/resets.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/uart.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/watchdog.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/dma.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/dma_debug.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/interp.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/io_bank0.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/m0plus.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/nvic.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/pads_bank0.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/resets.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/scb.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/sio.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/uart.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/watchdog.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2040/pico_platform/include/pico/platform/cpu_regs.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/boot_bootrom_headers/include/boot/bootrom_constants.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_boot_lock/include/hardware/boot_lock.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_dma/include/hardware/dma.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_flash/include/hardware/flash.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_resets/include/hardware/resets.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_uart/include/hardware/uart.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_watchdog/include/hardware/watchdog.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_async_context/include/pico/async_context.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom/lock.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom_constants.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_cyw43_arch/include/pico/cyw43_arch.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_cyw43_arch/include/pico/cyw43_arch/arch_threadsafe_background.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_cyw43_driver/include/cyw43_configport.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_flash/include/pico/flash.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_multicore/include/pico/multicore.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_stdio_uart/include/pico/stdio_uart.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/src/lwip.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/src/lwipopts.h \
   /mnt/c/Users/Pentest1/Downloads/PicoPiFi/usb_config.h \
   /usr/include/newlib/_ansi.h \
   /usr/include/newlib/_newlib_version.h \
   /usr/include/newlib/alloca.h \
-  /usr/include/newlib/assert.h \
-  /usr/include/newlib/ctype.h \
-  /usr/include/newlib/inttypes.h \
   /usr/include/newlib/machine/_default_types.h \
   /usr/include/newlib/machine/_types.h \
   /usr/include/newlib/machine/ieeefp.h \
@@ -369,7 +115,6 @@ CMakeFiles/PicoPiFi.dir/CherryUSB/core/usbd_core.c.o: /mnt/c/Users/Pentest1/Down
   /usr/include/newlib/stdlib.h \
   /usr/include/newlib/string.h \
   /usr/include/newlib/strings.h \
-  /usr/include/newlib/sys/_intsup.h \
   /usr/include/newlib/sys/_locale.h \
   /usr/include/newlib/sys/_types.h \
   /usr/include/newlib/sys/cdefs.h \
@@ -379,7 +124,6 @@ CMakeFiles/PicoPiFi.dir/CherryUSB/core/usbd_core.c.o: /mnt/c/Users/Pentest1/Down
   /usr/include/newlib/sys/reent.h \
   /usr/include/newlib/sys/stdio.h \
   /usr/include/newlib/sys/string.h \
-  /usr/lib/gcc/arm-none-eabi/14.2.1/include/limits.h \
   /usr/lib/gcc/arm-none-eabi/14.2.1/include/stdarg.h \
   /usr/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h \
   /usr/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
@@ -6871,97 +6615,10 @@ CMakeFiles/PicoPiFi.dir/src/cdc_rndis_device.c.o: /mnt/c/Users/Pentest1/Download
   /mnt/c/Users/Pentest1/Downloads/PicoPiFi/CherryUSB/common/usb_version.h \
   /mnt/c/Users/Pentest1/Downloads/PicoPiFi/CherryUSB/core/usbd_core.h \
   /mnt/c/Users/Pentest1/Downloads/PicoPiFi/CherryUSB/port/rp2040/usb_rp2040_reg.h \
-  generated/pico_base/pico/config_autogen.h \
-  generated/pico_base/pico/version.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/common/arch/cc.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/cyw43-driver/src/cyw43.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/cyw43-driver/src/cyw43_config.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/cyw43-driver/src/cyw43_country.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/cyw43-driver/src/cyw43_ll.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/arch.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/debug.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/err.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/init.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/opt.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/pbuf.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/boards/include/boards/pico_w.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/common/pico_base_headers/include/pico.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/common/pico_stdlib_headers/include/pico/stdlib.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/common/pico_sync/include/pico/critical_section.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/common/pico_sync/include/pico/mutex.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/common/pico_sync/include/pico/sem.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/common/pico_sync/include/pico/sync.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/common/pico_time/include/pico/time.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dma.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/io_bank0.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pads_bank0.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/resets.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/uart.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/watchdog.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/dma.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/dma_debug.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/interp.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/io_bank0.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/m0plus.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/nvic.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/pads_bank0.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/resets.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/scb.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/sio.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/uart.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/watchdog.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2040/pico_platform/include/pico/platform/cpu_regs.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/boot_bootrom_headers/include/boot/bootrom_constants.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_boot_lock/include/hardware/boot_lock.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_dma/include/hardware/dma.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_flash/include/hardware/flash.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_resets/include/hardware/resets.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_uart/include/hardware/uart.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_watchdog/include/hardware/watchdog.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_async_context/include/pico/async_context.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom/lock.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom_constants.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_cyw43_arch/include/pico/cyw43_arch.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_cyw43_arch/include/pico/cyw43_arch/arch_threadsafe_background.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_cyw43_driver/include/cyw43_configport.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_flash/include/pico/flash.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_multicore/include/pico/multicore.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_stdio_uart/include/pico/stdio_uart.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/src/lwip.h \
-  /mnt/c/Users/Pentest1/Downloads/PicoPiFi/src/lwipopts.h \
   /mnt/c/Users/Pentest1/Downloads/PicoPiFi/usb_config.h \
   /usr/include/newlib/_ansi.h \
   /usr/include/newlib/_newlib_version.h \
   /usr/include/newlib/alloca.h \
-  /usr/include/newlib/assert.h \
-  /usr/include/newlib/ctype.h \
-  /usr/include/newlib/inttypes.h \
   /usr/include/newlib/machine/_default_types.h \
   /usr/include/newlib/machine/_types.h \
   /usr/include/newlib/machine/ieeefp.h \
@@ -6971,7 +6628,6 @@ CMakeFiles/PicoPiFi.dir/src/cdc_rndis_device.c.o: /mnt/c/Users/Pentest1/Download
   /usr/include/newlib/stdlib.h \
   /usr/include/newlib/string.h \
   /usr/include/newlib/strings.h \
-  /usr/include/newlib/sys/_intsup.h \
   /usr/include/newlib/sys/_locale.h \
   /usr/include/newlib/sys/_types.h \
   /usr/include/newlib/sys/cdefs.h \
@@ -6981,7 +6637,6 @@ CMakeFiles/PicoPiFi.dir/src/cdc_rndis_device.c.o: /mnt/c/Users/Pentest1/Download
   /usr/include/newlib/sys/reent.h \
   /usr/include/newlib/sys/stdio.h \
   /usr/include/newlib/sys/string.h \
-  /usr/lib/gcc/arm-none-eabi/14.2.1/include/limits.h \
   /usr/lib/gcc/arm-none-eabi/14.2.1/include/stdarg.h \
   /usr/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h \
   /usr/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
@@ -7633,93 +7288,11 @@ pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.pio.h:
 
 /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/include/netif/lowpan6_opts.h:
 
-/usr/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h:
-
-/usr/lib/gcc/arm-none-eabi/14.2.1/include/limits.h:
-
-/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/cyw43-driver/src/cyw43_ll.h:
-
-/usr/include/newlib/sys/reent.h:
-
-/usr/include/newlib/alloca.h:
-
-/usr/include/newlib/sys/lock.h:
-
-/usr/include/newlib/sys/config.h:
-
-/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_xosc/include/hardware/xosc.h:
-
-/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_xosc/xosc.c:
-
-/usr/include/newlib/newlib.h:
-
-/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_malloc/malloc.c:
-
-/usr/include/newlib/machine/ieeefp.h:
-
-/usr/include/newlib/machine/_types.h:
-
-/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/def.c:
-
-/usr/include/newlib/stdio.h:
-
-/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/uart.h:
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_cyw43_arch/include/pico/cyw43_arch.h:
 
 /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/common/pico_util/include/pico/util/queue.h:
 
 /usr/include/newlib/assert.h:
-
-/usr/include/newlib/_newlib_version.h:
-
-/usr/include/newlib/_ansi.h:
-
-/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_double/double_math.c:
-
-/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/ppp/ecp.c:
-
-/mnt/c/Users/Pentest1/Downloads/PicoPiFi/CherryUSB/class/cdc/usbd_cdc_acm.h:
-
-/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/prot/ieee.h:
-
-/usr/include/newlib/sys/_intsup.h:
-
-/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_pio/include/hardware/pio.h:
-
-/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h:
-
-/mnt/c/Users/Pentest1/Downloads/PicoPiFi/CherryUSB/class/wireless/ndis.h:
-
-/mnt/c/Users/Pentest1/Downloads/PicoPiFi/CherryUSB/class/wireless/rndis_protocol.h:
-
-/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_printf/printf.c:
-
-/usr/include/newlib/machine/_endian.h:
-
-/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/ethip6.h:
-
-/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/include/netif/bridgeif.h:
-
-/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c:
-
-/mnt/c/Users/Pentest1/Downloads/PicoPiFi/usb_config.h:
-
-/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/pll.h:
-
-/mnt/c/Users/Pentest1/Downloads/PicoPiFi/src/lwip.h:
-
-/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/boards/include/boards/pico_w.h:
-
-/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h:
-
-/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/netbuf.h:
-
-/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/ppp/lcp.c:
-
-/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h:
-
-/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/ipv6/nd6.c:
-
-/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_cyw43_arch/include/pico/cyw43_arch.h:
 
 /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_watchdog/include/hardware/watchdog.h:
 
@@ -7737,169 +7310,11 @@ pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.pio.h:
 
 /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/dma_debug.h:
 
-/usr/include/newlib/machine/_default_types.h:
-
-/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_runtime/runtime.c:
-
-/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/ipv4/igmp.c:
-
-/usr/include/newlib/machine/stdlib.h:
-
-/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom_constants.h:
-
-/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h:
-
-/usr/include/newlib/sys/_timeval.h:
-
-/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/arch.h:
-
 /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/dma.h:
 
 /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h:
 
-/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/common/pico_util/pheap.c:
-
-/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_time_adapter/include/pico/time_adapter.h:
-
-/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c:
-
-/mnt/c/Users/Pentest1/Downloads/PicoPiFi/src/lwipopts.h:
-
-/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/cyw43-driver/firmware/wifi_nvram_43439.h:
-
-/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/api/netdb.c:
-
-/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/ip4_frag.h:
-
-/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/boot_bootrom_headers/include/boot/bootrom_constants.h:
-
-/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/watchdog.h:
-
-/usr/include/newlib/inttypes.h:
-
-/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/usb.h:
-
-/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c:
-
-/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/pbuf.h:
-
-/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c:
-
-/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c:
-
-/usr/include/newlib/sys/cdefs.h:
-
-/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/common/pico_sync/sem.c:
-
-/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/altcp_alloc.c:
-
-/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/sio.h:
-
-/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/include/netif/ppp/ppp_opts.h:
-
-/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/timeouts.c:
-
-/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h:
-
-/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_cyw43_driver/include/pico/cyw43_driver.h:
-
-/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/api/sockets.c:
-
-/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/io_bank0.h:
-
-/mnt/c/Users/Pentest1/Downloads/PicoPiFi/CherryUSB/common/usb_dc.h:
-
-/usr/include/newlib/sys/string.h:
-
-/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/watchdog.h:
-
-/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_ticks/ticks.c:
-
-/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/ssi.h:
-
-/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/ppp/auth.c:
-
-/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/interp.h:
-
-/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/def.h:
-
-/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/ipv4/ip4.c:
-
-/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/err.h:
-
-/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h:
-
-/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/common/pico_base_headers/include/pico.h:
-
-/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2040/pico_platform/include/pico/platform/cpu_regs.h:
-
-/usr/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h:
-
-/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h:
-
-/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/io_bank0.h:
-
-/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/autoip.h:
-
-/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/sys.c:
-
-/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_flash/include/hardware/flash.h:
-
-/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/opt.h:
-
-/usr/include/newlib/sys/_locale.h:
-
-/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h:
-
-/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/dhcp6.h:
-
-/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dma.h:
-
-/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/icmp6.h:
-
-/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/uart.h:
-
-/usr/include/newlib/sys/stdio.h:
-
-/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_runtime/include/pico/runtime.h:
-
-/mnt/c/Users/Pentest1/Downloads/PicoPiFi/common/arch/cc.h:
-
-/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/ip4.h:
-
-/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c:
-
-/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/cyw43-driver/src/cyw43_country.h:
-
-/usr/include/newlib/c++/14.2.1/cstdlib:
-
-/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp:
-
-/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/debug.h:
-
-/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_async_context/include/pico/async_context_threadsafe_background.h:
-
-/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/common/pico_base_headers/include/pico/error.h:
-
-/usr/include/newlib/sys/features.h:
-
-/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/common/pico_time/include/pico/timeout_helper.h:
-
-/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_cyw43_driver/include/cyw43_configport.h:
-
-/mnt/c/Users/Pentest1/Downloads/PicoPiFi/CherryUSB/class/cdc/usb_cdc.h:
-
-/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c:
-
-/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c:
-
-/usr/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h:
-
-/mnt/c/Users/Pentest1/Downloads/PicoPiFi/CherryUSB/class/cdc/usbd_cdc_acm.c:
-
-/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/cyw43-driver/src/cyw43_config.h:
-
-/mnt/c/Users/Pentest1/Downloads/PicoPiFi/CherryUSB/common/usb_list.h:
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/pads_bank0.h:
 
 /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/common/pico_util/queue.c:
 
@@ -7911,19 +7326,47 @@ pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.pio.h:
 
 /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/tcp_in.c:
 
-/mnt/c/Users/Pentest1/Downloads/PicoPiFi/CherryUSB/common/usb_def.h:
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/io_bank0.h:
 
-/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/etharp.h:
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/autoip.h:
 
-/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h:
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/sys.c:
 
-/usr/include/newlib/sys/_types.h:
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/watchdog.h:
 
-/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/resets.h:
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/boot_bootrom_headers/include/boot/bootrom_constants.h:
 
-/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_resets/include/hardware/resets.h:
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/uart.h:
+
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h:
+
+generated/pico_base/pico/config_autogen.h:
+
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.h:
+
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pads_bank0.h:
+
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/m0plus.h:
+
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h:
+
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/priv/memp_priv.h:
+
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h:
+
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/icmp6.h:
+
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h:
+
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/prot/iana.h:
 
 /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/common/pico_time/include/pico/time.h:
+
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_flash/flash.c:
+
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_flash/include/pico/flash.h:
+
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/common/pico_stdlib_headers/include/pico/stdlib.h:
 
 /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/common/pico_sync/include/pico/sem.h:
 
@@ -7931,29 +7374,9 @@ pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.pio.h:
 
 /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/lowpan6.c:
 
-/mnt/c/Users/Pentest1/Downloads/PicoPiFi/CherryUSB/common/usb_errno.h:
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/common/pico_sync/include/pico/mutex.h:
 
-/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c:
-
-/mnt/c/Users/Pentest1/Downloads/PicoPiFi/CherryUSB/common/usb_util.h:
-
-/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c:
-
-/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/common/pico_sync/lock_core.c:
-
-/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/priv/mem_priv.h:
-
-/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/usb.h:
-
-/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/common/pico_sync/critical_section.c:
-
-/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/zepif.c:
-
-/usr/include/newlib/stdlib.h:
-
-/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/include/netif/lowpan6.h:
-
-generated/pico_base/pico/config_autogen.h:
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/mld6.h:
 
 /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_cyw43_arch/include/pico/cyw43_arch/arch_threadsafe_background.h:
 
@@ -7967,43 +7390,55 @@ generated/pico_base/pico/config_autogen.h:
 
 /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/common/pico_sync/include/pico/critical_section.h:
 
-/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/mld6.h:
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_async_context/include/pico/async_context_threadsafe_background.h:
 
-/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/common/pico_sync/include/pico/mutex.h:
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/common/pico_base_headers/include/pico/error.h:
 
-/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c:
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_printf/include/pico/printf.h:
 
-/usr/include/newlib/string.h:
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/inet_chksum.h:
 
-/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/priv/raw_priv.h:
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h:
 
-/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/common/pico_sync/include/pico/sync.h:
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/common/pico_base_headers/include/pico/types.h:
 
-/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h:
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/watchdog.h:
 
-/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/prot/iana.h:
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_ticks/ticks.c:
+
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/ssi.h:
+
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/ppp/auth.c:
+
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/interp.h:
+
+/usr/include/newlib/sys/string.h:
+
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/def.h:
+
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/boards/include/boards/pico_w.h:
+
+/usr/include/newlib/sys/cdefs.h:
+
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/common/pico_sync/sem.c:
+
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/altcp_alloc.c:
+
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/cyw43-driver/src/cyw43_ll.h:
+
+/usr/lib/gcc/arm-none-eabi/14.2.1/include/limits.h:
+
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c:
+
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/cyw43-driver/src/cyw43_country.h:
+
+/usr/include/newlib/c++/14.2.1/cstdlib:
+
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp:
+
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/debug.h:
 
 /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom.h:
-
-/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/priv/memp_priv.h:
-
-/mnt/c/Users/Pentest1/Downloads/PicoPiFi/CherryUSB/common/usb_log.h:
-
-/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/timeouts.h:
-
-/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.h:
-
-/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pads_bank0.h:
-
-/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h:
-
-/mnt/c/Users/Pentest1/Downloads/PicoPiFi/CherryUSB/common/usb_version.h:
-
-/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_flash/flash.c:
-
-/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/common/pico_stdlib_headers/include/pico/stdlib.h:
-
-/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_flash/include/pico/flash.h:
 
 /usr/include/newlib/strings.h:
 
@@ -8011,35 +7446,255 @@ generated/pico_base/pico/config_autogen.h:
 
 /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/altcp_tcp.c:
 
-/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h:
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/cyw43-driver/firmware/wifi_nvram_43439.h:
 
-/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/m0plus.h:
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/api/netdb.c:
 
-/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_printf/include/pico/printf.h:
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/ip4_frag.h:
 
-/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/common/pico_base_headers/include/pico/types.h:
+/usr/include/newlib/sys/config.h:
 
-/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h:
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dma.h:
 
-/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/inet_chksum.h:
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/dhcp6.h:
 
-/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/pads_bank0.h:
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/usb.h:
 
-/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c:
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c:
 
-/mnt/c/Users/Pentest1/Downloads/PicoPiFi/CherryUSB/core/usbd_core.c:
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/pbuf.h:
+
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c:
+
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c:
+
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_xosc/include/hardware/xosc.h:
+
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_xosc/xosc.c:
+
+/usr/include/newlib/newlib.h:
+
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/resets.h:
+
+/usr/include/newlib/sys/_types.h:
+
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_malloc/malloc.c:
+
+/usr/include/newlib/machine/ieeefp.h:
+
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/CherryUSB/common/usb_def.h:
+
+/usr/include/newlib/alloca.h:
+
+/usr/include/newlib/sys/reent.h:
+
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/CherryUSB/common/usb_errno.h:
+
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c:
+
+/usr/include/newlib/_newlib_version.h:
+
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/common/pico_util/pheap.c:
+
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_time_adapter/include/pico/time_adapter.h:
+
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/src/lwipopts.h:
+
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c:
+
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/cyw43-driver/src/cyw43_config.h:
+
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/CherryUSB/common/usb_list.h:
+
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c:
+
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c:
+
+/usr/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h:
+
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/CherryUSB/class/cdc/usbd_cdc_acm.c:
+
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_cyw43_driver/include/pico/cyw43_driver.h:
+
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/api/sockets.c:
+
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/io_bank0.h:
+
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/sio.h:
+
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/include/netif/ppp/ppp_opts.h:
+
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/etharp.h:
+
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h:
+
+/usr/include/newlib/_ansi.h:
+
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_double/double_math.c:
+
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/ppp/ecp.c:
+
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/CherryUSB/class/cdc/usbd_cdc_acm.h:
+
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/prot/ieee.h:
+
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_pio/include/hardware/pio.h:
+
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h:
+
+/usr/include/newlib/sys/_intsup.h:
+
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/CherryUSB/class/wireless/ndis.h:
+
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/CherryUSB/class/wireless/rndis_protocol.h:
+
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_printf/printf.c:
+
+/usr/include/newlib/machine/_endian.h:
+
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/ethip6.h:
+
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/include/netif/bridgeif.h:
+
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/CherryUSB/common/usb_dc.h:
+
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h:
+
+/usr/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h:
+
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/CherryUSB/common/usb_version.h:
+
+/usr/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h:
+
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c:
+
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/usb_config.h:
+
+/usr/include/newlib/machine/_types.h:
+
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/def.c:
+
+/usr/include/newlib/sys/lock.h:
+
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/netbuf.h:
+
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h:
+
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_resets/include/hardware/resets.h:
+
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/CherryUSB/common/usb_util.h:
+
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c:
+
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/common/pico_sync/lock_core.c:
+
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/priv/mem_priv.h:
+
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom_constants.h:
+
+/usr/include/newlib/machine/stdlib.h:
+
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h:
+
+/usr/include/newlib/sys/_timeval.h:
+
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/arch.h:
+
+/usr/include/newlib/machine/_default_types.h:
+
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_runtime/runtime.c:
+
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/ipv4/igmp.c:
+
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/timeouts.h:
+
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/CherryUSB/common/usb_log.h:
+
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_flash/include/hardware/flash.h:
+
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/opt.h:
+
+/usr/include/newlib/sys/_locale.h:
+
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/common/pico_time/include/pico/timeout_helper.h:
+
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_cyw43_driver/include/cyw43_configport.h:
+
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/CherryUSB/class/cdc/usb_cdc.h:
+
+/usr/include/newlib/sys/features.h:
+
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/ipv4/ip4.c:
+
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h:
+
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/common/pico_base_headers/include/pico.h:
+
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/err.h:
+
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/priv/raw_priv.h:
+
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/common/pico_sync/include/pico/sync.h:
+
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c:
+
+/usr/include/newlib/string.h:
+
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/uart.h:
+
+/usr/include/newlib/sys/stdio.h:
+
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_runtime/include/pico/runtime.h:
+
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/common/arch/cc.h:
+
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/ip4.h:
+
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2040/pico_platform/include/pico/platform/cpu_regs.h:
+
+/usr/include/newlib/stdio.h:
+
+/usr/include/newlib/inttypes.h:
+
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/usb.h:
+
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/common/pico_sync/critical_section.c:
+
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/zepif.c:
+
+/usr/include/newlib/stdlib.h:
+
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/include/netif/lowpan6.h:
 
 /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c:
 
 /mnt/c/Users/Pentest1/Downloads/PicoPiFi/CherryUSB/port/rp2040/usb_dc_rp2040.c:
 
-/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h:
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/ppp/lcp.c:
+
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h:
+
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/ipv6/nd6.c:
 
 /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c:
 
-/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/sys.h:
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h:
+
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h:
+
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/timeouts.c:
+
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/CherryUSB/core/usbd_core.c:
+
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c:
+
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/pll.h:
+
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/src/lwip.h:
 
 /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/common/pico_sync/include/pico/lock_core.h:
+
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/sys.h:
 
 /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c:
 
@@ -8057,9 +7712,9 @@ generated/pico_base/pico/config_autogen.h:
 
 /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/cyw43-driver/firmware/w43439A0_7_95_49_00_combined.h:
 
-/mnt/c/Users/Pentest1/Downloads/PicoPiFi/CherryUSB/class/wireless/usbd_rndis.c:
-
 /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2_common/hardware_boot_lock/include/hardware/boot_lock.h:
+
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/CherryUSB/class/wireless/usbd_rndis.c:
 
 /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/core/ipv4/autoip.c:
 
@@ -8071,9 +7726,9 @@ generated/pico_base/pico/config_autogen.h:
 
 /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/cyw43-driver/src/cyw43_internal.h:
 
-/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/api/api_msg.c:
-
 /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/common/pico_base_headers/include/pico/config.h:
+
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/api/api_msg.c:
 
 /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/cyw43-driver/src/cyw43_spi.h:
 
@@ -8119,9 +7774,9 @@ generated/pico_base/pico/config_autogen.h:
 
 /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/igmp.h:
 
-/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/ip6_addr.h:
-
 /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h:
+
+/mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/ip6_addr.h:
 
 /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/include/netif/ethernet.h:
 
@@ -8135,9 +7790,9 @@ generated/pico_base/pico/config_autogen.h:
 
 /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c:
 
-generated/pico_base/pico/version.h:
-
 /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/resets.h:
+
+generated/pico_base/pico/version.h:
 
 /mnt/c/Users/Pentest1/Downloads/PicoPiFi/pico-sdk/lib/lwip/src/include/lwip/api.h:
 
